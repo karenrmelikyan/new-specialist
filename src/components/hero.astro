@@ -1,0 +1,44 @@
+---
+import Time from '../components/time.astro'
+---
+<style>
+    .hero {
+        background: linear-gradient(180deg,#fbfdff 0%, #ffffff 60%);
+    }
+
+    .hero-title {
+        font-size: var(--huge);
+        line-height: 1.05;
+        margin: 0;
+        color: var(--main-font-color);
+        font-weight: var(--font-weight);
+    }
+
+    .hero-sub {
+        color: var(--main-font-color);
+        font-size: var(--small);
+        line-height: 1.6;
+        margin: 0;
+    }
+</style>
+
+<div class="offset"></div>
+<section class="hero">
+    <div class="container hero-grid">
+        <h1 class="hero-title">Специалист: Гарантия качества, удобства и экономии</h1>
+        <div class="offset"></div>
+        <p class="hero-sub" aria-label="Преимущества сервиса">
+            <div>• Обслуживаем технику с 2002 года.</div>
+            <div>• Бытовые услуги на дому.</div>
+            <div>• Гарантия до 12 месяцев.</div>
+        </p>
+        <div class="offset"></div>
+        <div class="inline-group">
+            <button class="btn-large">
+                Вызвать мастера
+            </button>
+            <Time label="Прием заявок: 24/7" />
+        </div>
+    </div>
+</section>
+<div class="offset"></div>

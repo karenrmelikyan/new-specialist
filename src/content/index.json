@@ -1,0 +1,15 @@
+{
+    "title": "Կենցաղային տեխնիկայի սպասարկում | Specialist",
+    "description": "Լվացքի, սպասք լվացող մեքենաների և սառնարանների պրոֆեսիոնալ վերանորոգում Երևանում։ ⭐ 4.9/5 վարկանիշ, որակ, երաշխիք և մատչելի գներ։ Զանգահարեք հիմա:",
+    "h1": "Նորոգման ծառայություն - սառնարան, լվացքի մեքենա, սպասք լվացող մեքենա",
+    "heroButtonText": "Սպասարկում",
+    "videoButtonText": "Ինտրո",
+    "features": [
+        { "icon": "/assets/img/icons/shuttle.webp", "text": "Այցելություն կանչով" },
+        { "icon": "/assets/img/icons/briefcase.webp", "text": "Երաշխիք արվածին" },
+        { "icon": "/assets/img/icons/star.webp", "text": "Լավագույն կարծիքներ" },
+        { "icon": "/assets/img/icons/support.webp", "text": "Պատվերների ընդունում" }
+    ],
+    "heroImageAlt" : "Լվացքի, սպասք լվացող մեքենաների, սառնարանների վերանորոգում | Երևան",
+    "heroVideoSrc": "/assets/videos/specialist-intro.mp4"
+}

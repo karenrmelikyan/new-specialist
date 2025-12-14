@@ -1,0 +1,15 @@
+{
+    "title": "Ремонт стиральных, посудомоечных машин и холодильников по Еревану | Specialist",
+    "description": "Профессиональный ремонт стиральных, посудомоечных машин и холодильников от сервисного центра с рейтингом ⭐4.9/5 по Еревану. Качество, гарантия и доступные цены.",
+    "h1": "Сервисная служба - ремонт холодильников, стиральных, посудомоечных машин",
+    "heroButtonText": "Услуги",
+    "videoButtonText": "Интро",
+    "features": [
+        { "icon": "/assets/img/icons/shuttle.webp", "text": "Работаем по вызову" },
+        { "icon": "/assets/img/icons/briefcase.webp", "text": "Гарантия на работу" },
+        { "icon": "/assets/img/icons/star.webp", "text": "Лучшие по отзывам" },
+        { "icon": "/assets/img/icons/support.webp", "text": "Принимаем заказы" }
+    ],
+    "heroImageAlt": "Ремонт стиральных, посудомоечных машин и холодильников | Ереван",
+    "heroVideoSrc": "/assets/videos/specialist-intro.mp4"
+}

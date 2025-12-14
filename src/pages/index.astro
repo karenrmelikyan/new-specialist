@@ -1,0 +1,11 @@
+---
+import Main from '../layouts/Main.astro'
+import content from '../content/index.json'
+import Hero  from '../components/hero.astro'
+
+const imagesPath = '/assets/img/index/'
+---
+
+<Main title={content.title} description={content.description}>
+    <Hero />
+</Main>

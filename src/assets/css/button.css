@@ -1,0 +1,27 @@
+.btn-small,
+.btn-large {
+    background: var(--btn-color);
+    color: var(--main-background-color);
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-small:hover,
+.btn-large:hover {
+    background: var(--btn-hover);
+}
+
+.btn-small {
+    border-radius: var(--border-radius-large);
+    padding: var(--padding-small);
+    font-size: var(--btn-small-font-size);
+}
+
+.btn-large {
+    border-radius: var(--border-radius-small);
+    padding: var(--padding-large);
+    font-size: var(--btn-large-font-size);
+    font-weight: var(--font-weight);
+}
+

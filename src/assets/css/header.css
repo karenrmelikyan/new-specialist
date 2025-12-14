@@ -1,0 +1,97 @@
+/* Fixed header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: var(--secondary-background-color);
+    border-bottom: 1px solid var(--darkness-backround-color);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+/* Main layout inside */
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* =============== LEFT SIDE =============== */
+
+/* Logo */
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+    color: #0b2f66;
+}
+.logo svg { flex-shrink: 0; }
+.logo .brand { font-weight: var(--font-weight); font-size: 20px; letter-spacing: -0.2px; }
+
+.logo img {
+    height: 48px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: var(--small);
+    color: var(--main-font-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.menu-button .arrow {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* =============== RIGHT SIDE =============== */
+.header-info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Base header icon */
+.header-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--main-font-color);
+    flex-shrink: 0;
+}
+
+/* Right header CTAs */
+.header-phone { 
+    text-align: right; 
+}
+
+.header-phone-number { 
+    font-weight: var(--font-weight);
+    font-size: 20px;
+    color: var(--main-font-color);
+}
+
+.header-phone-number:hover {
+    color: var(--btn-color);
+    cursor: pointer;
+}

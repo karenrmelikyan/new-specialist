@@ -1,0 +1,233 @@
+---
+import '../assets/css/main.css'
+const { title = "#", description = "#", jsonLd = null } = Astro.props
+
+// Get random content for footer products
+import ENV from '../content/env.json'
+
+import Location from '../components/location.astro'
+import Time from '../components/time.astro'
+---
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1280" />
+  <title>А-Айсберг — Сервисный центр (Desktop replica)</title>
+
+  <!-- Google font (swap for the real one if you prefer) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="offset"></div>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container header-inner">
+        <!-- LEFT SIDE -->
+        <div class="header-left">
+            <a href="/" class="logo">
+                <img src="" alt="Logo" />
+            </a>
+            <button class="menu-button">
+                Все услуги
+                <span class="arrow">▼</span>
+            </button>
+        </div>
+        <!-- RIGHT SIDE -->
+        <div class="header-right">
+            <Location label="Ереван" />
+            <Time label="09–21" />
+        
+            <div class="header-phone">
+                <span class="header-phone-number">374 (93) 31-64-61</span>
+            </div>
+            <button class="btn-small">
+                Вызвать мастера
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <slot /> 
+</main>
+
+  <!-- SERVICES GRID -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Услуги</h2>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
+          <h3>Ремонт холодильников</h3>
+          <p>Диагностика и ремонт на дому. Запчасти в наличии.</p>
+          <a class="card-link" href="#">Подробнее →</a>
+        </article>
+
+        <article class="service-card">
+          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
+          <h3>Ремонт стиральных машин</h3>
+          <p>Сбой в электронике, замена ТЭНа, ремонт барабана.</p>
+          <a class="card-link" href="#">Подробнее →</a>
+        </article>
+
+        <article class="service-card">
+          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
+          <h3>Ремонт варочных панелей</h3>
+          <p>Замена конфорок, ремонт сенсора и панели управления.</p>
+          <a class="card-link" href="#">Подробнее →</a>
+        </article>
+
+        <article class="service-card">
+          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
+          <h3>Ремонт мелкой электроники</h3>
+          <p>Микроволновые печи, пылесосы, чайники.</p>
+          <a class="card-link" href="#">Подробнее →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US / BENEFITS -->
+  <section id="about" class="benefits">
+    <div class="container">
+      <h2 class="section-title">Почему выбирают нас</h2>
+
+      <div class="benefits-grid">
+        <div class="benefit">
+          <div class="big-num">01</div>
+          <h4>Профессиональные мастера</h4>
+          <p>Сертифицированные инженеры, опыт от 5 лет.</p>
+        </div>
+        <div class="benefit">
+          <div class="big-num">02</div>
+          <h4>Оригинальные запчасти</h4>
+          <p>Склады и быстрая доставка по Москве.</p>
+        </div>
+        <div class="benefit">
+          <div class="big-num">03</div>
+          <h4>Гарантия</h4>
+          <p>Официальная гарантия до 12 месяцев.</p>
+        </div>
+        <div class="benefit">
+          <div class="big-num">04</div>
+          <h4>Удобная оплата</h4>
+          <p>Нал, карта, оплатa через сайт.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS / TRUST BAR -->
+  <section id="reviews" class="trust">
+    <div class="container trust-inner">
+      <div class="trust-left">
+        <h3>Реальные отзывы клиентов</h3>
+        <p class="muted">Средняя оценка 4.8 на основе тысяч отзывов</p>
+        <div class="rating-large">4.8 ★</div>
+      </div>
+
+      <div class="trust-right">
+        <div class="review">
+          <p class="q">«Быстро приехали, заменили деталь, всё работает»</p>
+          <p class="by">— Марина, Москва</p>
+        </div>
+        <div class="review">
+          <p class="q">«Удобно оставить заявку, адекватная цена»</p>
+          <p class="by">— Илья, Москва</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / DETAILS -->
+  <section id="contacts" class="contacts">
+    <div class="container contacts-grid">
+      <div class="contact-left">
+        <h2 class="section-title">Контакты</h2>
+        <p>Адрес: г. Москва, ул. Примерная, д. 10</p>
+        <p>Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p>Почта: <a href="mailto:info@iceberg.example">info@iceberg.example</a></p>
+
+        <div class="mini-cta">
+          <a class="btn btn-outline" href="#">Получить прайс-лист</a>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h3>Служба поддержки</h3>
+        <p>Работаем круглосуточно — задавайте вопросы по телефону или через форму.</p>
+        <div class="contact-card">
+          <strong>+7 (495) 123-45-67</strong>
+          <p class="muted">Ответим быстро — звонок бесплатный</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#" class="logo compact">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect width="24" height="24" rx="4" fill="#0B5FFF"/>
+            <path d="M6 16L10 8L14 16" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="brand">А-Айсберг</span>
+        </a>
+        <p class="muted small">© 1993–2025 Сервисный Центр «А-Айсберг»</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Услуги</h4>
+        <ul>
+          <li><a href="#">Ремонт холодильников</a></li>
+          <li><a href="#">Ремонт стиральных машин</a></li>
+          <li><a href="#">Ремонт варочных панелей</a></li>
+          <li><a href="#">Выезд мастера</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Вакансии</a></li>
+          <li><a href="#">Партнёрам</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+        <p><a href="mailto:info@iceberg.example">info@iceberg.example</a></p>
+        <div class="socials">
+          <a href="#" class="social">VK</a>
+          <a href="#" class="social">Telegram</a>
+          <a href="#" class="social">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+	<!-- Footer -->
+
+	<!-- Loader -->
+	<div id="loader" style="display: none;">
+		<div class="loader-overlay">
+		    <div class="spinner"></div>
+		</div>
+	</div>
+	  
+	<script src="/js/ui.js" is:inline></script>
+</body>
+</html>
