@@ -22,9 +22,9 @@ import Time from '../components/time.astro'
 
 </head>
 <body>
-<div class="offset"></div>
 
 <!-- HEADER -->
+<div class="offset"></div>
 <header class="header">
     <div class="container header-inner">
         <!-- LEFT SIDE -->
@@ -51,12 +51,14 @@ import Time from '../components/time.astro'
         </div>
     </div>
 </header>
+<div class="offset"></div>
 
 <main>
     <slot /> 
 </main>
 
-  <!-- SERVICES GRID -->
+<!-- SERVICES GRID -->
+<div class="offset"></div>
   <section id="services" class="services">
     <div class="container">
       <h2 class="section-title">Услуги</h2>
@@ -170,55 +172,72 @@ import Time from '../components/time.astro'
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-col">
-        <a href="#" class="logo compact">
-          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <rect width="24" height="24" rx="4" fill="#0B5FFF"/>
-            <path d="M6 16L10 8L14 16" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <span class="brand">А-Айсберг</span>
-        </a>
-        <p class="muted small">© 1993–2025 Сервисный Центр «А-Айсберг»</p>
-      </div>
+<!-- FOOTER -->
+<div class="offset"></div>
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-column">
+      <h4>Услуги</h4>
+      <ul>
+        <li>Ремонт бытовой техники</li>
+        <li>Ремонт холодильников</li>
+        <li>Ремонт стиральных машин</li>
+        <li>Ремонт газовых плит</li>
+        <li>Ремонт электроплит</li>
+        <li>Ремонт цифровой техники</li>
+        <li>Ремонт электрики</li>
+        <li>Ремонт сантехники</li>
+        <li>Услуги мастера на час</li>
+      </ul>
+    </div>
 
-      <div class="footer-col">
-        <h4>Услуги</h4>
-        <ul>
-          <li><a href="#">Ремонт холодильников</a></li>
-          <li><a href="#">Ремонт стиральных машин</a></li>
-          <li><a href="#">Ремонт варочных панелей</a></li>
-          <li><a href="#">Выезд мастера</a></li>
-        </ul>
-      </div>
+    <div class="footer-column">
+      <h4>Клиентам</h4>
+      <ul>
+        <li>Рекламное агентство</li>
+        <li>Ремонтная компания</li>
+        <li>Ремонт квартир</li>
+        <li>Косметический ремонт</li>
+        <li>Евроремонт квартир</li>
+        <li>Ремонт квартиры-студии</li>
+        <li>Черновая отделка квартир</li>
+        <li>Чистовая отделка квартир</li>
+      </ul>
+    </div>
 
-      <div class="footer-col">
-        <h4>Компания</h4>
-        <ul>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Вакансии</a></li>
-          <li><a href="#">Партнёрам</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </div>
+    <div class="footer-column">
+      <h4>Общее</h4>
+      <ul>
+        <li>Обучающие курсы для мастеров</li>
+        <li>Карта сайта</li>
+        <li>Компания</li>
+        <li>Контакты</li>
+        <li>FAQ</li>
+        <li>Блог</li>
+      </ul>
+    </div>
 
-      <div class="footer-col">
-        <h4>Контакты</h4>
-        <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
-        <p><a href="mailto:info@iceberg.example">info@iceberg.example</a></p>
-        <div class="socials">
-          <a href="#" class="social">VK</a>
-          <a href="#" class="social">Telegram</a>
-          <a href="#" class="social">WhatsApp</a>
-        </div>
+    <div class="footer-column footer-right">
+      <img src="logo.png" alt="A-Айсберг" class="footer-logo">
+      <p>© 1993–2025 Сервисный Центр «А-Айсберг»</p>
+      <p>ООО "Техносервис"</p>
+      <p>127549, г. Москва, Алтуфьевское шоссе, д. 64, офис 10</p>
+      <p>ИНН 9715300665</p>
+      <p>ОГРН 1177746409720</p>
+      <div class="social-icons">
+        <a href="#"><img src="vk-icon.png" alt="VK"></a>
+        <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
       </div>
     </div>
-  </footer>
+  </div>
 
-
-
+  <div class="footer-bottom">
+    <p>Есть вопросы? Звоните: <a href="tel:+74952131170">8 (495) 213-11-70</a> или пишите <a href="mailto:iceberg@iceberg.ru">iceberg@iceberg.ru</a></p>
+    <p>Режим работы: пн–пт 07:00–23:00</p>
+    <p class="disclaimer">Вся представленная на сайте информация, касающаяся сроков, стоимости и порядка предоставления услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</p>
+    <p class="note">* Некоторые виды работ могут быть выполнены подрядными организациями</p>
+  </div>
+</footer>
 	<!-- Footer -->
 
 	<!-- Loader -->
@@ -228,6 +247,6 @@ import Time from '../components/time.astro'
 		</div>
 	</div>
 	  
-	<script src="/js/ui.js" is:inline></script>
-</body>
+	  <script src="/js/ui.js" is:inline></script>
+    </body>
 </html>
