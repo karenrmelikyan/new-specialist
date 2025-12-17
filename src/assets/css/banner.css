@@ -1,18 +1,22 @@
     .banner {
         display: flex;
-        /* width: 100%; */
-        /* margin: 0 auto; */
-        /* align-items: stretch; */
     }
 
     /* LEFT CARD */
     .banner__image {
         flex: 1;
-        background-color: #e8e8fc;
         border-radius: calc(var(--border-radius-large) + 10px);
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    
+    .banner__image.chat {
+       background-color: #e8e8fc;
+    }
+
+     .banner__image.benefits {
+       background-color: #F1E9FE;
     }
 
     .banner__image img {
@@ -31,7 +35,7 @@
         flex-direction: column;
         justify-content: center;
         z-index: 2;
-        margin-left: -50px;
+        margin-left: -60px;
     }
 
     .banner__content h2 {

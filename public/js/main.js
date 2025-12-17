@@ -1,3 +1,3 @@
-function goToWhatsApp() {
-    alert('okokok')
+function goToURL(url) {
+    alert(url)
 }
