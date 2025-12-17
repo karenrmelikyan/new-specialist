@@ -1,11 +1,19 @@
 ---
 import Main from '../layouts/Main.astro'
 import content from '../content/index.json'
-import Hero  from '../components/hero.astro'
+import Hero  from '../components/Hero.astro'
+import BannerChat from '../components/BannerChat.astro'
+import ServicesGrid from '../components/ServicesGrid.astro'
 
 const imagesPath = '/assets/img/index/'
 ---
 
 <Main title={content.title} description={content.description}>
     <Hero />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <BannerChat />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <ServicesGrid />
 </Main>

@@ -1,0 +1,3 @@
+function goToWhatsApp() {
+    alert('okokok')
+}

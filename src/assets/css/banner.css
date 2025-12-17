@@ -1,0 +1,58 @@
+    .banner {
+        display: flex;
+        /* width: 100%; */
+        /* margin: 0 auto; */
+        /* align-items: stretch; */
+    }
+
+    /* LEFT CARD */
+    .banner__image {
+        flex: 1;
+        background-color: #e8e8fc;
+        border-radius: calc(var(--border-radius-large) + 10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__image img {
+        max-width: 100%;
+        max-height: 350px;
+        display: block;
+    }
+
+    /* RIGHT CARD */
+    .banner__content {
+        flex: 1;
+        background-color: var(--main-font-color);
+        color: var(--secondary-background-color);
+        border-radius: calc(var(--border-radius-large) + 10px);
+        padding: 36px 40px;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+        margin-left: -50px;
+    }
+
+    .banner__content h2 {
+        font-size: var(--middle);
+        margin-top: 15px;
+        margin-bottom: -8px;
+    }
+
+    .banner__content p {
+        font-size: calc(var(--middle) - 8px);
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    .banner__content button {
+        margin-bottom: 0px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 900px) {
+        .tg-banner {
+            flex-direction: column;
+        }
+    }

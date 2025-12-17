@@ -5,6 +5,7 @@
     border: none;
     cursor: pointer;
     white-space: nowrap;
+    transition: background-color 0.2s ease;
 }
 
 .btn-small:hover,

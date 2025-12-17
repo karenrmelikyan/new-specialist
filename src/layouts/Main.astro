@@ -5,21 +5,19 @@ const { title = "#", description = "#", jsonLd = null } = Astro.props
 // Get random content for footer products
 import ENV from '../content/env.json'
 
-import Location from '../components/location.astro'
-import Time from '../components/time.astro'
+import Location from '../components/Location.astro'
+import Time from '../components/Time.astro'
 ---
 
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=1280" />
-  <title>А-Айсберг — Сервисный центр (Desktop replica)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1280" />
+    <title>Сервисная служба в Ереване | Specialist</title>
 
-  <!-- Google font (swap for the real one if you prefer) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
+    <!-- Google font (swap for the real one if you prefer) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -54,46 +52,13 @@ import Time from '../components/time.astro'
 <div class="offset"></div>
 
 <main>
-    <slot /> 
+    <div class="container">
+        <slot />
+    </div> 
 </main>
 
 <!-- SERVICES GRID -->
-<div class="offset"></div>
-  <section id="services" class="services">
-    <div class="container">
-      <h2 class="section-title">Услуги</h2>
 
-      <div class="services-grid">
-        <article class="service-card">
-          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
-          <h3>Ремонт холодильников</h3>
-          <p>Диагностика и ремонт на дому. Запчасти в наличии.</p>
-          <a class="card-link" href="#">Подробнее →</a>
-        </article>
-
-        <article class="service-card">
-          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
-          <h3>Ремонт стиральных машин</h3>
-          <p>Сбой в электронике, замена ТЭНа, ремонт барабана.</p>
-          <a class="card-link" href="#">Подробнее →</a>
-        </article>
-
-        <article class="service-card">
-          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
-          <h3>Ремонт варочных панелей</h3>
-          <p>Замена конфорок, ремонт сенсора и панели управления.</p>
-          <a class="card-link" href="#">Подробнее →</a>
-        </article>
-
-        <article class="service-card">
-          <img src="https://via.placeholder.com/120?text=Icon" alt="" class="service-ico">
-          <h3>Ремонт мелкой электроники</h3>
-          <p>Микроволновые печи, пылесосы, чайники.</p>
-          <a class="card-link" href="#">Подробнее →</a>
-        </article>
-      </div>
-    </div>
-  </section>
 
   <!-- WHY CHOOSE US / BENEFITS -->
   <section id="about" class="benefits">
@@ -175,7 +140,7 @@ import Time from '../components/time.astro'
 <!-- FOOTER -->
 <div class="offset"></div>
 <footer class="site-footer">
-  <div class="footer-top">
+  <div class="container footer-top">
     <div class="footer-column">
       <h4>Услуги</h4>
       <ul>
@@ -231,7 +196,7 @@ import Time from '../components/time.astro'
     </div>
   </div>
 
-  <div class="footer-bottom">
+  <div class="container footer-bottom">
     <p>Есть вопросы? Звоните: <a href="tel:+74952131170">8 (495) 213-11-70</a> или пишите <a href="mailto:iceberg@iceberg.ru">iceberg@iceberg.ru</a></p>
     <p>Режим работы: пн–пт 07:00–23:00</p>
     <p class="disclaimer">Вся представленная на сайте информация, касающаяся сроков, стоимости и порядка предоставления услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</p>
@@ -240,13 +205,13 @@ import Time from '../components/time.astro'
 </footer>
 	<!-- Footer -->
 
-	<!-- Loader -->
-	<div id="loader" style="display: none;">
-		<div class="loader-overlay">
-		    <div class="spinner"></div>
-		</div>
-	</div>
+    <!-- Loader -->
+    <div id="loader" style="display: none;">
+        <div class="loader-overlay">
+              <div class="spinner"></div>
+        </div>
+    </div>
 	  
-	  <script src="/js/ui.js" is:inline></script>
+	  <script src="/js/main.js" is:inline></script>
     </body>
 </html>
