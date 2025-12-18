@@ -5,10 +5,12 @@
     --btn-color: #EC1010;
     --btn-hover: #d20e0e;
 
-    --padding-small: 10px 15px;
+    --main-container-width: 1520px;
     --padding-large: 26px 40px;
+    --padding-small: 10px 15px;
     --btn-small-font-size: 17px;
     --btn-large-font-size: 24px;
+    --border-radius-huge : 50px;
     --border-radius-large: 40px;
     --border-radius-small: 25px;
     --font-weight: 610;
@@ -18,6 +20,7 @@
     --middle: 30px;
     --small: 18px;
     --tiny: 8px;
+
 }
 
 /* Reset-ish */
@@ -47,7 +50,7 @@ h3 {
 }
 
 .container {
-    width: 1520px;
+    width: var(--main-container-width);
     margin: 0 auto;
 }
 

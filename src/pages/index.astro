@@ -6,12 +6,11 @@ import BannerChat from '../components/BannerChat.astro'
 import BannerBenefits from '../components/BannerBenefits.astro'
 import ServicesGrid from '../components/ServicesGrid.astro'
 import Benefits from '../components/Benefits.astro'
-
-const imagesPath = '/assets/img/index/'
+import HeroBanner from '../components/HeroBanner.astro'
 ---
 
 <Main title={content.title} description={content.description}>
-    <Hero />
+    <Hero/>
     <div class="offset"></div>
     <div class="offset"></div>
     <BannerChat />
@@ -26,5 +25,7 @@ const imagesPath = '/assets/img/index/'
     <Benefits />
     <div class="offset"></div>
     <div class="offset"></div>
-    <BannerChat />
+    <HeroBanner />
+    <div class="offset"></div>
+    <div class="offset"></div>
 </Main>

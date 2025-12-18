@@ -5,7 +5,7 @@
     /* LEFT CARD */
     .banner__image {
         flex: 1;
-        border-radius: calc(var(--border-radius-large) + 10px);
+        border-radius: var(--border-radius-huge);
         display: flex;
         align-items: center;
         justify-content: center;
