@@ -1,11 +1,16 @@
 .btn-small,
-.btn-large {
-    background: var(--btn-color);
-    color: var(--main-background-color);
+.btn-large,
+.btn-transparent {
     border: none;
     cursor: pointer;
     white-space: nowrap;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn-small,
+.btn-large {
+    background: var(--btn-color);
+    color: var(--main-background-color);
 }
 
 .btn-small:hover,
@@ -19,10 +24,21 @@
     font-size: var(--btn-small-font-size);
 }
 
-.btn-large {
+.btn-large,
+.btn-transparent {
     border-radius: var(--border-radius-small);
     padding: var(--padding-large);
     font-size: var(--btn-large-font-size);
     font-weight: var(--font-weight);
+}
+
+.btn-transparent {
+    background: transparent;
+    border: 2px solid var(--secondary-color); 
+    color: var(--main-font-color);
+}
+
+.btn-transparent:hover {
+    color: var(--secondary-color); 
 }
 

@@ -1,3 +1,15 @@
+---
+const { 
+    title, 
+    description, 
+    background, 
+    btnInscription, 
+    picURL, 
+    url 
+} = Astro.props
+---
+
+<style>
     .banner {
         display: flex;
     }
@@ -15,7 +27,11 @@
        background-color: #e8e8fc;
     }
 
-     .banner__image.benefits {
+    .banner__image.benefits {
+       background-color: #F1E9FE;
+    }
+
+    .banner__image.reviews {
        background-color: #F1E9FE;
     }
 
@@ -60,3 +76,22 @@
             flex-direction: column;
         }
     }
+</style>
+
+<section class="banner">
+    <div class:list={['banner__image', background]}>
+        <img
+            src={picURL}
+            alt={title + ' | Specialist'} 
+        />
+    </div>
+
+    <div class="banner__content">
+        <h2>{title}</h2>
+        <p>{description}</p>
+        <button class="btn-large" onclick={`goToURL('${url}')`}>
+            {btnInscription}
+        </button>
+    </div>
+</section>
+

@@ -1,15 +1,12 @@
 ---
-import Time from '../components/Time.astro'
-
-const {
-  background = "/assets/img/master.webp"
-} = Astro.props;
+const { title, picURL, price } = Astro.props
 ---
 
 <style>
     .hero {
         --hero-gutter: 2.5vw;
         position: relative;
+        top: 10px;
         width: calc(100vw - (var(--hero-gutter) * 2));
         margin-left: calc(50% - 50vw + var(--hero-gutter));
         border-radius: var(--border-radius-huge);
@@ -74,7 +71,7 @@ const {
     }
 
     .hero-price .label {
-        font-weight: 700;
+        font-weight: 800;
     }
 
     .hero-price .value {
@@ -115,26 +112,26 @@ const {
 </style>
 
 <section class="hero">
-    <div class="hero-bg" style={`background-image: url(${background});`}></div>
+    <div class="hero-bg" style={`background-image: url(${picURL});`}></div>
     <div class="hero-content">
-        <h1 class="hero-title">Ремонт холодильников</h1>
+        <h1 class="hero-title">{title}</h1>
         <div class="hero-panel">
             <ul class="hero-list">
                 <li>Срочный ремонт на дому в удобное для вас время!</li>
                 <li>Нужные для ремонта запчасти всегда в наличии!</li>
-                <li>Письменная гарантия на все виды работ!</li>
+                <li>Электронная гарантия на все виды работ!</li>
                 <li>Работаем по всему городу и области без выходных!</li>
                 <li>Сервисный центр с квалифицированными мастерами!</li>
             </ul>
 
             <div class="hero-price">
                 <span class="label">Цена:</span>
-                <span class="value">от 450 ₽</span>
+                <span class="value">от {price} ₽</span>
             </div>
 
             <div class="hero-actions">
                 <div class="inline-group">
-                    <button class="btn-large">Вызвать мастера</button>
+                    <button class="btn-large" onclick="goToURL('Hero banner')">Вызвать мастера</button>
                     <div class="hero-time">
                         <span class="icon">🕒</span>
                         Прием заявок: <strong>24/7</strong>
@@ -144,4 +141,6 @@ const {
         </div>
     </div>
 </section>
+
+
 

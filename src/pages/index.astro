@@ -1,31 +1,58 @@
 ---
 import Main from '../layouts/Main.astro'
 import content from '../content/index.json'
-import Hero  from '../components/Hero.astro'
-import BannerChat from '../components/BannerChat.astro'
-import BannerBenefits from '../components/BannerBenefits.astro'
+import HeroBanner from '../components/HeroBanner.astro'
 import ServicesGrid from '../components/ServicesGrid.astro'
 import Benefits from '../components/Benefits.astro'
-import HeroBanner from '../components/HeroBanner.astro'
+import Reviews from '../components/Reviews.astro'
+import Banner from '../components/Banner.astro'
 ---
 
 <Main title={content.title} description={content.description}>
-    <Hero/>
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <BannerChat />
+    <HeroBanner 
+        title = 'Сервисная служба: Specialist'
+        picURL = '/assets/img/master.webp'
+        price = 5000
+    />
     <div class="offset"></div>
     <div class="offset"></div>
     <ServicesGrid />
     <div class="offset"></div>
     <div class="offset"></div>
-    <BannerBenefits />
+    <Banner 
+        title = 'Вызовите мастера в пару кликов!' 
+        description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
+        background = 'chat' 
+        btnInscription = 'Написать в чат' 
+        picURL = '/assets/img/chat-preview.webp' 
+        url = 'Open WhatsApp'
+    />
     <div class="offset"></div>
     <div class="offset"></div>
     <Benefits />
     <div class="offset"></div>
     <div class="offset"></div>
-    <HeroBanner />
+    <Banner 
+        title = 'Почему выбирают наш сервис?' 
+        description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
+        background = 'benefits' 
+        btnInscription = 'О Компании' 
+        picURL = '/assets/img/about-preview.webp' 
+        url = 'Go to About'
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Reviews />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Banner 
+        title = 'Нас вдохновляют отзывы заказчиков!' 
+        description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
+        background = 'benefits' 
+        btnInscription = 'Все отзывы' 
+        picURL = '/assets/img/about-preview.webp' 
+        url = 'Go to Reviews'
+    />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main>

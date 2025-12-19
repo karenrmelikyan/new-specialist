@@ -1,5 +1,6 @@
 :root {
     --main-font-color: #3f3d63;
+    --secondary-color: #d7d9ff;
     --main-background-color: #fff; 
     --secondary-background-color: #ffffff;
     --btn-color: #EC1010;
@@ -20,7 +21,6 @@
     --middle: 30px;
     --small: 18px;
     --tiny: 8px;
-
 }
 
 /* Reset-ish */
@@ -46,6 +46,10 @@ h2 {
 }
 
 h3 {
+    font-size: var(--middle);
+}
+
+h4 {
     font-size: var(--small);
 }
 
@@ -63,86 +67,6 @@ h3 {
     align-items: center;
     gap: 30px;
 }
-
-
-/* CTA box styled like the original yellow/rounded */
-.cta-box {
-  background: linear-gradient(180deg,#ffdd62,#ffd43b);
-  padding: 12px 14px;
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(255, 191, 0, 0.12);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  min-width: 200px;
-}
-.cta-hours { font-size: 13px; color: #3b2b00; margin-bottom: 6px; font-weight: var(--font-weight); }
-.btn { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; cursor: pointer; }
-.btn-primary {
-  background: #0b3b82;
-  color: #fff;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-weight: var(--font-weight);
-}
-.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(11,59,130,0.12); }
-.btn-ghost {
-  border: 1px solid #dbe7ff;
-  background: transparent;
-  color: #0b3b82;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-weight:  var(--font-weight);
-}
-.btn-accent {
-  background: #ff8b37;
-  color: white;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-weight: var(--font-weight);
-}
-.btn-outline {
-  border: 1px solid #d1d9e6;
-  padding: 9px 12px;
-  border-radius: 8px;
-  color: #102233;
-}
-
-
-
-/* TRUST / REVIEWS */
-.trust {
-  padding: 28px 0;
-  background: linear-gradient(180deg,#f7fbff,#ffffff);
-}
-.trust-inner {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: center;
-}
-.trust-left h3 { margin: 0 0 6px; font-size: 22px; font-weight: var(--font-weight); color: #0b3b82; }
-.rating-large { font-size: 36px; color: #ffb703; font-weight:  var(--font-weight); margin-top: 8px; }
-
-/* CONTACTS */
-.contacts {
-  padding: 28px 0;
-}
-.contacts-grid {
-  display: grid;
-  grid-template-columns: 1fr 420px;
-  gap: 26px;
-}
-.contact-card {
-  background: #fff;
-  border: 1px solid #e8f0fb;
-  padding: 16px;
-  border-radius: 12px;
-}
-
-
-/* utility */
-.section-title + .services-grid { margin-top: 4px; }
 
 /* disable all responsive behavior (desktop-target) */
 @media (max-width: 1199px) {
