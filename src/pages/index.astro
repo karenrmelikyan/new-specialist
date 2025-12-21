@@ -6,6 +6,7 @@ import ServicesGrid from '../components/ServicesGrid.astro'
 import Benefits from '../components/Benefits.astro'
 import Reviews from '../components/Reviews.astro'
 import Banner from '../components/Banner.astro'
+import Content from '../components/Content.astro'
 ---
 
 <Main title={content.title} description={content.description}>
@@ -16,7 +17,7 @@ import Banner from '../components/Banner.astro'
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <ServicesGrid />
+    <Content />
     <div class="offset"></div>
     <div class="offset"></div>
     <Banner 
@@ -29,7 +30,7 @@ import Banner from '../components/Banner.astro'
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Benefits />
+    <ServicesGrid />
     <div class="offset"></div>
     <div class="offset"></div>
     <Banner 
@@ -37,12 +38,12 @@ import Banner from '../components/Banner.astro'
         description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
         background = 'benefits' 
         btnInscription = 'О Компании' 
-        picURL = '/assets/img/about-preview.webp' 
+        picURL = '/assets/img/benefits-preview.webp' 
         url = 'Go to About'
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Reviews />
+    <Benefits />
     <div class="offset"></div>
     <div class="offset"></div>
     <Banner 
@@ -50,9 +51,12 @@ import Banner from '../components/Banner.astro'
         description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
         background = 'benefits' 
         btnInscription = 'Все отзывы' 
-        picURL = '/assets/img/about-preview.webp' 
+        picURL = '/assets/img/reviews-preview.webp' 
         url = 'Go to Reviews'
     />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Reviews />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main>

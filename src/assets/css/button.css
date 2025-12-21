@@ -39,6 +39,6 @@
 }
 
 .btn-transparent:hover {
-    color: var(--secondary-color); 
+   opacity: 0.80;
 }
 
