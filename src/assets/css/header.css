@@ -37,13 +37,9 @@
 /* Logo */
 .logo {
     display: flex;
-    gap: 12px;
     align-items: center;
     text-decoration: none;
-    color: #0b2f66;
 }
-.logo svg { flex-shrink: 0; }
-.logo .brand { font-weight: var(--font-weight); font-size: 20px; letter-spacing: -0.2px; }
 
 .logo img {
     height: 48px;

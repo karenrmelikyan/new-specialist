@@ -1,5 +1,6 @@
 :root {
     --main-font-color: #3f3d63;
+    --main-font-hover: #f5f6ff;
     --secondary-color: #d7d9ff;
     --main-background-color: #fff; 
     --secondary-background-color: #ffffff;
@@ -20,7 +21,6 @@
     --large: 50px;
     --middle: 30px;
     --small: 18px;
-    --tiny: 8px;
 }
 
 /* Reset-ish */
