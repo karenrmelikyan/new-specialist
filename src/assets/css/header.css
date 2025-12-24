@@ -57,8 +57,30 @@
 }
 
 .menu-button .arrow {
-    font-size: 14px;
-    opacity: 0.7;
+    display: inline-block;
+    transition: transform 0.25s ease;
+    font-size: 18px;
+    line-height: 1;
+}
+
+/* menu opened */
+.menu-button.is-open .arrow {
+    transform: rotate(180deg);
+}
+
+/* replace arrow with X */
+.menu-button.is-open .arrow {
+    font-family: system-ui, sans-serif;
+}
+
+.menu-button.is-open .arrow::before {
+    content: "✕";
+    font-size: 18px;        /* bigger */
+    font-weight: 700;      /* bolder */
+    color: var(--main-font-color); /* accent color */
+}
+.menu-button .arrow::before {
+    content: "▼";
 }
 
 /* =============== RIGHT SIDE =============== */

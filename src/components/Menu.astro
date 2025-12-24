@@ -1,121 +1,126 @@
 ---
 ---
 <style>
-    /* MEGA MENU */
+/* MEGA MENU */
+.mega {
+    position: fixed;
+    top: 70px;
+    width: var(--main-container-width);
+
+    box-shadow:
+        0 30px 60px rgba(0, 0, 0, 0.18),
+        0 10px 20px rgba(0, 0, 0, 0.12);
+
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    background: var(--main-background-color);
+    border-radius: 0 0 24px 24px;
+    gap: 40px;
+
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: all 0.25s ease;
+    z-index: 998;
+}
+
+.mega.is-open {
+    max-height: 1200px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* SIDEBAR */
+.sidebar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 12px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: var(--main-font-color);
+    font-weight: 500;
+}
+
+.sidebar li:hover {
+    background: var(--main-font-hover);
+}
+
+.sidebar li.active {
+    background: var(--main-font-hover);
+    font-weight: 600;
+}
+
+.mega__content {
+    overflow-y: auto;
+    padding: 32px;
+}
+
+.mega-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: var(--main-font-color);
+    font-weight: var(--font-weight);
+}
+
+.column-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: var(--main-font-color);
+    font-weight: var(--font-weight);
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column li {
+    padding: 6px 0;
+    color: var(--main-font-color);
+    cursor: pointer;
+}
+
+.column li:hover {
+    text-decoration: underline;
+}
+
+/* PANELS */
+.panel {
+    display: none;
+}
+
+.panel.active {
+    display: block;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .columns {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
     .mega {
-        position: fixed;
-        top: 70px;
-        width: var(--main-container-width);
-
-        display: grid;
-        grid-template-columns: 260px 1fr;
-        background: var(--main-background-color);
-        border-radius: 0 0 24px 24px;
-        gap: 40px;
-
-        max-height: 0;
-        opacity: 0;
-        overflow: hidden;
-        transform: translateY(-10px);
-        transition: all 0.25s ease;
-        z-index: 998;
-    }
-
-    .mega.is-open {
-        max-height: 1200px;
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    /* SIDEBAR */
-    .sidebar {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .sidebar li {
-        padding: 12px 16px;
-        border-radius: 12px;
-        cursor: pointer;
-        color: var(--main-font-color);
-        font-weight: 500;
-    }
-
-    .sidebar li:hover {
-        background: var(--main-font-hover);
-    }
-
-    .sidebar li.active {
-        background: var(--main-font-hover);
-        font-weight: 600;
-    }
-
-    .mega__content {
-        overflow-y: auto;
-        padding: 32px;
-    }
-
-    /* CONTENT */
-    .mega__content h1 {
-        font-size: 32px;
-        margin-bottom: 32px;
-        color:  var(--main-font-color);
+        grid-template-columns: 1fr;
     }
 
     .columns {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 48px;
+        grid-template-columns: 1fr;
     }
-
-    .column h3 {
-        font-size: 20px;
-        margin-bottom: 16px;
-        color: var(--main-font-color);
-    }
-
-    .column ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .column li {
-        padding: 6px 0;
-        color: var(--main-font-color);
-        cursor: pointer;
-    }
-
-    .column li:hover {
-        text-decoration: underline;
-    }
-
-    /* PANELS */
-    .panel {
-        display: none;
-    }
-
-    .panel.active {
-        display: block;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 1024px) {
-        .columns {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .mega {
-            grid-template-columns: 1fr;
-        }
-
-        .columns {
-            grid-template-columns: 1fr;
-        }
-    }
+}
 </style>
 
 <section class="mega" data-mega-menu>
@@ -131,10 +136,10 @@
     <div class="mega__content">
         <!-- PANEL: РЕМОНТ ТЕХНИКИ -->
         <div class="panel active" data-panel="repair">
-            <h1>Ремонт техники</h1>
+            <div class="mega-title" role="heading" aria-level="2">Ремонт техники</div>
             <div class="columns">
                 <div class="column">
-                    <h3>Ремонт бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
                     <ul>
                         <li>Ремонт холодильников</li>
                         <li>Ремонт холодильного оборудования</li>
@@ -146,7 +151,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Ремонт цифровой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
                     <ul>
                         <li>Ремонт телевизоров</li>
                         <li>Ремонт компьютеров</li>
@@ -158,7 +163,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Установка бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
                     <ul>
                         <li>Установка холодильников</li>
                         <li>Установка стиральных машин</li>
@@ -171,11 +176,12 @@
             </div>
         </div>
 
+        <!-- PANEL: БЫТОВЫЕ УСЛУГИ -->
         <div class="panel" data-panel="services">
-            <h1>Бытовые услуги</h1>
+            <div class="mega-title" role="heading" aria-level="2">Бытовые услуги</div>
             <div class="columns">
                 <div class="column">
-                    <h3>Ремонт бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
                     <ul>
                         <li>Ремонт холодильников</li>
                         <li>Ремонт холодильного оборудования</li>
@@ -187,7 +193,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Ремонт цифровой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
                     <ul>
                         <li>Ремонт телевизоров</li>
                         <li>Ремонт компьютеров</li>
@@ -199,7 +205,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Установка бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
                     <ul>
                         <li>Установка холодильников</li>
                         <li>Установка стиральных машин</li>
@@ -212,11 +218,12 @@
             </div>
         </div>
 
+        <!-- PANEL: ЭЛЕКТРИКА -->
         <div class="panel" data-panel="electric">
-            <h1>Электрика</h1>
+            <div class="mega-title" role="heading" aria-level="2">Электрика</div>
             <div class="columns">
                 <div class="column">
-                    <h3>Ремонт бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
                     <ul>
                         <li>Ремонт холодильников</li>
                         <li>Ремонт холодильного оборудования</li>
@@ -228,7 +235,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Ремонт цифровой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
                     <ul>
                         <li>Ремонт телевизоров</li>
                         <li>Ремонт компьютеров</li>
@@ -240,7 +247,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Установка бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
                     <ul>
                         <li>Установка холодильников</li>
                         <li>Установка стиральных машин</li>
@@ -253,11 +260,12 @@
             </div>
         </div>
 
-         <div class="panel" data-panel="plumbing">
-            <h1>Сантехника</h1>
+        <!-- PANEL: САНТЕХНИКА -->
+        <div class="panel" data-panel="plumbing">
+            <div class="mega-title" role="heading" aria-level="2">Сантехника</div>
             <div class="columns">
                 <div class="column">
-                    <h3>Ремонт бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
                     <ul>
                         <li>Ремонт холодильников</li>
                         <li>Ремонт холодильного оборудования</li>
@@ -269,7 +277,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Ремонт цифровой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
                     <ul>
                         <li>Ремонт телевизоров</li>
                         <li>Ремонт компьютеров</li>
@@ -281,7 +289,7 @@
                 </div>
 
                 <div class="column">
-                    <h3>Установка бытовой техники</h3>
+                    <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
                     <ul>
                         <li>Установка холодильников</li>
                         <li>Установка стиральных машин</li>
@@ -297,29 +305,30 @@
 </section>
 
 <script>
-    const sidebarItems = document.querySelectorAll('[data-category]')
-    const panels = document.querySelectorAll('[data-panel]')
+const sidebarItems = document.querySelectorAll<HTMLElement>('[data-category]')
+const panels = document.querySelectorAll<HTMLElement>('[data-panel]')
 
-    sidebarItems.forEach(item => {
-        item.addEventListener('click', () => {
-            const category = item.dataset.category
+sidebarItems.forEach(item => {
+    item.addEventListener('click', () => {
+        const category = item.dataset.category
 
-            sidebarItems.forEach(i => i.classList.remove('active'))
-            item.classList.add('active')
+        sidebarItems.forEach(i => i.classList.remove('active'))
+        item.classList.add('active')
 
-            panels.forEach(panel => {
-                panel.classList.toggle(
-                    'active',
-                    panel.dataset.panel === category
-                )
-            })
+        panels.forEach(panel => {
+            panel.classList.toggle(
+                'active',
+                panel.dataset.panel === category
+            )
         })
     })
+})
 
-    const btn = document.querySelector('[data-menu-toggle]') as HTMLElement
-    const menu = document.querySelector('[data-mega-menu]') as HTMLElement
+const btn = document.querySelector('[data-menu-toggle]') as HTMLElement
+const menu = document.querySelector('[data-mega-menu]') as HTMLElement
 
-    btn.addEventListener('click', () => {
-        menu.classList.toggle('is-open')
-    })
+btn.addEventListener('click', () => {
+    menu.classList.toggle('is-open')
+    btn.classList.toggle('is-open')
+})
 </script>
