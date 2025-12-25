@@ -1,0 +1,240 @@
+---
+interface Props {
+    open?: boolean;
+}
+
+const { open = false } = Astro.props
+---
+<style>
+    /* Overlay */
+    .modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        z-index: 1000;
+    }
+
+    .modal-overlay.is-open {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    /* Modal box */
+    .modal {
+        background: var(--main-font-color);
+        color: var( --main-background-color);
+        width: min(92vw, calc(var(--main-container-width) / 1.35));
+        height: 100%;
+        border-radius: var(--border-radius-huge);
+        padding: 48px;
+        position: relative;
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+    }
+
+    
+
+    /* Close button */
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+
+    border: none;
+    background: rgba(255, 255, 255, 0.18);
+
+    color: var(--main-background-color);
+    font-size: var(--large);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.modal-close:hover {
+    background: rgba(255, 255, 255, 0.28);
+    transform: scale(1.08);
+}
+
+.modal-close:active {
+    transform: scale(0.96);
+}
+
+
+    /* Text */
+    .modal-title {
+        font-size: var(--large);
+        font-weight: var(--font-weight);
+        margin-bottom: 12px;
+    }
+
+    .modal-subtitle {
+        font-size: var(--middle);
+        font-weight: var(--font-weight);
+        margin-bottom: var(--large);
+        opacity: 0.9;
+    }
+
+    /* Form */
+    .modal-form {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .modal-form input {
+        background: rgba(255, 255, 255, 0.087);
+        border: none;
+        border-radius: 22px;
+        padding: var(--padding-large);
+        font-size: var(--small);
+        color: var(--main-background-color);
+        outline: none;
+    }
+
+    .modal-form input::placeholder {
+        color: var(--main-background-color);
+    }
+
+    /* Captcha */
+    .captcha-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .captcha-image {
+        background: var(--main-background-color);
+        color: #333;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-weight: var(--font-weight);
+        letter-spacing: 4px;
+    }
+
+    .captcha-refresh {
+        background: none;
+        border: none;
+        color: var(--main-background-color);
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    /* Checkbox */
+    .checkbox {
+        display: flex;
+        margin-top: 10px;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: var(--small);
+    }
+
+    .checkbox input {
+        accent-color: var(--main-background-color);
+        transform: scale(1.6);
+        margin-top: 4px;
+    }
+
+    .checkbox a {
+        color: var(--main-background-color);
+        text-decoration: underline;
+    }
+
+    /* Submit */
+    .submit-btn {
+        margin-top: 10px;
+        background: #f44336;
+        color: var(--main-background-color);
+        border: none;
+        border-radius: 30px;
+        padding: var(--padding-large);
+        font-size: 24px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .submit-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 25px rgba(244, 67, 54, 0.4);
+    }
+
+    /* Mobile */
+    @media (max-width: 480px) {
+        .modal {
+            padding: 32px 24px;
+        }
+
+        .modal-title {
+            font-size: 28px;
+        }
+    }
+</style>
+
+<div class={`modal-overlay ${open ? "is-open" : ""}`} id="modal">
+    <div class="modal">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+
+        <h2 class="modal-title">Нужен ремонт?</h2>
+        <p class="modal-subtitle">Оставьте заявку, мы с Вами свяжемся</p>
+
+        <form class="modal-form">
+            <input type="text" placeholder="Имя" />
+
+            <input type="tel" placeholder="Телефон*" required />
+
+            Введите код с картинки
+            <div class="captcha-row">
+                <div class="captcha-image">
+                    Г Н Е Т
+                </div>
+                <button type="button" class="captcha-refresh" aria-label="Refresh captcha">
+                  ↻
+                </button>
+            </div>
+
+            <input type="text" placeholder="Код*" required />
+
+            <label class="checkbox">
+                <input type="checkbox" checked />
+                <span>
+                    Я даю согласие на обработку
+                    <a href="#" target="_blank">персональных данных</a>
+                </span>
+            </label>
+
+            <button type="submit" class="submit-btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById("modal") as HTMLElement
+    const closeBtn = modal.querySelector(".modal-close") as HTMLElement
+
+    closeBtn.addEventListener("click", () => {
+        modal.classList.remove("is-open")
+    })
+
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("is-open")
+        }
+    })
+
+    // optional global open function
+    window.openModal = () => modal.classList.add("is-open")
+</script>
+

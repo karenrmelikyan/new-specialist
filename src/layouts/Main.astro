@@ -8,6 +8,7 @@ import ENV from '../content/env.json'
 import Location from '../components/Location.astro'
 import Time from '../components/Time.astro'
 import Menu from '../components/Menu.astro'
+import Modal from '../components/Modal.astro'
 ---
 
 <!DOCTYPE html>
@@ -26,6 +27,7 @@ import Menu from '../components/Menu.astro'
         <headers class="header">
             <div class="container header-inner">
                 <Menu />
+                <Modal />
                 <!-- LEFT SIDE -->
                 <div class="header-left">
                     <a href="/" class="logo">
@@ -44,7 +46,7 @@ import Menu from '../components/Menu.astro'
                     <div class="header-phone">
                         <span class="header-phone-number">374 (93) 31-64-61</span>
                     </div>
-                    <button class="btn-small">
+                    <button class="btn-small" onclick="openModal()">
                         Вызвать мастера
                     </button>
                 </div>
