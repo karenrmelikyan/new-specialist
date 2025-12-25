@@ -27,7 +27,7 @@ const { title, picURL, price } = Astro.props
     .hero-content {
         max-width: var(--main-container-width);
         margin: 0 auto;
-        padding: 48px 0px;
+        padding: 48px 0;
         position: relative;
         z-index: 2;
     }
@@ -131,7 +131,9 @@ const { title, picURL, price } = Astro.props
 
             <div class="hero-actions">
                 <div class="inline-group">
-                    <button class="btn-large" onclick="goToURL('Hero banner')">Вызвать мастера</button>
+                    <button class="btn-large" onclick="openModal()">
+                        Вызвать мастера
+                    </button>
                     <div class="hero-time">
                         <span class="icon">🕒</span>
                         Прием заявок: <strong>24/7</strong>

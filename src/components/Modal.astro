@@ -1,23 +1,56 @@
 ---
 interface Props {
     open?: boolean;
+    title: string;
+    subTitle: string;
+    inputName: string;
+    inputPhone: string;
+    inputCode: string;
+    captchaText: string;
+    captchaAgreeText: string;
+    captchaAgreeHrefText: string,
+    captchaAgreeHref: string,
+    btnText: string;
 }
 
-const { open = false } = Astro.props
+declare global {
+    interface Window {
+        openModal: () => void
+    }
+}
+
+const { 
+    open = false,
+    title = '',
+    subTitle = '',
+    inputName = '',
+    inputPhone = '',
+    inputCode = '',
+    captchaText = '',
+    captchaAgreeText = '',
+    captchaAgreeHrefText = '',
+    captchaAgreeHref = '',
+    btnText = '',
+} = Astro.props
 ---
 <style>
-    /* Overlay */
+    /* =========================
+    Overlay
+    ========================= */
     .modal-overlay {
         position: fixed;
         inset: 0;
-        background: rgba(0, 0, 0, 0.55);
+        z-index: 1000;
+
         display: flex;
         align-items: center;
         justify-content: center;
+
+        background: rgba(0, 0, 0, 0.55);
+
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s ease;
-        z-index: 1000;
     }
 
     .modal-overlay.is-open {
@@ -25,126 +58,153 @@ const { open = false } = Astro.props
         pointer-events: all;
     }
 
-    /* Modal box */
+    /* =========================
+    Modal
+    ========================= */
     .modal {
-        background: var(--main-font-color);
-        color: var( --main-background-color);
+        position: relative;
+
         width: min(92vw, calc(var(--main-container-width) / 1.35));
         height: 100%;
-        border-radius: var(--border-radius-huge);
+
         padding: 48px;
-        position: relative;
+        border-radius: var(--border-radius-huge);
+
+        background: var(--main-font-color);
+        color: var(--main-background-color);
+
         box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
     }
 
-    
+    /* =========================
+    Close button
+    ========================= */
+    .modal-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
 
-    /* Close button */
-  .modal-close {
-    position: absolute;
-    top: 16px;
-    right: 16px;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
 
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-    border: none;
-    background: rgba(255, 255, 255, 0.18);
+        border: none;
+        background: rgba(255, 255, 255, 0.18);
 
-    color: var(--main-background-color);
-    font-size: var(--large);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    cursor: pointer;
-    transition: transform 0.15s ease, background 0.15s ease;
-}
-
-.modal-close:hover {
-    background: rgba(255, 255, 255, 0.28);
-    transform: scale(1.08);
-}
-
-.modal-close:active {
-    transform: scale(0.96);
-}
-
-
-    /* Text */
-    .modal-title {
+        color: var(--main-background-color);
         font-size: var(--large);
+
+        cursor: pointer;
+        transition: background 0.6s ease, transform 0.6s ease;
+    }
+
+    .modal-close:hover {
+        background: rgba(255, 255, 255, 0.38);
+    }
+
+    /* =========================
+    Text
+    ========================= */
+    .modal-title,
+    .modal-subtitle {
         font-weight: var(--font-weight);
+    }
+
+    .modal-title {
         margin-bottom: 12px;
+        font-size: var(--large);
     }
 
     .modal-subtitle {
-        font-size: var(--middle);
-        font-weight: var(--font-weight);
         margin-bottom: var(--large);
+        font-size: var(--middle);
         opacity: 0.9;
     }
 
-    /* Form */
+    /* =========================
+    Form
+    ========================= */
     .modal-form {
         display: flex;
         flex-direction: column;
-        gap: 18px;
+        gap: var(--small);
     }
 
     .modal-form input {
-        background: rgba(255, 255, 255, 0.087);
-        border: none;
-        border-radius: 22px;
         padding: var(--padding-large);
+        border-radius: 22px;
+        border: 2px solid transparent;
+
+        background: rgba(255, 255, 255, 0.087);
+
         font-size: var(--small);
         color: var(--main-background-color);
+
         outline: none;
+        transition: border-color 0.6s ease;
+    }
+
+    .modal-form input:hover {
+        border-color: var(--main-background-color);
     }
 
     .modal-form input::placeholder {
         color: var(--main-background-color);
     }
 
-    /* Captcha */
+    /* =========================
+    Captcha
+    ========================= */
     .captcha-row {
         display: flex;
         align-items: center;
         gap: 12px;
     }
 
+    .captcha-image,
+    .captcha-refresh {
+        color: var(--main-background-color);
+    }
+
     .captcha-image {
-        background: var(--main-background-color);
-        color: #333;
         padding: 10px 16px;
         border-radius: 6px;
+
+        background: var(--main-background-color);
+        color: #333;
+
         font-weight: var(--font-weight);
         letter-spacing: 4px;
     }
 
     .captcha-refresh {
-        background: none;
         border: none;
-        color: var(--main-background-color);
+        background: none;
+
         font-size: 20px;
         cursor: pointer;
     }
 
-    /* Checkbox */
+    /* =========================
+    Checkbox
+    ========================= */
     .checkbox {
         display: flex;
-        margin-top: 10px;
         align-items: flex-start;
         gap: 10px;
+        margin-top: 10px;
+
         font-size: var(--small);
     }
 
     .checkbox input {
-        accent-color: var(--main-background-color);
-        transform: scale(1.6);
         margin-top: 4px;
+        transform: scale(1.6);
+        accent-color: var(--main-background-color);
     }
 
     .checkbox a {
@@ -152,18 +212,24 @@ const { open = false } = Astro.props
         text-decoration: underline;
     }
 
-    /* Submit */
+    /* =========================
+    Submit
+    ========================= */
     .submit-btn {
         margin-top: 10px;
+        padding: var(--padding-large);
+
+        border: none;
+        border-radius: var(--border-radius-small);
+
         background: #f44336;
         color: var(--main-background-color);
-        border: none;
-        border-radius: 30px;
-        padding: var(--padding-large);
+
         font-size: 24px;
-        font-weight: 600;
+        font-weight: var(--font-weight);
+
         cursor: pointer;
-        transition: transform 0.15s ease, box-shadow 0.15s ease;
+        transition: transform 0.6s ease, box-shadow 0.6s ease;
     }
 
     .submit-btn:hover {
@@ -171,7 +237,9 @@ const { open = false } = Astro.props
         box-shadow: 0 10px 25px rgba(244, 67, 54, 0.4);
     }
 
-    /* Mobile */
+    /* =========================
+    Mobile
+    ========================= */
     @media (max-width: 480px) {
         .modal {
             padding: 32px 24px;
@@ -187,15 +255,15 @@ const { open = false } = Astro.props
     <div class="modal">
         <button class="modal-close" aria-label="Close modal">&times;</button>
 
-        <h2 class="modal-title">Нужен ремонт?</h2>
-        <p class="modal-subtitle">Оставьте заявку, мы с Вами свяжемся</p>
+        <h2 class="modal-title">{title}</h2>
+        <p class="modal-subtitle">{subTitle}</p>
 
         <form class="modal-form">
-            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder={inputName} />
 
-            <input type="tel" placeholder="Телефон*" required />
+            <input type="tel" placeholder={inputPhone} required />
 
-            Введите код с картинки
+            {captchaText}
             <div class="captcha-row">
                 <div class="captcha-image">
                     Г Н Е Т
@@ -205,17 +273,17 @@ const { open = false } = Astro.props
                 </button>
             </div>
 
-            <input type="text" placeholder="Код*" required />
+            <input type="text" placeholder={inputCode} required />
 
             <label class="checkbox">
                 <input type="checkbox" checked />
                 <span>
-                    Я даю согласие на обработку
-                    <a href="#" target="_blank">персональных данных</a>
+                    {captchaAgreeText}
+                    <a href={captchaAgreeHref} target="_blank">{captchaAgreeHrefText}</a>
                 </span>
             </label>
 
-            <button type="submit" class="submit-btn">Отправить</button>
+            <button type="submit" class="submit-btn">{btnText}</button>
         </form>
     </div>
 </div>

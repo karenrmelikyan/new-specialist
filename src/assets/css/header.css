@@ -59,7 +59,7 @@
 .menu-button .arrow {
     display: inline-block;
     transition: transform 0.25s ease;
-    font-size: 18px;
+    font-size: var(--small);
     line-height: 1;
 }
 
@@ -75,9 +75,9 @@
 
 .menu-button.is-open .arrow::before {
     content: "✕";
-    font-size: 18px;        /* bigger */
-    font-weight: 700;      /* bolder */
-    color: var(--main-font-color); /* accent color */
+    font-size: var(--small); 
+    font-weight: var(--font-weight);
+    color: var(--main-font-color);
 }
 .menu-button .arrow::before {
     content: "▼";

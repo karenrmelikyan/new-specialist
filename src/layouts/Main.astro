@@ -26,15 +26,28 @@ import Modal from '../components/Modal.astro'
         <div class="offset"></div>
         <headers class="header">
             <div class="container header-inner">
-                <Menu />
-                <Modal />
+                <Menu 
+                    ENV = ''
+                />
+                <Modal 
+                    title = 'Нужен ремонт?',
+                    subTitle = 'Оставьте заявку, мы с Вами свяжемся',
+                    inputName = 'Имя',
+                    inputPhone = 'Телефон*',
+                    inputCode = 'Код*',
+                    captchaText = 'Введите код с картинки',
+                    captchaAgreeText = 'Я даю согласие на обработку',
+                    captchaAgreeHrefText = 'персональных данных',
+                    captchaAgreeHref = '#',
+                    btnText = 'Отправить',
+                />
                 <!-- LEFT SIDE -->
                 <div class="header-left">
                     <a href="/" class="logo">
                         <img src="/assets/img/logo.webp" alt="Logo" />
                     </a>
                     <button class="menu-button" data-menu-toggle>
-                        Все услуги
+                        Все страницы
                         <span class="arrow" aria-hidden="true"></span>
                     </button>
                 </div>
