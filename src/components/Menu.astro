@@ -5,7 +5,7 @@ const { ENV } = Astro.props
     /* MEGA MENU */
     .mega {
         position: fixed;
-        top: 70px;
+        top: 80px;
         width: var(--main-container-width);
 
         box-shadow:
@@ -104,23 +104,6 @@ const { ENV } = Astro.props
 
     .panel.active {
         display: block;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 1024px) {
-        .columns {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .mega {
-            grid-template-columns: 1fr;
-        }
-
-        .columns {
-            grid-template-columns: 1fr;
-        }
     }
 </style>
 

@@ -8,6 +8,7 @@
     --btn-hover: #d20e0e;
 
     --main-container-width: 1520px;
+    --main-container-padding: 40px;
     --padding-large: 26px 40px;
     --padding-small: 10px 15px;
     --btn-small-font-size: 17px;
@@ -66,17 +67,6 @@ h4 {
     display: flex;
     align-items: center;
     gap: 30px;
-}
-
-/* disable all responsive behavior (desktop-target) */
-@media (max-width: 1199px) {
-  /* keep things usable but not specifically responsive: scale container */
-  .container { width: 960px; }
-}
-@media (max-width: 900px) {
-  .container { width: 720px; }
-  /* hide fancy hero right visual for very narrow widths in 'desktop-only' fallback */
-  .hero-right { display: none; }
 }
 
 

@@ -1,0 +1,28 @@
+@media (min-width: 1401px) {
+    .header-phone img { display: none; }
+}
+
+@media (max-width: 1400px) {
+    .container { width: 100%; }
+    .header-phone img { display: none; }
+}
+
+@media (max-width: 1200px) {
+    .btn-small { display: none; }
+    .menu-button { display: none; }
+    .header-phone img { display: none; }
+}
+
+@media (max-width: 990px) {
+    .header-info-time { display: none; }
+    .header-phone img { display: none; }
+}
+
+@media (max-width: 768px) {  
+    .header-phone-number { display: none; }
+    .header-phone img { display: block; }
+}
+
+@media (max-width: 560px) {
+    .header-info-location { display: none; }
+}
