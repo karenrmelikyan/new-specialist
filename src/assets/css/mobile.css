@@ -3,7 +3,6 @@
 }
 
 @media (max-width: 1400px) {
-    .container { width: 100%; }
     .header-phone img { display: none; }
 }
 
@@ -21,8 +20,10 @@
 @media (max-width: 768px) {  
     .header-phone-number { display: none; }
     .header-phone img { display: block; }
+    .header { height: 60px; }
 }
 
 @media (max-width: 560px) {
+    .container  { padding-inline: 15px; }
     .header-info-location { display: none; }
 }

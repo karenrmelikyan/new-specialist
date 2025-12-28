@@ -4,13 +4,10 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
-    background: var(--secondary-background-color);
+    height: 70px;
+    background: var(--main-background-color);
     border-bottom: 1px solid var(--darkness-backround-color);
     z-index: 999;
-    display: flex;
-    align-items: center;
-    padding: var(--main-container-padding);
 }
 
 /* Main layout inside */
@@ -43,7 +40,7 @@
 }
 
 .logo img {
-    height: 48px;
+    height: 40px;
 }
 
 .menu-button {
@@ -108,7 +105,7 @@
 .header-phone-number {
     color: var(--main-font-color); 
     font-weight: var(--font-weight);
-    font-size: 20px;
+    font-size: var(--small);
 }
 
 .header-phone-number:hover {

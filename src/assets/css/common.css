@@ -7,7 +7,7 @@
     --btn-color: #EC1010;
     --btn-hover: #d20e0e;
 
-    --main-container-width: 1520px;
+    --main-container-width: 1600px;
     --main-container-padding: 40px;
     --padding-large: 26px 40px;
     --padding-small: 10px 15px;
@@ -55,8 +55,9 @@ h4 {
 }
 
 .container {
-    width: var(--main-container-width);
-    margin: 0 auto;
+    max-width: var(--main-container-width);
+    margin-inline: auto;
+    padding-inline: var(--main-container-padding);
 }
 
 .offset {

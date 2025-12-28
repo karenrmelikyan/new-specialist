@@ -8,6 +8,7 @@ import ENV from '../content/env.json'
 import Location from '../components/Location.astro'
 import Time from '../components/Time.astro'
 import Menu from '../components/Menu.astro'
+import MobMenu from '../components/MobMenu.astro'
 import Modal from '../components/Modal.astro'
 ---
 
@@ -15,7 +16,8 @@ import Modal from '../components/Modal.astro'
 <html lang="ru">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=1280" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Сервисная служба в Ереване | Specialist</title>
 
         <!-- Google font (swap for the real one if you prefer) -->
@@ -29,6 +31,7 @@ import Modal from '../components/Modal.astro'
                 <Menu 
                     ENV = ''
                 />
+                <!-- <MobMenu /> -->
                 <Modal 
                     title = 'Нужен ремонт?',
                     subTitle = 'Оставьте заявку, мы с Вами свяжемся',
@@ -81,15 +84,15 @@ import Modal from '../components/Modal.astro'
                 <div class="footer-column">
                     <h4>Услуги</h4>
                     <ul>
-                      <li>Ремонт бытовой техники</li>
-                      <li>Ремонт холодильников</li>
-                      <li>Ремонт стиральных машин</li>
-                      <li>Ремонт газовых плит</li>
-                      <li>Ремонт электроплит</li>
-                      <li>Ремонт цифровой техники</li>
-                      <li>Ремонт электрики</li>
-                      <li>Ремонт сантехники</li>
-                      <li>Услуги мастера на час</li>
+                        <li>Ремонт бытовой техники</li>
+                        <li>Ремонт холодильников</li>
+                        <li>Ремонт стиральных машин</li>
+                        <li>Ремонт газовых плит</li>
+                        <li>Ремонт электроплит</li>
+                        <li>Ремонт цифровой техники</li>
+                        <li>Ремонт электрики</li>
+                        <li>Ремонт сантехники</li>
+                        <li>Услуги мастера на час</li>
                     </ul>
                 </div>
 

@@ -1,0 +1,45 @@
+---
+
+---
+
+<style>
+    .mob-menu {
+        pointer-events: none;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 8px 16px;
+        max-width: 1200;
+        z-index: 100;
+        background-color: var(--main-background-color);
+    }
+
+    .mob-menu img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .float-left,
+    .float-right {
+        display: flex;
+        gap: 20px;
+        pointer-events: auto;
+    }
+</style>
+
+<div class="mob-menu">
+    <div class="float-left">
+        <a href={''} target="_blank">
+            <img id="image" src="/assets/img/phone-call.webp" alt="Телеграмм канал семейной кондитерской Kisura" />
+        </a>
+    </div>
+    <div class="float-right">
+		<button class="btn-transparent">Menu</button>
+	</div>
+</div>
