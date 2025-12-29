@@ -1,15 +1,24 @@
 @media (min-width: 1401px) {
     .header-phone img { display: none; }
+    .hero-title { display: block; }
+    .hero-title-mobile { display: none; }
 }
 
 @media (max-width: 1400px) {
     .header-phone img { display: none; }
+    .hero-title-mobile { display: none; }
 }
 
 @media (max-width: 1200px) {
     .btn-small { display: none; }
     .menu-button { display: none; }
     .header-phone img { display: none; }
+    .hero-title { display: none; }
+    .hero-title-mobile { display: block; }
+
+    .services-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .benefits-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
 @media (max-width: 990px) {
@@ -26,4 +35,8 @@
 @media (max-width: 560px) {
     .container  { padding-inline: 15px; }
     .header-info-location { display: none; }
+
+    .services-grid { grid-template-columns: repeat(1, 1fr) !important; }
+    .benefits-grid { grid-template-columns: repeat(1, 1fr) !important; }
+    .grid { grid-template-columns: repeat(1, 1fr) !important; }
 }
