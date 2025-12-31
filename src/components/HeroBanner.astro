@@ -30,6 +30,8 @@ const { title, picURL, price } = Astro.props
         margin: 0 auto;
         padding: 48px 0;
         z-index: 2;
+        gap: 20px; 
+        padding-top: 20px; 
     }
 
     /* title */
@@ -101,8 +103,8 @@ const { title, picURL, price } = Astro.props
     .hero-actions {
         display: flex;
         align-items: center;
-        gap: 20px;
         flex-wrap: wrap;
+        gap: 20px;
     }
 </style>
 
@@ -126,14 +128,12 @@ const { title, picURL, price } = Astro.props
             </div>
 
             <div class="hero-actions">
-                <div class="inline-group">
-                    <button class="btn-large" onclick="openModal()">
-                        Вызвать мастера
-                    </button>
-                    <div class="hero-time">
-                        <span class="icon">🕒</span>
-                        Прием заявок: <strong>24/7</strong>
-                    </div>
+                <button class="btn-large" onclick="openModal()">
+                    Вызвать мастера
+                </button>
+                <div class="hero-time">
+                    <span class="icon">🕒</span>
+                    Прием заявок: <strong>24/7</strong>
                 </div>
             </div>
         </div>

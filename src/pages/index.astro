@@ -1,6 +1,8 @@
 ---
 import Main from '../layouts/Main.astro'
-import content from '../content/index.json'
+import ENV from '../content/ru/env.json'
+import contentIndex from '../content/index.json'
+import contentBenefits from '../content/ru/benefits.json'
 import HeroBanner from '../components/HeroBanner.astro'
 import ServicesGrid from '../components/ServicesGrid.astro'
 import Benefits from '../components/Benefits.astro'
@@ -9,54 +11,59 @@ import Banner from '../components/Banner.astro'
 import Content from '../components/Content.astro'
 ---
 
- <Main title={content.title} description={content.description}>
-    <HeroBanner 
+<Main title={contentIndex.title} description={contentIndex.description}>
+    <!-- <HeroBanner 
         title = 'Сервисная служба: Specialist'
         picURL = '/assets/img/master.webp'
         price = 5000
     />
     <div class="offset"></div>
+    <div class="offset"></div> -->
+    <!-- <Content />
     <div class="offset"></div>
-    <Content />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Banner 
+    <div class="offset"></div> -->
+    <!-- <Banner 
         title = 'Вызовите мастера в пару кликов!' 
         description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
         background = 'chat' 
         btnInscription = 'Написать в чат' 
         picURL = '/assets/img/chat-preview.webp' 
         url = 'Open WhatsApp'
-    />
+    /> -->
     <div class="offset"></div>
     <div class="offset"></div>
     <ServicesGrid />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Banner 
+    <!-- <Banner 
         title = 'Почему выбирают наш сервис?' 
         description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
         background = 'benefits' 
         btnInscription = 'О Компании' 
         picURL = '/assets/img/benefits-preview.webp' 
         url = 'Go to About'
+    /> -->
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Benefits 
+        content = {contentBenefits} 
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Benefits />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Banner 
+    <!-- <Banner 
         title = 'Нас вдохновляют отзывы заказчиков!' 
         description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
         background = 'benefits' 
-        btnInscription = 'Все отзывы' 
+        btnInscription = 'Оставить отзыв' 
         picURL = '/assets/img/reviews-preview.webp' 
-        url = 'Go to Reviews'
+        url = {ENV.GOOGLE_URL}
+    /> -->
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Reviews 
+        ENV = {ENV}
+        allowedCount = 12
     />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Reviews />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main> 

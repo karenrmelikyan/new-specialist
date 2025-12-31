@@ -1,90 +1,12 @@
 ---
-const reviews = [
-    {
-        brand: 'Холодильник Bosch',
-        name: 'Игорь',
-        request: '1536618',
-        rating: 5,
-        text: 'У холодильника BOSCH погасла панель индикации температуры и режимов на двери. С большими проблемами в том что кабель трудно заменить, только...'
-    },
-    {
-        brand: 'Холодильник Electrolux',
-        name: 'Алина',
-        request: '1281942',
-        rating: 5,
-        text: 'Холодильник ELECTROLUX перестал работать. Связался с операторами, объяснил проблему, мне любезно сообщили, что мастер со мной свяжется...'
-    },
-    {
-        brand: 'Холодильник Haer',
-        name: 'Максим',
-        request: '1531419',
-        rating: 4.9,
-        text: 'У нас стал глючить холодильник ("Haer"). Обратился в "Айсберг". Заказ на ремонт приняли сразу. Мастер приехал на следующий день (мне так было удобн...'
-    },
-    {
-        brand: 'Холодильник Stinol',
-        name: 'Андрей',
-        request: '1584316',
-        rating: 4.6,
-        text: 'На утро перестал работать холодильник Стинол-205. Обратился в компанию "Айсберг", поскольку давно знаю эту компанию и пользуюсь...'
-    },
-    {
-        brand: 'Холодильник LG',
-        name: 'Дарья',
-        request: '4528722',
-        rating: 5,
-        text: 'Вызвали мастера для ремонта холодильника. Мастер приехал вовремя, провел диагностику, рассказал о причинах поломки. Все неисправности устранил быстро...'
-    },
-    {
-        brand: 'Холодильник Атлант',
-        name: 'Андрей',
-        request: '1158534',
-        rating: 4.6,
-        text: 'Холодильник Атлант. Уже старенький, больше 20 лет. Отказала часть морозильной камеры. Сверху 2 отделения еще морозят, но 2 нижних...'
-    },
-    {
-        brand: 'Холодильник Bosch',
-        name: 'Игорь',
-        request: '1536618',
-        rating: 5,
-        text: 'У холодильника BOSCH погасла панель индикации температуры и режимов на двери. С большими проблемами в том что кабель трудно заменить, только...'
-    },
-    {
-        brand: 'Холодильник Electrolux',
-        name: 'Алина',
-        request: '1281942',
-        rating: 5,
-        text: 'Холодильник ELECTROLUX перестал работать. Связался с операторами, объяснил проблему, мне любезно сообщили, что мастер со мной свяжется...'
-    },
-    {
-        brand: 'Холодильник Haer',
-        name: 'Максим',
-        request: '1531419',
-        rating: 4.9,
-        text: 'У нас стал глючить холодильник ("Haer"). Обратился в "Айсберг". Заказ на ремонт приняли сразу. Мастер приехал на следующий день (мне так было удобн...'
-    },
-    {
-        brand: 'Холодильник Stinol',
-        name: 'Андрей',
-        request: '1584316',
-        rating: 4.6,
-        text: 'На утро перестал работать холодильник Стинол-205. Обратился в компанию "Айсберг", поскольку давно знаю эту компанию и пользуюсь...'
-    },
-    {
-        brand: 'Холодильник LG',
-        name: 'Дарья',
-        request: '4528722',
-        rating: 5,
-        text: 'Вызвали мастера для ремонта холодильника. Мастер приехал вовремя, провел диагностику, рассказал о причинах поломки. Все неисправности устранил быстро...'
-    },
-    {
-        brand: 'Холодильник Атлант',
-        name: 'Андрей',
-        request: '1158534',
-        rating: 4.6,
-        text: 'Холодильник Атлант. Уже старенький, больше 20 лет. Отказала часть морозильной камеры. Сверху 2 отделения еще морозят, но 2 нижних...'
+const { ENV, allowedCount = null } = Astro.props
+const allowedReviewsArray = []
+
+if (allowedCount) {
+    for (let i = 0; i < allowedCount; i ++) {
+        allowedReviewsArray.push(ENV.REVIEWS[i])
     }
-]
+}
 ---
 
 <style>
@@ -150,41 +72,62 @@ const reviews = [
         gap: 20px;
         align-items: center;
     }
-    .trust-left h3 { margin: 0 0 6px; font-size: 22px; font-weight: var(--font-weight); color: var(--main-font-color); }
-    .rating-large { font-size: 36px; color: #ffb703; font-weight:  var(--font-weight); margin-top: 8px; }
+    .trust-left h3 { 
+        margin: 0 0 6px; 
+        font-size: 22px; 
+        font-weight: var(--font-weight); 
+        color: var(--main-font-color); 
+    }
+
+    .rating-large { 
+        font-size: 36px; 
+        color: #ffb703; 
+        font-weight:  var(--font-weight); 
+        margin-top: 8px; 
+    }
 </style>
 
 <section class="reviews">
     <h2>Отзывы</h2>
     <div class="grid">
-        {reviews.map((review) => {
-            const stars = Math.floor(review.rating);
-
-            return (
-                <article class="card">
+       
+    {allowedReviewsArray.length === 0 
+        ? ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (
+            <article class="card">
                 <h3>{review.name}</h3>
                 <div class="rating">
-                    <div class="stars">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                        <span class={i < stars ? 'star filled' : 'star'}>★</span>
-                    ))}
-                    </div>
-                    <span class="value">{review.rating}/5</span>
+                <div class="stars">
+                    <span class="star filled">★★★★★</span>
                 </div>
-
-                <p class="text">{review.text}</p>
-                </article>
+                <span class="value">5/5</span>
+                </div>
+                <p class="text">{review.reviewBody}</p>
+            </article>
+            )) 
+        : allowedReviewsArray.map(
+            (review: { name: string; reviewBody: string }) => (
+            <article class="card">
+                <h3>{review.name}</h3>
+                <div class="rating">
+                <div class="stars">
+                    <span class="star filled">★★★★★</span>
+                </div>
+                <span class="value">5/5</span>
+                </div>
+                <p class="text">{review.reviewBody}</p>
+            </article>
             )
-        })}
+        )
+    }
     </div>
 </section>
 
-<section id="reviews" class="trust">
-    <div class="container trust-inner">
+<section class="trust">
+    <div class="trust-inner">
         <div class="trust-left">
             <h3>Реальные отзывы клиентов</h3>
-            <p class="muted">Средняя оценка 4.8 на основе тысяч отзывов</p>
-            <div class="rating-large">4.8 ★</div>
+            <p class="muted">Средняя оценка {ENV.RATING} на основе {ENV.REVIEW_COUNT} отзывов</p>
+            <div class="rating-large">{ENV.RATING} ★</div>
         </div>
     </div>
 </section>

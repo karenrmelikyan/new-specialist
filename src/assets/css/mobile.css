@@ -29,6 +29,6 @@
 }
 
 @media (max-width: 560px) {
-    .container  { padding-inline: 15px; }
+    .container { padding-inline: 15px; }
     .header-info-location { display: none; }
 }
