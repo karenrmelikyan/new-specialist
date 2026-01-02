@@ -12,16 +12,16 @@ import Content from '../components/Content.astro'
 ---
 
 <Main title={contentIndex.title} description={contentIndex.description}>
-    <!-- <HeroBanner 
+    <HeroBanner 
         title = 'Сервисная служба: Specialist'
-        picURL = '/assets/img/master.webp'
+        picURL = '/assets/img/washer-service.webp'
         price = 5000
     />
     <div class="offset"></div>
-    <div class="offset"></div> -->
-    <!-- <Content />
     <div class="offset"></div>
-    <div class="offset"></div> -->
+    <Content />
+    <div class="offset"></div>
+    <div class="offset"></div>
     <!-- <Banner 
         title = 'Вызовите мастера в пару кликов!' 
         description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
@@ -30,11 +30,11 @@ import Content from '../components/Content.astro'
         picURL = '/assets/img/chat-preview.webp' 
         url = 'Open WhatsApp'
     /> -->
-    <div class="offset"></div>
+    <!-- <div class="offset"></div>
     <div class="offset"></div>
     <ServicesGrid />
     <div class="offset"></div>
-    <div class="offset"></div>
+    <div class="offset"></div> -->
     <!-- <Banner 
         title = 'Почему выбирают наш сервис?' 
         description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
@@ -43,13 +43,13 @@ import Content from '../components/Content.astro'
         picURL = '/assets/img/benefits-preview.webp' 
         url = 'Go to About'
     /> -->
-    <div class="offset"></div>
+    <!-- <div class="offset"></div>
     <div class="offset"></div>
     <Benefits 
         content = {contentBenefits} 
     />
     <div class="offset"></div>
-    <div class="offset"></div>
+    <div class="offset"></div> -->
     <!-- <Banner 
         title = 'Нас вдохновляют отзывы заказчиков!' 
         description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
@@ -58,12 +58,12 @@ import Content from '../components/Content.astro'
         picURL = '/assets/img/reviews-preview.webp' 
         url = {ENV.GOOGLE_URL}
     /> -->
-    <div class="offset"></div>
+    <!-- <div class="offset"></div>
     <div class="offset"></div>
     <Reviews 
         ENV = {ENV}
         allowedCount = 12
     />
     <div class="offset"></div>
-    <div class="offset"></div>
+    <div class="offset"></div> -->
 </Main> 

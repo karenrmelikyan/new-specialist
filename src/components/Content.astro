@@ -83,38 +83,35 @@ const cards: Card[] = [
 ---
 
 <style>
-    .content {
-        background: var(--secondary-background-color);
-        font-family: 'Inter', system-ui, sans-serif;
-    }
-
+    /* Base (mobile / tablet) */
     .content__container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
         max-width: 100%;
-        display: grid;
-        grid-template-columns: 640px 1fr;
     }
 
     .content__left h2 {
-        margin-top: 0px;
+        margin: 0 0 16px;
         font-size: var(--large);
         line-height: 1.2;
         font-weight: 700;
         color: var(--mani-font-color);
-        margin-bottom: 28px;
     }
 
     .subtitle {
         font-size: var(--middle);
         color: var(--mani-font-color);
-        margin-bottom: 46px;
+        margin-bottom: 24px;
     }
 
     .content__grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 24px;
     }
 
+    /* Card styles */
     .content-card {
         display: block;
         padding: 20px;
@@ -125,11 +122,6 @@ const cards: Card[] = [
         transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
-    .content-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
-    }
-
     .content-card h4 {
         font-size: 24px;
         font-weight: 700;
@@ -137,21 +129,43 @@ const cards: Card[] = [
         margin: 0 0 16px;
     }
 
-   .content-card p {
+    .content-card p {
         font-size: 16px;
-        line-height: 1.2;
+        line-height: 1.45;
         margin: 0 0 10px;
     }
 
     .content-card strong {
         font-weight: 700;
     }
+
+    
+    @media (hover: hover) {
+        .content-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+        }
+    }
+
+    /* ✅ Desktop (≥1200px) */
+    @media (min-width: 1200px) {
+        .content__container {
+            display: grid;
+            grid-template-columns: 640px 1fr;
+            align-items: start;
+            gap: 48px;
+        }
+
+        .content__grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 </style>
 
 <section>
     <div class="content__container">
         <div class="content__left">
-            <h2>Частые поломки стиральных машин</h2>
+            <h2>Частые поломки стираль машин</h2>
             <h3 class="subtitle">Не нашли решение своей проблемы?</h3>
             <button class="btn-transparent" onclick="openModal()">
                 Вызвать мастера
