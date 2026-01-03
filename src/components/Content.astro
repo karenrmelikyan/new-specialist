@@ -123,7 +123,7 @@ const cards: Card[] = [
     }
 
     .content-card h4 {
-        font-size: 24px;
+        font-size: var(--btn-large-font-size);
         font-weight: 700;
         line-height: 1.2;
         margin: 0 0 16px;
@@ -160,12 +160,13 @@ const cards: Card[] = [
             grid-template-columns: repeat(2, 1fr);
         }
     }
+    
 </style>
 
 <section>
     <div class="content__container">
         <div class="content__left">
-            <h2>Частые поломки стираль машин</h2>
+            <h2>Частые поломки стиральных машин</h2>
             <h3 class="subtitle">Не нашли решение своей проблемы?</h3>
             <button class="btn-transparent" onclick="openModal()">
                 Вызвать мастера

@@ -26,10 +26,18 @@
     .header-phone-number { display: none; }
     .header-phone img { display: block; }
     .header { height: 60px; }
+    :root { 
+        --btn-large-font-size: 20px; 
+        --huge: 60px;
+        --large: 30px;
+        --middle: 25px;
+        --small: 16px;
+    }
+    .offset { height: 30px; }
+    .site-footer { padding: 0; }
 }
 
 @media (max-width: 560px) {
     .container { padding-inline: 15px; }
     .header-info-location { display: none; }
-    .btn-large { font-size: 20px; }
 }

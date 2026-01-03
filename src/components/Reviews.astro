@@ -12,7 +12,7 @@ if (allowedCount) {
 <style>
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
         gap: 32px;
     }
 
@@ -29,6 +29,7 @@ if (allowedCount) {
         color: var(--main-font-color);
         margin: 0;
     }
+
     .rating {
         display: flex;
         align-items: center;
@@ -55,7 +56,7 @@ if (allowedCount) {
     }
 
     .text {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.45;
         color: var(--main-font-color);
         margin-bottom: 12px;
@@ -66,12 +67,14 @@ if (allowedCount) {
         padding: 28px 0;
         background: linear-gradient(180deg,#f7fbff,#ffffff);
     }
+
     .trust-inner {
         display: flex;
         justify-content: space-between;
         gap: 20px;
         align-items: center;
     }
+
     .trust-left h3 { 
         margin: 0 0 6px; 
         font-size: 22px; 
@@ -90,35 +93,34 @@ if (allowedCount) {
 <section class="reviews">
     <h2>Отзывы</h2>
     <div class="grid">
-       
-    {allowedReviewsArray.length === 0 
-        ? ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (
-            <article class="card">
-                <h3>{review.name}</h3>
-                <div class="rating">
-                <div class="stars">
-                    <span class="star filled">★★★★★</span>
-                </div>
-                <span class="value">5/5</span>
-                </div>
-                <p class="text">{review.reviewBody}</p>
-            </article>
-            )) 
-        : allowedReviewsArray.map(
-            (review: { name: string; reviewBody: string }) => (
-            <article class="card">
-                <h3>{review.name}</h3>
-                <div class="rating">
-                <div class="stars">
-                    <span class="star filled">★★★★★</span>
-                </div>
-                <span class="value">5/5</span>
-                </div>
-                <p class="text">{review.reviewBody}</p>
-            </article>
+        {allowedReviewsArray.length === 0 
+            ? ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (
+                <article class="card">
+                    <h3>{review.name}</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <span class="star filled">★★★★★</span>
+                        </div>
+                        <span class="value">5/5</span>
+                    </div>
+                    <p class="text">{review.reviewBody}</p>
+                </article>
+                )) 
+            : allowedReviewsArray.map(
+                (review: { name: string; reviewBody: string }) => (
+                <article class="card">
+                    <h3>{review.name}</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <span class="star filled">★★★★★</span>
+                        </div>
+                        <span class="value">5/5</span>
+                    </div>
+                    <p class="text">{review.reviewBody}</p>
+                </article>
+                )
             )
-        )
-    }
+        }
     </div>
 </section>
 
