@@ -21,8 +21,9 @@ const {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
     }
-    
+
     .banner__image.chat {
        background-color: #e8e8fc;
     }
@@ -68,6 +69,38 @@ const {
 
     .banner__content button {
         margin-bottom: 0px;
+    }
+
+    @media (max-width: 768px) {
+        .banner {
+            flex-direction: column;
+        }
+
+        .banner__image {
+            border-radius: var(--border-radius-small);
+            margin-bottom: -40px;
+        }
+
+        .banner__image img {
+            min-height: 320px;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .banner__content {
+            margin-left: 0;    
+            border-radius: var(--border-radius-small);
+            padding: 24px;
+        }
+
+        .banner__content h2 {
+            margin-top: 0;
+            line-height: 1.2;
+        }
+
+        .banner__content p {
+            margin-bottom: 24px;
+        }
     }
 </style>
 

@@ -5,12 +5,10 @@ const { title, picURL, price } = Astro.props
 <style>
     .hero {
         --hero-gutter: 2.5vw;
-
         position: relative;
         top: 10px;
         width: calc(100vw - (var(--hero-gutter) * 2));
         margin-left: calc(50% - 50vw + var(--hero-gutter));
-
         border-radius: var(--border-radius-huge);
         min-height: 800px;
         overflow: hidden;
@@ -129,7 +127,6 @@ const { title, picURL, price } = Astro.props
             height: 45vh;
             min-height: 260px;
             max-height: 420px;
-
             background-position: center;
         }
 
@@ -163,8 +160,10 @@ const { title, picURL, price } = Astro.props
 
     @media (max-width: 768px) {
         .hero {
+            top: 30px;
             border-radius: var(--border-radius-small);
         }
+        
         .hero-title-mobile {
             margin: 0;
             font-size: 35px;
