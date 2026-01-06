@@ -12,6 +12,7 @@
 @media (max-width: 1200px) {
     .btn-small { display: none; }
     .menu-button { display: none; }
+    .mega { display: none; }
     .header-phone img { display: none; }
     .hero-title { display: none; }
     .hero-title-mobile { display: block; }

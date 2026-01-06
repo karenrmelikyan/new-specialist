@@ -59,7 +59,7 @@ const { title, picURL, price } = Astro.props
         padding: 32px 32px 60px;
         background: var(--main-font-color);
         color: var(--main-background-color);
-
+        
         border-radius: var(--border-radius-huge);
         box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
     }
@@ -183,7 +183,7 @@ const { title, picURL, price } = Astro.props
     <div class="hero-content">
         <h1 class="hero-title">{title}</h1>
         <div class="hero-panel">
-            <h1 class="hero-title-mobile">{title}</h1>
+            <div class="hero-title-mobile">{title}</div>
             <ul class="hero-list">
                 <li>Срочный ремонт на дому в удобное для вас время!</li>
                 <li>Нужные для ремонта запчасти всегда в наличии!</li>
@@ -191,7 +191,7 @@ const { title, picURL, price } = Astro.props
                 <li>Работаем по всему городу и области без выходных!</li>
                 <li>Сервисный центр с квалифицированными мастерами!</li>
             </ul>
-
+ 
             <div class="hero-price">
                 <span class="label">Цена:</span>
                 <span class="value">от {price} ₽</span>

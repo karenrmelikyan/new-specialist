@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro'
 const { ENV } = Astro.props
 ---
 <style>
@@ -117,33 +118,45 @@ const { ENV } = Astro.props
     <div class="mega__inner">
         <!-- LEFT SIDEBAR -->
         <ul class="sidebar" data-sidebar>
-            <li class="active" data-category="repair">📱 Ремонт техники</li>
-            <li data-category="services">🛠 Бытовые услуги</li>
-            <li data-category="electric">⚡ Электрика</li>
-            <li data-category="plumbing">🚿 Сантехника</li>
+            <li class="active" data-category="washer">
+                <Icon name="washer" /> Ремонт стиральных машин
+            </li>
+            <li data-category="fridge">
+                <Icon name="fridge" /> Ремонт холодильников
+            </li>
+            <li data-category="dishwasher">
+                <Icon name="dishwasher" /> Ремонт посудомоечных машин
+            </li>
+            <li data-category="dryer">
+                <Icon name="dryer" /> Ремонт сушильных машин
+            </li>
+            <li data-category="faq">
+                <Icon name="faq" /> FAQ
+            </li>
+            <li data-category="about">
+                <Icon name="about" /> О нас
+            </li>
+            <li data-category="reviews">
+                <Icon name="reviews" /> Отзывы
+            </li>
+            <li data-category="localization">
+                <Icon name="localization" /> Поменять язык
+            </li>
         </ul>
 
         <!-- RIGHT CONTENT -->
         <div class="mega__content">
             <!-- PANEL: РЕМОНТ ТЕХНИКИ -->
-            <div class="panel active" data-panel="repair">
-                <div class="mega-title" role="heading" aria-level="2">Ремонт техники</div>
+            <div class="panel active" data-panel="washer">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт стиральных машин</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
                         <ul>
+                            <li>Ремонт стиральных машин</li>
                             <li>Ремонт холодильников</li>
-                            <li>Ремонт холодильного оборудования</li>
-                            <li>Ремонт стиральных машин</li>
-                            <li>Ремонт электрических плит</li>
-                            <li>Ремонт газовых плит</li>
-                            <li>Ремонт телевизоров</li>
-                             <li>Ремонт холодильников</li>
-                            <li>Ремонт холодильного оборудования</li>
-                            <li>Ремонт стиральных машин</li>
-                            <li>Ремонт электрических плит</li>
-                            <li>Ремонт газовых плит</li>
-                            <li>Ремонт телевизоров</li>
+                            <li>Ремонт посудомоечных машин</li>
+                            <li>Ремонт сушильных машин</li>
                         </ul>
                     </div>
 
@@ -174,8 +187,8 @@ const { ENV } = Astro.props
             </div>
 
             <!-- PANEL: БЫТОВЫЕ УСЛУГИ -->
-            <div class="panel" data-panel="services">
-                <div class="mega-title" role="heading" aria-level="2">Бытовые услуги</div>
+            <div class="panel" data-panel="fridge">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт холодильников</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
@@ -216,8 +229,8 @@ const { ENV } = Astro.props
             </div>
 
             <!-- PANEL: ЭЛЕКТРИКА -->
-            <div class="panel" data-panel="electric">
-                <div class="mega-title" role="heading" aria-level="2">Электрика</div>
+            <div class="panel" data-panel="dishwasher">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт посудомоечных машин</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
@@ -258,8 +271,8 @@ const { ENV } = Astro.props
             </div>
 
             <!-- PANEL: САНТЕХНИКА -->
-            <div class="panel" data-panel="plumbing">
-                <div class="mega-title" role="heading" aria-level="2">Сантехника</div>
+            <div class="panel" data-panel="dryer">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт сушильных машин</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
@@ -303,30 +316,30 @@ const { ENV } = Astro.props
 </section>
 
 <script>
-const sidebarItems = document.querySelectorAll<HTMLElement>('[data-category]')
-const panels = document.querySelectorAll<HTMLElement>('[data-panel]')
+    const sidebarItems = document.querySelectorAll<HTMLElement>('[data-category]')
+    const panels = document.querySelectorAll<HTMLElement>('[data-panel]')
 
-sidebarItems.forEach(item => {
-    item.addEventListener('click', () => {
-        const category = item.dataset.category
+    sidebarItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const category = item.dataset.category
 
-        sidebarItems.forEach(i => i.classList.remove('active'))
-        item.classList.add('active')
+            sidebarItems.forEach(i => i.classList.remove('active'))
+            item.classList.add('active')
 
-        panels.forEach(panel => {
-            panel.classList.toggle(
-                'active',
-                panel.dataset.panel === category
-            )
+            panels.forEach(panel => {
+                panel.classList.toggle(
+                    'active',
+                    panel.dataset.panel === category
+                )
+            })
         })
     })
-})
 
-const btn = document.querySelector('[data-menu-toggle]') as HTMLElement
-const menu = document.querySelector('[data-mega-menu]') as HTMLElement
+    const btn = document.querySelector('[data-menu-toggle]') as HTMLElement
+    const menu = document.querySelector('[data-mega-menu]') as HTMLElement
 
-btn.addEventListener('click', () => {
-    menu.classList.toggle('is-open')
-    btn.classList.toggle('is-open')
-})
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('is-open')
+        btn.classList.toggle('is-open')
+    })
 </script>
