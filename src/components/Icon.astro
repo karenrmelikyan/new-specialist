@@ -2,9 +2,6 @@
 import { icon, type IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import {
     faTools,
-    faSnowflake,
-    faUtensils,
-    faWind,
     faQuestionCircle,
     faUser,
     faStar,
@@ -12,10 +9,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 type IconName =
-  | 'washer'
-  | 'fridge'
-  | 'dishwasher'
-  | 'dryer'
+  | 'repair'
   | 'faq'
   | 'about'
   | 'reviews'
@@ -24,10 +18,7 @@ type IconName =
 const { name } = Astro.props as { name: IconName }
 
 const iconsMap: Record<IconName, IconDefinition> = {
-  washer: faTools,
-  fridge: faSnowflake,
-  dishwasher: faUtensils,
-  dryer: faWind,
+  repair: faTools,
   faq: faQuestionCircle,
   about: faUser,
   reviews: faStar,

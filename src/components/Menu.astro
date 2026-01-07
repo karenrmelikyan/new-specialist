@@ -118,17 +118,8 @@ const { ENV } = Astro.props
     <div class="mega__inner">
         <!-- LEFT SIDEBAR -->
         <ul class="sidebar" data-sidebar>
-            <li class="active" data-category="washer">
-                <Icon name="washer" /> Ремонт стиральных машин
-            </li>
-            <li data-category="fridge">
-                <Icon name="fridge" /> Ремонт холодильников
-            </li>
-            <li data-category="dishwasher">
-                <Icon name="dishwasher" /> Ремонт посудомоечных машин
-            </li>
-            <li data-category="dryer">
-                <Icon name="dryer" /> Ремонт сушильных машин
+            <li class="active" data-category="repair">
+                <Icon name="repair" /> Ремонт техники
             </li>
             <li data-category="faq">
                 <Icon name="faq" /> FAQ
@@ -147,21 +138,39 @@ const { ENV } = Astro.props
         <!-- RIGHT CONTENT -->
         <div class="mega__content">
             <!-- PANEL: РЕМОНТ ТЕХНИКИ -->
-            <div class="panel active" data-panel="washer">
-                <div class="mega-title" role="heading" aria-level="2">Ремонт стиральных машин</div>
+            <div class="panel active" data-panel="repair">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт техники</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
                         <ul>
-                            <li>Ремонт стиральных машин</li>
+                            <li data-category="washer">Ремонт стиральных машин</li>
+                            <li data-category="fridge"> Ремонт холодильников</li>
+                            <li data-category="dishwasher">Ремонт посудомоечных машин</li>
+                            <li data-category="dryer">Ремонт сушильных машин</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PANEL: БЫТОВЫЕ УСЛУГИ -->
+            <div class="panel" data-panel="washer">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт стиральных машин</div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
+                        <ul>
                             <li>Ремонт холодильников</li>
-                            <li>Ремонт посудомоечных машин</li>
-                            <li>Ремонт сушильных машин</li>
+                            <li>Ремонт холодильного оборудования</li>
+                            <li>Ремонт стиральных машин</li>
+                            <li>Ремонт электрических плит</li>
+                            <li>Ремонт газовых плит</li>
+                            <li>Ремонт телевизоров</li>
                         </ul>
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
                         <ul>
                             <li>Ремонт телевизоров</li>
                             <li>Ремонт компьютеров</li>
@@ -173,7 +182,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
                             <li>Установка холодильников</li>
                             <li>Установка стиральных машин</li>
@@ -186,12 +195,11 @@ const { ENV } = Astro.props
                 </div>
             </div>
 
-            <!-- PANEL: БЫТОВЫЕ УСЛУГИ -->
             <div class="panel" data-panel="fridge">
                 <div class="mega-title" role="heading" aria-level="2">Ремонт холодильников</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
                             <li>Ремонт холодильников</li>
                             <li>Ремонт холодильного оборудования</li>
@@ -203,7 +211,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
                         <ul>
                             <li>Ремонт телевизоров</li>
                             <li>Ремонт компьютеров</li>
@@ -215,7 +223,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
                             <li>Установка холодильников</li>
                             <li>Установка стиральных машин</li>
@@ -233,7 +241,7 @@ const { ENV } = Astro.props
                 <div class="mega-title" role="heading" aria-level="2">Ремонт посудомоечных машин</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
                             <li>Ремонт холодильников</li>
                             <li>Ремонт холодильного оборудования</li>
@@ -245,7 +253,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
                         <ul>
                             <li>Ремонт телевизоров</li>
                             <li>Ремонт компьютеров</li>
@@ -257,7 +265,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
                             <li>Установка холодильников</li>
                             <li>Установка стиральных машин</li>
@@ -275,7 +283,7 @@ const { ENV } = Astro.props
                 <div class="mega-title" role="heading" aria-level="2">Ремонт сушильных машин</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
                             <li>Ремонт холодильников</li>
                             <li>Ремонт холодильного оборудования</li>
@@ -287,7 +295,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт цифровой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
                         <ul>
                             <li>Ремонт телевизоров</li>
                             <li>Ремонт компьютеров</li>
@@ -299,7 +307,7 @@ const { ENV } = Astro.props
                     </div>
 
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Установка бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
                             <li>Установка холодильников</li>
                             <li>Установка стиральных машин</li>
