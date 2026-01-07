@@ -1,6 +1,5 @@
 ---
 import Icon from '../components/Icon.astro'
-const { ENV } = Astro.props
 ---
 <style>
     /* MEGA MENU */
@@ -28,9 +27,8 @@ const { ENV } = Astro.props
         margin-inline: auto;
         display: grid;
         grid-template-columns: 260px 1fr;
-        gap: 40px;
-
         border-radius: 0 0 24px 24px;
+        gap: 40px;
     }
 
     .mega.is-open {
@@ -346,8 +344,28 @@ const { ENV } = Astro.props
     const btn = document.querySelector('[data-menu-toggle]') as HTMLElement
     const menu = document.querySelector('[data-mega-menu]') as HTMLElement
 
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation()
         menu.classList.toggle('is-open')
         btn.classList.toggle('is-open')
+    })
+
+    // Close when clicking outside
+    document.addEventListener('click', (e) => {
+        const target = e.target as Node
+
+        if (
+            menu.classList.contains('is-open') &&
+            !menu.contains(target) &&
+            !btn.contains(target)
+        ) {
+            menu.classList.remove('is-open')
+            btn.classList.remove('is-open')
+        }
+    })
+
+    // Prevent clicks inside menu from bubbling to document
+    menu.addEventListener('click', (e) => {
+        e.stopPropagation()
     })
 </script>

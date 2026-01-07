@@ -1,5 +1,7 @@
 ---
-const { ENV, allowedCount = null } = Astro.props
+import ENV from '../content/ru/env.json'
+
+const { title, allowedCount = null } = Astro.props
 const allowedReviewsArray = []
 
 if (allowedCount) {
@@ -91,7 +93,7 @@ if (allowedCount) {
 </style>
 
 <section class="reviews">
-    <h2>Отзывы</h2>
+    <h2>{title}</h2>
     <div class="grid">
         {allowedReviewsArray.length === 0 
             ? ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (

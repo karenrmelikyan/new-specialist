@@ -1,5 +1,5 @@
 ---
-const { content } = Astro.props
+import content from '../content/ru/components/benefits.json'
 ---
 
 <style>
@@ -26,7 +26,7 @@ const { content } = Astro.props
 </style>
 
 <section class="benefits">
-    <h2>Наши преимущества</h2>
+    <h2>{content.title}</h2>
     <div class="benefits-grid">
         {content.items.map((item: { h: string; p: string }, index: number) => (
             <div class="benefit">

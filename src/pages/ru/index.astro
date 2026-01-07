@@ -1,20 +1,22 @@
 ---
-import Main from '../../layouts/Main.astro'
+import Main from '../../layouts/ru/Main.astro'
 import ENV from '../../content/ru/env.json'
-import contentIndex from '../../content/index.json'
-import contentBenefits from '../../content/ru/components/benefits.json'
+import content from '../../content/ru/pages/index.json'
 import HeroBanner from '../../components/HeroBanner.astro'
+import Banner from '../../components/Banner.astro'
+import Content from '../../components/Content.astro'
 import ServicesGrid from '../../components/ServicesGrid.astro'
 import Benefits from '../../components/Benefits.astro'
 import Reviews from '../../components/Reviews.astro'
-import Banner from '../../components/Banner.astro'
-import Content from '../../components/Content.astro'
+import getGeneralJsonLd from '../../../public/js/build/getGeneralJsonLd.mjs'
+
+const generalJsonLd = getGeneralJsonLd(ENV)
 ---
 
-<Main title={contentIndex.title} description={contentIndex.description}>
+<Main title={content.title} description={content.description} jsonLd={generalJsonLd}>
     <HeroBanner 
-        title = 'Сервисная служба: Specialist'
-        picURL = '/assets/img/washer-service.webp'
+        title = {content.h1}
+        picURL = {content.src}
         price = 5000
     />
     <div class="offset"></div>
@@ -45,9 +47,7 @@ import Content from '../../components/Content.astro'
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Benefits 
-        content = {contentBenefits} 
-    />
+    <Benefits />
     <div class="offset"></div>
     <div class="offset"></div>
     <Banner 
@@ -60,10 +60,7 @@ import Content from '../../components/Content.astro'
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Reviews 
-        ENV = {ENV}
-        allowedCount = 12
-    />
+    <Reviews allowedCount = 12 />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main> 
