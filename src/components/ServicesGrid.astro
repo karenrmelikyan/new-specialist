@@ -55,8 +55,8 @@ import content from '../content/ru/components/servicesgrid.json'
         {content.items.map((item) => (
             <article class="service-card">
                 <a href={item.href}>
-                    <img
-                        src={item.src}
+                    <img id="image"
+                        data-src={item.src}
                         alt={content.title + " | Specialist"}  
                         class="service-ico"
                     />

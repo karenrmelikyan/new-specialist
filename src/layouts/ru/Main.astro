@@ -1,5 +1,6 @@
 ---
 import '../../assets/css/main.css'
+import ENV from '../../content/ru/env.json'
 import Location from '../../components/Location.astro'
 import Time from '../../components/Time.astro'
 import Menu from '../../components/Menu.astro'
@@ -18,7 +19,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
         <meta name="robots" content="index, follow">
         <meta name="description" content={description} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+        <link rel="icon" type="image/png" href="/assets/img/favicon.webp">
         <title>{title}</title>
 
         {Array.isArray(jsonLd) &&
@@ -49,26 +50,41 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                     captchaAgreeHref = '#',
                     btnText = 'Отправить',
                 />
+                
                 <!-- LEFT SIDE -->
                 <div class="header-left">
-                    <a href="/ru/" class="logo">
-                        <img src="/assets/img/logo2.webp" alt="Logo" />
+                    <a href={ENV.HOST} class="logo">
+                        <img 
+                            id="image"
+                            data-src="/assets/img/logo.webp"
+                            alt="Specialist Logo Yerevan"
+                            title={ENV.HOST}
+                        />
                     </a>
+
                     <button class="menu-button" data-menu-toggle>
                         Все страницы
                         <span class="arrow" aria-hidden="true"></span>
                     </button>
                 </div>
+
                 <!-- RIGHT SIDE -->
                 <div class="header-right">
                     <Location label="Ереван" />
                     <Time label="09–21" />
                     
-                    <div class="header-phone">
+                    <div class="header-phone" title="Call us">
                         <span class="header-phone-number">374 (93) 31-64-61</span>
                     </div>
                     <div class="header-phone">
-                        <img src="/assets/img/phone-call.webp" />
+                        <a href=`tel:${ENV.PHONE}`>
+                            <img 
+                                id="image"
+                                data-src="/assets/img/phone-call.webp" 
+                                alt="Call Us | Specialist Yerevan"
+                                title="Call us"
+                            />
+                        </a>
                     </div>
                     <button class="btn-small" onclick="openModal()">
                         Вызвать мастера
@@ -128,15 +144,24 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 </div>
 
                 <div class="footer-column footer-right">
-                    <img src="/assets/img/logo2.webp" alt="A-Айсберг" class="footer-logo">
+                    <a href={ENV.HOST}>
+                        <img 
+                            id="image" 
+                            data-src="/assets/img/logo.webp" 
+                            class="footer-logo" 
+                            alt="Specialist Yerevan" 
+                            title={ENV.HOST}
+                        >
+                    </a>
+                    
                     <p>© 2004–2025 Сервисный Центр «Specialist»</p>
                     <p>ООО "Техносервис"</p>
                     <p>127549, г. Москва, Алтуфьевское шоссе, д. 64, офис 10</p>
                     <p>ИНН 9715300665</p>
                     <p>ОГРН 1177746409720</p>
                     <div class="social-icons">
-                        <a href="#"><img src="" alt="VK"></a>
-                        <a href="#"><img src="" alt="YouTube"></a>
+                        <a href={ENV.WHATSAPP_URL}><img id="image" data-src="/assets/img/whatsapp.png" alt="WhatsApp Specialist Yerevan" title="WhatsApp"/></a>
+                        <a href={ENV.TELEGRAM_URL}><img id="image" data-src="/assets/img/telegram.png" alt="Telegram Specialist Yerevan" title="Telegram"/></a>
                     </div>
                 </div>
             </div>

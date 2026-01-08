@@ -22,6 +22,16 @@ const { title, picURL, price } = Astro.props
         filter: brightness(0.85);
     }
 
+    .hero-bg-img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: right;
+        filter: brightness(0.85);
+    }
+
     /* content wrapper */
     .hero-content {
         position: relative;
@@ -179,7 +189,16 @@ const { title, picURL, price } = Astro.props
 </style>
 
 <section class="hero">
-    <div class="hero-bg" style={`background-image: url(${picURL});`}></div>
+    <div class="hero-bg">
+        <img
+            id="image"
+            data-src={picURL}
+            alt={title + ' | Yerevan'}
+            class="hero-bg-img"
+            decoding="async"
+        >
+    </div>
+
     <div class="hero-content">
         <h1 class="hero-title">{title}</h1>
         <div class="hero-panel">
