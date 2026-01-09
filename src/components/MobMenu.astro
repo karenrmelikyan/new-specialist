@@ -41,11 +41,17 @@ import Icon from '../components/Icon.astro'
         font-weight: 500;
     }
 
+    /* =====================
+    TABLET & BELOW
+    ===================== */
     @media (max-width: 1200px) {
        .mobile-bottom-menu { display: flex; }
     }
 
-    @media (max-width: 560px) {
+    /* =====================
+    MOBILE
+    ===================== */
+    @media (max-width: 768px) {
         .mobile-bottom-menu { padding: 8px 10px; }
     }
 </style>

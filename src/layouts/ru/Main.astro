@@ -6,6 +6,7 @@ import Time from '../../components/Time.astro'
 import Menu from '../../components/Menu.astro'
 import MobMenu from '../../components/MobMenu.astro'
 import Modal from '../../components/Modal.astro'
+import ScrollUpBtn from '../../components/ScrollUpBtn.astro'
 
 const { title = "#", description = "#", jsonLd = null } = Astro.props
 const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.href
@@ -169,6 +170,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
             captchaAgreeHref = '#',
             btnText = 'Отправить',
         />
+        <ScrollUpBtn />
 
         <!-- Loader -->
         <div id="loader" style="display: none;">

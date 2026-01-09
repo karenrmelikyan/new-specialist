@@ -1,0 +1,82 @@
+---
+---
+
+<style>
+    .btn-scroll-up {
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        width: 70px;
+        height: 70px;
+        border: 2px solid var(--main-font-color);
+        border-radius: 50%;
+        background: var(--main-background-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        z-index: 999;
+    }
+
+    .btn-scroll-up span {
+        display: block;
+        width: 18px;
+        height: 18px;
+        border-right: 2px solid var(--main-font-color);
+        border-bottom: 2px solid var(--main-font-color);
+        transform: rotate(-135deg) translateY(-3px) translateX(-3px);
+    }
+
+    .btn-scroll-up.visible {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* =====================
+    TABLET & BELOW
+    ===================== */
+    @media (max-width: 1200px) {
+       .btn-scroll-up {
+            right: 20px;
+            bottom: 90px;
+       }
+    }
+
+    /* =====================
+    MOBILE
+    ===================== */
+    @media (max-width: 768px) {
+        .btn-scroll-up {
+            right: 20px;
+            bottom: 80px;
+            width: 60px;
+            height: 60px;
+        }
+    }
+</style>
+
+<button class="btn-scroll-up" id="scrollUpBtn">
+  <span></span>
+</button>
+
+<script>
+    const scrollBtn = document.getElementById('scrollUpBtn') as HTMLElement
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+            scrollBtn.classList.add('visible')
+        } else {
+            scrollBtn.classList.remove('visible')
+        }
+    })
+
+    scrollBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    })
+</script>
