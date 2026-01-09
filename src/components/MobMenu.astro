@@ -1,45 +1,70 @@
 ---
-
+import Icon from '../components/Icon.astro'
 ---
 
 <style>
-    .mob-menu {
-        pointer-events: none;
+    .mobile-bottom-menu {
         position: fixed;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
         bottom: 0;
         left: 0;
         right: 0;
         width: 100%;
-        padding: 8px 16px;
-        max-width: 1200;
-        z-index: 100;
-        background-color: var(--main-background-color);
+        margin: 0 auto;
+        padding: 12px 32px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--main-background-color);
+        border-radius: 16px 16px 0 0;
+        border-top: 1px solid var(--darkness-backround-color);
+        z-index: 1000;
     }
 
-    .mob-menu img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .float-left,
-    .float-right {
+    .menu-item {
         display: flex;
-        gap: 20px;
-        pointer-events: auto;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+        border: none;
+        font-size: 13px;
+        color: var(--main-font-color);
+        cursor: pointer;
+        flex: 1;          
+        justify-content: center; 
+        text-align: center;
+        gap: 4px;
+    }
+
+    .menu-item span {
+        font-size: 13px;
+        white-space: nowrap;
+        font-weight: 500;
+    }
+
+    @media (max-width: 1200px) {
+       .mobile-bottom-menu { display: flex; }
+    }
+
+    @media (max-width: 560px) {
+        .mobile-bottom-menu { padding: 8px 10px; }
     }
 </style>
 
-<div class="mob-menu">
-    <div class="float-left">
-        <a href={''} target="_blank">
-            <img id="image" src="/assets/img/phone-call.webp" alt="Телеграмм канал семейной кондитерской Kisura" />
-        </a>
-    </div>
-    <div class="float-right">
-		<button class="btn-transparent">Menu</button>
-	</div>
+<div class="mobile-bottom-menu">
+    <button class="menu-item" data-action="repair">
+        <Icon name="repair" />
+        <span>Все услуги</span>
+    </button>
+
+    <button class="menu-item" data-action="order">
+        <Icon name="plus" />
+        <span>Заявка</span>
+    </button>
+
+    <button class="menu-item" data-action="menu">
+        <Icon name="hamburger" />
+        <span>Меню</span>
+    </button>
 </div>
+
+

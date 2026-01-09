@@ -23,34 +23,15 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
         <title>{title}</title>
 
         {Array.isArray(jsonLd) &&
-            jsonLd.map((item, i) => (
+            jsonLd.map(item => (
                 <script type="application/ld+json" set:html={JSON.stringify(item)} is:inline />
             ))
         }
-
-        <!-- Google font (swap for the real one if you prefer) -->
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- HEADER -->
-        <div class="offset"></div>
         <headers class="header">
             <div class="container header-inner">
-                <Menu />
-                <!-- <MobMenu /> -->
-                <Modal 
-                    title = 'Нужен ремонт?',
-                    subTitle = 'Оставьте заявку, мы с Вами свяжемся',
-                    inputName = 'Имя',
-                    inputPhone = 'Телефон*',
-                    inputCode = 'Код*',
-                    captchaText = 'Введите код с картинки',
-                    captchaAgreeText = 'Я даю согласие на обработку',
-                    captchaAgreeHrefText = 'персональных данных',
-                    captchaAgreeHref = '#',
-                    btnText = 'Отправить',
-                />
-                
                 <!-- LEFT SIDE -->
                 <div class="header-left">
                     <a href={ENV.HOST} class="logo">
@@ -95,7 +76,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
 
         <main>
             <div class="container">
-                <slot />
+                <slot /> <!-- CONTENT -->
             </div> 
         </main>
 
@@ -154,9 +135,9 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                         >
                     </a>
                     
-                    <p>© 2004–2025 Сервисный Центр «Specialist»</p>
+                    <p>© 2004 – <span id="year"></span> Сервисный Центр «Specialist»</p>
                     <p>ООО "Техносервис"</p>
-                    <p>127549, г. Москва, Алтуфьевское шоссе, д. 64, офис 10</p>
+                    <p>{ENV.POSTAL_CODE}, г. {ENV.LOCALITY}, {ENV.STREET_ADDRESS}</p>
                     <p>ИНН 9715300665</p>
                     <p>ОГРН 1177746409720</p>
                     <div class="social-icons">
@@ -167,12 +148,27 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
             </div>
 
             <div class="container footer-bottom">
-                <p>Есть вопросы? Звоните: <a href="tel:+74952131170">8 (495) 213-11-70</a> или пишите <a href="mailto:iceberg@iceberg.ru">iceberg@iceberg.ru</a></p>
-                <p>Режим работы: пн–пт 07:00–23:00</p>
-                <p class="disclaimer">Вся представленная на сайте информация, касающаяся сроков, стоимости и порядка предоставления услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</p>
+                <p>Есть вопросы? Звоните: <a href=`tel:${ENV.PHONE}`>374 (93) 316461 </a> или пишите <a href="mailto:specialist-yerevan@gmail.com">specialist-yerevan@gmail.com</a></p>
+                <p>Режим работы: пн–вс 09:00–21:00</p>
+                <p class="disclaimer">Вся представленная на сайте информация, касающаяся сроков, стоимости и порядка предоставления услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РА.</p>
                 <p class="note">* Некоторые виды работ могут быть выполнены подрядными организациями</p>
             </div>
         </footer>
+
+        <Menu />
+        <MobMenu />
+        <Modal 
+            title = 'Нужен ремонт?',
+            subTitle = 'Оставьте заявку, мы с Вами свяжемся',
+            inputName = 'Имя',
+            inputPhone = 'Телефон*',
+            inputCode = 'Код*',
+            captchaText = 'Введите код с картинки',
+            captchaAgreeText = 'Я даю согласие на обработку',
+            captchaAgreeHrefText = 'персональных данных',
+            captchaAgreeHref = '#',
+            btnText = 'Отправить',
+        />
 
         <!-- Loader -->
         <div id="loader" style="display: none;">

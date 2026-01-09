@@ -5,7 +5,10 @@ import {
     faQuestionCircle,
     faUser,
     faStar,
-    faGlobe
+    faGlobe,
+    faBars,
+    faPlusCircle,
+
 } from '@fortawesome/free-solid-svg-icons'
 
 type IconName =
@@ -13,7 +16,9 @@ type IconName =
   | 'faq'
   | 'about'
   | 'reviews'
-  | 'localization';
+  | 'localization'
+  | 'hamburger'
+  | 'plus'
 
 const { name } = Astro.props as { name: IconName }
 
@@ -22,7 +27,9 @@ const iconsMap: Record<IconName, IconDefinition> = {
   faq: faQuestionCircle,
   about: faUser,
   reviews: faStar,
-  localization: faGlobe
+  localization: faGlobe,
+  hamburger: faBars,
+  plus: faPlusCircle
 }
 
 const svgHTML = icon(iconsMap[name]).html;

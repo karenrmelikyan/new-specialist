@@ -16,6 +16,7 @@
     .header-phone img { display: none; }
     .hero-title { display: none; }
     .hero-title-mobile { display: block; }
+    .icon svg { margin-right: 0px; }
 }
 
 @media (max-width: 990px) {
@@ -35,9 +36,11 @@
     }
     .offset { height: 30px; }
     .site-footer { padding: 0; }
+    .icon svg { width: 18px; height: 18px; }
 }
 
 @media (max-width: 560px) {
     .container { padding-inline: 15px; }
     .header-info-location { display: none; }
 }
+
