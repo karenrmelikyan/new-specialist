@@ -1,0 +1,23 @@
+---
+import Content from '../../../../components/Content.astro'
+import issues from '../../../../content/ru/data/washing_machine_issues.json'
+
+const { slug } = Astro.params
+
+// Находим root issue по slug
+const rootIssue = issues.items.find(item => item.slug === slug)
+
+if (!rootIssue) {
+    throw new Error(`Issue not found for slug: ${slug}`)
+}
+
+// Теперь отбираем те items, у которых нет slug (дочерние проблемы)
+const detailIssues = {
+    title: rootIssue.title,
+    subtitle: issues.subtitle,
+    btnText: issues.btnText,
+    items: issues.items.filter(item => item.slugs && item.slugs.includes(rootIssue.slug))
+}
+---
+
+<Content issues={detailIssues} />

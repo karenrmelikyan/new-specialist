@@ -8,8 +8,8 @@
         bottom: 30px;
         width: 70px;
         height: 70px;
-        border: 2px solid var(--main-font-color);
         border-radius: 50%;
+        border: 2px solid var(--main-font-color);
         background: var(--main-background-color);
         display: flex;
         justify-content: center;
@@ -35,6 +35,10 @@
         pointer-events: auto;
     }
 
+    .btn-scroll-up:hover {
+        opacity: 0.5;
+    }
+
     /* =====================
     TABLET & BELOW
     ===================== */
@@ -58,8 +62,8 @@
     }
 </style>
 
-<button class="btn-scroll-up" id="scrollUpBtn">
-  <span></span>
+<button id="scrollUpBtn" class="btn-scroll-up">
+    <span></span>
 </button>
 
 <script>

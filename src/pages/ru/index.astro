@@ -4,7 +4,6 @@ import ENV from '../../content/ru/env.json'
 import content from '../../content/ru/pages/index.json'
 import HeroBanner from '../../components/HeroBanner.astro'
 import Banner from '../../components/Banner.astro'
-import Content from '../../components/Content.astro'
 import ServicesGrid from '../../components/ServicesGrid.astro'
 import Benefits from '../../components/Benefits.astro'
 import Reviews from '../../components/Reviews.astro'
@@ -19,9 +18,6 @@ const generalJsonLd = getGeneralJsonLd(ENV)
         picURL = {content.src}
         price = 5000
     />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Content />
     <div class="offset"></div>
     <div class="offset"></div>
     <Banner 
