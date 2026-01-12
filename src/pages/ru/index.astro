@@ -1,7 +1,7 @@
 ---
 import Main from '../../layouts/ru/Main.astro'
 import ENV from '../../content/ru/env.json'
-import content from '../../content/ru/pages/index.json'
+import content from '../../content/ru/index.json'
 import HeroBanner from '../../components/HeroBanner.astro'
 import Banner from '../../components/Banner.astro'
 import ServicesGrid from '../../components/ServicesGrid.astro'
@@ -14,9 +14,9 @@ const generalJsonLd = getGeneralJsonLd(ENV)
 
 <Main title={content.title} description={content.description} jsonLd={generalJsonLd}>
     <HeroBanner 
-        title = {content.h1}
-        picURL = {content.src}
-        price = 5000
+        h1 = {content.h1}
+        src = {content.src}
+        price = {content.price + ' ' + ENV.CURRENCY_SIGN}
     />
     <div class="offset"></div>
     <div class="offset"></div>

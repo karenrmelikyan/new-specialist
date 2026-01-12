@@ -1,7 +1,10 @@
 {
+    "indexPageTitle": "Ремонт стиральных машин",
     "title": "Частые поломки стиральных машин",
     "subtitle": "Не нашли решение своей проблемы?",
     "btnText": "Вызвать мастера",
+    "src": "/assets/img/washer-service.webp",
+    "price": "10.000",
 
     "items": [
         {

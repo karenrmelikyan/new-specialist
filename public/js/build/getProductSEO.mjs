@@ -1,14 +1,13 @@
-export default function getProductSEO(product, localization = 'hy') {
+export default function getProductSEO(title, localization = 'hy') {
     if (localization === 'ru') {
         return {
-            title: `${product.h1} - Specialist`,
-            description: `Закажите ${product.h1} в сервисном центре Specialist с рейтингом ⭐4.9/5. Только оригинальные запасные части, высокое качество облсуживания и быстрота отклика.`,
+            title: `${title} | Specialist Ереван`,
+            description: `${title}. Закажите ремонт в Ереване. Сервисная служба с рейтингом ⭐4.9/5. Гарантия, оригинальные запасные части, высокое качество облсуживания и быстрота отклика.`,
         }
     } else {
         return {
-            title: `${product.h1} - Specialist`,
-            description: `Պատվիրեք ${product.h1} Specialist - սերվիս կենտրոնում ⭐4.9/5 վարկանիշով. Միայն օրիգինալ պահեստամասեր, բարձրակարգ սպասարկում և արագ արձագանք:`,
+            title: `${title} | Specialist Երևան`,
+            description: `${title}. Պատվիրեք վերանորոգում Երևանում: Կենցաղային ծառայություն ⭐4.9/5 վարկանիշով: Երաշխիք, օրիգինալ պահեստամասեր, բարձրորակ սպասարկում և արագ արձագանք։`,
         }
     }
 }
-  

@@ -1,5 +1,5 @@
 ---
-const { title, picURL, price } = Astro.props
+const { h1, src, price } = Astro.props
 ---
 
 <style>
@@ -192,17 +192,17 @@ const { title, picURL, price } = Astro.props
     <div class="hero-bg">
         <img
             id="image"
-            data-src={picURL}
-            alt={title + ' | Yerevan'}
+            data-src={src}
+            alt={h1 + ' | Yerevan'}
             class="hero-bg-img"
             decoding="async"
         >
     </div>
 
     <div class="hero-content">
-        <h1 class="hero-title">{title}</h1>
+        <h1 class="hero-title">{h1}</h1>
         <div class="hero-panel">
-            <div class="hero-title-mobile">{title}</div>
+            <div class="hero-title-mobile">{h1}</div>
             <ul class="hero-list">
                 <li>Срочный ремонт на дому в удобное для вас время!</li>
                 <li>Нужные для ремонта запчасти всегда в наличии!</li>
@@ -213,7 +213,7 @@ const { title, picURL, price } = Astro.props
  
             <div class="hero-price">
                 <span class="label">Цена:</span>
-                <span class="value">от {price} ₽</span>
+                <span class="value">от {price}</span>
             </div>
 
             <div class="hero-actions">

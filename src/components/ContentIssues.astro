@@ -1,25 +1,48 @@
 ---
 interface IssueItem {
-    slug: string;
-    title: string;
-    sign?: string;
-    causes?: string;
-    slugs?: string[];
+  slug: string;
+  title: string;
+  sign?: string;
+  causes?: string;
 }
 
 interface IssuesProps {
-    title: string;
-    subtitle?: string;
-    btnText?: string;
-    items: IssueItem[];
+  title: string;
+  subtitle?: string;
+  btnText?: string;
+  items: IssueItem[];
 }
 
 const { issues } = Astro.props as { issues: IssuesProps }
-
-const rootIssues = issues.items.some((i: { slugs?: string[] }) => i.slugs?.length)
-    ? issues.items.filter((i: { slugs?: string[] }) => i.slugs && i.slugs.length > 0)
-    : issues.items
 ---
+
+<section>
+    <div class="content__container">
+        <div class="content__left">
+            <h2>{issues.title}</h2>
+            <h3 class="subtitle">{issues.subtitle}</h3>
+            <button class="btn-transparent" onclick="openModal()">
+                {issues.btnText}
+            </button>
+        </div>
+
+        <div class="content__grid">
+            {issues.items.map(issue => (
+                <a href={`${issue.slug}/`} class="content-card">
+                    <h4>{issue.title}</h4>
+                    <p>
+                        <strong>Признак:</strong> {issue.sign}
+                    </p>
+                    {issue.causes && issue.causes.trim() !== '' && (
+                        <p>
+                            <strong>Причины:</strong> {issue.causes}
+                        </p>
+                    )}
+                </a>
+            ))}
+        </div>
+    </div>
+</section>
 
 <style>
     /* Base (mobile / tablet) */
@@ -99,31 +122,3 @@ const rootIssues = issues.items.some((i: { slugs?: string[] }) => i.slugs?.lengt
         }
     }
 </style>
-
-<section>
-    <div class="content__container">
-        <div class="content__left">
-            <h2>{issues.title}</h2>
-            <h3 class="subtitle">{issues.subtitle}</h3>
-            <button class="btn-transparent" onclick="openModal()">
-                {issues.btnText}
-            </button>
-        </div>
-
-        <div class="content__grid">
-            {rootIssues.map(issue => (
-                <a href={`/${issue.slug}/`} class="content-card">
-                    <h4>{issue.title}</h4>
-                    <p>
-                        <strong>Признак:</strong> {issue.sign}
-                    </p>
-                    {issue.causes && issue.causes.trim() !== '' && (
-                        <p>
-                            <strong>Причины:</strong> {issue.causes}
-                        </p>
-                    )}
-                </a>
-            ))}
-        </div>
-    </div>
-</section>

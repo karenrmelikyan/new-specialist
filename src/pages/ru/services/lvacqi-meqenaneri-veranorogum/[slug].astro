@@ -1,23 +1,96 @@
 ---
-import Content from '../../../../components/Content.astro'
-import issues from '../../../../content/ru/data/washing_machine_issues.json'
+import Main from '../../../../layouts/ru/Main.astro'
+import HeroBanner from '../../../../components/HeroBanner.astro'
+import Banner from '../../../../components/Banner.astro'
+import ServicesGrid from '../../../../components/ServicesGrid.astro'
+import Benefits from '../../../../components/Benefits.astro'
+import Reviews from '../../../../components/Reviews.astro'
+import ContentIssues from '../../../../components/ContentIssues.astro'
+import ENV from '../../../../content/ru/env.json'
+import content from '../../../../content/ru/services/content_issues_washer.json'
+import getProductSEO from '../../../../../public/js/build/getProductSEO.mjs'
+
+export async function getStaticPaths() {
+    return content.items.map(item => ({
+        params: { slug: item.slug }
+    }))
+}
 
 const { slug } = Astro.params
 
-// Находим root issue по slug
-const rootIssue = issues.items.find(item => item.slug === slug)
+// Find parent
+const parent = content.items.find(i => i.slug === slug)
 
-if (!rootIssue) {
-    throw new Error(`Issue not found for slug: ${slug}`)
+// If no parent found → 404
+if (!parent) {
+    throw new Error(`Issue not found: ${slug}`)
 }
 
-// Теперь отбираем те items, у которых нет slug (дочерние проблемы)
-const detailIssues = {
-    title: rootIssue.title,
-    subtitle: issues.subtitle,
-    btnText: issues.btnText,
-    items: issues.items.filter(item => item.slugs && item.slugs.includes(rootIssue.slug))
+// Find children
+const children = content.items.filter(i => parent.slugs?.includes(i.slug))
+
+// If no children → show self as a leaf
+const pageItems = children.length > 0 ? children : [parent]
+
+const pageData = {
+    title: parent.title,
+    subtitle: content.subtitle,
+    btnText: content.btnText,
+    items: pageItems
 }
+
+const { title, description } = getProductSEO(parent.title, 'ru')
 ---
 
-<Content issues={detailIssues} />
+<Main title={title} description={description} jsonLd={""}>
+    <HeroBanner 
+        h1 = {parent.title}
+        src = {content.src}
+        price = {content.price + ' ' + ENV.CURRENCY_SIGN}
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <ContentIssues issues={pageData} />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Banner 
+        title = 'Вызовите мастера в пару кликов!' 
+        description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
+        background = 'chat' 
+        btnInscription = 'Написать в чат' 
+        picURL = '/assets/img/chat-preview.webp' 
+        url = 'Open WhatsApp'
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <ServicesGrid />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Banner 
+        title = 'Почему выбирают наш сервис?' 
+        description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
+        background = 'benefits' 
+        btnInscription = 'О Компании' 
+        picURL = '/assets/img/benefits-preview.webp' 
+        url = 'Go to About'
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Benefits />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Banner 
+        title = 'Нас вдохновляют отзывы заказчиков!' 
+        description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
+        background = 'benefits' 
+        btnInscription = 'Оставить отзыв' 
+        picURL = '/assets/img/reviews-preview.webp' 
+        url = {ENV.GOOGLE_URL}
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <Reviews allowedCount = 12 />
+    <div class="offset"></div>
+    <div class="offset"></div>
+</Main>
+

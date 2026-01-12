@@ -6,22 +6,32 @@ import ServicesGrid from '../../../../components/ServicesGrid.astro'
 import Benefits from '../../../../components/Benefits.astro'
 import Reviews from '../../../../components/Reviews.astro'
 import ContentIssues from '../../../../components/ContentIssues.astro'
-
 import ENV from '../../../../content/ru/env.json'
+import content from '../../../../content/ru/services/content_issues_washer.json'
+import getProductSEO from '../../../../../public/js/build/getProductSEO.mjs'
+//import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
 
-import content from '../../../../content/ru/pages/services/lvacqi_meqenaneri_veranorogum.json'
-import issues from '../../../../content/ru/components/content_issues_washer.json'
+const { title, description } = getProductSEO(content.indexPageTitle, 'ru')
+// const productJsonLd = getProductJsonLd(ENV)
 
-import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
+const rootItems = content.items.filter(i => i.slugs && i.slugs.length > 0)
 
-//const productJsonLd = getProductJsonLd(ENV)
+const pageData = {
+    title: content.title,
+    subtitle: content.subtitle,
+    btnText: content.btnText,
+    items: rootItems
+}
 ---
-<Main title={""} description={""} jsonLd={""}>
-    <!-- <HeroBanner 
-        title = {content.h1}
-        picURL = {content.src}
-        price = 5000
-    /> -->
+<Main title={title} description={description} jsonLd={""}>
+    <HeroBanner 
+        h1 = {content.indexPageTitle}
+        src = {content.src}
+        price = {content.price + ' ' + ENV.CURRENCY_SIGN}
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <ContentIssues issues={pageData} />
     <div class="offset"></div>
     <div class="offset"></div>
     <Banner 
@@ -32,9 +42,6 @@ import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mj
         picURL = '/assets/img/chat-preview.webp' 
         url = 'Open WhatsApp'
     />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <ContentIssues issues={issues} />
     <div class="offset"></div>
     <div class="offset"></div>
     <ServicesGrid />
