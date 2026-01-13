@@ -1,10 +1,6 @@
 ---
 import Main from '../../../../layouts/ru/Main.astro'
 import HeroBanner from '../../../../components/HeroBanner.astro'
-import Banner from '../../../../components/Banner.astro'
-import ServicesGrid from '../../../../components/ServicesGrid.astro'
-import Benefits from '../../../../components/Benefits.astro'
-import Reviews from '../../../../components/Reviews.astro'
 import ContentIssues from '../../../../components/ContentIssues.astro'
 import ENV from '../../../../content/ru/env.json'
 import content from '../../../../content/ru/services/content_issues_washer.json'
@@ -29,6 +25,8 @@ const productJsonLd = getProductJsonLd(
     ENV
     )
 ---
+
+<!-- Washer repair index page -->
 <Main title={title} description={description} jsonLd={productJsonLd}>
     <HeroBanner 
         h1 = {content.indexPageTitle}
@@ -38,45 +36,6 @@ const productJsonLd = getProductJsonLd(
     <div class="offset"></div>
     <div class="offset"></div>
     <ContentIssues issues={pageData} />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Banner 
-        title = 'Вызовите мастера в пару кликов!' 
-        description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
-        background = 'chat' 
-        btnInscription = 'Написать в чат' 
-        picURL = '/assets/img/chat-preview.webp' 
-        url = 'Open WhatsApp'
-    />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <ServicesGrid />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Banner 
-        title = 'Почему выбирают наш сервис?' 
-        description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
-        background = 'benefits' 
-        btnInscription = 'О Компании' 
-        picURL = '/assets/img/benefits-preview.webp' 
-        url = 'Go to About'
-    />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Benefits />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Banner 
-        title = 'Нас вдохновляют отзывы заказчиков!' 
-        description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
-        background = 'benefits' 
-        btnInscription = 'Оставить отзыв' 
-        picURL = '/assets/img/reviews-preview.webp' 
-        url = {ENV.GOOGLE_URL}
-    />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <Reviews ENV={ENV}, localization='ru' />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main>

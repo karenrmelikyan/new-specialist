@@ -26,7 +26,7 @@ const { ENV, localization } = Astro.props
         <div class="trust-inner">
             <div class="trust-left">
                 <h3>Реальные отзывы клиентов</h3>
-                <p class="muted">Средняя оценка {ENV.RATING} на основе {ENV.REVIEW_COUNT} отзывов</p>
+                <p class="muted">Средняя оценка {ENV.RATING} на основе <a href={ENV.GOOGLE_REVIEWS_URL} target="_blank">{ENV.REVIEW_COUNT} отзывов</a></p>
                 <div class="rating-large">{ENV.RATING} ★</div>
             </div>
         </div>
@@ -54,7 +54,7 @@ const { ENV, localization } = Astro.props
             <div class="trust-inner">
                 <div class="trust-left">
                     <h3>Հաճախորդների իրական կարծիքներ</h3>
-                    <p class="muted">Միջին գնահատական {ENV.RATING} հիմնված {ENV.REVIEW_COUNT} կարծիքի վրա</p>
+                    <p class="muted">Միջին գնահատական {ENV.RATING} հիմնված <a href={ENV.GOOGLE_REVIEWS_URL} target="_blank">{ENV.REVIEW_COUNT} կարծիքի վրա</a></p>
                     <div class="rating-large">{ENV.RATING} ★</div>
                 </div>
             </div>

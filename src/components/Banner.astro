@@ -9,6 +9,23 @@ const {
 } = Astro.props
 ---
 
+<section class="banner">
+    <div class:list={['banner__image', background]}>
+        <img id="image"
+            data-src={picURL}
+            alt={title + ' | Specialist'} 
+        />
+    </div>
+
+    <div class="banner__content">
+        <h2>{title}</h2>
+        <p>{description}</p>
+        <button class="btn-large" onclick={`goToURL('${url}')`}>
+            {btnInscription}
+        </button>
+    </div>
+</section>
+
 <style>
     .banner {
         display: flex;
@@ -103,21 +120,4 @@ const {
         }
     }
 </style>
-
-<section class="banner">
-    <div class:list={['banner__image', background]}>
-        <img id="image"
-            data-src={picURL}
-            alt={title + ' | Specialist'} 
-        />
-    </div>
-
-    <div class="banner__content">
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <button class="btn-large" onclick={`goToURL('${url}')`}>
-            {btnInscription}
-        </button>
-    </div>
-</section>
 

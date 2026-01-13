@@ -67,7 +67,7 @@ function initCopyrightYearInjection() {
  * @param {*} url 
  */
 function goToURL(url) {
-    window.location.href = url
+    window.open(url, '_blank', 'noopener,noreferrer');
 }
 
 /**
