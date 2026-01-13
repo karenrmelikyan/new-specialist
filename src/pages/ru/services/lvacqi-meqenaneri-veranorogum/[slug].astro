@@ -9,6 +9,7 @@ import ContentIssues from '../../../../components/ContentIssues.astro'
 import ENV from '../../../../content/ru/env.json'
 import content from '../../../../content/ru/services/content_issues_washer.json'
 import getProductSEO from '../../../../../public/js/build/getProductSEO.mjs'
+import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
 
 export async function getStaticPaths() {
     return content.items.map(item => ({
@@ -39,10 +40,17 @@ const pageData = {
     items: pageItems
 }
 
-const { title, description } = getProductSEO(parent.title, 'ru')
+const { title, description } = getProductSEO(parent.title, parent.sign, 'ru')
+const productJsonLd = getProductJsonLd(
+    parent.title, 
+    parent.sign, 
+    content.src, 
+    content.price, 
+    ENV
+    )
 ---
 
-<Main title={title} description={description} jsonLd={""}>
+<Main title={title} description={description} jsonLd={productJsonLd}>
     <HeroBanner 
         h1 = {parent.title}
         src = {content.src}

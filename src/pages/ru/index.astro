@@ -1,6 +1,6 @@
 ---
 import Main from '../../layouts/ru/Main.astro'
-import ENV from '../../content/ru/env.json'
+import ENV from '../../content/env.json'
 import content from '../../content/ru/index.json'
 import HeroBanner from '../../components/HeroBanner.astro'
 import Banner from '../../components/Banner.astro'
@@ -56,7 +56,7 @@ const generalJsonLd = getGeneralJsonLd(ENV)
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Reviews allowedCount = 12 />
+    <Reviews ENV={ENV}, localization='ru' />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main> 

@@ -1,6 +1,29 @@
 ---
 ---
 
+<button id="scrollUpBtn" class="btn-scroll-up">
+    <span></span>
+</button>
+
+<script>
+    const scrollBtn = document.getElementById('scrollUpBtn') as HTMLElement
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+            scrollBtn.classList.add('visible')
+        } else {
+            scrollBtn.classList.remove('visible')
+        }
+    })
+
+    scrollBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    })
+</script>
+
 <style>
     .btn-scroll-up {
         position: fixed;
@@ -61,26 +84,3 @@
         }
     }
 </style>
-
-<button id="scrollUpBtn" class="btn-scroll-up">
-    <span></span>
-</button>
-
-<script>
-    const scrollBtn = document.getElementById('scrollUpBtn') as HTMLElement
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 500) {
-            scrollBtn.classList.add('visible')
-        } else {
-            scrollBtn.classList.remove('visible')
-        }
-    })
-
-    scrollBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
-    })
-</script>

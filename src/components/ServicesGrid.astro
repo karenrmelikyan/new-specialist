@@ -32,6 +32,30 @@ const content =
 }
 ---
 
+<section class="services">
+    <h2>{content.title}</h2>
+    <div class="services-grid">
+        {content.items.map((item) => (
+            <article class="service-card">
+                <a href={item.href}>
+                    <img id="image"
+                        data-src={item.src}
+                        alt={content.title + " | Specialist"}  
+                        class="service-ico"
+                    />
+                </a>
+
+                <h4>{item.h}</h4>
+                <p>{item.p}</p>
+
+                <a class="card-link" href={item.href}>
+                    {content.hrefText}
+                </a>
+            </article>
+        ))}
+    </div>
+</section>
+
 <style>
     .section-title {
         font-size: 26px;
@@ -78,27 +102,3 @@ const content =
         text-decoration: none; 
     }
 </style>
-
-<section class="services">
-    <h2>{content.title}</h2>
-    <div class="services-grid">
-        {content.items.map((item) => (
-            <article class="service-card">
-                <a href={item.href}>
-                    <img id="image"
-                        data-src={item.src}
-                        alt={content.title + " | Specialist"}  
-                        class="service-ico"
-                    />
-                </a>
-
-                <h4>{item.h}</h4>
-                <p>{item.p}</p>
-
-                <a class="card-link" href={item.href}>
-                    {content.hrefText}
-                </a>
-            </article>
-        ))}
-    </div>
-</section>

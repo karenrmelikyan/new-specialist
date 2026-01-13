@@ -2,6 +2,47 @@
 const { h1, src, price } = Astro.props
 ---
 
+<section class="hero">
+    <div class="hero-bg">
+        <img
+            id="image"
+            data-src={src}
+            alt={h1 + ' | Yerevan'}
+            class="hero-bg-img"
+            decoding="async"
+        >
+    </div>
+
+    <div class="hero-content">
+        <h1 class="hero-title">{h1}</h1>
+        <div class="hero-panel">
+            <div class="hero-title-mobile">{h1}</div>
+            <ul class="hero-list">
+                <li>Срочный ремонт на дому в удобное для вас время!</li>
+                <li>Нужные для ремонта запчасти всегда в наличии!</li>
+                <li>Электронная гарантия на все виды работ!</li>
+                <li>Работаем по всему городу и области без выходных!</li>
+                <li>Сервисный центр с квалифицированными мастерами!</li>
+            </ul>
+ 
+            <div class="hero-price">
+                <span class="label">Цена:</span>
+                <span class="value">от {price}</span>
+            </div>
+
+            <div class="hero-actions">
+                <button class="btn-large" onclick="openModal()">
+                    Вызвать мастера
+                </button>
+                <div class="hero-time">
+                    <span class="icon">🕒</span>
+                    Прием заявок: <strong>24/7</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <style>
     .hero {
         --hero-gutter: 2.5vw;
@@ -171,6 +212,7 @@ const { h1, src, price } = Astro.props
         .hero {
             top: 60px;
             border-radius: var(--border-radius-small);
+            margin-bottom: 30px;
         }
         
         .hero-title-mobile {
@@ -187,47 +229,4 @@ const { h1, src, price } = Astro.props
         }
     }
 </style>
-
-<section class="hero">
-    <div class="hero-bg">
-        <img
-            id="image"
-            data-src={src}
-            alt={h1 + ' | Yerevan'}
-            class="hero-bg-img"
-            decoding="async"
-        >
-    </div>
-
-    <div class="hero-content">
-        <h1 class="hero-title">{h1}</h1>
-        <div class="hero-panel">
-            <div class="hero-title-mobile">{h1}</div>
-            <ul class="hero-list">
-                <li>Срочный ремонт на дому в удобное для вас время!</li>
-                <li>Нужные для ремонта запчасти всегда в наличии!</li>
-                <li>Электронная гарантия на все виды работ!</li>
-                <li>Работаем по всему городу и области без выходных!</li>
-                <li>Сервисный центр с квалифицированными мастерами!</li>
-            </ul>
- 
-            <div class="hero-price">
-                <span class="label">Цена:</span>
-                <span class="value">от {price}</span>
-            </div>
-
-            <div class="hero-actions">
-                <button class="btn-large" onclick="openModal()">
-                    Вызвать мастера
-                </button>
-                <div class="hero-time">
-                    <span class="icon">🕒</span>
-                    Прием заявок: <strong>24/7</strong>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 

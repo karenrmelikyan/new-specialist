@@ -39,6 +39,19 @@ const content =
 }
 ---
 
+<section class="benefits">
+    <h2>{content.title}</h2>
+    <div class="benefits-grid">
+        {content.items.map((item: { h: string; p: string }, index: number) => (
+            <div class="benefit">
+                <div class="big-num">0{index + 1}</div>
+                <h4>{item.h}</h4>
+                <p>{item.p}</p>
+            </div>
+        ))}
+    </div>
+</section>
+
 <style>
     .benefits-grid {
         display: grid;
@@ -61,16 +74,3 @@ const content =
         margin-bottom: 8px;
     }
 </style>
-
-<section class="benefits">
-    <h2>{content.title}</h2>
-    <div class="benefits-grid">
-        {content.items.map((item: { h: string; p: string }, index: number) => (
-            <div class="benefit">
-                <div class="big-num">0{index + 1}</div>
-                <h4>{item.h}</h4>
-                <p>{item.p}</p>
-            </div>
-        ))}
-    </div>
-</section>

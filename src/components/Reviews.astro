@@ -1,15 +1,66 @@
 ---
-import ENV from '../content/ru/env.json'
-
-const { title, allowedCount = null } = Astro.props
-const allowedReviewsArray = []
-
-if (allowedCount) {
-    for (let i = 0; i < allowedCount; i ++) {
-        allowedReviewsArray.push(ENV.REVIEWS[i])
-    }
-}
+const { ENV, localization } = Astro.props
 ---
+
+{localization === 'ru' 
+    ? (
+    <section class="reviews">
+        <h2>Отзывы</h2>
+        <div class="grid">
+            {ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (
+                <article class="card">
+                    <h3>{review.name}</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <span class="star filled">★★★★★</span>
+                        </div>
+                        <span class="value">5/5</span>
+                    </div>
+                    <p class="text">{review.reviewBody}</p>
+                </article>
+            ))}
+        </div>
+    </section>
+
+    <section class="trust">
+        <div class="trust-inner">
+            <div class="trust-left">
+                <h3>Реальные отзывы клиентов</h3>
+                <p class="muted">Средняя оценка {ENV.RATING} на основе {ENV.REVIEW_COUNT} отзывов</p>
+                <div class="rating-large">{ENV.RATING} ★</div>
+            </div>
+        </div>
+    </section>
+    ) : (
+        <section class="reviews">
+            <h2>Կարծիքներ</h2>
+            <div class="grid">
+                {ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (
+                    <article class="card">
+                        <h3>{review.name}</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star filled">★★★★★</span>
+                            </div>
+                            <span class="value">5/5</span>
+                        </div>
+                        <p class="text">{review.reviewBody}</p>
+                    </article>
+                ))}
+            </div>
+        </section>
+
+        <section class="trust">
+            <div class="trust-inner">
+                <div class="trust-left">
+                    <h3>Հաճախորդների իրական կարծիքներ</h3>
+                    <p class="muted">Միջին գնահատական {ENV.RATING} հիմնված {ENV.REVIEW_COUNT} կարծիքի վրա</p>
+                    <div class="rating-large">{ENV.RATING} ★</div>
+                </div>
+            </div>
+        </section>
+    )
+}
 
 <style>
     .grid {
@@ -91,50 +142,6 @@ if (allowedCount) {
         margin-top: 8px; 
     }
 </style>
-
-<section class="reviews">
-    <h2>{title}</h2>
-    <div class="grid">
-        {allowedReviewsArray.length === 0 
-            ? ENV.REVIEWS.map((review: { name: string; reviewBody: string }) => (
-                <article class="card">
-                    <h3>{review.name}</h3>
-                    <div class="rating">
-                        <div class="stars">
-                            <span class="star filled">★★★★★</span>
-                        </div>
-                        <span class="value">5/5</span>
-                    </div>
-                    <p class="text">{review.reviewBody}</p>
-                </article>
-                )) 
-            : allowedReviewsArray.map(
-                (review: { name: string; reviewBody: string }) => (
-                <article class="card">
-                    <h3>{review.name}</h3>
-                    <div class="rating">
-                        <div class="stars">
-                            <span class="star filled">★★★★★</span>
-                        </div>
-                        <span class="value">5/5</span>
-                    </div>
-                    <p class="text">{review.reviewBody}</p>
-                </article>
-                )
-            )
-        }
-    </div>
-</section>
-
-<section class="trust">
-    <div class="trust-inner">
-        <div class="trust-left">
-            <h3>Реальные отзывы клиентов</h3>
-            <p class="muted">Средняя оценка {ENV.RATING} на основе {ENV.REVIEW_COUNT} отзывов</p>
-            <div class="rating-large">{ENV.RATING} ★</div>
-        </div>
-    </div>
-</section>
 
 
 

@@ -1,116 +1,6 @@
 ---
 import Icon from '../components/Icon.astro'
 ---
-<style>
-    /* MEGA MENU */
-    .mega {
-        position: fixed;
-        top: 70px;
-        left: 0;
-        width: 100vw;
-
-        background: var(--main-background-color);
-        box-shadow:
-            0 20px 32px -24px rgba(0, 0, 0, 0.22),
-            0 8px 12px -8px rgba(0, 0, 0, 0.18);
-
-        max-height: 0;
-        opacity: 0;
-        overflow: hidden;
-        transform: translateY(-10px);
-        transition: all 0.25s ease;
-        z-index: 998;
-    }
-
-    .mega__inner {
-        max-width: var(--main-container-width);
-        margin-inline: auto;
-        display: grid;
-        grid-template-columns: 260px 1fr;
-        border-radius: 0 0 24px 24px;
-        gap: 40px;
-    }
-
-    .mega.is-open {
-        max-height: 1200px;
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    /* SIDEBAR */
-    .sidebar {
-        list-style: none;
-        padding-top: 32px;
-        margin: 0;
-    }
-
-    .sidebar li {
-        padding: 12px 16px;
-        border-radius: 12px;
-        cursor: pointer;
-        color: var(--main-font-color);
-        font-weight: 500;
-    }
-
-    .sidebar li:hover {
-        background: var(--main-font-hover);
-    }
-
-    .sidebar li.active {
-        background: var(--main-font-hover);
-        font-weight: var(--font-weight);
-    }
-
-    .mega__content {
-        overflow-y: auto;
-        padding: 32px;
-    }
-
-    .mega-title {
-        font-size: 32px;
-        margin-bottom: 32px;
-        color: var(--main-font-color);
-        font-weight: var(--font-weight);
-    }
-
-    .column-title {
-        font-size: 20px;
-        margin-bottom: 16px;
-        color: var(--main-font-color);
-        font-weight: var(--font-weight);
-    }
-
-    .columns {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 48px;
-    }
-
-    .column ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .column li {
-        padding: 6px 0;
-        color: var(--main-font-color);
-        cursor: pointer;
-    }
-
-    .column li:hover {
-        text-decoration: underline;
-    }
-
-    /* PANELS */
-    .panel {
-        display: none;
-    }
-
-    .panel.active {
-        display: block;
-    }
-</style>
 
 <section class="mega" data-mega-menu>
     <div class="mega__inner">
@@ -369,3 +259,114 @@ import Icon from '../components/Icon.astro'
         e.stopPropagation()
     })
 </script>
+
+<style>
+    /* MEGA MENU */
+    .mega {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100vw;
+
+        background: var(--main-background-color);
+        box-shadow:
+            0 20px 32px -24px rgba(0, 0, 0, 0.22),
+            0 8px 12px -8px rgba(0, 0, 0, 0.18);
+
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(-10px);
+        transition: all 0.25s ease;
+        z-index: 998;
+    }
+
+    .mega__inner {
+        max-width: var(--main-container-width);
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        border-radius: 0 0 24px 24px;
+        gap: 40px;
+    }
+
+    .mega.is-open {
+        max-height: 1200px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+        list-style: none;
+        padding-top: 32px;
+        margin: 0;
+    }
+
+    .sidebar li {
+        padding: 12px 16px;
+        border-radius: 12px;
+        cursor: pointer;
+        color: var(--main-font-color);
+        font-weight: 500;
+    }
+
+    .sidebar li:hover {
+        background: var(--main-font-hover);
+    }
+
+    .sidebar li.active {
+        background: var(--main-font-hover);
+        font-weight: var(--font-weight);
+    }
+
+    .mega__content {
+        overflow-y: auto;
+        padding: 32px;
+    }
+
+    .mega-title {
+        font-size: 32px;
+        margin-bottom: 32px;
+        color: var(--main-font-color);
+        font-weight: var(--font-weight);
+    }
+
+    .column-title {
+        font-size: 20px;
+        margin-bottom: 16px;
+        color: var(--main-font-color);
+        font-weight: var(--font-weight);
+    }
+
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+    }
+
+    .column ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .column li {
+        padding: 6px 0;
+        color: var(--main-font-color);
+        cursor: pointer;
+    }
+
+    .column li:hover {
+        text-decoration: underline;
+    }
+
+    /* PANELS */
+    .panel {
+        display: none;
+    }
+
+    .panel.active {
+        display: block;
+    }
+</style>

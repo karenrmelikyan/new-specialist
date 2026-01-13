@@ -1,4 +1,4 @@
-export default function getProductJsonLd(product, productCategory, ENV) {
+export default function getProductJsonLd(title, description, src, price, ENV) {
     const priceValidUntil = new Date();
     priceValidUntil.setFullYear(priceValidUntil.getFullYear() + 1);
     const priceValidUntilStr = priceValidUntil.toISOString().split("T")[0]; // YYYY-MM-DD
@@ -20,9 +20,9 @@ export default function getProductJsonLd(product, productCategory, ENV) {
     const productJsonLd = {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": product.h1,
-        "description": product.p,
-        "image": `/assets/img/${productCategory}/${product.slug}/1.webp`,
+        "name": title,
+        "description": description,
+        "image": src,
         "brand": {
             "@type": "Brand",
             "name": ENV.BRAND
@@ -36,7 +36,7 @@ export default function getProductJsonLd(product, productCategory, ENV) {
         },
         "offers": {
             "@type": "Offer",
-            "price": product.price,
+            "price": price,
             "priceCurrency": ENV.CURRENCY,
             "priceValidUntil": priceValidUntilStr,
             "availability": "https://schema.org/InStock",

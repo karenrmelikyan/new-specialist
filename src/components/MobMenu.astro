@@ -2,6 +2,23 @@
 import Icon from '../components/Icon.astro'
 ---
 
+<div class="mobile-bottom-menu">
+    <button class="menu-item" data-action="repair">
+        <Icon name="repair" />
+        <span>Все услуги</span>
+    </button>
+
+    <button class="menu-item" data-action="order">
+        <Icon name="plus" />
+        <span>Заявка</span>
+    </button>
+
+    <button class="menu-item" data-action="menu">
+        <Icon name="hamburger" />
+        <span>Меню</span>
+    </button>
+</div>
+
 <style>
     .mobile-bottom-menu {
         position: fixed;
@@ -55,22 +72,5 @@ import Icon from '../components/Icon.astro'
         .mobile-bottom-menu { padding: 8px 10px; }
     }
 </style>
-
-<div class="mobile-bottom-menu">
-    <button class="menu-item" data-action="repair">
-        <Icon name="repair" />
-        <span>Все услуги</span>
-    </button>
-
-    <button class="menu-item" data-action="order">
-        <Icon name="plus" />
-        <span>Заявка</span>
-    </button>
-
-    <button class="menu-item" data-action="menu">
-        <Icon name="hamburger" />
-        <span>Меню</span>
-    </button>
-</div>
 
 

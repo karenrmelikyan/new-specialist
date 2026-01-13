@@ -33,6 +33,62 @@ const {
     btnText = '',
 } = Astro.props
 ---
+
+<div class={`modal-overlay ${open ? "is-open" : ""}`} id="modal">
+    <div class="modal">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+
+        <h2 class="modal-title">{title}</h2>
+        <p class="modal-subtitle">{subTitle}</p>
+
+        <form class="modal-form">
+            <input type="text" placeholder={inputName} />
+
+            <input type="tel" placeholder={inputPhone} required />
+
+            {captchaText}
+            <div class="captcha-row">
+                <div class="captcha-image">
+                    Г Н Е Т
+                </div>
+                <button type="button" class="captcha-refresh" aria-label="Refresh captcha">
+                  ↻
+                </button>
+            </div>
+
+            <input type="text" placeholder={inputCode} required />
+
+            <label class="checkbox">
+                <input type="checkbox" checked />
+                <span>
+                    {captchaAgreeText}
+                    <a href={captchaAgreeHref} target="_blank">{captchaAgreeHrefText}</a>
+                </span>
+            </label>
+
+            <button type="submit" class="submit-btn">{btnText}</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById("modal") as HTMLElement
+    const closeBtn = modal.querySelector(".modal-close") as HTMLElement
+
+    closeBtn.addEventListener("click", () => {
+        modal.classList.remove("is-open")
+    })
+
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("is-open")
+        }
+    })
+
+    // optional global open function
+    window.openModal = () => modal.classList.add("is-open")
+</script>
+
 <style>
     /* =========================
     Overlay
@@ -237,59 +293,4 @@ const {
         box-shadow: 0 10px 25px rgba(244, 67, 54, 0.4);
     }
 </style>
-
-<div class={`modal-overlay ${open ? "is-open" : ""}`} id="modal">
-    <div class="modal">
-        <button class="modal-close" aria-label="Close modal">&times;</button>
-
-        <h2 class="modal-title">{title}</h2>
-        <p class="modal-subtitle">{subTitle}</p>
-
-        <form class="modal-form">
-            <input type="text" placeholder={inputName} />
-
-            <input type="tel" placeholder={inputPhone} required />
-
-            {captchaText}
-            <div class="captcha-row">
-                <div class="captcha-image">
-                    Г Н Е Т
-                </div>
-                <button type="button" class="captcha-refresh" aria-label="Refresh captcha">
-                  ↻
-                </button>
-            </div>
-
-            <input type="text" placeholder={inputCode} required />
-
-            <label class="checkbox">
-                <input type="checkbox" checked />
-                <span>
-                    {captchaAgreeText}
-                    <a href={captchaAgreeHref} target="_blank">{captchaAgreeHrefText}</a>
-                </span>
-            </label>
-
-            <button type="submit" class="submit-btn">{btnText}</button>
-        </form>
-    </div>
-</div>
-
-<script>
-    const modal = document.getElementById("modal") as HTMLElement
-    const closeBtn = modal.querySelector(".modal-close") as HTMLElement
-
-    closeBtn.addEventListener("click", () => {
-        modal.classList.remove("is-open")
-    })
-
-    modal.addEventListener("click", (e) => {
-        if (e.target === modal) {
-            modal.classList.remove("is-open")
-        }
-    })
-
-    // optional global open function
-    window.openModal = () => modal.classList.add("is-open")
-</script>
 

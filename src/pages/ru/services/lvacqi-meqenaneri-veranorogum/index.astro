@@ -9,10 +9,7 @@ import ContentIssues from '../../../../components/ContentIssues.astro'
 import ENV from '../../../../content/ru/env.json'
 import content from '../../../../content/ru/services/content_issues_washer.json'
 import getProductSEO from '../../../../../public/js/build/getProductSEO.mjs'
-//import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
-
-const { title, description } = getProductSEO(content.indexPageTitle, 'ru')
-// const productJsonLd = getProductJsonLd(ENV)
+import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
 
 const rootItems = content.items.filter(i => i.slugs && i.slugs.length > 0)
 
@@ -22,8 +19,17 @@ const pageData = {
     btnText: content.btnText,
     items: rootItems
 }
+
+const { title, description } = getProductSEO(content.indexPageTitle, content.subtitle, 'ru')
+const productJsonLd = getProductJsonLd(
+    content.indexPageTitle, 
+    description, 
+    content.src, 
+    content.price, 
+    ENV
+    )
 ---
-<Main title={title} description={description} jsonLd={""}>
+<Main title={title} description={description} jsonLd={productJsonLd}>
     <HeroBanner 
         h1 = {content.indexPageTitle}
         src = {content.src}
@@ -70,7 +76,7 @@ const pageData = {
     />
     <div class="offset"></div>
     <div class="offset"></div>
-    <Reviews allowedCount = 12 />
+    <Reviews ENV={ENV}, localization='ru' />
     <div class="offset"></div>
     <div class="offset"></div>
 </Main>
