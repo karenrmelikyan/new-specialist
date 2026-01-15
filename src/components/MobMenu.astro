@@ -2,75 +2,279 @@
 import Icon from '../components/Icon.astro'
 ---
 
-<div class="mobile-bottom-menu">
-    <button class="menu-item" data-action="repair">
-        <Icon name="repair" />
-        <span>Все услуги</span>
-    </button>
+<div class="mbmenu">
+	<div class="mbmenu-bottom">
+		<button class="mbmenu-item" data-action="open">
+			<Icon name="repair" />
+			<span>Все услуги</span>
+		</button>
+		<button class="mbmenu-item">
+			<Icon name="plus" />
+			<span>Заявка</span>
+		</button>
+		<button class="mbmenu-item">
+			<Icon name="hamburger" />
+			<span>Меню</span>
+		</button>
+	</div>
 
-    <button class="menu-item" data-action="order">
-        <Icon name="plus" />
-        <span>Заявка</span>
-    </button>
+	<div class="mbmenu-modal">
+		<div class="mbmenu-header">
+			<button class="mbmenu-back mbmenu-is-hidden">
+				<svg width="38" height="38" viewBox="0 0 24 24" fill="none">
+					<path d="M15 18l-6-6 6-6" stroke="#3f3d63" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</button>
+			<div class="mbmenu-title">Все услуги</div>
+			<button class="mbmenu-close">✕</button>
+		</div>
 
-    <button class="menu-item" data-action="menu">
-        <Icon name="hamburger" />
-        <span>Меню</span>
-    </button>
+		<div class="mbmenu-wrapper">
+			<div class="mbmenu-view mbmenu-is-active" data-level="1"></div>
+			<div class="mbmenu-view" data-level="2"></div>
+			<div class="mbmenu-view" data-level="3"></div>
+		</div>
+	</div>
 </div>
 
 <style>
-    .mobile-bottom-menu {
+    /* BOTTOM BAR */
+    .mbmenu-bottom {
         position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 100%;
-        margin: 0 auto;
-        padding: 12px 32px;
         display: none;
         justify-content: space-between;
-        align-items: center;
+        padding: 10px 20px;
         background: var(--main-background-color);
+        border-top: 1px solid var(--main-background-color);
         border-radius: 16px 16px 0 0;
-        border-top: 1px solid var(--darkness-backround-color);
-        z-index: 1000;
+        z-index: 3000;
     }
 
-    .menu-item {
+    .mbmenu-item {
+        flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 6px;
         background: none;
         border: none;
         font-size: 13px;
+        font-weight: var(--font-weight);
+    }
+
+    /* MODAL */
+    .mbmenu-modal {
+        position: fixed;
+        inset: 0;
+        display: none;
+        flex-direction: column;
+        background: var(--main-background-color);
+        z-index: 2000;
+    }
+
+    .mbmenu-modal.mbmenu-open {
+        display: flex;
+    }
+
+    /* HEADER */
+    .mbmenu-header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        font-size: calc(var(--middle) - 5px);
+        font-weight: var(--font-weight);
+        padding: 30px 20px;
+    }
+
+    .mbmenu-back,
+    .mbmenu-close {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding-right: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: none;
+        font-size: var(--middle);
         color: var(--main-font-color);
+    }
+
+    .mbmenu-back { left: 0; }
+    .mbmenu-close { right: 0; }
+
+    .mbmenu-item,
+    .mbmenu-back,
+    .mbmenu-close:hover {
         cursor: pointer;
-        flex: 1;          
-        justify-content: center; 
-        text-align: center;
-        gap: 4px;
     }
 
-    .menu-item span {
-        font-size: 13px;
-        white-space: nowrap;
-        font-weight: 500;
+    .mbmenu-is-hidden { display: none; }
+
+    /* WRAPPER */
+    .mbmenu-wrapper {
+        position: relative;
+        flex: 1;
+        overflow: hidden;
+        padding-bottom: 60px;
     }
 
-    /* =====================
-    TABLET & BELOW
-    ===================== */
+    /* SLIDES */
+    .mbmenu-view {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        background: var(--main-background-color);
+        transform: translateX(100%);
+        transition: transform .35s cubic-bezier(.4,0,.2,1);
+        padding: 20px;
+    }
+
+    .mbmenu-view.mbmenu-is-active { transform: translateX(0); }
+    .mbmenu-view.mbmenu-is-prev { transform: translateX(-100%); }
+    .mbmenu-view.mbmenu-is-next { transform: translateX(100%); }
+
+    /* IMPORTANT: dynamic items must be global for styling */
+    :global(.mbmenu-item-row) {
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: var(--small);
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background 0.2s;
+    }
+
+    :global(.mbmenu-item-row:hover) {
+        background: var(--main-font-hover);
+    }
+
+    /* arrows */
+    :global(.mbmenu-item-row svg) {
+        width: 18px;
+        height: 18px;
+        margin-left: 6px;
+        flex-shrink: 0;
+        margin-top: 2px; /* little drop down */
+    }
+
+    :global(.mbmenu-section) {
+        padding: 8px 0;
+        font-weight: var(--font-weight);
+        font-size: var(--small);
+    }
+
+    /* BREAKPOINTS */
     @media (max-width: 1200px) {
-       .mobile-bottom-menu { display: flex; }
+        .mbmenu-bottom { display: flex; }
     }
-
-    /* =====================
-    MOBILE
-    ===================== */
     @media (max-width: 768px) {
-        .mobile-bottom-menu { padding: 8px 10px; }
+        .mbmenu-bottom { padding: 8px 10px; }
     }
 </style>
 
+<script is:inline>
+    const modal = document.querySelector('.mbmenu-modal')
+    const openBtn = document.querySelector('[data-action="open"]')
+    const closeBtn = document.querySelector('.mbmenu-close')
+    const backBtn = document.querySelector('.mbmenu-back')
+    const title = document.querySelector('.mbmenu-title')
+    const views = [...document.querySelectorAll('.mbmenu-view')]
+    let stack = []
 
+    const data = {
+        "Ремонт техники": {
+            "Стиральные машины": ["Не сливает","Не отжимает","Замена подшипника","Замена ТЭНа"],
+            "Холодильники": ["Не морозит","Заправка фреоном","Замена компрессора"]
+        }
+    }
+
+    const getArrow = () => `
+        <svg viewBox="0 0 24 24" fill="none">
+            <path d="M8 5l8 7-8 7" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    `
+
+    function renderLevel1() {
+        const v = views[0]
+        v.innerHTML = Object.keys(data).map(name => `
+            <div class="mbmenu-item-row" data-cat="${name}">
+                <span>${name}</span>
+                ${getArrow()}
+            </div>
+        `).join('')
+
+        v.querySelectorAll('[data-cat]').forEach(el =>
+            el.onclick = () => renderLevel2(el.dataset.cat)
+        )
+    }
+
+    function renderLevel2(cat) {
+        const v = views[1]
+        v.innerHTML = `<div class="mbmenu-section">${cat}</div>` +
+            Object.keys(data[cat]).map(sub => `
+                <div class="mbmenu-item-row" data-sub="${sub}">
+                    <span>${sub}</span>
+                    ${getArrow()}
+                </div>
+            `).join('')
+
+        v.querySelectorAll('[data-sub]').forEach(el =>
+            el.onclick = () => renderLevel3(cat, el.dataset.sub)
+        )
+
+        slideTo(1, cat)
+    }
+
+    function renderLevel3(cat, sub) {
+        const v = views[2]
+        v.innerHTML = `<div class="mbmenu-section">${sub}</div>` +
+            data[cat][sub].map(x => `
+                <div class="mbmenu-item-row"><span>${x}</span></div>
+            `).join('')
+
+        slideTo(2, sub)
+    }
+
+    function slideTo(level, label) {
+        const current = views.find(v => v.classList.contains('mbmenu-is-active'))
+        const next = views[level]
+        stack.push(current)
+        views.forEach(v => v.classList.remove('mbmenu-is-active','mbmenu-is-prev','mbmenu-is-next'))
+        current.classList.add('mbmenu-is-prev')
+        next.classList.add('mbmenu-is-active')
+        title.textContent = label
+        backBtn.classList.remove('mbmenu-is-hidden')
+    }
+
+    backBtn.onclick = () => {
+        const prev = stack.pop()
+        const current = views.find(v => v.classList.contains('mbmenu-is-active'))
+        views.forEach(v => v.classList.remove('mbmenu-is-active','mbmenu-is-prev','mbmenu-is-next'))
+        prev.classList.add('mbmenu-is-active')
+        current.classList.add('mbmenu-is-next')
+        if (!stack.length) {
+            backBtn.classList.add('mbmenu-is-hidden')
+            title.textContent = "Все услуги"
+        }
+    }
+
+    openBtn.onclick = () => modal.classList.add('mbmenu-open')
+    closeBtn.onclick = () => {
+        modal.classList.remove('mbmenu-open')
+        stack = []
+        backBtn.classList.add('mbmenu-is-hidden')
+        title.textContent = "Все услуги"
+        renderLevel1()
+    }
+
+    renderLevel1()
+</script>
