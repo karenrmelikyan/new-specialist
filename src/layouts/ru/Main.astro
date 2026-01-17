@@ -24,7 +24,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
         <meta name="robots" content="index, follow">
         <meta name="description" content={description} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="icon" type="image/png" href="/assets/img/favicon.webp">
+        <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
         <title>{title}</title>
 
         {Array.isArray(jsonLd) &&
@@ -39,7 +39,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
             <div class="container header-inner">
                 <!-- LEFT SIDE -->
                 <div class="header-left">
-                    <a href={ENV.HOST} class="logo">
+                    <a href={'/ru/'} class="logo">
                         <img 
                             id="image"
                             data-src="/assets/img/logo.webp"
@@ -83,6 +83,9 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
             <div class="container">
                 <slot /> <!-- Main Page Content -->
 
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <div class="offset"></div>
                 <Banner 
                     title = 'Вызовите мастера в пару кликов!' 
                     description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
@@ -94,6 +97,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 <div class="offset"></div>
                 <div class="offset"></div>
                 <ServicesGrid />
+                <div class="offset"></div>
                 <div class="offset"></div>
                 <div class="offset"></div>
                 <Banner 
@@ -109,6 +113,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 <Benefits />
                 <div class="offset"></div>
                 <div class="offset"></div>
+                <div class="offset"></div>
                 <Banner 
                     title = 'Нас вдохновляют отзывы заказчиков!' 
                     description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
@@ -120,6 +125,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 <div class="offset"></div>
                 <div class="offset"></div>
                 <Reviews ENV={ENV}, localization='ru' />
+                <div class="offset"></div>
                 <div class="offset"></div>
                 <div class="offset"></div>
             </div> 
@@ -173,7 +179,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                     <a href={ENV.HOST}>
                         <img 
                             id="image" 
-                            data-src="/assets/img/logo.webp" 
+                            data-src="/assets/img/logo-filled-background.webp" 
                             class="footer-logo" 
                             alt="Specialist Yerevan" 
                             title={ENV.HOST}
