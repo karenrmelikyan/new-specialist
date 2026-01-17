@@ -63,7 +63,10 @@ import Icon from '../components/Icon.astro'
             <!-- LEVEL 1 -->
             <div class="mbmenu-view view-1">
                 <label for="level2-smas" class="mbmenu-item-row">
-                    Ремонт техники
+                   <span class="row-left">
+                        <Icon name="repair" />
+                        Ремонт техники
+                    </span>
                     <svg viewBox="0 0 24 24" fill="none">
                         <path d="M8 5l8 7-8 7" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
@@ -206,7 +209,6 @@ import Icon from '../components/Icon.astro'
         position: relative;
         flex: 1;
         overflow: hidden;
-        padding-bottom: 60px;
     }
 
     /* ---------------------- VIEWS / SLIDES ---------------------- */
@@ -255,6 +257,12 @@ import Icon from '../components/Icon.astro'
         margin-left: 6px;
         flex-shrink: 0;
         margin-top: 2px;
+    }
+
+    .mbmenu-item-row .row-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
     /* ---------------------- SECTIONS ---------------------- */
