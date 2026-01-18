@@ -34,6 +34,7 @@ const {
 } = Astro.props
 ---
 
+<!-- Modal part -->
 <div class={`modal-overlay ${open ? "is-open" : ""}`} id="modal">
     <div class="modal">
         <button class="modal-close" aria-label="Close modal">&times;</button>
@@ -43,7 +44,6 @@ const {
 
         <form class="modal-form">
             <input type="text" placeholder={inputName} />
-
             <input type="tel" placeholder={inputPhone} required />
 
             {captchaText}
@@ -66,12 +66,24 @@ const {
                 </span>
             </label>
 
-            <button type="submit" class="submit-btn">{btnText}</button>
+            <button id="HTTPRequestBtn" class="submit-btn">
+                {btnText}
+            </button>
         </form>
     </div>
 </div>
 
+<!-- Loader part (invisible by default) -->
+<div id="loader" style="display: none;">
+    <div class="loader-overlay">
+        <div class="spinner"></div>
+    </div>
+</div>
+
 <script>
+    /* =====================
+    MODAL FRAME
+    ===================== */
     const modal = document.getElementById("modal") as HTMLElement
     const closeBtn = modal.querySelector(".modal-close") as HTMLElement
 
@@ -87,6 +99,55 @@ const {
 
     // optional global open function
     window.openModal = () => modal.classList.add("is-open")
+
+
+    /* =====================
+    HTTP REQUEST
+    ===================== */
+    document.getElementById('HTTPRequestBtn')?.addEventListener('click', () => {
+        const loader = document.getElementById('loader')
+
+        if (!loader) return
+
+        // show now
+        loader.style.display = 'block'
+
+        // hide after 5s
+        setTimeout(() => {
+            loader.style.display = 'none'
+        }, 5000)
+    })
+
+
+
+
+
+    async function requestTo({ url = '',  data = {},  method = 'POST', }) {
+        const loader = document.getElementById('loader')
+        
+        if (!loader) return
+
+        loader.style.display = 'block' // start loader
+
+        try {
+            const response = await fetch(url, {
+                method,
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: method.toUpperCase() !== 'GET' ? JSON.stringify(data) : null,
+            })
+
+            const responseText = await response.text()
+
+            return responseText
+        } catch (err) {
+            console.error('Fetch error:', err)
+            throw err
+        } finally {
+            loader.style.display = 'none' // finish loader
+        }
+    }
 </script>
 
 <style>
@@ -96,34 +157,50 @@ const {
     .modal-overlay {
         position: fixed;
         inset: 0;
-        z-index: 1000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.55);
+        z-index: 3001;
+        background: rgba(0,0,0,0.55);
         opacity: 0;
         pointer-events: none;
-        transition: opacity 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        transition: opacity .3s ease;
     }
 
     .modal-overlay.is-open {
         opacity: 1;
-        pointer-events: all;
+        pointer-events: auto;
     }
 
     /* =========================
     Modal
     ========================= */
     .modal {
-        position: relative;
-
-        width: min(92vw, calc(var(--main-container-width) / 1.35));
-        height: 100%;
-        padding: 48px;
-        border-radius: var(--border-radius-huge);
+        width: 100%;
+        max-width: 1100px;
+        max-height: 95vh;
+        padding: 36px;
         background: var(--main-font-color);
         color: var(--main-background-color);
-        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+        border-radius: var(--large);
+        box-shadow: 0 -8px 40px rgba(0,0,0,.35);
+
+        /* layout + scroll */
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+
+        /* animation */
+        transform: translateY(100%);
+        opacity: 0;
+        transition:
+            transform .35s cubic-bezier(.25,.8,.25,1),
+            opacity .35s ease-out;
+    }
+
+    .modal-overlay.is-open .modal {
+        transform: translateY(0);
+        opacity: 1;
     }
 
     /* =========================
@@ -135,39 +212,36 @@ const {
         right: 16px;
         width: 64px;
         height: 64px;
+        border: none;
         border-radius: 50%;
         display: flex;
-        align-items: center;
         justify-content: center;
-        border: none;
-        background: rgba(255, 255, 255, 0.18);
+        align-items: center;
+        background: rgba(255,255,255,.18);
         color: var(--main-background-color);
-        font-size: var(--large);
         cursor: pointer;
-        transition: background 0.6s ease, transform 0.6s ease;
+        font-size: var(--large);
+        transition: background .3s ease;
     }
 
     .modal-close:hover {
-        background: rgba(255, 255, 255, 0.38);
+        background: rgba(255,255,255,.35);
     }
 
     /* =========================
-    Text
+    Typography
     ========================= */
-    .modal-title,
-    .modal-subtitle {
-        font-weight: var(--font-weight);
-    }
-
     .modal-title {
-        margin-bottom: 12px;
         font-size: var(--large);
+        font-weight: var(--font-weight);
+        margin-bottom: 12px;
     }
 
     .modal-subtitle {
-        margin-bottom: var(--large);
         font-size: var(--middle);
-        opacity: 0.9;
+        font-weight: var(--font-weight);
+        opacity: .9;
+        margin-bottom: var(--large);
     }
 
     /* =========================
@@ -181,13 +255,13 @@ const {
 
     .modal-form input {
         padding: var(--padding-large);
-        border-radius: 22px;
         border: 2px solid transparent;
-        background: rgba(255, 255, 255, 0.087);
-        font-size: var(--small);
+        border-radius: 22px;
+        background: rgba(255,255,255,.087);
         color: var(--main-background-color);
+        font-size: var(--small);
         outline: none;
-        transition: border-color 0.6s ease;
+        transition: border-color .3s ease;
     }
 
     .modal-form input:hover {
@@ -207,11 +281,6 @@ const {
         gap: 12px;
     }
 
-    .captcha-image,
-    .captcha-refresh {
-        color: var(--main-background-color);
-    }
-
     .captcha-image {
         padding: 10px 16px;
         border-radius: 6px;
@@ -224,8 +293,9 @@ const {
     .captcha-refresh {
         border: none;
         background: none;
-        font-size: 20px;
         cursor: pointer;
+        color: var(--main-background-color);
+        font-size: var(--small);
     }
 
     /* =========================
@@ -235,8 +305,8 @@ const {
         display: flex;
         align-items: flex-start;
         gap: 10px;
-        margin-top: 10px;
         font-size: var(--small);
+        margin-top: 10px;
     }
 
     .checkbox input {
@@ -251,24 +321,100 @@ const {
     }
 
     /* =========================
-    Submit
+    Submit button
     ========================= */
     .submit-btn {
         margin-top: 10px;
+        width: 100%;
         padding: var(--padding-large);
         border: none;
         border-radius: var(--border-radius-small);
-        background: #f44336;
-        color: var(--main-background-color);
         font-size: 24px;
         font-weight: var(--font-weight);
+        background: #f44336;
+        color: var(--main-background-color);
         cursor: pointer;
-        transition: transform 0.6s ease, box-shadow 0.6s ease;
+        transition: box-shadow .3s ease, transform .3s ease;
     }
 
     .submit-btn:hover {
         transform: translateY(-1px);
-        box-shadow: 0 10px 25px rgba(244, 67, 54, 0.4);
+        box-shadow: 0 10px 25px rgba(244,67,54,.4);
+    }
+
+    /* =========================
+    Mobile Sheet Behaviour
+    ========================= */
+    @media (max-width: 768px) {
+        .modal {
+            border-radius: 24px 24px 0 0;
+            padding: 24px;
+            max-height: 95vh;
+        }
+
+        .modal-close {
+            width: 44px;
+            height: 44px;
+            top: 8px;
+            right: 8px;
+            font-size: 26px;
+        }
+
+        .modal-title {
+            margin-bottom: -15px;
+        }
+
+        .modal-form input {
+            padding: 18px;
+            border-radius: 26px;
+            font-size: 16px;
+        }
+
+        .submit-btn {
+            font-size: var(--small);
+            padding: 20px;
+        }
+    }
+
+    /* =========================
+    iOS Momentum scroll + safe area
+    ========================= */
+    @supports (-webkit-touch-callout:none) {
+        .modal {
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: calc(env(safe-area-inset-bottom) + 24px);
+        }
+    }
+
+    /* =========================
+    Loader
+    ========================= */
+    .loader-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4); /* semi-transparent dark overlay */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 4000 !important
+    }
+    
+    .spinner {
+        width: 60px;
+        height: 60px;
+        border: 6px solid #f3f3f3;
+        border-top: 6px solid #4CAF50; /* green accent */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+    
+    /* Spinner animation */
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
     }
 </style>
 
