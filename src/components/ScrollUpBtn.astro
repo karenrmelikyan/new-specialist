@@ -38,9 +38,18 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
+
+        /* visibility control */
         opacity: 0;
+        visibility: hidden;
         pointer-events: none;
-        transition: opacity 0.3s ease;
+        transform: translateY(20px);
+
+        transition:
+            opacity 0.3s ease,
+            visibility 0.3s ease,
+            transform 0.3s ease;
+
         z-index: 999;
     }
 
@@ -53,23 +62,29 @@
         transform: rotate(-135deg) translateY(-3px) translateX(-3px);
     }
 
+    /* visible state */
     .btn-scroll-up.visible {
         opacity: 1;
+        visibility: visible;
         pointer-events: auto;
+        transform: translateY(0);
     }
 
-    .btn-scroll-up:hover {
-        opacity: 0.5;
+    /* hover only on devices that really support hover */
+    @media (hover: hover) and (pointer: fine) {
+        .btn-scroll-up:hover {
+            opacity: 0.5;
+        }
     }
 
     /* =====================
     TABLET & BELOW
     ===================== */
     @media (max-width: 1200px) {
-       .btn-scroll-up {
+        .btn-scroll-up {
             right: 20px;
             bottom: 90px;
-       }
+        }
     }
 
     /* =====================

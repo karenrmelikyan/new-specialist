@@ -121,7 +121,7 @@ const {
 
 
 
-
+    //
     async function requestTo({ url = '',  data = {},  method = 'POST', }) {
         const loader = document.getElementById('loader')
         
@@ -147,6 +147,37 @@ const {
         } finally {
             loader.style.display = 'none' // finish loader
         }
+    }
+
+    //
+    function getNormalizedArmenianPhoneNumber(input = '') {
+        if (typeof input !== 'string') return null
+    
+        // Remove all non-digit characters
+        let digits = input.replace(/\D/g, '')
+    
+        // Remove leading 0 if present (e.g., 093316461 → 93316461)
+        if (digits.length === 8 && digits.startsWith('0')) {
+            digits = digits.slice(1)
+        }
+    
+        // Case 1: Already in full format (e.g., 37493316461)
+        if (digits.length === 11 && digits.startsWith('374')) {
+            const localPart = digits.slice(3)
+            if (localPart.length === 8) return '+374' + localPart
+        }
+    
+        // Case 2: Local format (e.g., 93316461)
+        if (digits.length === 8) {
+            return '+374' + digits
+        }
+    
+        // Case 3: Mistakenly passed 9 digits starting with 9X (e.g., 093316461)
+        if (digits.length === 9 && digits.startsWith('0')) {
+            return '+374' + digits.slice(1)
+        }
+    
+        return null
     }
 </script>
 
@@ -182,7 +213,7 @@ const {
         padding: 36px;
         background: var(--main-font-color);
         color: var(--main-background-color);
-        border-radius: var(--large);
+        border-radius: var(--large) var(--large) 0 0;
         box-shadow: 0 -8px 40px rgba(0,0,0,.35);
 
         /* layout + scroll */
@@ -348,7 +379,7 @@ const {
     @media (max-width: 768px) {
         .modal {
             border-radius: 24px 24px 0 0;
-            padding: 24px;
+            padding: 16px;
             max-height: 95vh;
         }
 
@@ -357,7 +388,7 @@ const {
             height: 44px;
             top: 8px;
             right: 8px;
-            font-size: 26px;
+            font-size: 40px;
         }
 
         .modal-title {
