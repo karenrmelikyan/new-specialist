@@ -13,13 +13,13 @@ import Icon from '../components/Icon.astro'
             <Icon name="plus" />
             <span>Заявка</span>
         </button>
-        <button class="mbmenu-item">
+        <label for="toggle-main-menu" class="mbmenu-item">
             <Icon name="hamburger" />
             <span>Меню</span>
-        </button>
+        </label>
     </div>
 
-    <!-- Hidden inputs to control modal and levels -->
+    <!-- Hidden inputs to control service modal and levels -->
     <input type="checkbox" id="toggle-menu" hidden>
     <input type="radio" name="mbmenu-level" id="level1" checked hidden>
     <input type="radio" name="mbmenu-level" id="level2-smas" hidden>
@@ -27,7 +27,53 @@ import Icon from '../components/Icon.astro'
     <input type="radio" name="mbmenu-level" id="level3-smas" hidden>
     <input type="radio" name="mbmenu-level" id="level3-fridge" hidden>
 
-    <!-- Modal -->
+     <!-- Hidden inputs to control main modal and levels -->
+    <input type="checkbox" id="toggle-main-menu" hidden>
+
+    <!-- MAIN MENU MODAL -->
+    <div class="mbmenu-main-modal">
+        <div class="mbmenu-header">
+            <span>Меню</span>
+            <label for="toggle-main-menu" class="mbmenu-close">✕</label>
+        </div>
+
+        <div class="mbmenu-wrapper">
+            <div class="mbmenu-view" style="transform: translateX(0);">
+                <label class="mbmenu-item-row">
+                    <span class="row-left">
+                        <Icon name="home" />
+                        <a href="#">Главная</a>
+                    </span>
+                </label>
+                <label class="mbmenu-item-row">
+                    <span class="row-left">
+                        <Icon name="about" />
+                        <a href="#">О нас</a>
+                    </span>
+                </label>
+                <label class="mbmenu-item-row">
+                    <span class="row-left">
+                        <Icon name="reviews" />
+                        <a href="#">Отзывы</a>
+                    </span>
+                </label>
+                <label class="mbmenu-item-row">
+                    <span class="row-left">
+                        <Icon name="faq" />
+                        <a href="#">FAQ</a>
+                    </span>
+                </label>
+                <label class="mbmenu-item-row">
+                    <span class="row-left">
+                        <Icon name="localization" />
+                        <a href="#">Փոխել հայերեն</a>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICE MODAL -->
     <div class="mbmenu-modal">
         <div class="mbmenu-header">
             <!-- Back buttons -->
@@ -135,12 +181,12 @@ import Icon from '../components/Icon.astro'
         background: none;
         border: none;
         font-size: 13px;
-        color: var(--main-font-color);
         font-weight: var(--font-weight);
+        color: var(--main-font-color);
         cursor: pointer;
     }
 
-    /* ---------------------- MODAL ---------------------- */
+    /* ---------------------- MODALS ---------------------- */
     .mbmenu-modal {
         position: fixed;
         inset: 0;
@@ -153,6 +199,21 @@ import Icon from '../components/Icon.astro'
     }
 
     #toggle-menu:checked ~ .mbmenu-modal {
+        transform: translateY(0);
+    }
+
+    .mbmenu-main-modal {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--main-background-color);
+        transform: translateY(100%);
+        transition: transform 0.35s;
+        z-index: 2500;
+    }
+
+    #toggle-main-menu:checked ~ .mbmenu-main-modal {
         transform: translateY(0);
     }
 
@@ -249,6 +310,12 @@ import Icon from '../components/Icon.astro'
 
     .mbmenu-item-row:hover {
         background: var(--main-font-hover);
+    }
+
+    .mbmenu-item-row a {
+        text-decoration: none;
+        font-size: var(--small);
+        color: var(--main-font-color);
     }
 
     .mbmenu-item-row svg {
