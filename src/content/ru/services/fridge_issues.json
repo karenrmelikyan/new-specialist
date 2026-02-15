@@ -1,0 +1,359 @@
+{
+    "indexPageTitle": "Ремонт холодильников",
+    "title": "Частые поломки холодильников",
+    "subtitle": "Не нашли решение своей проблемы?",
+    "btnText": "Вызвать мастера",
+    "src": "/assets/img/fridge-service.webp",
+    "price": "10.000",
+
+    "items": [
+        {
+            "slug": "not-cooling",
+            "title": "Холодильник не охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Нарушена работа системы охлаждения",
+            "slugs": [
+                "compressor-failure",
+                "refrigerant-leak",
+                "capillary-clog",
+                "evaporator-fan-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "freezer-not-freezing",
+            "title": "Морозильная камера не морозит",
+            "sign": "Продукты размораживаются",
+            "causes": "Недостаточная выработка холода",
+            "slugs": [
+                "compressor-failure",
+                "refrigerant-leak",
+                "defrost-heater-failure",
+                "temperature-sensor-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "runs-constantly",
+            "title": "Холодильник работает без остановки",
+            "sign": "Компрессор не отключается",
+            "causes": "Нет достижения заданной температуры",
+            "slugs": [
+                "refrigerant-leak",
+                "door-gasket-damage",
+                "temperature-sensor-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-turning-on",
+            "title": "Холодильник не включается",
+            "sign": "Нет индикации и звука работы",
+            "causes": "Отсутствует питание или неисправен запуск",
+            "slugs": [
+                "power-cord-damage",
+                "start-relay-failure",
+                "compressor-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "water-leak",
+            "title": "Холодильник течёт",
+            "sign": "Вода появляется под холодильником",
+            "causes": "Нарушен отвод конденсата",
+            "slugs": ["drain-hole-clog", "drain-tube-freeze", "drip-tray-damage"]
+        },
+
+        {
+            "slug": "ice-build-up",
+            "title": "Намерзает лёд в камере",
+            "sign": "Толстый слой инея или льда",
+            "causes": "Не работает система разморозки",
+            "slugs": [
+                "defrost-heater-failure",
+                "defrost-thermostat-failure",
+                "door-gasket-damage",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "loud-noise-fridge",
+            "title": "Холодильник шумит",
+            "sign": "Сильный гул или дребезжание",
+            "causes": "Механический износ или вибрация",
+            "slugs": [
+                "compressor-wear",
+                "evaporator-fan-failure",
+                "condenser-fan-failure"
+            ]
+        },
+
+        {
+            "slug": "not-defrosting",
+            "title": "Холодильник не размораживается",
+            "sign": "Лёд на испарителе не тает",
+            "causes": "Не работает система автоматической разморозки",
+            "slugs": [
+                "defrost-heater-failure",
+                "defrost-timer-failure",
+                "defrost-thermostat-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "light-not-working",
+            "title": "Не работает свет в холодильнике",
+            "sign": "Лампа не загорается при открытии двери",
+            "causes": "Проблема освещения или питания",
+            "slugs": [
+                "lamp-burned",
+                "door-switch-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "bad-smell-fridge",
+            "title": "Неприятный запах в холодильнике",
+            "sign": "Запах не исчезает после уборки",
+            "causes": "Загрязнение или застой влаги",
+            "slugs": [
+                "drain-hole-clog",
+                "mold-build-up-fridge",
+                "spoiled-food-residue"
+            ]
+        },
+
+        {
+            "slug": "freezing-food",
+            "title": "Холодильник перемораживает продукты",
+            "sign": "Продукты в холодильной камере замерзают",
+            "causes": "Нарушен контроль температуры",
+            "slugs": [
+                "temperature-sensor-failure",
+                "air-damper-stuck",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "trips-breaker-fridge",
+            "title": "Холодильник выбивает автомат",
+            "sign": "Срабатывает защита сети при запуске",
+            "causes": "Короткое замыкание или пробой",
+            "slugs": [
+                "compressor-short",
+                "heater-short",
+                "power-filter-burn",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "compressor-failure",
+            "title": "Неисправен компрессор",
+            "sign": "Холод не вырабатывается",
+            "causes": "Износ или заклинивание",
+            "slugs": []
+        },
+
+        {
+            "slug": "compressor-wear",
+            "title": "Износ компрессора",
+            "sign": "Повышенный шум",
+            "causes": "Длительная эксплуатация",
+            "slugs": []
+        },
+
+        {
+            "slug": "compressor-short",
+            "title": "Короткое замыкание компрессора",
+            "sign": "Выбивает автомат",
+            "causes": "Повреждение обмотки",
+            "slugs": []
+        },
+
+        {
+            "slug": "refrigerant-leak",
+            "title": "Утечка фреона",
+            "sign": "Недостаточное охлаждение",
+            "causes": "Разгерметизация системы",
+            "slugs": []
+        },
+
+        {
+            "slug": "capillary-clog",
+            "title": "Засор капиллярной трубки",
+            "sign": "Нарушена циркуляция хладагента",
+            "causes": "Попадание загрязнений",
+            "slugs": []
+        },
+
+        {
+            "slug": "evaporator-fan-failure",
+            "title": "Неисправен вентилятор испарителя",
+            "sign": "Нет циркуляции холодного воздуха",
+            "causes": "Сгорел двигатель вентилятора",
+            "slugs": []
+        },
+
+        {
+            "slug": "condenser-fan-failure",
+            "title": "Неисправен вентилятор конденсатора",
+            "sign": "Перегрев компрессора",
+            "causes": "Обрыв двигателя вентилятора",
+            "slugs": []
+        },
+
+        {
+            "slug": "start-relay-failure",
+            "title": "Неисправно пусковое реле",
+            "sign": "Компрессор не запускается",
+            "causes": "Подгорание контактов",
+            "slugs": []
+        },
+
+        {
+            "slug": "defrost-heater-failure",
+            "title": "Неисправен ТЭН оттайки",
+            "sign": "Намерзание льда",
+            "causes": "Перегорание нагревателя",
+            "slugs": []
+        },
+
+        {
+            "slug": "defrost-thermostat-failure",
+            "title": "Неисправен термостат оттайки",
+            "sign": "Система разморозки не включается",
+            "causes": "Неверные показания температуры",
+            "slugs": []
+        },
+
+        {
+            "slug": "defrost-timer-failure",
+            "title": "Неисправен таймер разморозки",
+            "sign": "Не запускается цикл оттайки",
+            "causes": "Заклинивание механизма",
+            "slugs": []
+        },
+
+        {
+            "slug": "temperature-sensor-failure",
+            "title": "Неисправен датчик температуры",
+            "sign": "Некорректный режим охлаждения",
+            "causes": "Сбой измерений",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-gasket-damage",
+            "title": "Повреждён уплотнитель двери",
+            "sign": "Холод выходит наружу",
+            "causes": "Износ или разрыв резины",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hole-clog",
+            "title": "Засор дренажного отверстия",
+            "sign": "Вода скапливается внутри",
+            "causes": "Скопление мусора",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-tube-freeze",
+            "title": "Замёрз дренажный канал",
+            "sign": "Вода не уходит в поддон",
+            "causes": "Образование льда",
+            "slugs": []
+        },
+
+        {
+            "slug": "drip-tray-damage",
+            "title": "Повреждён поддон конденсата",
+            "sign": "Вода течёт на пол",
+            "causes": "Трещина или смещение поддона",
+            "slugs": []
+        },
+
+        {
+            "slug": "lamp-burned",
+            "title": "Перегорела лампа освещения",
+            "sign": "Нет света внутри",
+            "causes": "Выход из строя лампы",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-switch-failure",
+            "title": "Неисправен концевик двери",
+            "sign": "Свет не включается",
+            "causes": "Заклинивание или обрыв",
+            "slugs": []
+        },
+
+        {
+            "slug": "air-damper-stuck",
+            "title": "Заклинила воздушная заслонка",
+            "sign": "Перемораживание продуктов",
+            "causes": "Нарушена подача холодного воздуха",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-short",
+            "title": "Короткое замыкание нагревателя",
+            "sign": "Выбивает автомат",
+            "causes": "Пробой на корпус",
+            "slugs": []
+        },
+
+        {
+            "slug": "power-filter-burn",
+            "title": "Сгорел сетевой фильтр",
+            "sign": "Нет питания или выбивает автомат",
+            "causes": "Короткое замыкание",
+            "slugs": []
+        },
+
+        {
+            "slug": "power-cord-damage",
+            "title": "Повреждён сетевой кабель",
+            "sign": "Холодильник не включается",
+            "causes": "Обрыв или короткое замыкание",
+            "slugs": []
+        },
+
+        {
+            "slug": "mold-build-up-fridge",
+            "title": "Образование плесени",
+            "sign": "Неприятный запах",
+            "causes": "Повышенная влажность",
+            "slugs": []
+        },
+
+        {
+            "slug": "spoiled-food-residue",
+            "title": "Остатки испорченных продуктов",
+            "sign": "Стойкий запах",
+            "causes": "Загрязнение внутренних поверхностей",
+            "slugs": []
+        },
+
+        {
+            "slug": "electronic-module-failure",
+            "title": "Неисправен электронный модуль управления",
+            "sign": "Хаотичная работа или отсутствие реакции",
+            "causes": "Повреждение платы или компонентов",
+            "slugs": []
+        }
+    ]
+}

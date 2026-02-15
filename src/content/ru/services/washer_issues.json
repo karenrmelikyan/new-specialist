@@ -1,0 +1,433 @@
+{
+    "indexPageTitle": "Ремонт стиральных машин",
+    "title": "Частые поломки стиральных машин",
+    "subtitle": "Не нашли решение своей проблемы?",
+    "btnText": "Вызвать мастера",
+    "src": "/assets/img/washer-service.webp",
+    "price": "10.000",
+
+    "items": [
+        {
+            "slug": "no-spin",
+            "title": "Стиральная машина не отжимает",
+            "sign": "Барабан не выходит на высокие обороты или бельё остаётся мокрым",
+            "causes": "Не работает система отжима",
+            "slugs": [
+              "motor-brush-wear",
+              "belt-worn",
+              "tachosensor-failure",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "no-drain",
+            "title": "Стиральная машина не сливает воду",
+            "sign": "Вода остаётся в баке после стирки",
+            "causes": "Не работает система слива",
+            "slugs": [
+              "drain-pump-failure",
+              "clogged-filter",
+              "drain-hose-blocked",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "no-water-fill",
+            "title": "Стиральная машина не набирает воду",
+            "sign": "После запуска вода не поступает в бак",
+            "causes": "Нарушена подача воды",
+            "slugs": [
+              "inlet-valve-failure",
+              "valve-filter-clog",
+              "low-water-pressure",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "no-heat",
+            "title": "Стиральная машина не греет воду",
+            "sign": "Стирка проходит в холодной воде",
+            "causes": "Не работает система нагрева",
+            "slugs": [
+              "heater-burn",
+              "ntc-sensor-failure",
+              "heater-relay-failure",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "leaking",
+            "title": "Стиральная машина течёт",
+            "sign": "Под машиной появляется вода",
+            "causes": "Нарушена герметичность узлов",
+            "slugs": [
+              "door-gasket-damage",
+              "drain-hose-leak",
+              "pump-seal-leak",
+              "tank-crack"
+            ]
+        },
+
+        {
+            "slug": "no-power",
+            "title": "Стиральная машина не включается",
+            "sign": "Нет индикации и реакции на кнопки",
+            "causes": "Отсутствует питание или сбой управления",
+            "slugs": [
+              "power-cord-damage",
+              "fuse-blown",
+              "noise-filter-burn",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "strong-vibration",
+            "title": "Стиральная машина сильно вибрирует",
+            "sign": "Подпрыгивает или смещается при отжиме",
+            "causes": "Нарушена балансировка барабана",
+            "slugs": [
+              "shock-absorber-failure",
+              "spring-break",
+              "bearing-wear"
+            ]
+        },
+
+        {
+            "slug": "loud-noise",
+            "title": "Стиральная машина шумит",
+            "sign": "Гул, скрежет или стук при работе",
+            "causes": "Механический износ или посторонние предметы",
+            "slugs": [
+              "bearing-wear",
+              "foreign-object-drum",
+              "pulley-loose"
+            ]
+        },
+
+        {
+            "slug": "door-not-locking",
+            "title": "Стиральная машина не блокирует люк",
+            "sign": "Программа не запускается",
+            "causes": "Не срабатывает блокировка люка",
+            "slugs": [
+              "door-lock-failure",
+              "door-lock-wiring-damage",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "program-freeze",
+            "title": "Стиральная машина зависает",
+            "sign": "Программа останавливается и не завершается",
+            "causes": "Сбой системы управления",
+            "slugs": [
+              "sensor-failure",
+              "firmware-error",
+              "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "bad-smell",
+            "title": "Запах из стиральной машины",
+            "sign": "Неприятный запах после стирки",
+            "causes": "Загрязнение внутренних элементов",
+            "slugs": [
+              "mold-build-up",
+              "tank-sludge",
+              "drain-system-clog"
+            ]
+        },
+
+        {
+            "slug": "machine-trips-breaker",
+            "title": "Стиральная машина выбивает автомат",
+            "sign": "Срабатывает защита сети при включении или нагреве",
+            "causes": "Короткое замыкание или утечка тока",
+            "slugs": [
+              "heater-short",
+              "motor-short",
+              "noise-filter-burn",
+              "electronic-module-failure"
+            ]
+        },
+        
+        {
+            "slug": "motor-brush-wear",
+            "title": "Износ щёток двигателя",
+            "sign": "Двигатель работает нестабильно или теряет мощность",
+            "causes": "Щётки стерлись и не обеспечивают контакт",
+            "slugs": []
+        },
+
+        {
+            "slug": "belt-worn",
+            "title": "Изношен приводной ремень",
+            "sign": "Барабан вращается рывками или не вращается",
+            "causes": "Естественный износ или растяжение",
+            "slugs": []
+        },
+
+          {
+            "slug": "tachosensor-failure",
+            "title": "Неисправен тахогенератор",
+            "sign": "Нет контроля оборотов двигателя",
+            "causes": "Обрыв цепи или повреждение датчика",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-pump-failure",
+            "title": "Неисправен сливной насос",
+            "sign": "Вода не сливается или слышен гул",
+            "causes": "Сгорела обмотка или заклинила крыльчатка",
+            "slugs": []
+        },
+
+        {
+            "slug": "clogged-filter",
+            "title": "Засорён сливной фильтр",
+            "sign": "Медленный или отсутствующий слив",
+            "causes": "Скопление мусора и ворса",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hose-blocked",
+            "title": "Засор сливного шланга",
+            "sign": "Вода не уходит полностью",
+            "causes": "Перегиб или внутренний засор",
+            "slugs": []
+        },
+
+        {
+            "slug": "inlet-valve-failure",
+            "title": "Неисправен заливной клапан",
+            "sign": "Вода не поступает в бак",
+            "causes": "Обрыв катушки или заклинивание",
+            "slugs": []
+        },
+
+        {
+            "slug": "valve-filter-clog",
+            "title": "Засор сетчатого фильтра клапана",
+            "sign": "Слабый набор воды",
+            "causes": "Отложения и ржавчина",
+            "slugs": []
+        },
+
+        {
+            "slug": "low-water-pressure",
+            "title": "Низкое давление воды",
+            "sign": "Медленный набор воды",
+            "causes": "Проблемы в системе водоснабжения",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-burn",
+            "title": "Сгорел ТЭН",
+            "sign": "Вода остаётся холодной",
+            "causes": "Перегорание нагревательного элемента",
+            "slugs": []
+        },
+
+        {
+            "slug": "ntc-sensor-failure",
+            "title": "Неисправен датчик температуры",
+            "sign": "Некорректный нагрев воды",
+            "causes": "Неверные показания сопротивления",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-relay-failure",
+            "title": "Неисправно реле нагрева",
+            "sign": "ТЭН не включается",
+            "causes": "Подгорание контактов реле",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-gasket-damage",
+            "title": "Повреждена манжета люка",
+            "sign": "Течь спереди машины",
+            "causes": "Порез или износ резины",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hose-leak",
+            "title": "Протечка сливного шланга",
+            "sign": "Вода под машиной сзади",
+            "causes": "Трещина или ослаб хомут",
+            "slugs": []
+        },
+
+        {
+            "slug": "pump-seal-leak",
+            "title": "Протечка сальника насоса",
+            "sign": "Капли воды снизу",
+            "causes": "Износ уплотнения",
+            "slugs": []
+        },
+
+        {
+            "slug": "tank-crack",
+            "title": "Трещина бака",
+            "sign": "Постоянная утечка воды",
+            "causes": "Механическое повреждение",
+            "slugs": []
+        },
+
+        {
+            "slug": "power-cord-damage",
+            "title": "Повреждён сетевой кабель",
+            "sign": "Машина не включается",
+            "causes": "Обрыв или короткое замыкание",
+            "slugs": []
+        },
+
+        {
+            "slug": "fuse-blown",
+            "title": "Перегорел предохранитель",
+            "sign": "Нет питания",
+            "causes": "Перепад напряжения",
+            "slugs": []
+        },
+
+        {
+            "slug": "noise-filter-burn",
+            "title": "Сгорел сетевой фильтр",
+            "sign": "Машина не запускается или выбивает автомат",
+            "causes": "Короткое замыкание внутри фильтра",
+            "slugs": []
+        },
+
+        {
+            "slug": "shock-absorber-failure",
+            "title": "Износ амортизаторов",
+            "sign": "Сильная вибрация при отжиме",
+            "causes": "Потеря демпфирования",
+            "slugs": []
+        },
+
+        {
+            "slug": "spring-break",
+            "title": "Лопнула подвесная пружина",
+            "sign": "Барабан перекошен",
+            "causes": "Металлическая усталость",
+            "slugs": []
+        },
+
+        {
+            "slug": "bearing-wear",
+            "title": "Износ подшипников",
+            "sign": "Гул при вращении барабана",
+            "causes": "Попадание воды и коррозия",
+            "slugs": []
+        },
+
+        {
+            "slug": "foreign-object-drum",
+            "title": "Посторонний предмет в барабане",
+            "sign": "Стук или скрежет",
+            "causes": "Монета или металлический предмет",
+            "slugs": []
+        },
+
+        {
+            "slug": "pulley-loose",
+            "title": "Ослаб шкив барабана",
+            "sign": "Металлический стук",
+            "causes": "Ослаб болт крепления",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-lock-failure",
+            "title": "Неисправно УБЛ",
+            "sign": "Люк не блокируется",
+            "causes": "Выход из строя механизма блокировки",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-lock-wiring-damage",
+            "title": "Повреждена проводка УБЛ",
+            "sign": "Ошибка блокировки люка",
+            "causes": "Обрыв проводов",
+            "slugs": []
+        },
+
+        {
+            "slug": "sensor-failure",
+            "title": "Неисправен датчик уровня или температуры",
+            "sign": "Программа работает некорректно",
+            "causes": "Сбой измерений",
+            "slugs": []
+        },
+
+        {
+            "slug": "firmware-error",
+            "title": "Сбой прошивки",
+            "sign": "Машина зависает или перезапускается",
+            "causes": "Ошибка программного обеспечения",
+            "slugs": []
+        },
+
+        {
+            "slug": "mold-build-up",
+            "title": "Образование плесени",
+            "sign": "Запах сырости",
+            "causes": "Редкая очистка и влажная среда",
+            "slugs": []
+        },
+
+        {
+            "slug": "tank-sludge",
+            "title": "Накопление грязи в баке",
+            "sign": "Запах и налёт",
+            "causes": "Отложения моющих средств",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-system-clog",
+            "title": "Засор сливной системы",
+            "sign": "Медленный слив и запах",
+            "causes": "Скопление мусора",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-short",
+            "title": "Короткое замыкание ТЭНа",
+            "sign": "Выбивает автомат при нагреве",
+            "causes": "Пробой на корпус",
+            "slugs": []
+        },
+
+        {
+            "slug": "motor-short",
+            "title": "Короткое замыкание двигателя",
+            "sign": "Выбивает автомат при запуске",
+            "causes": "Повреждение обмотки",
+            "slugs": []
+        },
+
+        {
+            "slug": "electronic-module-failure",
+            "title": "Неисправен электронный модуль управления",
+            "sign": "Машина не реагирует или работает хаотично",
+            "causes": "Повреждение платы или компонентов",
+            "slugs": []
+        }
+    ]
+}

@@ -70,9 +70,12 @@ function initCopyrightYearInjection() {
  * @param {*} url 
  */
 function goToURL(url) {
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, '_blank', 'noopener,noreferrer')
 }
 
+function getPreviousUrl() {
+    return document.referrer || '';
+}
 
 /**
  * Change localization dynamicaly

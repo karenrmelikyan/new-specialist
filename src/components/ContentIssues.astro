@@ -13,6 +13,24 @@ interface IssuesProps {
   items: IssueItem[];
 }
 
+const currentPath = Astro.url.pathname
+
+// Get parent URL
+const pathSegments = currentPath.split('/').filter(Boolean)
+pathSegments.pop()
+const parentURL = `/${pathSegments.join('/')}/`
+
+// Get subtitles by localization
+let localizatedSign = 'Նշան'
+let localizatedCauses = 'Պատճառներ'
+
+if (currentPath.includes('/ru/')) {
+    localizatedSign = 'Признак'
+    localizatedCauses = 'Причины'
+} 
+
+// Get all props
+const { isGoBack } = Astro.props
 const { issues } = Astro.props as { issues: IssuesProps }
 ---
 
@@ -28,14 +46,14 @@ const { issues } = Astro.props as { issues: IssuesProps }
 
         <div class="content__grid">
             {issues.items.map(issue => (
-                <a href={`${issue.slug}/`} class="content-card">
+                <a href={isGoBack ? `${parentURL}/` : `${issue.slug}/`} class="content-card">
                     <h4>{issue.title}</h4>
                     <p>
-                        <strong>Признак:</strong> {issue.sign}
+                        <strong>{localizatedSign}:</strong> {issue.sign}
                     </p>
                     {issue.causes && issue.causes.trim() !== '' && (
                         <p>
-                            <strong>Причины:</strong> {issue.causes}
+                            <strong>{localizatedCauses}:</strong> {issue.causes}
                         </p>
                     )}
                 </a>

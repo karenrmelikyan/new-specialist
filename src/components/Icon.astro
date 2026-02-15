@@ -9,18 +9,20 @@ import {
     faBars,
     faPlusCircle,
     faHome,
+    faSolarPanel,
 
 } from '@fortawesome/free-solid-svg-icons'
 
 type IconName =
-  | 'repair'
-  | 'faq'
-  | 'about'
-  | 'reviews'
-  | 'localization'
-  | 'hamburger'
-  | 'plus'
-  | 'home'
+    | 'repair'
+    | 'faq'
+    | 'about'
+    | 'reviews'
+    | 'localization'
+    | 'hamburger'
+    | 'plus'
+    | 'home'
+    | 'solar'
 
 const { name } = Astro.props as { name: IconName }
 
@@ -32,7 +34,8 @@ const iconsMap: Record<IconName, IconDefinition> = {
     localization: faGlobe,
     hamburger: faBars,
     plus: faPlusCircle,
-    home: faHome
+    home: faHome,
+    solar: faSolarPanel
 }
 
 const svgHTML = icon(iconsMap[name]).html;

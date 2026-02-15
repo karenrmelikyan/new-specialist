@@ -1,5 +1,17 @@
 ---
 import Icon from '../components/Icon.astro'
+import washerIssuesRu from '../content/ru/services/washer_issues.json'
+import fridgeIssuesRu from '../content/ru/services/fridge_issues.json'
+
+// Define localization by URL
+const currentPath = Astro.url.pathname
+
+let washerIssues = washerIssuesRu
+let fridgeIssues = fridgeIssuesRu
+
+if (currentPath.includes('/ru/')) {
+    // change variables to another content
+}
 ---
 
 <section class="mega" data-mega-menu>
@@ -7,7 +19,10 @@ import Icon from '../components/Icon.astro'
         <!-- LEFT SIDEBAR -->
         <ul class="sidebar" data-sidebar>
             <li class="active" data-category="repair">
-                <Icon name="repair" /> Ремонт техники
+                <Icon name="repair" /> Ремонт бытовой техники
+            </li>
+            <li data-category="repair">
+                <Icon name="solar" /> Установка солнечных панелей
             </li>
             <li data-category="home">
                 <Icon name="home" /> На Главную
@@ -33,7 +48,7 @@ import Icon from '../components/Icon.astro'
                 <div class="mega-title" role="heading" aria-level="2">Ремонт техники</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт техники на дому</div>
                         <ul>
                             <li data-category="washer">Ремонт стиральных машин</li>
                             <li data-category="fridge"> Ремонт холодильников</li>

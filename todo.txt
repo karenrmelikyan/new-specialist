@@ -1,0 +1,6 @@
+Add FAQ index page, FAQ categories pages & about page
+Reconsider symantic core
+Add new data for ContentIssues
+Rebuild all menu component according new data
+Complete the modal for ordering (it should send order to t.bot)
+Fix HeroBanner double <h1>tag issue
