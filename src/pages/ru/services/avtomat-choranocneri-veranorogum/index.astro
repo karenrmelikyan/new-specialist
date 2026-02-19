@@ -1,40 +1,6 @@
 ---
-import Main from '../../../../layouts/ru/Main.astro'
-import HeroBanner from '../../../../components/HeroBanner.astro'
-import ContentIssues from '../../../../components/ContentIssues.astro'
-import ENV from '../../../../content/ru/env.json'
-import content from '../../../../content/ru/services/dryer_issues.json'
-import getProductSEO from '../../../../../public/js/build/getProductSEO.mjs'
-import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
-
-const rootItems = content.items.filter(i => i.slugs && i.slugs.length > 0)
-
-const pageData = {
-    title: content.title,
-    subtitle: content.subtitle,
-    btnText: content.btnText,
-    items: rootItems
-}
-
-const { title, description } = getProductSEO(content.indexPageTitle, content.subtitle, 'ru')
-const productJsonLd = getProductJsonLd (
-    content.indexPageTitle, 
-    description, 
-    content.src, 
-    content.price, 
-    ENV
-)
+import WrapperServiceIssuesIndex from '../../../../components/WrapperServiceIssuesIndex.astro'
+import content from '../../../../content/ru/services/avtomat-choranocneri-veranorogum/data.json'
 ---
 
-<!-- Washer repair index page -->
-<Main title={title} description={description} jsonLd={productJsonLd}>
-    <HeroBanner 
-        h1 = {content.indexPageTitle}
-        src = {content.src}
-        price = {content.price + ' ' + ENV.CURRENCY_SIGN}
-    />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <ContentIssues issues={pageData} />
-</Main>
+<WrapperServiceIssuesIndex content={content} />

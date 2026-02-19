@@ -3,8 +3,7 @@
     "title": "Частые поломки сушильных машин",
     "subtitle": "Не нашли решение своей проблемы?",
     "btnText": "Вызвать мастера",
-    "src": "/assets/img/dryer-service.webp",
-    "price": "15.000",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/",
 
     "items": [
         {
@@ -12,84 +11,142 @@
             "title": "Сушильная машина не нагревает воздух",
             "sign": "Бельё остаётся холодным и влажным после цикла",
             "causes": "Неисправность нагревательной системы или управления",
-            "slugs": ["heating-element-burned", "thermal-fuse-blown", "heater-relay-failure", "dryer-control-board-failure"]
+            "slugs": [
+                "heating-element-burned", 
+                "thermal-fuse-blown", 
+                "heater-relay-failure", 
+                "dryer-control-board-failure"
+            ]
         },
         {
             "slug": "dryer-not-starting",
             "title": "Сушильная машина не включается",
             "sign": "При нажатии кнопки питания отсутствует реакция",
             "causes": "Проблема с питанием, блокировкой люка или электроникой",
-            "slugs": ["power-cord-damaged", "door-switch-failure", "start-button-failure", "dryer-control-board-failure"]
+            "slugs": [
+                "power-cord-damaged", 
+                "door-switch-failure", 
+                "start-button-failure", 
+                "dryer-control-board-failure"
+            ]
         },
         {
             "slug": "dryer-not-spinning",
             "title": "Барабан сушильной машины не вращается",
             "sign": "Мотор гудит или машина работает, но барабан стоит",
             "causes": "Неисправность привода или двигателя",
-            "slugs": ["drive-belt-broken", "motor-failure-dryer", "idler-pulley-worn", "motor-capacitor-failure"]
+            "slugs": [
+                "drive-belt-broken", 
+                "motor-failure-dryer", 
+                "idler-pulley-worn", 
+                "motor-capacitor-failure"
+            ]
         },
         {
             "slug": "dryer-not-drying",
             "title": "Сушильная машина плохо сушит бельё",
             "sign": "После полного цикла бельё остаётся влажным",
             "causes": "Недостаточный нагрев или плохая циркуляция воздуха",
-            "slugs": ["clogged-lint-filter", "vent-duct-blocked", "moisture-sensor-failure", "dryer-control-board-failure"]
+            "slugs": [
+                "clogged-lint-filter", 
+                "vent-duct-blocked", 
+                "moisture-sensor-failure", 
+                "dryer-control-board-failure"
+            ]
         },
         {
             "slug": "dryer-overheating",
             "title": "Сушильная машина перегревается",
             "sign": "Корпус становится слишком горячим, возможен запах гари",
             "causes": "Нарушение вентиляции или контроля температуры",
-            "slugs": ["vent-duct-blocked", "thermostat-failure", "thermal-fuse-blown", "dryer-control-board-failure"]
+            "slugs": [
+                "vent-duct-blocked", 
+                "thermostat-failure", 
+                "thermal-fuse-blown", 
+                "dryer-control-board-failure"
+            ]
         },
         {
             "slug": "dryer-stops-mid-cycle",
             "title": "Сушильная машина останавливается во время работы",
             "sign": "Цикл прерывается до завершения программы",
             "causes": "Перегрев, неисправность двигателя или электроники",
-            "slugs": ["motor-overheating", "thermal-fuse-blown", "dryer-control-board-failure", "power-supply-instability"]
+            "slugs": [
+                "motor-overheating", 
+                "thermal-fuse-blown", 
+                "dryer-control-board-failure", 
+                "power-supply-instability"
+            ]
         },
         {
             "slug": "dryer-noisy",
             "title": "Сушильная машина шумит при работе",
             "sign": "Появился скрежет, стук или визг во время вращения",
             "causes": "Износ вращающихся элементов",
-            "slugs": ["drum-bearing-worn", "support-rollers-worn", "idler-pulley-worn", "foreign-object-in-drum"]
+            "slugs": [
+                "drum-bearing-worn", 
+                "support-rollers-worn", 
+                "idler-pulley-worn", 
+                "foreign-object-in-drum"
+            ]
         },
         {
             "slug": "dryer-vibrates",
             "title": "Сушильная машина сильно вибрирует",
             "sign": "Корпус дрожит и смещается во время работы",
             "causes": "Нарушение балансировки или износ опор",
-            "slugs": ["uneven-installation", "support-rollers-worn", "shock-absorber-worn", "drum-bearing-worn"]
+            "slugs": [
+                "uneven-installation", 
+                "support-rollers-worn", 
+                "shock-absorber-worn", 
+                "drum-bearing-worn"
+            ]
         },
         {
             "slug": "dryer-door-not-locking",
             "title": "Дверца сушильной машины не закрывается",
             "sign": "Машина не запускается из-за неплотного закрытия люка",
             "causes": "Неисправность замка или механизма фиксации",
-            "slugs": ["door-lock-failure", "door-hinge-damaged", "door-switch-failure"]
+            "slugs": [
+                "door-lock-failure", 
+                "door-hinge-damaged", 
+                "door-switch-failure"
+            ]
         },
         {
             "slug": "dryer-error-code",
             "title": "Сушильная машина показывает ошибку",
             "sign": "На дисплее отображается код ошибки",
             "causes": "Сбой датчиков или управляющего модуля",
-            "slugs": ["moisture-sensor-failure", "temperature-sensor-failure", "dryer-control-board-failure"]
+            "slugs": [
+                "moisture-sensor-failure", 
+                "temperature-sensor-failure", 
+                "dryer-control-board-failure"
+            ]
         },
         {
             "slug": "dryer-burn-smell",
             "title": "Запах гари из сушильной машины",
             "sign": "Во время работы появляется неприятный запах",
             "causes": "Перегрев или накопление пуха",
-            "slugs": ["clogged-lint-filter", "vent-duct-blocked", "heating-element-burned", "wiring-damaged"]
+            "slugs": [
+                "clogged-lint-filter", 
+                "vent-duct-blocked", 
+                "heating-element-burned", 
+                "wiring-damaged"
+            ]
         },
         {
             "slug": "dryer-condensation-issue",
             "title": "Проблемы с конденсатом в сушильной машине",
             "sign": "Вода не собирается в контейнер или протекает",
             "causes": "Неисправность системы отвода конденсата",
-            "slugs": ["condensate-pump-failure", "water-container-misaligned", "drain-hose-blocked", "dryer-control-board-failure"]
+            "slugs": [
+                "condensate-pump-failure", 
+                "water-container-misaligned", 
+                "drain-hose-blocked", 
+                "dryer-control-board-failure"
+            ]
         },
 
         {

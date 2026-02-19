@@ -3,8 +3,7 @@
     "title": "Частые поломки стиральных машин",
     "subtitle": "Не нашли решение своей проблемы?",
     "btnText": "Вызвать мастера",
-    "src": "/assets/img/washer-service.webp",
-    "price": "10.000",
+    "parentURL": "/ru/services/lvacqi-meqenaneri-veranorogum/",
 
     "items": [
         {
@@ -13,10 +12,10 @@
             "sign": "Барабан не выходит на высокие обороты или бельё остаётся мокрым",
             "causes": "Не работает система отжима",
             "slugs": [
-              "motor-brush-wear",
-              "belt-worn",
-              "tachosensor-failure",
-              "electronic-module-failure"
+                "motor-brush-wear",
+                "belt-worn",
+                "tachosensor-failure",
+                "electronic-module-failure"
             ]
         },
 
@@ -26,10 +25,10 @@
             "sign": "Вода остаётся в баке после стирки",
             "causes": "Не работает система слива",
             "slugs": [
-              "drain-pump-failure",
-              "clogged-filter",
-              "drain-hose-blocked",
-              "electronic-module-failure"
+                "drain-pump-failure",
+                "clogged-filter",
+                "drain-hose-blocked",
+                "electronic-module-failure"
             ]
         },
 
@@ -39,10 +38,10 @@
             "sign": "После запуска вода не поступает в бак",
             "causes": "Нарушена подача воды",
             "slugs": [
-              "inlet-valve-failure",
-              "valve-filter-clog",
-              "low-water-pressure",
-              "electronic-module-failure"
+                "inlet-valve-failure",
+                "valve-filter-clog",
+                "low-water-pressure",
+                "electronic-module-failure"
             ]
         },
 
@@ -52,10 +51,10 @@
             "sign": "Стирка проходит в холодной воде",
             "causes": "Не работает система нагрева",
             "slugs": [
-              "heater-burn",
-              "ntc-sensor-failure",
-              "heater-relay-failure",
-              "electronic-module-failure"
+                "heater-burn",
+                "ntc-sensor-failure",
+                "heater-relay-failure",
+                "electronic-module-failure"
             ]
         },
 
@@ -65,10 +64,10 @@
             "sign": "Под машиной появляется вода",
             "causes": "Нарушена герметичность узлов",
             "slugs": [
-              "door-gasket-damage",
-              "drain-hose-leak",
-              "pump-seal-leak",
-              "tank-crack"
+                "door-gasket-damage",
+                "drain-hose-leak",
+                "pump-seal-leak",
+                "tank-crack"
             ]
         },
 
@@ -78,10 +77,10 @@
             "sign": "Нет индикации и реакции на кнопки",
             "causes": "Отсутствует питание или сбой управления",
             "slugs": [
-              "power-cord-damage",
-              "fuse-blown",
-              "noise-filter-burn",
-              "electronic-module-failure"
+                "power-cord-damage",
+                "fuse-blown",
+                "noise-filter-burn",
+                "electronic-module-failure"
             ]
         },
 
@@ -91,9 +90,9 @@
             "sign": "Подпрыгивает или смещается при отжиме",
             "causes": "Нарушена балансировка барабана",
             "slugs": [
-              "shock-absorber-failure",
-              "spring-break",
-              "bearing-wear"
+                "shock-absorber-failure",
+                "spring-break",
+                "bearing-wear"
             ]
         },
 
@@ -103,9 +102,9 @@
             "sign": "Гул, скрежет или стук при работе",
             "causes": "Механический износ или посторонние предметы",
             "slugs": [
-              "bearing-wear",
-              "foreign-object-drum",
-              "pulley-loose"
+                "bearing-wear",
+                "foreign-object-drum",
+                "pulley-loose"
             ]
         },
 
@@ -115,9 +114,9 @@
             "sign": "Программа не запускается",
             "causes": "Не срабатывает блокировка люка",
             "slugs": [
-              "door-lock-failure",
-              "door-lock-wiring-damage",
-              "electronic-module-failure"
+                "door-lock-failure",
+                "door-lock-wiring-damage",
+                "electronic-module-failure"
             ]
         },
 
@@ -127,9 +126,9 @@
             "sign": "Программа останавливается и не завершается",
             "causes": "Сбой системы управления",
             "slugs": [
-              "sensor-failure",
-              "firmware-error",
-              "electronic-module-failure"
+                "sensor-failure",
+                "firmware-error",
+                "electronic-module-failure"
             ]
         },
 
@@ -139,9 +138,9 @@
             "sign": "Неприятный запах после стирки",
             "causes": "Загрязнение внутренних элементов",
             "slugs": [
-              "mold-build-up",
-              "tank-sludge",
-              "drain-system-clog"
+                "mold-build-up",
+                "tank-sludge",
+                "drain-system-clog"
             ]
         },
 
@@ -151,10 +150,10 @@
             "sign": "Срабатывает защита сети при включении или нагреве",
             "causes": "Короткое замыкание или утечка тока",
             "slugs": [
-              "heater-short",
-              "motor-short",
-              "noise-filter-burn",
-              "electronic-module-failure"
+                "heater-short",
+                "motor-short",
+                "noise-filter-burn",
+                "electronic-module-failure"
             ]
         },
         

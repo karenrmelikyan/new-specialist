@@ -1,0 +1,472 @@
+{
+    "indexPageTitle": "Ремонт стиральных машин Bosch",
+    "title": "Частые поломки стиральных машин Bosch",
+    "subtitle": "Не нашли решение своей проблемы?",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/lvacqi-meqenaneri-veranorogum/bosch/",
+
+    "items": [
+        {
+            "slug": "bosch-not-draining",
+            "title": "Стиральная машина Bosch не сливает воду",
+            "sign": "После окончания программы в баке остаётся вода",
+            "causes": "Нарушена работа сливной системы или датчика уровня",
+            "slugs": [
+                "bosch-drain-filter-blocked",
+                "bosch-drain-pump-failure",
+                "bosch-drain-hose-obstruction",
+                "bosch-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "bosch-not-spinning",
+            "title": "Стиральная машина Bosch не отжимает",
+            "sign": "Бельё остаётся мокрым после стирки",
+            "causes": "Сбой системы балансировки или привода барабана",
+            "slugs": [
+                "bosch-load-imbalance",
+                "bosch-drive-belt-worn",
+                "bosch-motor-brushes-worn",
+                "bosch-tacho-sensor-fault"
+            ]
+        },
+        {
+            "slug": "bosch-not-powering-on",
+            "title": "Стиральная машина Bosch не включается",
+            "sign": "Панель управления не реагирует на нажатие",
+            "causes": "Отсутствует питание или неисправен электронный модуль",
+            "slugs": [
+                "bosch-power-cord-damage",
+                "bosch-no-mains-voltage",
+                "bosch-noise-filter-failure",
+                "bosch-control-module-defect"
+            ]
+        },
+        {
+            "slug": "bosch-no-water-fill",
+            "title": "Стиральная машина Bosch не набирает воду",
+            "sign": "Программа запускается без заполнения бака",
+            "causes": "Не работает система подачи воды",
+            "slugs": [
+                "bosch-inlet-valve-failure",
+                "bosch-inlet-filter-clogged",
+                "bosch-aquastop-activated",
+                "bosch-pressure-sensor-error"
+            ]
+        },
+        {
+            "slug": "bosch-leakage",
+            "title": "Стиральная машина Bosch протекает",
+            "sign": "Под машиной появляется вода",
+            "causes": "Нарушена герметичность узлов или шлангов",
+            "slugs": [
+                "bosch-door-seal-damaged",
+                "bosch-internal-hose-leak",
+                "bosch-pump-housing-crack",
+                "bosch-aquastop-hose-fault"
+            ]
+        },
+        {
+            "slug": "bosch-excessive-noise",
+            "title": "Стиральная машина Bosch шумит при работе",
+            "sign": "Слышен гул, скрежет или стук",
+            "causes": "Износ подшипников или попадание посторонних предметов",
+            "slugs": [
+                "bosch-bearing-wear",
+                "bosch-foreign-object-drum",
+                "bosch-counterweight-loose",
+                "bosch-drum-pulley-loose"
+            ]
+        },
+        {
+            "slug": "bosch-strong-vibration",
+            "title": "Стиральная машина Bosch сильно вибрирует",
+            "sign": "Корпус смещается во время отжима",
+            "causes": "Проблема с амортизаторами или установкой",
+            "slugs": [
+                "bosch-shock-absorber-wear",
+                "bosch-uneven-installation",
+                "bosch-transport-bolts-not-removed",
+                "bosch-suspension-spring-damage"
+            ]
+        },
+        {
+            "slug": "bosch-door-locked",
+            "title": "Люк стиральной машины Bosch не открывается",
+            "sign": "Дверца остаётся заблокированной после цикла",
+            "causes": "Не снимается блокировка или вода не слита",
+            "slugs": [
+                "bosch-door-lock-failure",
+                "bosch-water-not-drained",
+                "bosch-handle-mechanism-broken",
+                "bosch-control-module-defect"
+            ]
+        },
+        {
+            "slug": "bosch-error-code",
+            "title": "Стиральная машина Bosch показывает ошибку",
+            "sign": "На дисплее отображается код неисправности",
+            "causes": "Система зафиксировала сбой датчиков или узлов",
+            "slugs": [
+                "bosch-heater-fault-code",
+                "bosch-motor-fault-code",
+                "bosch-drain-error-code",
+                "bosch-sensor-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-no-heating",
+            "title": "Стиральная машина Bosch не греет воду",
+            "sign": "Стирка проходит в холодной воде",
+            "causes": "Неисправен нагревательный элемент или термодатчик",
+            "slugs": [
+                "bosch-heating-element-burnout",
+                "bosch-ntc-sensor-failure",
+                "bosch-heater-relay-fault",
+                "bosch-control-module-defect"
+            ]
+        },
+        {
+            "slug": "bosch-cycle-stops",
+            "title": "Стиральная машина Bosch прерывает программу",
+            "sign": "Цикл останавливается до завершения",
+            "causes": "Сбой электроники, перегрев или проблемы с питанием",
+            "slugs": [
+                "bosch-voltage-fluctuation",
+                "bosch-motor-overheat",
+                "bosch-water-level-error",
+                "bosch-control-module-defect"
+            ]
+        },
+        {
+            "slug": "bosch-trips-breaker",
+            "title": "Стиральная машина Bosch выбивает автомат",
+            "sign": "Автоматический выключатель срабатывает при запуске",
+            "causes": "Короткое замыкание или пробой изоляции",
+            "slugs": [
+                "bosch-heater-insulation-failure",
+                "bosch-wiring-damage",
+                "bosch-noise-filter-short",
+                "bosch-motor-short-circuit"
+            ]
+        },
+
+        {
+            "slug": "bosch-drain-filter-blocked",
+            "title": "Засорён сливной фильтр стиральной машины Bosch",
+            "sign": "Вода уходит медленно или остаётся в баке",
+            "causes": "Фильтр переполнен ворсом, монетами или мелкими предметами, препятствующими нормальному сливу",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-pump-failure",
+            "title": "Неисправна сливная помпа Bosch",
+            "sign": "Слышен гул, но вода не откачивается",
+            "causes": "Крыльчатка заклинила из-за мусора либо обмотка двигателя насоса перегорела",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-hose-obstruction",
+            "title": "Засор или перегиб сливного шланга Bosch",
+            "sign": "Вода не поступает в канализацию",
+            "causes": "Шланг засорён известковыми отложениями или пережат за корпусом",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-pressure-switch-fault",
+            "title": "Неисправность прессостата стиральной машины Bosch",
+            "sign": "Машина не определяет уровень воды и не запускает слив",
+            "causes": "Датчик уровня воды передаёт некорректные сигналы модулю управления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-load-imbalance",
+            "title": "Дисбаланс белья в барабане Bosch",
+            "sign": "Отжим не начинается или останавливается",
+            "causes": "Бельё сбилось в одну сторону и система защиты блокирует раскрутку",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drive-belt-worn",
+            "title": "Износ или обрыв приводного ремня Bosch",
+            "sign": "Барабан не набирает обороты при отжиме",
+            "causes": "Ремень растянулся, соскочил со шкива или порвался",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-brushes-worn",
+            "title": "Изношены щётки двигателя Bosch",
+            "sign": "Барабан вращается рывками или полностью останавливается",
+            "causes": "Графитовые щётки стерлись и не обеспечивают контакт с коллектором",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-tacho-sensor-fault",
+            "title": "Сбой тахогенератора стиральной машины Bosch",
+            "sign": "Обороты барабана не контролируются",
+            "causes": "Датчик скорости не передаёт корректный сигнал на плату управления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-power-cord-damage",
+            "title": "Повреждение сетевого кабеля Bosch",
+            "sign": "Машина не реагирует на подключение к сети",
+            "causes": "Обрыв провода, оплавление вилки или плохой контакт",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-no-mains-voltage",
+            "title": "Отсутствует напряжение в сети для Bosch",
+            "sign": "Индикация полностью отсутствует",
+            "causes": "Неисправна розетка, автоматический выключатель или линия питания",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-noise-filter-failure",
+            "title": "Неисправен сетевой фильтр помех Bosch",
+            "sign": "Машина не включается или выбивает автомат",
+            "causes": "Фильтр вышел из строя из-за скачка напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-control-module-defect",
+            "title": "Неисправность модуля управления Bosch",
+            "sign": "Программы зависают или не запускаются",
+            "causes": "Повреждены электронные компоненты или нарушены дорожки платы",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-inlet-valve-failure",
+            "title": "Неисправен клапан подачи воды Bosch",
+            "sign": "Вода не поступает в бак",
+            "causes": "Катушка клапана перегорела либо механизм заклинил",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-inlet-filter-clogged",
+            "title": "Засорена входная сетка Bosch",
+            "sign": "Медленный набор воды",
+            "causes": "Сетка загрязнена песком, ржавчиной или известковыми отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-aquastop-activated",
+            "title": "Сработала система AquaStop Bosch",
+            "sign": "Подача воды полностью блокируется",
+            "causes": "Обнаружена протечка или неисправен датчик защиты от протечек",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-pressure-sensor-error",
+            "title": "Ошибка датчика уровня воды Bosch",
+            "sign": "Машина переливает или не доливает воду",
+            "causes": "Засорена трубка прессостата либо датчик вышел из строя",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-seal-damaged",
+            "title": "Повреждена манжета люка Bosch",
+            "sign": "Вода просачивается через переднюю часть корпуса",
+            "causes": "Резиновый уплотнитель имеет трещины или потерял эластичность",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-internal-hose-leak",
+            "title": "Протечка внутреннего шланга Bosch",
+            "sign": "Вода появляется под машиной во время стирки",
+            "causes": "Соединение ослабло или шланг повреждён",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-pump-housing-crack",
+            "title": "Трещина в корпусе насоса Bosch",
+            "sign": "Протечка наблюдается снизу агрегата",
+            "causes": "Корпус помпы повреждён механически или из-за вибрации",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-aquastop-hose-fault",
+            "title": "Неисправность шланга AquaStop Bosch",
+            "sign": "Машина не набирает воду или протекает",
+            "causes": "Встроенный клапан защиты от протечек вышел из строя",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-bearing-wear",
+            "title": "Износ подшипников барабана Bosch",
+            "sign": "Сильный гул при вращении",
+            "causes": "Подшипники разрушены из-за длительной эксплуатации или попадания влаги",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-foreign-object-drum",
+            "title": "Посторонний предмет в баке Bosch",
+            "sign": "Слышен металлический стук",
+            "causes": "Монета, косточка или другой предмет попал между баком и барабаном",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-counterweight-loose",
+            "title": "Ослабло крепление противовеса Bosch",
+            "sign": "Стук внутри корпуса при отжиме",
+            "causes": "Болты крепления противовеса ослабли",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drum-pulley-loose",
+            "title": "Ослаб шкив барабана Bosch",
+            "sign": "Стук и нестабильное вращение",
+            "causes": "Крепёжный болт шкива ослаб или изношен",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-shock-absorber-wear",
+            "title": "Износ амортизаторов Bosch",
+            "sign": "Сильная вибрация при отжиме",
+            "causes": "Амортизаторы потеряли жёсткость и не гасят колебания",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-uneven-installation",
+            "title": "Неправильная установка Bosch",
+            "sign": "Машина смещается по полу",
+            "causes": "Ножки не выровнены по уровню",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-transport-bolts-not-removed",
+            "title": "Не сняты транспортировочные болты Bosch",
+            "sign": "Сильная вибрация с первого запуска",
+            "causes": "Барабан зафиксирован транспортировочными креплениями",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-suspension-spring-damage",
+            "title": "Повреждение пружин подвески Bosch",
+            "sign": "Бак перекошен внутри корпуса",
+            "causes": "Пружины растянулись или оборвались",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-lock-failure",
+            "title": "Неисправность замка люка Bosch",
+            "sign": "Дверца не разблокируется после стирки",
+            "causes": "Устройство блокировки люка не подаёт сигнал на открытие",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-water-not-drained",
+            "title": "Вода не полностью слита в Bosch",
+            "sign": "Люк остаётся заблокированным",
+            "causes": "Система не завершила слив перед снятием блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-handle-mechanism-broken",
+            "title": "Поломка ручки люка Bosch",
+            "sign": "Дверца не открывается механически",
+            "causes": "Механизм ручки треснул или сломался",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-fault-code",
+            "title": "Ошибка нагрева Bosch",
+            "sign": "На дисплее отображается код, связанный с ТЭНом",
+            "causes": "Система фиксирует неисправность нагревательного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-fault-code",
+            "title": "Ошибка двигателя Bosch",
+            "sign": "Код указывает на проблему с мотором",
+            "causes": "Нарушена работа двигателя или его цепей",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-error-code",
+            "title": "Ошибка слива Bosch",
+            "sign": "Код ошибки появляется при сливе воды",
+            "causes": "Система обнаружила проблему в узле дренажа",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-sensor-malfunction",
+            "title": "Неисправность датчиков Bosch",
+            "sign": "На дисплее отображается сервисный код",
+            "causes": "Один из датчиков передаёт некорректные данные",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-burnout",
+            "title": "Перегорание нагревателя Bosch",
+            "sign": "Вода не нагревается во время стирки",
+            "causes": "Спираль ТЭНа имеет обрыв",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ntc-sensor-failure",
+            "title": "Неисправен температурный датчик NTC Bosch",
+            "sign": "Температура контролируется некорректно",
+            "causes": "Датчик температуры вышел из строя",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-relay-fault",
+            "title": "Неисправно реле нагрева Bosch",
+            "sign": "Нагрев не включается несмотря на исправный ТЭН",
+            "causes": "Реле на плате управления не подаёт питание на нагреватель",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-voltage-fluctuation",
+            "title": "Перепады напряжения влияют на Bosch",
+            "sign": "Программа самопроизвольно прерывается",
+            "causes": "Скачки напряжения вызывают сбой электроники",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-overheat",
+            "title": "Перегрев двигателя Bosch",
+            "sign": "Машина останавливается во время вращения",
+            "causes": "Двигатель перегревается из-за перегрузки или износа",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-water-level-error",
+            "title": "Ошибка уровня воды Bosch",
+            "sign": "Машина останавливает цикл набора или слива",
+            "causes": "Система получает некорректные данные о количестве воды",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-insulation-failure",
+            "title": "Пробой изоляции нагревателя Bosch",
+            "sign": "Срабатывает автомат защиты",
+            "causes": "Изоляция ТЭНа повреждена и возникает утечка тока",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-wiring-damage",
+            "title": "Повреждение проводки Bosch",
+            "sign": "Выбивает автомат при запуске",
+            "causes": "Провода имеют оголённые участки или короткое замыкание",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-noise-filter-short",
+            "title": "Короткое замыкание сетевого фильтра Bosch",
+            "sign": "Автомат отключается сразу после включения",
+            "causes": "Внутренние элементы фильтра пробиты",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Bosch",
+            "sign": "Мгновенно срабатывает защита сети",
+            "causes": "Обмотка двигателя имеет межвитковое замыкание",
+            "slugs": []
+        }
+
+
+    ]
+}

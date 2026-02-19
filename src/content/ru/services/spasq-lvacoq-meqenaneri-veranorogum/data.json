@@ -3,10 +3,8 @@
     "title": "Частые поломки посудомоечных машин",
     "subtitle": "Не нашли решение своей проблемы?",
     "btnText": "Вызвать мастера",
-    "src": "/assets/img/dishwasher-service.webp",
-    "price": "15.000",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/",
 
-    
     "items": [
         {
             "slug": "not-starting",

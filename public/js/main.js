@@ -98,3 +98,5 @@ function changeLocalizationByCurrentURL() {
   
     window.location.href = url.href
 }
+
+

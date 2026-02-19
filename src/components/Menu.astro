@@ -1,17 +1,39 @@
 ---
 import Icon from '../components/Icon.astro'
-import washerIssuesRu from '../content/ru/services/washer_issues.json'
-import fridgeIssuesRu from '../content/ru/services/fridge_issues.json'
+import getFilteredIssues from '../../public/js/build/getFilteredIssues.mjs'
+
+import washerIssuesRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/data.json'
+import washerIssuesAristonRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/ariston/data.json'
+import washerIssuesIndesitRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/indesit/data.json'
+import washerIssuesCandyRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/candy/data.json'
+import washerIssuesSamsungRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/samsung/data.json'
+import washerIssuesLgRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/lg/data.json'
+import washerIssuesDaewooRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/daewoo/data.json'
+import washerIssuesBoschRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/bosch/data.json'
+
+
+import fridgeIssuesRu from '../content/ru/services/sarnaranneri-veranorogum/data.json'
+
+
+var localization = ''
 
 // Define localization by URL
-const currentPath = Astro.url.pathname
+Astro.url.pathname.includes('/ru/') 
+    ? localization = '/ru/' 
+    : localization = ''
 
 let washerIssues = washerIssuesRu
+let washerIssuesAriston = washerIssuesAristonRu
+let washerIssuesIndesit = washerIssuesIndesitRu
+let washerIssuesCandy = washerIssuesCandyRu
+let washerIssuesSamsung = washerIssuesSamsungRu
+let washerIssuesLg = washerIssuesLgRu
+let washerIssuesDaewoo = washerIssuesDaewooRu
+let washerIssuesBosch = washerIssuesBoschRu
+
 let fridgeIssues = fridgeIssuesRu
 
-if (currentPath.includes('/ru/')) {
-    // change variables to another content
-}
+const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.parentURL, 0, 12)
 ---
 
 <section class="mega" data-mega-menu>
@@ -61,29 +83,28 @@ if (currentPath.includes('/ru/')) {
 
             <!-- PANEL: БЫТОВЫЕ УСЛУГИ -->
             <div class="panel" data-panel="washer">
-                <div class="mega-title" role="heading" aria-level="2">Ремонт стиральных машин</div>
+                <div class="mega-title" role="heading" aria-level="2">{washerIssues.indexPageTitle}</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
                         <ul>
-                            <li>Ремонт холодильников</li>
-                            <li>Ремонт холодильного оборудования</li>
-                            <li>Ремонт стиральных машин</li>
-                            <li>Ремонт электрических плит</li>
-                            <li>Ремонт газовых плит</li>
-                            <li>Ремонт телевизоров</li>
+                            <li><a href={washerIssues.parentURL}>{washerIssues.indexPageTitle}</a></li>
+                            {commonWasherIssues.map(issue => (
+                                <li><a href={issue.href}>{issue.title}</a></li>
+                            ))}
                         </ul>
                     </div>
 
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
-                            <li>Ремонт телевизоров</li>
-                            <li>Ремонт компьютеров</li>
-                            <li>Ремонт ноутбуков</li>
-                            <li>Ремонт моноблоков</li>
-                            <li>Ремонт планшетов</li>
-                            <li>Ремонт смартфонов</li>
+                            <li><a href={washerIssuesAriston.parentURL}>{washerIssuesAriston.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesIndesit.parentURL}>{washerIssuesIndesit.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesCandy.parentURL}>{washerIssuesCandy.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesSamsung.parentURL}>{washerIssuesSamsung.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesLg.parentURL}>{washerIssuesLg.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesDaewoo.parentURL}>{washerIssuesDaewoo.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesBosch.parentURL}>{washerIssuesBosch.indexPageTitle}</a></li>
                         </ul>
                     </div>
 
@@ -386,5 +407,10 @@ if (currentPath.includes('/ru/')) {
 
     .panel.active {
         display: block;
+    }
+
+    .panel a {
+        text-decoration: none;
+        color: var(--main-font-color);
     }
 </style>

@@ -1,11 +1,6 @@
 ---
-import Main from '../../../../layouts/ru/Main.astro'
-import HeroBanner from '../../../../components/HeroBanner.astro'
-import ContentIssues from '../../../../components/ContentIssues.astro'
-import ENV from '../../../../content/ru/env.json'
-import content from '../../../../content/ru/services/washer_issues.json'
-import getProductSEO from '../../../../../public/js/build/getProductSEO.mjs'
-import getProductJsonLd from '../../../../../public/js/build/getProductJsonLd.mjs'
+import WrapperServiceIssuesSlug from '../../../../components/WrapperServiceIssuesSlug.astro'
+import content from '../../../../content/ru/services/lvacqi-meqenaneri-veranorogum/data.json'
 
 export async function getStaticPaths() {
     return content.items.map(item => ({
@@ -14,47 +9,6 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params
-
-// Find parent
-const parent = content.items.find(i => i.slug === slug)
-
-// If no parent found → 404
-if (!parent) {
-    throw new Error(`Issue not found: ${slug}`)
-}
-
-// Find children
-const children = content.items.filter(i => parent.slugs?.includes(i.slug))
-
-// If no children → show self as a leaf
-const pageItems = children.length > 0 ? children : [parent]
-
-const pageData = {
-    title: parent.title,
-    subtitle: content.subtitle,
-    btnText: content.btnText,
-    items: pageItems
-}
-
-const { title, description } = getProductSEO(parent.title, parent.sign, 'ru')
-const productJsonLd = getProductJsonLd (
-    parent.title, 
-    parent.sign, 
-    content.src, 
-    content.price, 
-    ENV
-)
 ---
 
-<!-- Washer repair [slug] page -->
-<Main title={title} description={description} jsonLd={productJsonLd}>
-    <HeroBanner 
-        h1 = {parent.title}
-        src = {content.src}
-        price = {content.price + ' ' + ENV.CURRENCY_SIGN}
-    />
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <div class="offset"></div>
-    <ContentIssues issues={pageData} isGoBack={true} />
-</Main>
+<WrapperServiceIssuesSlug content={content} slug={slug} />

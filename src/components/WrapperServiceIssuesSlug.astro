@@ -1,0 +1,74 @@
+---
+import Main from '../layouts/ru/Main.astro'
+import HeroBanner from './HeroBanner.astro'
+import ContentIssues from './ContentIssues.astro'
+import ENV from '../content/ru/env.json'
+import getProductSEO from '../../public/js/build/getProductSEO.mjs'
+import getProductJsonLd from '../../public/js/build/getProductJsonLd.mjs'
+import getGlobalDataByURI from '../../public/js/build/getGlobalDataByURI.mjs'
+
+// 1. Define the shape of a single item in your JSON
+interface ServiceItem {
+    slug: string
+    title: string
+    sign: string;
+    slugs?: string[] // Optional array for children
+}
+
+// 2. Define the shape of the full JSON object
+interface ServiceContent {
+    subtitle: string
+    btnText: string
+    items: ServiceItem[]
+}
+
+// 3. Tell Astro to use these types for Props
+interface Props {
+    content: ServiceContent
+    slug: string
+}
+
+const { content, slug } = Astro.props as Props
+
+// Now 'i' will be correctly typed as 'ServiceItem'
+const parent = content.items.find((i) => i.slug === slug)
+
+if (!parent) {
+    throw new Error(`Issue not found: ${slug}`);
+}
+
+const children = content.items.filter(i => parent.slugs?.includes(i.slug))
+
+const pageItems = children.length > 0 ? children : [parent]
+
+const pageData = {
+    title: parent.title,
+    subtitle: content.subtitle,
+    btnText: content.btnText,
+    items: pageItems
+}
+
+const src = getGlobalDataByURI(Astro.url.pathname).src
+const price = getGlobalDataByURI(Astro.url.pathname).price
+
+const { title, description } = getProductSEO(parent.title, parent.sign, 'ru')
+const productJsonLd = getProductJsonLd(
+    parent.title, 
+    parent.sign, 
+    src,
+    price,
+    ENV
+)
+---
+
+<Main title={title} description={description} jsonLd={productJsonLd}>
+    <HeroBanner 
+        h1={parent.title}
+        src={src}
+        price={price + ' ' + ENV.CURRENCY_SIGN}
+    />
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <div class="offset"></div>
+    <ContentIssues issues={pageData} isGoBack={true} />
+</Main>
