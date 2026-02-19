@@ -10,6 +10,8 @@ import washerIssuesSamsungRu from '../content/ru/services/lvacqi-meqenaneri-vera
 import washerIssuesLgRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/lg/data.json'
 import washerIssuesDaewooRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/daewoo/data.json'
 import washerIssuesBoschRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/bosch/data.json'
+import washerIssuesAegRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/aeg/data.json'
+import washerIssuesGorenjeRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/gorenje/data.json'
 
 
 import fridgeIssuesRu from '../content/ru/services/sarnaranneri-veranorogum/data.json'
@@ -30,6 +32,8 @@ let washerIssuesSamsung = washerIssuesSamsungRu
 let washerIssuesLg = washerIssuesLgRu
 let washerIssuesDaewoo = washerIssuesDaewooRu
 let washerIssuesBosch = washerIssuesBoschRu
+let washerIssuesAeg = washerIssuesAegRu
+let washerIssuesGorenje = washerIssuesGorenjeRu
 
 let fridgeIssues = fridgeIssuesRu
 
@@ -46,17 +50,14 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
             <li data-category="repair">
                 <Icon name="solar" /> Установка солнечных панелей
             </li>
-            <li data-category="home">
-                <Icon name="home" /> На Главную
+            <li data-category="reviews">
+                <Icon name="reviews" /> Отзывы
             </li>
             <li data-category="about">
                 <Icon name="about" /> О нас
             </li>
-            <li data-category="reviews">
-                <Icon name="reviews" /> Отзывы
-            </li>
-            <li data-category="faq">
-                <Icon name="faq" /> FAQ
+             <li data-category="home">
+                <Icon name="home" /> На Главную
             </li>
             <li data-category="localization">
                 <Icon name="localization" /> Փոխել հայերեն
@@ -105,6 +106,8 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
                             <li><a href={washerIssuesLg.parentURL}>{washerIssuesLg.indexPageTitle}</a></li>
                             <li><a href={washerIssuesDaewoo.parentURL}>{washerIssuesDaewoo.indexPageTitle}</a></li>
                             <li><a href={washerIssuesBosch.parentURL}>{washerIssuesBosch.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesAeg.parentURL}>{washerIssuesAeg.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesGorenje.parentURL}>{washerIssuesGorenje.indexPageTitle}</a></li>
                         </ul>
                     </div>
 
@@ -123,7 +126,7 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
             </div>
 
             <div class="panel" data-panel="fridge">
-                <div class="mega-title" role="heading" aria-level="2">Ремонт холодильников</div>
+                <div class="mega-title" role="heading" aria-level="2">{fridgeIssues.indexPageTitle}</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
@@ -320,6 +323,11 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
         z-index: 998;
     }
 
+    .mega a {
+        text-decoration: none;
+        color: var(--main-font-color);
+    }
+
     .mega__inner {
         max-width: var(--main-container-width);
         margin-inline: auto;
@@ -407,10 +415,5 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
 
     .panel.active {
         display: block;
-    }
-
-    .panel a {
-        text-decoration: none;
-        color: var(--main-font-color);
     }
 </style>

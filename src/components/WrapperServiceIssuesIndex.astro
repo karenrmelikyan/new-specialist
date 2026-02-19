@@ -17,7 +17,9 @@ interface ServiceItem {
 interface ServiceContent {
     indexPageTitle: string
     title: string
-    subtitle: string
+    subTitle: string
+    subSign: string
+    subCauses: string
     btnText: string
     items: ServiceItem[]
 }
@@ -33,7 +35,9 @@ const rootItems = content.items.filter(i => i.slugs && i.slugs.length > 0)
 
 const pageData = {
     title: content.title,
-    subtitle: content.subtitle,
+    subTitle: content.subTitle,
+    subSign: content.subSign,
+    subCauses: content.subCauses,
     btnText: content.btnText,
     items: rootItems
 }
@@ -41,7 +45,7 @@ const pageData = {
 const src = getGlobalDataByURI(Astro.url.pathname).src
 const price = getGlobalDataByURI(Astro.url.pathname).price
 
-const { title, description } = getProductSEO(content.indexPageTitle, content.subtitle, 'ru')
+const { title, description } = getProductSEO(content.indexPageTitle, content.subTitle, 'ru')
 const productJsonLd = getProductJsonLd(
     content.indexPageTitle, 
     description, 

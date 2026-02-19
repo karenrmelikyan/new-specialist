@@ -17,7 +17,9 @@ interface ServiceItem {
 
 // 2. Define the shape of the full JSON object
 interface ServiceContent {
-    subtitle: string
+    subTitle: string
+    subSign: string
+    subCauses: string
     btnText: string
     items: ServiceItem[]
 }
@@ -43,7 +45,9 @@ const pageItems = children.length > 0 ? children : [parent]
 
 const pageData = {
     title: parent.title,
-    subtitle: content.subtitle,
+    subTitle: content.subTitle,
+    subSign: content.subSign,
+    subCauses: content.subCauses,
     btnText: content.btnText,
     items: pageItems
 }

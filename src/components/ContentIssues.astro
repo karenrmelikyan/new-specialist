@@ -1,16 +1,18 @@
 ---
 interface IssueItem {
-  slug: string;
-  title: string;
-  sign?: string;
-  causes?: string;
+    slug: string
+    title: string
+    sign?: string
+    causes?: string
 }
 
 interface IssuesProps {
-  title: string;
-  subtitle?: string;
-  btnText?: string;
-  items: IssueItem[];
+    title: string
+    subTitle?: string
+    btnText?: string
+    subSign?: string
+    subCauses?: string
+    items: IssueItem[]
 }
 
 const currentPath = Astro.url.pathname
@@ -19,15 +21,6 @@ const currentPath = Astro.url.pathname
 const pathSegments = currentPath.split('/').filter(Boolean)
 pathSegments.pop()
 const parentURL = `/${pathSegments.join('/')}/`
-
-// Get subtitles by localization
-let localizatedSign = 'Նշան'
-let localizatedCauses = 'Պատճառներ'
-
-if (currentPath.includes('/ru/')) {
-    localizatedSign = 'Признак'
-    localizatedCauses = 'Причины'
-} 
 
 // Get all props
 const { isGoBack } = Astro.props
@@ -38,7 +31,7 @@ const { issues } = Astro.props as { issues: IssuesProps }
     <div class="content__container">
         <div class="content__left">
             <h2>{issues.title}</h2>
-            <h3 class="subtitle">{issues.subtitle}</h3>
+            <h3 class="subtitle">{issues.subTitle}</h3>
             <button class="btn-transparent" onclick="openModal()">
                 {issues.btnText}
             </button>
@@ -49,11 +42,11 @@ const { issues } = Astro.props as { issues: IssuesProps }
                 <a href={isGoBack ? `${parentURL}/` : `${issue.slug}/`} class="content-card">
                     <h4>{issue.title}</h4>
                     <p>
-                        <strong>{localizatedSign}:</strong> {issue.sign}
+                        <strong>{issues.subSign}:</strong> {issue.sign}
                     </p>
                     {issue.causes && issue.causes.trim() !== '' && (
                         <p>
-                            <strong>{localizatedCauses}:</strong> {issue.causes}
+                            <strong>{issues.subCauses}:</strong> {issue.causes}
                         </p>
                     )}
                 </a>
