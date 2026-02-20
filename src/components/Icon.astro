@@ -1,41 +1,44 @@
 ---
 import { icon, type IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import {
-    faTools,
-    faQuestionCircle,
     faUser,
     faStar,
     faGlobe,
     faBars,
     faPlusCircle,
     faHome,
+    faTools,
     faSolarPanel,
+    faSnowflake,
+    faTemperatureLow
 
 } from '@fortawesome/free-solid-svg-icons'
 
 type IconName =
-    | 'repair'
-    | 'faq'
     | 'about'
     | 'reviews'
     | 'localization'
     | 'hamburger'
     | 'plus'
     | 'home'
+    | 'repair'
     | 'solar'
+    | 'conditioner'
+    | 'cooling'
 
 const { name } = Astro.props as { name: IconName }
 
 const iconsMap: Record<IconName, IconDefinition> = {
-    repair: faTools,
-    faq: faQuestionCircle,
     about: faUser,
     reviews: faStar,
     localization: faGlobe,
     hamburger: faBars,
     plus: faPlusCircle,
     home: faHome,
-    solar: faSolarPanel
+    repair: faTools,
+    solar: faSolarPanel,
+    cooling: faSnowflake,
+    conditioner: faTemperatureLow
 }
 
 const svgHTML = icon(iconsMap[name]).html;

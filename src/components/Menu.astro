@@ -1,7 +1,9 @@
 ---
 import Icon from '../components/Icon.astro'
 import getFilteredIssues from '../../public/js/build/getFilteredIssues.mjs'
+import ENV from '../../src/content/ru/env.json'
 
+// Washers
 import washerIssuesRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/data.json'
 import washerIssuesAristonRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/ariston/data.json'
 import washerIssuesIndesitRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/indesit/data.json'
@@ -12,10 +14,13 @@ import washerIssuesDaewooRu from '../content/ru/services/lvacqi-meqenaneri-veran
 import washerIssuesBoschRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/bosch/data.json'
 import washerIssuesAegRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/aeg/data.json'
 import washerIssuesGorenjeRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/gorenje/data.json'
+import washerIssuesElectroluxRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/electrolux/data.json'
+import washerIssuesZanussiRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/zanussi/data.json'
+import washerIssuesBekoRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/beko/data.json'
 
-
+// Fridges
 import fridgeIssuesRu from '../content/ru/services/sarnaranneri-veranorogum/data.json'
-
+import { envField } from 'astro/config'
 
 var localization = ''
 
@@ -24,6 +29,7 @@ Astro.url.pathname.includes('/ru/')
     ? localization = '/ru/' 
     : localization = ''
 
+// Washers
 let washerIssues = washerIssuesRu
 let washerIssuesAriston = washerIssuesAristonRu
 let washerIssuesIndesit = washerIssuesIndesitRu
@@ -34,10 +40,15 @@ let washerIssuesDaewoo = washerIssuesDaewooRu
 let washerIssuesBosch = washerIssuesBoschRu
 let washerIssuesAeg = washerIssuesAegRu
 let washerIssuesGorenje = washerIssuesGorenjeRu
+let washerIssuesElectrolux = washerIssuesElectroluxRu
+let washerIssuesZanussi = washerIssuesZanussiRu
+let washerIssuesBeko = washerIssuesBekoRu
 
+// Fridges
 let fridgeIssues = fridgeIssuesRu
 
 const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.parentURL, 0, 12)
+const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.parentURL, 0, 12)
 ---
 
 <section class="mega" data-mega-menu>
@@ -47,17 +58,23 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
             <li class="active" data-category="repair">
                 <Icon name="repair" /> Ремонт бытовой техники
             </li>
+            <!-- <li data-category="conditioner">
+                <Icon name="conditioner" /> Ремонт климат. систем
+            </li>
+             <li data-category="cooling">
+                <Icon name="cooling" /> Ремонт систем охлаждения
+            </li>
             <li data-category="repair">
                 <Icon name="solar" /> Установка солнечных панелей
-            </li>
+            </li> -->
             <li data-category="reviews">
-                <Icon name="reviews" /> Отзывы
+                <Icon name="reviews" /><a href={ENV.GOOGLE_REVIEWS_URL}> Отзывы</a>
             </li>
             <li data-category="about">
-                <Icon name="about" /> О нас
+                <Icon name="about" /><a href="/about/"> О нас</a> 
             </li>
              <li data-category="home">
-                <Icon name="home" /> На Главную
+                <Icon name="home" /><a href="/ru/"> На Главную</a>
             </li>
             <li data-category="localization">
                 <Icon name="localization" /> Փոխել հայերեն
@@ -71,7 +88,7 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
                 <div class="mega-title" role="heading" aria-level="2">Ремонт техники</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт техники на дому</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники на дому</div>
                         <ul>
                             <li data-category="washer">Ремонт стиральных машин</li>
                             <li data-category="fridge"> Ремонт холодильников</li>
@@ -87,7 +104,7 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
                 <div class="mega-title" role="heading" aria-level="2">{washerIssues.indexPageTitle}</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
                         <ul>
                             <li><a href={washerIssues.parentURL}>{washerIssues.indexPageTitle}</a></li>
                             {commonWasherIssues.map(issue => (
@@ -108,6 +125,9 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
                             <li><a href={washerIssuesBosch.parentURL}>{washerIssuesBosch.indexPageTitle}</a></li>
                             <li><a href={washerIssuesAeg.parentURL}>{washerIssuesAeg.indexPageTitle}</a></li>
                             <li><a href={washerIssuesGorenje.parentURL}>{washerIssuesGorenje.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesElectrolux.parentURL}>{washerIssuesElectrolux.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesZanussi.parentURL}>{washerIssuesZanussi.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesBeko.parentURL}>{washerIssuesBeko.indexPageTitle}</a></li>
                         </ul>
                     </div>
 
@@ -131,12 +151,10 @@ const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.pa
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
                         <ul>
-                            <li>Ремонт холодильников</li>
-                            <li>Ремонт холодильного оборудования</li>
-                            <li>Ремонт стиральных машин</li>
-                            <li>Ремонт электрических плит</li>
-                            <li>Ремонт газовых плит</li>
-                            <li>Ремонт телевизоров</li>
+                            <li><a href={fridgeIssues.parentURL}>{fridgeIssues.indexPageTitle}</a></li>
+                            {commonFridgeIssues.map(issue => (
+                                <li><a href={issue.href}>{issue.title}</a></li>
+                            ))}
                         </ul>
                     </div>
 

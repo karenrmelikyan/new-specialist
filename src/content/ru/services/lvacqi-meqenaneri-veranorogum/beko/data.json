@@ -1,0 +1,397 @@
+{
+    "indexPageTitle": "Ремонт стиральных машин Beko",
+    "title": "Частые поломки стиральных машин Beko",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/lvacqi-meqenaneri-veranorogum/beko/",
+
+    "items": [
+        {
+            "slug": "beko-washer-not-draining-water",
+            "title": "Стиральная машина Beko не сливает воду",
+            "sign": "Вода остаётся в барабане после завершения программы",
+            "causes": "Засор сливной системы, неисправность помпы или блокировка фильтра мусором",
+            "slugs": [
+                "beko-drain-filter-obstructed",
+                "beko-drain-hose-kinked",
+                "beko-drain-pump-malfunction"
+            ]
+        },
+        {
+            "slug": "beko-washer-not-spinning-properly",
+            "title": "Стиральная машина Beko плохо отжимает бельё",
+            "sign": "Одежда остаётся мокрой после цикла отжима",
+            "causes": "Износ щёток двигателя, дисбаланс загрузки или сбой тахогенератора",
+            "slugs": [
+                "beko-motor-carbon-brushes-worn",
+                "beko-drum-imbalance-detected",
+                "beko-tachometer-sensor-failure"
+            ]
+        },
+        {
+            "slug": "beko-washer-not-heating-water",
+            "title": "Стиральная машина Beko не нагревает воду",
+            "sign": "Стирка проходит в холодной воде, порошок плохо растворяется",
+            "causes": "Перегоревший ТЭН, неисправный термодатчик или ошибка модуля управления",
+            "slugs": [
+                "beko-heating-element-burned-out",
+                "beko-ntc-temperature-sensor-defective",
+                "beko-control-board-heating-fault"
+            ]
+        },
+        {
+            "slug": "beko-washer-leaking-water",
+            "title": "Протекает стиральная машина Beko",
+            "sign": "Появляется вода под машиной во время работы",
+            "causes": "Повреждение патрубков, разгерметизация манжеты люка или трещина в баке",
+            "slugs": [
+                "beko-door-seal-damaged",
+                "beko-internal-hose-cracked",
+                "beko-tub-leakage"
+            ]
+        },
+        {
+            "slug": "beko-washer-not-starting",
+            "title": "Стиральная машина Beko не запускается",
+            "sign": "При нажатии кнопки старт программа не начинается",
+            "causes": "Неисправность блокировки люка, проблемы с электропитанием или сбой электроники",
+            "slugs": [
+                "beko-door-lock-failure",
+                "beko-power-supply-issue",
+                "beko-main-board-malfunction"
+            ]
+        },
+        {
+            "slug": "beko-washer-door-not-opening",
+            "title": "Дверца стиральной машины Beko не открывается",
+            "sign": "Люк остаётся заблокированным после завершения цикла",
+            "causes": "Поломка устройства блокировки, остаточная вода в баке или ошибка платы",
+            "slugs": [
+                "beko-ubl-interlock-defective",
+                "beko-water-not-drained",
+                "beko-electronic-lock-error"
+            ]
+        },
+        {
+            "slug": "beko-washer-making-loud-noise",
+            "title": "Стиральная машина Beko шумит или гудит",
+            "sign": "Сильный грохот или металлический скрежет при отжиме",
+            "causes": "Износ подшипников, посторонний предмет в барабане или разрушение крестовины",
+            "slugs": [
+                "beko-drum-bearings-worn",
+                "beko-foreign-object-in-drum",
+                "beko-drum-spider-broken"
+            ]
+        },
+        {
+            "slug": "beko-washer-not-filling-with-water",
+            "title": "Стиральная машина Beko не набирает воду",
+            "sign": "Барабан остаётся пустым после запуска программы",
+            "causes": "Неисправность впускного клапана, засор сетчатого фильтра или низкое давление воды",
+            "slugs": [
+                "beko-inlet-valve-faulty",
+                "beko-inlet-filter-clogged",
+                "beko-low-water-pressure"
+            ]
+        },
+        {
+            "slug": "beko-washer-stops-mid-cycle",
+            "title": "Стиральная машина Beko останавливается во время стирки",
+            "sign": "Программа зависает или прерывается без завершения",
+            "causes": "Сбой управляющего модуля, перегрев двигателя или проблемы с датчиками",
+            "slugs": [
+                "beko-electronic-module-error",
+                "beko-motor-overheating",
+                "beko-sensor-communication-fault"
+            ]
+        },
+        {
+            "slug": "beko-washer-vibrates-excessively",
+            "title": "Стиральная машина Beko сильно вибрирует",
+            "sign": "Машина смещается или подпрыгивает при отжиме",
+            "causes": "Износ амортизаторов, повреждение противовесов или неправильная установка",
+            "slugs": [
+                "beko-shock-absorbers-worn",
+                "beko-counterweight-loose",
+                "beko-installation-imbalance"
+            ]
+        },
+        {
+            "slug": "beko-washer-displays-error-code",
+            "title": "Стиральная машина Beko показывает код ошибки",
+            "sign": "На дисплее появляется буквенно-цифровое обозначение",
+            "causes": "Системная диагностика выявила неисправность узла или датчика",
+            "slugs": [
+                "beko-error-e01-door-lock",
+                "beko-error-e02-drain-issue",
+                "beko-error-e05-heating-problem"
+            ]
+        },
+        {
+            "slug": "beko-washer-bad-smell-from-drum",
+            "title": "Неприятный запах из стиральной машины Beko",
+            "sign": "Из барабана исходит затхлый или плесневелый запах",
+            "causes": "Скопление остатков моющих средств, загрязнение манжеты или застой воды",
+            "slugs": [
+                "beko-drum-mold-buildup",
+                "beko-detergent-residue-accumulation",
+                "beko-drain-system-biofilm"
+            ]
+        },
+
+        {
+            "slug": "beko-drain-filter-obstructed",
+            "title": "Засорён сливной фильтр стиральной машины Beko",
+            "sign": "Вода не уходит и программа зависает на этапе слива",
+            "causes": "Фильтр насоса забит нитками, волосами, пуговицами или мелкими предметами",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drain-hose-kinked",
+            "title": "Пережат или заблокирован сливной шланг Beko",
+            "sign": "Медленный слив воды или её полное отсутствие",
+            "causes": "Шланг перегнут, придавлен корпусом или засорён отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drain-pump-malfunction",
+            "title": "Неисправность сливного насоса Beko",
+            "sign": "Слышен гул, но вода не откачивается",
+            "causes": "Износ крыльчатки, заклинивание помпы или перегорание обмотки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-carbon-brushes-worn",
+            "title": "Изношены угольные щётки двигателя Beko",
+            "sign": "Барабан не развивает обороты при отжиме",
+            "causes": "Стирание графитовых щёток и потеря контакта с коллектором",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drum-imbalance-detected",
+            "title": "Дисбаланс барабана в стиральной машине Beko",
+            "sign": "Отжим прерывается или не запускается",
+            "causes": "Неравномерное распределение белья внутри барабана",
+            "slugs": []
+        },
+        {
+            "slug": "beko-tachometer-sensor-failure",
+            "title": "Неисправен тахогенератор двигателя Beko",
+            "sign": "Скорость вращения не контролируется корректно",
+            "causes": "Повреждение датчика оборотов или нарушение контактов",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heating-element-burned-out",
+            "title": "Перегорел нагревательный элемент (ТЭН) Beko",
+            "sign": "Вода остаётся холодной во время стирки",
+            "causes": "Накипь, перегрев или естественный износ нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "beko-ntc-temperature-sensor-defective",
+            "title": "Неисправен температурный датчик NTC Beko",
+            "sign": "Некорректный нагрев или ошибка по температуре",
+            "causes": "Сбой термистора или обрыв цепи датчика",
+            "slugs": []
+        },
+        {
+            "slug": "beko-control-board-heating-fault",
+            "title": "Сбой модуля управления нагревом Beko",
+            "sign": "ТЭН исправен, но нагрев не включается",
+            "causes": "Повреждение реле или электронных компонентов платы",
+            "slugs": []
+        },
+        {
+            "slug": "beko-door-seal-damaged",
+            "title": "Повреждена манжета люка стиральной машины Beko",
+            "sign": "Вода подтекает из-под дверцы",
+            "causes": "Разрыв резинового уплотнителя или потеря герметичности",
+            "slugs": []
+        },
+        {
+            "slug": "beko-internal-hose-cracked",
+            "title": "Трещина во внутреннем патрубке Beko",
+            "sign": "Протечка внутри корпуса машины",
+            "causes": "Старение резины или механическое повреждение шланга",
+            "slugs": []
+        },
+        {
+            "slug": "beko-tub-leakage",
+            "title": "Разгерметизация бака стиральной машины Beko",
+            "sign": "Вода скапливается под устройством",
+            "causes": "Микротрещины пластикового бака или нарушение соединений",
+            "slugs": []
+        },
+        {
+            "slug": "beko-door-lock-failure",
+            "title": "Неисправность блокировки люка (УБЛ) Beko",
+            "sign": "Машина не стартует, люк не фиксируется",
+            "causes": "Поломка замка или выход из строя механизма фиксации",
+            "slugs": []
+        },
+        {
+            "slug": "beko-power-supply-issue",
+            "title": "Проблема с электропитанием стиральной машины Beko",
+            "sign": "Устройство не реагирует на включение",
+            "causes": "Повреждение сетевого кабеля или сбой фильтра помех",
+            "slugs": []
+        },
+        {
+            "slug": "beko-main-board-malfunction",
+            "title": "Неисправность основной электронной платы Beko",
+            "sign": "Полный отказ запуска программ",
+            "causes": "Выход из строя микросхем или скачок напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "beko-ubl-interlock-defective",
+            "title": "Дефект устройства блокировки дверцы Beko",
+            "sign": "Люк остаётся заблокированным после стирки",
+            "causes": "Заклинивание механизма или электрический обрыв",
+            "slugs": []
+        },
+        {
+            "slug": "beko-water-not-drained",
+            "title": "Вода не слита полностью в машине Beko",
+            "sign": "Дверца не открывается после завершения программы",
+            "causes": "Остаточная вода из-за частичного засора системы слива",
+            "slugs": []
+        },
+        {
+            "slug": "beko-electronic-lock-error",
+            "title": "Ошибка электронного замка Beko",
+            "sign": "На дисплее отображается код блокировки",
+            "causes": "Сбой сигнала между замком и модулем управления",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drum-bearings-worn",
+            "title": "Изношены подшипники барабана Beko",
+            "sign": "Громкий гул и вибрации при вращении",
+            "causes": "Разрушение подшипникового узла из-за влаги",
+            "slugs": []
+        },
+        {
+            "slug": "beko-foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане Beko",
+            "sign": "Скрежет или стук во время стирки",
+            "causes": "Монета, косточка бюстгальтера или мелкий предмет попал внутрь",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drum-spider-broken",
+            "title": "Повреждена крестовина барабана Beko",
+            "sign": "Барабан перекошен и шумит при отжиме",
+            "causes": "Коррозия алюминиевой крестовины или механическая нагрузка",
+            "slugs": []
+        },
+        {
+            "slug": "beko-inlet-valve-faulty",
+            "title": "Неисправен впускной клапан подачи воды Beko",
+            "sign": "Машина не наполняется водой",
+            "causes": "Заклинивание мембраны клапана или обрыв катушки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-inlet-filter-clogged",
+            "title": "Засор сетчатого фильтра залива воды Beko",
+            "sign": "Медленный набор воды в бак",
+            "causes": "Отложения ржавчины или песка из водопровода",
+            "slugs": []
+        },
+        {
+            "slug": "beko-low-water-pressure",
+            "title": "Низкое давление воды для стиральной машины Beko",
+            "sign": "Ошибка набора воды или долгий старт программы",
+            "causes": "Слабый напор в системе водоснабжения",
+            "slugs": []
+        },
+        {
+            "slug": "beko-electronic-module-error",
+            "title": "Ошибка электронного модуля Beko",
+            "sign": "Программа самопроизвольно останавливается",
+            "causes": "Сбой прошивки или повреждение платы управления",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-overheating",
+            "title": "Перегрев двигателя стиральной машины Beko",
+            "sign": "Машина отключается во время работы",
+            "causes": "Чрезмерная нагрузка или проблемы с вентиляцией мотора",
+            "slugs": []
+        },
+        {
+            "slug": "beko-sensor-communication-fault",
+            "title": "Нарушение связи датчиков с модулем Beko",
+            "sign": "Непредсказуемое поведение программы",
+            "causes": "Обрыв проводки или плохой контакт разъёмов",
+            "slugs": []
+        },
+        {
+            "slug": "beko-shock-absorbers-worn",
+            "title": "Изношены амортизаторы Beko",
+            "sign": "Сильная тряска при отжиме",
+            "causes": "Потеря демпфирующих свойств амортизаторов",
+            "slugs": []
+        },
+        {
+            "slug": "beko-counterweight-loose",
+            "title": "Ослаблены противовесы стиральной машины Beko",
+            "sign": "Громкие удары по корпусу",
+            "causes": "Разболтались крепления бетонных грузов",
+            "slugs": []
+        },
+        {
+            "slug": "beko-installation-imbalance",
+            "title": "Неправильная установка стиральной машины Beko",
+            "sign": "Машина смещается во время работы",
+            "causes": "Неровный пол или неотрегулированные ножки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-error-e01-door-lock",
+            "title": "Ошибка E01 – проблема с блокировкой люка Beko",
+            "sign": "Машина не запускает программу",
+            "causes": "Неисправен замок дверцы или его цепь",
+            "slugs": []
+        },
+        {
+            "slug": "beko-error-e02-drain-issue",
+            "title": "Ошибка E02 – неисправность системы слива Beko",
+            "sign": "Вода не удаляется из бака",
+            "causes": "Засор фильтра или поломка насоса",
+            "slugs": []
+        },
+        {
+            "slug": "beko-error-e05-heating-problem",
+            "title": "Ошибка E05 – сбой нагрева воды Beko",
+            "sign": "Стирка проходит без нагрева",
+            "causes": "Неисправность ТЭНа или температурного датчика",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drum-mold-buildup",
+            "title": "Образование плесени в барабане Beko",
+            "sign": "Затхлый запах после стирки",
+            "causes": "Повышенная влажность и отсутствие регулярной очистки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-detergent-residue-accumulation",
+            "title": "Скопление остатков порошка в машине Beko",
+            "sign": "Налёт в лотке и внутри барабана",
+            "causes": "Использование избыточного количества моющих средств",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drain-system-biofilm",
+            "title": "Биологические отложения в сливной системе Beko",
+            "sign": "Неприятный запах из сливного тракта",
+            "causes": "Накопление бактерий и органических остатков",
+            "slugs": []
+        }
+    ]
+}
