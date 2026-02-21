@@ -1,0 +1,316 @@
+{
+    "indexPageTitle": "Ремонт холодильников Electrolux",
+    "title": "Частые поломки холодильников Electrolux",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/sarnaranneri-veranorogum/electrolux/",
+
+    "items": [
+
+        {
+            "slug": "electrolux-fridge-poor-cooling",
+            "title": "Холодильник Electrolux недостаточно охлаждает",
+            "sign": "Температура внутри холодильного отделения выше нормы",
+            "causes": "Неэффективная работа системы охлаждения или плохая циркуляция воздуха",
+            "slugs": [
+                "electrolux-compressor-fault",
+                "electrolux-refrigerant-leak",
+                "electrolux-capillary-block",
+                "electrolux-evaporator-fan-fault",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-freezer-not-freezing",
+            "title": "Морозильник Electrolux не замораживает продукты",
+            "sign": "Еда теряет холод и становится мягкой",
+            "causes": "Недостаточная генерация холода в морозильном отсеке",
+            "slugs": [
+                "electrolux-compressor-fault",
+                "electrolux-refrigerant-leak",
+                "electrolux-defrost-heater-fault",
+                "electrolux-temperature-sensor-fault",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-runs-continuously",
+            "title": "Холодильник Electrolux работает без остановки",
+            "sign": "Компрессор не выключается даже при достигнутой температуре",
+            "causes": "Система не способна достичь заданной температуры",
+            "slugs": [
+                "electrolux-refrigerant-leak",
+                "electrolux-door-seal-damage",
+                "electrolux-temperature-sensor-fault",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-wont-start",
+            "title": "Холодильник Electrolux не включается",
+            "sign": "Нет подсветки и характерного шума работы",
+            "causes": "Проблемы с электропитанием или запуском компрессора",
+            "slugs": [
+                "electrolux-power-cord-damage",
+                "electrolux-start-relay-fault",
+                "electrolux-compressor-fault",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-leaks-water",
+            "title": "Холодильник Electrolux протекает",
+            "sign": "Под холодильником или внутри скапливается вода",
+            "causes": "Нарушение отвода талой воды или засор дренажной системы",
+            "slugs": [
+                "electrolux-drain-hole-block",
+                "electrolux-drain-tube-ice",
+                "electrolux-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-ice-formation",
+            "title": "В холодильнике Electrolux появляется лёд",
+            "sign": "Иней и ледяная корка на стенках камер",
+            "causes": "Сбой работы автоматической системы разморозки No Frost",
+            "slugs": [
+                "electrolux-defrost-heater-fault",
+                "electrolux-defrost-thermostat-fault",
+                "electrolux-door-seal-damage",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-loud-noise",
+            "title": "Холодильник Electrolux издаёт шумы или гудит",
+            "sign": "Посторонние звуки, дребезжание или вибрация",
+            "causes": "Износ механических элементов или неправильная установка",
+            "slugs": [
+                "electrolux-compressor-wear",
+                "electrolux-evaporator-fan-fault",
+                "electrolux-condenser-fan-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-not-defrosting",
+            "title": "Холодильник Electrolux не размораживается",
+            "sign": "Испаритель покрыт толстым слоем льда, оттайка не происходит",
+            "causes": "Сбой в работе автоматического цикла разморозки",
+            "slugs": [
+                "electrolux-defrost-heater-fault",
+                "electrolux-defrost-timer-fault",
+                "electrolux-defrost-thermostat-fault",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-light-failure",
+            "title": "Не горит лампочка в холодильнике Electrolux",
+            "sign": "Подсветка не включается при открытой двери",
+            "causes": "Поломка лампы или дверного переключателя",
+            "slugs": [
+                "electrolux-lamp-burnt",
+                "electrolux-door-switch-fault",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-bad-smell",
+            "title": "В холодильнике Electrolux появляется неприятный запах",
+            "sign": "Запах сохраняется даже после очистки",
+            "causes": "Засор дренажной системы, плесень или остатки испорченных продуктов",
+            "slugs": [
+                "electrolux-drain-hole-block",
+                "electrolux-mold-growth",
+                "electrolux-spoiled-food-remains"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-overfreezing",
+            "title": "Холодильник Electrolux перемораживает продукты",
+            "sign": "Овощи и напитки замерзают в холодильной зоне",
+            "causes": "Некорректная работа датчиков температуры или воздушной заслонки",
+            "slugs": [
+                "electrolux-temperature-sensor-fault",
+                "electrolux-air-damper-stuck",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-trips-circuit",
+            "title": "Холодильник Electrolux выбивает автомат",
+            "sign": "Защитный автомат срабатывает при включении",
+            "causes": "Короткое замыкание или пробой электрических компонентов",
+            "slugs": [
+                "electrolux-compressor-short",
+                "electrolux-heater-short",
+                "electrolux-power-filter-burnt",
+                "electrolux-electronic-control-fault"
+            ]
+        },
+
+        {
+            "slug": "electrolux-compressor-fault",
+            "title": "Поломка компрессора холодильника Electrolux",
+            "sign": "Холодильник не охлаждает или не включается",
+            "causes": "Износ деталей компрессора, перегрев обмоток или заклинивание двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Electrolux",
+            "sign": "Снижение мощности охлаждения и непрерывная работа мотора",
+            "causes": "Разгерметизация трубок или микротрещины в холодильном контуре",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-capillary-block",
+            "title": "Засор капиллярной трубки холодильника Electrolux",
+            "sign": "Холодильник плохо охлаждает и работает дольше нормы",
+            "causes": "Загрязнение капиллярной трубки кристаллами или маслами",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-evaporator-fan-fault",
+            "title": "Неисправность вентилятора испарителя Electrolux",
+            "sign": "Температура в камерах нестабильна, слышны странные звуки",
+            "causes": "Заклинивание, износ подшипников или поломка мотора вентилятора",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-electronic-control-fault",
+            "title": "Сбой электронной платы управления Electrolux",
+            "sign": "Некорректная работа всех функций холодильника",
+            "causes": "Перегрузка, скачки напряжения или выход из строя электронных компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-defrost-heater-fault",
+            "title": "Поломка нагревателя разморозки Electrolux",
+            "sign": "Не происходит оттайка, появляется лёд на испарителе",
+            "causes": "Перегорание нагревателя или разрыв соединений",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-temperature-sensor-fault",
+            "title": "Сбой датчика температуры Electrolux",
+            "sign": "Холодильник неправильно регулирует холод, продукты замерзают или теплые",
+            "causes": "Выход из строя термистора или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-seal-damage",
+            "title": "Повреждена дверная прокладка Electrolux",
+            "sign": "Продукты быстрее портятся, компрессор работает дольше",
+            "causes": "Трещины, деформация или износ резинового уплотнителя",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-power-cord-damage",
+            "title": "Повреждён сетевой шнур холодильника Electrolux",
+            "sign": "Холодильник не включается, нет питания",
+            "causes": "Перетертость кабеля, перегибы или заводской дефект",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-start-relay-fault",
+            "title": "Неисправность пускового реле Electrolux",
+            "sign": "Компрессор не запускается, слышен щелчок",
+            "causes": "Выход из строя реле из-за перегрева или старения контактов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-hole-block",
+            "title": "Засор сливного отверстия Electrolux",
+            "sign": "Внутри холодильника или под ним скапливается вода",
+            "causes": "Засорение остатками пищи или наледью",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-tube-ice",
+            "title": "Замерзание сливной трубки Electrolux",
+            "sign": "Вода не уходит, образуются лужи внутри",
+            "causes": "Замерзание талой воды внутри трубки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drip-tray-damage",
+            "title": "Повреждение поддона для конденсата Electrolux",
+            "sign": "Вода течет под холодильник или капает внутри",
+            "causes": "Трещины, деформация или неправильная установка поддона",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-defrost-thermostat-fault",
+            "title": "Неисправен термостат разморозки Electrolux",
+            "sign": "Оттайка не происходит, на испарителе лед",
+            "causes": "Сбой термостата или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-defrost-timer-fault",
+            "title": "Сбой таймера оттайки Electrolux",
+            "sign": "Лед не тает автоматически, холодильник не отключается вовремя",
+            "causes": "Выход из строя механизма таймера",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-lamp-burnt",
+            "title": "Перегорание лампы подсветки Electrolux",
+            "sign": "Внутри холодильника темно при открытии двери",
+            "causes": "Выход из строя лампы накаливания или светодиода",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-switch-fault",
+            "title": "Неисправность дверного переключателя Electrolux",
+            "sign": "Подсветка не включается при открытии дверцы",
+            "causes": "Износ контактов или поломка механизма переключателя",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-mold-growth",
+            "title": "Образование плесени в холодильнике Electrolux",
+            "sign": "Появляется неприятный запах и пятна плесени",
+            "causes": "Влажность, засор дренажа, остатки пищи",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-spoiled-food-remains",
+            "title": "Остатки испорченной пищи в холодильнике Electrolux",
+            "sign": "Стойкий неприятный запах даже после уборки",
+            "causes": "Неправильное хранение продуктов и несвоевременная очистка",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-air-damper-stuck",
+            "title": "Заслонка воздушного потока застряла Electrolux",
+            "sign": "Нарушение распределения холодного воздуха, продукты замерзают",
+            "causes": "Заклинивание или износ механизма заслонки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-compressor-short",
+            "title": "Короткое замыкание компрессора Electrolux",
+            "sign": "Срабатывает автоматический выключатель при включении",
+            "causes": "Повреждение обмоток компрессора или изоляции",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heater-short",
+            "title": "Короткое замыкание нагревателя Electrolux",
+            "sign": "Срабатывает защита при включении холодильника",
+            "causes": "Выход из строя нагревательного элемента или изоляции проводки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-power-filter-burnt",
+            "title": "Перегорел сетевой фильтр Electrolux",
+            "sign": "Холодильник выбивает автомат или не включается",
+            "causes": "Перегрузка, скачок напряжения или короткое замыкание",
+            "slugs": []
+        }
+    ]
+}

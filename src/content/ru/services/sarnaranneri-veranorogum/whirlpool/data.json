@@ -1,0 +1,331 @@
+{
+    "indexPageTitle": "Ремонт холодильников Whirlpool",
+    "title": "Частые поломки холодильников Whirlpool",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/sarnaranneri-veranorogum/whirlpool/",
+
+    "items": [
+
+        {
+            "slug": "whirlpool-fridge-not-cooling",
+            "title": "Холодильник Whirlpool не охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Неисправность компрессора или системы циркуляции холодного воздуха",
+            "slugs": [
+                "whirlpool-inverter-compressor-failure",
+                "whirlpool-refrigerant-leak",
+                "whirlpool-capillary-blockage",
+                "whirlpool-evaporator-fan-failure",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-freezer-not-freezing",
+            "title": "Морозильник Whirlpool не замораживает",
+            "sign": "Продукты в морозильной камере теряют заморозку",
+            "causes": "Недостаточная генерация холода или сбой циркуляции воздуха",
+            "slugs": [
+                "whirlpool-inverter-compressor-failure",
+                "whirlpool-refrigerant-leak",
+                "whirlpool-defrost-heater-failure",
+                "whirlpool-temperature-sensor-error",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-running-continuously",
+            "title": "Холодильник Whirlpool работает без остановки",
+            "sign": "Компрессор не отключается длительное время",
+            "causes": "Не достижение заданной температуры в камерах",
+            "slugs": [
+                "whirlpool-refrigerant-leak",
+                "whirlpool-door-seal-damaged",
+                "whirlpool-temperature-sensor-error",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-wont-start",
+            "title": "Холодильник Whirlpool не включается",
+            "sign": "Отсутствует индикация и работа компрессора",
+            "causes": "Сбой питания или стартового реле, неисправность платы",
+            "slugs": [
+                "whirlpool-power-cord-damaged",
+                "whirlpool-start-relay-failure",
+                "whirlpool-inverter-compressor-failure",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-water-leak",
+            "title": "Холодильник Whirlpool протекает",
+            "sign": "Под корпусом или внутри камер появляется вода",
+            "causes": "Нарушение отвода конденсата или талой воды",
+            "slugs": [
+                "whirlpool-drain-hole-clog",
+                "whirlpool-drain-line-frozen",
+                "whirlpool-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-ice-formation",
+            "title": "В холодильнике Whirlpool образуется лёд",
+            "sign": "Иней и лёд на стенках и испарителе",
+            "causes": "Сбой No Frost или элементов системы разморозки",
+            "slugs": [
+                "whirlpool-defrost-heater-failure",
+                "whirlpool-defrost-sensor-failure",
+                "whirlpool-door-seal-damaged",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-noisy",
+            "title": "Холодильник Whirlpool шумит",
+            "sign": "Посторонние звуки, вибрации, гул",
+            "causes": "Износ компрессора или вентиляторов",
+            "slugs": [
+                "whirlpool-inverter-compressor-wear",
+                "whirlpool-evaporator-fan-failure",
+                "whirlpool-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-not-defrosting",
+            "title": "Холодильник Whirlpool не размораживается",
+            "sign": "Испаритель покрыт льдом, разморозка не работает",
+            "causes": "Сбой системы автоматической оттайки",
+            "slugs": [
+                "whirlpool-defrost-heater-failure",
+                "whirlpool-defrost-timer-failure",
+                "whirlpool-defrost-sensor-failure",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-light-failure",
+            "title": "Не работает подсветка Whirlpool",
+            "sign": "Лампа не включается при открытии дверцы",
+            "causes": "Неисправность LED-модуля или дверного переключателя",
+            "slugs": [
+                "whirlpool-led-lamp-failure",
+                "whirlpool-door-switch-failure",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Whirlpool",
+            "sign": "Запах остаётся после очистки камер",
+            "causes": "Засор дренажа, плесень или остатки испорченных продуктов",
+            "slugs": [
+                "whirlpool-drain-hole-clog",
+                "whirlpool-mold-growth",
+                "whirlpool-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-overfreezing",
+            "title": "Whirlpool перемораживает продукты",
+            "sign": "Продукты в холодильной зоне покрываются льдом",
+            "causes": "Сбой датчиков или механизма заслонки холодного воздуха",
+            "slugs": [
+                "whirlpool-temperature-sensor-error",
+                "whirlpool-air-damper-stuck",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-trips-breaker",
+            "title": "Холодильник Whirlpool выбивает автомат",
+            "sign": "Автомат срабатывает при включении",
+            "causes": "Короткое замыкание электрических узлов",
+            "slugs": [
+                "whirlpool-compressor-short-circuit",
+                "whirlpool-heater-short-circuit",
+                "whirlpool-noise-filter-burnt",
+                "whirlpool-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-inverter-compressor-failure",
+            "title": "Поломка инверторного компрессора Whirlpool",
+            "sign": "Холодильник не набирает холод или постоянно работает",
+            "causes": "Заклинивание двигателя, перегрев или механический износ компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-refrigerant-leak",
+            "title": "Утечка хладагента в Whirlpool",
+            "sign": "Недостаточное охлаждение и непрерывная работа мотора",
+            "causes": "Разгерметизация трубопровода или микротрещины в контуре охлаждения",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-capillary-blockage",
+            "title": "Засор капиллярной трубки Whirlpool",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка трубки влагой, грязью или продуктами износа системы",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-evaporator-fan-failure",
+            "title": "Неисправность вентилятора испарителя Whirlpool",
+            "sign": "Холод есть в морозильной камере, но отсутствует в холодильной",
+            "causes": "Поломка двигателя вентилятора или обрыв питающей цепи",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-main-control-board-failure",
+            "title": "Сбой главной платы Whirlpool",
+            "sign": "Неправильная работа всех функций холодильника",
+            "causes": "Перегрев, скачки напряжения или заводской дефект платы управления",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-temperature-sensor-error",
+            "title": "Сбой датчика температуры Whirlpool",
+            "sign": "Неадекватное охлаждение, постоянная работа компрессора или перемораживание",
+            "causes": "Выход из строя термодатчика или нарушение соединений с платой управления",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-seal-damaged",
+            "title": "Повреждение уплотнителя двери Whirlpool",
+            "sign": "Постоянная работа холодильника и образование конденсата",
+            "causes": "Износ уплотнителя, деформация или попадание посторонних предметов",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-power-cord-damaged",
+            "title": "Повреждён сетевой кабель Whirlpool",
+            "sign": "Холодильник не включается, нет индикации",
+            "causes": "Механические повреждения, перегибы или заводской брак кабеля",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-start-relay-failure",
+            "title": "Неисправность стартового реле Whirlpool",
+            "sign": "Компрессор не запускается, слышен щелчок",
+            "causes": "Выход из строя реле или перегрев из-за старения компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-hole-clog",
+            "title": "Засор дренажного отверстия Whirlpool",
+            "sign": "Вода скапливается на дне холодильника или внутри камеры",
+            "causes": "Накопление грязи, остатков пищи или льда в отверстии слива",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-line-frozen",
+            "title": "Замерзла дренажная трубка Whirlpool",
+            "sign": "Протечки воды и неправильный отвод талой воды",
+            "causes": "Снижение температуры ниже нормы, скопление льда в трубке",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drip-tray-damage",
+            "title": "Поломка поддона для конденсата Whirlpool",
+            "sign": "Протечка воды под холодильником",
+            "causes": "Трещины, деформация или неправильная установка поддона",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-defrost-heater-failure",
+            "title": "Сбой нагревателя разморозки Whirlpool",
+            "sign": "Не происходит оттайка, на испарителе образуется лед",
+            "causes": "Перегорел нагревательный элемент или разрыв цепи питания",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-defrost-sensor-failure",
+            "title": "Неисправность датчика разморозки Whirlpool",
+            "sign": "Система No Frost не выполняет оттайку",
+            "causes": "Выход из строя сенсора или разрыв соединений с платой управления",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-defrost-timer-failure",
+            "title": "Сбой таймера разморозки Whirlpool",
+            "sign": "Не срабатывает автоматическая оттайка",
+            "causes": "Неисправность механического или электронного таймера",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-inverter-compressor-wear",
+            "title": "Износ инверторного компрессора Whirlpool",
+            "sign": "Повышенный шум, вибрации, снижение эффективности охлаждения",
+            "causes": "Механический износ деталей, недостаток смазки или перегрев мотора",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-condenser-fan-failure",
+            "title": "Сбой вентилятора конденсатора Whirlpool",
+            "sign": "Компрессор работает, но охлаждение плохое, посторонние шумы",
+            "causes": "Заклинивание лопастей или повреждение двигателя вентилятора",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-led-lamp-failure",
+            "title": "Сгорела LED-подсветка Whirlpool",
+            "sign": "Лампа не включается при открытии двери",
+            "causes": "Выход из строя светодиодного модуля",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-switch-failure",
+            "title": "Неисправен дверной переключатель Whirlpool",
+            "sign": "Подсветка и функции холодильника не реагируют на открытие двери",
+            "causes": "Выход из строя механизма или разрыв соединений",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-mold-growth",
+            "title": "Рост плесени в холодильнике Whirlpool",
+            "sign": "Появление неприятного запаха и пятен на стенках",
+            "causes": "Высокая влажность, длительное хранение испорченных продуктов или засор дренажа",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов Whirlpool",
+            "sign": "Неприятный запах сохраняется даже после чистки камер",
+            "causes": "Длительное хранение гнилых продуктов или загрязнение дренажной системы",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-air-damper-stuck",
+            "title": "Засор или заклинивание заслонки воздуха Whirlpool",
+            "sign": "Некорректное распределение холодного воздуха, перемораживание или перегрев",
+            "causes": "Механическое заедание заслонки или обрыв приводного механизма",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Whirlpool",
+            "sign": "Выбивает автомат, компрессор не запускается",
+            "causes": "Повреждение обмоток или внутренняя электрическая неисправность компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя Whirlpool",
+            "sign": "Срабатывает защитный автомат, оттайка не работает",
+            "causes": "Выход из строя нагревательного элемента или проводки",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-noise-filter-burnt",
+            "title": "Сгорел фильтр помех Whirlpool",
+            "sign": "Выбивает автомат при включении, сбои работы электроники",
+            "causes": "Перегрузка сети или внутренняя неисправность фильтра",
+            "slugs": []
+        }
+
+    ]
+}

@@ -1,0 +1,14 @@
+---
+import WrapperServiceIssuesSlug from '../../../../../components/WrapperServiceIssuesSlug.astro'
+import content from '../../../../../content/ru/services/sarnaranneri-veranorogum/whirlpool/data.json'
+
+export async function getStaticPaths() {
+    return content.items.map(item => ({
+        params: { slug: item.slug }
+    }))
+}
+
+const { slug } = Astro.params
+---
+
+<WrapperServiceIssuesSlug content={content} slug={slug} />

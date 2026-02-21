@@ -1,0 +1,329 @@
+{
+    "indexPageTitle": "Ремонт холодильников Gorenje",
+    "title": "Частые поломки холодильников Gorenje",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/sarnaranneri-veranorogum/gorenje/",
+
+    "items": [
+        {
+            "slug": "gorenje-fridge-not-cooling",
+            "title": "Холодильник Gorenje плохо охлаждает",
+            "sign": "Температура внутри холодильника выше нормы",
+            "causes": "Сбой работы охлаждающей системы или циркуляции воздуха",
+            "slugs": [
+                "gorenje-compressor-fault",
+                "gorenje-refrigerant-leak",
+                "gorenje-capillary-block",
+                "gorenje-evaporator-fan-fault",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-freezer-not-freezing",
+            "title": "Морозильная камера Gorenje не замораживает",
+            "sign": "Продукты теряют холод и становятся мягкими",
+            "causes": "Недостаточная генерация холода в морозильной камере",
+            "slugs": [
+                "gorenje-compressor-fault",
+                "gorenje-refrigerant-leak",
+                "gorenje-defrost-heater-fault",
+                "gorenje-temperature-sensor-fault",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-running-nonstop",
+            "title": "Холодильник Gorenje работает без остановки",
+            "sign": "Компрессор включен постоянно и не отключается",
+            "causes": "Система не достигает заданной температуры",
+            "slugs": [
+                "gorenje-refrigerant-leak",
+                "gorenje-door-seal-damage",
+                "gorenje-temperature-sensor-fault",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-wont-start",
+            "title": "Холодильник Gorenje не запускается",
+            "sign": "Отсутствует подсветка и шум работы компрессора",
+            "causes": "Проблемы с питанием или пусковым механизмом",
+            "slugs": [
+                "gorenje-power-cord-damage",
+                "gorenje-start-relay-fault",
+                "gorenje-compressor-fault",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-water-leak",
+            "title": "Холодильник Gorenje протекает",
+            "sign": "Под холодильником или внутри скапливается вода",
+            "causes": "Засор или замерзание сливного канала, повреждение поддона",
+            "slugs": [
+                "gorenje-drain-hole-block",
+                "gorenje-drain-tube-ice",
+                "gorenje-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-ice-formation",
+            "title": "В холодильнике Gorenje образуется лёд",
+            "sign": "На стенках появляются иней и ледяная корка",
+            "causes": "Неисправность системы разморозки No Frost",
+            "slugs": [
+                "gorenje-defrost-heater-fault",
+                "gorenje-defrost-thermostat-fault",
+                "gorenje-door-seal-damage",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-noisy",
+            "title": "Холодильник Gorenje шумит или гудит",
+            "sign": "Слышны посторонние звуки, вибрации или дребезг",
+            "causes": "Износ механических частей или неправильная установка",
+            "slugs": [
+                "gorenje-compressor-wear",
+                "gorenje-evaporator-fan-fault",
+                "gorenje-condenser-fan-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-not-defrosting",
+            "title": "Холодильник Gorenje не размораживается",
+            "sign": "Испаритель покрыт льдом, оттайка не происходит",
+            "causes": "Сбой в цепи автоматической разморозки",
+            "slugs": [
+                "gorenje-defrost-heater-fault",
+                "gorenje-defrost-timer-fault",
+                "gorenje-defrost-thermostat-fault",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-light-fault",
+            "title": "Не работает подсветка холодильника Gorenje",
+            "sign": "Лампа не включается при открытии дверцы",
+            "causes": "Поломка лампы или дверного выключателя",
+            "slugs": [
+                "gorenje-lamp-burnt",
+                "gorenje-door-switch-fault",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-bad-smell",
+            "title": "Неприятный запах в холодильнике Gorenje",
+            "sign": "Запах сохраняется даже после уборки",
+            "causes": "Засор дренажа, плесень или остатки испорченной пищи",
+            "slugs": [
+                "gorenje-drain-hole-block",
+                "gorenje-mold-growth",
+                "gorenje-spoiled-food-remains"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-overfreezing",
+            "title": "Холодильник Gorenje перемораживает продукты",
+            "sign": "Напитки и овощи замерзают в холодильной камере",
+            "causes": "Сбой работы датчиков температуры или заслонки воздуха",
+            "slugs": [
+                "gorenje-temperature-sensor-fault",
+                "gorenje-air-damper-stuck",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-trips-circuit",
+            "title": "Холодильник Gorenje выбивает автомат",
+            "sign": "Срабатывает защита при включении холодильника",
+            "causes": "Короткое замыкание или повреждение электрических компонентов",
+            "slugs": [
+                "gorenje-compressor-short",
+                "gorenje-heater-short",
+                "gorenje-power-filter-burnt",
+                "gorenje-electronic-control-fault"
+            ]
+        },
+
+        {
+            "slug": "gorenje-compressor-fault",
+            "title": "Неисправность компрессора холодильника Gorenje",
+            "sign": "Холод отсутствует либо компрессор не запускается",
+            "causes": "Износ поршневой группы, перегрев обмотки или механическое заклинивание",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Gorenje",
+            "sign": "Слабое охлаждение и длительная работа двигателя",
+            "causes": "Повреждение трубопровода или нарушение герметичности системы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-capillary-block",
+            "title": "Засор капиллярной трубки Gorenje",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка капилляра продуктами износа или влагой в системе",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-evaporator-fan-fault",
+            "title": "Не работает вентилятор испарителя Gorenje",
+            "sign": "В морозильной камере холод есть, в холодильной — нет",
+            "causes": "Поломка двигателя вентилятора или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-electronic-control-fault",
+            "title": "Сбой электронного модуля Gorenje",
+            "sign": "Нестабильная работа холодильника или отсутствие реакции на управление",
+            "causes": "Выход из строя платы управления, повреждение элементов питания",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-defrost-heater-fault",
+            "title": "Неисправен нагреватель оттайки Gorenje",
+            "sign": "На испарителе накапливается лёд",
+            "causes": "Перегорание ТЭНа или нарушение цепи питания нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-temperature-sensor-fault",
+            "title": "Поломка температурного датчика Gorenje",
+            "sign": "Некорректное поддержание температуры",
+            "causes": "Сбой термодатчика или потеря контакта в цепи измерения",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-seal-damage",
+            "title": "Повреждение уплотнителя двери Gorenje",
+            "sign": "Дверца неплотно прилегает, появляется конденсат",
+            "causes": "Износ резины или деформация уплотнительной прокладки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-cord-damage",
+            "title": "Повреждение сетевого кабеля Gorenje",
+            "sign": "Холодильник не включается или периодически отключается",
+            "causes": "Перелом провода, окисление контактов или механическое повреждение",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-start-relay-fault",
+            "title": "Неисправность пускового реле Gorenje",
+            "sign": "Компрессор щёлкает, но не запускается",
+            "causes": "Выход из строя пускозащитного реле или его контактов",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drain-hole-block",
+            "title": "Засор дренажного отверстия Gorenje",
+            "sign": "Вода скапливается внутри камеры",
+            "causes": "Закупорка канала отвода талой воды загрязнениями",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drain-tube-ice",
+            "title": "Обмерзание дренажной трубки Gorenje",
+            "sign": "Вода не уходит и образуется наледь",
+            "causes": "Замерзание конденсата внутри сливной магистрали",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drip-tray-damage",
+            "title": "Повреждение поддона для конденсата Gorenje",
+            "sign": "Вода появляется под холодильником",
+            "causes": "Трещина или деформация лотка для сбора влаги",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-defrost-thermostat-fault",
+            "title": "Неисправность термостата оттайки Gorenje",
+            "sign": "Система разморозки не запускается",
+            "causes": "Поломка биметаллического датчика или нарушение контактов",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-compressor-wear",
+            "title": "Износ компрессора Gorenje",
+            "sign": "Повышенный шум и вибрация во время работы",
+            "causes": "Механическое старение узлов и ослабление креплений",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-condenser-fan-fault",
+            "title": "Не работает вентилятор конденсатора Gorenje",
+            "sign": "Перегрев задней части холодильника",
+            "causes": "Поломка мотора вентилятора или блокировка крыльчатки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-defrost-timer-fault",
+            "title": "Сбой таймера оттайки Gorenje",
+            "sign": "Цикл разморозки не включается автоматически",
+            "causes": "Неисправность таймера или электронного алгоритма управления",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-lamp-burnt",
+            "title": "Перегорела лампа подсветки Gorenje",
+            "sign": "Отсутствует освещение внутри камеры",
+            "causes": "Выход из строя лампы или светодиодного модуля",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-switch-fault",
+            "title": "Неисправен дверной выключатель Gorenje",
+            "sign": "Свет не включается при открытии дверцы",
+            "causes": "Поломка кнопки или залипание механизма выключателя",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-mold-growth",
+            "title": "Образование плесени в холодильнике Gorenje",
+            "sign": "Появление тёмных пятен и неприятного запаха",
+            "causes": "Повышенная влажность и редкая санитарная обработка",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-spoiled-food-remains",
+            "title": "Остатки испорченных продуктов в Gorenje",
+            "sign": "Стойкий неприятный запах внутри камеры",
+            "causes": "Разложение пищевых остатков в труднодоступных местах",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-air-damper-stuck",
+            "title": "Заклинила воздушная заслонка Gorenje",
+            "sign": "Часть камеры перемораживает продукты",
+            "causes": "Механическая блокировка заслонки или сбой привода",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-compressor-short",
+            "title": "Короткое замыкание компрессора Gorenje",
+            "sign": "Срабатывает автомат защиты при запуске",
+            "causes": "Пробой изоляции обмоток двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heater-short",
+            "title": "Пробой нагревателя Gorenje",
+            "sign": "Выбивает автомат во время цикла оттайки",
+            "causes": "Повреждение ТЭНа и утечка тока на корпус",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-filter-burnt",
+            "title": "Сгорел сетевой фильтр Gorenje",
+            "sign": "Холодильник не реагирует на включение",
+            "causes": "Перепад напряжения или перегрев фильтра помех",
+            "slugs": []
+        }
+    ]
+}

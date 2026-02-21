@@ -1,0 +1,317 @@
+{
+    "indexPageTitle": "Ремонт холодильников Toshiba",
+    "title": "Частые поломки холодильников Toshiba",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/sarnaranneri-veranorogum/toshiba/",
+
+    "items": [
+
+        {
+            "slug": "toshiba-fridge-not-cooling",
+            "title": "Холодильник Toshiba плохо охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Сбой работы инверторного компрессора или системы распределения холода",
+            "slugs": [
+                "toshiba-inverter-compressor-failure",
+                "toshiba-refrigerant-leak",
+                "toshiba-capillary-tube-clog",
+                "toshiba-evaporator-fan-failure",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-freezer-not-freezing",
+            "title": "Морозильная камера Toshiba не замораживает",
+            "sign": "Продукты теряют заморозку и становятся мягкими",
+            "causes": "Недостаточная генерация холода или циркуляция воздуха в морозильнике",
+            "slugs": [
+                "toshiba-inverter-compressor-failure",
+                "toshiba-refrigerant-leak",
+                "toshiba-defrost-heater-failure",
+                "toshiba-temperature-sensor-error",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-running-continuously",
+            "title": "Холодильник Toshiba работает без остановки",
+            "sign": "Компрессор работает непрерывно, не достигая заданной температуры",
+            "causes": "Неисправность датчиков или утечка холодоагента",
+            "slugs": [
+                "toshiba-refrigerant-leak",
+                "toshiba-door-gasket-worn",
+                "toshiba-temperature-sensor-error",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-not-powering-on",
+            "title": "Холодильник Toshiba не включается",
+            "sign": "Нет индикации и подсветки при попытке включения",
+            "causes": "Проблемы с питанием или сбой электронной платы управления",
+            "slugs": [
+                "toshiba-power-cord-damage",
+                "toshiba-start-relay-failure",
+                "toshiba-inverter-compressor-failure",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-water-leak",
+            "title": "Холодильник Toshiba протекает",
+            "sign": "Вода скапливается под корпусом или внутри камеры",
+            "causes": "Засор дренажной системы или замерзание трубки отвода конденсата",
+            "slugs": [
+                "toshiba-drain-hole-clog",
+                "toshiba-drain-line-frozen",
+                "toshiba-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-ice-build-up",
+            "title": "Образование льда в холодильнике Toshiba",
+            "sign": "Иней и ледяная корка на стенках или испарителе",
+            "causes": "Сбой работы системы No Frost или нагревателя оттайки",
+            "slugs": [
+                "toshiba-defrost-heater-failure",
+                "toshiba-defrost-sensor-failure",
+                "toshiba-door-gasket-worn",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-making-noise",
+            "title": "Холодильник Toshiba шумит или гудит",
+            "sign": "Появление вибрации, гула или посторонних звуков во время работы",
+            "causes": "Износ инверторного компрессора или вентиляторов",
+            "slugs": [
+                "toshiba-inverter-compressor-wear",
+                "toshiba-evaporator-fan-failure",
+                "toshiba-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-not-defrosting",
+            "title": "Холодильник Toshiba не размораживается",
+            "sign": "Испаритель покрыт льдом, автоматическая оттайка не работает",
+            "causes": "Сбой нагревателя или датчика оттайки",
+            "slugs": [
+                "toshiba-defrost-heater-failure",
+                "toshiba-defrost-timer-error",
+                "toshiba-defrost-sensor-failure",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-light-not-working",
+            "title": "Подсветка холодильника Toshiba не работает",
+            "sign": "Лампы не включаются при открытии дверцы",
+            "causes": "Поломка светодиодного модуля или дверного датчика",
+            "slugs": [
+                "toshiba-led-lamp-failure",
+                "toshiba-door-switch-failure",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Toshiba",
+            "sign": "Запах сохраняется даже после очистки камеры",
+            "causes": "Рост плесени, засор дренажной системы или испорченные продукты",
+            "slugs": [
+                "toshiba-drain-hole-clog",
+                "toshiba-mold-growth",
+                "toshiba-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-overfreezing",
+            "title": "Холодильник Toshiba перемораживает продукты",
+            "sign": "Продукты в холодильной зоне покрываются льдом",
+            "causes": "Некорректная работа датчиков температуры или заслонки воздуха",
+            "slugs": [
+                "toshiba-temperature-sensor-error",
+                "toshiba-air-damper-stuck",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-trips-breaker",
+            "title": "Холодильник Toshiba выбивает автомат",
+            "sign": "Автомат защиты отключает питание при включении",
+            "causes": "Короткое замыкание электрических компонентов",
+            "slugs": [
+                "toshiba-compressor-short-circuit",
+                "toshiba-heater-short-circuit",
+                "toshiba-noise-filter-burnt",
+                "toshiba-main-control-board-failure"
+            ]
+        },
+        
+        {
+            "slug": "toshiba-inverter-compressor-failure",
+            "title": "Неисправность инверторного компрессора холодильника Toshiba",
+            "sign": "Компрессор не запускается или не создает нужный холод",
+            "causes": "Износ компонентов компрессора, перегрев или замыкание обмоток",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Toshiba",
+            "sign": "Холодильник плохо охлаждает и работает непрерывно",
+            "causes": "Повреждение трубок, микротрещины или ослабленные соединения контура",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-capillary-tube-clog",
+            "title": "Засор капиллярной трубки Toshiba",
+            "sign": "Неравномерное охлаждение, компрессор перегревается",
+            "causes": "Закупорка из-за грязи, влаги или остатков масла в системе",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-evaporator-fan-failure",
+            "title": "Поломка вентилятора испарителя Toshiba",
+            "sign": "В морозильной камере холод есть, в холодильной — нет",
+            "causes": "Сбой мотора вентилятора или обрыв питания",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-main-control-board-failure",
+            "title": "Сбой основной платы управления холодильника Toshiba",
+            "sign": "Не реагирует на настройки, возможны ошибки и постоянная работа компрессора",
+            "causes": "Выход из строя электронных элементов платы из-за перегрева или скачков напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-door-gasket-worn",
+            "title": "Изношенный уплотнитель двери холодильника Toshiba",
+            "sign": "Холод уходит, компрессор работает дольше обычного",
+            "causes": "Потеря эластичности резины или механические повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-power-cord-damage",
+            "title": "Поврежден сетевой кабель холодильника Toshiba",
+            "sign": "При включении холодильник не получает питание",
+            "causes": "Перетирание кабеля, контактные дефекты или перегибы",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-start-relay-failure",
+            "title": "Неисправность пускового реле компрессора Toshiba",
+            "sign": "Компрессор не запускается, слышен щелчок или тиканье",
+            "causes": "Поломка реле из-за перегрузки или старения контактов",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-drain-hole-clog",
+            "title": "Засор дренажного отверстия холодильника Toshiba",
+            "sign": "Вода скапливается внутри холодильной камеры",
+            "causes": "Мусор, остатки пищи или налет льда блокируют сток",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-drain-line-frozen",
+            "title": "Замерзание дренажной трубки холодильника Toshiba",
+            "sign": "Талая вода не уходит, появляется лужа внутри",
+            "causes": "Недостаточный нагрев трубки или слишком низкая температура в камере",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-drip-tray-damage",
+            "title": "Поврежден поддон для конденсата холодильника Toshiba",
+            "sign": "Вода вытекает на пол из-за трещин или деформации поддона",
+            "causes": "Механическое повреждение или перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-defrost-heater-failure",
+            "title": "Сбой нагревателя оттайки No Frost в холодильнике Toshiba",
+            "sign": "Испаритель покрыт льдом, оттайка не происходит",
+            "causes": "Выход из строя нагревательного элемента или короткое замыкание",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-defrost-sensor-failure",
+            "title": "Неисправность датчика оттайки холодильника Toshiba",
+            "sign": "Система разморозки не реагирует на лед и иней",
+            "causes": "Поломка термодатчика или разрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-defrost-timer-error",
+            "title": "Сбой таймера оттайки холодильника Toshiba",
+            "sign": "Автоматическая оттайка не включается по расписанию",
+            "causes": "Выход из строя механического или электронного таймера",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-led-lamp-failure",
+            "title": "Не работает LED-подсветка холодильника Toshiba",
+            "sign": "Лампочки не загораются при открытии дверцы",
+            "causes": "Перегорание светодиодов или проблемы с питающим модулем",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-door-switch-failure",
+            "title": "Сбой дверного датчика холодильника Toshiba",
+            "sign": "Подсветка не включается, индикация не реагирует на открытие дверцы",
+            "causes": "Выход из строя механизма выключателя или обрыв контактов",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-mold-growth",
+            "title": "Рост плесени внутри холодильника Toshiba",
+            "sign": "Появление неприятного запаха и черных пятен на стенках",
+            "causes": "Повышенная влажность, остатки пищи, редкая уборка",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов в холодильнике Toshiba",
+            "sign": "Сильный запах сохраняется после очистки",
+            "causes": "Неполное удаление остатков пищи или жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-temperature-sensor-error",
+            "title": "Сбой датчика температуры холодильника Toshiba",
+            "sign": "Холодильник либо замораживает, либо недостаточно охлаждает",
+            "causes": "Выход из строя термодатчика или обрыв цепи",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-air-damper-stuck",
+            "title": "Заклинивание воздушной заслонки холодильника Toshiba",
+            "sign": "Холодный воздух не распределяется между камерами",
+            "causes": "Механическое заедание заслонки или поломка привода",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Toshiba",
+            "sign": "При включении срабатывает автомат защиты",
+            "causes": "Замыкание обмоток компрессора или контактов реле",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя оттайки Toshiba",
+            "sign": "Выбивает автомат при включении холодильника",
+            "causes": "Повреждение нагревательного элемента или проводки",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-noise-filter-burnt",
+            "title": "Сгорел фильтр помехоподавления холодильника Toshiba",
+            "sign": "При включении срабатывает автомат защиты",
+            "causes": "Перегрузка сети или выход из строя электронного компонента",
+            "slugs": []
+        }
+
+    ]
+}

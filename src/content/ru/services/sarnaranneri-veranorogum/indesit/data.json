@@ -1,0 +1,333 @@
+{
+    "indexPageTitle": "Ремонт холодильников Indesit",
+    "title": "Частые поломки холодильников Indesit",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/sarnaranneri-veranorogum/indesit/",
+
+    "items": [
+        {
+            "slug": "indesit-fridge-not-cooling",
+            "title": "Холодильник Indesit не охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Проблема в компрессоре, утечка фреона или засор капиллярной системы",
+            "slugs": [
+                "indesit-compressor-failure",
+                "indesit-refrigerant-leak",
+                "indesit-capillary-tube-blockage",
+                "indesit-thermostat-failure",
+                "indesit-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "indesit-freezer-not-freezing",
+            "title": "Морозильная камера Indesit не морозит",
+            "sign": "Продукты в морозильнике размораживаются",
+            "causes": "Недостаточная циркуляция хладагента или сбой системы охлаждения",
+            "slugs": [
+                "indesit-compressor-failure",
+                "indesit-refrigerant-leak",
+                "indesit-evaporator-fan-failure",
+                "indesit-defrost-heater-failure",
+                "indesit-temperature-sensor-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-running-constantly",
+            "title": "Холодильник Indesit работает без остановки",
+            "sign": "Компрессор не отключается длительное время",
+            "causes": "Система не достигает установленной температуры",
+            "slugs": [
+                "indesit-refrigerant-leak",
+                "indesit-door-seal-worn",
+                "indesit-thermostat-failure",
+                "indesit-temperature-sensor-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-not-turning-on",
+            "title": "Холодильник Indesit не включается",
+            "sign": "Отсутствует индикация и признаки работы",
+            "causes": "Проблема в цепи питания или пусковом реле",
+            "slugs": [
+                "indesit-power-cord-damage",
+                "indesit-start-relay-failure",
+                "indesit-compressor-failure",
+                "indesit-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-leaking-water",
+            "title": "Холодильник Indesit протекает",
+            "sign": "Под прибором или внутри камеры появляется вода",
+            "causes": "Засор или замерзание дренажной системы",
+            "slugs": [
+                "indesit-drain-hole-clog",
+                "indesit-drain-line-frozen",
+                "indesit-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-ice-build-up",
+            "title": "В холодильнике Indesit образуется лёд",
+            "sign": "Иней на задней стенке или в морозильной камере",
+            "causes": "Неисправность системы разморозки или уплотнителя двери",
+            "slugs": [
+                "indesit-defrost-heater-failure",
+                "indesit-defrost-thermostat-failure",
+                "indesit-door-seal-worn",
+                "indesit-evaporator-fan-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-making-noise",
+            "title": "Холодильник Indesit шумит",
+            "sign": "Гул, треск или вибрация при работе",
+            "causes": "Износ компрессора или вентилятора",
+            "slugs": [
+                "indesit-compressor-wear",
+                "indesit-evaporator-fan-failure",
+                "indesit-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-not-defrosting",
+            "title": "Холодильник Indesit не размораживается",
+            "sign": "Испаритель покрыт льдом",
+            "causes": "Неисправность нагревателя или термостата оттайки",
+            "slugs": [
+                "indesit-defrost-heater-failure",
+                "indesit-defrost-thermostat-failure",
+                "indesit-defrost-timer-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-light-not-working",
+            "title": "Не работает подсветка в холодильнике Indesit",
+            "sign": "Лампа не включается при открытии двери",
+            "causes": "Перегоревшая лампа или неисправный дверной выключатель",
+            "slugs": [
+                "indesit-light-bulb-failure",
+                "indesit-door-switch-failure"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-bad-smell",
+            "title": "Неприятный запах в холодильнике Indesit",
+            "sign": "Запах сохраняется даже после очистки",
+            "causes": "Засор дренажа или наличие испорченных продуктов",
+            "slugs": [
+                "indesit-drain-hole-clog",
+                "indesit-mold-growth",
+                "indesit-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-overfreezing",
+            "title": "Холодильник Indesit перемораживает",
+            "sign": "Продукты покрываются льдом в холодильной камере",
+            "causes": "Неисправность термостата или датчика температуры",
+            "slugs": [
+                "indesit-thermostat-failure",
+                "indesit-temperature-sensor-failure",
+                "indesit-air-damper-stuck"
+            ]
+        },
+        {
+            "slug": "indesit-fridge-trips-breaker",
+            "title": "Холодильник Indesit выбивает автомат",
+            "sign": "Автоматический выключатель отключает питание",
+            "causes": "Короткое замыкание компрессора или нагревателя",
+            "slugs": [
+                "indesit-compressor-short-circuit",
+                "indesit-heater-short-circuit",
+                "indesit-noise-filter-burnt"
+            ]
+        },
+
+        {
+            "slug": "indesit-compressor-failure",
+            "title": "Неисправность компрессора Indesit",
+            "sign": "Холодильник не запускается или не охлаждает",
+            "causes": "Выход из строя электродвигателя компрессора или межвитковое замыкание",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-compressor-wear",
+            "title": "Износ компрессора Indesit",
+            "sign": "Повышенный шум и снижение эффективности охлаждения",
+            "causes": "Механический износ поршневой группы или клапанного механизма",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Indesit",
+            "sign": "Недостаточное охлаждение и длительная работа двигателя",
+            "causes": "Разгерметизация трубопровода или микротрещина испарителя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-capillary-tube-blockage",
+            "title": "Засор капиллярной трубки Indesit",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка капилляра влагой или продуктами износа системы",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-thermostat-failure",
+            "title": "Неисправность термостата Indesit",
+            "sign": "Холодильник не отключается или не включается вовремя",
+            "causes": "Сбой механического регулятора температуры",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-main-control-board-failure",
+            "title": "Неисправность платы управления Indesit",
+            "sign": "Сбои режимов работы или полный отказ запуска",
+            "causes": "Повреждение электронных компонентов или скачок напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-evaporator-fan-failure",
+            "title": "Неисправность вентилятора испарителя Indesit",
+            "sign": "В морозильной камере холод есть, в холодильной — нет",
+            "causes": "Поломка двигателя вентилятора или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-condenser-fan-failure",
+            "title": "Неисправность вентилятора конденсатора Indesit",
+            "sign": "Перегрев задней части и усиленный шум",
+            "causes": "Износ двигателя вентилятора или загрязнение лопастей",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-defrost-heater-failure",
+            "title": "Неисправность нагревателя оттайки Indesit",
+            "sign": "Испаритель покрывается льдом",
+            "causes": "Перегорание нагревательного элемента системы разморозки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-defrost-thermostat-failure",
+            "title": "Неисправность термостата оттайки Indesit",
+            "sign": "Образование наледи в морозильной камере",
+            "causes": "Нарушение контроля температуры во время цикла разморозки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-defrost-timer-failure",
+            "title": "Сбой таймера разморозки Indesit",
+            "sign": "Холодильник не переходит в режим автоматической оттайки",
+            "causes": "Неисправность механического или электронного таймера",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-temperature-sensor-failure",
+            "title": "Неисправность датчика температуры Indesit",
+            "sign": "Неправильное поддержание температуры или перемораживание",
+            "causes": "Некорректная работа термистора или повреждение контактов",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-seal-worn",
+            "title": "Износ уплотнителя двери Indesit",
+            "sign": "Образование конденсата и постоянная работа компрессора",
+            "causes": "Потеря эластичности резинового уплотнителя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-power-cord-damage",
+            "title": "Повреждение сетевого шнура Indesit",
+            "sign": "Холодильник полностью обесточен",
+            "causes": "Обрыв кабеля питания или повреждение вилки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-start-relay-failure",
+            "title": "Неисправность пускового реле Indesit",
+            "sign": "Компрессор не запускается, слышны щелчки",
+            "causes": "Выход из строя реле запуска двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-hole-clog",
+            "title": "Засор дренажного отверстия Indesit",
+            "sign": "Скопление воды внутри холодильной камеры",
+            "causes": "Загрязнение канала отвода талой воды",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-line-frozen",
+            "title": "Замерзание дренажной линии Indesit",
+            "sign": "Вода скапливается под ящиками",
+            "causes": "Образование ледяной пробки в системе отвода конденсата",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drip-tray-damage",
+            "title": "Повреждение поддона для конденсата Indesit",
+            "sign": "Вода появляется под холодильником",
+            "causes": "Трещина или смещение поддона сбора воды",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-light-bulb-failure",
+            "title": "Перегоревшая лампа освещения Indesit",
+            "sign": "Отсутствие света при открытии двери",
+            "causes": "Выход из строя лампы накаливания или LED-модуля",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-switch-failure",
+            "title": "Неисправность дверного выключателя Indesit",
+            "sign": "Подсветка не реагирует на открытие двери",
+            "causes": "Поломка механического переключателя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-mold-growth",
+            "title": "Образование плесени в холодильнике Indesit",
+            "sign": "Стойкий неприятный запах внутри камер",
+            "causes": "Повышенная влажность и плохая вентиляция",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов Indesit",
+            "sign": "Запах сохраняется даже после очистки",
+            "causes": "Наличие скрытых загрязнений или разлившихся жидкостей",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-air-damper-stuck",
+            "title": "Заклинивание воздушной заслонки Indesit",
+            "sign": "Перемораживание продуктов в холодильной камере",
+            "causes": "Залипание механизма регулировки потока холодного воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Indesit",
+            "sign": "Автомат отключается при запуске",
+            "causes": "Пробой изоляции обмоток двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя Indesit",
+            "sign": "Срабатывание автомата во время разморозки",
+            "causes": "Повреждение нагревательного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-noise-filter-burnt",
+            "title": "Сгоревший сетевой фильтр Indesit",
+            "sign": "Холодильник не запускается или выбивает автомат",
+            "causes": "Перегорание фильтра подавления помех после скачка напряжения",
+            "slugs": []
+        }
+    ]
+}
