@@ -1,0 +1,365 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Bosch",
+    "title": "Частые поломки посудомоечных машин Bosch",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/bosch/",
+
+    "items": [
+        {
+            "slug": "bosch-dishwasher-not-powering-on",
+            "title": "Посудомоечная машина Bosch не включается",
+            "sign": "При нажатии кнопки питания техника остается полностью неактивной, индикаторы не загораются.",
+            "causes": "Отсутствие электропитания, повреждение сетевого фильтра или сбой электронной платы.",
+            "slugs": [
+                "bosch-power-cord-fault",
+                "bosch-noise-filter-defect",
+                "bosch-main-control-board-failure",
+                "bosch-power-button-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-draining",
+            "title": "Посудомоечная машина Bosch не сливает воду",
+            "sign": "После завершения программы внутри камеры остается стоячая вода.",
+            "causes": "Засор сливной системы либо выход из строя дренажного насоса.",
+            "slugs": [
+                "bosch-drain-pump-failure",
+                "bosch-drain-hose-blockage",
+                "bosch-filter-clog",
+                "bosch-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-filling",
+            "title": "Посудомоечная машина Bosch не набирает воду",
+            "sign": "Цикл запускается, но вода не поступает в бак.",
+            "causes": "Неисправность впускного клапана или срабатывание системы защиты от протечек.",
+            "slugs": [
+                "bosch-water-inlet-valve-defect",
+                "bosch-aquastop-activated",
+                "bosch-flow-meter-error",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-leaking",
+            "title": "Посудомоечная машина Bosch протекает",
+            "sign": "Во время работы под прибором появляется вода.",
+            "causes": "Износ уплотнителей, повреждение соединений или внутренние утечки.",
+            "slugs": [
+                "bosch-door-gasket-damage",
+                "bosch-hose-connection-leak",
+                "bosch-circulation-pump-leak",
+                "bosch-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-heating",
+            "title": "Посудомоечная машина Bosch не греет воду",
+            "sign": "Посуда остается холодной, цикл проходит без нагрева.",
+            "causes": "Неисправность нагревательного элемента, температурного датчика или реле нагрева.",
+            "slugs": [
+                "bosch-heating-element-failure",
+                "bosch-ntc-sensor-defect",
+                "bosch-heater-relay-burnt",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-drying",
+            "title": "Посудомоечная машина Bosch не сушит посуду",
+            "sign": "После завершения программы на посуде остаются капли воды.",
+            "causes": "Сбой системы конденсационной сушки либо неисправность вентилятора.",
+            "slugs": [
+                "bosch-drying-fan-failure",
+                "bosch-heating-element-failure",
+                "bosch-ventilation-channel-blockage",
+                "bosch-ntc-sensor-defect"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-stopping-mid-cycle",
+            "title": "Посудомоечная машина Bosch останавливается во время работы",
+            "sign": "Программа прерывается до завершения без видимой причины.",
+            "causes": "Перегрев, проблемы с подачей воды или сбой управляющего модуля.",
+            "slugs": [
+                "bosch-heating-element-overheat",
+                "bosch-water-inlet-valve-defect",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-making-loud-noise",
+            "title": "Посудомоечная машина Bosch шумит",
+            "sign": "Во время цикла слышен гул, треск или металлический скрежет.",
+            "causes": "Износ циркуляционного насоса либо попадание посторонних предметов.",
+            "slugs": [
+                "bosch-circulation-pump-failure",
+                "bosch-drain-pump-failure",
+                "bosch-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-cleaning-dishes",
+            "title": "Посудомоечная машина Bosch плохо моет посуду",
+            "sign": "На тарелках остаются остатки пищи или разводы.",
+            "causes": "Недостаточное давление воды, засор распылителей или неисправность насоса.",
+            "slugs": [
+                "bosch-spray-arm-clog",
+                "bosch-circulation-pump-failure",
+                "bosch-filter-clog",
+                "bosch-detergent-dispenser-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-code",
+            "title": "Посудомоечная машина Bosch показывает ошибку",
+            "sign": "На дисплее отображается код неисправности (например E15, E24).",
+            "causes": "Срабатывание датчиков, проблемы с насосом или сбой платы управления.",
+            "slugs": [
+                "bosch-leak-sensor-triggered",
+                "bosch-drain-pump-failure",
+                "bosch-flow-meter-error",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Bosch не закрывается",
+            "sign": "Механизм не фиксирует дверь, запуск невозможен.",
+            "causes": "Неисправность замка, датчика двери или перекос петель.",
+            "slugs": [
+                "bosch-door-lock-failure",
+                "bosch-door-hinge-damage",
+                "bosch-door-sensor-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-tripping-breaker",
+            "title": "Посудомоечная машина Bosch выбивает автомат",
+            "sign": "При включении срабатывает защита электросети.",
+            "causes": "Короткое замыкание нагревателя, насоса или сетевого фильтра.",
+            "slugs": [
+                "bosch-heating-element-short-circuit",
+                "bosch-circulation-pump-short-circuit",
+                "bosch-noise-filter-defect",
+                "bosch-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "bosch-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Bosch",
+            "sign": "Обрыв жилы или нарушение изоляции приводит к отсутствию подачи питания на прибор.",
+            "causes": "Машина не включается, панель управления остается без индикации.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Bosch",
+            "sign": "Фильтр помех выходит из строя из-за скачков напряжения или перегрузки.",
+            "causes": "Техника может не запускаться или выбивать автомат защиты.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-main-control-board-failure",
+            "title": "Сбой основной платы управления Bosch",
+            "sign": "Повреждение электронных компонентов нарушает координацию всех узлов.",
+            "causes": "Нестабильная работа, зависания, самопроизвольная остановка программы.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-power-button-malfunction",
+            "title": "Неисправность кнопки включения Bosch",
+            "sign": "Контакты кнопки изнашиваются или перестают замыкать цепь.",
+            "causes": "При нажатии питание не подается, устройство не реагирует.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-pump-failure",
+            "title": "Поломка сливного насоса Bosch",
+            "sign": "Двигатель насоса не запускается либо крыльчатка заклинивает.",
+            "causes": "Вода остается внутри камеры после завершения цикла.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-hose-blockage",
+            "title": "Засор сливного шланга Bosch",
+            "sign": "Скопление жировых отложений или мусора препятствует отводу воды.",
+            "causes": "Замедленный слив или полное его отсутствие.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-filter-clog",
+            "title": "Загрязнение фильтра Bosch",
+            "sign": "Фильтрующий элемент переполнен остатками пищи.",
+            "causes": "Появляется неприятный запах и нарушается циркуляция воды.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-pressure-switch-fault",
+            "title": "Неисправность прессостата Bosch",
+            "sign": "Датчик уровня воды передает некорректные данные системе.",
+            "causes": "Программа может останавливаться или не запускать слив.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-water-inlet-valve-defect",
+            "title": "Неисправность впускного клапана Bosch",
+            "sign": "Клапан не открывается при подаче сигнала управления.",
+            "causes": "Вода не поступает в камеру в начале цикла.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-aquastop-activated",
+            "title": "Срабатывание системы Aquastop Bosch",
+            "sign": "Защита перекрывает подачу воды при обнаружении утечки.",
+            "causes": "Машина не набирает воду и может отображать ошибку.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-flow-meter-error",
+            "title": "Ошибка расходомера Bosch",
+            "sign": "Датчик потока некорректно фиксирует объем поступающей воды.",
+            "causes": "Цикл прерывается или выполняется с недостаточным набором воды.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-gasket-damage",
+            "title": "Повреждение уплотнителя двери Bosch",
+            "sign": "Резиновая манжета теряет эластичность или деформируется.",
+            "causes": "Под дверцей появляется течь во время мойки.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-hose-connection-leak",
+            "title": "Протечка соединений шлангов Bosch",
+            "sign": "Ослабленные крепления или микротрещины вызывают утечку.",
+            "causes": "Под прибором скапливается вода.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-pump-leak",
+            "title": "Протечка циркуляционного насоса Bosch",
+            "sign": "Износ уплотнений корпуса насоса приводит к попаданию воды в поддон.",
+            "causes": "Срабатывает защита от протечек, программа останавливается.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-leak-sensor-triggered",
+            "title": "Срабатывание датчика протечки Bosch",
+            "sign": "Сенсор фиксирует наличие воды в основании корпуса.",
+            "causes": "Новый цикл не запускается, отображается код ошибки.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Bosch",
+            "sign": "ТЭН перестает нагревать воду из-за перегорания или обрыва цепи.",
+            "causes": "Мойка проходит без нагрева, качество очистки ухудшается.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ntc-sensor-defect",
+            "title": "Поломка температурного датчика Bosch",
+            "sign": "NTC-сенсор передает неправильные значения температуры.",
+            "causes": "Программа нагрева работает нестабильно или завершается с ошибкой.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-relay-burnt",
+            "title": "Перегорание реле нагрева Bosch",
+            "sign": "Контакт реле на плате управления поврежден вследствие перегрузки.",
+            "causes": "Нагрев не включается даже при исправном ТЭНе.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drying-fan-failure",
+            "title": "Неисправность вентилятора сушки Bosch",
+            "sign": "Вентилятор не обеспечивает циркуляцию теплого воздуха.",
+            "causes": "Посуда остается влажной после завершения программы.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ventilation-channel-blockage",
+            "title": "Засор вентиляционного канала Bosch",
+            "sign": "Нарушается вывод влажного воздуха из камеры.",
+            "causes": "Эффективность сушки существенно снижается.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-overheat",
+            "title": "Перегрев нагревателя Bosch",
+            "sign": "Элемент перегревается из-за неисправного датчика или накипи.",
+            "causes": "Цикл прерывается системой защиты.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-pump-failure",
+            "title": "Поломка циркуляционного насоса Bosch",
+            "sign": "Насос не создает достаточное давление для распыления воды.",
+            "causes": "Посуда плохо отмывается, слышен посторонний шум.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-spray-arm-obstruction",
+            "title": "Блокировка разбрызгивателя Bosch",
+            "sign": "Отверстия распылителя перекрыты остатками пищи.",
+            "causes": "Вода распределяется неравномерно.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-spray-arm-clog",
+            "title": "Засор форсунок распылителя Bosch",
+            "sign": "Минеральные отложения препятствуют вращению и напору.",
+            "causes": "На посуде остаются загрязнения.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-detergent-dispenser-fault",
+            "title": "Неисправность дозатора моющего средства Bosch",
+            "sign": "Крышка дозатора не открывается в нужный момент.",
+            "causes": "Моющее средство не растворяется во время мойки.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-lock-failure",
+            "title": "Поломка замка двери Bosch",
+            "sign": "Механизм блокировки не фиксирует закрытие дверцы.",
+            "causes": "Программа не запускается.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-hinge-damage",
+            "title": "Повреждение петель двери Bosch",
+            "sign": "Износ петель вызывает перекос фасада.",
+            "causes": "Дверца закрывается с усилием или не удерживается.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-sensor-fault",
+            "title": "Ошибка датчика двери Bosch",
+            "sign": "Сенсор не определяет положение дверцы.",
+            "causes": "Запуск программы блокируется системой безопасности.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Bosch",
+            "sign": "Повреждение изоляции ТЭНа вызывает утечку тока.",
+            "causes": "Автомат защиты отключает питание при запуске.",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-pump-short-circuit",
+            "title": "Короткое замыкание циркуляционного насоса Bosch",
+            "sign": "Повреждение обмотки двигателя приводит к перегрузке сети.",
+            "causes": "Электрический автомат срабатывает при старте программы.",
+            "slugs": []
+        }
+
+    ]
+}

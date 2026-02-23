@@ -1,0 +1,366 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Indesit",
+    "title": "Частые поломки посудомоечных машин Indesit",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/indesit/",
+
+    "items": [
+        {
+            "slug": "indesit-dishwasher-not-turning-on",
+            "title": "Посудомоечная машина Indesit не включается",
+            "sign": "После нажатия кнопки питания техника полностью не реагирует.",
+            "causes": "Отсутствие питания, неисправность сетевого фильтра или сбой модуля управления.",
+            "slugs": [
+                "indesit-power-cord-damage",
+                "indesit-noise-filter-failure",
+                "indesit-main-control-board-defect",
+                "indesit-power-button-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-draining-water",
+            "title": "Посудомоечная машина Indesit не сливает воду",
+            "sign": "По завершении цикла вода остается на дне камеры.",
+            "causes": "Засор сливной системы или выход из строя дренажного насоса.",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-drain-hose-blockage",
+                "indesit-filter-clogged",
+                "indesit-pressure-switch-malfunction"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-filling-with-water",
+            "title": "Посудомоечная машина Indesit не набирает воду",
+            "sign": "Программа запускается, но вода в бак не поступает.",
+            "causes": "Неисправность впускного клапана либо проблемы с системой AquaStop.",
+            "slugs": [
+                "indesit-water-inlet-valve-failure",
+                "indesit-aquastop-activated",
+                "indesit-flow-meter-error",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-leaking-water",
+            "title": "Посудомоечная машина Indesit протекает",
+            "sign": "Под прибором или вокруг корпуса появляется вода.",
+            "causes": "Износ уплотнителей, повреждение шлангов или внутренние утечки.",
+            "slugs": [
+                "indesit-door-seal-damage",
+                "indesit-hose-leak",
+                "indesit-circulation-pump-leak",
+                "indesit-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-heating-water",
+            "title": "Посудомоечная машина Indesit не греет воду",
+            "sign": "Цикл проходит в холодной воде, посуда остается плохо вымытой.",
+            "causes": "Поломка ТЭНа, датчика температуры или управляющего реле.",
+            "slugs": [
+                "indesit-heating-element-burnt",
+                "indesit-ntc-sensor-fault",
+                "indesit-heater-relay-failure",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-drying-dishes",
+            "title": "Посудомоечная машина Indesit не сушит посуду",
+            "sign": "После завершения программы остаются капли и влажные поверхности.",
+            "causes": "Сбой системы сушки или недостаточный нагрев воды.",
+            "slugs": [
+                "indesit-drying-fan-failure",
+                "indesit-heating-element-burnt",
+                "indesit-vent-blockage",
+                "indesit-ntc-sensor-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-stops-mid-cycle",
+            "title": "Посудомоечная машина Indesit останавливается во время работы",
+            "sign": "Программа прерывается до завершения.",
+            "causes": "Перегрев, проблемы с подачей воды или сбой электроники.",
+            "slugs": [
+                "indesit-heating-element-overheat",
+                "indesit-water-inlet-valve-failure",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-making-noise",
+            "title": "Посудомоечная машина Indesit шумит",
+            "sign": "Во время работы слышен гул, вибрация или посторонний звук.",
+            "causes": "Износ насоса либо попадание инородных предметов.",
+            "slugs": [
+                "indesit-circulation-pump-failure",
+                "indesit-drain-pump-failure",
+                "indesit-spray-arm-blocked"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-cleaning-properly",
+            "title": "Посудомоечная машина Indesit плохо моет посуду",
+            "sign": "На тарелках остаются загрязнения или разводы.",
+            "causes": "Недостаточное давление воды, засор фильтра или неисправность насоса.",
+            "slugs": [
+                "indesit-spray-arm-clogged",
+                "indesit-circulation-pump-failure",
+                "indesit-filter-clogged",
+                "indesit-detergent-dispenser-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-code",
+            "title": "Посудомоечная машина Indesit показывает ошибку",
+            "sign": "На панели управления отображается код неисправности.",
+            "causes": "Срабатывание датчиков, проблемы с насосом или электронным модулем.",
+            "slugs": [
+                "indesit-leak-sensor-triggered",
+                "indesit-drain-pump-failure",
+                "indesit-flow-meter-error",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Indesit не закрывается",
+            "sign": "Замок не фиксирует дверцу, запуск невозможен.",
+            "causes": "Поломка механизма блокировки или перекос петель.",
+            "slugs": [
+                "indesit-door-lock-failure",
+                "indesit-door-hinge-damage",
+                "indesit-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-trips-breaker",
+            "title": "Посудомоечная машина Indesit выбивает автомат",
+            "sign": "При запуске происходит отключение электросети.",
+            "causes": "Короткое замыкание нагревателя, насоса или сетевого фильтра.",
+            "slugs": [
+                "indesit-heating-element-short-circuit",
+                "indesit-circulation-pump-short",
+                "indesit-noise-filter-failure",
+                "indesit-main-control-board-defect"
+            ]
+        },
+
+        {
+            "slug": "indesit-power-cord-damage",
+            "title": "Поврежден сетевой кабель Indesit",
+            "sign": "Машина не реагирует на кнопку включения.",
+            "causes": "Обрыв или перегрев провода блокирует подачу питания.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-noise-filter-failure",
+            "title": "Неисправен сетевой фильтр Indesit",
+            "sign": "Питание не поступает на внутренние компоненты.",
+            "causes": "Перегоревший фильтр после скачка напряжения разрывает цепь.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-main-control-board-defect",
+            "title": "Неисправность модуля управления Indesit",
+            "sign": "Программы не запускаются или работают некорректно.",
+            "causes": "Повреждение электронных элементов платы нарушает управление.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-power-button-fault",
+            "title": "Не работает кнопка включения Indesit",
+            "sign": "Кнопка нажимается, но техника не запускается.",
+            "causes": "Износ контактов препятствует передаче сигнала.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-pump-failure",
+            "title": "Неисправен сливной насос Indesit",
+            "sign": "Вода остается в баке после завершения цикла.",
+            "causes": "Износ двигателя или блокировка крыльчатки мешают откачке воды.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-hose-blockage",
+            "title": "Засор сливного шланга Indesit",
+            "sign": "Слив происходит медленно или отсутствует полностью.",
+            "causes": "Скопление загрязнений перекрывает проход воды.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-filter-clogged",
+            "title": "Засор фильтра Indesit",
+            "sign": "Вода плохо уходит и остается мутной.",
+            "causes": "Остатки пищи блокируют циркуляцию и слив.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-pressure-switch-malfunction",
+            "title": "Неисправен прессостат Indesit",
+            "sign": "Уровень воды определяется некорректно.",
+            "causes": "Датчик не передает правильные данные на плату управления.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Indesit",
+            "sign": "Вода не поступает в камеру при запуске.",
+            "causes": "Катушка клапана перегорела или механизм заклинил.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-aquastop-activated",
+            "title": "Сработала система AquaStop Indesit",
+            "sign": "Подача воды полностью блокирована.",
+            "causes": "Защита от протечек перекрывает впуск при обнаружении влаги.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-flow-meter-error",
+            "title": "Ошибка расходомера Indesit",
+            "sign": "Машина набирает недостаточный объем воды.",
+            "causes": "Датчик расхода не фиксирует корректное количество жидкости.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-seal-damage",
+            "title": "Поврежден уплотнитель двери Indesit",
+            "sign": "Вода появляется по периметру дверцы.",
+            "causes": "Изношенная резина теряет герметичность.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-hose-leak",
+            "title": "Протечка шлангов Indesit",
+            "sign": "Под корпусом образуется лужа.",
+            "causes": "Трещины или ослабленные соединения вызывают утечку.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-pump-leak",
+            "title": "Протечка циркуляционного насоса Indesit",
+            "sign": "Внутри корпуса обнаруживается влага.",
+            "causes": "Износ уплотнений насоса приводит к утечке воды.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-leak-sensor-triggered",
+            "title": "Сработал датчик протечки Indesit",
+            "sign": "Машина блокирует программу и не набирает воду.",
+            "causes": "Система безопасности реагирует на скопление влаги в поддоне.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-burnt",
+            "title": "Перегорел нагревательный элемент Indesit",
+            "sign": "Вода остается холодной во время мойки.",
+            "causes": "Разрушение спирали ТЭНа исключает нагрев.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-ntc-sensor-fault",
+            "title": "Неисправен температурный датчик Indesit",
+            "sign": "Температура воды не соответствует программе.",
+            "causes": "Датчик передает некорректные данные на модуль.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heater-relay-failure",
+            "title": "Неисправно реле нагрева Indesit",
+            "sign": "Нагрев не активируется при запуске цикла.",
+            "causes": "Контакты реле не замыкают цепь ТЭНа.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drying-fan-failure",
+            "title": "Не работает вентилятор сушки Indesit",
+            "sign": "После завершения программы посуда остается влажной.",
+            "causes": "Мотор вентилятора не создает циркуляцию воздуха.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-vent-blockage",
+            "title": "Засор вентиляционного канала Indesit",
+            "sign": "Пар не выводится эффективно.",
+            "causes": "Накопление загрязнений нарушает циркуляцию воздуха.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-overheat",
+            "title": "Перегрев нагревателя Indesit",
+            "sign": "Программа останавливается во время работы.",
+            "causes": "Защитная система отключает прибор при превышении температуры.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-pump-failure",
+            "title": "Неисправен циркуляционный насос Indesit",
+            "sign": "Мойка происходит слабо или сопровождается шумом.",
+            "causes": "Износ двигателя снижает давление подачи воды.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-spray-arm-blocked",
+            "title": "Заблокирован разбрызгиватель Indesit",
+            "sign": "Струи воды распределяются неравномерно.",
+            "causes": "Отверстия форсунок забиты остатками пищи.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-spray-arm-clogged",
+            "title": "Засор распылителя Indesit",
+            "sign": "Посуда плохо промывается в отдельных зонах.",
+            "causes": "Накопление загрязнений мешает вращению и распылению.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-detergent-dispenser-fault",
+            "title": "Неисправен дозатор моющего средства Indesit",
+            "sign": "Таблетка или порошок не растворяются полностью.",
+            "causes": "Механизм открытия отсека не срабатывает.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-lock-failure",
+            "title": "Неисправен замок двери Indesit",
+            "sign": "Машина не запускается при закрытой дверце.",
+            "causes": "Механизм блокировки не фиксирует положение.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-hinge-damage",
+            "title": "Повреждены петли двери Indesit",
+            "sign": "Дверца закрывается с перекосом.",
+            "causes": "Износ петель мешает правильной фиксации.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-switch-fault",
+            "title": "Неисправен датчик двери Indesit",
+            "sign": "Система не распознает закрытие дверцы.",
+            "causes": "Сигнал блокировки не поступает на модуль управления.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Indesit",
+            "sign": "При включении выбивает автомат.",
+            "causes": "Повреждение изоляции ТЭНа вызывает утечку тока.",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-pump-short",
+            "title": "Короткое замыкание циркуляционного насоса Indesit",
+            "sign": "Срабатывает защита электросети при запуске.",
+            "causes": "Повреждение обмотки двигателя создает перегрузку.",
+            "slugs": []
+        }
+
+
+    ]
+}

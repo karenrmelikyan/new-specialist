@@ -33,6 +33,22 @@ import fridgeIssuesElectroluxRu from '../content/ru/services/sarnaranneri-verano
 import fridgeIssuesSharpRu from '../content/ru/services/sarnaranneri-veranorogum/sharp/data.json'
 import fridgeIssuesWhirlpoolRu from '../content/ru/services/sarnaranneri-veranorogum/whirlpool/data.json'
 
+// Dishwashers
+import dishwasherIssuesRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/data.json'
+import dishwasherIssuesHisenseRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/hisense/data.json'
+import dishwasherIssuesIndesitRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/indesit/data.json'
+import dishwasherIssuesAegRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/aeg/data.json'
+import dishwasherIssuesSamsungRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/samsung/data.json'
+import dishwasherIssuesLgRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/lg/data.json'
+import dishwasherIssuesMieleRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/miele/data.json'
+import dishwasherIssuesBoschRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/bosch/data.json'
+import dishwasherIssuesHansaRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/hansa/data.json'
+import dishwasherIssuesGorenjeRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/gorenje/data.json'
+import dishwasherIssuesElectroluxRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/electrolux/data.json'
+import dishwasherIssuesSiemensRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/siemens/data.json'
+import dishwasherIssuesWhirlpoolRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/whirlpool/data.json'
+import dishwasherIssuesAristonRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/ariston/data.json'
+import dishwasherIssuesCandyRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/candy/data.json'
 
 var localization = ''
 
@@ -71,8 +87,26 @@ let fridgeIssuesElectrolux = fridgeIssuesElectroluxRu
 let fridgeIssuesHitachi = fridgeIssuesHitachiRu
 let fridgeIssuesWhirlpool = fridgeIssuesWhirlpoolRu
 
+// Dishwashers
+let dishwasherIssues = dishwasherIssuesRu
+let dishwasherIssuesHisense = dishwasherIssuesHisenseRu
+let dishwasherIssuesIndesit = dishwasherIssuesIndesitRu
+let dishwasherIssuesHansa = dishwasherIssuesHansaRu
+let dishwasherIssuesSamsung = dishwasherIssuesSamsungRu
+let dishwasherIssuesLg = dishwasherIssuesLgRu
+let dishwasherIssuesMiele = dishwasherIssuesMieleRu
+let dishwasherIssuesBosch = dishwasherIssuesBoschRu
+let dishwasherIssuesAeg = dishwasherIssuesAegRu
+let dishwasherIssuesGorenje = dishwasherIssuesGorenjeRu
+let dishwasherIssuesElectrolux = dishwasherIssuesElectroluxRu
+let dishwasherIssuesSiemens = dishwasherIssuesSiemensRu
+let dishwasherIssuesWhirlpool = dishwasherIssuesWhirlpoolRu
+let dishwasherIssuesAriston = dishwasherIssuesAristonRu
+let dishwasherIssuesCandy = dishwasherIssuesCandyRu
+
 const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.parentURL, 0, 12)
 const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.parentURL, 0, 12)
+const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwasherIssues.parentURL, 0, 12)
 ---
 
 <section class="mega" data-mega-menu>
@@ -92,10 +126,10 @@ const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.pa
                 <Icon name="solar" /> Установка солнечных панелей
             </li> -->
             <li data-category="reviews">
-                <Icon name="reviews" /><a href={ENV.GOOGLE_REVIEWS_URL}> Отзывы</a>
+                <Icon name="reviews" /><a href={ENV.GOOGLE_REVIEWS_URL} target="_blank"> Отзывы</a>
             </li>
             <li data-category="about">
-                <Icon name="about" /><a href="/about/"> О нас</a> 
+                <Icon name="about" /><a href="/ru/about/"> О нас</a> 
             </li>
              <li data-category="home">
                 <Icon name="home" /><a href="/ru/"> На Главную</a>
@@ -173,7 +207,7 @@ const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.pa
                 <div class="mega-title" role="heading" aria-level="2">{fridgeIssues.indexPageTitle}</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
                         <ul>
                             <li><a href={fridgeIssues.parentURL}>{fridgeIssues.indexPageTitle}</a></li>
                             {commonFridgeIssues.map(issue => (
@@ -219,26 +253,32 @@ const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.pa
                 <div class="mega-title" role="heading" aria-level="2">Ремонт посудомоечных машин</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
                         <ul>
-                            <li>Ремонт холодильников</li>
-                            <li>Ремонт холодильного оборудования</li>
-                            <li>Ремонт стиральных машин</li>
-                            <li>Ремонт электрических плит</li>
-                            <li>Ремонт газовых плит</li>
-                            <li>Ремонт телевизоров</li>
+                            <li><a href={dishwasherIssues.parentURL}>{dishwasherIssues.indexPageTitle}</a></li>
+                            {commonDishwasherIssues.map(issue => (
+                                <li><a href={issue.href}>{issue.title}</a></li>
+                            ))}
                         </ul>
                     </div>
 
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
-                            <li>Ремонт телевизоров</li>
-                            <li>Ремонт компьютеров</li>
-                            <li>Ремонт ноутбуков</li>
-                            <li>Ремонт моноблоков</li>
-                            <li>Ремонт планшетов</li>
-                            <li>Ремонт смартфонов</li>
+                            <li><a href={dishwasherIssuesLg.parentURL}>{dishwasherIssuesLg.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesAriston.parentURL}>{dishwasherIssuesAriston.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesIndesit.parentURL}>{dishwasherIssuesIndesit.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesHisense.parentURL}>{dishwasherIssuesHisense.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesSamsung.parentURL}>{dishwasherIssuesSamsung.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesHansa.parentURL}>{dishwasherIssuesHansa.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesBosch.parentURL}>{dishwasherIssuesBosch.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesAeg.parentURL}>{dishwasherIssuesAeg.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesGorenje.parentURL}>{dishwasherIssuesGorenje.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesElectrolux.parentURL}>{dishwasherIssuesElectrolux.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesMiele.parentURL}>{dishwasherIssuesMiele.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesWhirlpool.parentURL}>{dishwasherIssuesWhirlpool.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesSiemens.parentURL}>{dishwasherIssuesSiemens.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesCandy.parentURL}>{dishwasherIssuesCandy.indexPageTitle}</a></li>
                         </ul>
                     </div>
 
@@ -261,7 +301,7 @@ const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.pa
                 <div class="mega-title" role="heading" aria-level="2">Ремонт сушильных машин</div>
                 <div class="columns">
                     <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефекту</div>
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
                         <ul>
                             <li>Ремонт холодильников</li>
                             <li>Ремонт холодильного оборудования</li>

@@ -1,4 +1,3 @@
-Add FAQ index page, FAQ categories pages & about page
 Reconsider symantic core
 Rebuild all menu components according new data
 Complete the modal for ordering (it should send order to t.bot)

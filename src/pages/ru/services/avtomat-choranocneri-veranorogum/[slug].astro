@@ -1,5 +1,5 @@
 ---
-import WrapperServiceIssuesSlug from '../../../../components/WrapperServiceIssuesSlug.astro'
+import WrapperContentIssuesSlugPage from '../../../../components/WrapperContentIssuesSlugPage.astro'
 import content from '../../../../content/ru/services/avtomat-choranocneri-veranorogum/data.json'
 
 export async function getStaticPaths() {
@@ -11,4 +11,4 @@ export async function getStaticPaths() {
 const { slug } = Astro.params
 ---
 
-<WrapperServiceIssuesSlug content={content} slug={slug} />
+<WrapperContentIssuesSlugPage content={content} slug={slug} />

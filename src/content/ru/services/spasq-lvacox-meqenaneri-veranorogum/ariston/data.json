@@ -1,0 +1,351 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Ariston",
+    "title": "Частые поломки посудомоечных машин Ariston",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/ariston/",
+
+    "items": [
+        {
+            "slug": "ariston-dishwasher-not-starting",
+            "title": "Посудомоечная машина Ariston не запускается",
+            "sign": "При нажатии кнопки старта программа не начинается",
+            "causes": "Сбой питания, неисправность замка двери или электронного модуля",
+            "slugs": [
+                "ariston-power-cord-damage",
+                "ariston-door-lock-failure",
+                "ariston-control-board-failure",
+                "ariston-touch-panel-malfunction"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-draining",
+            "title": "Посудомоечная машина Ariston не сливает воду",
+            "sign": "После завершения цикла вода остается в баке",
+            "causes": "Засор насоса или сливного шланга, либо поломка сливного насоса",
+            "slugs": [
+                "ariston-drain-pump-failure",
+                "ariston-drain-hose-clog",
+                "ariston-filter-blockage",
+                "ariston-pressure-switch-error"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-filling-with-water",
+            "title": "Посудомоечная машина Ariston не набирает воду",
+            "sign": "Цикл запускается, но вода не поступает в камеру",
+            "causes": "Неисправен впускной клапан или сработала защита от протечек",
+            "slugs": [
+                "ariston-water-inlet-valve-failure",
+                "ariston-aquastop-activation",
+                "ariston-pressure-switch-error",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-leaking-water",
+            "title": "Посудомоечная машина Ariston протекает",
+            "sign": "Вода появляется под машиной во время работы",
+            "causes": "Повреждение уплотнителей, шлангов или соединений",
+            "slugs": [
+                "ariston-door-seal-damage",
+                "ariston-hose-connection-leak",
+                "ariston-circulation-pump-leak",
+                "ariston-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-heating-water",
+            "title": "Посудомоечная машина Ariston не нагревает воду",
+            "sign": "Вода остается холодной, посуда плохо отмыта",
+            "causes": "Неисправен ТЭН, термостат или температурный датчик",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-ntc-sensor-failure",
+                "ariston-thermostat-error",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-drying",
+            "title": "Посудомоечная машина Ariston не сушит посуду",
+            "sign": "После программы посуда влажная",
+            "causes": "Сбой сушки или вентиляции",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-drying-fan-failure",
+                "ariston-ventilation-duct-blockage",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-making-noise",
+            "title": "Посудомоечная машина Ariston шумит",
+            "sign": "Появляются посторонние звуки во время работы",
+            "causes": "Износ насоса или попадание посторонних предметов",
+            "slugs": [
+                "ariston-circulation-pump-failure",
+                "ariston-drain-pump-failure",
+                "ariston-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-cleaning-properly",
+            "title": "Посудомоечная машина Ariston плохо моет посуду",
+            "sign": "На посуде остаются разводы и остатки пищи",
+            "causes": "Недостаточное давление воды или засор распылителей",
+            "slugs": [
+                "ariston-spray-arm-clog",
+                "ariston-circulation-pump-failure",
+                "ariston-filter-blockage",
+                "ariston-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-code",
+            "title": "Посудомоечная машина Ariston показывает ошибку",
+            "sign": "На дисплее виден код неисправности",
+            "causes": "Сбой датчиков или платы управления",
+            "slugs": [
+                "ariston-control-board-failure",
+                "ariston-ntc-sensor-failure",
+                "ariston-pressure-switch-error",
+                "ariston-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-stops-mid-cycle",
+            "title": "Посудомоечная машина Ariston останавливается во время цикла",
+            "sign": "Программа прерывается до конца",
+            "causes": "Перегрев, сбой электроники или проблемы с водой",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-water-inlet-valve-failure",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Ariston не закрывается",
+            "sign": "Машина не стартует из-за незакрытой двери",
+            "causes": "Неисправен замок или перекос петель",
+            "slugs": [
+                "ariston-door-lock-failure",
+                "ariston-door-hinge-damage",
+                "ariston-door-sensor-error"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-trips-breaker",
+            "title": "Посудомоечная машина Ariston выбивает автомат",
+            "sign": "Автомат отключает питание при запуске программы",
+            "causes": "Короткое замыкание ТЭНа, насоса или сетевого фильтра",
+            "slugs": [
+                "ariston-heating-element-short-circuit",
+                "ariston-circulation-pump-short-circuit",
+                "ariston-noise-filter-burnt",
+                "ariston-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "ariston-power-cord-damage",
+            "title": "Повреждение сетевого кабеля Ariston",
+            "sign": "Нарушение изоляции или обрыв жил кабеля приводит к отсутствию подачи питания на плату управления.",
+            "causes": "Машина не включается, отсутствует индикация.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-lock-failure",
+            "title": "Неисправность замка двери Ariston",
+            "sign": "Износ или поломка механизма блокировки мешает системе зафиксировать закрытие дверцы.",
+            "causes": "Программа не запускается, появляется ошибка двери.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-control-board-failure",
+            "title": "Сбой платы управления Ariston",
+            "sign": "Повреждение электронной платы вызывает некорректную работу модулей и выполнение программ с ошибками.",
+            "causes": "Машина зависает, не реагирует на команды или останавливается самопроизвольно.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-touch-panel-malfunction",
+            "title": "Неисправность сенсорной панели Ariston",
+            "sign": "Сенсорная панель теряет чувствительность из-за износа контактов или программного сбоя.",
+            "causes": "Кнопки не откликаются или реагируют некорректно.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-failure",
+            "title": "Поломка сливного насоса Ariston",
+            "sign": "Износ двигателя или крыльчатки насоса мешает удалению воды после цикла.",
+            "causes": "Вода остается в баке после мойки.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-hose-clog",
+            "title": "Засор сливного шланга Ariston",
+            "sign": "Накопление грязи блокирует нормальный отток воды.",
+            "causes": "Слив замедлен или полностью отсутствует.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-filter-blockage",
+            "title": "Засор фильтра Ariston",
+            "sign": "Скопление остатков пищи в фильтрующем узле снижает пропускную способность системы.",
+            "causes": "Вода плохо уходит, появляется неприятный запах.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-switch-error",
+            "title": "Ошибка прессостата Ariston",
+            "sign": "Датчик уровня воды передает неверные значения, нарушая набор и слив воды.",
+            "causes": "Машина не набирает воду или останавливается с ошибкой.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Ariston",
+            "sign": "Электромагнитный клапан не открывается или работает нестабильно, препятствуя поступлению воды.",
+            "causes": "Отсутствует набор воды в начале цикла.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-aquastop-activation",
+            "title": "Срабатывание системы Aquastop Ariston",
+            "sign": "Система защиты перекрывает подачу воды при утечке внутри корпуса.",
+            "causes": "Машина не набирает воду, возможен код ошибки.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-seal-damage",
+            "title": "Повреждение уплотнителя двери Ariston",
+            "sign": "Износ или деформация резинового уплотнителя нарушает герметичность камеры.",
+            "causes": "Во время работы появляется протечка под дверцей.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-hose-connection-leak",
+            "title": "Протечка соединений шлангов Ariston",
+            "sign": "Ослабленные хомуты или трещины в соединениях вызывают утечку воды.",
+            "causes": "Под машиной образуется вода.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-pump-leak",
+            "title": "Протечка циркуляционного насоса Ariston",
+            "sign": "Повреждение корпуса насоса или уплотнений приводит к вытеканию воды внутри устройства.",
+            "causes": "Срабатывает защита от протечек, машина останавливается.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-leak-sensor-triggered",
+            "title": "Срабатывание датчика протечки Ariston",
+            "sign": "Датчик фиксирует воду в поддоне и блокирует дальнейшую работу.",
+            "causes": "Машина не запускает новый цикл и показывает ошибку.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Ariston",
+            "sign": "ТЭН перестает нагревать воду из-за перегорания спирали или обрыва цепи.",
+            "causes": "Вода холодная, качество мойки снижается.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ntc-sensor-failure",
+            "title": "Поломка температурного датчика Ariston",
+            "sign": "NTC-сенсор передает неверные показатели температуры, нарушая процесс нагрева.",
+            "causes": "Цикл выполняется без нагрева или завершается с ошибкой.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-thermostat-error",
+            "title": "Неисправность термостата Ariston",
+            "sign": "Термостат некорректно контролирует температуру воды, вызывая перегрев или отсутствие нагрева.",
+            "causes": "Программа прерывается или вода остается холодной.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drying-fan-failure",
+            "title": "Поломка вентилятора сушки Ariston",
+            "sign": "Вентилятор перестает обеспечивать циркуляцию горячего воздуха внутри камеры.",
+            "causes": "Посуда остается влажной после завершения программы.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ventilation-duct-blockage",
+            "title": "Засор вентиляционного канала Ariston",
+            "sign": "Нарушение циркуляции воздуха снижает эффективность сушки.",
+            "causes": "На посуде остаются капли воды.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-pump-failure",
+            "title": "Неисправность циркуляционного насоса Ariston",
+            "sign": "Насос не создает давление для подачи воды к распылителям.",
+            "causes": "Плохо отмывается посуда, слышен посторонний шум.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-spray-arm-obstruction",
+            "title": "Блокировка разбрызгивателя Ariston",
+            "sign": "Отверстия распылителя засоряются остатками пищи, снижая напор воды.",
+            "causes": "На посуде остаются загрязнения.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-spray-arm-clog",
+            "title": "Засор форсунок распылителя Ariston",
+            "sign": "Отложения внутри форсунок мешают равномерному распределению воды.",
+            "causes": "Неравномерная мойка посуды.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-detergent-dispenser-failure",
+            "title": "Неисправность дозатора моющего средства Ariston",
+            "sign": "Механизм открытия крышки дозатора не срабатывает во время цикла.",
+            "causes": "Моющее средство остается нерастворенным.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-hinge-damage",
+            "title": "Повреждение петель двери Ariston",
+            "sign": "Износ петель приводит к перекосу дверцы и невозможности закрытия.",
+            "causes": "Дверь закрывается с усилием или не фиксируется.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-sensor-error",
+            "title": "Ошибка датчика двери Ariston",
+            "sign": "Сенсор не распознает положение дверцы даже при плотном закрытии.",
+            "causes": "Программа не запускается.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Ariston",
+            "sign": "Повреждение изоляции ТЭНа вызывает утечку тока и перегрузку сети.",
+            "causes": "Автомат срабатывает при запуске нагрева.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-pump-short-circuit",
+            "title": "Короткое замыкание циркуляционного насоса Ariston",
+            "sign": "Повреждение обмотки двигателя вызывает короткое замыкание.",
+            "causes": "Электрический автомат отключает питание при старте программы.",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-noise-filter-burnt",
+            "title": "Перегорание сетевого фильтра Ariston",
+            "sign": "Сетевой фильтр выходит из строя при скачках напряжения.",
+            "causes": "Машина не включается или выбивает автомат.",
+            "slugs": []
+        }
+
+    ]
+}

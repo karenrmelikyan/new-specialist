@@ -45,7 +45,7 @@ export default function getProductJsonLd(title, description, src, price, ENV) {
                 "@type": ENV.TYPE,
                 "name": ENV.BRAND,
                 "url": ENV.HOST,
-                "sameAs": [ENV.YANDEX_URL]
+                "sameAs": [ENV.GOOGLE_URL]
             },
             "shippingDetails": {
                 "@type": "OfferShippingDetails",

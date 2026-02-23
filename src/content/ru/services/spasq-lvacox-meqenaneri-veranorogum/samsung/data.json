@@ -1,0 +1,365 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Samsung",
+    "title": "Частые поломки посудомоечных машин Samsung",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/samsung/",
+
+    "items": [
+        {
+            "slug": "samsung-dishwasher-not-turning-on",
+            "title": "Посудомоечная машина Samsung не включается",
+            "sign": "После нажатия кнопки питания устройство остается полностью неактивным.",
+            "causes": "Отсутствие электропитания, неисправность сетевого фильтра или сбой электронной платы.",
+            "slugs": [
+                "samsung-power-cord-damage",
+                "samsung-noise-filter-failure",
+                "samsung-main-control-board-fault",
+                "samsung-power-button-defect"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-draining",
+            "title": "Посудомоечная машина Samsung не сливает воду",
+            "sign": "После завершения программы в камере остается вода.",
+            "causes": "Засор сливной системы либо неисправность дренажного насоса.",
+            "slugs": [
+                "samsung-drain-pump-failure",
+                "samsung-drain-hose-blockage",
+                "samsung-filter-clogged",
+                "samsung-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-filling",
+            "title": "Посудомоечная машина Samsung не набирает воду",
+            "sign": "Цикл запускается, но бак остается пустым.",
+            "causes": "Неисправность впускного клапана или активация системы защиты от протечек.",
+            "slugs": [
+                "samsung-water-inlet-valve-defect",
+                "samsung-aquastop-activated",
+                "samsung-flow-meter-error",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-leaking",
+            "title": "Посудомоечная машина Samsung протекает",
+            "sign": "Во время работы под корпусом появляется вода.",
+            "causes": "Износ уплотнителя дверцы, повреждение шлангов или внутренние утечки.",
+            "slugs": [
+                "samsung-door-seal-damage",
+                "samsung-hose-leak",
+                "samsung-circulation-pump-leak",
+                "samsung-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-heating",
+            "title": "Посудомоечная машина Samsung не греет воду",
+            "sign": "Посуда моется в холодной воде, качество очистки ухудшается.",
+            "causes": "Неисправность нагревательного элемента, температурного датчика или реле нагрева.",
+            "slugs": [
+                "samsung-heating-element-burnt",
+                "samsung-ntc-sensor-failure",
+                "samsung-heater-relay-fault",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-drying",
+            "title": "Посудомоечная машина Samsung не сушит посуду",
+            "sign": "После окончания программы остаются капли воды и конденсат.",
+            "causes": "Сбой системы сушки либо неисправность вентилятора.",
+            "slugs": [
+                "samsung-drying-fan-failure",
+                "samsung-heating-element-burnt",
+                "samsung-vent-blockage",
+                "samsung-ntc-sensor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-stops-mid-cycle",
+            "title": "Посудомоечная машина Samsung останавливается во время работы",
+            "sign": "Программа прерывается до полного завершения.",
+            "causes": "Перегрев, перебои с подачей воды или сбой управляющего модуля.",
+            "slugs": [
+                "samsung-heating-element-overheat",
+                "samsung-water-inlet-valve-defect",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-making-noise",
+            "title": "Посудомоечная машина Samsung шумит",
+            "sign": "Во время цикла слышны гул, треск или вибрация.",
+            "causes": "Износ циркуляционного насоса или попадание посторонних предметов.",
+            "slugs": [
+                "samsung-circulation-pump-failure",
+                "samsung-drain-pump-failure",
+                "samsung-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-cleaning-dishes",
+            "title": "Посудомоечная машина Samsung плохо моет посуду",
+            "sign": "На поверхности тарелок остаются загрязнения или разводы.",
+            "causes": "Недостаточное давление воды, засор распылителей или неисправность насоса.",
+            "slugs": [
+                "samsung-spray-arm-clogged",
+                "samsung-circulation-pump-failure",
+                "samsung-filter-clogged",
+                "samsung-detergent-dispenser-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-code",
+            "title": "Посудомоечная машина Samsung показывает ошибку",
+            "sign": "На дисплее отображается код неисправности (например 4E, 5E, LE).",
+            "causes": "Срабатывание датчиков, проблемы со сливом или неисправность электроники.",
+            "slugs": [
+                "samsung-leak-sensor-triggered",
+                "samsung-drain-pump-failure",
+                "samsung-flow-meter-error",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Samsung не закрывается",
+            "sign": "Механизм блокировки не фиксирует дверцу.",
+            "causes": "Неисправность замка, датчика двери или повреждение петель.",
+            "slugs": [
+                "samsung-door-lock-failure",
+                "samsung-door-hinge-damage",
+                "samsung-door-sensor-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-trips-breaker",
+            "title": "Посудомоечная машина Samsung выбивает автомат",
+            "sign": "При запуске происходит отключение электричества.",
+            "causes": "Короткое замыкание нагревателя, насоса или сетевого фильтра.",
+            "slugs": [
+                "samsung-heating-element-short-circuit",
+                "samsung-circulation-pump-short",
+                "samsung-noise-filter-failure",
+                "samsung-main-control-board-fault"
+            ]
+        },
+
+        {
+            "slug": "samsung-power-cord-damage",
+            "title": "Поврежден сетевой кабель Samsung",
+            "sign": "Посудомоечная машина полностью не включается.",
+            "causes": "Обрыв или перегрев провода нарушает подачу электропитания.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-noise-filter-failure",
+            "title": "Неисправен сетевой фильтр Samsung",
+            "sign": "Устройство не реагирует на подключение к сети.",
+            "causes": "Перегоревший фильтр блокирует поступление напряжения к плате управления.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-main-control-board-fault",
+            "title": "Неисправность модуля управления Samsung",
+            "sign": "Программы не запускаются или работают с ошибками.",
+            "causes": "Повреждение электронных компонентов нарушает обработку команд.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-button-defect",
+            "title": "Не работает кнопка питания Samsung",
+            "sign": "При нажатии отсутствует реакция прибора.",
+            "causes": "Износ контактной группы препятствует передаче сигнала запуска.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-pump-failure",
+            "title": "Неисправен сливной насос Samsung",
+            "sign": "Вода остается в камере после завершения цикла.",
+            "causes": "Износ двигателя или блокировка крыльчатки мешают откачке воды.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-hose-blockage",
+            "title": "Засор сливного шланга Samsung",
+            "sign": "Слив выполняется медленно или отсутствует.",
+            "causes": "Скопление загрязнений перекрывает канал отвода воды.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-filter-clogged",
+            "title": "Засор фильтра Samsung",
+            "sign": "Вода плохо уходит и появляется неприятный запах.",
+            "causes": "Остатки пищи нарушают циркуляцию и слив.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-pressure-switch-fault",
+            "title": "Неисправен прессостат Samsung",
+            "sign": "Машина неправильно определяет уровень воды.",
+            "causes": "Датчик не передает корректные сигналы на модуль управления.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-inlet-valve-defect",
+            "title": "Неисправен впускной клапан Samsung",
+            "sign": "Вода не поступает при запуске программы.",
+            "causes": "Катушка клапана перегорела или механизм заклинил.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-aquastop-activated",
+            "title": "Сработала система AquaStop Samsung",
+            "sign": "Подача воды полностью прекращена.",
+            "causes": "Система защиты от протечек блокирует впуск при обнаружении влаги.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-flow-meter-error",
+            "title": "Ошибка расходомера Samsung",
+            "sign": "Машина набирает недостаточный объем воды.",
+            "causes": "Датчик расхода передает некорректные данные о количестве воды.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-seal-damage",
+            "title": "Поврежден уплотнитель двери Samsung",
+            "sign": "Во время мойки вода просачивается по краю дверцы.",
+            "causes": "Изношенная резина теряет герметичность.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-hose-leak",
+            "title": "Протечка шлангов Samsung",
+            "sign": "Под прибором образуется вода.",
+            "causes": "Трещины или ослабленные соединения вызывают утечку.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-circulation-pump-leak",
+            "title": "Протечка циркуляционного насоса Samsung",
+            "sign": "Внутри корпуса обнаруживается влага.",
+            "causes": "Износ уплотнений приводит к утечке воды во время работы.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-leak-sensor-triggered",
+            "title": "Сработал датчик протечки Samsung",
+            "sign": "Программа блокируется и отображается ошибка.",
+            "causes": "Система безопасности реагирует на наличие воды в поддоне.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-burnt",
+            "title": "Перегорел нагревательный элемент Samsung",
+            "sign": "Вода остается холодной во время цикла.",
+            "causes": "Повреждение спирали ТЭНа исключает нагрев.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-ntc-sensor-failure",
+            "title": "Неисправен температурный датчик Samsung",
+            "sign": "Температура воды не соответствует выбранной программе.",
+            "causes": "Датчик передает некорректные показания на модуль.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heater-relay-fault",
+            "title": "Неисправно реле нагрева Samsung",
+            "sign": "Нагрев не активируется при старте цикла.",
+            "causes": "Контакты реле не замыкают цепь нагревателя.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drying-fan-failure",
+            "title": "Не работает вентилятор сушки Samsung",
+            "sign": "Посуда остается влажной после завершения программы.",
+            "causes": "Мотор вентилятора не обеспечивает циркуляцию воздуха.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-vent-blockage",
+            "title": "Засор вентиляционного канала Samsung",
+            "sign": "Пар плохо выводится из камеры.",
+            "causes": "Накопление загрязнений нарушает процесс сушки.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-overheat",
+            "title": "Перегрев нагревателя Samsung",
+            "sign": "Программа останавливается во время работы.",
+            "causes": "Система защиты отключает прибор при превышении допустимой температуры.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-circulation-pump-failure",
+            "title": "Неисправен циркуляционный насос Samsung",
+            "sign": "Мойка сопровождается слабым напором воды или шумом.",
+            "causes": "Износ двигателя снижает давление подачи воды.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-spray-arm-obstruction",
+            "title": "Блокировка разбрызгивателя Samsung",
+            "sign": "Распыление воды происходит неравномерно.",
+            "causes": "Посторонние предметы мешают вращению лопастей.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-spray-arm-clogged",
+            "title": "Засор распылителя Samsung",
+            "sign": "Посуда плохо промывается в отдельных зонах.",
+            "causes": "Отверстия форсунок забиты остатками пищи.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-detergent-dispenser-fault",
+            "title": "Неисправен дозатор моющего средства Samsung",
+            "sign": "Таблетка или порошок не высвобождаются во время мойки.",
+            "causes": "Механизм открытия отсека не срабатывает.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-lock-failure",
+            "title": "Неисправен замок двери Samsung",
+            "sign": "Машина не запускается при закрытой дверце.",
+            "causes": "Механизм блокировки не фиксирует положение.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-hinge-damage",
+            "title": "Повреждены петли двери Samsung",
+            "sign": "Дверца закрывается с перекосом.",
+            "causes": "Износ петель нарушает правильную фиксацию.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-sensor-fault",
+            "title": "Ошибка датчика двери Samsung",
+            "sign": "Система не распознает закрытие дверцы.",
+            "causes": "Сигнал блокировки не поступает на плату управления.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Samsung",
+            "sign": "При включении выбивает автомат защиты.",
+            "causes": "Повреждение изоляции ТЭНа вызывает утечку тока.",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-circulation-pump-short",
+            "title": "Короткое замыкание циркуляционного насоса Samsung",
+            "sign": "Срабатывает защита электросети при запуске.",
+            "causes": "Повреждение обмотки двигателя приводит к перегрузке.",
+            "slugs": []
+        }
+
+    ]
+}

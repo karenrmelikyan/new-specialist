@@ -4,6 +4,7 @@ export default function getGlobalDataByURI(URI) {
         { id: "/sarnaranneri-veranorogum/", value: "10.000" },
         { id: "/spasq-lvacox-meqenaneri-veranorogum/", value: "15.000" },
         { id: "/avtomat-choranocneri-veranorogum/", value: "15.000" },
+        { id: "/about/", value: "10.000" },
     ]
 
     const sources = [
@@ -11,6 +12,7 @@ export default function getGlobalDataByURI(URI) {
         { id: "/sarnaranneri-veranorogum/", value: "/assets/img/fridge-service.webp" },
         { id: "/spasq-lvacox-meqenaneri-veranorogum/", value: "/assets/img/dishwasher-service.webp" },
         { id: "/avtomat-choranocneri-veranorogum/", value: "/assets/img/dryer-service.webp" },
+        { id: "/about/", value: "/assets/img/master.webp" },
     ]
     
     const priceData = prices.find(item => URI.includes(item.id))

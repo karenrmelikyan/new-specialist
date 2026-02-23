@@ -1,0 +1,291 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Electrolux",
+    "title": "Частые поломки посудомоечных машин Electrolux",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/electrolux/",
+
+    "items": [
+        {
+            "slug": "electrolux-dishwasher-not-turning-on",
+            "title": "Посудомоечная машина Electrolux не включается",
+            "sign": "Отсутствует индикация и реакция на кнопку запуска.",
+            "causes": "Неисправность цепи питания или сбой электронного модуля.",
+            "slugs": [
+                "electrolux-power-supply-failure",
+                "electrolux-control-board-fault",
+                "electrolux-noise-filter-burnt",
+                "electrolux-power-button-defect"
+            ]
+        },
+        {
+            "slug": "electrolux-error-i30",
+            "title": "Ошибка i30 в посудомоечной машине Electrolux",
+            "sign": "На дисплее отображается код i30, постоянно работает слив.",
+            "causes": "Срабатывание системы защиты от протечек.",
+            "slugs": [
+                "electrolux-leak-sensor-activated",
+                "electrolux-base-pan-water",
+                "electrolux-circulation-pump-leak",
+                "electrolux-hose-seal-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-error-i20",
+            "title": "Ошибка i20 в в посудомоечной машине Electrolux",
+            "sign": "Программа останавливается и вода не сливается.",
+            "causes": "Засор сливной системы или неисправность дренажной помпы.",
+            "slugs": [
+                "electrolux-drain-pump-blockage",
+                "electrolux-drain-hose-obstruction",
+                "electrolux-filter-system-clog",
+                "electrolux-drain-impeller-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-error-i60",
+            "title": "Ошибка i60 в в посудомоечной машине Electrolux",
+            "sign": "Цикл мойки проходит без нагрева воды.",
+            "causes": "Неисправность проточного нагревателя или температурного датчика.",
+            "slugs": [
+                "electrolux-heater-failure",
+                "electrolux-ntc-sensor-error",
+                "electrolux-heater-relay-fault",
+                "electrolux-control-board-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-not-taking-water",
+            "title": "Посудомоечная машина Electrolux не набирает воду",
+            "sign": "После запуска отсутствует характерный шум залива.",
+            "causes": "Неисправен впускной клапан или датчик уровня.",
+            "slugs": [
+                "electrolux-inlet-valve-failure",
+                "electrolux-pressure-sensor-malfunction",
+                "electrolux-aquastop-hose-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-not-draining",
+            "title": "Посудомоечная машина Electrolux не сливает воду",
+            "sign": "В камере остается жидкость по окончании программы.",
+            "causes": "Блокировка сливного тракта или поломка помпы.",
+            "slugs": [
+                "electrolux-drain-pump-blockage",
+                "electrolux-drain-impeller-damage",
+                "electrolux-drain-hose-obstruction"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-poor-drying",
+            "title": "Посудомоечная машина Electrolux плохо сушит посуду",
+            "sign": "После завершения цикла остаются капли воды.",
+            "causes": "Сбой системы AirDry или недостаточный нагрев.",
+            "slugs": [
+                "electrolux-airdry-mechanism-failure",
+                "electrolux-heater-failure",
+                "electrolux-fan-motor-defect"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-poor-wash",
+            "title": "Посудомоечная машина Electrolux плохо отмывает посуду",
+            "sign": "На тарелках остаются загрязнения и налет.",
+            "causes": "Снижение давления циркуляции или засор разбрызгивателей.",
+            "slugs": [
+                "electrolux-circulation-pump-weak",
+                "electrolux-spray-arm-clogged",
+                "electrolux-turbidity-sensor-error",
+                "electrolux-detergent-dispenser-stuck"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-stops-mid-cycle",
+            "title": "Посудомоечная машина Electrolux останавливается во время программы",
+            "sign": "Процесс мойки прерывается без завершения.",
+            "causes": "Перегрев, ошибка датчиков или сбой платы управления.",
+            "slugs": [
+                "electrolux-overheat-protection",
+                "electrolux-ntc-sensor-error",
+                "electrolux-control-board-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-leaking",
+            "title": "Протечка посудомоечной машины Electrolux",
+            "sign": "Под корпусом появляется вода.",
+            "causes": "Повреждение уплотнителей, патрубков или корпуса насоса.",
+            "slugs": [
+                "electrolux-hose-seal-damage",
+                "electrolux-circulation-pump-leak",
+                "electrolux-door-gasket-wear"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-noisy-operation",
+            "title": "Посудомоечная машина Electrolux шумит во время работы",
+            "sign": "Слышен гул, вибрация или посторонние звуки.",
+            "causes": "Износ циркуляционного насоса или попадание посторонних предметов.",
+            "slugs": [
+                "electrolux-circulation-pump-bearing-worn",
+                "electrolux-drain-impeller-damage",
+                "electrolux-spray-arm-imbalance"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-door-lock-issue",
+            "title": "Неисправность замка двери посудомоечной машины Electrolux",
+            "sign": "Машина не запускается при закрытой дверце.",
+            "causes": "Поломка механизма блокировки или микровыключателя.",
+            "slugs": [
+                "electrolux-door-lock-defect",
+                "electrolux-door-switch-error",
+                "electrolux-hinge-misalignment"
+            ]
+        },
+
+        {
+            "slug": "electrolux-power-supply-failure",
+            "title": "Неисправность цепи питания Electrolux",
+            "sign": "Посудомоечная машина Electrolux полностью обесточена и не реагирует на кнопку включения",
+            "causes": "Повреждение сетевого кабеля, клеммной группы или внутренних дорожек питания на плате управления Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-control-board-fault",
+            "title": "Сбой модуля управления Electrolux",
+            "sign": "Индикация Electrolux работает нестабильно или отсутствует запуск программ",
+            "causes": "Повреждение процессора, элементов питания платы или прошивки контроллера Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-noise-filter-burnt",
+            "title": "Перегорел сетевой фильтр Electrolux",
+            "sign": "После скачка напряжения посудомоечная машина Electrolux перестала включаться",
+            "causes": "Пробой EMI-фильтра или конденсаторов входной цепи Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-leak-sensor-activated",
+            "title": "Активирована система защиты от протечек Electrolux",
+            "sign": "Сливной насос Electrolux работает постоянно, отображается ошибка i30",
+            "causes": "Попадание воды в поддон и срабатывание поплавкового датчика безопасности Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-base-pan-water",
+            "title": "Скопление воды в основании корпуса Electrolux",
+            "sign": "Программа Electrolux блокируется до начала цикла мойки",
+            "causes": "Микропротечка патрубков, соединений или трещина корпуса гидроузла Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-pump-leak",
+            "title": "Протечка циркуляционного насоса Electrolux",
+            "sign": "Под агрегатом Electrolux появляется влага и ошибка i30",
+            "causes": "Износ уплотнительных колец или разгерметизация корпуса помпы Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-pump-blockage",
+            "title": "Засор сливной помпы Electrolux",
+            "sign": "Вода остаётся в камере Electrolux, отображается ошибка i20",
+            "causes": "Блокировка крыльчатки остатками пищи, стеклом или жировыми отложениями в посудомоечной машине Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-impeller-damage",
+            "title": "Повреждение крыльчатки дренажного насоса Electrolux",
+            "sign": "Слив воды сопровождается гулом без фактической откачки в посудомоечной машине Electrolux",
+            "causes": "Механическое разрушение лопастей или заклинивание ротора насоса Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-filter-system-clog",
+            "title": "Засор фильтрующей системы Electrolux",
+            "sign": "Медленный слив и появление запаха внутри камеры Electrolux",
+            "causes": "Скопление загрязнений в многоступенчатом фильтре и гидроканалах Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heater-failure",
+            "title": "Неисправность проточного нагревателя Electrolux",
+            "sign": "Цикл Electrolux проходит без нагрева, отображается ошибка i60",
+            "causes": "Обрыв спирали ТЭНа или пробой нагревательного элемента на корпус Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ntc-sensor-error",
+            "title": "Ошибка температурного датчика NTC Electrolux",
+            "sign": "Температура воды в посудомоечной машине Electrolux не соответствует выбранной программе",
+            "causes": "Обрыв цепи термистора или некорректное сопротивление датчика Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heater-relay-fault",
+            "title": "Неисправность реле нагрева Electrolux",
+            "sign": "Нагреватель Electrolux не активируется при исправном ТЭНе",
+            "causes": "Подгорание контактов реле или повреждение силовой дорожки платы Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pressure-sensor-malfunction",
+            "title": "Сбой прессостата Electrolux",
+            "sign": "Посудомоечная машина Electrolux преждевременно прекращает набор воды",
+            "causes": "Засор камеры отбора давления или неисправность датчика уровня Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-turbidity-sensor-error",
+            "title": "Неисправность датчика мутности Electrolux",
+            "sign": "Продолжительность программы Electrolux изменяется непредсказуемо",
+            "causes": "Загрязнение оптического сенсора или сбой передачи сигнала на модуль Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-airdry-mechanism-failure",
+            "title": "Сбой механизма AirDry Electrolux",
+            "sign": "Дверца Electrolux не открывается автоматически по завершении цикла",
+            "causes": "Неисправность привода открывания или ошибки в управляющем алгоритме Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fan-motor-defect",
+            "title": "Неисправен вентилятор сушки Electrolux",
+            "sign": "Посуда в посудомоечной машине Electrolux остаётся влажной несмотря на завершение программы",
+            "causes": "Износ двигателя вентилятора или блокировка его крыльчатки в посудомоечной машине Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-pump-weak",
+            "title": "Снижение производительности циркуляционной помпы Electrolux",
+            "sign": "Струи воды в посудомоечной машине Electrolux слабые, качество мойки ухудшается",
+            "causes": "Износ подшипников, частичная блокировка гидравлического канала или падение оборотов двигателя Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-pump-bearing-worn",
+            "title": "Износ подшипников насоса Electrolux",
+            "sign": "Во время работы Electrolux слышен гул или вибрация",
+            "causes": "Длительная эксплуатация и естественный механический износ вращающегося узла Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-lock-defect",
+            "title": "Неисправность замка дверцы Electrolux",
+            "sign": "Программа Electrolux не запускается при закрытой двери",
+            "causes": "Поломка механизма блокировки или отказ микровыключателя Electrolux",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-hose-seal-damage",
+            "title": "Повреждение шлангов и уплотнений Electrolux",
+            "sign": "Обнаружена течь в зоне соединений Electrolux",
+            "causes": "Старение резиновых прокладок или ослабление соединительных хомутов Electrolux",
+            "slugs": []
+        }
+
+    ]
+}

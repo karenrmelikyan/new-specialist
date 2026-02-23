@@ -1,0 +1,430 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Candy",
+    "title": "Частые поломки посудомоечных машин Candy",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacox-meqenaneri-veranorogum/candy/",
+
+    "items": [
+        {
+            "slug": "candy-dishwasher-not-turning-on",
+            "title": "Посудомоечная машина Candy не включается",
+            "sign": "Устройство полностью не реагирует на кнопку питания.",
+            "causes": "Отсутствие электропитания или сбой электронной системы.",
+            "slugs": [
+                "candy-power-cord-damage",
+                "candy-noise-filter-failure",
+                "candy-main-control-board-defect",
+                "candy-power-button-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-draining",
+            "title": "Посудомоечная машина Candy не сливает воду",
+            "sign": "После завершения программы вода остается внутри камеры.",
+            "causes": "Засор сливной магистрали или неисправность помпы.",
+            "slugs": [
+                "candy-drain-pump-failure",
+                "candy-drain-hose-blockage",
+                "candy-drain-filter-clog",
+                "candy-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-filling-water",
+            "title": "Посудомоечная машина Candy не набирает воду",
+            "sign": "Цикл запускается без подачи воды.",
+            "causes": "Не работает впускной клапан либо система контроля уровня.",
+            "slugs": [
+                "candy-inlet-valve-defect",
+                "candy-aquastop-failure",
+                "candy-flow-meter-fault",
+                "candy-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-heating",
+            "title": "Посудомоечная машина Candy не греет воду",
+            "sign": "Мойка проходит в холодной воде.",
+            "causes": "Повреждение нагревательного элемента или датчика температуры.",
+            "slugs": [
+                "candy-heating-element-failure",
+                "candy-ntc-sensor-fault",
+                "candy-heating-relay-defect",
+                "candy-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-drying",
+            "title": "Посудомоечная машина Candy не сушит посуду",
+            "sign": "После завершения программы посуда остается влажной.",
+            "causes": "Сбой системы сушки или нагрева.",
+            "slugs": [
+                "candy-heating-element-failure",
+                "candy-fan-dryer-fault",
+                "candy-ventilation-system-defect",
+                "candy-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-leaking",
+            "title": "Посудомоечная машина Candy протекает",
+            "sign": "Во время работы под машиной появляется вода.",
+            "causes": "Нарушена герметичность соединений или шлангов.",
+            "slugs": [
+                "candy-door-seal-damage",
+                "candy-hose-leak",
+                "candy-circulation-pump-seal-failure",
+                "candy-aquastop-activation"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-starting-cycle",
+            "title": "Посудомоечная машина Candy не запускает программу",
+            "sign": "Режим выбран, но цикл не начинается.",
+            "causes": "Проблема с блокировкой дверцы или модулем управления.",
+            "slugs": [
+                "candy-door-lock-fault",
+                "candy-door-sensor-fault",
+                "candy-main-control-board-defect",
+                "candy-touch-panel-failure"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-making-noise",
+            "title": "Посудомоечная машина Candy шумит",
+            "sign": "Во время работы слышны посторонние звуки.",
+            "causes": "Износ насоса или попадание посторонних предметов.",
+            "slugs": [
+                "candy-circulation-pump-failure",
+                "candy-drain-pump-obstruction",
+                "candy-spray-arm-damage",
+                "candy-motor-bearing-wear"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-code",
+            "title": "Посудомоечная машина Candy выдает ошибку",
+            "sign": "На дисплее отображается код неисправности.",
+            "causes": "Система диагностики фиксирует сбой одного из узлов.",
+            "slugs": [
+                "candy-water-level-sensor-fault",
+                "candy-heating-system-error",
+                "candy-drain-system-fault",
+                "candy-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-spraying-water",
+            "title": "Посудомоечная машина Candy не разбрызгивает воду",
+            "sign": "Посуда остается загрязненной после цикла.",
+            "causes": "Недостаточное давление воды или засор распылителей.",
+            "slugs": [
+                "candy-circulation-pump-failure",
+                "candy-spray-arm-clog",
+                "candy-water-distribution-valve-fault",
+                "candy-filter-blockage"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Candy не закрывается",
+            "sign": "Механизм фиксации не удерживает дверцу.",
+            "causes": "Износ замка или повреждение петель.",
+            "slugs": [
+                "candy-door-lock-fault",
+                "candy-door-hinge-damage",
+                "candy-door-latch-defect",
+                "candy-door-sensor-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-tripping-breaker",
+            "title": "Посудомоечная машина Candy выбивает автомат",
+            "sign": "При включении срабатывает защита электросети.",
+            "causes": "Короткое замыкание нагревателя или двигателя.",
+            "slugs": [
+                "candy-heating-element-short-circuit",
+                "candy-circulation-pump-short-circuit",
+                "candy-power-module-failure",
+                "candy-noise-filter-failure"
+            ]
+        },
+
+        {
+            "slug": "candy-power-cord-damage",
+            "title": "Поврежден сетевой кабель Candy",
+            "sign": "Отсутствует питание устройства.",
+            "causes": "Обрыв проводника или перегрев шнура блокирует запуск.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-noise-filter-failure",
+            "title": "Неисправен сетевой фильтр Candy",
+            "sign": "Машина не реагирует на включение.",
+            "causes": "Фильтр помех перестает пропускать напряжение к модулю.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-main-control-board-defect",
+            "title": "Неисправность модуля управления Candy",
+            "sign": "Программы запускаются некорректно или прерываются.",
+            "causes": "Повреждение электронных компонентов платы.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-power-button-fault",
+            "title": "Не работает кнопка питания Candy",
+            "sign": "При нажатии отсутствует отклик.",
+            "causes": "Износ контактной группы нарушает передачу сигнала.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-pump-failure",
+            "title": "Неисправен сливной насос Candy",
+            "sign": "Вода остается в камере после цикла.",
+            "causes": "Мотор насоса не обеспечивает откачку жидкости.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-hose-blockage",
+            "title": "Засор сливного шланга Candy",
+            "sign": "Отвод воды происходит медленно.",
+            "causes": "Скопление загрязнений перекрывает проход.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-filter-clog",
+            "title": "Засор фильтра слива Candy",
+            "sign": "Вода не полностью удаляется из бака.",
+            "causes": "Остатки пищи блокируют фильтрующий элемент.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-pressure-switch-fault",
+            "title": "Неисправен прессостат Candy",
+            "sign": "Некорректный контроль уровня воды.",
+            "causes": "Датчик передает ошибочные данные на плату.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-inlet-valve-defect",
+            "title": "Неисправен впускной клапан Candy",
+            "sign": "Вода не поступает в рабочую камеру.",
+            "causes": "Электромагнитный механизм не открывает подачу.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-aquastop-failure",
+            "title": "Сбой системы AquaStop Candy",
+            "sign": "Подача воды блокируется защитой.",
+            "causes": "Датчик утечки активирует аварийное перекрытие.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-flow-meter-fault",
+            "title": "Неисправен расходомер воды Candy",
+            "sign": "Нарушен контроль объема набора воды.",
+            "causes": "Импульсы датчика не поступают в модуль управления.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-element-failure",
+            "title": "Неисправен нагревательный элемент Candy",
+            "sign": "Вода остается холодной во время мойки.",
+            "causes": "Обрыв или выгорание спирали ТЭНа.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ntc-sensor-fault",
+            "title": "Ошибка температурного датчика Candy",
+            "sign": "Температура воды определяется неправильно.",
+            "causes": "Сенсор передает искаженные показания.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-relay-defect",
+            "title": "Неисправно реле нагрева Candy",
+            "sign": "Нагреватель не получает питание.",
+            "causes": "Контакты реле не замыкают электрическую цепь.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-fan-dryer-fault",
+            "title": "Неисправен вентилятор сушки Candy",
+            "sign": "Отсутствует циркуляция горячего воздуха.",
+            "causes": "Двигатель вентилятора не запускается.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ventilation-system-defect",
+            "title": "Сбой вентиляционной системы Candy",
+            "sign": "Влага не удаляется после цикла.",
+            "causes": "Нарушена циркуляция воздуха внутри камеры.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-seal-damage",
+            "title": "Поврежден уплотнитель двери Candy",
+            "sign": "Вода просачивается по периметру.",
+            "causes": "Износ резинового контура нарушает герметичность.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-hose-leak",
+            "title": "Протечка шланга Candy",
+            "sign": "Обнаружена вода под корпусом машины.",
+            "causes": "Трещина или ослабленное соединение вызывает утечку.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-pump-seal-failure",
+            "title": "Повреждение уплотнения циркуляционного насоса Candy",
+            "sign": "Подтекание воды в зоне насоса.",
+            "causes": "Износ сальника приводит к разгерметизации.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-aquastop-activation",
+            "title": "Срабатывание защиты AquaStop Candy",
+            "sign": "Машина прекращает набор воды.",
+            "causes": "Датчик протечки переводит систему в аварийный режим.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-lock-fault",
+            "title": "Неисправен замок двери Candy",
+            "sign": "Дверца не фиксируется перед запуском.",
+            "causes": "Механизм блокировки не обеспечивает закрытие.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-sensor-fault",
+            "title": "Ошибка датчика двери Candy",
+            "sign": "Система не определяет положение дверцы.",
+            "causes": "Контроль безопасности блокирует старт программы.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-touch-panel-failure",
+            "title": "Неисправна сенсорная панель Candy",
+            "sign": "Кнопки не реагируют на нажатие.",
+            "causes": "Повреждение контактной матрицы панели.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-pump-failure",
+            "title": "Неисправен циркуляционный насос Candy",
+            "sign": "Вода не подается к распылителям.",
+            "causes": "Двигатель не создает необходимое давление.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-pump-obstruction",
+            "title": "Блокировка сливного насоса Candy",
+            "sign": "Слышен гул без отвода воды.",
+            "causes": "Посторонний предмет мешает вращению крыльчатки.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-spray-arm-damage",
+            "title": "Повреждено коромысло Candy",
+            "sign": "Распылитель не вращается во время цикла.",
+            "causes": "Деформация препятствует нормальной подаче воды.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-motor-bearing-wear",
+            "title": "Износ подшипников двигателя Candy",
+            "sign": "Появляется гул и вибрация.",
+            "causes": "Механический износ снижает стабильность вращения.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-water-level-sensor-fault",
+            "title": "Ошибка датчика уровня воды Candy",
+            "sign": "Переполнение или недостаточный набор воды.",
+            "causes": "Сенсор неправильно контролирует уровень.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-system-error",
+            "title": "Сбой системы нагрева Candy",
+            "sign": "Температура воды не соответствует заданной программе.",
+            "causes": "Нарушена работа элементов нагревательного контура.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-system-fault",
+            "title": "Неисправность системы слива Candy",
+            "sign": "Вода удаляется не полностью.",
+            "causes": "Сбой взаимодействия насоса и датчиков.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-electronic-module-failure",
+            "title": "Сбой электронного блока Candy",
+            "sign": "Отображаются ошибки или сбиваются режимы.",
+            "causes": "Повреждение цепей управления.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-spray-arm-clog",
+            "title": "Засор распылителя Candy",
+            "sign": "Форсунки распылителя перекрыты.",
+            "causes": "Налет и остатки пищи блокируют отверстия.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-water-distribution-valve-fault",
+            "title": "Неисправен клапан распределения воды Candy",
+            "sign": "Потоки воды распределяются некорректно.",
+            "causes": "Механизм переключения не функционирует.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-filter-blockage",
+            "title": "Засор системы фильтрации Candy",
+            "sign": "Снижается давление воды внутри камеры.",
+            "causes": "Фильтрующие элементы загрязнены.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-hinge-damage",
+            "title": "Повреждение петель двери Candy",
+            "sign": "Дверца закрывается с перекосом.",
+            "causes": "Износ шарнирного механизма.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-latch-defect",
+            "title": "Неисправна защелка двери Candy",
+            "sign": "Фиксация дверцы нестабильна.",
+            "causes": "Механический износ фиксирующего элемента.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Candy",
+            "sign": "Срабатывает автомат защиты при включении.",
+            "causes": "Повреждение изоляции ТЭНа вызывает утечку тока.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-pump-short-circuit",
+            "title": "Короткое замыкание циркуляционного насоса Candy",
+            "sign": "Электросеть перегружается при старте программы.",
+            "causes": "Обмотка двигателя вызывает короткое замыкание.",
+            "slugs": []
+        },
+        {
+            "slug": "candy-power-module-failure",
+            "title": "Неисправен силовой модуль Candy",
+            "sign": "Машина отключается во время работы.",
+            "causes": "Повреждение элементов силовой платы.",
+            "slugs": []
+        }
+    ]
+}
