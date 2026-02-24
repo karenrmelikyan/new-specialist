@@ -1,0 +1,297 @@
+{
+    "indexPageTitle": "Ремонт сушильных машин Sharp",
+    "title": "Частые поломки сушильных машин Sharp",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/sharp/",
+
+    "items": [
+        {
+            "slug": "sharp-dryer-not-starting",
+            "title": "Сушильная машина Sharp не запускается",
+            "sign": "После нажатия кнопки старта барабан остаётся неподвижным, индикаторы не загораются",
+            "causes": "Сбой панели управления, неисправность замка двери или отсутствие питания",
+            "slugs": [
+                "sharp-door-lock-failure",
+                "sharp-control-board-malfunction",
+                "sharp-user-interface-error",
+                "sharp-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-not-heating",
+            "title": "Сушильная машина Sharp не нагревает",
+            "sign": "Бельё остаётся холодным, цикл сушки неэффективен",
+            "causes": "Поломка нагревательного элемента, срабатывание термопредохранителя или неисправность датчика температуры",
+            "slugs": [
+                "sharp-heating-element-failure",
+                "sharp-thermal-fuse-blown",
+                "sharp-temperature-sensor-defect",
+                "sharp-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-not-drying-properly",
+            "title": "Сушильная машина Sharp плохо сушит бельё",
+            "sign": "После окончания программы вещи остаются влажными",
+            "causes": "Нарушение воздушного потока, износ вентилятора или неисправность датчика влажности",
+            "slugs": [
+                "sharp-ventilation-blockage",
+                "sharp-moisture-sensor-failure",
+                "sharp-fan-motor-damage",
+                "sharp-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Sharp не вращается",
+            "sign": "Мотор работает, но барабан остаётся неподвижным",
+            "causes": "Обрыв ремня, неисправность двигателя или износ роликов барабана",
+            "slugs": [
+                "sharp-drive-belt-broken",
+                "sharp-motor-failure",
+                "sharp-drum-roller-wear",
+                "sharp-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Sharp останавливается в процессе работы",
+            "sign": "Цикл прерывается без предупреждения до завершения программы",
+            "causes": "Перегрев, сбой датчиков или неисправность управляющей платы",
+            "slugs": [
+                "sharp-thermal-fuse-blown",
+                "sharp-control-board-malfunction",
+                "sharp-temperature-sensor-defect",
+                "sharp-motor-failure"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-overheating",
+            "title": "Сушильная машина Sharp перегревается",
+            "sign": "Корпус становится слишком горячим, возможна аварийная остановка",
+            "causes": "Засор вентиляции, сбой термостата или некорректная работа температурного сенсора",
+            "slugs": [
+                "sharp-ventilation-blockage",
+                "sharp-thermostat-fault",
+                "sharp-temperature-sensor-defect",
+                "sharp-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-making-noise",
+            "title": "Сушильная машина Sharp шумит при работе",
+            "sign": "Во время вращения слышны посторонние стуки, скрежет или вибрация",
+            "causes": "Износ подшипников, роликов барабана или повреждение вентилятора",
+            "slugs": [
+                "sharp-drum-bearing-wear",
+                "sharp-drum-roller-wear",
+                "sharp-fan-motor-damage",
+                "sharp-motor-failure"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-not-turning-on",
+            "title": "Сушильная машина Sharp не включается",
+            "sign": "Прибор полностью не реагирует на кнопки, индикаторы погашены",
+            "causes": "Повреждение сетевого кабеля, неисправность фильтра помех или сбой платы управления",
+            "slugs": [
+                "sharp-power-cord-fault",
+                "sharp-noise-filter-defect",
+                "sharp-control-board-malfunction",
+                "sharp-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-code",
+            "title": "Сушильная машина Sharp показывает код ошибки",
+            "sign": "На дисплее появляется сообщение о неисправности",
+            "causes": "Сбой сенсоров, нагревательного элемента или блока управления",
+            "slugs": [
+                "sharp-temperature-sensor-defect",
+                "sharp-moisture-sensor-failure",
+                "sharp-heating-element-failure",
+                "sharp-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Sharp не закрывается",
+            "sign": "Люк не фиксируется, запуск программы невозможен",
+            "causes": "Неисправность замка, износ петель или сбой датчика двери",
+            "slugs": [
+                "sharp-door-lock-failure",
+                "sharp-door-hinge-damage",
+                "sharp-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-burning-smell",
+            "title": "Сушильная машина Sharp издаёт запах гари",
+            "sign": "Во время работы ощущается запах перегрева или плавления компонентов",
+            "causes": "Скопление ворса, неисправность нагревательного элемента или повреждение проводки",
+            "slugs": [
+                "sharp-ventilation-blockage",
+                "sharp-heating-element-failure",
+                "sharp-motor-failure",
+                "sharp-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-tripping-breaker",
+            "title": "Сушильная машина Sharp выбивает автомат",
+            "sign": "При включении срабатывает защита электросети",
+            "causes": "Короткое замыкание нагревателя, двигателя или сетевого фильтра",
+            "slugs": [
+                "sharp-heating-element-short-circuit",
+                "sharp-motor-short-circuit",
+                "sharp-noise-filter-defect",
+                "sharp-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "sharp-door-lock-failure",
+            "title": "Неисправность замка двери Sharp",
+            "sign": "Люк не фиксируется при закрытии, программа не запускается",
+            "causes": "Сбой блокировки предотвращает старт цикла сушки",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-control-board-malfunction",
+            "title": "Сбой управляющей платы Sharp",
+            "sign": "Электронные команды не выполняются корректно",
+            "causes": "Циклы могут прерываться, индикаторы работают нестабильно",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-user-interface-error",
+            "title": "Ошибка панели управления Sharp",
+            "sign": "Кнопки и сенсорные элементы не реагируют",
+            "causes": "Невозможно выбрать режим или запустить программу",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Sharp",
+            "sign": "Обрыв жил или нарушение изоляции шнура питания",
+            "causes": "Сушильная машина полностью не включается, индикаторы погашены",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-heating-element-failure",
+            "title": "Поломка нагревательного элемента Sharp",
+            "sign": "ТЭН не нагревает воздух внутри барабана",
+            "causes": "Сушка проходит без тепла, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-thermal-fuse-blown",
+            "title": "Срабатывание термопредохранителя Sharp",
+            "sign": "Элемент размыкает цепь при перегреве",
+            "causes": "Цикл прерывается, сушильная машина не нагревается",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-temperature-sensor-defect",
+            "title": "Неисправность температурного датчика Sharp",
+            "sign": "Сенсор даёт некорректные данные о нагреве барабана",
+            "causes": "Циклы нагрева выполняются неправильно или завершаются ошибкой",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-ventilation-blockage",
+            "title": "Засор вентиляционных каналов Sharp",
+            "sign": "Воздух не циркулирует должным образом",
+            "causes": "Сушка замедляется, бельё остаётся влажным или перегревается",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-moisture-sensor-failure",
+            "title": "Сбой датчика влажности Sharp",
+            "sign": "Сушилка неправильно определяет уровень сухости белья",
+            "causes": "Программа может закончиться преждевременно или оставить вещи влажными",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-fan-motor-damage",
+            "title": "Неисправность вентилятора Sharp",
+            "sign": "Вентилятор не вращается, воздух не циркулирует по барабану",
+            "causes": "Эффективность сушки снижается, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drive-belt-broken",
+            "title": "Обрыв приводного ремня Sharp",
+            "sign": "Мотор работает, но барабан не вращается",
+            "causes": "Сушильная машина не сушит бельё из-за неподвижного барабана",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-motor-failure",
+            "title": "Неисправность двигателя Sharp",
+            "sign": "Мотор не запускается или работает с перебоями",
+            "causes": "Барабан не вращается, возможно появление посторонних звуков",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drum-roller-wear",
+            "title": "Износ роликов барабана Sharp",
+            "sign": "Барабан вращается с усилием или издаёт шум",
+            "causes": "Цикл сушки становится менее эффективным, появляются посторонние вибрации",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Sharp",
+            "sign": "Ремень барабана проскальзывает или не натягивается",
+            "causes": "Барабан вращается с перебоями или не крутится совсем",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drum-bearing-wear",
+            "title": "Износ подшипников барабана Sharp",
+            "sign": "Появляются вибрация, стуки и скрежет при вращении барабана",
+            "causes": "Механизм барабана работает шумно, цикл сушки нарушен",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-door-hinge-damage",
+            "title": "Повреждение петель двери Sharp",
+            "sign": "Люк перекошен или плохо закрывается",
+            "causes": "Замок не фиксируется, запуск программы невозможен",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-door-switch-fault",
+            "title": "Сбой датчика двери Sharp",
+            "sign": "Сенсор не определяет закрытие люка",
+            "causes": "Цикл не запускается из-за системы безопасности",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревательного элемента Sharp",
+            "sign": "Повреждение изоляции ТЭНа приводит к утечке тока",
+            "causes": "Автомат защиты срабатывает при включении сушильной машины",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Sharp",
+            "sign": "Повреждение обмотки мотора вызывает перегрузку сети",
+            "causes": "При запуске срабатывает автомат защиты",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Sharp",
+            "sign": "Фильтр помех выходит из строя из-за перегрузки или скачков напряжения",
+            "causes": "Прибор может не включаться или выбивать автомат",
+            "slugs": []
+        }
+
+    ]
+}

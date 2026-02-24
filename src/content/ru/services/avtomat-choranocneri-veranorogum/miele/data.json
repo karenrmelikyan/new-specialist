@@ -1,0 +1,304 @@
+{
+    "indexPageTitle": "Ремонт сушильных машин Miele",
+    "title": "Частые поломки сушильных машин Miele",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/miele/",
+
+    "items": [
+        {
+            "slug": "miele-dryer-not-starting",
+            "title": "Сушильная машина Miele не запускается",
+            "sign": "После нажатия кнопки старта барабан остаётся неподвижным и программа не активируется",
+            "causes": "Сбой замка люка, неисправность панели управления или отсутствие электропитания",
+            "slugs": [
+                "miele-door-lock-failure",
+                "miele-control-board-malfunction",
+                "miele-user-interface-error",
+                "miele-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "miele-dryer-not-heating",
+            "title": "Сушильная машина Miele не нагревает",
+            "sign": "Бельё остаётся холодным, цикл сушки проходит без эффективного тепла",
+            "causes": "Неисправность нагревательного элемента, сработавший термопредохранитель или датчик температуры",
+            "slugs": [
+                "miele-heating-element-failure",
+                "miele-thermal-fuse-blown",
+                "miele-temperature-sensor-defect",
+                "miele-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "miele-dryer-not-drying-properly",
+            "title": "Сушильная машина Miele плохо сушит бельё",
+            "sign": "После завершения цикла вещи остаются влажными или требуют дополнительного времени сушки",
+            "causes": "Засорение вентиляционных каналов, неисправность датчика влажности или снижение эффективности нагрева",
+            "slugs": [
+                "miele-ventilation-blockage",
+                "miele-moisture-sensor-failure",
+                "miele-heating-element-failure",
+                "miele-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "miele-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Miele не вращается",
+            "sign": "Мотор работает, но барабан остаётся неподвижным",
+            "causes": "Разрыв приводного ремня, износ роликов или неисправность двигателя",
+            "slugs": [
+                "miele-drive-belt-broken",
+                "miele-motor-failure",
+                "miele-drum-roller-wear",
+                "miele-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "miele-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Miele останавливается во время работы",
+            "sign": "Цикл прерывается до завершения без видимой причины",
+            "causes": "Перегрев, сбой датчиков или ошибка платы управления",
+            "slugs": [
+                "miele-thermal-fuse-blown",
+                "miele-control-board-malfunction",
+                "miele-temperature-sensor-defect",
+                "miele-motor-failure"
+            ]
+        },
+        {
+            "slug": "miele-dryer-overheating",
+            "title": "Сушильная машина Miele перегревается",
+            "sign": "Корпус становится слишком горячим, возможна аварийная остановка",
+            "causes": "Засор вентиляции, сбой термостата или некорректные показания датчика температуры",
+            "slugs": [
+                "miele-ventilation-blockage",
+                "miele-thermostat-fault",
+                "miele-temperature-sensor-defect",
+                "miele-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "miele-dryer-making-noise",
+            "title": "Сушильная машина Miele шумит при работе",
+            "sign": "Слышны посторонние звуки, стуки или металлический скрежет",
+            "causes": "Износ подшипников, роликов барабана или повреждение вентилятора",
+            "slugs": [
+                "miele-drum-bearing-wear",
+                "miele-drum-roller-wear",
+                "miele-fan-motor-damage",
+                "miele-motor-failure"
+            ]
+        },
+        {
+            "slug": "miele-dryer-not-turning-on",
+            "title": "Сушильная машина Miele не включается",
+            "sign": "Индикаторы остаются погашенными, аппарат полностью не реагирует",
+            "causes": "Неисправность кабеля питания, сетевого фильтра или сбой электронной платы",
+            "slugs": [
+                "miele-power-cord-fault",
+                "miele-noise-filter-defect",
+                "miele-control-board-malfunction",
+                "miele-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "miele-dryer-error-code",
+            "title": "Сушильная машина Miele показывает код ошибки",
+            "sign": "На дисплее появляется сообщение о неисправности",
+            "causes": "Сбой датчиков, нагревательной системы или платы управления",
+            "slugs": [
+                "miele-temperature-sensor-defect",
+                "miele-moisture-sensor-failure",
+                "miele-heating-element-failure",
+                "miele-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "miele-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Miele не закрывается",
+            "sign": "Люк не фиксируется и запуск программы невозможен",
+            "causes": "Сбой замка, износ петель или неисправность датчика двери",
+            "slugs": [
+                "miele-door-lock-failure",
+                "miele-door-hinge-damage",
+                "miele-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "miele-dryer-burning-smell",
+            "title": "Сушильная машина Miele издаёт запах гари",
+            "sign": "Во время работы ощущается запах перегрева или плавления элементов",
+            "causes": "Скопление ворса, перегрев нагревателя или повреждение проводки",
+            "slugs": [
+                "miele-ventilation-blockage",
+                "miele-heating-element-failure",
+                "miele-motor-failure",
+                "miele-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "miele-dryer-tripping-breaker",
+            "title": "Сушильная машина Miele выбивает автомат",
+            "sign": "При старте срабатывает электрическая защита",
+            "causes": "Короткое замыкание нагревателя, двигателя или сетевого фильтра",
+            "slugs": [
+                "miele-heating-element-short-circuit",
+                "miele-motor-short-circuit",
+                "miele-noise-filter-defect",
+                "miele-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "miele-door-lock-failure",
+            "title": "Поломка замка двери Miele",
+            "sign": "Дверца не фиксируется и не позволяет запустить цикл сушки",
+            "causes": "Механизм блокировки повреждён или изношен",
+            "slugs": []
+        },
+        {
+            "slug": "miele-control-board-malfunction",
+            "title": "Сбой платы управления Miele",
+            "sign": "Электронный модуль перестаёт корректно управлять функциями машины",
+            "causes": "Циклы прерываются, индикаторы работают нестабильно",
+            "slugs": []
+        },
+        {
+            "slug": "miele-user-interface-error",
+            "title": "Ошибка пользовательской панели Miele",
+            "sign": "Кнопки и сенсорная панель не реагируют на нажатия",
+            "causes": "Невозможно выбрать программу или задать параметры сушки",
+            "slugs": []
+        },
+        {
+            "slug": "miele-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Miele",
+            "sign": "Обрыв проводов или нарушение изоляции приводит к отсутствию подачи питания",
+            "causes": "Сушильная машина не включается и индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "miele-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Miele",
+            "sign": "ТЭН не нагревает воздух внутри барабана",
+            "causes": "Сушка проходит без тепла, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "miele-thermal-fuse-blown",
+            "title": "Сработал термопредохранитель Miele",
+            "sign": "Элемент размыкает цепь при перегреве",
+            "causes": "Цикл сушки не запускается до замены предохранителя",
+            "slugs": []
+        },
+        {
+            "slug": "miele-temperature-sensor-defect",
+            "title": "Поломка датчика температуры Miele",
+            "sign": "Сенсор передаёт неверные значения тепла",
+            "causes": "Программа нагрева работает нестабильно или завершается с ошибкой",
+            "slugs": []
+        },
+        {
+            "slug": "miele-ventilation-blockage",
+            "title": "Засор вентиляционных каналов Miele",
+            "sign": "Воздух плохо циркулирует, эффективность сушки снижается",
+            "causes": "Бельё остаётся влажным, возможен перегрев корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "miele-moisture-sensor-failure",
+            "title": "Сбой датчика влажности Miele",
+            "sign": "Датчик некорректно определяет уровень остаточной влаги",
+            "causes": "Цикл заканчивается раньше времени или бельё остаётся мокрым",
+            "slugs": []
+        },
+        {
+            "slug": "miele-fan-motor-damage",
+            "title": "Неисправность вентилятора Miele",
+            "sign": "Вентилятор не обеспечивает должную циркуляцию воздуха",
+            "causes": "Сушка замедляется, бельё остаётся влажным, возможен шум",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drive-belt-broken",
+            "title": "Разрыв приводного ремня Miele",
+            "sign": "Барабан перестаёт вращаться, мотор работает впустую",
+            "causes": "Неисправность предотвращает корректную работу сушки",
+            "slugs": []
+        },
+        {
+            "slug": "miele-motor-failure",
+            "title": "Неисправность двигателя Miele",
+            "sign": "Мотор не крутит барабан или работает с перебоями",
+            "causes": "Барабан не вращается, возможны посторонние шумы",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drum-roller-wear",
+            "title": "Износ роликов барабана Miele",
+            "sign": "Барабан двигается с трудом, появляются вибрации и шум",
+            "causes": "Снижается плавность вращения, возможны повреждения ремня",
+            "slugs": []
+        },
+        {
+            "slug": "miele-idler-pulley-defect",
+            "title": "Поломка обводного ролика Miele",
+            "sign": "Ремень провисает, барабан вращается с трудом",
+            "causes": "Привод барабана нарушен, возможен повышенный шум",
+            "slugs": []
+        },
+        {
+            "slug": "miele-thermostat-fault",
+            "title": "Неисправность термостата Miele",
+            "sign": "Регулятор температуры не корректно контролирует нагрев",
+            "causes": "Сушка может прерываться или перегревать бельё",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drum-bearing-wear",
+            "title": "Износ подшипников барабана Miele",
+            "sign": "Появляется стук или вибрация при вращении барабана",
+            "causes": "Снижается плавность работы, возможен перегрев двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-hinge-damage",
+            "title": "Повреждение петель двери Miele",
+            "sign": "Дверца люка перекошена, закрытие затруднено",
+            "causes": "Запуск программы блокируется системой безопасности",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-switch-fault",
+            "title": "Сбой датчика двери Miele",
+            "sign": "Сенсор не фиксирует закрытие люка",
+            "causes": "Сушка не стартует, индикаторы показывают ошибку",
+            "slugs": []
+        },
+        {
+            "slug": "miele-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревательного элемента Miele",
+            "sign": "Повреждение изоляции вызывает утечку тока",
+            "causes": "Срабатывает автоматическая защита, аппарат не включается",
+            "slugs": []
+        },
+        {
+            "slug": "miele-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Miele",
+            "sign": "Обмотка мотора повреждена, возникает перегрузка сети",
+            "causes": "Сушильная машина выбивает автомат при запуске",
+            "slugs": []
+        },
+        {
+            "slug": "miele-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Miele",
+            "sign": "Фильтр помех выходит из строя из-за перепадов напряжения",
+            "causes": "Может препятствовать запуску или срабатывать защита электросети",
+            "slugs": []
+        }
+
+    ]
+}

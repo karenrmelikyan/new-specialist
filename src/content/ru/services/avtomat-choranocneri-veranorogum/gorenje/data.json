@@ -1,0 +1,305 @@
+{
+    "indexPageTitle": "Ремонт сушильных машин Gorenje",
+    "title": "Частые поломки сушильных машин Gorenhe",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/gorenje/",
+
+    "items": [
+        {
+            "slug": "gorenje-dryer-not-starting",
+            "title": "Сушильная машина Gorenje не запускается",
+            "sign": "После нажатия кнопки старта программа не активируется и барабан остается неподвижным",
+            "causes": "Неисправность замка двери, сбой модуля управления или отсутствие электропитания",
+            "slugs": [
+                "gorenje-door-lock-failure",
+                "gorenje-control-board-malfunction",
+                "gorenje-user-interface-error",
+                "gorenje-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-not-heating",
+            "title": "Сушильная машина Gorenje не нагревает",
+            "sign": "Во время цикла белье остается холодным и влажным",
+            "causes": "Поломка нагревательного элемента, перегоревший термопредохранитель или неисправность датчика температуры",
+            "slugs": [
+                "gorenje-heating-element-failure",
+                "gorenje-thermal-fuse-blown",
+                "gorenje-temperature-sensor-defect",
+                "gorenje-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-not-drying-properly",
+            "title": "Сушильная машина Gorenje плохо сушит белье",
+            "sign": "После завершения программы вещи остаются влажными",
+            "causes": "Засор вентиляции, неисправность датчика влажности или снижение эффективности нагрева",
+            "slugs": [
+                "gorenje-ventilation-blockage",
+                "gorenje-moisture-sensor-failure",
+                "gorenje-heating-element-failure",
+                "gorenje-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Gorenje не вращается",
+            "sign": "Слышен гул двигателя, но барабан не крутится",
+            "causes": "Обрыв ремня, неисправность двигателя или износ роликов барабана",
+            "slugs": [
+                "gorenje-drive-belt-broken",
+                "gorenje-motor-failure",
+                "gorenje-drum-roller-wear",
+                "gorenje-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Gorenje останавливается во время работы",
+            "sign": "Программа прерывается до завершения без видимой причины",
+            "causes": "Перегрев системы, неисправность датчиков или сбой электронной платы",
+            "slugs": [
+                "gorenje-thermal-fuse-blown",
+                "gorenje-control-board-malfunction",
+                "gorenje-temperature-sensor-defect",
+                "gorenje-motor-failure"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-overheating",
+            "title": "Сушильная машина Gorenje перегревается",
+            "sign": "Корпус становится чрезмерно горячим во время работы",
+            "causes": "Засор воздушных каналов, неисправность термостата или температурного датчика",
+            "slugs": [
+                "gorenje-ventilation-blockage",
+                "gorenje-thermostat-fault",
+                "gorenje-temperature-sensor-defect",
+                "gorenje-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-making-noise",
+            "title": "Сушильная машина Gorenje шумит",
+            "sign": "Во время работы слышны стуки, вибрация или скрежет",
+            "causes": "Износ подшипника, роликов барабана или повреждение вентилятора",
+            "slugs": [
+                "gorenje-drum-bearing-wear",
+                "gorenje-drum-roller-wear",
+                "gorenje-fan-motor-damage",
+                "gorenje-motor-failure"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-not-turning-on",
+            "title": "Сушильная машина Gorenje не включается",
+            "sign": "Индикаторы не загораются и прибор не реагирует",
+            "causes": "Повреждение кабеля питания, неисправность сетевого фильтра или электронной платы",
+            "slugs": [
+                "gorenje-power-cord-fault",
+                "gorenje-noise-filter-defect",
+                "gorenje-control-board-malfunction",
+                "gorenje-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-code",
+            "title": "Сушильная машина Gorenje показывает код ошибки",
+            "sign": "На дисплее отображается сообщение о неисправности",
+            "causes": "Некорректная работа датчиков, нагревательной системы или управляющего модуля",
+            "slugs": [
+                "gorenje-temperature-sensor-defect",
+                "gorenje-moisture-sensor-failure",
+                "gorenje-heating-element-failure",
+                "gorenje-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Gorenje не закрывается",
+            "sign": "Люк не фиксируется и программа не запускается",
+            "causes": "Поломка замка, износ петель или неисправность датчика двери",
+            "slugs": [
+                "gorenje-door-lock-failure",
+                "gorenje-door-hinge-damage",
+                "gorenje-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-burning-smell",
+            "title": "Сушильная машина Gorenje издает запах гари",
+            "sign": "Во время работы ощущается запах перегрева",
+            "causes": "Скопление ворса, перегрев нагревательного элемента или неисправность двигателя",
+            "slugs": [
+                "gorenje-ventilation-blockage",
+                "gorenje-heating-element-failure",
+                "gorenje-motor-failure",
+                "gorenje-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-tripping-breaker",
+            "title": "Сушильная машина Gorenje выбивает автомат",
+            "sign": "При включении срабатывает защита электросети",
+            "causes": "Короткое замыкание нагревателя, двигателя или сетевого фильтра",
+            "slugs": [
+                "gorenje-heating-element-short-circuit",
+                "gorenje-motor-short-circuit",
+                "gorenje-noise-filter-defect",
+                "gorenje-control-board-malfunction"
+            ]
+        },
+
+        
+        {
+            "slug": "gorenje-door-lock-failure",
+            "title": "Неисправность замка двери Gorenje",
+            "sign": "Люк не блокируется или не фиксируется при запуске программы",
+            "causes": "Сушильная машина не начинает цикл из-за отсутствия сигнала о закрытии двери",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-control-board-malfunction",
+            "title": "Неисправность модуля управления Gorenje",
+            "sign": "Программы работают некорректно или не запускаются",
+            "causes": "Сбой электронной платы приводит к нарушению работы устройства",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-user-interface-error",
+            "title": "Ошибка панели управления Gorenje",
+            "sign": "Кнопки не реагируют или отображается некорректная информация",
+            "causes": "Невозможно выбрать программу или изменить настройки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Gorenje",
+            "sign": "Отсутствует питание или видны повреждения провода",
+            "causes": "Прибор не включается из-за обрыва или короткого замыкания кабеля",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Gorenje",
+            "sign": "Воздух в барабане остается холодным во время работы",
+            "causes": "Белье не высыхает из-за отсутствия нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-thermal-fuse-blown",
+            "title": "Перегорел термопредохранитель Gorenje",
+            "sign": "Цепь питания размыкается при перегреве",
+            "causes": "Сушильная машина не запускается или останавливается во время цикла",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-temperature-sensor-defect",
+            "title": "Неисправность датчика температуры Gorenje",
+            "sign": "Некорректное определение температуры внутри машины",
+            "causes": "Перегрев или отсутствие нагрева из-за ошибочных показаний сенсора",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-ventilation-blockage",
+            "title": "Засор системы вентиляции Gorenje",
+            "sign": "Слабый поток воздуха и повышение температуры корпуса",
+            "causes": "Снижение эффективности сушки и риск перегрева",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-moisture-sensor-failure",
+            "title": "Неисправность датчика влажности Gorenje",
+            "sign": "Программа завершается слишком рано или слишком поздно",
+            "causes": "Некорректное определение уровня влажности белья",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fan-motor-damage",
+            "title": "Повреждение вентилятора Gorenje",
+            "sign": "Отсутствует нормальная циркуляция горячего воздуха",
+            "causes": "Нарушена эффективность сушки из-за слабого воздушного потока",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drive-belt-broken",
+            "title": "Обрыв приводного ремня Gorenje",
+            "sign": "Барабан не вращается при работающем двигателе",
+            "causes": "Передача вращения нарушена из-за повреждения ремня",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-motor-failure",
+            "title": "Неисправность двигателя Gorenje",
+            "sign": "Барабан не вращается или слышен гул без движения",
+            "causes": "Двигатель не обеспечивает стабильную работу барабана",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drum-roller-wear",
+            "title": "Износ роликов барабана Gorenje",
+            "sign": "Во время работы слышен стук или вибрация",
+            "causes": "Нестабильное вращение барабана из-за изношенных роликов",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Gorenje",
+            "sign": "Посторонние шумы и ослабление натяжения ремня",
+            "causes": "Нарушена работа механизма передачи вращения",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-thermostat-fault",
+            "title": "Неисправность термостата Gorenje",
+            "sign": "Температура не регулируется корректно",
+            "causes": "Перегрев или отсутствие нормального нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drum-bearing-wear",
+            "title": "Износ подшипника барабана Gorenje",
+            "sign": "Металлический скрежет при вращении барабана",
+            "causes": "Повышенный шум и сопротивление при работе",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Gorenje",
+            "sign": "Прибор не включается или выбивает автомат",
+            "causes": "Повреждение фильтра вызывает сбои в подаче питания",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-hinge-damage",
+            "title": "Повреждение петель двери Gorenje",
+            "sign": "Дверца провисает или не закрывается плотно",
+            "causes": "Невозможно надежно зафиксировать люк для запуска программы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-switch-fault",
+            "title": "Неисправность датчика двери Gorenje",
+            "sign": "Машина не распознает закрытие люка",
+            "causes": "Цикл не запускается из-за отсутствия сигнала блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Gorenje",
+            "sign": "При включении срабатывает автоматический выключатель",
+            "causes": "Повреждение спирали вызывает перегрузку сети",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Gorenje",
+            "sign": "Срабатывает защита электросети при запуске",
+            "causes": "Повреждение обмотки двигателя вызывает перегрузку",
+            "slugs": []
+        }
+
+    ]
+}

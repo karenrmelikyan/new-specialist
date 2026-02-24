@@ -1,4 +1,5 @@
+Add references to reviewers
 Reconsider symantic core
-Rebuild all menu components according new data
+Rebuild mobile menu
 Complete the modal for ordering (it should send order to t.bot)
 Fix HeroBanner double <h1>tag issue

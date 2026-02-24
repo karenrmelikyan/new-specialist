@@ -1,41 +1,11 @@
 ---
-const content = 
-{
-    "title": "Все услуги",
-    "hrefText": "Подробнее →",
-    "items": [
-        {
-            "h": "Ремонт бытовых холодильников",
-            "p": "Не морозит, течёт, замена компрессора и ремонт электроники.",
-            "href": "#",
-            "src": "/assets/img/ref.webp"
-        },
-        {
-            "h": "Ремонт стиральных машин",
-            "p": "Не сливает, шумит, замена ТЭНа и ремонт модуля управления.",
-            "href": "#",
-            "src": "/assets/img/washer.webp"
-        },
-        {
-            "h": "Ремонт посудомоечных машин",
-            "p": "Плохо моет, не греет воду, течи и ремонт насосов.",
-            "href": "#",
-            "src": "/assets/img/dishwasher.webp"
-        },
-        {
-            "h": "Ремонт сушильных машин",
-            "p": "Не сушит, нет нагрева, ошибки датчиков и ремонт модуля.",
-            "href": "#",
-            "src": "/assets/img/dryer.webp"
-        }
-    ]
-}
+const { content } = Astro.props
 ---
 
 <section class="services">
     <h2>{content.title}</h2>
     <div class="services-grid">
-        {content.items.map((item) => (
+        {content.items.map((item: { h: string; p: string; href: string; src: string }) => (
             <article class="service-card">
                 <a href={item.href}>
                     <img id="image"

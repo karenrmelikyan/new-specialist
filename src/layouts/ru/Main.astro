@@ -96,7 +96,16 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 />
                 <div class="offset"></div>
                 <div class="offset"></div>
-                <ServicesGrid />
+                <ServicesGrid content= {{
+                    title: "Все услуги",
+                    hrefText: "Подробнее →",
+                    items: [
+                        { h: "Ремонт холодильников", p: "Не морозит, течёт, замена компрессора.", href: "#", src: "/assets/img/ref.webp" },
+                        { h: "Ремонт стиральных машин", p: "Не сливает, шумит, замена ТЭНа.", href: "#", src: "/assets/img/washer.webp" },
+                        { h: "Ремонт посудомоек", p: "Плохо моет, не греет воду, течи.", href: "#", src: "/assets/img/dishwasher.webp" },
+                        { h: "Ремонт сушилок", p: "Не сушит, нет нагрева, ошибки датчиков.", href: "#", src: "/assets/img/dryer.webp" }
+                    ]}} 
+                />
                 <div class="offset"></div>
                 <div class="offset"></div>
                 <div class="offset"></div>
@@ -110,7 +119,19 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 />
                 <div class="offset"></div>
                 <div class="offset"></div>
-                <Benefits />
+                <Benefits content = {{
+                    title: "Наши преимущества",
+                    items: [
+                        { h: "Профессиональные мастера", p: "Сертифицированные инженеры, с опытом от 10 лет." },
+                        { h: "Быстрый выезд", p: "Приезжаем в день обращения или по удобному времени." },
+                        { h: "Гарантия", p: "Официальная гарантия до 12 месяцев." },
+                        { h: "Оригинальные запчасти", p: "Склады и быстрая доставка по Еревану." },
+                        { h: "Диагностика на дому", p: "Без вывоза техники, экономия времени и удобство для клиента." },
+                        { h: "Честная смета", p: "Фиксированные цены без скрытых доплат и навязывания услуг." },
+                        { h: "Прозрачные сроки", p: "Сразу сообщаем, сколько займёт работа и когда будет готово." },
+                        { h: "Удобная оплата", p: "Наличные, карта, оплатa через сайт." }
+                    ]}} 
+                />
                 <div class="offset"></div>
                 <div class="offset"></div>
                 <div class="offset"></div>
@@ -124,7 +145,10 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 />
                 <div class="offset"></div>
                 <div class="offset"></div>
-                <Reviews ENV={ENV}, localization='ru' />
+                <Reviews 
+                    ENV={ENV}, 
+                    localization='ru' 
+                />
                 <div class="offset"></div>
                 <div class="offset"></div>
                 <div class="offset"></div>

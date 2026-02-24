@@ -1,0 +1,304 @@
+{
+    "indexPageTitle": "Ремонт сушильных машин Samsung",
+    "title": "Частые поломки сушильных машин Samsung",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/samsung/",
+
+    "items": [
+        {
+            "slug": "samsung-dryer-not-starting",
+            "title": "Сушильная машина Samsung не запускается",
+            "sign": "После нажатия кнопки запуска дисплей активен, но цикл не начинается",
+            "causes": "Неисправность блокировки люка, сбой интерфейса управления или внутренний дефект электронной платы",
+            "slugs": [
+                "samsung-door-lock-failure",
+                "samsung-control-board-malfunction",
+                "samsung-user-interface-error",
+                "samsung-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-not-heating",
+            "title": "Сушильная машина Samsung не вырабатывает тепло",
+            "sign": "Барабан вращается, но поток воздуха остается холодным",
+            "causes": "Повреждение нагревательного модуля, срабатывание термозащиты или сбой температурного датчика",
+            "slugs": [
+                "samsung-heating-element-failure",
+                "samsung-thermal-fuse-blown",
+                "samsung-temperature-sensor-defect",
+                "samsung-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-not-drying-properly",
+            "title": "Сушильная машина Samsung сушит неэффективно",
+            "sign": "После завершения программы одежда остается сырой или влажной на ощупь",
+            "causes": "Нарушение циркуляции воздуха, загрязнение воздуховодов или некорректная работа датчика влажности",
+            "slugs": [
+                "samsung-ventilation-blockage",
+                "samsung-moisture-sensor-failure",
+                "samsung-heating-element-failure",
+                "samsung-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Samsung не вращается",
+            "sign": "Слышен звук двигателя, но барабан остается неподвижным",
+            "causes": "Разрыв приводного ремня, износ натяжного механизма или неисправность электродвигателя",
+            "slugs": [
+                "samsung-drive-belt-broken",
+                "samsung-motor-failure",
+                "samsung-drum-roller-wear",
+                "samsung-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Samsung прерывает цикл",
+            "sign": "Программа внезапно останавливается до окончания таймера",
+            "causes": "Перегрев системы, некорректные показания сенсоров или сбой логики управления",
+            "slugs": [
+                "samsung-thermal-fuse-blown",
+                "samsung-control-board-malfunction",
+                "samsung-temperature-sensor-defect",
+                "samsung-motor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-overheating",
+            "title": "Сушильная машина Samsung перегревается",
+            "sign": "Корпус и задняя панель становятся чрезмерно горячими",
+            "causes": "Засор фильтров и каналов отвода воздуха, неисправность термостата или датчика температуры",
+            "slugs": [
+                "samsung-ventilation-blockage",
+                "samsung-thermostat-fault",
+                "samsung-temperature-sensor-defect",
+                "samsung-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-making-noise",
+            "title": "Сушильная машина Samsung издает посторонний шум",
+            "sign": "Во время работы слышны вибрации, скрип или металлический треск",
+            "causes": "Износ подшипников барабана, повреждение роликов или дисбаланс вентилятора",
+            "slugs": [
+                "samsung-drum-bearing-wear",
+                "samsung-drum-roller-wear",
+                "samsung-fan-motor-damage",
+                "samsung-motor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-not-turning-on",
+            "title": "Сушильная машина Samsung не включается",
+            "sign": "Панель индикации полностью неактивна",
+            "causes": "Повреждение сетевого шнура, выход из строя фильтра помех или отказ блока питания",
+            "slugs": [
+                "samsung-power-cord-fault",
+                "samsung-noise-filter-defect",
+                "samsung-control-board-malfunction",
+                "samsung-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-code",
+            "title": "Сушильная машина Samsung отображает код ошибки",
+            "sign": "На дисплее появляется буквенно-цифровое сообщение",
+            "causes": "Сбой сенсорной системы, неисправность нагревательного узла или электронного контроллера",
+            "slugs": [
+                "samsung-temperature-sensor-defect",
+                "samsung-moisture-sensor-failure",
+                "samsung-heating-element-failure",
+                "samsung-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Samsung не фиксируется",
+            "sign": "Люк не защелкивается и запуск программы невозможен",
+            "causes": "Поломка механизма блокировки, деформация петель или неисправность датчика двери",
+            "slugs": [
+                "samsung-door-lock-failure",
+                "samsung-door-hinge-damage",
+                "samsung-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-burning-smell",
+            "title": "Сушильная машина Samsung издает запах перегрева",
+            "sign": "Во время цикла ощущается запах плавления или нагретой пыли",
+            "causes": "Скопление ворса внутри корпуса, перегрев ТЭНа или повреждение проводки",
+            "slugs": [
+                "samsung-ventilation-blockage",
+                "samsung-heating-element-failure",
+                "samsung-motor-failure",
+                "samsung-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-tripping-breaker",
+            "title": "Сушильная машина Samsung выбивает автомат",
+            "sign": "При запуске срабатывает автоматический выключатель",
+            "causes": "Короткое замыкание нагревательного элемента, двигателя или сетевого фильтра",
+            "slugs": [
+                "samsung-heating-element-short-circuit",
+                "samsung-motor-short-circuit",
+                "samsung-noise-filter-defect",
+                "samsung-control-board-malfunction"
+            ]
+        },
+        
+        {
+            "slug": "samsung-door-lock-failure",
+            "title": "Неисправность замка двери Samsung",
+            "sign": "Люк не блокируется или не фиксируется при запуске программы",
+            "causes": "Система безопасности не позволяет начать цикл из-за отсутствия сигнала о закрытии двери",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-control-board-malfunction",
+            "title": "Неисправность модуля управления Samsung",
+            "sign": "Программы работают нестабильно или не запускаются",
+            "causes": "Сбой электронной платы нарушает логику работы сушильной машины",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-user-interface-error",
+            "title": "Ошибка панели управления Samsung",
+            "sign": "Кнопки не реагируют или сенсорная панель работает некорректно",
+            "causes": "Невозможно выбрать режим или изменить параметры программы",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Samsung",
+            "sign": "Отсутствует питание или заметны внешние повреждения шнура",
+            "causes": "Прибор не включается из-за обрыва или короткого замыкания провода",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Samsung",
+            "sign": "Воздух в барабане остается холодным во время работы",
+            "causes": "Белье не высыхает из-за отсутствия выработки тепла",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-thermal-fuse-blown",
+            "title": "Перегорел термопредохранитель Samsung",
+            "sign": "Цепь питания размыкается после перегрева",
+            "causes": "Сушильная машина не запускается или внезапно прекращает работу",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-defect",
+            "title": "Неисправность датчика температуры Samsung",
+            "sign": "Температура внутри камеры определяется некорректно",
+            "causes": "Перегрев или отсутствие нагрева из-за ошибочных показаний сенсора",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-ventilation-blockage",
+            "title": "Засор вентиляционной системы Samsung",
+            "sign": "Слабый поток воздуха и повышенная температура корпуса",
+            "causes": "Нарушена циркуляция воздуха, что снижает эффективность сушки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-moisture-sensor-failure",
+            "title": "Неисправность датчика влажности Samsung",
+            "sign": "Программа завершается преждевременно или работает слишком долго",
+            "causes": "Система неправильно определяет уровень остаточной влаги",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fan-motor-damage",
+            "title": "Повреждение вентилятора Samsung",
+            "sign": "Отсутствует нормальная циркуляция горячего воздуха",
+            "causes": "Эффективность сушки снижается из-за неисправности вентиляционного узла",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drive-belt-broken",
+            "title": "Обрыв приводного ремня Samsung",
+            "sign": "Барабан не вращается при работающем двигателе",
+            "causes": "Передача крутящего момента нарушена из-за повреждения ремня",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-motor-failure",
+            "title": "Неисправность двигателя Samsung",
+            "sign": "Барабан не вращается или слышен гул без движения",
+            "causes": "Электродвигатель не обеспечивает стабильную работу механизма",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drum-roller-wear",
+            "title": "Износ роликов барабана Samsung",
+            "sign": "Во время вращения слышны стуки или вибрация",
+            "causes": "Опорные элементы изношены и не поддерживают барабан должным образом",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Samsung",
+            "sign": "Посторонние шумы и ослабление ремня",
+            "causes": "Нарушено натяжение приводного механизма",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-thermostat-fault",
+            "title": "Неисправность термостата Samsung",
+            "sign": "Температурный режим не поддерживается стабильно",
+            "causes": "Перегрев или отсутствие корректной регулировки нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drum-bearing-wear",
+            "title": "Износ подшипника барабана Samsung",
+            "sign": "Металлический скрежет или гул при вращении",
+            "causes": "Повышенное трение и шум из-за изношенного подшипника",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Samsung",
+            "sign": "Прибор не включается или выбивает автомат",
+            "causes": "Повреждение фильтра помех вызывает сбои подачи питания",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-hinge-damage",
+            "title": "Повреждение петель двери Samsung",
+            "sign": "Дверца провисает или закрывается неплотно",
+            "causes": "Люк не фиксируется корректно для безопасного запуска",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-switch-fault",
+            "title": "Неисправность датчика двери Samsung",
+            "sign": "Машина не распознает закрытие люка",
+            "causes": "Цикл не начинается из-за отсутствия сигнала блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Samsung",
+            "sign": "При включении срабатывает автомат защиты",
+            "causes": "Повреждение нагревательной спирали вызывает перегрузку сети",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Samsung",
+            "sign": "Срабатывает автоматический выключатель при запуске",
+            "causes": "Повреждение обмотки двигателя приводит к электрической перегрузке",
+            "slugs": []
+        }
+
+    ]
+}

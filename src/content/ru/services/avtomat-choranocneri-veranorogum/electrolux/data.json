@@ -1,0 +1,304 @@
+{
+    "indexPageTitle": "Ремонт сушильных машин Electrolux",
+    "title": "Частые поломки сушильных машин Electrolux",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/electrolux/",
+
+    "items": [
+        {
+            "slug": "electrolux-dryer-not-starting",
+            "title": "Сушильная машина Electrolux не запускается",
+            "sign": "После нажатия кнопки старта программа не активируется и барабан остается неподвижным",
+            "causes": "Неисправность устройства блокировки люка, сбой панели управления или отсутствие электропитания",
+            "slugs": [
+                "electrolux-door-lock-failure",
+                "electrolux-control-board-malfunction",
+                "electrolux-user-interface-error",
+                "electrolux-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-not-heating",
+            "title": "Сушильная машина Electrolux не нагревает",
+            "sign": "Во время цикла белье остается холодным и не высыхает полностью",
+            "causes": "Поломка нагревательного элемента, перегоревший термопредохранитель или неисправность температурного датчика",
+            "slugs": [
+                "electrolux-heating-element-failure",
+                "electrolux-thermal-fuse-blown",
+                "electrolux-temperature-sensor-defect",
+                "electrolux-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-not-drying-properly",
+            "title": "Сушильная машина Electrolux плохо сушит белье",
+            "sign": "После завершения программы вещи остаются влажными или требуют дополнительного цикла",
+            "causes": "Нарушение циркуляции воздуха, неисправность датчика влажности или снижение эффективности нагрева",
+            "slugs": [
+                "electrolux-ventilation-blockage",
+                "electrolux-moisture-sensor-failure",
+                "electrolux-heating-element-failure",
+                "electrolux-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Electrolux не вращается",
+            "sign": "Мотор издает звук, но барабан не крутится",
+            "causes": "Обрыв приводного ремня, неисправность двигателя или износ опорных элементов",
+            "slugs": [
+                "electrolux-drive-belt-broken",
+                "electrolux-motor-failure",
+                "electrolux-drum-roller-wear",
+                "electrolux-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Electrolux останавливается во время работы",
+            "sign": "Цикл прерывается до завершения без отображения явной причины",
+            "causes": "Перегрев системы, сбой датчиков или неисправность управляющего модуля",
+            "slugs": [
+                "electrolux-thermal-fuse-blown",
+                "electrolux-control-board-malfunction",
+                "electrolux-temperature-sensor-defect",
+                "electrolux-motor-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-overheating",
+            "title": "Сушильная машина Electrolux перегревается",
+            "sign": "Корпус становится слишком горячим, возможна аварийная остановка",
+            "causes": "Засор воздушных каналов, неисправность термостата или неправильная работа датчика температуры",
+            "slugs": [
+                "electrolux-ventilation-blockage",
+                "electrolux-thermostat-fault",
+                "electrolux-temperature-sensor-defect",
+                "electrolux-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-making-noise",
+            "title": "Сушильная машина Electrolux шумит при сушке",
+            "sign": "Во время вращения слышны стуки, вибрация или металлический скрежет",
+            "causes": "Износ подшипников, роликов барабана или повреждение вентилятора",
+            "slugs": [
+                "electrolux-drum-bearing-wear",
+                "electrolux-drum-roller-wear",
+                "electrolux-fan-motor-damage",
+                "electrolux-motor-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-not-turning-on",
+            "title": "Сушильная машина Electrolux не включается",
+            "sign": "Индикаторы не загораются, прибор полностью не реагирует",
+            "causes": "Повреждение сетевого кабеля, неисправность фильтра помех или выход из строя электронной платы",
+            "slugs": [
+                "electrolux-power-cord-fault",
+                "electrolux-noise-filter-defect",
+                "electrolux-control-board-malfunction",
+                "electrolux-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-code",
+            "title": "Сушильная машина Electrolux показывает код ошибки",
+            "sign": "На дисплее появляется сообщение о неисправности",
+            "causes": "Некорректная работа сенсоров, нагревательной системы или блока управления",
+            "slugs": [
+                "electrolux-temperature-sensor-defect",
+                "electrolux-moisture-sensor-failure",
+                "electrolux-heating-element-failure",
+                "electrolux-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Electrolux не закрывается",
+            "sign": "Люк не фиксируется и программа не запускается",
+            "causes": "Поломка замка, износ петель или неисправность датчика двери",
+            "slugs": [
+                "electrolux-door-lock-failure",
+                "electrolux-door-hinge-damage",
+                "electrolux-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-burning-smell",
+            "title": "Сушильная машина Electrolux издает запах гари",
+            "sign": "Во время работы ощущается запах перегрева или плавления деталей",
+            "causes": "Скопление ворса, перегрев нагревательного элемента или повреждение проводки",
+            "slugs": [
+                "electrolux-ventilation-blockage",
+                "electrolux-heating-element-failure",
+                "electrolux-motor-failure",
+                "electrolux-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-tripping-breaker",
+            "title": "Сушильная машина Electrolux выбивает автомат",
+            "sign": "При запуске срабатывает электрическая защита",
+            "causes": "Короткое замыкание нагревателя, двигателя или сетевого фильтра",
+            "slugs": [
+                "electrolux-heating-element-short-circuit",
+                "electrolux-motor-short-circuit",
+                "electrolux-noise-filter-defect",
+                "electrolux-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "electrolux-door-lock-failure",
+            "title": "Неисправность замка двери Electrolux",
+            "sign": "Люк не блокируется или не фиксируется при запуске программы",
+            "causes": "Сушильная машина не начинает цикл из-за отсутствия сигнала о закрытии двери",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-control-board-malfunction",
+            "title": "Неисправность модуля управления Electrolux",
+            "sign": "Программы работают некорректно или не запускаются",
+            "causes": "Сбой электронной платы приводит к отказу управления основными функциями",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-user-interface-error",
+            "title": "Ошибка панели управления Electrolux",
+            "sign": "Кнопки не реагируют или отображаются некорректные данные",
+            "causes": "Невозможно выбрать режим или запустить программу",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Electrolux",
+            "sign": "Отсутствует питание или заметны повреждения шнура",
+            "causes": "Прибор не включается из-за обрыва или короткого замыкания кабеля",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Electrolux",
+            "sign": "Воздух внутри барабана остается холодным",
+            "causes": "Сушка проходит без нагрева и белье остается влажным",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-thermal-fuse-blown",
+            "title": "Перегорел термопредохранитель Electrolux",
+            "sign": "Цепь питания разомкнута после перегрева",
+            "causes": "Сушильная машина не запускается или внезапно останавливается",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-temperature-sensor-defect",
+            "title": "Неисправность датчика температуры Electrolux",
+            "sign": "Некорректные показатели температуры во время работы",
+            "causes": "Перегрев или отсутствие нагрева из-за неправильных данных сенсора",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ventilation-blockage",
+            "title": "Засор системы вентиляции Electrolux",
+            "sign": "Нарушена циркуляция воздуха внутри сушильной машины",
+            "causes": "Белье плохо сушится или происходит перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-moisture-sensor-failure",
+            "title": "Неисправность датчика влажности Electrolux",
+            "sign": "Сушка завершается слишком рано или длится слишком долго",
+            "causes": "Неверное определение уровня влажности белья",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fan-motor-damage",
+            "title": "Повреждение вентилятора Electrolux",
+            "sign": "Отсутствует нормальный поток воздуха внутри машины",
+            "causes": "Нарушена циркуляция горячего воздуха и эффективность сушки снижена",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drive-belt-broken",
+            "title": "Обрыв приводного ремня Electrolux",
+            "sign": "Барабан не вращается при работающем двигателе",
+            "causes": "Сушка невозможна из-за отсутствия передачи вращения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-motor-failure",
+            "title": "Неисправность двигателя Electrolux",
+            "sign": "Барабан не вращается или слышен гул без движения",
+            "causes": "Двигатель не обеспечивает вращение барабана",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drum-roller-wear",
+            "title": "Износ роликов барабана Electrolux",
+            "sign": "Во время работы слышен стук или вибрация",
+            "causes": "Барабан вращается нестабильно из-за изношенных опорных элементов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Electrolux",
+            "sign": "Посторонние шумы и ослабление ремня",
+            "causes": "Нарушено натяжение приводного ремня",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-thermostat-fault",
+            "title": "Неисправность термостата Electrolux",
+            "sign": "Температура не регулируется должным образом",
+            "causes": "Перегрев или отсутствие корректного нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drum-bearing-wear",
+            "title": "Износ подшипника барабана Electrolux",
+            "sign": "Металлический скрежет при вращении",
+            "causes": "Барабан вращается с повышенным шумом и сопротивлением",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Electrolux",
+            "sign": "Прибор не включается или выбивает автомат",
+            "causes": "Повреждение фильтра помех приводит к сбоям питания",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-hinge-damage",
+            "title": "Повреждение петель двери Electrolux",
+            "sign": "Дверца провисает или не закрывается плотно",
+            "causes": "Невозможно зафиксировать люк для запуска программы",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-switch-fault",
+            "title": "Неисправность датчика двери Electrolux",
+            "sign": "Машина не определяет закрытие люка",
+            "causes": "Цикл не запускается из-за отсутствия сигнала блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Electrolux",
+            "sign": "Срабатывает автомат защиты при включении",
+            "causes": "Повреждение спирали вызывает перегрузку сети",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Electrolux",
+            "sign": "При запуске выбивает автоматический выключатель",
+            "causes": "Повреждение обмотки двигателя приводит к перегрузке",
+            "slugs": []
+        }
+
+    ]
+}

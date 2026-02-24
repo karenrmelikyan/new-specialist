@@ -50,6 +50,21 @@ import dishwasherIssuesWhirlpoolRu from '../content/ru/services/spasq-lvacox-meq
 import dishwasherIssuesAristonRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/ariston/data.json'
 import dishwasherIssuesCandyRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/candy/data.json'
 
+// Dryers
+import dryerIssuesRu from '../content/ru/services/avtomat-choranocneri-veranorogum/data.json'
+import dryerIssuesHisenseRu from '../content/ru/services/avtomat-choranocneri-veranorogum/hisense/data.json'
+import dryerIssuesIndesitRu from '../content/ru/services/avtomat-choranocneri-veranorogum/indesit/data.json'
+import dryerIssuesAegRu from '../content/ru/services/avtomat-choranocneri-veranorogum/aeg/data.json'
+import dryerIssuesSamsungRu from '../content/ru/services/avtomat-choranocneri-veranorogum/samsung/data.json'
+import dryerIssuesLgRu from '../content/ru/services/avtomat-choranocneri-veranorogum/lg/data.json'
+import dryerIssuesMieleRu from '../content/ru/services/avtomat-choranocneri-veranorogum/miele/data.json'
+import dryerIssuesBoschRu from '../content/ru/services/avtomat-choranocneri-veranorogum/bosch/data.json'
+import dryerIssuesSharpRu from '../content/ru/services/avtomat-choranocneri-veranorogum/sharp/data.json'
+import dryerIssuesGorenjeRu from '../content/ru/services/avtomat-choranocneri-veranorogum/gorenje/data.json'
+import dryerIssuesElectroluxRu from '../content/ru/services/avtomat-choranocneri-veranorogum/electrolux/data.json'
+import dryerIssuesBekoRu from '../content/ru/services/avtomat-choranocneri-veranorogum/beko/data.json'
+import dryerIssuesWhirlpoolRu from '../content/ru/services/avtomat-choranocneri-veranorogum/whirlpool/data.json'
+
 var localization = ''
 
 // Define localization by URL
@@ -104,9 +119,25 @@ let dishwasherIssuesWhirlpool = dishwasherIssuesWhirlpoolRu
 let dishwasherIssuesAriston = dishwasherIssuesAristonRu
 let dishwasherIssuesCandy = dishwasherIssuesCandyRu
 
+// Dryers
+let dryerIssues = dryerIssuesRu
+let dryerIssuesHisense = dryerIssuesHisenseRu
+let dryerIssuesIndesit = dryerIssuesIndesitRu
+let dryerIssuesBeko = dryerIssuesBekoRu
+let dryerIssuesSamsung = dryerIssuesSamsungRu
+let dryerIssuesLg = dryerIssuesLgRu
+let dryerIssuesMiele = dryerIssuesMieleRu
+let dryerIssuesBosch = dryerIssuesBoschRu
+let dryerIssuesAeg = dryerIssuesAegRu
+let dryerIssuesGorenje = dryerIssuesGorenjeRu
+let dryerIssuesElectrolux = dryerIssuesElectroluxRu
+let dryerIssuesSharp = dryerIssuesSharpRu
+let dryerIssuesWhirlpool = dryerIssuesWhirlpoolRu
+
 const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.parentURL, 0, 12)
 const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.parentURL, 0, 12)
 const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwasherIssues.parentURL, 0, 12)
+const commonDryerIssues = getFilteredIssues(dryerIssues.items, dryerIssues.parentURL, 0, 12)
 ---
 
 <section class="mega" data-mega-menu>
@@ -303,24 +334,28 @@ const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwas
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
                         <ul>
-                            <li>Ремонт холодильников</li>
-                            <li>Ремонт холодильного оборудования</li>
-                            <li>Ремонт стиральных машин</li>
-                            <li>Ремонт электрических плит</li>
-                            <li>Ремонт газовых плит</li>
-                            <li>Ремонт телевизоров</li>
+                            <li><a href={dryerIssues.parentURL}>{dryerIssues.indexPageTitle}</a></li>
+                            {commonDryerIssues.map(issue => (
+                                <li><a href={issue.href}>{issue.title}</a></li>
+                            ))}
                         </ul>
                     </div>
 
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
-                            <li>Ремонт телевизоров</li>
-                            <li>Ремонт компьютеров</li>
-                            <li>Ремонт ноутбуков</li>
-                            <li>Ремонт моноблоков</li>
-                            <li>Ремонт планшетов</li>
-                            <li>Ремонт смартфонов</li>
+                            <li><a href={dryerIssuesLg.parentURL}>{dryerIssuesLg.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesIndesit.parentURL}>{dryerIssuesIndesit.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesHisense.parentURL}>{dryerIssuesHisense.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesSamsung.parentURL}>{dryerIssuesSamsung.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesBeko.parentURL}>{dryerIssuesBeko.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesBosch.parentURL}>{dryerIssuesBosch.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesAeg.parentURL}>{dryerIssuesAeg.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesGorenje.parentURL}>{dryerIssuesGorenje.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesElectrolux.parentURL}>{dryerIssuesElectrolux.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesMiele.parentURL}>{dryerIssuesMiele.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesWhirlpool.parentURL}>{dryerIssuesWhirlpool.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesSharp.parentURL}>{dryerIssuesSharp.indexPageTitle}</a></li>
                         </ul>
                     </div>
 

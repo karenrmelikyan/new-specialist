@@ -1,0 +1,305 @@
+{
+    "indexPageTitle": "Ремонт сушильных машин Hisense",
+    "title": "Частые поломки сушильных машин Hisense",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/hisense/",
+
+    "items": [
+        {
+            "slug": "hisense-dryer-not-starting",
+            "title": "Сушильная машина Hisense не запускается",
+            "sign": "После нажатия кнопки старт барабан остаётся неподвижным и индикаторы не горят",
+            "causes": "Проблемы с замком двери, неисправность панели управления или отсутствие подачи питания",
+            "slugs": [
+                "hisense-door-lock-failure",
+                "hisense-control-board-malfunction",
+                "hisense-user-interface-error",
+                "hisense-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-not-heating",
+            "title": "Сушильная машина Hisense не нагревает",
+            "sign": "Бельё остаётся холодным, сушка неэффективна",
+            "causes": "Поломка нагревательного элемента, сработавший термопредохранитель или неисправность датчика температуры",
+            "slugs": [
+                "hisense-heating-element-failure",
+                "hisense-thermal-fuse-blown",
+                "hisense-temperature-sensor-defect",
+                "hisense-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-not-drying-properly",
+            "title": "Сушильная машина Hisense плохо сушит бельё",
+            "sign": "После завершения программы вещи остаются влажными или требуют повторного цикла",
+            "causes": "Нарушение потока воздуха, сбой датчика влажности или снижение мощности нагрева",
+            "slugs": [
+                "hisense-ventilation-blockage",
+                "hisense-moisture-sensor-failure",
+                "hisense-heating-element-failure",
+                "hisense-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Hisense не вращается",
+            "sign": "Мотор шумит, но барабан остаётся неподвижным",
+            "causes": "Разрыв ремня привода, неисправность двигателя или износ роликов барабана",
+            "slugs": [
+                "hisense-drive-belt-broken",
+                "hisense-motor-failure",
+                "hisense-drum-roller-wear",
+                "hisense-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Hisense останавливается во время работы",
+            "sign": "Цикл неожиданно прерывается, индикаторы не показывают явную ошибку",
+            "causes": "Перегрев, сбой датчиков или неисправность блока управления",
+            "slugs": [
+                "hisense-thermal-fuse-blown",
+                "hisense-control-board-malfunction",
+                "hisense-temperature-sensor-defect",
+                "hisense-motor-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-overheating",
+            "title": "Сушильная машина Hisense перегревается",
+            "sign": "Корпус сильно нагревается, возможна аварийная остановка",
+            "causes": "Засор вентиляционных каналов, сбой термостата или неправильная работа датчика температуры",
+            "slugs": [
+                "hisense-ventilation-blockage",
+                "hisense-thermostat-fault",
+                "hisense-temperature-sensor-defect",
+                "hisense-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-making-noise",
+            "title": "Сушильная машина Hisense шумит при сушке",
+            "sign": "Слышны стуки, скрежет или вибрация во время работы",
+            "causes": "Износ подшипников, роликов барабана или повреждение вентилятора",
+            "slugs": [
+                "hisense-drum-bearing-wear",
+                "hisense-drum-roller-wear",
+                "hisense-fan-motor-damage",
+                "hisense-motor-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-not-turning-on",
+            "title": "Сушильная машина Hisense не включается",
+            "sign": "Индикаторы остаются погашенными, прибор полностью не реагирует",
+            "causes": "Повреждение сетевого кабеля, фильтра помех или сбой электронной платы",
+            "slugs": [
+                "hisense-power-cord-fault",
+                "hisense-noise-filter-defect",
+                "hisense-control-board-malfunction",
+                "hisense-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-error-code",
+            "title": "Сушильная машина Hisense показывает код ошибки",
+            "sign": "На дисплее отображается сообщение о неисправности",
+            "causes": "Некорректная работа датчиков, нагревательной системы или платы управления",
+            "slugs": [
+                "hisense-temperature-sensor-defect",
+                "hisense-moisture-sensor-failure",
+                "hisense-heating-element-failure",
+                "hisense-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Hisense не закрывается",
+            "sign": "Люк не фиксируется, запуск программы невозможен",
+            "causes": "Неисправность замка, износ петель или сбой датчика двери",
+            "slugs": [
+                "hisense-door-lock-failure",
+                "hisense-door-hinge-damage",
+                "hisense-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-burning-smell",
+            "title": "Сушильная машина Hisense издаёт запах гари",
+            "sign": "Во время работы ощущается запах перегрева или плавления деталей",
+            "causes": "Скопление ворса, перегрев нагревательного элемента или повреждение проводки",
+            "slugs": [
+                "hisense-ventilation-blockage",
+                "hisense-heating-element-failure",
+                "hisense-motor-failure",
+                "hisense-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "hisense-dryer-tripping-breaker",
+            "title": "Сушильная машина Hisense выбивает автомат",
+            "sign": "При запуске срабатывает защита электросети",
+            "causes": "Короткое замыкание нагревателя, двигателя или сетевого фильтра",
+            "slugs": [
+                "hisense-heating-element-short-circuit",
+                "hisense-motor-short-circuit",
+                "hisense-noise-filter-defect",
+                "hisense-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "hisense-door-lock-failure",
+            "title": "Неисправность замка двери Hisense",
+            "sign": "Люк не фиксируется при закрытии, индикаторы запуска не реагируют",
+            "causes": "Программа не стартует, блокировка безопасности препятствует работе",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-control-board-malfunction",
+            "title": "Сбой платы управления Hisense",
+            "sign": "Электронные компоненты работают нестабильно или зависают",
+            "causes": "Некорректное выполнение циклов, внезапные остановки работы",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-user-interface-error",
+            "title": "Ошибка панели управления Hisense",
+            "sign": "Кнопки и сенсорные элементы не реагируют или срабатывают с задержкой",
+            "causes": "Невозможно выбрать программу или активировать сушку",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Hisense",
+            "sign": "Обрыв жил или нарушение изоляции кабеля питания",
+            "causes": "Прибор не включается, индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-element-failure",
+            "title": "Поломка нагревательного элемента Hisense",
+            "sign": "Элемент не нагревает воздух в барабане",
+            "causes": "Сушка проходит холодной, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-thermal-fuse-blown",
+            "title": "Срабатывание термопредохранителя Hisense",
+            "sign": "Защитный элемент размыкает цепь при перегреве",
+            "causes": "Цикл останавливается, прибор не нагревается",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-temperature-sensor-defect",
+            "title": "Неисправность температурного датчика Hisense",
+            "sign": "Сенсор передаёт некорректные значения температуры",
+            "causes": "Сушка нестабильна, возможны преждевременные остановки",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-ventilation-blockage",
+            "title": "Засор вентиляционных каналов Hisense",
+            "sign": "Нарушена циркуляция горячего воздуха, возможен перегрев",
+            "causes": "Снижается эффективность сушки, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-moisture-sensor-failure",
+            "title": "Сбой датчика влажности Hisense",
+            "sign": "Неправильное определение уровня влажности в барабане",
+            "causes": "Цикл завершается слишком рано или бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-fan-motor-damage",
+            "title": "Поломка вентилятора Hisense",
+            "sign": "Вентилятор не прокачивает воздух через барабан",
+            "causes": "Сушка неэффективна, возможен перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drive-belt-broken",
+            "title": "Разрыв приводного ремня Hisense",
+            "sign": "Мотор вращается, но барабан остаётся неподвижным",
+            "causes": "Бельё не сушится, программа прерывается",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-motor-failure",
+            "title": "Неисправность мотора Hisense",
+            "sign": "Двигатель не вращает барабан или вращение нестабильно",
+            "causes": "Цикл сушки прерывается, появляются посторонние шумы",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drum-roller-wear",
+            "title": "Износ роликов барабана Hisense",
+            "sign": "Барабан вращается с трудом, слышны скрипы и стуки",
+            "causes": "Нарушена работа механизма, бельё сушится медленно",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Hisense",
+            "sign": "Ремень барабана ослаблен или проскальзывает",
+            "causes": "Барабан может не вращаться, цикл сушки нарушен",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drum-bearing-wear",
+            "title": "Износ подшипников барабана Hisense",
+            "sign": "Появляются вибрации и металлический скрежет при вращении",
+            "causes": "Работа двигателя затруднена, бельё сушится неравномерно",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Hisense",
+            "sign": "Фильтр помех повреждён из-за скачков напряжения",
+            "causes": "Машина может не включаться или выбивать автомат защиты",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревательного элемента Hisense",
+            "sign": "Повреждена изоляция ТЭНа, появляется утечка тока",
+            "causes": "Автомат защиты срабатывает при запуске",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-motor-short-circuit",
+            "title": "Короткое замыкание мотора Hisense",
+            "sign": "Повреждена обмотка двигателя, ток превышает допустимый",
+            "causes": "Электрическая защита срабатывает при старте цикла",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-hinge-damage",
+            "title": "Повреждение петель двери Hisense",
+            "sign": "Дверца перекошена или не удерживается при закрытии",
+            "causes": "Люк не фиксируется, программа не запускается",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-switch-fault",
+            "title": "Неисправность датчика двери Hisense",
+            "sign": "Сенсор не определяет положение люка",
+            "causes": "Запуск программы блокируется системой безопасности",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-thermostat-fault",
+            "title": "Сбой термостата Hisense",
+            "sign": "Элемент не регулирует температуру корректно",
+            "causes": "Может произойти перегрев или недосушка белья",
+            "slugs": []
+        }
+
+
+    ]
+}
