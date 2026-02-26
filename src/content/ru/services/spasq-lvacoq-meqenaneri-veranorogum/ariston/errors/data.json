@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин Ariston",
+    "title": "Частые коды ошибок посудомоечных машин Ariston",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/ariston/errors/",
+
+    "items": [
+        {
+            "slug": "ariston-dishwasher-error-al01",
+            "title": "Ошибка AL01 посудомоечной машины Ariston",
+            "sign": "Программа прерывается и на дисплее появляется AL01",
+            "causes": "Система защиты фиксирует наличие влаги в нижнем поддоне корпуса",
+            "slugs": [
+                "ariston-base-tray-water-detection",
+                "ariston-float-switch-engaged",
+                "ariston-internal-hydraulic-leak"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al02",
+            "title": "Ошибка AL02 посудомоечной машины Ariston",
+            "sign": "Машина не начинает мойку и отображает AL02",
+            "causes": "Контроллер не регистрирует корректный набор воды в установленный период",
+            "slugs": [
+                "ariston-inlet-solenoid-obstruction",
+                "ariston-water-pressure-deficiency",
+                "ariston-fill-valve-coil-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al03",
+            "title": "Ошибка AL03 посудомоечной машины Ariston",
+            "sign": "Вода остаётся в камере после завершения цикла и выводится AL03",
+            "causes": "Отвод жидкости осуществляется некорректно либо полностью блокируется",
+            "slugs": [
+                "ariston-drain-pump-jam",
+                "ariston-discharge-hose-blockage",
+                "ariston-filter-assembly-clogged"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al04",
+            "title": "Ошибка AL04 посудомоечной машины Ariston",
+            "sign": "Мойка останавливается во время нагрева с кодом AL04",
+            "causes": "Температурный контроль обнаруживает отклонение от заданных параметров",
+            "slugs": [
+                "ariston-heating-element-burnout",
+                "ariston-thermal-sensor-inaccuracy",
+                "ariston-heater-relay-malfunction"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al05",
+            "title": "Ошибка AL05 посудомоечной машины Ariston",
+            "sign": "Циркуляция воды отсутствует, отображается AL05",
+            "causes": "Система не фиксирует нормальную работу насосного узла",
+            "slugs": [
+                "ariston-circulation-motor-seizure",
+                "ariston-impeller-damage",
+                "ariston-motor-control-board-defect"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al06",
+            "title": "Ошибка AL06 посудомоечной машины Ariston",
+            "sign": "На дисплее появляется AL06 без начала программы",
+            "causes": "Датчик уровня передаёт некорректные сигналы в электронный модуль",
+            "slugs": [
+                "ariston-pressure-switch-failure",
+                "ariston-air-trap-contamination",
+                "ariston-level-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al07",
+            "title": "Ошибка AL07 посудомоечной машины Ariston",
+            "sign": "Устройство зависает и показывает AL07",
+            "causes": "Нарушена связь между пользовательским интерфейсом и основной платой",
+            "slugs": [
+                "ariston-ui-board-malfunction",
+                "ariston-ribbon-cable-disconnection",
+                "ariston-communication-bus-error"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al08",
+            "title": "Ошибка AL08 посудомоечной машины Ariston",
+            "sign": "Машина запускается, но цикл выполняется некорректно и фиксируется AL08",
+            "causes": "Сенсор мутности воды формирует искажённые показатели",
+            "slugs": [
+                "ariston-turbidity-sensor-contamination",
+                "ariston-optical-module-failure",
+                "ariston-water-clarity-detection-fault"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al09",
+            "title": "Ошибка AL09 посудомоечной машины Ariston",
+            "sign": "После включения сразу отображается AL09",
+            "causes": "Обнаружена внутренняя ошибка памяти управляющего контроллера",
+            "slugs": [
+                "ariston-eeprom-corruption",
+                "ariston-firmware-instability",
+                "ariston-configuration-data-loss"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al10",
+            "title": "Ошибка AL10 посудомоечной машины Ariston",
+            "sign": "Нагрев воды не происходит и выводится AL10",
+            "causes": "Электрическая цепь нагревательного узла разомкнута",
+            "slugs": [
+                "ariston-heater-circuit-interruption",
+                "ariston-ntc-sensor-out-of-range",
+                "ariston-thermal-fuse-open"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al11",
+            "title": "Ошибка AL11 посудомоечной машины Ariston",
+            "sign": "Двигатель не запускается, код AL11 остаётся на дисплее",
+            "causes": "Контроллер не получает корректную обратную связь от тахогенератора",
+            "slugs": [
+                "ariston-tacho-coil-damage",
+                "ariston-rotor-magnet-displacement",
+                "ariston-speed-feedback-circuit-defect"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al12",
+            "title": "Ошибка AL12 посудомоечной машины Ariston",
+            "sign": "Аппарат не реагирует на команды и отображает AL12",
+            "causes": "Зафиксировано критическое повреждение силовой части электронной платы",
+            "slugs": [
+                "ariston-main-board-short-circuit",
+                "ariston-power-module-breakdown",
+                "ariston-voltage-regulation-failure"
+            ]
+        },
+
+        {
+            "slug": "ariston-base-tray-water-detection",
+            "title": "Обнаружение влаги в поддоне Ariston",
+            "sign": "Срабатывает аварийная защита и мойка останавливается",
+            "causes": "Накопление жидкости в нижнем отсеке корпуса из-за утечки или конденсата",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-float-switch-engaged",
+            "title": "Срабатывание поплавкового выключателя Ariston",
+            "sign": "Аппарат прекращает цикл без предупреждения",
+            "causes": "Поплавковый датчик поднимается в результате попадания воды в базовый отсек",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-internal-hydraulic-leak",
+            "title": "Протечка внутреннего гидравлического узла Ariston",
+            "sign": "Под машиной появляется жидкость",
+            "causes": "Соединительные шланги или уплотнители теряют герметичность из-за старения материала",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-inlet-solenoid-obstruction",
+            "title": "Засор электромагнитного впускного клапана Ariston",
+            "sign": "Вода медленно набирается или отсутствует подача",
+            "causes": "Микрочастицы или известковый налёт блокируют сетчатый фильтр клапана",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-pressure-deficiency",
+            "title": "Недостаточный напор воды Ariston",
+            "sign": "Заполнение бака занимает слишком много времени",
+            "causes": "Давление в водопроводной системе ниже минимально допустимого для работы устройства",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-fill-valve-coil-failure",
+            "title": "Неисправность катушки впускного клапана Ariston",
+            "sign": "Клапан не открывается по команде контроллера",
+            "causes": "Заклинившая или повреждённая катушка препятствует подаче воды",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-jam",
+            "title": "Заклинивание сливного насоса Ariston",
+            "sign": "Жидкость не удаляется из камеры",
+            "causes": "Мусор, мелкие предметы или известковые отложения блокируют лопасти насоса",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-discharge-hose-blockage",
+            "title": "Засор сливного шланга Ariston",
+            "sign": "Слив воды затруднён или отсутствует",
+            "causes": "Перегибы, засоры или отложения препятствуют нормальному оттоку жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-filter-assembly-clogged",
+            "title": "Засор фильтрующего блока Ariston",
+            "sign": "На дне камеры скапливаются остатки пищи",
+            "causes": "Фильтр забит мелкими частицами, препятствующими циркуляции воды",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-burnout",
+            "title": "Перегорание нагревательного элемента Ariston",
+            "sign": "Вода не нагревается до заданной температуры",
+            "causes": "Спираль термоэлемента утрачивает проводимость из-за перегрева или старения",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-thermal-sensor-inaccuracy",
+            "title": "Неточные показания термодатчика Ariston",
+            "sign": "Цикл нагрева завершается преждевременно или перегревается",
+            "causes": "Датчик передаёт отклонённые значения в модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heater-relay-malfunction",
+            "title": "Сбой реле нагревательного элемента Ariston",
+            "sign": "Элемент не включается при запуске программы",
+            "causes": "Заклинивший или повреждённый переключатель реле нарушает подачу тока",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-motor-seizure",
+            "title": "Заклинивание циркуляционного мотора Ariston",
+            "sign": "Распылительные коромысла не вращаются",
+            "causes": "Механические повреждения ротора или износ подшипников препятствуют вращению",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-impeller-damage",
+            "title": "Повреждение крыльчатки насоса Ariston",
+            "sign": "Циркуляция воды нарушена, давление падает",
+            "causes": "Лопасти треснули или изношены, снижая эффективность насоса",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-motor-control-board-defect",
+            "title": "Неисправность платы управления мотором Ariston",
+            "sign": "Скорость двигателя регулируется нестабильно",
+            "causes": "Электронная схема управления получает искажённые сигналы или выходит из строя",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-switch-failure",
+            "title": "Сбой реле давления Ariston",
+            "sign": "Уровень воды определяется неправильно",
+            "causes": "Элемент контроля уровня не формирует корректный сигнал в модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-air-trap-contamination",
+            "title": "Засор воздушного затвора Ariston",
+            "sign": "Набор воды или слив нарушен",
+            "causes": "Канал гидростата забит посторонними частицами или известковыми отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-level-sensor-wiring-issue",
+            "title": "Проблемы проводки датчика уровня Ariston",
+            "sign": "Сигнал о количестве воды нестабилен",
+            "causes": "Ослабленный контакт или повреждённый провод препятствует корректной передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ui-board-malfunction",
+            "title": "Сбой платы интерфейса пользователя Ariston",
+            "sign": "Кнопки и сенсор не реагируют на нажатия",
+            "causes": "Электронный контроллер панели не передаёт команды основной плате",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ribbon-cable-disconnection",
+            "title": "Отсоединение шлейфа интерфейса Ariston",
+            "sign": "Дисплей мигает или отображает некорректные символы",
+            "causes": "Шлейф потерял контакт или повреждён, нарушая передачу сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-communication-bus-error",
+            "title": "Ошибка шины связи между платами Ariston",
+            "sign": "Модули не синхронизируются, возникают сбои работы",
+            "causes": "Повреждение линии передачи данных приводит к задержкам и сбоям управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности воды Ariston",
+            "sign": "Цикл мойки выполняется неправильно",
+            "causes": "Ворс или остатки пищи на сенсоре искажают показатели мутности",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-optical-module-failure",
+            "title": "Сбой оптического модуля Ariston",
+            "sign": "Контроль прозрачности воды некорректен",
+            "causes": "Электронный элемент модуля передаёт искажённый сигнал в систему управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-clarity-detection-fault",
+            "title": "Ошибка контроля прозрачности воды Ariston",
+            "sign": "Машина завершает цикл с перебоями",
+            "causes": "Система контроля мутности воды получает неверные данные от датчиков",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-eeprom-corruption",
+            "title": "Повреждение памяти EEPROM Ariston",
+            "sign": "Программы запускаются с ошибками или зависают",
+            "causes": "Сбой микросхемы памяти нарушает последовательность выполнения команд",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-firmware-instability",
+            "title": "Нестабильность прошивки Ariston",
+            "sign": "Функции работают некорректно, цикл прерывается",
+            "causes": "Системное ПО содержит ошибки или повреждено во время обновления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-configuration-data-loss",
+            "title": "Потеря конфигурационных данных Ariston",
+            "sign": "Режимы мойки выполняются с нарушениями",
+            "causes": "Системные настройки удалены или повреждены, что приводит к сбою алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heater-circuit-interruption",
+            "title": "Разрыв цепи нагревательного элемента Ariston",
+            "sign": "Нагрев воды не происходит",
+            "causes": "Проводка или спираль разомкнуты, нарушая процесс нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ntc-sensor-out-of-range",
+            "title": "Датчик NTC вне допустимого диапазона Ariston",
+            "sign": "Контроль температуры воды неверный",
+            "causes": "Термистор показывает значения за пределами нормального диапазона",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-thermal-fuse-open",
+            "title": "Разомкнутый термопредохранитель Ariston",
+            "sign": "Нагрев прекращается внезапно",
+            "causes": "Предохранительный элемент размыкает цепь при превышении критической температуры",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-tacho-coil-damage",
+            "title": "Повреждение катушки тахогенератора Ariston",
+            "sign": "Мотор не получает корректную обратную связь",
+            "causes": "Обрыв проводки или разрыв витков нарушает сигнал скорости вращения",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-rotor-magnet-displacement",
+            "title": "Смещение магнита ротора Ariston",
+            "sign": "Двигатель не запускается или работает нестабильно",
+            "causes": "Магнит ротора смещён или повреждён, снижая эффективность тахогенератора",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-speed-feedback-circuit-defect",
+            "title": "Сбой цепи обратной связи скорости Ariston",
+            "sign": "Контроллер не получает сигнал о вращении мотора",
+            "causes": "Неисправность электронного контура прерывает обратную связь скорости",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-main-board-short-circuit",
+            "title": "Короткое замыкание основной платы Ariston",
+            "sign": "Аппарат полностью не реагирует на команды",
+            "causes": "Силовые элементы платы замкнуты, блокируя работу контроллера",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-power-module-breakdown",
+            "title": "Выход из строя силового модуля Ariston",
+            "sign": "Электроника не получает стабильное питание",
+            "causes": "Повреждение элементов блока питания нарушает работу всей платы",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-voltage-regulation-failure",
+            "title": "Сбой регулирования напряжения Ariston",
+            "sign": "Функции контроллера нестабильны",
+            "causes": "Неисправность стабилизатора вызывает колебания питания и сбои работы модулей",
+            "slugs": []
+        }
+
+    ]
+}

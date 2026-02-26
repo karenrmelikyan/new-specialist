@@ -1,0 +1,349 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин Hisense",
+    "title": "Частые коды ошибок посудомоечных машин Hisense",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/hisense/errors/",
+
+    "items": [
+        {
+            "slug": "hisense-dishwasher-error-e1",
+            "title": "Ошибка E1 посудомоечной машины Hisense",
+            "sign": "Программа не запускается или преждевременно останавливается",
+            "causes": "Контроллер фиксирует ошибочный сигнал от дверного сенсора, мешая началу цикла",
+            "slugs": [
+                "hisense-door-sensor-fault",
+                "hisense-door-latch-misalignment",
+                "hisense-door-switch-connector-issue"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-e2",
+            "title": "Ошибка E2 посудомоечной машины Hisense",
+            "sign": "Вода не набирается вовремя или её недостаточно",
+            "causes": "Проблемы с подачей воды, низким давлением или засорён фильтр входа",
+            "slugs": [
+                "hisense-inlet-valve-failure",
+                "hisense-water-pressure-low",
+                "hisense-inlet-filter-blocked"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-e3",
+            "title": "Ошибка E3 посудомоечной машины Hisense",
+            "sign": "Вода не достигает нужной температуры",
+            "causes": "Система нагрева не достигает установленного уровня из‑за неисправности нагревателя",
+            "slugs": [
+                "hisense-heating-element-fault",
+                "hisense-ntc-temperature-sensor-failure",
+                "hisense-heater-circuit-interruption"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-e4",
+            "title": "Ошибка E4 посудомоечной машины Hisense",
+            "sign": "Зафиксировано переполнение или протечка",
+            "causes": "Избыточный уровень воды или утечка активируют защитный механизм",
+            "slugs": [
+                "hisense-overfill-sensor-triggered",
+                "hisense-aqua-protect-activation",
+                "hisense-pressure-switch-error"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-e5",
+            "title": "Ошибка E5 посудомоечной машины Hisense",
+            "sign": "Сбой в работе мотора или насосного узла",
+            "causes": "Двигатель подачи воды работает неправильно или электропитание нарушено",
+            "slugs": [
+                "hisense-circulation-motor-stall",
+                "hisense-motor-cable-issue",
+                "hisense-pump-mechanical-obstruction"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-e6",
+            "title": "Ошибка E6 посудомоечной машины Hisense",
+            "sign": "Ошибка определения уровня воды",
+            "causes": "Прессостат или датчик уровня жидкости дают некорректные данные",
+            "slugs": [
+                "hisense-pressure-sensor-fault",
+                "hisense-air-chamber-blocked",
+                "hisense-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-e7",
+            "title": "Ошибка E7 посудомоечной машины Hisense",
+            "sign": "Сбой датчика мутности воды",
+            "causes": "Турбидность жидкости определена неверно из‑за загрязнения сенсора",
+            "slugs": [
+                "hisense-turbidity-sensor-contamination",
+                "hisense-optical-module-failure",
+                "hisense-water-clarity-circuit-error"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-f11",
+            "title": "Ошибка F11 посудомоечной машины Hisense",
+            "sign": "Система сигнализирует о наличии остатков воды",
+            "causes": "Вода осталась в баке из‑за неполного слива, засорения фильтра или помпы",
+            "slugs": [
+                "hisense-drain-pump-failure",
+                "hisense-drain-hose-obstruction",
+                "hisense-filter-chamber-blocked"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-f12",
+            "title": "Ошибка F12 посудомоечной машины Hisense",
+            "sign": "Вода не поступает в камеру или набор воды затруднён",
+            "causes": "Проблемы с водопроводом, кран закрыт или сенсор входа воды не фиксирует поток",
+            "slugs": [
+                "hisense-inlet-valve-failure",
+                "hisense-inlet-filter-blocked",
+                "hisense-water-pressure-low"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-f41",
+            "title": "Ошибка F41 посудомоечной машины Hisense",
+            "sign": "Нарушена работа нагревательного узла",
+            "causes": "Элемент нагрева или схема управления перегревается или выходит из строя",
+            "slugs": [
+                "hisense-heating-element-short",
+                "hisense-heater-relay-failure",
+                "hisense-heating-control-board-error"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-f42",
+            "title": "Ошибка F42 посудомоечной машины Hisense",
+            "sign": "Датчик температуры передаёт неверные значения",
+            "causes": "NTC сенсор был повреждён или его параметры вышли за нормальные пределы",
+            "slugs": [
+                "hisense-ntc-sensor-failure",
+                "hisense-sensor-connector-oxidation",
+                "hisense-temperature-feedback-circuit-fault"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-f54",
+            "title": "Ошибка F54 посудомоечной машины Hisense",
+            "sign": "Активация системы защиты от протечек",
+            "causes": "Контроллер фиксирует воду в поддоне или текущую протечку из внутреннего шланга",
+            "slugs": [
+                "hisense-aqua-protect-activation",
+                "hisense-base-pan-water-detected",
+                "hisense-internal-hose-leak"
+            ]
+        },
+
+        {
+            "slug": "hisense-door-sensor-fault",
+            "title": "Неисправность датчика дверцы Hisense",
+            "sign": "Контроллер не фиксирует закрытие люка",
+            "causes": "Сломанный сенсор или износ механизма не подтверждают корректное положение",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-latch-misalignment",
+            "title": "Нарушение выравнивания защёлки дверцы Hisense",
+            "sign": "Люк не фиксируется надёжно",
+            "causes": "Петли смещены или компонент механизма защёлки изношен",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-switch-connector-issue",
+            "title": "Проблема с разъёмом дверного выключателя Hisense",
+            "sign": "Сигнал о закрытии дверцы нестабилен",
+            "causes": "Окисление, ослабленные контакты или повреждённая проводка",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-inlet-valve-failure",
+            "title": "Отказ впускного клапана Hisense",
+            "sign": "Вода не поступает при старте набора",
+            "causes": "Катушка клапана перегорела или механизм заблокирован мусором",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-water-pressure-low",
+            "title": "Недостаточное давление воды Hisense",
+            "sign": "Заполнение камеры медленное или прерывается",
+            "causes": "Слабый напор в магистрали или частично перекрытый кран",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-inlet-filter-blocked",
+            "title": "Засор входного фильтра Hisense",
+            "sign": "Поступление воды не достигает требуемого уровня",
+            "causes": "Мелкие частицы и накипь перекрывают сетку фильтра",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-element-fault",
+            "title": "Неисправность нагревательного элемента Hisense",
+            "sign": "Вода остаётся холодной после начала программы",
+            "causes": "Спираль ТЭНа перегорела либо имеет разрыв проводимости",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-ntc-temperature-sensor-failure",
+            "title": "Сбой NTC‑датчика температуры Hisense",
+            "sign": "Показания температуры неверные",
+            "causes": "Термистор деградировал либо повреждён внутренне",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heater-circuit-interruption",
+            "title": "Разрыв цепи нагревателя Hisense",
+            "sign": "Элемент нагрева не активируется",
+            "causes": "Обрыв проводника или дефект пайки разрывает путь питания",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-overfill-sensor-triggered",
+            "title": "Активация защиты от переполнения Hisense",
+            "sign": "Система сразу прекращает набор воды",
+            "causes": "Датчик фиксирует уровень превышения и инициирует защитный цикл",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-aqua-protect-activation",
+            "title": "Срабатывание AquaProtect Hisense",
+            "sign": "Набор воды блокируется из‑за обнаружения влаги под основанием",
+            "causes": "Протечка уплотнений, трещины в поддоне или ослабленные соединения",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-pressure-switch-error",
+            "title": "Сбой прессостата уровня Hisense",
+            "sign": "Контроллер получает ложные данные о наполнении",
+            "causes": "Засор гидростата или потеря чувствительности датчика",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-circulation-motor-stall",
+            "title": "Заклинивание циркуляционного мотора Hisense",
+            "sign": "Подача воды нестабильна или отсутствует",
+            "causes": "Механическая блокировка ротора или износ подшипников",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-motor-cable-issue",
+            "title": "Проблема с проводкой мотора Hisense",
+            "sign": "Мотор не получает стабильное питание",
+            "causes": "Ослабленный контакт или повреждённый кабель",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-pump-mechanical-obstruction",
+            "title": "Механическое препятствие в насосе Hisense",
+            "sign": "Насосный узел издаёт шум или не качает",
+            "causes": "Инородные предметы попали в корпус помпы",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-pressure-sensor-fault",
+            "title": "Неисправность датчика давления Hisense",
+            "sign": "Уровень жидкости определяется неверно",
+            "causes": "Сбой мембранного элемента или загрязнение контактной камеры",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-air-chamber-blocked",
+            "title": "Засор воздушной камеры Hisense",
+            "sign": "Контроллер не может определить уровень воды",
+            "causes": "Канал гидростата забит остатками пищи или минеральными отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-sensor-wiring-issue",
+            "title": "Проблемы проводки датчика уровня Hisense",
+            "sign": "Сигнал о наполнении нестабилен",
+            "causes": "Ослабленные контакты или повреждение проводников",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности Hisense",
+            "sign": "Оценка степени чистоты воды неверна",
+            "causes": "Налёт на поверхности сенсора препятствует корректному измерению",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-optical-module-failure",
+            "title": "Сбой оптического модуля Hisense",
+            "sign": "Система мутности работает некорректно",
+            "causes": "Нарушение функционирования светового источника или фотоприёмника",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-water-clarity-circuit-error",
+            "title": "Ошибка цепи контроля мутности воды Hisense",
+            "sign": "Модули измерения мутности дают противоречивые данные",
+            "causes": "Электронный конденсатор или резистивные элементы вышли из рабочей зоны",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drain-pump-failure",
+            "title": "Отказ сливного насоса Hisense",
+            "sign": "Помпа не запускается при команде контроллера",
+            "causes": "Электрическая неисправность мотора или обрыв обмотки",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drain-hose-obstruction",
+            "title": "Засор сливного шланга Hisense",
+            "sign": "Слив воды прерывается или отсутствует",
+            "causes": "Перегибы, остатки пищи или отложения препятствуют отводу",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-filter-chamber-blocked",
+            "title": "Блокировка фильтровой камеры Hisense",
+            "sign": "Система отведения жидкости работает нестабильно",
+            "causes": "Фильтр заполнен загрязнениями, мешая нормальному сливу",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-element-short",
+            "title": "Короткое замыкание нагревательного элемента Hisense",
+            "sign": "Температура резко повышается или контроллер фиксирует аномалии",
+            "causes": "Сбой изоляции спирали или контактных соединений",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heater-relay-failure",
+            "title": "Неисправность реле нагрева Hisense",
+            "sign": "Нагрев не активируется при необходимости",
+            "causes": "Перемычка реле сломана либо элементы управления перегреты",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-control-board-error",
+            "title": "Сбой платы управления нагревом Hisense",
+            "sign": "Система нагрева функционирует нестабильно",
+            "causes": "Неисправность элементов печатной платы или питание модуля нарушено",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-sensor-connector-oxidation",
+            "title": "Окисление разъёма сенсора Hisense",
+            "sign": "Сигналы датчика нестабильны или отсутствуют",
+            "causes": "Окисление клемм мешает корректной передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-temperature-feedback-circuit-fault",
+            "title": "Сбой цепи обратной связи температуры Hisense",
+            "sign": "Контроллер получает противоречивые тепловые показатели",
+            "causes": "Нарушение цепи следующей за термодатчиком электроники",
+            "slugs": []
+        }
+        
+    ]
+}

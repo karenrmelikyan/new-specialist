@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Коды ошибок сушильных машин Electrolux",
+    "title": "Частые коды ошибок сушильных машин Electrolux",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/electrolux/errors/",
+
+    "items": [
+        {
+            "slug": "electrolux-dryer-error-e10",
+            "title": "Ошибка E10 сушильной машины Electrolux",
+            "sign": "На дисплее отображается код E10 и цикл не запускается",
+            "causes": "Система не получает подтверждение подачи питания либо обнаруживает перебои во входном напряжении",
+            "slugs": [
+                "electrolux-power-supply-instability",
+                "electrolux-terminal-connection-loose",
+                "electrolux-main-board-power-section-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e20",
+            "title": "Ошибка E20 сушильной машины Electrolux",
+            "sign": "Код E20 появляется в процессе работы программы",
+            "causes": "Нарушен отвод конденсата или затруднена циркуляция влаги внутри системы",
+            "slugs": [
+                "electrolux-drain-pump-obstruction",
+                "electrolux-condensate-hose-blockage",
+                "electrolux-water-level-detection-error"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e30",
+            "title": "Ошибка E30 сушильной машины Electrolux",
+            "sign": "На панели высвечивается E30, агрегат прекращает выполнение режима",
+            "causes": "Контроллер фиксирует утечку либо избыточное накопление жидкости в нижнем поддоне",
+            "slugs": [
+                "electrolux-anti-flood-switch-activated",
+                "electrolux-internal-leakage",
+                "electrolux-float-sensor-malfunction"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e40",
+            "title": "Ошибка E40 сушильной машины Electrolux",
+            "sign": "После нажатия старта отображается E40",
+            "causes": "Механизм фиксации люка не подтверждает корректное закрытие",
+            "slugs": [
+                "electrolux-door-lock-defect",
+                "electrolux-door-interlock-sensor-failure",
+                "electrolux-door-hinge-misalignment"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e50",
+            "title": "Ошибка E50 сушильной машины Electrolux",
+            "sign": "Барабан не вращается, отображается код E50",
+            "causes": "Силовой узел испытывает перегрузку либо отсутствует управление приводом",
+            "slugs": [
+                "electrolux-motor-overcurrent",
+                "electrolux-inverter-control-failure",
+                "electrolux-drive-system-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e60",
+            "title": "Ошибка E60 сушильной машины Electrolux",
+            "sign": "Во время нагрева появляется код E60",
+            "causes": "Температурный контроль выходит за допустимые пределы",
+            "slugs": [
+                "electrolux-heating-element-failure",
+                "electrolux-thermal-protection-triggered",
+                "electrolux-temperature-sensor-incorrect-reading"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e70",
+            "title": "Ошибка E70 сушильной машины Electrolux",
+            "sign": "Система выводит E70 сразу после включения",
+            "causes": "Нарушена передача данных от датчика температуры к управляющему модулю",
+            "slugs": [
+                "electrolux-ntc-sensor-open-circuit",
+                "electrolux-sensor-wiring-damage",
+                "electrolux-control-board-communication-loss"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e80",
+            "title": "Ошибка E80 сушильной машины Electrolux",
+            "sign": "Программа прерывается с кодом E80",
+            "causes": "Внутренний программный модуль обнаруживает несоответствие параметров работы",
+            "slugs": [
+                "electrolux-firmware-corruption",
+                "electrolux-memory-module-fault",
+                "electrolux-configuration-data-error"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e90",
+            "title": "Ошибка E90 сушильной машины Electrolux",
+            "sign": "Устройство не реагирует на команды и отображает E90",
+            "causes": "Критический сбой электронной архитектуры управления",
+            "slugs": [
+                "electrolux-main-board-failure",
+                "electrolux-user-interface-board-malfunction",
+                "electrolux-internal-bus-communication-error"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-e91",
+            "title": "Ошибка E91 сушильной машины Electrolux",
+            "sign": "Код E91 возникает при попытке выбора программы",
+            "causes": "Отсутствует синхронизация между панелью управления и основной платой",
+            "slugs": [
+                "electrolux-display-board-connection-issue",
+                "electrolux-ribbon-cable-damage",
+                "electrolux-interface-processor-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-eA1",
+            "title": "Ошибка EA1 сушильной машины Electrolux",
+            "sign": "Сушка завершается преждевременно с кодом EA1",
+            "causes": "Датчик влажности передаёт искажённые показатели остаточной влаги",
+            "slugs": [
+                "electrolux-moisture-sensor-contamination",
+                "electrolux-humidity-sensor-circuit-failure",
+                "electrolux-drum-contact-strip-wear"
+            ]
+        },
+        {
+            "slug": "electrolux-dryer-error-eF0",
+            "title": "Ошибка EF0 сушильной машины Electrolux",
+            "sign": "На дисплее появляется EF0 в конце цикла",
+            "causes": "Система вентиляции засорена, теплообмен нарушен",
+            "slugs": [
+                "electrolux-lint-filter-clogging",
+                "electrolux-air-channel-restriction",
+                "electrolux-fan-motor-inefficiency"
+            ]
+        },
+
+        {
+            "slug": "electrolux-power-supply-instability",
+            "title": "Нестабильное электропитание Electrolux",
+            "sign": "Устройство периодически отключается или не запускает выбранный режим",
+            "causes": "Перепады напряжения либо недостаточный ток питания нарушают работу входного модуля",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-terminal-connection-loose",
+            "title": "Ослабление клеммных соединений Electrolux",
+            "sign": "В области подключения кабеля заметен нагрев или искрение",
+            "causes": "Плохой контакт увеличивает сопротивление и приводит к перебоям подачи энергии",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-main-board-power-section-fault",
+            "title": "Неисправность силовой части платы Electrolux",
+            "sign": "Электроника не инициализируется после включения",
+            "causes": "Повреждение элементов питания на плате препятствует корректному распределению напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-pump-obstruction",
+            "title": "Засор сливного насоса Electrolux",
+            "sign": "Конденсат остаётся внутри резервуара",
+            "causes": "Посторонние частицы блокируют крыльчатку и замедляют откачку жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-condensate-hose-blockage",
+            "title": "Перекрытие шланга отвода влаги Electrolux",
+            "sign": "Вода накапливается в системе вместо удаления наружу",
+            "causes": "Скопление ворса или перегиб трубки препятствует свободному прохождению потока",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-water-level-detection-error",
+            "title": "Ошибка определения уровня конденсата Electrolux",
+            "sign": "Индикация заполнения отображается некорректно",
+            "causes": "Сенсор неправильно считывает объём жидкости вследствие загрязнения или дефекта",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-anti-flood-switch-activated",
+            "title": "Срабатывание защиты от протечек Electrolux",
+            "sign": "Машина блокирует дальнейшую работу",
+            "causes": "Попадание воды в нижний поддон активирует аварийный поплавковый механизм",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-internal-leakage",
+            "title": "Внутренняя утечка Electrolux",
+            "sign": "Влага обнаруживается в техническом отсеке",
+            "causes": "Нарушение герметичности соединений приводит к выходу конденсата за пределы контура",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-float-sensor-malfunction",
+            "title": "Неисправность поплавкового датчика Electrolux",
+            "sign": "Система защиты активируется без видимой причины",
+            "causes": "Заклинивание поплавка либо повреждение микровыключателя искажает сигнал контроля",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-lock-defect",
+            "title": "Дефект замка люка Electrolux",
+            "sign": "Фиксация двери не подтверждается контроллером",
+            "causes": "Изношенный запирающий механизм не обеспечивает надёжную блокировку",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-interlock-sensor-failure",
+            "title": "Сбой датчика блокировки двери Electrolux",
+            "sign": "Панель показывает незакрытый люк при плотно закрытой двери",
+            "causes": "Повреждение сигнального элемента препятствует корректной передаче статуса",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-hinge-misalignment",
+            "title": "Нарушение положения петель двери Electrolux",
+            "sign": "Люк прилегает неровно",
+            "causes": "Смещение креплений изменяет геометрию закрывания и влияет на фиксацию",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-motor-overcurrent",
+            "title": "Повышенное потребление тока двигателем Electrolux",
+            "sign": "Привод отключается под нагрузкой",
+            "causes": "Перегрузка или механическое сопротивление увеличивает силу тока сверх допустимых значений",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-inverter-control-failure",
+            "title": "Неисправность инверторного управления Electrolux",
+            "sign": "Скорость вращения регулируется нестабильно",
+            "causes": "Сбой преобразовательного модуля нарушает формирование управляющих импульсов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drive-system-damage",
+            "title": "Повреждение приводного узла Electrolux",
+            "sign": "Барабан не совершает вращательных движений",
+            "causes": "Износ ремня или опорных компонентов препятствует передаче крутящего момента",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heating-element-failure",
+            "title": "Выход из строя нагревателя Electrolux",
+            "sign": "Воздух внутри камеры остаётся холодным",
+            "causes": "Разрыв спирали либо разрушение корпуса исключает генерацию тепла",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-thermal-protection-triggered",
+            "title": "Активация термозащиты Electrolux",
+            "sign": "Нагрев внезапно прекращается",
+            "causes": "Предохранительный элемент размыкает цепь при достижении критической температуры",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-temperature-sensor-incorrect-reading",
+            "title": "Некорректные показания температурного сенсора Electrolux",
+            "sign": "Программа изменяет длительность сушки без причины",
+            "causes": "Деградация чувствительного компонента приводит к неточному измерению параметров",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ntc-sensor-open-circuit",
+            "title": "Обрыв цепи NTC датчика Electrolux",
+            "sign": "Контроллер не получает данные о температуре",
+            "causes": "Разрыв проводника исключает передачу измерительного сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-sensor-wiring-damage",
+            "title": "Повреждение проводки датчиков Electrolux",
+            "sign": "Отдельные параметры отображаются с перебоями",
+            "causes": "Окисление контактов либо механический надлом кабеля нарушает соединение",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-control-board-communication-loss",
+            "title": "Потеря связи с платой управления Electrolux",
+            "sign": "Модули не синхронизируются между собой",
+            "causes": "Сбой цифровой шины вызывает рассогласование внутренних процессов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-firmware-corruption",
+            "title": "Повреждение программного обеспечения Electrolux",
+            "sign": "Алгоритмы выполняются некорректно",
+            "causes": "Ошибка прошивки нарушает обработку команд и последовательность операций",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-memory-module-fault",
+            "title": "Неисправность модуля памяти Electrolux",
+            "sign": "Сохранённые настройки не удерживаются",
+            "causes": "Сбой микросхемы памяти приводит к утрате конфигурационных данных",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-configuration-data-error",
+            "title": "Ошибка конфигурационных параметров Electrolux",
+            "sign": "Выбранные режимы работают с отклонениями",
+            "causes": "Повреждённые системные данные вызывают несоответствие рабочих установок",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-main-board-failure",
+            "title": "Критическая неисправность основной платы Electrolux",
+            "sign": "Панель управления остаётся неактивной",
+            "causes": "Повреждение центрального процессора либо силовых цепей блокирует запуск",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-user-interface-board-malfunction",
+            "title": "Сбой платы интерфейса Electrolux",
+            "sign": "Кнопки или сенсоры реагируют некорректно",
+            "causes": "Дефект управляющей микросхемы нарушает обработку пользовательских команд",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-internal-bus-communication-error",
+            "title": "Ошибка внутренней шины данных Electrolux",
+            "sign": "Модули обмениваются информацией с задержками",
+            "causes": "Повреждение линии передачи сигналов вызывает потерю синхронизации",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-display-board-connection-issue",
+            "title": "Нарушение соединения платы дисплея Electrolux",
+            "sign": "Экран отображает символы с искажением",
+            "causes": "Ослабленный контакт разъёма препятствует стабильной передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ribbon-cable-damage",
+            "title": "Повреждение шлейфа Electrolux",
+            "sign": "Панель периодически теряет отклик",
+            "causes": "Микротрещины проводящих дорожек нарушают электрическую целостность",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-interface-processor-fault",
+            "title": "Неисправность процессора интерфейса Electrolux",
+            "sign": "Выбор программ сопровождается задержками",
+            "causes": "Сбой микроконтроллера препятствует корректной интерпретации команд",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-moisture-sensor-contamination",
+            "title": "Загрязнение датчика влажности Electrolux",
+            "sign": "Сушка завершается раньше установленного времени",
+            "causes": "Налёт на контактных полосах искажает измерение остаточной влаги",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-humidity-sensor-circuit-failure",
+            "title": "Неисправность цепи датчика влажности Electrolux",
+            "sign": "Контроль уровня влажности работает нестабильно",
+            "causes": "Повреждение электронного контура приводит к некорректной обработке сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drum-contact-strip-wear",
+            "title": "Износ контактных полос барабана Electrolux",
+            "sign": "Показатели остаточной влаги становятся неточными",
+            "causes": "Стертые проводящие элементы не обеспечивают надёжный контакт с бельём",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-lint-filter-clogging",
+            "title": "Засор фильтра ворса Electrolux",
+            "sign": "Воздушный поток заметно ослаблен",
+            "causes": "Скопление текстильных частиц снижает эффективность циркуляции",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-air-channel-restriction",
+            "title": "Сужение воздушных каналов Electrolux",
+            "sign": "Тепло распределяется неравномерно",
+            "causes": "Отложения внутри воздуховодов препятствуют свободному перемещению потоков",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fan-motor-inefficiency",
+            "title": "Снижение производительности вентилятора Electrolux",
+            "sign": "Обдув барабана становится слабым",
+            "causes": "Износ подшипников или потеря мощности двигателя ухудшает циркуляцию",
+            "slugs": []
+        }
+        
+    ]
+}

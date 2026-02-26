@@ -11,6 +11,7 @@ import Menu from '../../components/Menu.astro'
 import MobMenu from '../../components/MobMenu.astro'
 import Modal from '../../components/Modal.astro'
 import ScrollUpBtn from '../../components/ScrollUpBtn.astro'
+import Footer from '../../components/Footer.astro'
 
 const { title = null, description = null, jsonLd = null } = Astro.props
 const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.href
@@ -35,7 +36,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
     </head>
     <body>
         <!-- HEADER -->
-        <headers class="header">
+        <header class="header">
             <div class="container header-inner">
                 <!-- LEFT SIDE -->
                 <div class="header-left">
@@ -77,7 +78,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                     </button>
                 </div>
             </div>
-        </headers>
+        </header>
 
         <main>
             <div class="container">
@@ -154,81 +155,7 @@ const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.h
                 <div class="offset"></div>
             </div> 
         </main>
-
-        <!-- FOOTER -->
-        <footer class="site-footer">
-            <div class="container footer-top">
-                <div class="footer-column">
-                    <h4>Услуги</h4>
-                    <ul>
-                        <li>Ремонт бытовой техники</li>
-                        <li>Ремонт холодильников</li>
-                        <li>Ремонт стиральных машин</li>
-                        <li>Ремонт газовых плит</li>
-                        <li>Ремонт электроплит</li>
-                        <li>Ремонт цифровой техники</li>
-                        <li>Ремонт электрики</li>
-                        <li>Ремонт сантехники</li>
-                        <li>Услуги мастера на час</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Клиентам</h4>
-                    <ul>
-                        <li>Рекламное агентство</li>
-                        <li>Ремонтная компания</li>
-                        <li>Ремонт квартир</li>
-                        <li>Косметический ремонт</li>
-                        <li>Евроремонт квартир</li>
-                        <li>Ремонт квартиры-студии</li>
-                        <li>Черновая отделка квартир</li>
-                        <li>Чистовая отделка квартир</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h4>Общее</h4>
-                    <ul>
-                        <li>Обучающие курсы для мастеров</li>
-                        <li>Карта сайта</li>
-                        <li>Компания</li>
-                        <li>Контакты</li>
-                        <li>FAQ</li>
-                        <li>Блог</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column footer-right">
-                    <a href={ENV.HOST}>
-                        <img 
-                            id="image" 
-                            data-src="/assets/img/logo-filled-background.webp" 
-                            class="footer-logo" 
-                            alt="Specialist Yerevan" 
-                            title={ENV.HOST}
-                        >
-                    </a>
-                    
-                    <p>© 2004 – <span id="year"></span> Сервисный Центр «Specialist»</p>
-                    <p>ООО "Техносервис"</p>
-                    <p>{ENV.POSTAL_CODE}, г. {ENV.LOCALITY}, {ENV.STREET_ADDRESS}</p>
-                    <p>ИНН 9715300665</p>
-                    <p>ОГРН 1177746409720</p>
-                    <div class="social-icons">
-                        <a href={ENV.WHATSAPP_URL}><img id="image" data-src="/assets/img/whatsapp.png" alt="WhatsApp Specialist Yerevan" title="WhatsApp"/></a>
-                        <a href={ENV.TELEGRAM_URL}><img id="image" data-src="/assets/img/telegram.png" alt="Telegram Specialist Yerevan" title="Telegram"/></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container footer-bottom">
-                <p>Есть вопросы? Звоните: <a href=`tel:${ENV.PHONE}`>374 (93) 316461 </a> или пишите <a href="mailto:specialist-yerevan@gmail.com">specialist-yerevan@gmail.com</a></p>
-                <p>Режим работы: пн–вс 09:00–21:00</p>
-                <p class="disclaimer">Вся представленная на сайте информация, касающаяся сроков, стоимости и порядка предоставления услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РА.</p>
-                <p class="note">* Некоторые виды работ могут быть выполнены подрядными организациями</p>
-            </div>
-        </footer>
+        <Footer />
 
         <Menu />
         <MobMenu />

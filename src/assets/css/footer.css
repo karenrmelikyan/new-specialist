@@ -33,6 +33,16 @@
     margin: 0;
 }
 
+.footer-column a {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
+.footer-column a:hover {
+    color: var(--btn-color);
+    cursor: pointer;
+}
+
 .footer-column ul li {
     margin-bottom: 10px;
 }

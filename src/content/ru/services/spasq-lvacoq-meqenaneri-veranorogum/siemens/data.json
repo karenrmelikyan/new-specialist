@@ -1,0 +1,446 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Siemens",
+    "title": "Частые поломки посудомоечных машин Siemens",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/siemens/",
+
+    "items": [
+        {
+            "slug": "siemens-dishwasher-not-turning-on",
+            "title": "Посудомоечная машина Siemens не включается",
+            "sign": "При нажатии кнопки питания отсутствует индикация и реакция панели.",
+            "causes": "Отсутствие напряжения, повреждение сетевого фильтра или неисправность управляющей платы.",
+            "slugs": [
+                "siemens-power-cord-damage",
+                "siemens-noise-filter-failure",
+                "siemens-main-control-board-fault",
+                "siemens-power-button-defect"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-draining",
+            "title": "Посудомоечная машина Siemens не сливает воду",
+            "sign": "После завершения программы вода остается в моечной камере.",
+            "causes": "Засор сливной системы либо отказ сливного насоса.",
+            "slugs": [
+                "siemens-drain-pump-failure",
+                "siemens-drain-hose-blockage",
+                "siemens-drain-filter-clog",
+                "siemens-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-filling-with-water",
+            "title": "Посудомоечная машина Siemens не набирает воду",
+            "sign": "Цикл запускается, но подача воды не осуществляется.",
+            "causes": "Неисправность впускного клапана, расходомера или системы AquaStop.",
+            "slugs": [
+                "siemens-water-inlet-valve-failure",
+                "siemens-aquastop-activation",
+                "siemens-flow-meter-error",
+                "siemens-water-level-sensor-defect"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-heating-water",
+            "title": "Посудомоечная машина Siemens не греет воду",
+            "sign": "Мойка проходит в холодной воде, качество очистки снижено.",
+            "causes": "Выход из строя нагревателя, температурного датчика или реле нагрева.",
+            "slugs": [
+                "siemens-heating-element-failure",
+                "siemens-ntc-sensor-fault",
+                "siemens-heater-relay-defect",
+                "siemens-heating-control-error"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-drying",
+            "title": "Посудомоечная машина Siemens не сушит посуду",
+            "sign": "После окончания программы посуда остается влажной.",
+            "causes": "Сбой системы сушки, неисправность вентилятора или недостаточный нагрев.",
+            "slugs": [
+                "siemens-drying-fan-failure",
+                "siemens-zeolith-system-fault",
+                "siemens-heating-power-reduction"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-leaking-water",
+            "title": "Посудомоечная машина Siemens протекает",
+            "sign": "Под машиной появляется вода или срабатывает защита от протечек.",
+            "causes": "Повреждение уплотнителей, трещина бака или утечка в системе подачи воды.",
+            "slugs": [
+                "siemens-door-seal-damage",
+                "siemens-tank-leak",
+                "siemens-aquastop-leak-detected",
+                "siemens-hose-connection-failure"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-starting-program",
+            "title": "Посудомоечная машина Siemens не запускает программу",
+            "sign": "Режим выбран, но цикл мойки не начинается.",
+            "causes": "Неисправность замка двери или сбой модуля управления.",
+            "slugs": [
+                "siemens-door-lock-failure",
+                "siemens-door-sensor-error",
+                "siemens-control-module-malfunction"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-making-noise",
+            "title": "Посудомоечная машина Siemens шумит",
+            "sign": "Во время работы слышен гул, вибрация или посторонние звуки.",
+            "causes": "Износ циркуляционного насоса, повреждение подшипников или попадание предметов внутрь.",
+            "slugs": [
+                "siemens-circulation-pump-wear",
+                "siemens-motor-bearing-damage",
+                "siemens-foreign-object-in-pump"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-washing-properly",
+            "title": "Посудомоечная машина Siemens плохо моет",
+            "sign": "На посуде остаются загрязнения или разводы.",
+            "causes": "Слабая циркуляция воды, засор форсунок или неисправность дозатора.",
+            "slugs": [
+                "siemens-spray-arm-blockage",
+                "siemens-circulation-pump-low-pressure",
+                "siemens-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-error-code",
+            "title": "Ошибка на дисплее Siemens",
+            "sign": "На панели отображается код неисправности.",
+            "causes": "Система самодиагностики выявляет проблему в одном из узлов.",
+            "slugs": [
+                "siemens-water-sensor-error",
+                "siemens-heating-system-error",
+                "siemens-drain-system-error",
+                "siemens-electronic-module-error"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-trips-breaker",
+            "title": "Посудомоечная машина Siemens выбивает автомат",
+            "sign": "При включении срабатывает защита электросети.",
+            "causes": "Короткое замыкание нагревателя, двигателя или повреждение проводки.",
+            "slugs": [
+                "siemens-heating-element-short-circuit",
+                "siemens-motor-short-circuit",
+                "siemens-wiring-damage"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Siemens не закрывается",
+            "sign": "Дверь не фиксируется или остается неплотно закрытой.",
+            "causes": "Износ защелки, повреждение петель или нарушение геометрии корпуса.",
+            "slugs": [
+                "siemens-door-latch-wear",
+                "siemens-hinge-damage",
+                "siemens-door-alignment-issue"
+            ]
+        },
+
+        {
+            "slug": "siemens-power-cord-damage",
+            "title": "Поврежден сетевой кабель Siemens",
+            "sign": "Прибор не получает питание при подключении к розетке.",
+            "causes": "Обрыв или перегрев проводника полностью блокирует подачу напряжения.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-noise-filter-failure",
+            "title": "Неисправен сетевой фильтр Siemens",
+            "sign": "Машина не включается после перепада напряжения.",
+            "causes": "Перегоревший фильтр помех не пропускает ток к модулю управления.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-main-control-board-fault",
+            "title": "Сбой платы управления Siemens",
+            "sign": "Панель управления не реагирует или работает нестабильно.",
+            "causes": "Повреждение электронных компонентов нарушает выполнение программ.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-power-button-defect",
+            "title": "Неисправна кнопка питания Siemens",
+            "sign": "Кнопка нажимается без последующей реакции устройства.",
+            "causes": "Износ контактов препятствует передаче управляющего сигнала.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-pump-failure",
+            "title": "Неисправен сливной насос Siemens",
+            "sign": "Вода остается внутри после окончания цикла.",
+            "causes": "Заклинивание крыльчатки или обрыв обмотки мешают откачке.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-hose-blockage",
+            "title": "Засор сливного шланга Siemens",
+            "sign": "Слив происходит медленно либо отсутствует.",
+            "causes": "Скопление загрязнений перекрывает проход воды.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-filter-clog",
+            "title": "Засор фильтра слива Siemens",
+            "sign": "В камере остается жидкость и появляется запах.",
+            "causes": "Остатки пищи блокируют фильтрующий элемент.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-pressure-switch-fault",
+            "title": "Неисправен прессостат Siemens",
+            "sign": "Уровень воды определяется некорректно.",
+            "causes": "Датчик уровня передает неправильные сигналы модулю.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-water-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Siemens",
+            "sign": "Вода не поступает в систему при запуске.",
+            "causes": "Повреждение катушки клапана препятствует открытию подачи.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-aquastop-activation",
+            "title": "Срабатывание AquaStop Siemens",
+            "sign": "Подача воды автоматически блокируется.",
+            "causes": "Система защиты активируется при обнаружении утечки.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-flow-meter-error",
+            "title": "Ошибка расходомера Siemens",
+            "sign": "Объем набираемой воды определяется неправильно.",
+            "causes": "Импульсы датчика расхода не фиксируются платой управления.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-water-level-sensor-defect",
+            "title": "Неисправен датчик уровня воды Siemens",
+            "sign": "Машина не начинает цикл из-за отсутствия сигнала о наполнении.",
+            "causes": "Сбой сенсора блокирует переход к следующему этапу программы.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-element-failure",
+            "title": "Неисправен нагревательный элемент Siemens",
+            "sign": "Вода остается холодной во время мойки.",
+            "causes": "Перегоревший ТЭН не обеспечивает требуемую температуру.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-ntc-sensor-fault",
+            "title": "Неисправен температурный датчик Siemens",
+            "sign": "Температура воды отображается или регулируется неправильно.",
+            "causes": "NTC-сенсор передает некорректные данные на модуль.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heater-relay-defect",
+            "title": "Неисправно реле нагрева Siemens",
+            "sign": "Нагрев не активируется при исправном ТЭНе.",
+            "causes": "Контакты реле не замыкают цепь питания нагревателя.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-control-error",
+            "title": "Ошибка управления нагревом Siemens",
+            "sign": "Программа зависает на этапе нагрева.",
+            "causes": "Плата управления не подает сигнал включения нагревателя.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drying-fan-failure",
+            "title": "Неисправен вентилятор сушки Siemens",
+            "sign": "Воздух не циркулирует в режиме сушки.",
+            "causes": "Электродвигатель вентилятора не запускается.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-zeolith-system-fault",
+            "title": "Неисправность системы Zeolith Siemens",
+            "sign": "Интенсивная сушка не обеспечивает сухой результат.",
+            "causes": "Нарушение работы блока регенерации тепла.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-power-reduction",
+            "title": "Снижение мощности нагрева Siemens",
+            "sign": "Посуда остается влажной после завершения программы.",
+            "causes": "Частичное повреждение нагревателя уменьшает теплоотдачу.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-seal-damage",
+            "title": "Поврежден уплотнитель двери Siemens",
+            "sign": "Вода просачивается по краю дверцы.",
+            "causes": "Износ резинового контура нарушает герметичность.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-tank-leak",
+            "title": "Протечка бака Siemens",
+            "sign": "Под машиной появляется вода во время работы.",
+            "causes": "Трещина или повреждение корпуса вызывает утечку.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-aquastop-leak-detected",
+            "title": "Обнаружена утечка системой AquaStop Siemens",
+            "sign": "Работа блокируется и начинается откачка воды.",
+            "causes": "Датчик фиксирует влагу в поддоне устройства.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-hose-connection-failure",
+            "title": "Нарушено соединение шланга Siemens",
+            "sign": "Вода подтекает в месте подключения.",
+            "causes": "Ослабленное крепление приводит к потере герметичности.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-lock-failure",
+            "title": "Неисправен замок двери Siemens",
+            "sign": "Цикл не стартует из-за отсутствия блокировки.",
+            "causes": "Механизм фиксации не удерживает дверцу закрытой.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-sensor-error",
+            "title": "Ошибка датчика двери Siemens",
+            "sign": "Система не распознает закрытие дверцы.",
+            "causes": "Некорректный сигнал блокирует запуск программы.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-control-module-malfunction",
+            "title": "Неисправность электронного модуля Siemens",
+            "sign": "Программы не выполняются корректно.",
+            "causes": "Сбой микросхем нарушает алгоритм работы устройства.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-circulation-pump-wear",
+            "title": "Износ циркуляционного насоса Siemens",
+            "sign": "Снижается давление воды при мойке.",
+            "causes": "Изношенные подшипники и крыльчатка уменьшают производительность.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-motor-bearing-damage",
+            "title": "Повреждение подшипников двигателя Siemens",
+            "sign": "Появляется гул и вибрация при работе.",
+            "causes": "Износ опорных элементов нарушает плавность вращения.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-foreign-object-in-pump",
+            "title": "Посторонний предмет в насосе Siemens",
+            "sign": "Слышен скрежет во время циркуляции воды.",
+            "causes": "Инородные частицы блокируют вращение крыльчатки.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-spray-arm-blockage",
+            "title": "Засор разбрызгивателя Siemens",
+            "sign": "Вода распределяется неравномерно по камере.",
+            "causes": "Отложения перекрывают отверстия форсунок.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-circulation-pump-low-pressure",
+            "title": "Недостаточное давление насоса Siemens",
+            "sign": "Посуда остается загрязненной после мойки.",
+            "causes": "Снижение мощности насоса ухудшает циркуляцию.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-detergent-dispenser-failure",
+            "title": "Неисправен дозатор моющего средства Siemens",
+            "sign": "Средство не подается в нужный момент цикла.",
+            "causes": "Механизм открытия не срабатывает.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-water-sensor-error",
+            "title": "Ошибка датчика воды Siemens",
+            "sign": "Уровень жидкости определяется неправильно.",
+            "causes": "Сбой сенсора вызывает остановку программы.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-system-error",
+            "title": "Ошибка системы нагрева Siemens",
+            "sign": "Цикл прерывается на этапе повышения температуры.",
+            "causes": "Контроль температуры фиксирует неисправность узла.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-system-error",
+            "title": "Ошибка системы слива Siemens",
+            "sign": "Вода не удаляется из камеры.",
+            "causes": "Электроника выявляет проблему в сливном контуре.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-electronic-module-error",
+            "title": "Ошибка электронного блока Siemens",
+            "sign": "На дисплее отображается код неисправности.",
+            "causes": "Внутренний сбой платы управления.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Siemens",
+            "sign": "При запуске срабатывает автомат защиты.",
+            "causes": "Повреждение изоляции ТЭНа вызывает утечку тока.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Siemens",
+            "sign": "Электросеть отключается при старте программы.",
+            "causes": "Замыкание обмотки двигателя создает перегрузку.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-wiring-damage",
+            "title": "Повреждение проводки Siemens",
+            "sign": "Работа сопровождается отключением питания.",
+            "causes": "Нарушение изоляции проводов вызывает короткое замыкание.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-latch-wear",
+            "title": "Износ защелки двери Siemens",
+            "sign": "Дверца не фиксируется при закрытии.",
+            "causes": "Стертые элементы механизма не обеспечивают блокировку.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-hinge-damage",
+            "title": "Повреждение петель Siemens",
+            "sign": "Дверца перекошена или закрывается с усилием.",
+            "causes": "Деформация креплений нарушает правильное прилегание.",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-alignment-issue",
+            "title": "Нарушена регулировка двери Siemens",
+            "sign": "Дверь закрывается неплотно.",
+            "causes": "Смещение конструкции препятствует герметичности.",
+            "slugs": []
+        }
+
+    ]
+}

@@ -1,0 +1,411 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин",
+    "title": "Частые поломки посудомоечных машин",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/",
+
+    "items": [
+        {
+            "slug": "not-starting",
+            "title": "Посудомоечная машина не запускается",
+            "sign": "После нажатия кнопки программа не начинается",
+            "causes": "Отсутствует запуск системы",
+            "slugs": [
+                "power-cord-damage",
+                "door-lock-failure",
+                "control-panel-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-filling-water",
+            "title": "Посудомоечная машина не набирает воду",
+            "sign": "Слышен шум, но вода не поступает",
+            "causes": "Нарушена подача воды",
+            "slugs": [
+                "inlet-valve-failure",
+                "inlet-filter-clog",
+                "aqua-stop-triggered",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-draining",
+            "title": "Посудомоечная машина не сливает воду",
+            "sign": "Вода остаётся на дне камеры",
+            "causes": "Не работает система слива",
+            "slugs": [
+                "drain-pump-failure",
+                "drain-filter-clog",
+                "drain-hose-blocked",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-heating",
+            "title": "Посудомоечная машина не греет воду",
+            "sign": "Мойка проходит в холодной воде",
+            "causes": "Не работает система нагрева",
+            "slugs": [
+                "heater-failure",
+                "ntc-sensor-failure",
+                "heater-relay-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-drying",
+            "title": "Посудомоечная машина не сушит посуду",
+            "sign": "После завершения цикла посуда мокрая",
+            "causes": "Нарушена система сушки",
+            "slugs": [
+                "heater-failure",
+                "fan-failure",
+                "rinse-aid-empty",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "leaking-dishwasher",
+            "title": "Посудомоечная машина течёт",
+            "sign": "Вода появляется под машиной",
+            "causes": "Нарушена герметичность",
+            "slugs": [
+                "door-gasket-damage",
+                "circulation-pump-leak",
+                "drain-hose-leak",
+                "tank-crack"
+            ]
+        },
+
+        {
+            "slug": "not-washing-properly",
+            "title": "Посудомоечная машина плохо моет",
+            "sign": "На посуде остаются загрязнения",
+            "causes": "Недостаточная циркуляция воды",
+            "slugs": [
+                "circulation-pump-failure",
+                "spray-arm-clog",
+                "low-water-pressure",
+                "heater-failure"
+            ]
+        },
+
+        {
+            "slug": "noisy-dishwasher",
+            "title": "Посудомоечная машина шумит",
+            "sign": "Гул, скрежет или стук во время работы",
+            "causes": "Механический износ или посторонние предметы",
+            "slugs": [
+                "circulation-pump-wear",
+                "foreign-object-pump",
+                "drain-pump-failure"
+            ]
+        },
+
+        {
+            "slug": "not-opening-door",
+            "title": "Не открывается дверь посудомоечной машины",
+            "sign": "После цикла дверь заблокирована",
+            "causes": "Не снимается блокировка",
+            "slugs": [
+                "door-lock-failure",
+                "door-handle-damage",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "tablet-not-dissolving",
+            "title": "Таблетка в посудомоечной машине не растворяется",
+            "sign": "Моющее средство остаётся в отсеке",
+            "causes": "Нарушена подача воды или открытие дозатора",
+            "slugs": [
+                "dispenser-failure",
+                "spray-arm-clog",
+                "low-water-pressure"
+            ]
+        },
+
+        {
+            "slug": "machine-trips-breaker-dishwasher",
+            "title": "Посудомоечная машина выбивает автомат",
+            "sign": "Срабатывает защита сети при запуске или нагреве",
+            "causes": "Короткое замыкание или пробой",
+            "slugs": [
+                "heater-short",
+                "pump-short",
+                "power-filter-burn",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "bad-smell-dishwasher",
+            "title": "Неприятный запах из посудомоечной машины",
+            "sign": "Запах остаётся после мойки",
+            "causes": "Загрязнение внутренних элементов",
+            "slugs": [
+                "drain-filter-clog",
+                "mold-build-up",
+                "stagnant-water"
+            ]
+        },
+
+        {
+            "slug": "power-cord-damage",
+            "title": "Повреждён сетевой кабель",
+            "sign": "Машина не включается",
+            "causes": "Обрыв или короткое замыкание",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-lock-failure",
+            "title": "Неисправна блокировка двери",
+            "sign": "Программа не запускается",
+            "causes": "Выход из строя механизма",
+            "slugs": []
+        },
+
+        {
+            "slug": "control-panel-failure",
+            "title": "Неисправна панель управления",
+            "sign": "Кнопки не реагируют",
+            "causes": "Повреждение контактов",
+            "slugs": []
+        },
+
+        {
+            "slug": "inlet-valve-failure",
+            "title": "Неисправен заливной клапан",
+            "sign": "Вода не поступает",
+            "causes": "Сгорела катушка или заклинил клапан",
+            "slugs": []
+        },
+
+        {
+            "slug": "inlet-filter-clog",
+            "title": "Засорён фильтр подачи воды",
+            "sign": "Слабый набор воды",
+            "causes": "Отложения и мусор",
+            "slugs": []
+        },
+
+        {
+            "slug": "aqua-stop-triggered",
+            "title": "Сработала система AquaStop",
+            "sign": "Машина не набирает воду",
+            "causes": "Обнаружена утечка",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-pump-failure",
+            "title": "Неисправен сливной насос",
+            "sign": "Вода не уходит",
+            "causes": "Заклинивание или обрыв обмотки",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-filter-clog",
+            "title": "Засорён сливной фильтр",
+            "sign": "Вода остаётся на дне",
+            "causes": "Скопление остатков пищи",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hose-blocked",
+            "title": "Засор сливного шланга",
+            "sign": "Медленный слив",
+            "causes": "Перегиб или засор",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-failure",
+            "title": "Неисправен нагревательный элемент",
+            "sign": "Вода не нагревается",
+            "causes": "Перегорание ТЭНа",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-relay-failure",
+            "title": "Неисправно реле нагрева",
+            "sign": "ТЭН не включается",
+            "causes": "Подгорание контактов",
+            "slugs": []
+        },
+
+        {
+            "slug": "ntc-sensor-failure",
+            "title": "Неисправен датчик температуры",
+            "sign": "Некорректный режим мойки",
+            "causes": "Сбой измерений",
+            "slugs": []
+        },
+
+        {
+            "slug": "fan-failure",
+            "title": "Неисправен вентилятор сушки",
+            "sign": "Посуда остаётся влажной",
+            "causes": "Сгорел двигатель вентилятора",
+            "slugs": []
+        },
+
+        {
+            "slug": "rinse-aid-empty",
+            "title": "Отсутствует ополаскиватель",
+            "sign": "Плохая сушка",
+            "causes": "Бак ополаскивателя пуст",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-gasket-damage",
+            "title": "Повреждён уплотнитель двери",
+            "sign": "Протечка спереди",
+            "causes": "Износ или разрыв резины",
+            "slugs": []
+        },
+
+        {
+            "slug": "circulation-pump-failure",
+            "title": "Неисправен циркуляционный насос",
+            "sign": "Плохая подача воды к разбрызгивателям",
+            "causes": "Износ или заклинивание",
+            "slugs": []
+        },
+
+        {
+            "slug": "circulation-pump-wear",
+            "title": "Износ циркуляционного насоса",
+            "sign": "Повышенный шум",
+            "causes": "Длительная эксплуатация",
+            "slugs": []
+        },
+
+        {
+            "slug": "foreign-object-pump",
+            "title": "Посторонний предмет в насосе",
+            "sign": "Стук или гул",
+            "causes": "Попадание мусора",
+            "slugs": []
+        },
+
+        {
+            "slug": "spray-arm-clog",
+            "title": "Засор разбрызгивателя",
+            "sign": "Слабая подача воды",
+            "causes": "Забиты отверстия",
+            "slugs": []
+        },
+
+        {
+            "slug": "low-water-pressure",
+            "title": "Низкое давление воды",
+            "sign": "Недостаточный напор",
+            "causes": "Проблемы водоснабжения",
+            "slugs": []
+        },
+
+        {
+            "slug": "dispenser-failure",
+            "title": "Неисправен дозатор моющего средства",
+            "sign": "Отсек не открывается",
+            "causes": "Поломка механизма",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-short",
+            "title": "Короткое замыкание нагревателя",
+            "sign": "Выбивает автомат",
+            "causes": "Пробой на корпус",
+            "slugs": []
+        },
+
+        {
+            "slug": "pump-short",
+            "title": "Короткое замыкание насоса",
+            "sign": "Срабатывает защита сети",
+            "causes": "Повреждение обмотки",
+            "slugs": []
+        },
+
+        {
+            "slug": "power-filter-burn",
+            "title": "Сгорел сетевой фильтр",
+            "sign": "Машина не включается или выбивает автомат",
+            "causes": "Короткое замыкание",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-handle-damage",
+            "title": "Повреждена ручка двери",
+            "sign": "Дверь не открывается",
+            "causes": "Поломка механизма",
+            "slugs": []
+        },
+
+        {
+            "slug": "tank-crack",
+            "title": "Трещина бака",
+            "sign": "Постоянная утечка воды",
+            "causes": "Механическое повреждение",
+            "slugs": []
+        },
+
+        {
+            "slug": "circulation-pump-leak",
+            "title": "Протечка циркуляционного насоса",
+            "sign": "Вода под машиной",
+            "causes": "Износ уплотнений",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hose-leak",
+            "title": "Протечка сливного шланга",
+            "sign": "Вода сзади машины",
+            "causes": "Трещина или ослаб хомут",
+            "slugs": []
+        },
+
+        {
+            "slug": "mold-build-up",
+            "title": "Образование плесени",
+            "sign": "Неприятный запах",
+            "causes": "Влажная среда и остатки пищи",
+            "slugs": []
+        },
+
+        {
+            "slug": "stagnant-water",
+            "title": "Застой воды в системе",
+            "sign": "Запах и слизь внутри",
+            "causes": "Неполный слив",
+            "slugs": []
+        },
+
+        {
+            "slug": "electronic-module-failure",
+            "title": "Неисправен электронный модуль управления",
+            "sign": "Машина работает хаотично или не реагирует",
+            "causes": "Повреждение платы или компонентов",
+            "slugs": []
+        }
+    ]
+}

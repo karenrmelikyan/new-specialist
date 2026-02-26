@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Коды ошибок сушильных машин Sharp",
+    "title": "Частые коды ошибок сушильных машин Sharp",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/sharp/errors/",
+
+    "items": [
+        {
+            "slug": "sharp-dryer-error-e1",
+            "title": "Ошибка E1 сушильной машины Sharp",
+            "sign": "На дисплее отображается код E1 при запуске программы",
+            "causes": "Контроллер фиксирует некорректные данные от температурного датчика нагревательного узла",
+            "slugs": [
+                "sharp-ntc-thermistor-fault",
+                "sharp-temperature-sensor-wiring-break",
+                "sharp-sensor-signal-processing-error"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e2",
+            "title": "Ошибка E2 сушильной машины Sharp",
+            "sign": "После старта цикл прерывается с кодом E2",
+            "causes": "Электроника обнаруживает нарушение функционирования системы нагрева",
+            "slugs": [
+                "sharp-heating-element-open-circuit",
+                "sharp-thermal-protection-activation",
+                "sharp-heater-control-relay-failure"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e3",
+            "title": "Ошибка E3 сушильной машины Sharp",
+            "sign": "Во время сушки появляется код E3",
+            "causes": "Температурный режим выходит за допустимые пределы из-за нестабильного регулирования",
+            "slugs": [
+                "sharp-thermostat-malfunction",
+                "sharp-air-channel-obstruction",
+                "sharp-temperature-feedback-deviation"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e4",
+            "title": "Ошибка E4 сушильной машины Sharp",
+            "sign": "Барабан не вращается и система выводит E4",
+            "causes": "Модуль управления не получает подтверждение активности приводного механизма",
+            "slugs": [
+                "sharp-drive-motor-overcurrent",
+                "sharp-belt-transmission-damage",
+                "sharp-motor-control-board-defect"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e5",
+            "title": "Ошибка E5 сушильной машины Sharp",
+            "sign": "Код E5 отображается при выборе программы",
+            "causes": "Нарушена связь между пользовательским интерфейсом и основной электронной платой",
+            "slugs": [
+                "sharp-control-panel-malfunction",
+                "sharp-flat-cable-disconnection",
+                "sharp-main-board-data-loss"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e6",
+            "title": "Ошибка E6 сушильной машины Sharp",
+            "sign": "Программа завершается досрочно с индикацией E6",
+            "causes": "Сенсор остаточной влажности передаёт искажённые показатели",
+            "slugs": [
+                "sharp-moisture-sensor-contamination",
+                "sharp-humidity-circuit-instability",
+                "sharp-drum-contact-surface-wear"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e7",
+            "title": "Ошибка E7 сушильной машины Sharp",
+            "sign": "Во время работы нагрев отключается и выводится E7",
+            "causes": "Защитная система регистрирует перегрев внутренних компонентов",
+            "slugs": [
+                "sharp-thermal-fuse-trigger",
+                "sharp-vent-duct-clogging",
+                "sharp-cooling-fan-impeller-failure"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e8",
+            "title": "Ошибка E8 сушильной машины Sharp",
+            "sign": "После включения на дисплее появляется E8",
+            "causes": "Обнаружены перебои во входном электроснабжении агрегата",
+            "slugs": [
+                "sharp-voltage-fluctuation-detection",
+                "sharp-terminal-connector-overheating",
+                "sharp-emi-filter-breakdown"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e9",
+            "title": "Ошибка E9 сушильной машины Sharp",
+            "sign": "Цикл останавливается и отображается код E9",
+            "causes": "Система отвода конденсата функционирует некорректно",
+            "slugs": [
+                "sharp-condensation-pump-stall",
+                "sharp-drainage-line-blockage",
+                "sharp-water-level-monitoring-fault"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e10",
+            "title": "Ошибка E10 сушильной машины Sharp",
+            "sign": "Код E10 появляется сразу после подачи питания",
+            "causes": "Происходит внутренний сбой программного обеспечения контроллера",
+            "slugs": [
+                "sharp-firmware-integrity-corruption",
+                "sharp-memory-chip-instability",
+                "sharp-configuration-data-mismatch"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e11",
+            "title": "Ошибка E11 сушильной машины Sharp",
+            "sign": "Устройство не реагирует на команды и показывает E11",
+            "causes": "Критическая неисправность управляющей электронной платы",
+            "slugs": [
+                "sharp-main-pcb-failure",
+                "sharp-power-circuit-component-damage",
+                "sharp-internal-communication-bus-error"
+            ]
+        },
+        {
+            "slug": "sharp-dryer-error-e12",
+            "title": "Ошибка E12 сушильной машины Sharp",
+            "sign": "После закрытия дверцы система выдаёт E12",
+            "causes": "Механизм блокировки люка не подтверждает корректное запирание",
+            "slugs": [
+                "sharp-door-lock-mechanism-fault",
+                "sharp-door-sensor-misalignment",
+                "sharp-latch-actuator-defect"
+            ]
+        },
+
+        {
+            "slug": "sharp-ntc-thermistor-fault",
+            "title": "Неисправность NTC-термистора Sharp",
+            "sign": "Плата получает искажённые данные о температуре нагрева",
+            "causes": "Полупроводниковый датчик теряет точность из-за деградации чувствительного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-temperature-sensor-wiring-break",
+            "title": "Обрыв цепи температурного сенсора Sharp",
+            "sign": "Информация о нагреве поступает нестабильно либо отсутствует",
+            "causes": "Повреждённый кабель или окисленные контакты нарушают передачу сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-sensor-signal-processing-error",
+            "title": "Ошибка обработки сигнала датчика Sharp",
+            "sign": "Температурные показатели отображаются некорректно",
+            "causes": "Контроллер неправильно интерпретирует входящие импульсы измерительного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-heating-element-open-circuit",
+            "title": "Разрыв нагревательной спирали Sharp",
+            "sign": "Воздушный поток остаётся холодным во время цикла",
+            "causes": "Перегоревшая нить теряет целостность и прекращает выработку тепла",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-thermal-protection-activation",
+            "title": "Активация тепловой защиты Sharp",
+            "sign": "Система внезапно прекращает подачу тепла",
+            "causes": "Предохранительный элемент размыкает электрическую цепь при превышении допустимого порога",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-heater-control-relay-failure",
+            "title": "Дефект реле управления нагревателем Sharp",
+            "sign": "ТЭН не включается по команде модуля",
+            "causes": "Контактная группа реле залипает либо обгорает, блокируя питание",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-thermostat-malfunction",
+            "title": "Сбой терморегулятора Sharp",
+            "sign": "Температурный баланс поддерживается некорректно",
+            "causes": "Регулирующий узел теряет способность точно ограничивать нагрев",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-air-channel-obstruction",
+            "title": "Перекрытие воздушного канала Sharp",
+            "sign": "Циркуляция воздуха ослаблена",
+            "causes": "Накопление ворса и мелких частиц создаёт сопротивление движению горячего потока",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-temperature-feedback-deviation",
+            "title": "Отклонение обратной температурной связи Sharp",
+            "sign": "Показатели нагрева расходятся с фактическими значениями",
+            "causes": "Система контроля теряет корректность из-за смещения параметров измерения",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drive-motor-overcurrent",
+            "title": "Повышенный ток двигателя Sharp",
+            "sign": "Барабан вращается рывками либо останавливается",
+            "causes": "Избыточная нагрузка увеличивает потребление энергии и активирует защиту",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-belt-transmission-damage",
+            "title": "Повреждение ременной передачи Sharp",
+            "sign": "Мотор функционирует, но вращение барабана отсутствует",
+            "causes": "Ремень растянут, порван или смещён относительно шкивов",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-motor-control-board-defect",
+            "title": "Неисправность платы управления мотором Sharp",
+            "sign": "Скорость вращения нестабильна",
+            "causes": "Электронный драйвер не формирует корректные управляющие импульсы",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-control-panel-malfunction",
+            "title": "Сбой панели управления Sharp",
+            "sign": "Кнопки либо сенсорные зоны не реагируют",
+            "causes": "Интерфейсный модуль перестаёт корректно передавать команды системе",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-flat-cable-disconnection",
+            "title": "Разъединение шлейфа Sharp",
+            "sign": "Индикация отображается частично или искажается",
+            "causes": "Ослабленный разъём нарушает передачу цифровых данных",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-main-board-data-loss",
+            "title": "Потеря данных основной платы Sharp",
+            "sign": "Программы запускаются с ошибками",
+            "causes": "Сбой микросхемы хранения информации приводит к нарушению логики работы",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-moisture-sensor-contamination",
+            "title": "Загрязнение сенсора влажности Sharp",
+            "sign": "Сушка завершается преждевременно",
+            "causes": "Налёт на контактных полосах искажает измерение остаточной влаги",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-humidity-circuit-instability",
+            "title": "Нестабильность цепи контроля влажности Sharp",
+            "sign": "Показатели влажности изменяются хаотично",
+            "causes": "Электронная схема испытывает перебои из-за повреждения компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drum-contact-surface-wear",
+            "title": "Износ контактной поверхности барабана Sharp",
+            "sign": "Данные сенсора влаги становятся неточными",
+            "causes": "Стирание проводящих полос ухудшает электрический контакт с бельём",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-thermal-fuse-trigger",
+            "title": "Срабатывание термопредохранителя Sharp",
+            "sign": "Нагрев полностью отключается",
+            "causes": "Предохранительный элемент реагирует на критическое превышение температуры",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-vent-duct-clogging",
+            "title": "Засор вентиляционного тракта Sharp",
+            "sign": "Удаление горячего воздуха затруднено",
+            "causes": "Пылевые отложения ограничивают проходимость канала",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-cooling-fan-impeller-failure",
+            "title": "Неисправность крыльчатки вентилятора Sharp",
+            "sign": "Охлаждение внутренних узлов недостаточное",
+            "causes": "Деформированная либо разрушенная лопасть снижает эффективность обдува",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-voltage-fluctuation-detection",
+            "title": "Обнаружение перепадов напряжения Sharp",
+            "sign": "Аппарат периодически перезапускается",
+            "causes": "Нестабильная сеть вызывает сбои питания электронных компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-terminal-connector-overheating",
+            "title": "Перегрев клеммного соединения Sharp",
+            "sign": "В области подключения ощущается повышенная температура",
+            "causes": "Ослабленный контакт увеличивает сопротивление и создаёт локальный нагрев",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-emi-filter-breakdown",
+            "title": "Повреждение сетевого фильтра Sharp",
+            "sign": "Устройство нестабильно включается",
+            "causes": "Фильтрующий модуль перестаёт корректно подавлять электрические помехи",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-condensation-pump-stall",
+            "title": "Заклинивание насоса конденсата Sharp",
+            "sign": "Вода остаётся в резервуаре",
+            "causes": "Крыльчатка насоса блокируется из-за загрязнения или механического дефекта",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drainage-line-blockage",
+            "title": "Закупорка дренажной линии Sharp",
+            "sign": "Жидкость не отводится полностью",
+            "causes": "Перегиб либо засор препятствует свободному стеканию конденсата",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-water-level-monitoring-fault",
+            "title": "Сбой контроля уровня воды Sharp",
+            "sign": "Система некорректно определяет объём жидкости",
+            "causes": "Датчик уровня передаёт искажённые сигналы модулю управления",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-firmware-integrity-corruption",
+            "title": "Нарушение целостности прошивки Sharp",
+            "sign": "Алгоритмы выполняются с ошибками",
+            "causes": "Повреждённый программный код изменяет последовательность операций",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-memory-chip-instability",
+            "title": "Нестабильность микросхемы памяти Sharp",
+            "sign": "Настройки не сохраняются",
+            "causes": "Дефектный чип вызывает потерю конфигурационных данных",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-configuration-data-mismatch",
+            "title": "Несоответствие конфигурационных параметров Sharp",
+            "sign": "Режимы работают некорректно",
+            "causes": "Системные параметры не совпадают с заданной аппаратной конфигурацией",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-main-pcb-failure",
+            "title": "Выход из строя основной платы Sharp",
+            "sign": "Сушильная машина не реагирует на запуск",
+            "causes": "Повреждение процессорного блока либо силовых дорожек блокирует функционирование",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-power-circuit-component-damage",
+            "title": "Повреждение элементов силовой части Sharp",
+            "sign": "Питание модулей нестабильно",
+            "causes": "Сгоревшие компоненты нарушают распределение напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-internal-communication-bus-error",
+            "title": "Ошибка внутренней шины обмена Sharp",
+            "sign": "Модули взаимодействуют с задержками",
+            "causes": "Нарушение цифровой линии приводит к рассинхронизации блоков",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-door-lock-mechanism-fault",
+            "title": "Неисправность механизма блокировки люка Sharp",
+            "sign": "Дверца не фиксируется",
+            "causes": "Изношенный запирающий узел не обеспечивает надёжное защёлкивание",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-door-sensor-misalignment",
+            "title": "Смещение датчика двери Sharp",
+            "sign": "Система не распознаёт закрытое положение",
+            "causes": "Нарушенная геометрия крепления мешает корректной активации сенсора",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-latch-actuator-defect",
+            "title": "Дефект привода защёлки Sharp",
+            "sign": "Блокировка не срабатывает автоматически",
+            "causes": "Исполнительный механизм не создаёт достаточное усилие для фиксации",
+            "slugs": []
+        }
+
+    ]
+}

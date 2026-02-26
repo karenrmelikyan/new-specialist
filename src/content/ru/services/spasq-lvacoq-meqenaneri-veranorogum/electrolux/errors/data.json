@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин Electrolux",
+    "title": "Частые коды ошибок посудомоечных машин Electrolux",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/electrolux/errors/",
+
+    "items": [
+        {
+            "slug": "electrolux-dishwasher-error-i10",
+            "title": "Ошибка i10 посудомоечной машины Electrolux",
+            "sign": "Запуск программы невозможен, отображается код i10",
+            "causes": "Контроллер не фиксирует корректный набор воды в установленный промежуток времени",
+            "slugs": [
+                "electrolux-inlet-valve-restriction",
+                "electrolux-water-supply-insufficient",
+                "electrolux-flow-meter-malfunction"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i20",
+            "title": "Ошибка i20 посудомоечной машины Electrolux",
+            "sign": "После завершения цикла жидкость остаётся внутри камеры",
+            "causes": "Система отвода воды не выполняет слив в заданное время",
+            "slugs": [
+                "electrolux-drain-pump-blockage",
+                "electrolux-drain-hose-clog",
+                "electrolux-sump-chamber-obstruction"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i30",
+            "title": "Ошибка i30 посудомоечной машины Electrolux",
+            "sign": "Аппарат останавливается и активирует защиту от протечки",
+            "causes": "Защитный поддон обнаруживает наличие влаги",
+            "slugs": [
+                "electrolux-anti-flood-switch-triggered",
+                "electrolux-internal-seal-leak",
+                "electrolux-base-pan-water-accumulation"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i40",
+            "title": "Ошибка i40 посудомоечной машины Electrolux",
+            "sign": "Программа прерывается на этапе контроля уровня воды",
+            "causes": "Датчик давления передаёт некорректные показания в модуль управления",
+            "slugs": [
+                "electrolux-pressure-sensor-fault",
+                "electrolux-air-chamber-blocked",
+                "electrolux-level-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i50",
+            "title": "Ошибка i50 посудомоечной машины Electrolux",
+            "sign": "Двигатель циркуляции не запускается, код i50 на дисплее",
+            "causes": "Электронный блок управления фиксирует неисправность силовой части мотора",
+            "slugs": [
+                "electrolux-circulation-motor-stall",
+                "electrolux-inverter-module-defect",
+                "electrolux-motor-triac-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i60",
+            "title": "Ошибка i60 посудомоечной машины Electrolux",
+            "sign": "Вода не достигает заданной температуры во время цикла",
+            "causes": "Система нагрева функционирует с отклонениями",
+            "slugs": [
+                "electrolux-heating-element-open-circuit",
+                "electrolux-ntc-sensor-deviation",
+                "electrolux-heater-control-relay-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i70",
+            "title": "Ошибка i70 посудомоечной машины Electrolux",
+            "sign": "Температурные параметры отображаются некорректно",
+            "causes": "Сбой калибровки термодатчика или его повреждение",
+            "slugs": [
+                "electrolux-temperature-sensor-out-of-range",
+                "electrolux-sensor-connector-oxidation",
+                "electrolux-thermal-feedback-circuit-error"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i80",
+            "title": "Ошибка i80 посудомоечной машины Electrolux",
+            "sign": "Устройство не запускает выбранную программу",
+            "causes": "Внутренняя память контроллера содержит повреждённые данные",
+            "slugs": [
+                "electrolux-eeprom-data-corruption",
+                "electrolux-firmware-execution-fault",
+                "electrolux-configuration-memory-loss"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-i90",
+            "title": "Ошибка i90 посудомоечной машины Electrolux",
+            "sign": "Панель управления отображает произвольные символы",
+            "causes": "Нарушена связь между интерфейсом пользователя и основной платой",
+            "slugs": [
+                "electrolux-ui-board-malfunction",
+                "electrolux-ribbon-cable-failure",
+                "electrolux-communication-bus-interruption"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-ib0",
+            "title": "Ошибка iB0 посудомоечной машины Electrolux",
+            "sign": "Продолжительность цикла определяется неправильно",
+            "causes": "Датчик мутности воды передаёт искажённые параметры",
+            "slugs": [
+                "electrolux-turbidity-sensor-contaminated",
+                "electrolux-optical-sensor-misalignment",
+                "electrolux-water-clarity-module-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-id0",
+            "title": "Ошибка iD0 посудомоечной машины Electrolux",
+            "sign": "Мотор не получает подтверждение вращения",
+            "causes": "Отсутствует сигнал тахогенератора",
+            "slugs": [
+                "electrolux-tacho-coil-open",
+                "electrolux-rotor-magnet-damage",
+                "electrolux-speed-feedback-circuit-malfunction"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-error-if0",
+            "title": "Ошибка iF0 посудомоечной машины Electrolux",
+            "sign": "Объём воды превышает допустимый уровень",
+            "causes": "Система контроля уровня не ограничивает набор жидкости",
+            "slugs": [
+                "electrolux-overfill-protection-failure",
+                "electrolux-inlet-valve-stuck-open",
+                "electrolux-pressure-system-miscalibration"
+            ]
+        },
+
+        {
+            "slug": "electrolux-inlet-valve-restriction",
+            "title": "Засор впускного клапана Electrolux",
+            "sign": "Вода поступает медленно или с перебоями",
+            "causes": "Мелкие частицы или известковый налёт препятствуют нормальному потоку через клапан",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-water-supply-insufficient",
+            "title": "Недостаточное давление воды Electrolux",
+            "sign": "Набор воды не достигает нужного уровня за установленное время",
+            "causes": "Слабое давление в системе водопровода замедляет заполнение камеры",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-flow-meter-malfunction",
+            "title": "Сбой датчика потока Electrolux",
+            "sign": "Контроллер получает неправильные данные о подаче воды",
+            "causes": "Засорённый или изношенный датчик передаёт неверные показатели",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-pump-blockage",
+            "title": "Заклинивание сливного насоса Electrolux",
+            "sign": "Жидкость не удаляется из камеры",
+            "causes": "Мусор или известковые отложения препятствуют вращению лопастей насоса",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-hose-clog",
+            "title": "Засор сливного шланга Electrolux",
+            "sign": "Вода не отводится полностью",
+            "causes": "Перегибы или отложения мешают нормальному сливу",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-sump-chamber-obstruction",
+            "title": "Засор поддона Electrolux",
+            "sign": "Вода застаивается в нижней камере",
+            "causes": "Мусор или осадок блокируют нормальное удаление жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-anti-flood-switch-triggered",
+            "title": "Срабатывание защиты от протечки Electrolux",
+            "sign": "Цикл останавливается при обнаружении влаги",
+            "causes": "Протечка уплотнений или конденсат на корпусе активирует защитный датчик",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-internal-seal-leak",
+            "title": "Протечка уплотнений Electrolux",
+            "sign": "Жидкость проникает под корпус",
+            "causes": "Изношенные или повреждённые уплотнители нарушают герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-base-pan-water-accumulation",
+            "title": "Скопление воды в нижнем отсеке Electrolux",
+            "sign": "Под аппаратом обнаруживается жидкость",
+            "causes": "Засоры или повреждения приводят к задержке воды в основании",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pressure-sensor-fault",
+            "title": "Сбой датчика давления Electrolux",
+            "sign": "Неправильная информация о наборе воды",
+            "causes": "Датчик передаёт неверные данные из-за износа или засорения канала",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-air-chamber-blocked",
+            "title": "Засор воздушной камеры Electrolux",
+            "sign": "Контроль уровня воды некорректен",
+            "causes": "Канал гидростата забит известковыми отложениями или мусором",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-level-sensor-wiring-issue",
+            "title": "Проблемы проводки датчика уровня Electrolux",
+            "sign": "Сигнал о количестве воды нестабилен",
+            "causes": "Ослабленные контакты или повреждённые провода нарушают передачу данных",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-motor-stall",
+            "title": "Заклинивание мотора циркуляции Electrolux",
+            "sign": "Распылительные коромысла не вращаются",
+            "causes": "Износ подшипников или повреждение ротора мешают вращению",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-inverter-module-defect",
+            "title": "Сбой инверторного модуля Electrolux",
+            "sign": "Скорость двигателя регулируется нестабильно",
+            "causes": "Неисправность блока преобразования импульсов нарушает управление мотором",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-motor-triac-damage",
+            "title": "Повреждение триака мотора Electrolux",
+            "sign": "Мотор не запускается по команде",
+            "causes": "Элемент управления мотора заклинен или сгорел, нарушая подачу тока",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heating-element-open-circuit",
+            "title": "Разрыв цепи нагревательного элемента Electrolux",
+            "sign": "Вода не нагревается до заданной температуры",
+            "causes": "Спираль перегорела или разомкнута, нарушая работу системы нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ntc-sensor-deviation",
+            "title": "Дрейф NTC датчика Electrolux",
+            "sign": "Температура воды отображается некорректно",
+            "causes": "Старение термистора или внутренние дефекты вызывают искажения показаний",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heater-control-relay-failure",
+            "title": "Сбой реле управления нагревом Electrolux",
+            "sign": "Элемент не включается при запуске программы",
+            "causes": "Заклинившее или повреждённое реле нарушает подачу тока на спираль",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-temperature-sensor-out-of-range",
+            "title": "Датчик температуры вне диапазона Electrolux",
+            "sign": "Контроллер получает неверные показатели",
+            "causes": "Элемент термистора выдаёт значения за пределами допустимых норм",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-sensor-connector-oxidation",
+            "title": "Окисление разъёмов датчика Electrolux",
+            "sign": "Сигналы передаются с перебоями",
+            "causes": "Контакты окислены, нарушая стабильную работу датчика",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-thermal-feedback-circuit-error",
+            "title": "Сбой цепи обратной связи температуры Electrolux",
+            "sign": "Температурные режимы регулируются некорректно",
+            "causes": "Электронная схема обратной связи повреждена или нестабильна",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-eeprom-data-corruption",
+            "title": "Повреждение памяти EEPROM Electrolux",
+            "sign": "Программы запускаются с ошибками",
+            "causes": "Сбой микросхемы памяти нарушает последовательность выполнения команд",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-firmware-execution-fault",
+            "title": "Сбой выполнения прошивки Electrolux",
+            "sign": "Функции работают нестабильно, цикл прерывается",
+            "causes": "Системное ПО содержит ошибки или повреждено",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-configuration-memory-loss",
+            "title": "Потеря конфигурационных данных Electrolux",
+            "sign": "Режимы работы выполняются с нарушениями",
+            "causes": "Настройки удалены или повреждены, вызывая сбой алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ui-board-malfunction",
+            "title": "Сбой платы интерфейса Electrolux",
+            "sign": "Кнопки и сенсор не реагируют на команды",
+            "causes": "Контроллер панели не передаёт корректные сигналы основной плате",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ribbon-cable-failure",
+            "title": "Отсоединение шлейфа интерфейса Electrolux",
+            "sign": "Дисплей мигает или отображает некорректные символы",
+            "causes": "Шлейф потерял контакт или повреждён, нарушая передачу данных",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-communication-bus-interruption",
+            "title": "Сбой шины связи между платами Electrolux",
+            "sign": "Модули управления не синхронизируются",
+            "causes": "Повреждённая линия передачи вызывает задержки и ошибки управления",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-turbidity-sensor-contaminated",
+            "title": "Загрязнение датчика мутности Electrolux",
+            "sign": "Контроль прозрачности воды выполняется некорректно",
+            "causes": "Ворс или остатки пищи на сенсоре искажают показатели мутности",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-optical-sensor-misalignment",
+            "title": "Смещение оптического сенсора Electrolux",
+            "sign": "Показатели прозрачности воды неверны",
+            "causes": "Элемент сенсора смещён или повреждён, нарушая точность измерений",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-water-clarity-module-fault",
+            "title": "Сбой модуля контроля прозрачности воды Electrolux",
+            "sign": "Функции контроля мутности работают нестабильно",
+            "causes": "Электронный модуль передаёт некорректные данные в контроллер",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-tacho-coil-open",
+            "title": "Обрыв катушки тахогенератора Electrolux",
+            "sign": "Мотор не получает сигнал о вращении",
+            "causes": "Обрыв проводки или витков нарушает обратную связь скорости",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-rotor-magnet-damage",
+            "title": "Повреждение магнита ротора Electrolux",
+            "sign": "Двигатель не запускается или работает нестабильно",
+            "causes": "Магнит смещён или повреждён, снижая эффективность тахогенератора",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-speed-feedback-circuit-malfunction",
+            "title": "Сбой цепи обратной связи скорости Electrolux",
+            "sign": "Контроллер не получает корректный сигнал о вращении мотора",
+            "causes": "Неисправность электронной цепи прерывает обратную связь скорости",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-overfill-protection-failure",
+            "title": "Сбой защиты от перелива Electrolux",
+            "sign": "Уровень воды превышает допустимый",
+            "causes": "Система контроля уровня не ограничивает набор жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-inlet-valve-stuck-open",
+            "title": "Заклинивший впускной клапан Electrolux",
+            "sign": "Вода продолжает поступать бесконтрольно",
+            "causes": "Механизм клапана заедает или изношен, нарушая регулировку подачи",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pressure-system-miscalibration",
+            "title": "Неверная калибровка системы давления Electrolux",
+            "sign": "Контроллер неправильно определяет уровень жидкости",
+            "causes": "Датчик давления откалиброван некорректно или выходит из строя",
+            "slugs": []
+        }
+
+    ]
+}

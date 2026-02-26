@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Коды ошибок сушильных машин Whirlpool",
+    "title": "Частые коды ошибок сушильных машин Whirlpool",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/avtomat-choranocneri-veranorogum/whirlpool/errors/",
+
+    "items": [
+        {
+            "slug": "whirlpool-dryer-error-f01",
+            "title": "Ошибка F01 сушильной машины Whirlpool",
+            "sign": "На дисплее появляется F01 сразу после включения",
+            "causes": "Электронный модуль регистрирует внутренний сбой управляющей логики",
+            "slugs": [
+                "whirlpool-main-control-board-short-circuit",
+                "whirlpool-processor-initialization-failure",
+                "whirlpool-power-surge-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f02",
+            "title": "Ошибка F02 сушильной машины Whirlpool",
+            "sign": "Барабан не начинает вращение и отображается F02",
+            "causes": "Система не фиксирует корректную работу приводного механизма",
+            "slugs": [
+                "whirlpool-drive-motor-winding-fault",
+                "whirlpool-belt-tension-loss",
+                "whirlpool-motor-control-triac-defect"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f03",
+            "title": "Ошибка F03 сушильной машины Whirlpool",
+            "sign": "Во время цикла нагрев отсутствует, выводится F03",
+            "causes": "Контроллер обнаруживает неисправность теплогенерирующего узла",
+            "slugs": [
+                "whirlpool-heating-coil-burnout",
+                "whirlpool-high-limit-thermostat-trip",
+                "whirlpool-heater-circuit-interruption"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f04",
+            "title": "Ошибка F04 сушильной машины Whirlpool",
+            "sign": "Процесс сушки останавливается с кодом F04",
+            "causes": "Датчик температуры передаёт аномальные показатели в систему управления",
+            "slugs": [
+                "whirlpool-ntc-resistance-drift",
+                "whirlpool-thermal-sensor-connector-oxidation",
+                "whirlpool-temperature-reading-deviation"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f05",
+            "title": "Ошибка F05 сушильной машины Whirlpool",
+            "sign": "Цикл завершается преждевременно с индикацией F05",
+            "causes": "Сенсор остаточной влажности формирует недостоверные сигналы",
+            "slugs": [
+                "whirlpool-moisture-strip-contamination",
+                "whirlpool-humidity-detection-circuit-failure",
+                "whirlpool-drum-sensor-contact-degradation"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f06",
+            "title": "Ошибка F06 сушильной машины Whirlpool",
+            "sign": "Панель управления не реагирует и отображает F06",
+            "causes": "Нарушена передача данных между интерфейсом пользователя и центральной платой",
+            "slugs": [
+                "whirlpool-user-interface-board-malfunction",
+                "whirlpool-ribbon-cable-signal-loss",
+                "whirlpool-communication-protocol-disruption"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f07",
+            "title": "Ошибка F07 сушильной машины Whirlpool",
+            "sign": "Во время работы нагрев отключается и появляется F07",
+            "causes": "Система безопасности активирует защиту от перегрева внутренних компонентов",
+            "slugs": [
+                "whirlpool-thermal-cutoff-open",
+                "whirlpool-airflow-restriction-accumulation",
+                "whirlpool-blower-wheel-obstruction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f08",
+            "title": "Ошибка F08 сушильной машины Whirlpool",
+            "sign": "На экране отображается F08 при запуске программы",
+            "causes": "Обнаружены нестабильные параметры входного электропитания",
+            "slugs": [
+                "whirlpool-line-voltage-imbalance",
+                "whirlpool-terminal-block-heat-damage",
+                "whirlpool-noise-suppression-filter-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f09",
+            "title": "Ошибка F09 сушильной машины Whirlpool",
+            "sign": "Программа прерывается и фиксируется код F09",
+            "causes": "Механизм отвода конденсата функционирует некорректно",
+            "slugs": [
+                "whirlpool-condensate-pump-impeller-jam",
+                "whirlpool-drain-channel-clog",
+                "whirlpool-water-level-pressure-switch-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f10",
+            "title": "Ошибка F10 сушильной машины Whirlpool",
+            "sign": "После подачи питания отображается F10",
+            "causes": "Сбой микропрограммного обеспечения нарушает последовательность операций",
+            "slugs": [
+                "whirlpool-firmware-corruption-detected",
+                "whirlpool-eeprom-data-corruption",
+                "whirlpool-configuration-memory-mismatch"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f11",
+            "title": "Ошибка F11 сушильной машины Whirlpool",
+            "sign": "Устройство не запускает цикл и показывает F11",
+            "causes": "Критическое повреждение силовой части электронной платы",
+            "slugs": [
+                "whirlpool-power-supply-board-failure",
+                "whirlpool-rectifier-diode-burn",
+                "whirlpool-voltage-regulator-instability"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-f12",
+            "title": "Ошибка F12 сушильной машины Whirlpool",
+            "sign": "После закрытия люка система выводит F12",
+            "causes": "Механизм блокировки двери не подтверждает безопасное запирание",
+            "slugs": [
+                "whirlpool-door-lock-solenoid-defect",
+                "whirlpool-door-switch-alignment-error",
+                "whirlpool-latch-sensor-signal-fault"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-main-control-board-short-circuit",
+            "title": "Короткое замыкание основной платы Whirlpool",
+            "sign": "Аппарат не проходит стадию инициализации",
+            "causes": "Повреждённые токопроводящие дорожки вызывают мгновенную блокировку системы",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-processor-initialization-failure",
+            "title": "Сбой запуска процессора Whirlpool",
+            "sign": "Устройство зависает при включении",
+            "causes": "Микроконтроллер не завершает процедуру самотестирования из-за аппаратной ошибки",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-power-surge-damage",
+            "title": "Повреждение от скачка напряжения Whirlpool",
+            "sign": "После перепада сети техника перестала функционировать",
+            "causes": "Импульсное перенапряжение разрушает чувствительные электронные компоненты",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drive-motor-winding-fault",
+            "title": "Неисправность обмотки двигателя Whirlpool",
+            "sign": "Барабан не развивает вращение",
+            "causes": "Межвитковое замыкание снижает магнитное поле и крутящий момент",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-belt-tension-loss",
+            "title": "Ослабление натяжения ремня Whirlpool",
+            "sign": "Слышен шум мотора без движения барабана",
+            "causes": "Ременная передача утратила плотное прилегание к шкивам",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-control-triac-defect",
+            "title": "Неисправность симистора управления мотором Whirlpool",
+            "sign": "Скорость вращения нестабильна",
+            "causes": "Полупроводниковый ключ некорректно регулирует подачу напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-coil-burnout",
+            "title": "Перегорание нагревательной спирали Whirlpool",
+            "sign": "Внутри камеры отсутствует тепло",
+            "causes": "Разрушение металлической нити прекращает генерацию горячего воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-high-limit-thermostat-trip",
+            "title": "Срабатывание предельного термостата Whirlpool",
+            "sign": "Нагрев прекращается внезапно",
+            "causes": "Защитный датчик отключает питание при превышении допустимого уровня температуры",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heater-circuit-interruption",
+            "title": "Разрыв цепи нагревателя Whirlpool",
+            "sign": "Программа продолжается без повышения температуры",
+            "causes": "Обрыв проводника блокирует подачу энергии к ТЭНу",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-ntc-resistance-drift",
+            "title": "Дрейф сопротивления NTC Whirlpool",
+            "sign": "Показания теплового контроля становятся неточными",
+            "causes": "Старение термистора изменяет его электрические характеристики",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-thermal-sensor-connector-oxidation",
+            "title": "Окисление разъёма температурного датчика Whirlpool",
+            "sign": "Температурные данные поступают с перебоями",
+            "causes": "Коррозия контактов увеличивает переходное сопротивление",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-temperature-reading-deviation",
+            "title": "Отклонение температурных показаний Whirlpool",
+            "sign": "Сушка протекает при неправильных тепловых параметрах",
+            "causes": "Алгоритм обработки измерений формирует некорректный результат",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-moisture-strip-contamination",
+            "title": "Загрязнение полосы датчика влажности Whirlpool",
+            "sign": "Цикл завершается раньше расчётного времени",
+            "causes": "Налёт из волокон и моющих средств искажает электрическую проводимость",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-humidity-detection-circuit-failure",
+            "title": "Отказ схемы измерения влажности Whirlpool",
+            "sign": "Система неверно оценивает степень высушивания",
+            "causes": "Повреждённые элементы цепи препятствуют корректному анализу сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drum-sensor-contact-degradation",
+            "title": "Деградация контакта сенсора барабана Whirlpool",
+            "sign": "Показатели влажности нестабильны",
+            "causes": "Износ контактной поверхности ухудшает проводимость через бельё",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-user-interface-board-malfunction",
+            "title": "Неисправность интерфейсной платы Whirlpool",
+            "sign": "Команды не передаются в систему",
+            "causes": "Локальный контроллер панели перестаёт обрабатывать нажатия",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-ribbon-cable-signal-loss",
+            "title": "Потеря сигнала в шлейфе Whirlpool",
+            "sign": "Дисплей работает некорректно",
+            "causes": "Нарушение целостности гибкого кабеля разрывает информационный поток",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-communication-protocol-disruption",
+            "title": "Нарушение протокола связи Whirlpool",
+            "sign": "Модули не синхронизируются между собой",
+            "causes": "Сбой цифрового обмена вызывает конфликт управляющих команд",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-thermal-cutoff-open",
+            "title": "Размыкание термопредохранителя Whirlpool",
+            "sign": "Нагрев полностью отключён",
+            "causes": "Предохранительный элемент разрывает цепь при экстремальном перегреве",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-airflow-restriction-accumulation",
+            "title": "Снижение воздушной проходимости Whirlpool",
+            "sign": "Сушка выполняется медленно",
+            "causes": "Скопление пуха внутри канала препятствует нормальной вентиляции",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-blower-wheel-obstruction",
+            "title": "Блокировка крыльчатки вентилятора Whirlpool",
+            "sign": "Поток воздуха ослаблен",
+            "causes": "Посторонние предметы ограничивают вращение турбины",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-line-voltage-imbalance",
+            "title": "Дисбаланс сетевого напряжения Whirlpool",
+            "sign": "Аппарат работает нестабильно",
+            "causes": "Разница потенциалов в фазах вызывает некорректную подачу энергии",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-terminal-block-heat-damage",
+            "title": "Тепловое повреждение клеммника Whirlpool",
+            "sign": "В зоне подключения заметен нагрев",
+            "causes": "Ослабленные контакты провоцируют локальное повышение температуры",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-noise-suppression-filter-failure",
+            "title": "Отказ фильтра подавления помех Whirlpool",
+            "sign": "Устройство периодически не запускается",
+            "causes": "Дефект фильтрующего узла нарушает стабильность питания",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-condensate-pump-impeller-jam",
+            "title": "Заклинивание крыльчатки насоса Whirlpool",
+            "sign": "Конденсат остаётся внутри системы",
+            "causes": "Инородные частицы блокируют вращение насосного механизма",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-channel-clog",
+            "title": "Засор дренажного канала Whirlpool",
+            "sign": "Удаление жидкости происходит неполностью",
+            "causes": "Накопленные отложения препятствуют свободному стеканию",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-water-level-pressure-switch-error",
+            "title": "Ошибка прессостата уровня воды Whirlpool",
+            "sign": "Система некорректно определяет объём конденсата",
+            "causes": "Датчик давления передаёт искажённые данные контроллеру",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-firmware-corruption-detected",
+            "title": "Обнаружено повреждение прошивки Whirlpool",
+            "sign": "Программы выполняются с нарушениями",
+            "causes": "Ошибки программного кода изменяют алгоритм работы устройства",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-eeprom-data-corruption",
+            "title": "Повреждение данных EEPROM Whirlpool",
+            "sign": "Настройки сбрасываются самостоятельно",
+            "causes": "Сбой энергонезависимой памяти приводит к утрате конфигурации",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-configuration-memory-mismatch",
+            "title": "Несоответствие параметров памяти Whirlpool",
+            "sign": "Режимы функционируют неправильно",
+            "causes": "Записанные параметры не совпадают с аппаратной спецификацией",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-power-supply-board-failure",
+            "title": "Неисправность платы питания Whirlpool",
+            "sign": "Устройство не запускается",
+            "causes": "Повреждение преобразователя напряжения блокирует работу системы",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-rectifier-diode-burn",
+            "title": "Перегорание выпрямительного диода Whirlpool",
+            "sign": "Питание подаётся нестабильно",
+            "causes": "Повреждённый диод нарушает процесс преобразования переменного тока",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-voltage-regulator-instability",
+            "title": "Нестабильность стабилизатора напряжения Whirlpool",
+            "sign": "Электроника функционирует с перебоями",
+            "causes": "Регулирующий компонент не удерживает заданный уровень питания",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-lock-solenoid-defect",
+            "title": "Неисправность соленоида блокировки Whirlpool",
+            "sign": "Люк не фиксируется автоматически",
+            "causes": "Электромагнитный привод не создаёт достаточное усилие для запирания",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-switch-alignment-error",
+            "title": "Нарушение выравнивания дверного выключателя Whirlpool",
+            "sign": "Система не распознаёт закрытие люка",
+            "causes": "Смещение крепления мешает корректной активации контакта",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-latch-sensor-signal-fault",
+            "title": "Сбой сигнала датчика защёлки Whirlpool",
+            "sign": "Запуск программы невозможен",
+            "causes": "Контрольный сенсор не передаёт подтверждение блокировки",
+            "slugs": []
+        }
+
+    ]
+}

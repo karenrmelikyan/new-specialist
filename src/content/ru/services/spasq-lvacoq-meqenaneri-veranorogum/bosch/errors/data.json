@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин Bosch",
+    "title": "Частые коды ошибок посудомоечных машин Bosch",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/bosch/errors/",
+
+    "items": [
+        {
+            "slug": "bosch-dishwasher-error-e01",
+            "title": "Ошибка E01 посудомоечной машины Bosch",
+            "sign": "Запуск невозможен, на дисплее отображается E01",
+            "causes": "Контроллер фиксирует утечку воды или присутствие влаги в нижнем отсеке",
+            "slugs": [
+                "bosch-base-tray-water-detection",
+                "bosch-float-switch-activated",
+                "bosch-internal-piping-leak"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e02",
+            "title": "Ошибка E02 посудомоечной машины Bosch",
+            "sign": "Мойка не стартует, система сигнализирует кодом E02",
+            "causes": "Впуск воды не достигает требуемого уровня в установленное время",
+            "slugs": [
+                "bosch-inlet-valve-obstruction",
+                "bosch-water-pressure-low",
+                "bosch-solenoid-valve-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e03",
+            "title": "Ошибка E03 посудомоечной машины Bosch",
+            "sign": "Вода не сливается, появляется код E03",
+            "causes": "Нарушена работа сливного насоса или каналов отвода жидкости",
+            "slugs": [
+                "bosch-drain-pump-jam",
+                "bosch-discharge-hose-blocked",
+                "bosch-filter-clogged"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e04",
+            "title": "Ошибка E04 посудомоечной машины Bosch",
+            "sign": "Программа прерывается во время нагрева воды, фиксируется E04",
+            "causes": "Температурный датчик сообщает некорректные значения модулю управления",
+            "slugs": [
+                "bosch-heating-element-burnout",
+                "bosch-thermal-sensor-malfunction",
+                "bosch-heater-relay-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e05",
+            "title": "Ошибка E05 посудомоечной машины Bosch",
+            "sign": "Циркуляционный насос не работает, выводится код E05",
+            "causes": "Двигатель не вращает воду по камере или блокируется электроникой",
+            "slugs": [
+                "bosch-circulation-motor-seizure",
+                "bosch-impeller-crack",
+                "bosch-motor-board-defect"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e06",
+            "title": "Ошибка E06 посудомоечной машины Bosch",
+            "sign": "Программа не стартует, дисплей показывает E06",
+            "causes": "Датчик уровня воды передает ошибочные сигналы",
+            "slugs": [
+                "bosch-pressure-switch-failure",
+                "bosch-air-trap-contamination",
+                "bosch-level-sensor-wiring-problem"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e07",
+            "title": "Ошибка E07 посудомоечной машины Bosch",
+            "sign": "Интерфейс не реагирует, появляется код E07",
+            "causes": "Нарушена коммуникация между панелью управления и основной платой",
+            "slugs": [
+                "bosch-ui-board-malfunction",
+                "bosch-ribbon-cable-disconnection",
+                "bosch-communication-bus-error"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e08",
+            "title": "Ошибка E08 посудомоечной машины Bosch",
+            "sign": "Цикл мойки выполняется неправильно, фиксируется E08",
+            "causes": "Датчик мутности воды передает искаженные данные",
+            "slugs": [
+                "bosch-turbidity-sensor-contamination",
+                "bosch-optical-module-failure",
+                "bosch-water-clarity-sensor-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e09",
+            "title": "Ошибка E09 посудомоечной машины Bosch",
+            "sign": "Сразу после включения появляется код E09",
+            "causes": "Внутренняя память контроллера повреждена или нестабильна",
+            "slugs": [
+                "bosch-eeprom-corruption",
+                "bosch-firmware-instability",
+                "bosch-configuration-data-loss"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e10",
+            "title": "Ошибка E10 посудомоечной машины Bosch",
+            "sign": "Вода не нагревается, выводится E10",
+            "causes": "Разрыв электрической цепи нагревательного узла",
+            "slugs": [
+                "bosch-heater-circuit-interruption",
+                "bosch-ntc-sensor-out-of-range",
+                "bosch-thermal-fuse-open"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e11",
+            "title": "Ошибка E11 посудомоечной машины Bosch",
+            "sign": "Двигатель не запускается, на дисплее E11",
+            "causes": "Сигнал обратной связи от тахогенератора отсутствует",
+            "slugs": [
+                "bosch-tacho-coil-damage",
+                "bosch-rotor-magnet-misalignment",
+                "bosch-speed-feedback-circuit-defect"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-e12",
+            "title": "Ошибка E12 посудомоечной машины Bosch",
+            "sign": "Аппарат не реагирует на команды, появляется E12",
+            "causes": "Критическая неисправность силовой части основной платы",
+            "slugs": [
+                "bosch-main-board-short-circuit",
+                "bosch-power-module-breakdown",
+                "bosch-voltage-regulation-failure"
+            ]
+        },
+
+        {
+            "slug": "bosch-base-tray-water-detection",
+            "title": "Обнаружение влаги в поддоне Bosch",
+            "sign": "Срабатывает аварийная защита, цикл прерывается",
+            "causes": "Накопление жидкости в нижнем отсеке из-за протечки или конденсата",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-float-switch-activated",
+            "title": "Срабатывание поплавкового выключателя Bosch",
+            "sign": "Цикл останавливается без предупреждения",
+            "causes": "Поплавковый датчик поднялся из-за попадания воды в базовый отсек",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-internal-piping-leak",
+            "title": "Протечка внутреннего трубопровода Bosch",
+            "sign": "Под прибором появляется жидкость",
+            "causes": "Соединительные шланги или уплотнители утратили герметичность из-за старения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-inlet-valve-obstruction",
+            "title": "Засор впускного клапана Bosch",
+            "sign": "Вода поступает медленно или отсутствует",
+            "causes": "Мелкие частицы и известковый налёт блокируют сетку клапана",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-water-pressure-low",
+            "title": "Недостаточный напор воды Bosch",
+            "sign": "Заполнение занимает слишком много времени",
+            "causes": "Давление в водопроводе ниже минимального порога для работы устройства",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-solenoid-valve-failure",
+            "title": "Сбой электромагнитного клапана Bosch",
+            "sign": "Клапан не открывается по команде контроллера",
+            "causes": "Заклинившая или повреждённая катушка препятствует подаче воды",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-pump-jam",
+            "title": "Заклинивание сливного насоса Bosch",
+            "sign": "Жидкость не удаляется из камеры",
+            "causes": "Мусор, мелкие предметы или известковые отложения блокируют лопасти",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-discharge-hose-blocked",
+            "title": "Засор сливного шланга Bosch",
+            "sign": "Слив воды затруднён или отсутствует",
+            "causes": "Перегибы, засоры или отложения препятствуют нормальному оттоку",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-filter-clogged",
+            "title": "Засор фильтрующего блока Bosch",
+            "sign": "На дне камеры скапливаются остатки пищи",
+            "causes": "Фильтр забит мелкими частицами, ограничивая циркуляцию воды",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-burnout",
+            "title": "Перегорание нагревательного элемента Bosch",
+            "sign": "Вода не нагревается до нужной температуры",
+            "causes": "Спираль термоэлемента утратила проводимость из-за перегрева или износа",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-thermal-sensor-malfunction",
+            "title": "Неточные показания термодатчика Bosch",
+            "sign": "Цикл нагрева завершается преждевременно или перегревается",
+            "causes": "Датчик передаёт отклонённые значения в модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-relay-failure",
+            "title": "Сбой реле нагревательного элемента Bosch",
+            "sign": "Элемент не включается при запуске программы",
+            "causes": "Заклинивший или повреждённый переключатель реле нарушает подачу тока",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-motor-seizure",
+            "title": "Заклинивание циркуляционного мотора Bosch",
+            "sign": "Распылительные коромысла не вращаются",
+            "causes": "Механические повреждения ротора или износ подшипников препятствуют вращению",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-impeller-crack",
+            "title": "Трещины крыльчатки насоса Bosch",
+            "sign": "Циркуляция воды нарушена, давление падает",
+            "causes": "Лопасти треснули или изношены, снижая эффективность насоса",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-board-defect",
+            "title": "Сбой платы управления мотором Bosch",
+            "sign": "Скорость двигателя регулируется нестабильно",
+            "causes": "Электронная схема управления получает искажённые сигналы или выходит из строя",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-pressure-switch-failure",
+            "title": "Сбой реле давления Bosch",
+            "sign": "Уровень воды определяется неправильно",
+            "causes": "Элемент контроля уровня не формирует корректный сигнал в модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-air-trap-contamination",
+            "title": "Засор воздушного затвора Bosch",
+            "sign": "Набор воды или слив нарушен",
+            "causes": "Канал гидростата забит посторонними частицами или известковыми отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-level-sensor-wiring-problem",
+            "title": "Проблемы проводки датчика уровня Bosch",
+            "sign": "Сигнал о количестве воды нестабилен",
+            "causes": "Ослабленный контакт или повреждённый провод препятствует корректной передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ui-board-malfunction",
+            "title": "Сбой платы интерфейса пользователя Bosch",
+            "sign": "Кнопки и сенсор не реагируют на нажатия",
+            "causes": "Электронный контроллер панели не передаёт команды основной плате",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ribbon-cable-disconnection",
+            "title": "Отсоединение шлейфа интерфейса Bosch",
+            "sign": "Дисплей мигает или отображает некорректные символы",
+            "causes": "Шлейф потерял контакт или повреждён, нарушая передачу сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-communication-bus-error",
+            "title": "Ошибка шины связи между платами Bosch",
+            "sign": "Модули не синхронизируются, возникают сбои работы",
+            "causes": "Повреждение линии передачи данных приводит к задержкам и сбоям управления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности воды Bosch",
+            "sign": "Цикл мойки выполняется неправильно",
+            "causes": "Ворс или остатки пищи на сенсоре искажают показатели мутности",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-optical-module-failure",
+            "title": "Сбой оптического модуля Bosch",
+            "sign": "Контроль прозрачности воды некорректен",
+            "causes": "Электронный элемент модуля передаёт искажённый сигнал в систему управления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-water-clarity-sensor-fault",
+            "title": "Ошибка контроля прозрачности воды Bosch",
+            "sign": "Машина завершает цикл с перебоями",
+            "causes": "Система контроля мутности воды получает неверные данные от датчиков",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-eeprom-corruption",
+            "title": "Повреждение памяти EEPROM Bosch",
+            "sign": "Программы запускаются с ошибками или зависают",
+            "causes": "Сбой микросхемы памяти нарушает последовательность выполнения команд",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-firmware-instability",
+            "title": "Нестабильность прошивки Bosch",
+            "sign": "Функции работают некорректно, цикл прерывается",
+            "causes": "Системное ПО содержит ошибки или повреждено во время обновления",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-configuration-data-loss",
+            "title": "Потеря конфигурационных данных Bosch",
+            "sign": "Режимы мойки выполняются с нарушениями",
+            "causes": "Системные настройки удалены или повреждены, что приводит к сбою алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-circuit-interruption",
+            "title": "Разрыв цепи нагревательного элемента Bosch",
+            "sign": "Нагрев воды не происходит",
+            "causes": "Проводка или спираль разомкнуты, нарушая процесс нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ntc-sensor-out-of-range",
+            "title": "Датчик NTC вне допустимого диапазона Bosch",
+            "sign": "Контроль температуры воды неверный",
+            "causes": "Термистор показывает значения за пределами нормального диапазона",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-thermal-fuse-open",
+            "title": "Разомкнутый термопредохранитель Bosch",
+            "sign": "Нагрев прекращается внезапно",
+            "causes": "Предохранительный элемент размыкает цепь при превышении критической температуры",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-tacho-coil-damage",
+            "title": "Повреждение катушки тахогенератора Bosch",
+            "sign": "Мотор не получает корректную обратную связь",
+            "causes": "Обрыв проводки или разрыв витков нарушает сигнал скорости вращения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-rotor-magnet-misalignment",
+            "title": "Смещение магнита ротора Bosch",
+            "sign": "Двигатель не запускается или работает нестабильно",
+            "causes": "Магнит ротора смещён или повреждён, снижая эффективность тахогенератора",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-speed-feedback-circuit-defect",
+            "title": "Сбой цепи обратной связи скорости Bosch",
+            "sign": "Контроллер не получает сигнал о вращении мотора",
+            "causes": "Неисправность электронного контура прерывает обратную связь скорости",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-main-board-short-circuit",
+            "title": "Короткое замыкание основной платы Bosch",
+            "sign": "Аппарат полностью не реагирует на команды",
+            "causes": "Силовые элементы платы замкнуты, блокируя работу контроллера",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-power-module-breakdown",
+            "title": "Выход из строя силового модуля Bosch",
+            "sign": "Электроника не получает стабильное питание",
+            "causes": "Повреждение элементов блока питания нарушает работу всей платы",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-voltage-regulation-failure",
+            "title": "Сбой регулирования напряжения Bosch",
+            "sign": "Функции контроллера нестабильны",
+            "causes": "Неисправность стабилизатора вызывает колебания питания и сбои работы модулей",
+            "slugs": []
+        }
+
+    ]
+}

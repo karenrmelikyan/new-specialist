@@ -1,0 +1,318 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин Indesit",
+    "title": "Частые коды ошибок посудомоечных машин Indesit",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/indesit/errors/",
+
+    "items": [
+        {
+            "slug": "indesit-dishwasher-error-e1",
+            "title": "Ошибка E1 посудомоечной машины Indesit",
+            "sign": "Вода не набирается или процесс заполнения прерывается",
+            "causes": "Сбой впускного клапана, низкое давление в системе или засор фильтра",
+            "slugs": [
+                "indesit-inlet-valve-failure",
+                "indesit-water-pressure-low",
+                "indesit-inlet-filter-blocked"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e2",
+            "title": "Ошибка E2 посудомоечной машины Indesit",
+            "sign": "Вода не сливается полностью, программа останавливается",
+            "causes": "Сбой сливного насоса, засор шланга или фильтра",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-drain-hose-obstruction",
+                "indesit-filter-chamber-blocked"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e3",
+            "title": "Ошибка E3 посудомоечной машины Indesit",
+            "sign": "Вода нагревается неправильно, температура не достигает нормы",
+            "causes": "Сбой нагревательного элемента, термодатчика или реле нагрева",
+            "slugs": [
+                "indesit-heating-element-fault",
+                "indesit-ntc-temperature-sensor-failure",
+                "indesit-heater-relay-failure"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e4",
+            "title": "Ошибка E4 посудомоечной машины Indesit",
+            "sign": "Перелив или подтопление фиксируется системой",
+            "causes": "Срабатывание защитного датчика от протечек или активация AquaStop",
+            "slugs": [
+                "indesit-overfill-sensor-triggered",
+                "indesit-aqua-protect-activation"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e5",
+            "title": "Ошибка E5 посудомоечной машины Indesit",
+            "sign": "Дверца не закрывается корректно, программа не запускается",
+            "causes": "Неисправность датчика дверцы или выравнивание защёлки нарушено",
+            "slugs": [
+                "indesit-door-sensor-fault",
+                "indesit-door-latch-misalignment"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e6",
+            "title": "Ошибка E6 посудомоечной машины Indesit",
+            "sign": "Сбой циркуляции воды внутри камеры",
+            "causes": "Заклинивание циркуляционного мотора, механическое препятствие в насосе",
+            "slugs": [
+                "indesit-circulation-motor-stall",
+                "indesit-pump-mechanical-obstruction"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e7",
+            "title": "Ошибка E7 посудомоечной машины Indesit",
+            "sign": "Контроллер фиксирует нестабильные показания уровня воды",
+            "causes": "Сбой прессостата, засор воздушной камеры или проблема с проводкой датчика",
+            "slugs": [
+                "indesit-pressure-switch-error",
+                "indesit-air-chamber-blocked",
+                "indesit-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e8",
+            "title": "Ошибка E8 посудомоечной машины Indesit",
+            "sign": "Система не определяет мутность воды корректно",
+            "causes": "Загрязнение датчика мутности, сбой оптического модуля или цепи контроля мутности",
+            "slugs": [
+                "indesit-turbidity-sensor-contamination",
+                "indesit-optical-module-failure",
+                "indesit-water-clarity-circuit-error"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e9",
+            "title": "Ошибка E9 посудомоечной машины Indesit",
+            "sign": "Защита от протечек активирована",
+            "causes": "Срабатывание AquaStop из-за обнаруженной влаги под основанием",
+            "slugs": [
+                "indesit-aqua-protect-activation"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e10",
+            "title": "Ошибка E10 посудомоечной машины Indesit",
+            "sign": "Неправильная работа нагрева воды, программа прерывается",
+            "causes": "Разрыв цепи нагревательного элемента или сбой платы управления нагревом",
+            "slugs": [
+                "indesit-heater-circuit-interruption",
+                "indesit-heating-control-board-error"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e11",
+            "title": "Ошибка E11 посудомоечной машины Indesit",
+            "sign": "Дверца открывается или не фиксируется, блокировка не срабатывает",
+            "causes": "Сбой разъёма дверного выключателя или окисление контактов",
+            "slugs": [
+                "indesit-door-switch-connector-issue",
+                "indesit-sensor-connector-oxidation"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-e12",
+            "title": "Ошибка E12 посудомоечной машины Indesit",
+            "sign": "Контроллер получает противоречивые данные о температуре воды",
+            "causes": "Сбой цепи обратной связи температуры",
+            "slugs": [
+                "indesit-temperature-feedback-circuit-fault"
+            ]
+        },
+
+        {
+            "slug": "indesit-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Indesit",
+            "sign": "Вода не поступает в камеру",
+            "causes": "Катушка клапана перегорела или механизм заклинил",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-pressure-low",
+            "title": "Низкое давление воды Indesit",
+            "sign": "Заполнение происходит медленно или прерывается",
+            "causes": "Слабый напор в магистрали или частично закрыт кран",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-inlet-filter-blocked",
+            "title": "Засор входного фильтра Indesit",
+            "sign": "Вода поступает нестабильно",
+            "causes": "Мелкие частицы и накипь препятствуют свободному прохождению",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-pump-failure",
+            "title": "Сбой сливного насоса Indesit",
+            "sign": "Помпа не запускается",
+            "causes": "Неисправность мотора или обрыв обмотки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-hose-obstruction",
+            "title": "Засор сливного шланга Indesit",
+            "sign": "Слив воды прерывается",
+            "causes": "Перегибы, остатки пищи или отложения перекрывают поток",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-filter-chamber-blocked",
+            "title": "Блокировка фильтровой камеры Indesit",
+            "sign": "Система слива работает нестабильно",
+            "causes": "Фильтр забит загрязнениями, мешая нормальному отведению жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-fault",
+            "title": "Неисправность нагревательного элемента Indesit",
+            "sign": "Вода не нагревается",
+            "causes": "Спираль перегорела или разомкнута цепь питания",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-ntc-temperature-sensor-failure",
+            "title": "Сбой NTC‑датчика температуры Indesit",
+            "sign": "Контроллер получает неверные показатели",
+            "causes": "Термистор деградировал или повреждён",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heater-relay-failure",
+            "title": "Неисправность реле нагрева Indesit",
+            "sign": "Элемент нагрева не включается",
+            "causes": "Заклинивший переключатель или перегоревший контакт",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-overfill-sensor-triggered",
+            "title": "Активация защиты от переполнения Indesit",
+            "sign": "Система прекращает набор воды",
+            "causes": "Датчик фиксирует превышение допустимого уровня",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-aqua-protect-activation",
+            "title": "Срабатывание AquaProtect Indesit",
+            "sign": "Набор воды блокируется",
+            "causes": "Протечка уплотнений, трещины в поддоне или ослабленные соединения",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-sensor-fault",
+            "title": "Сбой датчика дверцы Indesit",
+            "sign": "Контроллер не фиксирует закрытие дверцы",
+            "causes": "Сломанный сенсор или износ механизма",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-latch-misalignment",
+            "title": "Нарушение выравнивания защёлки дверцы Indesit",
+            "sign": "Люк не фиксируется корректно",
+            "causes": "Петли смещены или механизм защёлки изношен",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-switch-connector-issue",
+            "title": "Проблема с разъёмом дверного выключателя Indesit",
+            "sign": "Сигнал о закрытии дверцы нестабилен",
+            "causes": "Ослабленные контакты или окисление разъёма",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-sensor-connector-oxidation",
+            "title": "Окисление разъёма сенсора Indesit",
+            "sign": "Сигнал датчика нестабилен или отсутствует",
+            "causes": "Окисление клемм мешает корректной передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-motor-stall",
+            "title": "Заклинивание циркуляционного мотора Indesit",
+            "sign": "Циркуляция воды нестабильна",
+            "causes": "Механическая блокировка ротора или износ подшипников",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-pump-mechanical-obstruction",
+            "title": "Механическое препятствие в насосе Indesit",
+            "sign": "Помпа не прокачивает воду",
+            "causes": "Инородные предметы попали внутрь корпуса помпы",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-pressure-switch-error",
+            "title": "Сбой прессостата Indesit",
+            "sign": "Уровень воды определяется неверно",
+            "causes": "Засор гидростата или потеря чувствительности датчика",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-air-chamber-blocked",
+            "title": "Засор воздушной камеры Indesit",
+            "sign": "Контроллер не может определить уровень воды",
+            "causes": "Канал гидростата забит остатками пищи или минеральными отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-sensor-wiring-issue",
+            "title": "Проблема проводки датчика уровня Indesit",
+            "sign": "Сигнал о наполнении нестабилен",
+            "causes": "Ослабленные контакты или повреждение проводников",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности Indesit",
+            "sign": "Контроллер получает некорректные данные",
+            "causes": "Налёт на сенсор препятствует корректному измерению мутности",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-optical-module-failure",
+            "title": "Сбой оптического модуля Indesit",
+            "sign": "Система мутности работает неправильно",
+            "causes": "Нарушение функционирования светового источника или фотоприёмника",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-clarity-circuit-error",
+            "title": "Ошибка цепи контроля мутности воды Indesit",
+            "sign": "Данные о мутности воды противоречивы",
+            "causes": "Элементы электронной цепи вышли из рабочей зоны",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heater-circuit-interruption",
+            "title": "Разрыв цепи нагревательного элемента Indesit",
+            "sign": "Элемент нагрева не активируется",
+            "causes": "Обрыв проводника или дефект пайки разрывает путь питания",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-control-board-error",
+            "title": "Сбой платы управления нагревом Indesit",
+            "sign": "Система нагрева функционирует нестабильно",
+            "causes": "Неисправность элементов печатной платы или питание модуля нарушено",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-temperature-feedback-circuit-fault",
+            "title": "Сбой цепи обратной связи температуры Indesit",
+            "sign": "Контроллер получает противоречивые показатели температуры",
+            "causes": "Нарушение цепи следующей за термодатчиком электроники",
+            "slugs": []
+        }
+    ]
+}

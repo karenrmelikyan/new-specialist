@@ -3,21 +3,6 @@ import Icon from '../components/Icon.astro'
 import getFilteredIssues from '../../public/js/build/getFilteredIssues.mjs'
 import ENV from '../../src/content/ru/env.json'
 
-// Washers
-import washerIssuesRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/data.json'
-import washerIssuesAristonRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/ariston/data.json'
-import washerIssuesIndesitRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/indesit/data.json'
-import washerIssuesCandyRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/candy/data.json'
-import washerIssuesSamsungRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/samsung/data.json'
-import washerIssuesLgRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/lg/data.json'
-import washerIssuesDaewooRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/daewoo/data.json'
-import washerIssuesBoschRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/bosch/data.json'
-import washerIssuesAegRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/aeg/data.json'
-import washerIssuesGorenjeRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/gorenje/data.json'
-import washerIssuesElectroluxRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/electrolux/data.json'
-import washerIssuesZanussiRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/zanussi/data.json'
-import washerIssuesBekoRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/beko/data.json'
-
 // Fridges
 import fridgeIssuesRu from '../content/ru/services/sarnaranneri-veranorogum/data.json'
 import fridgeIssuesHisenseRu from '../content/ru/services/sarnaranneri-veranorogum/hisense/data.json'
@@ -33,22 +18,20 @@ import fridgeIssuesElectroluxRu from '../content/ru/services/sarnaranneri-verano
 import fridgeIssuesSharpRu from '../content/ru/services/sarnaranneri-veranorogum/sharp/data.json'
 import fridgeIssuesWhirlpoolRu from '../content/ru/services/sarnaranneri-veranorogum/whirlpool/data.json'
 
-// Dishwashers
-import dishwasherIssuesRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/data.json'
-import dishwasherIssuesHisenseRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/hisense/data.json'
-import dishwasherIssuesIndesitRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/indesit/data.json'
-import dishwasherIssuesAegRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/aeg/data.json'
-import dishwasherIssuesSamsungRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/samsung/data.json'
-import dishwasherIssuesLgRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/lg/data.json'
-import dishwasherIssuesMieleRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/miele/data.json'
-import dishwasherIssuesBoschRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/bosch/data.json'
-import dishwasherIssuesHansaRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/hansa/data.json'
-import dishwasherIssuesGorenjeRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/gorenje/data.json'
-import dishwasherIssuesElectroluxRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/electrolux/data.json'
-import dishwasherIssuesSiemensRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/siemens/data.json'
-import dishwasherIssuesWhirlpoolRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/whirlpool/data.json'
-import dishwasherIssuesAristonRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/ariston/data.json'
-import dishwasherIssuesCandyRu from '../content/ru/services/spasq-lvacox-meqenaneri-veranorogum/candy/data.json'
+// Washers
+import washerIssuesRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/data.json'
+import washerIssuesAristonRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/ariston/data.json'
+import washerIssuesIndesitRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/indesit/data.json'
+import washerIssuesCandyRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/candy/data.json'
+import washerIssuesSamsungRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/samsung/data.json'
+import washerIssuesLgRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/lg/data.json'
+import washerIssuesDaewooRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/daewoo/data.json'
+import washerIssuesBoschRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/bosch/data.json'
+import washerIssuesAegRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/aeg/data.json'
+import washerIssuesGorenjeRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/gorenje/data.json'
+import washerIssuesElectroluxRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/electrolux/data.json'
+import washerIssuesZanussiRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/zanussi/data.json'
+import washerIssuesBekoRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/beko/data.json'
 
 // Dryers
 import dryerIssuesRu from '../content/ru/services/avtomat-choranocneri-veranorogum/data.json'
@@ -65,12 +48,72 @@ import dryerIssuesElectroluxRu from '../content/ru/services/avtomat-choranocneri
 import dryerIssuesBekoRu from '../content/ru/services/avtomat-choranocneri-veranorogum/beko/data.json'
 import dryerIssuesWhirlpoolRu from '../content/ru/services/avtomat-choranocneri-veranorogum/whirlpool/data.json'
 
+import dryerIssuesHisenseErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/hisense/errors/data.json'
+import dryerIssuesIndesitErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/indesit/errors/data.json'
+import dryerIssuesAegErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/aeg/errors/data.json'
+import dryerIssuesSamsungErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/samsung/errors/data.json'
+import dryerIssuesLgErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/lg/errors/data.json'
+import dryerIssuesMieleErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/miele/errors/data.json'
+import dryerIssuesBoschErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/bosch/errors/data.json'
+import dryerIssuesSharpErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/sharp/errors/data.json'
+import dryerIssuesGorenjeErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/gorenje/errors/data.json'
+import dryerIssuesElectroluxErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/electrolux/errors/data.json'
+import dryerIssuesBekoErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/beko/errors/data.json'
+import dryerIssuesWhirlpoolErrorsRu from '../content/ru/services/avtomat-choranocneri-veranorogum/whirlpool/errors/data.json'
+
+// Dishwashers
+import dishwasherIssuesRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/data.json'
+import dishwasherIssuesHisenseRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/hisense/data.json'
+import dishwasherIssuesIndesitRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/indesit/data.json'
+import dishwasherIssuesAegRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/aeg/data.json'
+import dishwasherIssuesSamsungRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/samsung/data.json'
+import dishwasherIssuesLgRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/lg/data.json'
+import dishwasherIssuesMieleRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/miele/data.json'
+import dishwasherIssuesBoschRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/bosch/data.json'
+import dishwasherIssuesHansaRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/hansa/data.json'
+import dishwasherIssuesGorenjeRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/gorenje/data.json'
+import dishwasherIssuesElectroluxRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/electrolux/data.json'
+import dishwasherIssuesSiemensRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/siemens/data.json'
+import dishwasherIssuesWhirlpoolRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/whirlpool/data.json'
+import dishwasherIssuesAristonRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/ariston/data.json'
+import dishwasherIssuesCandyRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/candy/data.json'
+
+import dishwasherIssuesHisenseErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/hisense/errors/data.json'
+import dishwasherIssuesIndesitErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/indesit/errors/data.json'
+import dishwasherIssuesAegErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/aeg/errors/data.json'
+import dishwasherIssuesSamsungErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/samsung/errors/data.json'
+import dishwasherIssuesLgErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/lg/errors/data.json'
+import dishwasherIssuesMieleErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/miele/errors/data.json'
+import dishwasherIssuesBoschErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/bosch/errors/data.json'
+import dishwasherIssuesHansaErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/hansa/errors/data.json'
+import dishwasherIssuesGorenjeErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/gorenje/errors/data.json'
+import dishwasherIssuesElectroluxErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/electrolux/errors/data.json'
+import dishwasherIssuesSiemensErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/siemens/errors/data.json'
+import dishwasherIssuesWhirlpoolErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/whirlpool/errors/data.json'
+import dishwasherIssuesAristonErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/ariston/errors/data.json'
+import dishwasherIssuesCandyErrorsRu from '../content/ru/services/spasq-lvacoq-meqenaneri-veranorogum/candy/errors/data.json'
+
 var localization = ''
 
 // Define localization by URL
 Astro.url.pathname.includes('/ru/') 
     ? localization = '/ru/' 
     : localization = ''
+
+// Fridges
+let fridgeIssues = fridgeIssuesRu
+let fridgeIssuesHisense = fridgeIssuesHisenseRu
+let fridgeIssuesIndesit = fridgeIssuesIndesitRu
+let fridgeIssuesLiebherr = fridgeIssuesLiebherrRu
+let fridgeIssuesSamsung = fridgeIssuesSamsungRu
+let fridgeIssuesLg = fridgeIssuesLgRu
+let fridgeIssuesSharp = fridgeIssuesSharpRu
+let fridgeIssuesBosch = fridgeIssuesBoschRu
+let fridgeIssuesToshiba = fridgeIssuesToshibaRu
+let fridgeIssuesGorenje = fridgeIssuesGorenjeRu
+let fridgeIssuesElectrolux = fridgeIssuesElectroluxRu
+let fridgeIssuesHitachi = fridgeIssuesHitachiRu
+let fridgeIssuesWhirlpool = fridgeIssuesWhirlpoolRu
 
 // Washers
 let washerIssues = washerIssuesRu
@@ -87,20 +130,33 @@ let washerIssuesElectrolux = washerIssuesElectroluxRu
 let washerIssuesZanussi = washerIssuesZanussiRu
 let washerIssuesBeko = washerIssuesBekoRu
 
-// Fridges
-let fridgeIssues = fridgeIssuesRu
-let fridgeIssuesHisense = fridgeIssuesHisenseRu
-let fridgeIssuesIndesit = fridgeIssuesIndesitRu
-let fridgeIssuesLiebherr = fridgeIssuesLiebherrRu
-let fridgeIssuesSamsung = fridgeIssuesSamsungRu
-let fridgeIssuesLg = fridgeIssuesLgRu
-let fridgeIssuesSharp = fridgeIssuesSharpRu
-let fridgeIssuesBosch = fridgeIssuesBoschRu
-let fridgeIssuesToshiba = fridgeIssuesToshibaRu
-let fridgeIssuesGorenje = fridgeIssuesGorenjeRu
-let fridgeIssuesElectrolux = fridgeIssuesElectroluxRu
-let fridgeIssuesHitachi = fridgeIssuesHitachiRu
-let fridgeIssuesWhirlpool = fridgeIssuesWhirlpoolRu
+// Dryers
+let dryerIssues = dryerIssuesRu
+let dryerIssuesHisense = dryerIssuesHisenseRu
+let dryerIssuesIndesit = dryerIssuesIndesitRu
+let dryerIssuesBeko = dryerIssuesBekoRu
+let dryerIssuesSamsung = dryerIssuesSamsungRu
+let dryerIssuesLg = dryerIssuesLgRu
+let dryerIssuesMiele = dryerIssuesMieleRu
+let dryerIssuesBosch = dryerIssuesBoschRu
+let dryerIssuesAeg = dryerIssuesAegRu
+let dryerIssuesGorenje = dryerIssuesGorenjeRu
+let dryerIssuesElectrolux = dryerIssuesElectroluxRu
+let dryerIssuesSharp = dryerIssuesSharpRu
+let dryerIssuesWhirlpool = dryerIssuesWhirlpoolRu
+
+let dryerIssuesHisenseErrors = dryerIssuesHisenseErrorsRu
+let dryerIssuesIndesitErrors = dryerIssuesIndesitErrorsRu
+let dryerIssuesBekoErrors = dryerIssuesBekoErrorsRu
+let dryerIssuesSamsungErrors = dryerIssuesSamsungErrorsRu
+let dryerIssuesLgErrors = dryerIssuesLgErrorsRu
+let dryerIssuesMieleErrors = dryerIssuesMieleErrorsRu
+let dryerIssuesBoschErrors = dryerIssuesBoschErrorsRu
+let dryerIssuesAegErrors = dryerIssuesAegErrorsRu
+let dryerIssuesGorenjeErrors = dryerIssuesGorenjeErrorsRu
+let dryerIssuesElectroluxErrors = dryerIssuesElectroluxErrorsRu
+let dryerIssuesSharpErrors = dryerIssuesSharpErrorsRu
+let dryerIssuesWhirlpoolErrors = dryerIssuesWhirlpoolErrorsRu
 
 // Dishwashers
 let dishwasherIssues = dishwasherIssuesRu
@@ -119,25 +175,26 @@ let dishwasherIssuesWhirlpool = dishwasherIssuesWhirlpoolRu
 let dishwasherIssuesAriston = dishwasherIssuesAristonRu
 let dishwasherIssuesCandy = dishwasherIssuesCandyRu
 
-// Dryers
-let dryerIssues = dryerIssuesRu
-let dryerIssuesHisense = dryerIssuesHisenseRu
-let dryerIssuesIndesit = dryerIssuesIndesitRu
-let dryerIssuesBeko = dryerIssuesBekoRu
-let dryerIssuesSamsung = dryerIssuesSamsungRu
-let dryerIssuesLg = dryerIssuesLgRu
-let dryerIssuesMiele = dryerIssuesMieleRu
-let dryerIssuesBosch = dryerIssuesBoschRu
-let dryerIssuesAeg = dryerIssuesAegRu
-let dryerIssuesGorenje = dryerIssuesGorenjeRu
-let dryerIssuesElectrolux = dryerIssuesElectroluxRu
-let dryerIssuesSharp = dryerIssuesSharpRu
-let dryerIssuesWhirlpool = dryerIssuesWhirlpoolRu
+let dishwasherIssuesHisenseErrors = dishwasherIssuesHisenseErrorsRu
+let dishwasherIssuesIndesitErrors = dishwasherIssuesIndesitErrorsRu
+let dishwasherIssuesHansaErrors = dishwasherIssuesHansaErrorsRu
+let dishwasherIssuesSamsungErrors = dishwasherIssuesSamsungErrorsRu
+let dishwasherIssuesLgErrors = dishwasherIssuesLgErrorsRu
+let dishwasherIssuesMieleErrors = dishwasherIssuesMieleErrorsRu
+let dishwasherIssuesBoschErrors = dishwasherIssuesBoschErrorsRu
+let dishwasherIssuesAegErrors = dishwasherIssuesAegErrorsRu
+let dishwasherIssuesGorenjeErrors = dishwasherIssuesGorenjeErrorsRu
+let dishwasherIssuesElectroluxErrors = dishwasherIssuesElectroluxErrorsRu
+let dishwasherIssuesSiemensErrors = dishwasherIssuesSiemensErrorsRu
+let dishwasherIssuesWhirlpoolErrors = dishwasherIssuesWhirlpoolErrorsRu
+let dishwasherIssuesAristonErrors = dishwasherIssuesAristonErrorsRu
+let dishwasherIssuesCandyErrors = dishwasherIssuesCandyErrorsRu
 
-const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.parentURL, 0, 12)
+
 const commonFridgeIssues = getFilteredIssues(fridgeIssues.items, fridgeIssues.parentURL, 0, 12)
-const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwasherIssues.parentURL, 0, 12)
+const commonWasherIssues = getFilteredIssues(washerIssues.items, washerIssues.parentURL, 0, 12)
 const commonDryerIssues = getFilteredIssues(dryerIssues.items, dryerIssues.parentURL, 0, 12)
+const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwasherIssues.parentURL, 0, 12)
 ---
 
 <section class="mega" data-mega-menu>
@@ -179,16 +236,62 @@ const commonDryerIssues = getFilteredIssues(dryerIssues.items, dryerIssues.paren
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт бытовой техники на дому</div>
                         <ul>
-                            <li data-category="washer">Ремонт стиральных машин</li>
                             <li data-category="fridge"> Ремонт холодильников</li>
-                            <li data-category="dishwasher">Ремонт посудомоечных машин</li>
+                            <li data-category="washer">Ремонт стиральных машин</li>
                             <li data-category="dryer">Ремонт сушильных машин</li>
+                            <li data-category="dishwasher">Ремонт посудомоечных машин</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- PANEL: БЫТОВЫЕ УСЛУГИ -->
+            <!-- PANEL: FRIDGE -->
+              <div class="panel" data-panel="fridge">
+                <div class="mega-title" role="heading" aria-level="2">{fridgeIssues.indexPageTitle}</div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
+                        <ul>
+                            <li><a href={fridgeIssues.parentURL}>{fridgeIssues.indexPageTitle}</a></li>
+                            {commonFridgeIssues.map(issue => (
+                                <li><a href={issue.href}>{issue.title}</a></li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
+                        <ul>
+                            <li><a href={fridgeIssuesLg.parentURL}>{fridgeIssuesLg.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesIndesit.parentURL}>{fridgeIssuesIndesit.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesHisense.parentURL}>{fridgeIssuesHisense.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesSamsung.parentURL}>{fridgeIssuesSamsung.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesHitachi.parentURL}>{fridgeIssuesHitachi.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesBosch.parentURL}>{fridgeIssuesBosch.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesSharp.parentURL}>{fridgeIssuesSharp.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesGorenje.parentURL}>{fridgeIssuesGorenje.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesElectrolux.parentURL}>{fridgeIssuesElectrolux.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesToshiba.parentURL}>{fridgeIssuesToshiba.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesWhirlpool.parentURL}>{fridgeIssuesWhirlpool.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesLiebherr.parentURL}>{fridgeIssuesLiebherr.indexPageTitle}</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
+                        <ul>
+                            <li>Установка холодильников</li>
+                            <li>Установка стиральных машин</li>
+                            <li>Установка посудомоечных машин</li>
+                            <li>Установка сушильных машин</li>
+                            <li>Установка газовых плит</li>
+                            <li>Установка электрических плит</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PANEL: WASHERS -->
             <div class="panel" data-panel="washer">
                 <div class="mega-title" role="heading" aria-level="2">{washerIssues.indexPageTitle}</div>
                 <div class="columns">
@@ -234,14 +337,15 @@ const commonDryerIssues = getFilteredIssues(dryerIssues.items, dryerIssues.paren
                 </div>
             </div>
 
-            <div class="panel" data-panel="fridge">
-                <div class="mega-title" role="heading" aria-level="2">{fridgeIssues.indexPageTitle}</div>
+            <!-- PANEL: DRYERS -->
+            <div class="panel" data-panel="dryer">
+                <div class="mega-title" role="heading" aria-level="2">Ремонт сушильных машин</div>
                 <div class="columns">
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
                         <ul>
-                            <li><a href={fridgeIssues.parentURL}>{fridgeIssues.indexPageTitle}</a></li>
-                            {commonFridgeIssues.map(issue => (
+                            <li><a href={dryerIssues.parentURL}>{dryerIssues.indexPageTitle}</a></li>
+                            {commonDryerIssues.map(issue => (
                                 <li><a href={issue.href}>{issue.title}</a></li>
                             ))}
                         </ul>
@@ -250,36 +354,42 @@ const commonDryerIssues = getFilteredIssues(dryerIssues.items, dryerIssues.paren
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
                         <ul>
-                            <li><a href={fridgeIssuesLg.parentURL}>{fridgeIssuesLg.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesIndesit.parentURL}>{fridgeIssuesIndesit.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesHisense.parentURL}>{fridgeIssuesHisense.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesSamsung.parentURL}>{fridgeIssuesSamsung.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesHitachi.parentURL}>{fridgeIssuesHitachi.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesBosch.parentURL}>{fridgeIssuesBosch.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesSharp.parentURL}>{fridgeIssuesSharp.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesGorenje.parentURL}>{fridgeIssuesGorenje.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesElectrolux.parentURL}>{fridgeIssuesElectrolux.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesToshiba.parentURL}>{fridgeIssuesToshiba.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesWhirlpool.parentURL}>{fridgeIssuesWhirlpool.indexPageTitle}</a></li>
-                            <li><a href={fridgeIssuesLiebherr.parentURL}>{fridgeIssuesLiebherr.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesLg.parentURL}>{dryerIssuesLg.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesIndesit.parentURL}>{dryerIssuesIndesit.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesHisense.parentURL}>{dryerIssuesHisense.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesSamsung.parentURL}>{dryerIssuesSamsung.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesBeko.parentURL}>{dryerIssuesBeko.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesBosch.parentURL}>{dryerIssuesBosch.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesAeg.parentURL}>{dryerIssuesAeg.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesGorenje.parentURL}>{dryerIssuesGorenje.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesElectrolux.parentURL}>{dryerIssuesElectrolux.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesMiele.parentURL}>{dryerIssuesMiele.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesWhirlpool.parentURL}>{dryerIssuesWhirlpool.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesSharp.parentURL}>{dryerIssuesSharp.indexPageTitle}</a></li>
                         </ul>
                     </div>
 
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
-                            <li>Установка холодильников</li>
-                            <li>Установка стиральных машин</li>
-                            <li>Установка посудомоечных машин</li>
-                            <li>Установка сушильных машин</li>
-                            <li>Установка газовых плит</li>
-                            <li>Установка электрических плит</li>
+                            <li><a href={dryerIssuesLgErrors.parentURL}>{dryerIssuesLgErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesIndesitErrors.parentURL}>{dryerIssuesIndesitErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesHisenseErrors.parentURL}>{dryerIssuesHisenseErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesSamsungErrors.parentURL}>{dryerIssuesSamsungErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesBekoErrors.parentURL}>{dryerIssuesBekoErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesBoschErrors.parentURL}>{dryerIssuesBoschErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesAegErrors.parentURL}>{dryerIssuesAegErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesGorenjeErrors.parentURL}>{dryerIssuesGorenjeErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesElectroluxErrors.parentURL}>{dryerIssuesElectroluxErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesMieleErrors.parentURL}>{dryerIssuesMieleErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesWhirlpoolErrors.parentURL}>{dryerIssuesWhirlpoolErrors.indexPageTitle}</a></li>
+                            <li><a href={dryerIssuesSharpErrors.parentURL}>{dryerIssuesSharpErrors.indexPageTitle}</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- PANEL: ЭЛЕКТРИКА -->
+            <!-- PANEL: DISHWASHERS -->
             <div class="panel" data-panel="dishwasher">
                 <div class="mega-title" role="heading" aria-level="2">Ремонт посудомоечных машин</div>
                 <div class="columns">
@@ -316,58 +426,20 @@ const commonDryerIssues = getFilteredIssues(dryerIssues.items, dryerIssues.paren
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
-                            <li>Установка холодильников</li>
-                            <li>Установка стиральных машин</li>
-                            <li>Установка посудомоечных машин</li>
-                            <li>Установка сушильных машин</li>
-                            <li>Установка газовых плит</li>
-                            <li>Установка электрических плит</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PANEL: САНТЕХНИКА -->
-            <div class="panel" data-panel="dryer">
-                <div class="mega-title" role="heading" aria-level="2">Ремонт сушильных машин</div>
-                <div class="columns">
-                    <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по дефектам</div>
-                        <ul>
-                            <li><a href={dryerIssues.parentURL}>{dryerIssues.indexPageTitle}</a></li>
-                            {commonDryerIssues.map(issue => (
-                                <li><a href={issue.href}>{issue.title}</a></li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по брендам</div>
-                        <ul>
-                            <li><a href={dryerIssuesLg.parentURL}>{dryerIssuesLg.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesIndesit.parentURL}>{dryerIssuesIndesit.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesHisense.parentURL}>{dryerIssuesHisense.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesSamsung.parentURL}>{dryerIssuesSamsung.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesBeko.parentURL}>{dryerIssuesBeko.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesBosch.parentURL}>{dryerIssuesBosch.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesAeg.parentURL}>{dryerIssuesAeg.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesGorenje.parentURL}>{dryerIssuesGorenje.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesElectrolux.parentURL}>{dryerIssuesElectrolux.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesMiele.parentURL}>{dryerIssuesMiele.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesWhirlpool.parentURL}>{dryerIssuesWhirlpool.indexPageTitle}</a></li>
-                            <li><a href={dryerIssuesSharp.parentURL}>{dryerIssuesSharp.indexPageTitle}</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="column">
-                        <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
-                        <ul>
-                            <li>Установка холодильников</li>
-                            <li>Установка стиральных машин</li>
-                            <li>Установка посудомоечных машин</li>
-                            <li>Установка сушильных машин</li>
-                            <li>Установка газовых плит</li>
-                            <li>Установка электрических плит</li>
+                            <li><a href={dishwasherIssuesLgErrors.parentURL}>{dishwasherIssuesLgErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesAristonErrors.parentURL}>{dishwasherIssuesAristonErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesIndesitErrors.parentURL}>{dishwasherIssuesIndesitErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesHisenseErrors.parentURL}>{dishwasherIssuesHisenseErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesSamsungErrors.parentURL}>{dishwasherIssuesSamsungErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesHansaErrors.parentURL}>{dishwasherIssuesHansaErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesBoschErrors.parentURL}>{dishwasherIssuesBoschErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesAegErrors.parentURL}>{dishwasherIssuesAegErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesGorenjeErrors.parentURL}>{dishwasherIssuesGorenjeErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesElectroluxErrors.parentURL}>{dishwasherIssuesElectroluxErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesMieleErrors.parentURL}>{dishwasherIssuesMieleErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesWhirlpoolErrors.parentURL}>{dishwasherIssuesWhirlpoolErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesSiemensErrors.parentURL}>{dishwasherIssuesSiemensErrors.indexPageTitle}</a></li>
+                            <li><a href={dishwasherIssuesCandyErrors.parentURL}>{dishwasherIssuesCandyErrors.indexPageTitle}</a></li>
                         </ul>
                     </div>
                 </div>

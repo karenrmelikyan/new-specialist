@@ -1,0 +1,448 @@
+{
+    "indexPageTitle": "Ремонт посудомоечных машин Whirlpool",
+    "title": "Частые поломки посудомоечных машин Whirlpool",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/whirlpool/",
+
+    "items": [
+        {
+            "slug": "whirlpool-dishwasher-not-turning-on",
+            "title": "Посудомоечная машина Whirlpool не включается",
+            "sign": "При нажатии кнопки питания техника полностью не реагирует, индикация отсутствует.",
+            "causes": "Проблемы с электропитанием, неисправность сетевого фильтра или отказ электронной платы.",
+            "slugs": [
+                "whirlpool-power-cord-damage",
+                "whirlpool-noise-filter-failure",
+                "whirlpool-main-control-board-fault",
+                "whirlpool-power-button-malfunction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-draining",
+            "title": "Посудомоечная машина Whirlpool не сливает воду",
+            "sign": "После окончания цикла в камере остается стоячая вода.",
+            "causes": "Засор сливной системы либо поломка сливного насоса.",
+            "slugs": [
+                "whirlpool-drain-pump-failure",
+                "whirlpool-drain-hose-blockage",
+                "whirlpool-drain-filter-clog",
+                "whirlpool-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-filling-with-water",
+            "title": "Посудомоечная машина Whirlpool не набирает воду",
+            "sign": "Программа запускается, но вода в бак не поступает.",
+            "causes": "Неисправность впускного клапана, датчика уровня или системы AquaStop.",
+            "slugs": [
+                "whirlpool-water-inlet-valve-failure",
+                "whirlpool-aquastop-activation",
+                "whirlpool-pressure-switch-defect",
+                "whirlpool-flow-meter-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-heating-water",
+            "title": "Посудомоечная машина Whirlpool не греет воду",
+            "sign": "Мойка проходит в холодной воде, посуда остается жирной.",
+            "causes": "Выход из строя нагревателя, температурного датчика или реле нагрева.",
+            "slugs": [
+                "whirlpool-heating-element-failure",
+                "whirlpool-ntc-sensor-defect",
+                "whirlpool-heater-relay-fault",
+                "whirlpool-control-board-heating-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-drying-dishes",
+            "title": "Посудомоечная машина Whirlpool не сушит посуду",
+            "sign": "По завершении цикла посуда остается влажной.",
+            "causes": "Сбой системы сушки, проблемы с нагревом или вентилятором.",
+            "slugs": [
+                "whirlpool-drying-fan-failure",
+                "whirlpool-heating-element-weak-output",
+                "whirlpool-turbo-dry-module-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-leaking-water",
+            "title": "Посудомоечная машина Whirlpool протекает",
+            "sign": "Под корпусом или возле дверцы появляется вода.",
+            "causes": "Повреждение уплотнителя, трещина бака или срабатывание системы защиты от протечек.",
+            "slugs": [
+                "whirlpool-door-seal-damage",
+                "whirlpool-tank-crack",
+                "whirlpool-aquastop-leak-detected",
+                "whirlpool-hose-connection-loose"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-starting-program",
+            "title": "Посудомоечная машина Whirlpool не запускает программу",
+            "sign": "Выбор режима возможен, но цикл мойки не начинается.",
+            "causes": "Неисправность замка двери или сбой управляющей электроники.",
+            "slugs": [
+                "whirlpool-door-lock-failure",
+                "whirlpool-door-sensor-error",
+                "whirlpool-control-module-malfunction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-making-noise",
+            "title": "Посудомоечная машина Whirlpool шумит",
+            "sign": "Во время работы слышны посторонние гул, скрежет или вибрации.",
+            "causes": "Износ циркуляционного насоса, попадание посторонних предметов или разбалансировка двигателя.",
+            "slugs": [
+                "whirlpool-circulation-pump-wear",
+                "whirlpool-foreign-object-in-pump",
+                "whirlpool-motor-bearing-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-washing-properly",
+            "title": "Посудомоечная машина Whirlpool плохо моет",
+            "sign": "На посуде остаются загрязнения и налет.",
+            "causes": "Недостаточное давление воды, засор форсунок или слабая циркуляция.",
+            "slugs": [
+                "whirlpool-spray-arm-blockage",
+                "whirlpool-circulation-pump-low-pressure",
+                "whirlpool-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-code",
+            "title": "Ошибка на дисплее Whirlpool",
+            "sign": "На панели отображается код неисправности.",
+            "causes": "Система самодиагностики фиксирует неисправность одного из узлов.",
+            "slugs": [
+                "whirlpool-water-sensor-error",
+                "whirlpool-heating-system-error",
+                "whirlpool-drain-system-error",
+                "whirlpool-electronic-module-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-trips-breaker",
+            "title": "Посудомоечная машина Whirlpool выбивает автомат",
+            "sign": "При запуске срабатывает защита электросети.",
+            "causes": "Короткое замыкание нагревателя, двигателя или повреждение проводки.",
+            "slugs": [
+                "whirlpool-heating-element-short-circuit",
+                "whirlpool-motor-short-circuit",
+                "whirlpool-wiring-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-door-not-closing",
+            "title": "Дверца посудомоечной машины Whirlpool не закрывается",
+            "sign": "Дверь не фиксируется или не защелкивается.",
+            "causes": "Износ защелки, перекос петель или деформация корпуса.",
+            "slugs": [
+                "whirlpool-door-latch-wear",
+                "whirlpool-hinge-damage",
+                "whirlpool-door-alignment-issue"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-power-cord-damage",
+            "title": "Поврежден сетевой кабель Whirlpool",
+            "sign": "Прибор не получает питание от электросети.",
+            "causes": "Обрыв или оплавление провода полностью блокирует подачу напряжения.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-noise-filter-failure",
+            "title": "Неисправен сетевой фильтр Whirlpool",
+            "sign": "После скачка напряжения техника перестает включаться.",
+            "causes": "Перегоревший фильтр помех не передает питание на модуль управления.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-main-control-board-fault",
+            "title": "Неисправность платы управления Whirlpool",
+            "sign": "Панель не реагирует или работает нестабильно.",
+            "causes": "Сбой электронных компонентов нарушает выполнение программ.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-power-button-malfunction",
+            "title": "Не работает кнопка включения Whirlpool",
+            "sign": "Кнопка нажимается, но запуск не происходит.",
+            "causes": "Износ контактной группы препятствует передаче сигнала.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-pump-failure",
+            "title": "Поломка сливного насоса Whirlpool",
+            "sign": "Вода остается в баке после завершения цикла.",
+            "causes": "Заклинивание или перегоревшая обмотка насоса препятствуют сливу.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-hose-blockage",
+            "title": "Засор сливного шланга Whirlpool",
+            "sign": "Слив воды происходит медленно или полностью отсутствует.",
+            "causes": "Накопление загрязнений внутри шланга перекрывает поток.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-filter-clog",
+            "title": "Засор фильтра слива Whirlpool",
+            "sign": "В камере остается вода и появляется неприятный запах.",
+            "causes": "Скопление остатков пищи блокирует проход жидкости.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-pressure-switch-fault",
+            "title": "Неисправен прессостат Whirlpool",
+            "sign": "Система неправильно определяет уровень воды.",
+            "causes": "Датчик уровня передает некорректные сигналы модулю.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-water-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Whirlpool",
+            "sign": "Вода не поступает в моечную камеру.",
+            "causes": "Перегоревшая катушка клапана не открывает подачу воды.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-aquastop-activation",
+            "title": "Срабатывание системы AquaStop Whirlpool",
+            "sign": "Подача воды автоматически блокируется.",
+            "causes": "Защита активируется при обнаружении протечки.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-pressure-switch-defect",
+            "title": "Сбой датчика уровня воды Whirlpool",
+            "sign": "Машина не начинает цикл из-за отсутствия сигнала о наборе воды.",
+            "causes": "Нарушение работы датчика приводит к блокировке запуска.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-flow-meter-fault",
+            "title": "Неисправен расходомер Whirlpool",
+            "sign": "Количество набираемой воды определяется неправильно.",
+            "causes": "Импульсы расходомера не считываются электронной платой.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-failure",
+            "title": "Неисправен нагревательный элемент Whirlpool",
+            "sign": "Вода остается холодной во время мойки.",
+            "causes": "Перегоревший ТЭН не обеспечивает нагрев.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-ntc-sensor-defect",
+            "title": "Неисправен температурный датчик Whirlpool",
+            "sign": "Температура воды отображается некорректно.",
+            "causes": "Сбой NTC-датчика нарушает контроль нагрева.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heater-relay-fault",
+            "title": "Неисправно реле нагрева Whirlpool",
+            "sign": "Нагрев не включается несмотря на исправный ТЭН.",
+            "causes": "Контакты реле не замыкают цепь питания нагревателя.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-control-board-heating-error",
+            "title": "Ошибка управления нагревом Whirlpool",
+            "sign": "Программа останавливается на этапе нагрева.",
+            "causes": "Модуль управления не подает команду на включение ТЭНа.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drying-fan-failure",
+            "title": "Неисправен вентилятор сушки Whirlpool",
+            "sign": "Воздух внутри камеры не циркулирует при сушке.",
+            "causes": "Двигатель вентилятора не запускается.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-weak-output",
+            "title": "Снижение мощности нагревателя Whirlpool",
+            "sign": "Сушка проходит, но посуда остается влажной.",
+            "causes": "Частичное повреждение ТЭНа уменьшает теплоотдачу.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-turbo-dry-module-fault",
+            "title": "Неисправность модуля Turbo Dry Whirlpool",
+            "sign": "Режим интенсивной сушки не активируется.",
+            "causes": "Электронный блок системы сушки не выполняет команды.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-seal-damage",
+            "title": "Поврежден уплотнитель двери Whirlpool",
+            "sign": "Вода просачивается по периметру дверцы.",
+            "causes": "Изношенная резина теряет герметичность.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-tank-crack",
+            "title": "Трещина бака Whirlpool",
+            "sign": "Протечка наблюдается в нижней части корпуса.",
+            "causes": "Механическое повреждение резервуара приводит к утечке.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-aquastop-leak-detected",
+            "title": "Обнаружена протечка системой AquaStop Whirlpool",
+            "sign": "Машина блокирует работу и откачивает воду.",
+            "causes": "Датчик утечки фиксирует наличие влаги в поддоне.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-hose-connection-loose",
+            "title": "Ослаблено соединение шланга Whirlpool",
+            "sign": "Вода подтекает в месте подключения.",
+            "causes": "Неплотная фиксация вызывает нарушение герметичности.",
+            "slugs": []
+        },
+
+        {
+            "slug": "whirlpool-door-lock-failure",
+            "title": "Неисправен замок двери Whirlpool",
+            "sign": "Программа не запускается из-за отсутствия блокировки.",
+            "causes": "Механизм замка не фиксирует дверцу.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-sensor-error",
+            "title": "Ошибка датчика двери Whirlpool",
+            "sign": "Система не распознает закрытие дверцы.",
+            "causes": "Некорректный сигнал блокирует старт цикла.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-control-module-malfunction",
+            "title": "Сбой электронного модуля Whirlpool",
+            "sign": "Цикл не начинается или прерывается.",
+            "causes": "Повреждение управляющей платы нарушает алгоритм работы.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-circulation-pump-wear",
+            "title": "Износ циркуляционного насоса Whirlpool",
+            "sign": "Снижается напор воды во время мойки.",
+            "causes": "Изношенные подшипники и крыльчатка уменьшают производительность.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-foreign-object-in-pump",
+            "title": "Посторонний предмет в насосе Whirlpool",
+            "sign": "Слышен скрежет или гул при работе.",
+            "causes": "Инородные частицы блокируют вращение крыльчатки.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-bearing-damage",
+            "title": "Повреждение подшипников двигателя Whirlpool",
+            "sign": "Возникает повышенная вибрация и шум.",
+            "causes": "Износ опорных элементов нарушает плавность вращения.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-spray-arm-blockage",
+            "title": "Засор форсунок разбрызгивателя Whirlpool",
+            "sign": "Вода распределяется неравномерно.",
+            "causes": "Отложения и мусор перекрывают отверстия подачи воды.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-circulation-pump-low-pressure",
+            "title": "Недостаточное давление циркуляционного насоса Whirlpool",
+            "sign": "Посуда остается грязной после мойки.",
+            "causes": "Снижение производительности насоса ухудшает качество очистки.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-detergent-dispenser-failure",
+            "title": "Неисправен дозатор моющего средства Whirlpool",
+            "sign": "Таблетка или порошок не подаются в камеру.",
+            "causes": "Механизм открытия не срабатывает во время цикла.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-water-sensor-error",
+            "title": "Ошибка датчика воды Whirlpool",
+            "sign": "Машина некорректно оценивает уровень жидкости.",
+            "causes": "Неверные показания датчика вызывают остановку программы.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-system-error",
+            "title": "Ошибка системы нагрева Whirlpool",
+            "sign": "Цикл прерывается при попытке нагрева.",
+            "causes": "Контроль температуры фиксирует неисправность узла.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-system-error",
+            "title": "Ошибка системы слива Whirlpool",
+            "sign": "Вода не удаляется из камеры.",
+            "causes": "Электроника регистрирует проблему в сливном контуре.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-electronic-module-error",
+            "title": "Ошибка электронного блока Whirlpool",
+            "sign": "На дисплее появляется код неисправности.",
+            "causes": "Внутренний сбой платы управления.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Whirlpool",
+            "sign": "При запуске выбивает автомат.",
+            "causes": "Повреждение изоляции ТЭНа вызывает утечку тока.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Whirlpool",
+            "sign": "Защита электросети срабатывает при старте.",
+            "causes": "Замыкание обмотки приводит к перегрузке цепи.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-wiring-damage",
+            "title": "Повреждение проводки Whirlpool",
+            "sign": "Работа сопровождается отключением питания.",
+            "causes": "Нарушение изоляции вызывает короткое замыкание.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-latch-wear",
+            "title": "Износ защелки двери Whirlpool",
+            "sign": "Дверца не фиксируется при закрытии.",
+            "causes": "Стертые элементы механизма препятствуют блокировке.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-hinge-damage",
+            "title": "Повреждение петель Whirlpool",
+            "sign": "Дверь перекошена или закрывается с усилием.",
+            "causes": "Деформация петель нарушает геометрию корпуса.",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-alignment-issue",
+            "title": "Нарушение регулировки двери Whirlpool",
+            "sign": "Дверца прилегает неплотно.",
+            "causes": "Смещение креплений приводит к отсутствию герметичности.",
+            "slugs": []
+        }
+
+
+    ]
+}

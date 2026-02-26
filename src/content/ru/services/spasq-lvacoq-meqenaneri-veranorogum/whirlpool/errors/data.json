@@ -1,0 +1,281 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин Whirlpool",
+    "title": "Частые коды ошибок посудомоечных машин Whirlpool",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/whirlpool/errors/",
+
+    "items": [
+        {
+            "slug": "whirlpool-dishwasher-error-f01",
+            "title": "Ошибка F01/Anti‑flood защита от перелива Whirlpool",
+            "sign": "Срабатывание системы защиты от протеканий",
+            "causes": "Попадание жидкости в поддон или неисправность поплавкового датчика приводят к сигналу переполнения",
+            "slugs": [
+                "whirlpool-leak-detected",
+                "whirlpool-flood-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f02",
+            "title": "Ошибка F02 отказ электромагнитного клапана подачи Whirlpool",
+            "sign": "Вода не поступает или поступает нерегулярно",
+            "causes": "Сбой впускного электромагнитного клапана, препятствия в канале или проблемы с давлением воды",
+            "slugs": [
+                "whirlpool-inlet-valve-failure",
+                "whirlpool-inlet-valve-obstruction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f03",
+            "title": "Ошибка F03 сбой слива/тайм‑аута Whirlpool",
+            "sign": "Вода не отводится или задерживается",
+            "causes": "Засор фильтра, перегиб шланга или отказ сливного насоса мешают нормальному оттоку",
+            "slugs": [
+                "whirlpool-drain-filter-blocked",
+                "whirlpool-drain-hose-kink",
+                "whirlpool-drain-pump-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f04",
+            "title": "Ошибка F04 термостат или датчик температуры Whirlpool",
+            "sign": "Система фиксирует сбой нагрева",
+            "causes": "Неправильные данные от термостата, повреждённый сенсор или проблема в цепях измерения",
+            "slugs": [
+                "whirlpool-temperature-sensor-fault",
+                "whirlpool-thermostat-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f06",
+            "title": "Ошибка F06 превышено время заполнения Whirlpool",
+            "sign": "Слишком долго происходит набор воды",
+            "causes": "Низкое давление, засор или отказ впускного клапана затрудняют своевременное наполнение",
+            "slugs": [
+                "whirlpool-low-water-pressure",
+                "whirlpool-inlet-valve-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f07",
+            "title": "Ошибка F07 дефект турбины потока воды Whirlpool",
+            "sign": "Показатели расхода жидкости не соответствуют норме",
+            "causes": "Блокировка расходомера, механический износ или загрязнения мешают точному измерению потока",
+            "slugs": [
+                "whirlpool-flow-meter-obstruction",
+                "whirlpool-flow-meter-wear"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f08",
+            "title": "Ошибка F08 переполнение или некорректный уровень воды Whirlpool",
+            "sign": "Система фиксирует слишком высокий или нестабильный уровень жидкости",
+            "causes": "Сбой поплавка, засоренный гидростатический канал или неправильные показания уровня",
+            "slugs": [
+                "whirlpool-float-switch-stuck",
+                "whirlpool-hydro-sensor-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f09",
+            "title": "Ошибка F09 непрерывное заполнение Whirlpool",
+            "sign": "Вода поступает беспрерывно",
+            "causes": "Заедание впускного клапана или залипание поплавкового переключателя мешают закрытию напора",
+            "slugs": [
+                "whirlpool-inlet-valve-stuck",
+                "whirlpool-float-switch-stuck"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f10",
+            "title": "Ошибка F10 отказ нагревательного элемента Whirlpool",
+            "sign": "Вода не достигает заданной температуры",
+            "causes": "Перегорел нагреватель, нарушена цепь или контакты термостата",
+            "slugs": [
+                "whirlpool-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f11",
+            "title": "Ошибка F11 отказ циркуляционного насоса Whirlpool",
+            "sign": "Вода не циркулируется должным образом",
+            "causes": "Блокировка крыльчатки, износ электродвигателя или механический отказ помпы",
+            "slugs": [
+                "whirlpool-circulation-pump-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f12",
+            "title": "Ошибка F12 связь основная плата/дисплей Whirlpool",
+            "sign": "Контроллер не может обмениваться данными",
+            "causes": "Нарушение коммуникации между модулем управления и экраном из‑за неисправности платы",
+            "slugs": [
+                "whirlpool-main-board-communication-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f13",
+            "title": "Ошибка F13 отказ основной платы Whirlpool",
+            "sign": "Сбой главной электроники",
+            "causes": "Короткие замыкания, повреждения платы или нестабильное питание приводят к отказу модуля",
+            "slugs": [
+                "whirlpool-main-board-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-f15",
+            "title": "Ошибка F15 виртуальный сенсор Whirlpool",
+            "sign": "Искусственно созданная ошибка сенсора",
+            "causes": "Внутренняя логика диагностики обнаруживает несоответствие данных нескольких датчиков",
+            "slugs": [
+                "whirlpool-sensor-feedback-error"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-leak-detected",
+            "title": "Обнаружена утечка воды Whirlpool",
+            "sign": "Влага попадает в нижнюю часть корпуса",
+            "causes": "Попадание жидкости на основание машины из‑за трещин шлангов или ослабленных соединений",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-flood-sensor-triggered",
+            "title": "Сработал датчик переполнения Whirlpool",
+            "sign": "Контроллер фиксирует аномальный уровень жидкости",
+            "causes": "Поплавок поднялся из‑за попадания лишней воды или внутренние каналы датчика засорены",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Whirlpool",
+            "sign": "Клапан подачи не открывается/закрывается как следует",
+            "causes": "Сбой электромагнита, износ или блокировка внутреннего канала клапана",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-inlet-valve-obstruction",
+            "title": "Засор во впускном клапане Whirlpool",
+            "sign": "Подача воды ограничена из‑за препятствий",
+            "causes": "Мусор, ржавчина или накипь частично блокируют проход жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-filter-blocked",
+            "title": "Засор сливного фильтра Whirlpool",
+            "sign": "Фильтрующая камера заполнена остатками",
+            "causes": "Частицы пищи и грязь оседают в фильтре, уменьшая пропускную способность",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-hose-kink",
+            "title": "Перегиб сливного шланга Whirlpool",
+            "sign": "Нарушение нормы оттока",
+            "causes": "Шланг искривлён или сдавлен, что препятствует нормальному сливу",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-pump-failure",
+            "title": "Сбой сливного насоса Whirlpool",
+            "sign": "Помпа не справляется с выводом воды",
+            "causes": "Механическая блокировка крыльчатки, износ мотора или обрыв питания",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-temperature-sensor-fault",
+            "title": "Сбой датчика температуры Whirlpool",
+            "sign": "Контроллер получает неточные измерения",
+            "causes": "Дефект термистора, повреждённый проводник или неправильный сигнал",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-thermostat-error",
+            "title": "Ошибка термостата Whirlpool",
+            "sign": "Нагрев нарушается из‑за неверной реакции термостата",
+            "causes": "Контакт внутри термостата ослаблен или элемент выходит из строя",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-low-water-pressure",
+            "title": "Низкое давление воды Whirlpool",
+            "sign": "Жидкость поступает медленно или недостаточно",
+            "causes": "Плохое давление в магистрали препятствует быстрому заполнению",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-flow-meter-obstruction",
+            "title": "Блокировка расходомера Whirlpool",
+            "sign": "Поток жидкости не измеряется как должно",
+            "causes": "Отложения или мусор мешают свободному движению измерительного колеса",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-flow-meter-wear",
+            "title": "Износ расходомера Whirlpool",
+            "sign": "Измерение расхода воды становится неточным",
+            "causes": "Со временем детали расходомера изнашиваются, снижая точность измерений",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-float-switch-stuck",
+            "title": "Заклинивание поплавкового переключателя Whirlpool",
+            "sign": "Поплавок не возвращается в нормальное положение",
+            "causes": "Загрязнение или отложения препятствуют свободному ходу поплавка",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-hydro-sensor-fault",
+            "title": "Сбой гидростатического сенсора Whirlpool",
+            "sign": "Неправильные сигналы о давлении/уровне воды",
+            "causes": "Дефект сенсора или закупорка канала мешают правильному определению уровня",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-inlet-valve-stuck",
+            "title": "Залипание впускного клапана Whirlpool",
+            "sign": "Клапан продолжает пропускать воду бесконтрольно",
+            "causes": "Износ или механический дефект заставляют клапан оставаться открытым",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-failure",
+            "title": "Сбой нагревательного элемента Whirlpool",
+            "sign": "Вода не достигает температурного уровня",
+            "causes": "Перегоревший нагреватель, обрыв цепи или нарушение теплового контакта",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-circulation-pump-failure",
+            "title": "Неисправность циркуляционного насоса Whirlpool",
+            "sign": "Жидкость не циркулирует должным образом",
+            "causes": "Механический отказ мотора или препятствие в крыльчатке препятствуют движению воды",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-main-board-communication-error",
+            "title": "Сбой связи между платами Whirlpool",
+            "sign": "Контроллер и интерфейс не обмениваются данными",
+            "causes": "Плохие контакты, повреждённые шлейфы или ошибка прошивки мешают передаче сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-main-board-failure",
+            "title": "Отказ основной платы Whirlpool",
+            "sign": "Главный контроллер перестаёт отвечать",
+            "causes": "Перегрев, короткое замыкание или повреждение элементов на плате приводят к полному отказу",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-sensor-feedback-error",
+            "title": "Ошибка взаимосвязи сенсорных данных Whirlpool",
+            "sign": "Система фиксирует противоречивые показания датчиков",
+            "causes": "Несогласованность входных сигналов из‑за неисправных сенсоров или электронных помех",
+            "slugs": []
+        }
+
+
+    ]
+}

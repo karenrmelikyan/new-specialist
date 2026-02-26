@@ -9,7 +9,7 @@ import Icon from '../components/Icon.astro'
             <Icon name="repair" />
             <span>Все услуги</span>
         </label>
-        <button class="mbmenu-item">
+        <button class="mbmenu-item" onclick="openModal()">
             <Icon name="plus" />
             <span>Заявка</span>
         </button>
@@ -22,9 +22,9 @@ import Icon from '../components/Icon.astro'
     <!-- Hidden inputs to control service modal and levels -->
     <input type="checkbox" id="toggle-menu" hidden>
     <input type="radio" name="mbmenu-level" id="level1" checked hidden>
-    <input type="radio" name="mbmenu-level" id="level2-smas" hidden>
+    <input type="radio" name="mbmenu-level" id="level2-washer" hidden>
     <input type="radio" name="mbmenu-level" id="level2-fridge" hidden>
-    <input type="radio" name="mbmenu-level" id="level3-smas" hidden>
+    <input type="radio" name="mbmenu-level" id="level3-washer" hidden>
     <input type="radio" name="mbmenu-level" id="level3-fridge" hidden>
 
      <!-- Hidden inputs to control main modal and levels -->
@@ -76,7 +76,7 @@ import Icon from '../components/Icon.astro'
                     <path d="M15 18l-6-6 6-6" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </label>
-            <label for="level2-smas" class="mbmenu-back back-3-smas">
+            <label for="level2-washer" class="mbmenu-back back-3-washer">
                 <svg width="35" height="35" viewBox="0 0 24 24" fill="none">
                     <path d="M15 18l-6-6 6-6" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -94,7 +94,7 @@ import Icon from '../components/Icon.astro'
             <div class="mbmenu-title">
                 <span class="title-1">Все услуги</span>
                 <span class="title-2">Ремонт техники</span>
-                <span class="title-3-smas">Стиральные машины</span>
+                <span class="title-3-washer">Стиральные машины</span>
                 <span class="title-3-fridge">Холодильники</span>
             </div>
         </div> <!-- /.mbmenu-header -->
@@ -102,7 +102,7 @@ import Icon from '../components/Icon.astro'
         <div class="mbmenu-wrapper">
             <!-- LEVEL 1 -->
             <div class="mbmenu-view view-1">
-                <label for="level2-smas" class="mbmenu-item-row">
+                <label for="level2-washer" class="mbmenu-item-row">
                    <span class="row-left">
                         <Icon name="repair" />
                         Ремонт бытовой техники
@@ -125,14 +125,26 @@ import Icon from '../components/Icon.astro'
             <!-- LEVEL 2 -->
             <div class="mbmenu-view view-2">
                 <div class="mbmenu-section">Ремонт техники на дому</div>
-                <label for="level3-smas" class="mbmenu-item-row">
+                <label for="level3-fridge" class="mbmenu-item-row">
+                    Холодильники
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M8 5l8 7-8 7" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </label>
+                <label for="level3-washer" class="mbmenu-item-row">
                     Стиральные машины
                     <svg viewBox="0 0 24 24" fill="none">
                         <path d="M8 5l8 7-8 7" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </label>
-                <label for="level3-fridge" class="mbmenu-item-row">
-                    Холодильники
+                  <label for="level3-dryer" class="mbmenu-item-row">
+                    Сушильные машины
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M8 5l8 7-8 7" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </label>
+                  <label for="level3-dishwasher" class="mbmenu-item-row">
+                    Посудомоечные машины
                     <svg viewBox="0 0 24 24" fill="none">
                         <path d="M8 5l8 7-8 7" stroke="#3f3d63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
@@ -140,13 +152,13 @@ import Icon from '../components/Icon.astro'
             </div> <!-- /.view-2 -->
 
             <!-- LEVEL 3 - Стиральные машины -->
-            <div class="mbmenu-view view-3 view-3-smas">
+            <div class="mbmenu-view view-3 view-3-washer">
                 <div class="mbmenu-section">Стиральные машины</div>
                 <div class="mbmenu-item-row">Не сливает</div>
                 <div class="mbmenu-item-row">Не отжимает</div>
                 <div class="mbmenu-item-row">Замена подшипника</div>
                 <div class="mbmenu-item-row">Замена ТЭНа</div>
-            </div> <!-- /.view-3-smas -->
+            </div> <!-- /.view-3-washer -->
 
             <!-- LEVEL 3 - Холодильники -->
             <div class="mbmenu-view view-3 view-3-fridge">
@@ -253,9 +265,9 @@ import Icon from '../components/Icon.astro'
     .mbmenu-close { right: 0; }
 
     /* ---------------------- BACK BUTTON VISIBILITY ---------------------- */
-    #level2-smas:checked ~ .mbmenu-modal .back-2,
+    #level2-washer:checked ~ .mbmenu-modal .back-2,
     #level2-fridge:checked ~ .mbmenu-modal .back-2,
-    #level3-smas:checked ~ .mbmenu-modal .back-3-smas,
+    #level3-washer:checked ~ .mbmenu-modal .back-3-washer,
     #level3-fridge:checked ~ .mbmenu-modal .back-3-fridge {
         display: flex;
     }
@@ -263,9 +275,9 @@ import Icon from '../components/Icon.astro'
     /* ---------------------- TITLES ---------------------- */
     .mbmenu-title span { display: none; }
     #level1:checked ~ .mbmenu-modal .title-1 { display: inline; }
-    #level2-smas:checked ~ .mbmenu-modal .title-2,
+    #level2-washer:checked ~ .mbmenu-modal .title-2,
     #level2-fridge:checked ~ .mbmenu-modal .title-2 { display: inline; }
-    #level3-smas:checked ~ .mbmenu-modal .title-3-smas { display: inline; }
+    #level3-washer:checked ~ .mbmenu-modal .title-3-washer { display: inline; }
     #level3-fridge:checked ~ .mbmenu-modal .title-3-fridge { display: inline; }
 
     /* ---------------------- WRAPPER ---------------------- */
@@ -288,15 +300,15 @@ import Icon from '../components/Icon.astro'
 
     /* LEVEL VISIBILITY */
     #level1:checked ~ .mbmenu-modal .view-1 { transform: translateX(0); }
-    #level2-smas:checked ~ .mbmenu-modal .view-2,
+    #level2-washer:checked ~ .mbmenu-modal .view-2,
     #level2-fridge:checked ~ .mbmenu-modal .view-2 { transform: translateX(0); }
-    #level3-smas:checked ~ .mbmenu-modal .view-3-smas { transform: translateX(0); }
+    #level3-washer:checked ~ .mbmenu-modal .view-3-washer { transform: translateX(0); }
     #level3-fridge:checked ~ .mbmenu-modal .view-3-fridge { transform: translateX(0); }
 
     /* PREVIOUS SLIDE POSITIONING */
-    #level2-smas:checked ~ .mbmenu-modal .view-1,
+    #level2-washer:checked ~ .mbmenu-modal .view-1,
     #level2-fridge:checked ~ .mbmenu-modal .view-1 { transform: translateX(-100%); }
-    #level3-smas:checked ~ .mbmenu-modal .view-2 { transform: translateX(-100%); }
+    #level3-washer:checked ~ .mbmenu-modal .view-2 { transform: translateX(-100%); }
     #level3-fridge:checked ~ .mbmenu-modal .view-2 { transform: translateX(-100%); }
 
     /* ---------------------- MENU ROWS ---------------------- */

@@ -1,0 +1,272 @@
+{
+    "indexPageTitle": "Ошибки посудомоечных машин AEG",
+    "title": "Частые коды ошибок посудомоечных машин AEG",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/spasq-lvacoq-meqenaneri-veranorogum/aeg/errors/",
+
+    "items": [
+        {
+            "slug": "aeg-dishwasher-error-i10",
+            "title": "Ошибка i10 посудомоечной машины AEG",
+            "sign": "Мойка не начинает цикл и на панели появляется i10",
+            "causes": "Система фиксирует отсутствие корректного набора воды в установленный промежуток времени",
+            "slugs": [
+                "aeg-inlet-valve-blockage",
+                "aeg-water-supply-pressure-insufficient",
+                "aeg-aquastop-activation"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i20",
+            "title": "Ошибка i20 посудомоечной машины AEG",
+            "sign": "Программа останавливается с кодом i20 во время работы",
+            "causes": "Контроллер выявляет затруднённый слив жидкости из моечной камеры",
+            "slugs": [
+                "aeg-drain-pump-impeller-obstruction",
+                "aeg-drain-hose-kinked",
+                "aeg-filter-system-clogging"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i30",
+            "title": "Ошибка i30 посудомоечной машины AEG",
+            "sign": "Устройство прекращает работу и активирует i30",
+            "causes": "Датчик протечки обнаруживает присутствие влаги в нижнем поддоне",
+            "slugs": [
+                "aeg-base-pan-water-accumulation",
+                "aeg-float-switch-triggered",
+                "aeg-internal-hose-leak"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i40",
+            "title": "Ошибка i40 посудомоечной машины AEG",
+            "sign": "На дисплее отображается i40 сразу после запуска",
+            "causes": "Сенсор уровня передаёт некорректные данные о количестве воды",
+            "slugs": [
+                "aeg-pressure-sensor-malfunction",
+                "aeg-level-chamber-contamination",
+                "aeg-sensor-connector-corrosion"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i50",
+            "title": "Ошибка i50 посудомоечной машины AEG",
+            "sign": "Машина не запускает мотор и показывает i50",
+            "causes": "Электронная схема управления циркуляционным двигателем работает нестабильно",
+            "slugs": [
+                "aeg-circulation-motor-triac-failure",
+                "aeg-motor-winding-breakdown",
+                "aeg-inverter-board-defect"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i60",
+            "title": "Ошибка i60 посудомоечной машины AEG",
+            "sign": "Во время нагрева цикл прерывается с кодом i60",
+            "causes": "Температурный контроль фиксирует отклонение от заданных параметров",
+            "slugs": [
+                "aeg-heating-element-open-circuit",
+                "aeg-ntc-sensor-drift",
+                "aeg-thermal-protection-activated"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i70",
+            "title": "Ошибка i70 посудомоечной машины AEG",
+            "sign": "На дисплее появляется i70 без начала мойки",
+            "causes": "Электронный модуль получает аномальные сигналы от температурного измерителя",
+            "slugs": [
+                "aeg-temperature-sensor-calibration-loss",
+                "aeg-wiring-harness-interruption",
+                "aeg-control-board-analog-input-failure"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i80",
+            "title": "Ошибка i80 посудомоечной машины AEG",
+            "sign": "После включения отображается i80 и программа не стартует",
+            "causes": "Нарушена внутренняя конфигурация программного обеспечения",
+            "slugs": [
+                "aeg-eeprom-memory-corruption",
+                "aeg-firmware-glitch-detected",
+                "aeg-configuration-data-mismatch"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i90",
+            "title": "Ошибка i90 посудомоечной машины AEG",
+            "sign": "Устройство не реагирует на команды и выводит i90",
+            "causes": "Обнаружена серьёзная неисправность основной электронной платы",
+            "slugs": [
+                "aeg-main-control-board-short-circuit",
+                "aeg-power-supply-module-failure",
+                "aeg-processor-initialization-error"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-if0",
+            "title": "Ошибка iF0 посудомоечной машины AEG",
+            "sign": "Машина бесконечно набирает воду и отображает iF0",
+            "causes": "Система контроля не подтверждает достижение требуемого уровня жидкости",
+            "slugs": [
+                "aeg-water-level-sensor-inaccuracy",
+                "aeg-inlet-valve-stuck-open",
+                "aeg-pressure-tube-blockage"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-id0",
+            "title": "Ошибка iD0 посудомоечной машины AEG",
+            "sign": "Мотор не запускается, индикация показывает iD0",
+            "causes": "Контроллер не получает корректный сигнал тахогенератора",
+            "slugs": [
+                "aeg-tacho-coil-failure",
+                "aeg-rotor-magnet-damage",
+                "aeg-speed-feedback-circuit-break"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-ib0",
+            "title": "Ошибка iB0 посудомоечной машины AEG",
+            "sign": "Цикл мойки выполняется с перебоями и фиксируется iB0",
+            "causes": "Оптический датчик мутности воды передаёт искажённые показания",
+            "slugs": [
+                "aeg-turbidity-sensor-contamination",
+                "aeg-optical-module-signal-distortion",
+                "aeg-water-clarity-monitoring-fault"
+            ]
+        },
+
+        {
+            "slug": "aeg-inlet-valve-blockage",
+            "title": "Засор впускного клапана AEG",
+            "sign": "Вода поступает медленно либо не подаётся вовсе",
+            "causes": "Сетчатый фильтр клапана перекрыт минеральными отложениями или посторонними частицами",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-water-supply-pressure-insufficient",
+            "title": "Недостаточное давление подачи воды AEG",
+            "sign": "Заполнение камеры занимает чрезмерно длительное время",
+            "causes": "Напор в водопроводной линии ниже допустимого эксплуатационного уровня",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-aquastop-activation",
+            "title": "Срабатывание системы AquaStop AEG",
+            "sign": "Залив прекращается сразу после попытки старта",
+            "causes": "Защитный механизм перекрывает подачу при обнаружении риска протечки",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-drain-pump-impeller-obstruction",
+            "title": "Блокировка крыльчатки сливного насоса AEG",
+            "sign": "Отработанная жидкость остаётся внутри бака",
+            "causes": "Лопасти насоса заклинивает мелкий мусор или осколки стекла",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-drain-hose-kinked",
+            "title": "Перегиб сливного шланга AEG",
+            "sign": "Удаление воды происходит с перебоями",
+            "causes": "Гофрированный патрубок деформирован или пережат мебелью",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-filter-system-clogging",
+            "title": "Засор фильтрующего узла AEG",
+            "sign": "На дне камеры накапливаются загрязнения",
+            "causes": "Скопление пищевых остатков препятствует нормальной циркуляции",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-base-pan-water-accumulation",
+            "title": "Скопление воды в поддоне AEG",
+            "sign": "Аппарат прекращает работу до завершения программы",
+            "causes": "Жидкость попадает в нижний отсек вследствие внутренней негерметичности",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-float-switch-triggered",
+            "title": "Активация поплавкового выключателя AEG",
+            "sign": "Мойка блокируется без видимых причин",
+            "causes": "Поплавковый датчик поднимается при наличии влаги в основании корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-internal-hose-leak",
+            "title": "Протечка внутреннего шланга AEG",
+            "sign": "Под машиной появляется влажность",
+            "causes": "Соединительный рукав теряет герметичность из-за износа материала",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-pressure-sensor-malfunction",
+            "title": "Неисправность датчика давления AEG",
+            "sign": "Уровень воды определяется неправильно",
+            "causes": "Измерительный элемент передаёт некорректные импульсы в модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-level-chamber-contamination",
+            "title": "Загрязнение камеры уровня AEG",
+            "sign": "Программа зависает на этапе наполнения",
+            "causes": "Канал гидростата засорён жировыми отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-sensor-connector-corrosion",
+            "title": "Окисление разъёма датчика AEG",
+            "sign": "Показания уровня становятся нестабильными",
+            "causes": "Контактные клеммы повреждены влагой",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-circulation-motor-triac-failure",
+            "title": "Повреждение симистора двигателя циркуляции AEG",
+            "sign": "Распылительные коромысла не вращаются",
+            "causes": "Полупроводниковый элемент управления мотором выходит из строя",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-motor-winding-breakdown",
+            "title": "Обрыв обмотки циркуляционного двигателя AEG",
+            "sign": "Насос не создаёт необходимое давление",
+            "causes": "Медная намотка утрачивает электрическую целостность",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-inverter-board-defect",
+            "title": "Неисправность инверторной платы AEG",
+            "sign": "Скорость вращения двигателя нестабильна",
+            "causes": "Электронный преобразователь частоты работает с отклонениями",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-heating-element-open-circuit",
+            "title": "Разрыв нагревательного элемента AEG",
+            "sign": "Посуда остаётся холодной после завершения цикла",
+            "causes": "Спираль ТЭНа теряет проводимость вследствие перегорания",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-ntc-sensor-drift",
+            "title": "Смещение характеристик NTC-датчика AEG",
+            "sign": "Температура воды не соответствует заданному режиму",
+            "causes": "Термистор меняет сопротивление вне допустимого диапазона",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-thermal-protection-activated",
+            "title": "Срабатывание термозащиты AEG",
+            "sign": "Нагрев прекращается преждевременно",
+            "causes": "Предохранительный термостат отключает питание при перегреве",
+            "slugs": []
+        }
+
+    ]
+}
