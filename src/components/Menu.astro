@@ -33,6 +33,19 @@ import washerIssuesElectroluxRu from '../content/ru/services/lvacqi-meqenaneri-v
 import washerIssuesZanussiRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/zanussi/data.json'
 import washerIssuesBekoRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/beko/data.json'
 
+import washerIssuesAristonErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/ariston/errors/data.json'
+import washerIssuesIndesitErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/indesit/errors/data.json'
+import washerIssuesCandyErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/candy/errors/data.json'
+import washerIssuesSamsungErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/samsung/errors/data.json'
+import washerIssuesLgErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/lg/errors/data.json'
+import washerIssuesDaewooErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/daewoo/errors/data.json'
+import washerIssuesBoschErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/bosch/errors/data.json'
+import washerIssuesAegErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/aeg/errors/data.json'
+import washerIssuesGorenjeErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/gorenje/errors/data.json'
+import washerIssuesElectroluxErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/electrolux/errors/data.json'
+import washerIssuesZanussiErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/zanussi/errors/data.json'
+import washerIssuesBekoErrorsRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/beko/errors/data.json'
+
 // Dryers
 import dryerIssuesRu from '../content/ru/services/avtomat-choranocneri-veranorogum/data.json'
 import dryerIssuesHisenseRu from '../content/ru/services/avtomat-choranocneri-veranorogum/hisense/data.json'
@@ -129,6 +142,19 @@ let washerIssuesGorenje = washerIssuesGorenjeRu
 let washerIssuesElectrolux = washerIssuesElectroluxRu
 let washerIssuesZanussi = washerIssuesZanussiRu
 let washerIssuesBeko = washerIssuesBekoRu
+
+let washerIssuesAristonErrors = washerIssuesAristonErrorsRu
+let washerIssuesIndesitErrors = washerIssuesIndesitErrorsRu
+let washerIssuesCandyErrors = washerIssuesCandyErrorsRu
+let washerIssuesSamsungErrors = washerIssuesSamsungErrorsRu
+let washerIssuesLgErrors = washerIssuesLgErrorsRu
+let washerIssuesDaewooErrors = washerIssuesDaewooErrorsRu
+let washerIssuesBoschErrors = washerIssuesBoschErrorsRu
+let washerIssuesAegErrors = washerIssuesAegErrorsRu
+let washerIssuesGorenjeErrors = washerIssuesGorenjeErrorsRu
+let washerIssuesElectroluxErrors = washerIssuesElectroluxErrorsRu
+let washerIssuesZanussiErrors = washerIssuesZanussiErrorsRu
+let washerIssuesBekoErrors = washerIssuesBekoErrorsRu
 
 // Dryers
 let dryerIssues = dryerIssuesRu
@@ -326,12 +352,18 @@ const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwas
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
-                            <li>Установка холодильников</li>
-                            <li>Установка стиральных машин</li>
-                            <li>Установка посудомоечных машин</li>
-                            <li>Установка сушильных машин</li>
-                            <li>Установка газовых плит</li>
-                            <li>Установка электрических плит</li>
+                            <li><a href={washerIssuesLgErrors.parentURL}>{washerIssuesLgErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesAristonErrors.parentURL}>{washerIssuesAristonErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesIndesitErrors.parentURL}>{washerIssuesIndesitErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesCandyErrors.parentURL}>{washerIssuesCandyErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesSamsungErrors.parentURL}>{washerIssuesSamsungErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesDaewooErrors.parentURL}>{washerIssuesDaewooErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesBoschErrors.parentURL}>{washerIssuesBoschErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesAegErrors.parentURL}>{washerIssuesAegErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesGorenjeErrors.parentURL}>{washerIssuesGorenjeErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesElectroluxErrors.parentURL}>{washerIssuesElectroluxErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesZanussiErrors.parentURL}>{washerIssuesZanussiErrors.indexPageTitle}</a></li>
+                            <li><a href={washerIssuesBekoErrors.parentURL}>{washerIssuesBekoErrors.indexPageTitle}</a></li>
                         </ul>
                     </div>
                 </div>

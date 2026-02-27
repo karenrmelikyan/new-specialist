@@ -1,0 +1,399 @@
+{
+    "indexPageTitle": "Ошибки стиральных машин Beko",
+    "title": "Частые коды ошибок стиральных машин Beko",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/lvacqi-meqenaneri-veranorogum/beko/errors/",
+
+    "items": [
+        {
+            "slug": "beko-washer-h2o-error",
+            "title": "Ошибка H2O стиральной машины Beko",
+            "sign": "Машина не набирает воду или процесс заполнения прерывается",
+            "causes": "Недостаточное давление воды, перекрыт кран подачи или засорён впускной фильтр",
+            "slugs": [
+                "beko-water-supply-issue",
+                "beko-inlet-valve-failure",
+                "beko-water-pressure-problem"
+            ]
+        },
+        {
+            "slug": "beko-washer-e1-error",
+            "title": "Ошибка E1 стиральной машины Beko",
+            "sign": "Неисправность температурного датчика",
+            "causes": "Контроллер не получает корректный сигнал от термистора",
+            "slugs": [
+                "beko-temperature-sensor-defect",
+                "beko-ntc-wiring-fault",
+                "beko-heating-sensor-connection-issue"
+            ]
+        },
+        {
+            "slug": "beko-washer-e2-error",
+            "title": "Ошибка E2 стиральной машины Beko",
+            "sign": "Проблема с нагревом воды",
+            "causes": "Нагревательный элемент не активируется или работает нестабильно",
+            "slugs": [
+                "beko-heating-element-failure",
+                "beko-heater-relay-problem",
+                "beko-heating-circuit-open"
+            ]
+        },
+        {
+            "slug": "beko-washer-e3-error",
+            "title": "Ошибка E3 стиральной машины Beko",
+            "sign": "Машина не сливает воду",
+            "causes": "Система дренажа заблокирована либо насос не запускается",
+            "slugs": [
+                "beko-drain-pump-failure",
+                "beko-drain-filter-blockage",
+                "beko-drain-hose-obstruction"
+            ]
+        },
+        {
+            "slug": "beko-washer-e4-error",
+            "title": "Ошибка E4 стиральной машины Beko",
+            "sign": "Обнаружена протечка воды",
+            "causes": "Сработала система защиты от перелива или утечки",
+            "slugs": [
+                "beko-aquastop-activated",
+                "beko-leak-detection-triggered",
+                "beko-water-collection-tray-full"
+            ]
+        },
+        {
+            "slug": "beko-washer-e5-error",
+            "title": "Ошибка E5 стиральной машины Beko",
+            "sign": "Нарушение работы двигателя",
+            "causes": "Контроллер фиксирует сбой в системе вращения барабана",
+            "slugs": [
+                "beko-motor-brush-wear",
+                "beko-motor-control-module-fault",
+                "beko-tachogenerator-error"
+            ]
+        },
+        {
+            "slug": "beko-washer-e6-error",
+            "title": "Ошибка E6 стиральной машины Beko",
+            "sign": "Сбой управления мотором",
+            "causes": "Плата не регулирует обороты двигателя корректно",
+            "slugs": [
+                "beko-inverter-board-failure",
+                "beko-motor-triac-damage",
+                "beko-drive-control-malfunction"
+            ]
+        },
+        {
+            "slug": "beko-washer-e7-error",
+            "title": "Ошибка E7 стиральной машины Beko",
+            "sign": "Некорректный уровень воды",
+            "causes": "Система контроля уровня фиксирует аномальные показания",
+            "slugs": [
+                "beko-pressure-switch-defect",
+                "beko-level-sensor-tube-blockage",
+                "beko-water-level-signal-error"
+            ]
+        },
+        {
+            "slug": "beko-washer-e8-error",
+            "title": "Ошибка E8 стиральной машины Beko",
+            "sign": "Проблема с нагревом при сушке (для моделей с сушкой)",
+            "causes": "Контроллер не активирует элемент нагрева сушки",
+            "slugs": [
+                "beko-dryer-heater-failure",
+                "beko-dryer-thermostat-fault",
+                "beko-dryer-airflow-blockage"
+            ]
+        },
+        {
+            "slug": "beko-washer-e9-error",
+            "title": "Ошибка E9 стиральной машины Beko",
+            "sign": "Дверца не блокируется",
+            "causes": "Устройство блокировки люка не подтверждает закрытие",
+            "slugs": [
+                "beko-door-lock-failure",
+                "beko-door-switch-defect",
+                "beko-lock-wiring-issue"
+            ]
+        },
+        {
+            "slug": "beko-washer-e10-error",
+            "title": "Ошибка E10 стиральной машины Beko",
+            "sign": "Сбой подачи воды",
+            "causes": "Заполнение бака происходит медленно или отсутствует",
+            "slugs": [
+                "beko-inlet-hose-kinked",
+                "beko-solenoid-valve-malfunction",
+                "beko-water-supply-interruption"
+            ]
+        },
+        {
+            "slug": "beko-washer-e11-error",
+            "title": "Ошибка E11 стиральной машины Beko",
+            "sign": "Неисправность вращения барабана",
+            "causes": "Двигатель не достигает заданной скорости отжима",
+            "slugs": [
+                "beko-motor-connection-problem",
+                "beko-drive-belt-slip",
+                "beko-spin-control-error"
+            ]
+        },
+
+        {
+            "slug": "beko-water-supply-issue",
+            "title": "Нарушение подачи воды Beko",
+            "sign": "Бак заполняется слишком медленно или остаётся пустым",
+            "causes": "Перекрытый вентиль или отсутствие давления в водопроводной линии препятствуют поступлению жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "beko-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Beko",
+            "sign": "Клапан не открывается при запуске цикла",
+            "causes": "Катушка соленоида повреждена либо механизм заклинил из-за отложений",
+            "slugs": []
+        },
+        {
+            "slug": "beko-water-pressure-problem",
+            "title": "Недостаточное давление воды Beko",
+            "sign": "Контроллер фиксирует медленный приток",
+            "causes": "Слабый напор в системе водоснабжения не позволяет выполнить корректный набор",
+            "slugs": []
+        },
+        {
+            "slug": "beko-temperature-sensor-defect",
+            "title": "Дефект температурного датчика Beko",
+            "sign": "Показания нагрева отображаются некорректно",
+            "causes": "Термистор передаёт искажённые значения вследствие внутреннего повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "beko-ntc-wiring-fault",
+            "title": "Повреждение проводки NTC Beko",
+            "sign": "Сигнал от сенсора температуры периодически пропадает",
+            "causes": "Обрыв или окисление контактов нарушают передачу данных",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heating-sensor-connection-issue",
+            "title": "Проблема соединения датчика нагрева Beko",
+            "sign": "Модуль не распознаёт термодатчик",
+            "causes": "Ослабленный разъём либо плохой контакт препятствуют стабильной работе",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Beko",
+            "sign": "Вода остаётся холодной на всех программах",
+            "causes": "Перегоревшая спираль или разрушение изоляции исключают нагрев",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heater-relay-problem",
+            "title": "Проблема реле нагревателя Beko",
+            "sign": "ТЭН не получает управляющий сигнал",
+            "causes": "Контакты реле подгорели либо залипли после длительной эксплуатации",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heating-circuit-open",
+            "title": "Разрыв цепи нагрева Beko",
+            "sign": "Система регистрирует отсутствие тока на ТЭНе",
+            "causes": "Повреждение проводников создаёт обрыв электрической линии",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drain-pump-failure",
+            "title": "Отказ сливного насоса Beko",
+            "sign": "Вода остаётся в баке после завершения программы",
+            "causes": "Электродвигатель помпы вышел из строя либо крыльчатка заблокирована",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drain-filter-blockage",
+            "title": "Засор сливного фильтра Beko",
+            "sign": "Слив замедляется или полностью останавливается",
+            "causes": "Монеты, ворс или посторонние предметы перекрывают проход",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drain-hose-obstruction",
+            "title": "Закупорка сливного шланга Beko",
+            "sign": "Жидкость не выходит в канализацию",
+            "causes": "Перегиб или накопление грязи препятствуют оттоку",
+            "slugs": []
+        },
+        {
+            "slug": "beko-aquastop-activated",
+            "title": "Активация системы AquaStop Beko",
+            "sign": "Машина прекращает работу при обнаружении воды в поддоне",
+            "causes": "Защитный механизм блокирует цикл из-за вероятной утечки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-leak-detection-triggered",
+            "title": "Срабатывание датчика протечки Beko",
+            "sign": "Контроллер фиксирует наличие влаги внутри корпуса",
+            "causes": "Повреждение патрубков или соединений приводит к появлению воды в основании",
+            "slugs": []
+        },
+        {
+            "slug": "beko-water-collection-tray-full",
+            "title": "Заполнение защитного поддона Beko",
+            "sign": "Программа останавливается до устранения влаги",
+            "causes": "Скопившаяся жидкость активирует поплавковый выключатель",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-brush-wear",
+            "title": "Износ щёток двигателя Beko",
+            "sign": "Барабан вращается рывками или не стартует",
+            "causes": "Угольные элементы стерлись и не обеспечивают контакт с коллектором",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-control-module-fault",
+            "title": "Неисправность модуля управления мотором Beko",
+            "sign": "Обороты не регулируются должным образом",
+            "causes": "Электронная плата не формирует корректные сигналы для привода",
+            "slugs": []
+        },
+        {
+            "slug": "beko-tachogenerator-error",
+            "title": "Ошибка тахогенератора Beko",
+            "sign": "Система не определяет скорость вращения",
+            "causes": "Датчик оборотов не передаёт информацию контроллеру",
+            "slugs": []
+        },
+        {
+            "slug": "beko-inverter-board-failure",
+            "title": "Сбой инверторной платы Beko",
+            "sign": "Мотор не запускается на заданной программе",
+            "causes": "Силовые компоненты платы повреждены из-за перегрузки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-triac-damage",
+            "title": "Повреждение симистора двигателя Beko",
+            "sign": "Вращение нестабильно или отсутствует",
+            "causes": "Полупроводниковый элемент вышел из строя вследствие скачка напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drive-control-malfunction",
+            "title": "Нарушение системы привода Beko",
+            "sign": "Барабан не набирает нужные обороты",
+            "causes": "Сбой электронного управления приводит к неправильной работе двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "beko-pressure-switch-defect",
+            "title": "Дефект прессостата Beko",
+            "sign": "Уровень жидкости определяется неверно",
+            "causes": "Датчик давления не переключается при изменении объёма воды",
+            "slugs": []
+        },
+        {
+            "slug": "beko-level-sensor-tube-blockage",
+            "title": "Засор трубки датчика уровня Beko",
+            "sign": "Сигнал о наполнении бака искажается",
+            "causes": "Отложения в воздушном канале мешают точным измерениям",
+            "slugs": []
+        },
+        {
+            "slug": "beko-water-level-signal-error",
+            "title": "Ошибка сигнала уровня воды Beko",
+            "sign": "Контроллер получает нестабильные данные",
+            "causes": "Нарушение цепи передачи приводит к ложным показаниям",
+            "slugs": []
+        },
+        {
+            "slug": "beko-dryer-heater-failure",
+            "title": "Неисправность нагревателя сушки Beko",
+            "sign": "Бельё остаётся влажным после цикла",
+            "causes": "Элемент сушки не создаёт необходимое тепло",
+            "slugs": []
+        },
+        {
+            "slug": "beko-dryer-thermostat-fault",
+            "title": "Сбой термостата сушки Beko",
+            "sign": "Температура воздуха не регулируется",
+            "causes": "Контролирующий датчик не отключает нагрев вовремя",
+            "slugs": []
+        },
+        {
+            "slug": "beko-dryer-airflow-blockage",
+            "title": "Нарушение циркуляции воздуха Beko",
+            "sign": "Процесс сушки выполняется слишком долго",
+            "causes": "Засор каналов препятствует свободному движению горячего потока",
+            "slugs": []
+        },
+        {
+            "slug": "beko-door-lock-failure",
+            "title": "Неисправность блокировки люка Beko",
+            "sign": "Дверца не фиксируется перед запуском",
+            "causes": "Механизм замка повреждён или не получает питание",
+            "slugs": []
+        },
+        {
+            "slug": "beko-door-switch-defect",
+            "title": "Дефект датчика двери Beko",
+            "sign": "Контроллер не подтверждает закрытие люка",
+            "causes": "Микровыключатель не замыкает цепь при защёлкивании",
+            "slugs": []
+        },
+        {
+            "slug": "beko-lock-wiring-issue",
+            "title": "Проблема проводки замка Beko",
+            "sign": "Сигнал блокировки отсутствует",
+            "causes": "Повреждённые провода препятствуют подаче напряжения на устройство",
+            "slugs": []
+        },
+        {
+            "slug": "beko-inlet-hose-kinked",
+            "title": "Перегиб заливного шланга Beko",
+            "sign": "Вода поступает с перебоями",
+            "causes": "Деформация шланга ограничивает поток",
+            "slugs": []
+        },
+        {
+            "slug": "beko-solenoid-valve-malfunction",
+            "title": "Неисправность соленоидного клапана Beko",
+            "sign": "Подача воды не начинается после старта",
+            "causes": "Электромагнитный механизм не открывается из-за внутреннего дефекта",
+            "slugs": []
+        },
+        {
+            "slug": "beko-water-supply-interruption",
+            "title": "Прерывание водоснабжения Beko",
+            "sign": "Заполнение бака внезапно останавливается",
+            "causes": "Внешние перебои в системе подачи приводят к остановке цикла",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-connection-problem",
+            "title": "Проблема подключения двигателя Beko",
+            "sign": "Привод не реагирует на команды",
+            "causes": "Разъёмы ослаблены или окислены, что нарушает питание",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drive-belt-slip",
+            "title": "Проскальзывание приводного ремня Beko",
+            "sign": "Барабан вращается неравномерно",
+            "causes": "Изношенный ремень не обеспечивает надёжную передачу усилия",
+            "slugs": []
+        },
+        {
+            "slug": "beko-spin-control-error",
+            "title": "Ошибка управления отжимом Beko",
+            "sign": "Скорость отжима не достигает заданного значения",
+            "causes": "Контроллер неправильно регулирует режим ускорения",
+            "slugs": []
+        }
+
+    ]
+
+}

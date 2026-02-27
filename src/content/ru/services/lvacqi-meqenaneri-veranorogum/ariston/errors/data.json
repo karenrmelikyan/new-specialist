@@ -1,0 +1,303 @@
+{
+    "indexPageTitle": "Ошибки стиральных машин Ariston",
+    "title": "Частые коды ошибок стиральных машин Ariston",
+    "subTitle": "Не нашли решение своей проблемы?",
+    "subSign": "Признак",
+    "subCauses": "Причины",
+    "btnText": "Вызвать мастера",
+    "parentURL": "/ru/services/lvacqi-meqenaneri-veranorogum/ariston/errors/",
+
+    "items": [
+        {
+            "slug": "ariston-washer-error-f01",
+            "title": "Ошибка F01 стиральной машины Ariston (двигатель)",
+            "sign": "Барабан не запускается или вращение отсутствует",
+            "causes": "Короткое замыкание в цепи двигателя или неисправность силового модуля управления",
+            "slugs": [
+                "ariston-motor-circuit-short",
+                "ariston-motor-control-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f02",
+            "title": "Ошибка F02 стиральной машины Ariston (тахогенератор)",
+            "sign": "Нестабильное вращение или остановка барабана",
+            "causes": "Контроллер не получает корректный сигнал скорости вращения",
+            "slugs": [
+                "ariston-tachogenerator-fault",
+                "ariston-motor-connection-issue"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f03",
+            "title": "Ошибка F03 стиральной машины Ariston (датчик температуры)",
+            "sign": "Нагрев воды работает некорректно",
+            "causes": "Сбой температурного датчика или нарушение электрической цепи нагрева",
+            "slugs": [
+                "ariston-temperature-sensor-defect",
+                "ariston-heating-circuit-problem"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f04",
+            "title": "Ошибка F04 стиральной машины Ariston (уровень воды)",
+            "sign": "Система фиксирует переполнение бака",
+            "causes": "Некорректный сигнал прессостата или сбой контроля уровня жидкости",
+            "slugs": [
+                "ariston-pressure-switch-failure",
+                "ariston-water-level-control-error"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f05",
+            "title": "Ошибка F05 стиральной машины Ariston (слив)",
+            "sign": "Вода не удаляется после завершения цикла",
+            "causes": "Засор сливного тракта или неисправность насоса откачки",
+            "slugs": [
+                "ariston-drain-pump-failure",
+                "ariston-drain-system-blockage"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f06",
+            "title": "Ошибка F06 стиральной машины Ariston (панель управления)",
+            "sign": "Кнопки или селектор программ не реагируют",
+            "causes": "Нарушение связи между интерфейсной панелью и главным модулем",
+            "slugs": [
+                "ariston-user-interface-fault",
+                "ariston-control-board-communication-loss"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f07",
+            "title": "Ошибка F07 стиральной машины Ariston (нагревательный элемент)",
+            "sign": "Вода остаётся холодной во время стирки",
+            "causes": "Отказ ТЭНа или отсутствие сигнала о наличии воды перед нагревом",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-water-detection-error"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f08",
+            "title": "Ошибка F08 стиральной машины Ariston (реле нагрева)",
+            "sign": "Процесс нагрева прерывается преждевременно",
+            "causes": "Залипание реле нагревателя или сбой электронной платы",
+            "slugs": [
+                "ariston-heater-relay-stuck",
+                "ariston-main-board-fault"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f09",
+            "title": "Ошибка F09 стиральной машины Ariston (память модуля)",
+            "sign": "Программа работает с перебоями или не запускается",
+            "causes": "Повреждение энергонезависимой памяти или ошибка конфигурации",
+            "slugs": [
+                "ariston-memory-module-corruption",
+                "ariston-configuration-data-error"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f10",
+            "title": "Ошибка F10 стиральной машины Ariston (контроль уровня)",
+            "sign": "Машина не определяет корректный объём воды",
+            "causes": "Неисправность датчика уровня или проблемы в его соединениях",
+            "slugs": [
+                "ariston-pressure-sensor-defect",
+                "ariston-level-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f11",
+            "title": "Ошибка F11 стиральной машины Ariston (сливной насос)",
+            "sign": "Помпа не активируется во время слива",
+            "causes": "Отсутствие питания насоса или внутренний механический дефект",
+            "slugs": [
+                "ariston-drain-pump-power-loss",
+                "ariston-drain-motor-damage"
+            ]
+        },
+        {
+            "slug": "ariston-washer-error-f12",
+            "title": "Ошибка F12 стиральной машины Ariston (связь модулей)",
+            "sign": "Нет обмена данными между электронными платами",
+            "causes": "Обрыв шлейфа или неисправность одного из управляющих модулей",
+            "slugs": [
+                "ariston-board-communication-error",
+                "ariston-interconnect-cable-fault"
+            ]
+        },
+
+        {
+            "slug": "ariston-motor-circuit-short",
+            "title": "Короткое замыкание цепи двигателя Ariston",
+            "sign": "Двигатель получает аномальный ток",
+            "causes": "Замыкание внутри обмоток мотора или повреждение проводки вызывает внезапное отключение",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-motor-control-module-failure",
+            "title": "Неисправность модуля управления мотором Ariston",
+            "sign": "Контроллер двигателя не реагирует на команды",
+            "causes": "Сбой в электронном модуле, управляющем скоростью и направлением вращения",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-tachogenerator-fault",
+            "title": "Сбой тахогенератора Ariston",
+            "sign": "Контроллер не получает сигнал о скорости",
+            "causes": "Неисправность датчика оборотов или обрыв цепи",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-motor-connection-issue",
+            "title": "Проблема подключения мотора Ariston",
+            "sign": "Сигналы двигателя прерываются или отсутствуют",
+            "causes": "Ослабленные контакты или коррозия разъёма мешают передаче тока",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-temperature-sensor-defect",
+            "title": "Дефект датчика температуры Ariston",
+            "sign": "Система получает неверные сведения о нагреве",
+            "causes": "Нарушение работы термистора или плохой контакт на соединениях",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-circuit-problem",
+            "title": "Проблема в нагревательном контуре Ariston",
+            "sign": "Нагрев прекращается преждевременно",
+            "causes": "Разрыв проводки или отказ элементов в нагревательном тракте",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-switch-failure",
+            "title": "Сбой прессостата Ariston",
+            "sign": "Контроллер не определяет корректный уровень воды",
+            "causes": "Закупорка канала давления или отказ самого переключателя",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-level-control-error",
+            "title": "Ошибка контроля уровня воды Ariston",
+            "sign": "Уровень жидкости не совпадает с ожидаемым",
+            "causes": "Нарушения в логике контроля или сбой датчика",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-failure",
+            "title": "Неисправность сливного насоса Ariston",
+            "sign": "Помпа не откачивает воду",
+            "causes": "Механическая блокировка крыльчатки или отказ мотора",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-system-blockage",
+            "title": "Засор сливной системы Ariston",
+            "sign": "Слив воды затруднён или прерывается",
+            "causes": "Мусор, нитки или инородные предметы блокируют сливной тракт",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-user-interface-fault",
+            "title": "Сбой пользовательской панели Ariston",
+            "sign": "Кнопки или селектор не работают корректно",
+            "causes": "Неисправности органов управления или плохой контакт со шлейфом",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-control-board-communication-loss",
+            "title": "Потеря связи с платой управления Ariston",
+            "sign": "Нет обмена данными между модулями",
+            "causes": "Обрыв шины данных или повреждение разъёмов",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-failure",
+            "title": "Сбой нагревательного элемента Ariston",
+            "sign": "Вода остаётся холодной",
+            "causes": "Перегоревшая спираль или нарушение контактов не дают элементу функционировать",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-detection-error",
+            "title": "Ошибка обнаружения воды Ariston",
+            "sign": "Сигнал о наличии жидкости некорректен",
+            "causes": "Проблемы с датчиком уровня или его каналом",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heater-relay-stuck",
+            "title": "Залипание реле нагревателя Ariston",
+            "sign": "Нагревательный элемент включается бесконтрольно",
+            "causes": "Износ контактов или механический дефект реле",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-main-board-fault",
+            "title": "Сбой основной платы Ariston",
+            "sign": "Контроллер не отвечает, процессы прерываются",
+            "causes": "Короткие замыкания, повреждение элементов или перегрузка схемы",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-memory-module-corruption",
+            "title": "Повреждение модуля памяти Ariston",
+            "sign": "Программа ведёт себя нестабильно",
+            "causes": "Ошибка энергонезависимой памяти или сбой записи/чтения",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-configuration-data-error",
+            "title": "Ошибка конфигурационных данных Ariston",
+            "sign": "Параметры программы противоречивы",
+            "causes": "Некорректные настройки или нарушения при обновлении прошивки",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-sensor-defect",
+            "title": "Дефект датчика давления Ariston",
+            "sign": "Неверные уровни давления фиксируются",
+            "causes": "Электронный сбой сенсора или закупорка его канала",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-level-sensor-wiring-issue",
+            "title": "Проблема проводки датчика уровня Ariston",
+            "sign": "Сигнал уровня воды прерывается",
+            "causes": "Ослабленные или повреждённые проводники мешают стабильной передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-power-loss",
+            "title": "Потеря питания сливного насоса Ariston",
+            "sign": "Помпа не получает энергию",
+            "causes": "Неисправный кабель питания или разъём не подаёт напряжение",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-motor-damage",
+            "title": "Повреждение мотора сливного насоса Ariston",
+            "sign": "Помпа не запускается или делает шум",
+            "causes": "Механическое разрушение внутренних элементов мотора",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-board-communication-error",
+            "title": "Сбой связи между платами Ariston",
+            "sign": "Электронные узлы не обмениваются данными",
+            "causes": "Разъёмы или шлейфы повреждены, что мешает коммуникации",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-interconnect-cable-fault",
+            "title": "Сбой межплатного кабеля Ariston",
+            "sign": "Отсутствует передача данных между модулями",
+            "causes": "Повреждённый или плохо подключённый шлейф мешает сигнальной связи",
+            "slugs": []
+        }
+
+    ]
+
+}
