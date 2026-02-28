@@ -1,0 +1,178 @@
+---
+import '../assets/css/main.css'
+import ENV from '../content/ru/env.json'
+import Banner from '../components/Banner.astro'
+import ServicesGrid from '../components/ServicesGrid.astro'
+import Benefits from '../components/Benefits.astro'
+import Reviews from '../components/Reviews.astro'
+import Location from '../components/Location.astro'
+import Time from '../components/Time.astro'
+import Menu from '../components/Menu.astro'
+import MobMenu from '../components/MobMenu.astro'
+import Modal from '../components/Modal.astro'
+import ScrollUpBtn from '../components/ScrollUpBtn.astro'
+import Footer from '../components/Footer.astro'
+
+const { title = null, description = null, jsonLd = null } = Astro.props
+const canonicalUrl = Astro.url.pathname === '/' ? Astro.url.origin : Astro.url.href
+---
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+        <title>{title}</title>
+
+        {Array.isArray(jsonLd) &&
+            jsonLd.map(item => (
+                <script type="application/ld+json" set:html={JSON.stringify(item)} is:inline />
+            ))
+        }
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container header-inner">
+                <!-- LEFT SIDE -->
+                <div class="header-left">
+                    <a href={'/ru/'} class="logo">
+                        <img 
+                            id="image"
+                            data-src="/assets/img/logo.webp"
+                            alt="Specialist Logo Yerevan"
+                            title={ENV.HOST}
+                        />
+                    </a>
+
+                    <button class="menu-button" data-menu-toggle>
+                        Все страницы
+                        <span class="arrow" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="header-right">
+                    <Location label="Ереван" />
+                    <Time label="09–21" />
+                    
+                    <div class="header-phone" title="Call us">
+                        <span class="header-phone-number">374 (93) 31-64-61</span>
+                    </div>
+                    <div class="header-phone">
+                        <a href=`tel:${ENV.PHONE}`>
+                            <img 
+                                id="image"
+                                data-src="/assets/img/phone-call.webp" 
+                                alt="Call Us | Specialist Yerevan"
+                                title="Call us"
+                            />
+                        </a>
+                    </div>
+                    <button class="btn-small" onclick="openModal()">
+                        Вызвать мастера
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <slot /> <!-- Content -->
+
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <Banner 
+                    title = 'Вызовите мастера в пару кликов!' 
+                    description = 'Напишите нам в WhatsApp, убедитесь что мы всегда на связи и получите консультацию или оставьте заявку! ' 
+                    background = 'chat' 
+                    btnInscription = 'Написать в чат' 
+                    picURL = '/assets/img/chat-preview.webp' 
+                    url = {ENV.WHATSAPP_URL}
+                />
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <ServicesGrid content= {{
+                    title: "Все услуги",
+                    hrefText: "Подробнее →",
+                    items: [
+                        { h: "Ремонт холодильников", p: "Не морозит, течёт, замена компрессора.", href: "#", src: "/assets/img/ref.webp" },
+                        { h: "Ремонт стиральных машин", p: "Не сливает, шумит, замена ТЭНа.", href: "#", src: "/assets/img/washer.webp" },
+                        { h: "Ремонт посудомоек", p: "Плохо моет, не греет воду, течи.", href: "#", src: "/assets/img/dishwasher.webp" },
+                        { h: "Ремонт сушилок", p: "Не сушит, нет нагрева, ошибки датчиков.", href: "#", src: "/assets/img/dryer.webp" }
+                    ]}} 
+                />
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <Banner 
+                    title = 'Почему выбирают наш сервис?' 
+                    description = 'Более 20 лет мы оказываем качественные услуги по ремонту бытовой техники!' 
+                    background = 'benefits' 
+                    btnInscription = 'О Компании' 
+                    picURL = '/assets/img/benefits-preview.webp' 
+                    url = '/ru/about/'
+                />
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <Benefits content = {{
+                    title: "Наши преимущества",
+                    items: [
+                        { h: "Профессиональные мастера", p: "Сертифицированные инженеры, с опытом от 10 лет." },
+                        { h: "Быстрый выезд", p: "Приезжаем в день обращения или по удобному времени." },
+                        { h: "Гарантия", p: "Официальная гарантия до 12 месяцев." },
+                        { h: "Оригинальные запчасти", p: "Склады и быстрая доставка по Еревану." },
+                        { h: "Диагностика на дому", p: "Без вывоза техники, экономия времени и удобство для клиента." },
+                        { h: "Честная смета", p: "Фиксированные цены без скрытых доплат и навязывания услуг." },
+                        { h: "Прозрачные сроки", p: "Сразу сообщаем, сколько займёт работа и когда будет готово." },
+                        { h: "Удобная оплата", p: "Наличные, карта, оплатa через сайт." }
+                    ]}} 
+                />
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <Banner 
+                    title = 'Нас вдохновляют отзывы заказчиков!' 
+                    description = 'Именно они - реальный результат нашей работы и показывают, что мы движемся в правильном направлении!' 
+                    background = 'benefits' 
+                    btnInscription = 'Оставить отзыв' 
+                    picURL = '/assets/img/reviews-preview.webp' 
+                    url = {ENV.GOOGLE_REVIEWS_URL}
+                />
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <Reviews 
+                    ENV={ENV}, 
+                    localization='ru' 
+                />
+                <div class="offset"></div>
+                <div class="offset"></div>
+                <div class="offset"></div>
+            </div> 
+        </main>
+        <Footer />
+
+        <Menu />
+        <MobMenu />
+        <Modal 
+            title = 'Нужен ремонт?',
+            subTitle = 'Оставьте заявку, мы с Вами свяжемся',
+            inputName = 'Имя',
+            inputPhone = 'Телефон*',
+            inputCode = 'Код*',
+            captchaText = 'Введите код с картинки',
+            captchaAgreeText = 'Я даю согласие на обработку',
+            captchaAgreeHrefText = 'персональных данных',
+            captchaAgreeHref = '#',
+            btnText = 'Отправить',
+        />
+        <ScrollUpBtn />
+
+        <script src="/js/main.js" is:inline></script>
+    </body>
+</html>

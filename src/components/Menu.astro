@@ -18,6 +18,19 @@ import fridgeIssuesElectroluxRu from '../content/ru/services/sarnaranneri-verano
 import fridgeIssuesSharpRu from '../content/ru/services/sarnaranneri-veranorogum/sharp/data.json'
 import fridgeIssuesWhirlpoolRu from '../content/ru/services/sarnaranneri-veranorogum/whirlpool/data.json'
 
+import fridgeIssuesHisenseErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/hisense/errors/data.json'
+import fridgeIssuesIndesitErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/indesit/errors/data.json'
+import fridgeIssuesLiebherrErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/liebherr/errors/data.json'
+import fridgeIssuesSamsungErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/samsung/errors/data.json'
+import fridgeIssuesLgErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/lg/errors/data.json'
+import fridgeIssuesHitachiErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/hitachi/errors/data.json'
+import fridgeIssuesBoschErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/bosch/errors/data.json'
+import fridgeIssuesToshibaErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/toshiba/errors/data.json'
+import fridgeIssuesGorenjeErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/gorenje/errors/data.json'
+import fridgeIssuesElectroluxErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/electrolux/errors/data.json'
+import fridgeIssuesSharpErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/sharp/errors/data.json'
+import fridgeIssuesWhirlpoolErrorsRu from '../content/ru/services/sarnaranneri-veranorogum/whirlpool/errors/data.json'
+
 // Washers
 import washerIssuesRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/data.json'
 import washerIssuesAristonRu from '../content/ru/services/lvacqi-meqenaneri-veranorogum/ariston/data.json'
@@ -127,6 +140,19 @@ let fridgeIssuesGorenje = fridgeIssuesGorenjeRu
 let fridgeIssuesElectrolux = fridgeIssuesElectroluxRu
 let fridgeIssuesHitachi = fridgeIssuesHitachiRu
 let fridgeIssuesWhirlpool = fridgeIssuesWhirlpoolRu
+
+let fridgeIssuesHisenseErrors = fridgeIssuesHisenseErrorsRu
+let fridgeIssuesIndesitErrors = fridgeIssuesIndesitErrorsRu
+let fridgeIssuesLiebherrErrors = fridgeIssuesLiebherrErrorsRu
+let fridgeIssuesSamsungErrors = fridgeIssuesSamsungErrorsRu
+let fridgeIssuesLgErrors = fridgeIssuesLgErrorsRu
+let fridgeIssuesSharpErrors = fridgeIssuesSharpErrorsRu
+let fridgeIssuesBoschErrors = fridgeIssuesBoschErrorsRu
+let fridgeIssuesToshibaErrors = fridgeIssuesToshibaErrorsRu
+let fridgeIssuesGorenjeErrors = fridgeIssuesGorenjeErrorsRu
+let fridgeIssuesElectroluxErrors = fridgeIssuesElectroluxErrorsRu
+let fridgeIssuesHitachiErrors = fridgeIssuesHitachiErrorsRu
+let fridgeIssuesWhirlpoolErrors = fridgeIssuesWhirlpoolErrorsRu
 
 // Washers
 let washerIssues = washerIssuesRu
@@ -306,12 +332,18 @@ const commonDishwasherIssues = getFilteredIssues(dishwasherIssues.items, dishwas
                     <div class="column">
                         <div class="column-title" role="heading" aria-level="3">Ремонт по ошибкам</div>
                         <ul>
-                            <li>Установка холодильников</li>
-                            <li>Установка стиральных машин</li>
-                            <li>Установка посудомоечных машин</li>
-                            <li>Установка сушильных машин</li>
-                            <li>Установка газовых плит</li>
-                            <li>Установка электрических плит</li>
+                            <li><a href={fridgeIssuesLgErrors.parentURL}>{fridgeIssuesLgErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesIndesitErrors.parentURL}>{fridgeIssuesIndesitErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesHisenseErrors.parentURL}>{fridgeIssuesHisenseErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesSamsungErrors.parentURL}>{fridgeIssuesSamsungErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesHitachiErrors.parentURL}>{fridgeIssuesHitachiErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesBoschErrors.parentURL}>{fridgeIssuesBoschErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesSharpErrors.parentURL}>{fridgeIssuesSharpErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesGorenjeErrors.parentURL}>{fridgeIssuesGorenjeErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesElectroluxErrors.parentURL}>{fridgeIssuesElectroluxErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesToshibaErrors.parentURL}>{fridgeIssuesToshibaErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesWhirlpoolErrors.parentURL}>{fridgeIssuesWhirlpoolErrors.indexPageTitle}</a></li>
+                            <li><a href={fridgeIssuesLiebherrErrors.parentURL}>{fridgeIssuesLiebherrErrors.indexPageTitle}</a></li>
                         </ul>
                     </div>
                 </div>

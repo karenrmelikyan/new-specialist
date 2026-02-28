@@ -8,6 +8,280 @@
     "parentURL": "/ru/services/sarnaranneri-veranorogum/liebherr/errors/",
 
     "items": [
-        
+        {
+            "slug": "liebherr-fridge-error-f0",
+            "title": "Ошибка F0 датчика температуры холодильной камеры холодильника Liebherr",
+            "sign": "Контроллер показывает неверные показатели температуры",
+            "causes": "Неисправность термистора или повреждение проводки мешает корректному измерению",
+            "slugs": [
+                "liebherr-fridge-temp-sensor-fault",
+                "liebherr-fridge-sensor-connector-damage",
+                "liebherr-fridge-sensor-circuit-interruption"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f1",
+            "title": "Ошибка F1 датчика морозильной камеры холодильника Liebherr",
+            "sign": "Температура морозильной камеры отображается некорректно",
+            "causes": "Сбой термистора или обрыв цепи нарушает контроль холода",
+            "slugs": [
+                "liebherr-fridge-freezer-temp-sensor-fault",
+                "liebherr-fridge-sensor-circuit-interruption"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f2",
+            "title": "Ошибка F2 вентилятора холодильника Liebherr",
+            "sign": "Циркуляция воздуха внутри камер нарушена",
+            "causes": "Поломка мотора вентилятора или засор воздушного канала препятствует движению воздуха",
+            "slugs": [
+                "liebherr-fridge-fan-motor-breakdown",
+                "liebherr-fridge-air-duct-blockage"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f3",
+            "title": "Ошибка F3 системы автоматической оттайки холодильника Liebherr",
+            "sign": "Лёд на испарителе не удаляется своевременно",
+            "causes": "Сбой нагревательного элемента или термозащиты нарушает цикл размораживания",
+            "slugs": [
+                "liebherr-fridge-defrost-heater-failure",
+                "liebherr-fridge-thermal-protection-trip"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f4",
+            "title": "Ошибка F4 заслонки распределения воздуха холодильника Liebherr",
+            "sign": "Холод распределяется неравномерно между отделениями",
+            "causes": "Заклинивание мотора заслонки или смещение датчика положения нарушает подачу холодного воздуха",
+            "slugs": [
+                "liebherr-fridge-damper-motor-jam",
+                "liebherr-fridge-position-sensor-misalignment"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f5",
+            "title": "Ошибка F5 инверторного управления компрессором холодильника Liebherr",
+            "sign": "Компрессор работает нестабильно или не выходит на рабочий режим",
+            "causes": "Сбой силовой платы или повреждение электронного модуля нарушает управление частотой вращения",
+            "slugs": [
+                "liebherr-fridge-inverter-board-defect",
+                "liebherr-fridge-compressor-start-relay-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f6",
+            "title": "Ошибка F6 утечки хладагента холодильника Liebherr",
+            "sign": "Охлаждение значительно снижено",
+            "causes": "Разгерметизация трубопровода или дефект уплотнений приводит к потере давления в контуре",
+            "slugs": [
+                "liebherr-fridge-refrigerant-leak",
+                "liebherr-fridge-capillary-tube-blockage"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f7",
+            "title": "Ошибка F7 датчика влажности холодильника Liebherr",
+            "sign": "Контроллер неверно оценивает уровень влажности",
+            "causes": "Неисправность сенсора или повреждение проводки искажает данные",
+            "slugs": [
+                "liebherr-fridge-humidity-sensor-fault"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f8",
+            "title": "Ошибка F8 вентилятора морозильной камеры холодильника Liebherr",
+            "sign": "Воздухообмен внутри морозильного отсека нарушен",
+            "causes": "Поломка вентилятора или препятствие на лопастях замедляет циркуляцию воздуха",
+            "slugs": [
+                "liebherr-fridge-freezer-fan-motor-failure",
+                "liebherr-fridge-air-duct-blockage"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-f9",
+            "title": "Ошибка F9 питания электронного блока холодильника Liebherr",
+            "sign": "Устройство не запускается или отключается самопроизвольно",
+            "causes": "Перепады напряжения или сбой платы питания препятствуют нормальной работе",
+            "slugs": [
+                "liebherr-fridge-power-supply-fluctuation",
+                "liebherr-fridge-power-supply-board-fault"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-fa",
+            "title": "Ошибка FA связи модулей холодильника Liebherr",
+            "sign": "Электронные блоки не обмениваются данными",
+            "causes": "Повреждение шин коммуникации или разъёмов нарушает синхронизацию",
+            "slugs": [
+                "liebherr-fridge-main-board-communication-error",
+                "liebherr-fridge-communication-bus-fault"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-error-fb",
+            "title": "Ошибка FB двери холодильника Liebherr",
+            "sign": "Раздаётся звуковой сигнал при неплотно закрытой дверце",
+            "causes": "Дверца закрыта не полностью или уплотнитель повреждён",
+            "slugs": [
+                "liebherr-fridge-door-seal-damage",
+                "liebherr-fridge-door-alignment-misalignment"
+            ]
+        },
+
+        {
+            "slug": "liebherr-fridge-temp-sensor-fault",
+            "title": "Сбой датчика температуры Liebherr",
+            "sign": "Контроллер получает неверные показания температуры",
+            "causes": "Повреждение термистора или короткое замыкание нарушает измерения",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-sensor-connector-damage",
+            "title": "Повреждение контактов датчика Liebherr",
+            "sign": "Температурные данные отображаются некорректно",
+            "causes": "Окисление, ослабление или разрыв соединений мешает передаче сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-sensor-circuit-interruption",
+            "title": "Обрыв цепи датчика температуры Liebherr",
+            "sign": "Контроллер не фиксирует правильные значения",
+            "causes": "Разрыв проводки или дефект разъёмов блокирует сигнал",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-freezer-temp-sensor-fault",
+            "title": "Сбой датчика морозильной камеры Liebherr",
+            "sign": "Морозильный отсек не поддерживает заданный холод",
+            "causes": "Неисправность термистора или повреждение цепи искажает контроль температуры",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-fan-motor-breakdown",
+            "title": "Поломка вентилятора Liebherr",
+            "sign": "Воздухообмен внутри камер нарушен",
+            "causes": "Износ мотора или межвитковое замыкание останавливает вращение лопастей",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-air-duct-blockage",
+            "title": "Блокировка воздушного канала Liebherr",
+            "sign": "Холод распределяется неравномерно",
+            "causes": "Скопление льда, пыли или посторонних частиц препятствует движению воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-defrost-heater-failure",
+            "title": "Сбой нагревателя оттайки Liebherr",
+            "sign": "Лёд на испарителе не удаляется",
+            "causes": "Перегорание элемента или обрыв цепи мешает автоматической оттайке",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-thermal-protection-trip",
+            "title": "Срабатывание термозащиты нагревателя Liebherr",
+            "sign": "Нагреватель отключается при перегреве",
+            "causes": "Предохранительный элемент реагирует на превышение допустимой температуры",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-damper-motor-jam",
+            "title": "Заклинивание мотора заслонки Liebherr",
+            "sign": "Регулировка подачи холодного воздуха нарушена",
+            "causes": "Механическое сопротивление блокирует перемещение клапана",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-position-sensor-misalignment",
+            "title": "Смещение датчика положения заслонки Liebherr",
+            "sign": "Контроллер получает неверные данные о позиции заслонки",
+            "causes": "Неправильная калибровка или физическое смещение нарушает показания",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-inverter-board-defect",
+            "title": "Дефект инверторной платы Liebherr",
+            "sign": "Скорость работы компрессора регулируется нестабильно",
+            "causes": "Выход из строя силовых элементов нарушает управление частотой вращения",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-compressor-start-relay-failure",
+            "title": "Неисправность пускового реле компрессора Liebherr",
+            "sign": "Компрессор не запускается",
+            "causes": "Контакты реле повреждены и не подают стартовый импульс на двигатель",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-refrigerant-leak",
+            "title": "Утечка хладагента Liebherr",
+            "sign": "Эффективность охлаждения снижена",
+            "causes": "Нарушение герметичности трубопровода снижает давление и работу системы",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-capillary-tube-blockage",
+            "title": "Закупорка капиллярной трубки Liebherr",
+            "sign": "Температура в камерах не достигает нормы",
+            "causes": "Загрязнения препятствуют свободной циркуляции хладагента",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-humidity-sensor-fault",
+            "title": "Сбой датчика влажности Liebherr",
+            "sign": "Система неверно определяет уровень влажности",
+            "causes": "Повреждение сенсора или проводки искажает показания",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-freezer-fan-motor-failure",
+            "title": "Поломка вентилятора морозильной камеры Liebherr",
+            "sign": "Циркуляция воздуха в морозильном отсеке нарушена",
+            "causes": "Износ мотора или препятствия на лопастях замедляют поток воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-power-supply-fluctuation",
+            "title": "Перепады питания Liebherr",
+            "sign": "Прибор отключается или не запускается",
+            "causes": "Нестабильное напряжение мешает работе электронных узлов",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-power-supply-board-fault",
+            "title": "Сбой платы питания Liebherr",
+            "sign": "Устройство не стартует",
+            "causes": "Выход из строя элементов блока питания препятствует подаче энергии",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-main-board-communication-error",
+            "title": "Сбой связи основной платы Liebherr",
+            "sign": "Электронные модули не обмениваются данными",
+            "causes": "Нарушение проводки или повреждение разъёмов блокирует коммуникацию",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-communication-bus-fault",
+            "title": "Ошибка шины данных Liebherr",
+            "sign": "Модули не синхронизируются друг с другом",
+            "causes": "Повреждение линий передачи или разъёмов препятствует обмену сигналами",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-door-seal-damage",
+            "title": "Повреждение уплотнителя дверцы Liebherr",
+            "sign": "Дверца закрывается неплотно, повышается температура в камерах",
+            "causes": "Дефект резинового уплотнителя нарушает герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-fridge-door-alignment-misalignment",
+            "title": "Несовпадение положения дверцы Liebherr",
+            "sign": "Дверца закрыта с перекосом, раздаётся сигнал тревоги",
+            "causes": "Нарушение регулировки петель или перекос конструкции мешает плотному закрытию",
+            "slugs": []
+        }
     ]
 }

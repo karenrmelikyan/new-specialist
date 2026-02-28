@@ -8,6 +8,287 @@
     "parentURL": "/ru/services/sarnaranneri-veranorogum/whirlpool/errors/",
 
     "items": [
-        
+        {
+            "slug": "whirlpool-fridge-error-e1",
+            "title": "Ошибка E1 датчика температуры холодильной камеры холодильника Whirlpool",
+            "sign": "Основное отделение охлаждается нестабильно или температура не соответствует настройке",
+            "causes": "Сбой термодатчика холодильной камеры или нарушение его электрического подключения",
+            "slugs": [
+                "whirlpool-fridge-fridge-temp-sensor-failure",
+                "whirlpool-fridge-sensor-connection-issue"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e2",
+            "title": "Ошибка E2 датчика температуры морозильной камеры холодильника Whirlpool",
+            "sign": "Морозильный отсек не поддерживает заданный уровень холода",
+            "causes": "Неисправность сенсора морозильной камеры либо повреждение цепи измерения",
+            "slugs": [
+                "whirlpool-fridge-freezer-temp-sensor-defect",
+                "whirlpool-fridge-sensor-circuit-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e3",
+            "title": "Ошибка E3 системы оттайки холодильника Whirlpool",
+            "sign": "На испарителе образуется наледь, автоматическая разморозка не выполняется",
+            "causes": "Нагреватель оттайки или датчик испарителя не функционируют корректно",
+            "slugs": [
+                "whirlpool-fridge-defrost-heater-failure",
+                "whirlpool-fridge-evaporator-sensor-issue"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e4",
+            "title": "Ошибка E4 вентилятора холодильника Whirlpool",
+            "sign": "Воздушные потоки внутри камер распределяются неравномерно",
+            "causes": "Мотор вентилятора неисправен или лопасти блокированы",
+            "slugs": [
+                "whirlpool-fridge-fan-motor-malfunction",
+                "whirlpool-fridge-air-duct-blockage"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e5",
+            "title": "Ошибка E5 модуля управления холодильника Whirlpool",
+            "sign": "Панель управления реагирует некорректно или отображает сбои",
+            "causes": "Электронная плата работает нестабильно из-за внутренней неисправности",
+            "slugs": [
+                "whirlpool-fridge-main-board-failure",
+                "whirlpool-fridge-control-system-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e6",
+            "title": "Ошибка E6 заслонки подачи воздуха холодильника Whirlpool",
+            "sign": "Температурный баланс между камерами нарушен",
+            "causes": "Механизм воздушной заслонки заклинил или не получает управляющий сигнал",
+            "slugs": [
+                "whirlpool-fridge-damper-motor-fault",
+                "whirlpool-fridge-airflow-regulation-problem"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e7",
+            "title": "Ошибка E7 компрессора холодильника Whirlpool",
+            "sign": "Компрессор запускается с перебоями или отключается преждевременно",
+            "causes": "Нарушена цепь запуска компрессора либо срабатывает защитная система",
+            "slugs": [
+                "whirlpool-fridge-compressor-start-issue",
+                "whirlpool-fridge-overheat-protection-activation"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e8",
+            "title": "Ошибка E8 датчика окружающей температуры холодильника Whirlpool",
+            "sign": "Система неправильно корректирует режим охлаждения в зависимости от условий",
+            "causes": "Внешний температурный сенсор передаёт искажённые данные",
+            "slugs": [
+                "whirlpool-fridge-ambient-sensor-defect",
+                "whirlpool-fridge-signal-transmission-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-e9",
+            "title": "Ошибка E9 утечки хладагента холодильника Whirlpool",
+            "sign": "Охлаждение ослаблено, температура повышается несмотря на работу компрессора",
+            "causes": "Снижение давления в системе вследствие разгерметизации контура",
+            "slugs": [
+                "whirlpool-fridge-refrigerant-leak",
+                "whirlpool-fridge-cooling-system-pressure-loss"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-cf",
+            "title": "Ошибка CF связи модулей холодильника Whirlpool",
+            "sign": "Дисплей и основной модуль не синхронизируются",
+            "causes": "Нарушен обмен данными между электронными компонентами",
+            "slugs": [
+                "whirlpool-fridge-communication-error",
+                "whirlpool-fridge-display-connection-problem"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-po",
+            "title": "Ошибка PO отключения питания холодильника Whirlpool",
+            "sign": "После восстановления электроснабжения отображается предупреждение",
+            "causes": "Фиксация факта перебоя питания для контроля безопасности продуктов",
+            "slugs": [
+                "whirlpool-fridge-power-interruption-detected"
+            ]
+        },
+        {
+            "slug": "whirlpool-fridge-error-door",
+            "title": "Ошибка неплотно закрытой дверцы холодильника Whirlpool",
+            "sign": "Система сигнализирует о повышении температуры из-за утечки холода",
+            "causes": "Дверца закрыта неплотно или уплотнитель утратил герметичность",
+            "slugs": [
+                "whirlpool-fridge-door-seal-wear",
+                "whirlpool-fridge-door-alignment-issue"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-fridge-fridge-temp-sensor-failure",
+            "title": "Неисправность датчика температуры холодильной камеры Whirlpool",
+            "sign": "В основном отделении поддерживается нестабильный температурный режим",
+            "causes": "Термистор передаёт некорректные показатели или полностью теряет чувствительность",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-sensor-connection-issue",
+            "title": "Нарушение подключения температурного сенсора Whirlpool",
+            "sign": "Температурные данные отображаются с перебоями",
+            "causes": "Ослабленный разъём или повреждённый контакт препятствуют корректной передаче сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-freezer-temp-sensor-defect",
+            "title": "Сбой датчика температуры морозильной камеры Whirlpool",
+            "sign": "Морозильный отсек не достигает установленного уровня охлаждения",
+            "causes": "Датчик морозильной зоны работает вне допустимого диапазона сопротивления",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-sensor-circuit-fault",
+            "title": "Повреждение цепи температурного датчика Whirlpool",
+            "sign": "Система не получает стабильных данных о текущей температуре",
+            "causes": "Обрыв проводки или короткое замыкание в измерительной цепи",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-defrost-heater-failure",
+            "title": "Неисправность нагревателя системы оттайки Whirlpool",
+            "sign": "На испарителе накапливается лёд, цикл размораживания не выполняется",
+            "causes": "Перегорание нагревательного элемента либо отсутствие питания на ТЭНе",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-evaporator-sensor-issue",
+            "title": "Проблема датчика испарителя Whirlpool",
+            "sign": "Процесс размораживания завершается преждевременно или не запускается",
+            "causes": "Сенсор испарителя передаёт неточные температурные значения",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-fan-motor-malfunction",
+            "title": "Неисправность двигателя вентилятора Whirlpool",
+            "sign": "Воздушный поток внутри камер ослаблен",
+            "causes": "Износ подшипников или блокировка крыльчатки препятствуют вращению",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-air-duct-blockage",
+            "title": "Блокировка воздушных каналов Whirlpool",
+            "sign": "Температура в разных зонах отличается от заданной",
+            "causes": "Наледь или загрязнение перекрывают циркуляционные отверстия",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-main-board-failure",
+            "title": "Неисправность основной платы управления Whirlpool",
+            "sign": "Электронная система работает нестабильно или зависает",
+            "causes": "Повреждение компонентов платы нарушает выполнение управляющих алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-control-system-error",
+            "title": "Сбой электронной системы управления Whirlpool",
+            "sign": "Настройки температуры не сохраняются или изменяются самопроизвольно",
+            "causes": "Ошибка логики управления или нестабильное питание внутренних узлов",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-damper-motor-fault",
+            "title": "Неисправность мотора воздушной заслонки Whirlpool",
+            "sign": "Баланс охлаждения между камерами нарушен",
+            "causes": "Привод заслонки заклинивает либо не реагирует на команды контроллера",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-airflow-regulation-problem",
+            "title": "Нарушение регулировки воздушного потока Whirlpool",
+            "sign": "Холод распределяется неравномерно между отделениями",
+            "causes": "Механизм распределения воздуха функционирует с перебоями",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-compressor-start-issue",
+            "title": "Проблема запуска компрессора Whirlpool",
+            "sign": "Компрессор не стартует при подаче питания",
+            "causes": "Неисправность пускового элемента или недостаточный стартовый ток",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-overheat-protection-activation",
+            "title": "Срабатывание защиты от перегрева Whirlpool",
+            "sign": "Компрессор отключается в процессе работы",
+            "causes": "Температура двигателя превышает допустимое значение, активируется защита",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-ambient-sensor-defect",
+            "title": "Неисправность датчика окружающей температуры Whirlpool",
+            "sign": "Система охлаждения некорректно адаптируется к условиям помещения",
+            "causes": "Сенсор внешней температуры передаёт искажённые данные",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-signal-transmission-fault",
+            "title": "Ошибка передачи сигнала между узлами Whirlpool",
+            "sign": "Отдельные функции работают несогласованно",
+            "causes": "Повреждение соединений нарушает обмен управляющими данными",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-refrigerant-leak",
+            "title": "Утечка хладагента Whirlpool",
+            "sign": "Эффективность охлаждения значительно снижена",
+            "causes": "Разгерметизация трубопровода приводит к снижению давления в контуре",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-cooling-system-pressure-loss",
+            "title": "Потеря давления в системе охлаждения Whirlpool",
+            "sign": "Температура постепенно повышается несмотря на работу компрессора",
+            "causes": "Недостаточное количество хладагента нарушает цикл охлаждения",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-communication-error",
+            "title": "Ошибка связи электронных модулей Whirlpool",
+            "sign": "Панель управления не синхронизируется с основным контроллером",
+            "causes": "Сбой внутреннего канала передачи данных между платами",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-display-connection-problem",
+            "title": "Проблема соединения панели индикации Whirlpool",
+            "sign": "Дисплей не отображает корректную информацию",
+            "causes": "Ослабление шлейфа или дефект разъёма панели управления",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-power-interruption-detected",
+            "title": "Фиксация перебоя электропитания Whirlpool",
+            "sign": "После включения отображается предупреждение о сбое питания",
+            "causes": "Система зарегистрировала временное отключение электроснабжения",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-door-seal-wear",
+            "title": "Износ уплотнителя дверцы Whirlpool",
+            "sign": "Температура внутри повышается из-за утечки холода",
+            "causes": "Резиновый уплотнитель утратил эластичность и герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fridge-door-alignment-issue",
+            "title": "Нарушение выравнивания дверцы Whirlpool",
+            "sign": "Дверца закрывается неплотно",
+            "causes": "Смещение петель или механическое препятствие мешают плотному прилеганию",
+            "slugs": []
+        }
+
     ]
 }

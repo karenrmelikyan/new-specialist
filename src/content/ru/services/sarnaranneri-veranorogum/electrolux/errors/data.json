@@ -8,6 +8,390 @@
     "parentURL": "/ru/services/sarnaranneri-veranorogum/electrolux/errors/",
 
     "items": [
-        
+        {
+            "slug": "electrolux-fridge-error-e1",
+            "title": "Ошибка E1 датчика температуры холодильной камеры холодильника Electrolux",
+            "sign": "Охлаждение основного отделения становится нестабильным",
+            "causes": "Система получает некорректные показатели от температурного сенсора камеры хранения продуктов",
+            "slugs": [
+                "electrolux-fridge-fridge-temp-sensor-failure",
+                "electrolux-fridge-sensor-wiring-issue",
+                "electrolux-fridge-main-board-malfunction"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e2",
+            "title": "Ошибка E2 датчика температуры морозильной камеры холодильника Electrolux",
+            "sign": "Морозильный отсек не поддерживает заданный уровень заморозки",
+            "causes": "Контроллер фиксирует искажённые данные от сенсора морозильного отделения",
+            "slugs": [
+                "electrolux-fridge-freezer-temp-sensor-defect",
+                "electrolux-fridge-sensor-circuit-break",
+                "electrolux-fridge-electronic-module-error"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e3",
+            "title": "Ошибка E3 датчика испарителя холодильника Electrolux",
+            "sign": "Процесс оттайки выполняется некорректно либо образуется наледь",
+            "causes": "Неисправный сенсор испарительного узла нарушает контроль температурного цикла",
+            "slugs": [
+                "electrolux-fridge-evaporator-sensor-fault",
+                "electrolux-fridge-defrost-cycle-disruption",
+                "electrolux-fridge-connector-oxidation"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e4",
+            "title": "Ошибка E4 нагревателя оттайки холодильника Electrolux",
+            "sign": "Лёд накапливается на задней стенке морозильной зоны",
+            "causes": "Нагревательный элемент системы размораживания не активируется или теряет эффективность",
+            "slugs": [
+                "electrolux-fridge-defrost-heater-failure",
+                "electrolux-fridge-thermal-fuse-activation",
+                "electrolux-fridge-relay-control-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e5",
+            "title": "Ошибка E5 датчика окружающей температуры холодильника Electrolux",
+            "sign": "Прибор неправильно адаптируется к внешним климатическим условиям",
+            "causes": "Сенсор окружающей среды передаёт неточные значения в электронный модуль",
+            "slugs": [
+                "electrolux-fridge-ambient-sensor-defect",
+                "electrolux-fridge-signal-transmission-error",
+                "electrolux-fridge-calibration-loss"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e6",
+            "title": "Ошибка E6 связи модулей холодильника Electrolux",
+            "sign": "Панель управления отображает сбой или перестаёт реагировать",
+            "causes": "Нарушение коммуникации между электронными платами приводит к программной нестабильности",
+            "slugs": [
+                "electrolux-fridge-main-board-communication-error",
+                "electrolux-fridge-internal-bus-failure",
+                "electrolux-fridge-firmware-corruption"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e7",
+            "title": "Ошибка E7 вентилятора охлаждения холодильника Electrolux",
+            "sign": "Циркуляция холодного воздуха внутри камер ослаблена",
+            "causes": "Система обнаруживает неисправность двигателя вентиляционного узла",
+            "slugs": [
+                "electrolux-fridge-fan-motor-breakdown",
+                "electrolux-fridge-air-duct-blockage",
+                "electrolux-fridge-fan-power-supply-issue"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e8",
+            "title": "Ошибка E8 заслонки воздушного канала холодильника Electrolux",
+            "sign": "Температура между отделениями распределяется неравномерно",
+            "causes": "Механизм регулировки воздушного потока функционирует некорректно",
+            "slugs": [
+                "electrolux-fridge-damper-motor-stuck",
+                "electrolux-fridge-airflow-control-failure",
+                "electrolux-fridge-position-sensor-misalignment"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-e9",
+            "title": "Ошибка E9 компрессора холодильника Electrolux",
+            "sign": "Компрессор не запускается либо работает с перебоями",
+            "causes": "Электронная система фиксирует отклонение в цепи питания или механике компрессорного агрегата",
+            "slugs": [
+                "electrolux-fridge-compressor-start-failure",
+                "electrolux-fridge-overcurrent-protection-triggered",
+                "electrolux-fridge-inverter-module-defect"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-ea",
+            "title": "Ошибка EA ледогенератора холодильника Electrolux",
+            "sign": "Производство льда остановлено или выполняется некорректно",
+            "causes": "Система обнаруживает нарушение работы механизма подачи воды либо датчиков положения",
+            "slugs": [
+                "electrolux-fridge-ice-maker-motor-failure",
+                "electrolux-fridge-water-inlet-valve-defect",
+                "electrolux-fridge-ice-sensor-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-ec",
+            "title": "Ошибка EC температурного контура холодильника Electrolux",
+            "sign": "Устройство не достигает установленного режима охлаждения",
+            "causes": "Сбой в холодильном контуре либо недостаточная производительность компрессорной системы",
+            "slugs": [
+                "electrolux-fridge-refrigerant-leak",
+                "electrolux-fridge-capillary-tube-blockage",
+                "electrolux-fridge-compressor-efficiency-loss"
+            ]
+        },
+        {
+            "slug": "electrolux-fridge-error-ef",
+            "title": "Ошибка EF подачи воды холодильника Electrolux",
+            "sign": "Диспенсер воды или ледогенератор функционируют нестабильно",
+            "causes": "Нарушение подачи жидкости из-за засора фильтра или недостаточного давления",
+            "slugs": [
+                "electrolux-fridge-water-filter-clogged",
+                "electrolux-fridge-low-water-pressure",
+                "electrolux-fridge-inlet-hose-kink"
+            ]
+        },
+
+        {
+            "slug": "electrolux-fridge-fridge-temp-sensor-failure",
+            "title": "Неисправность датчика температуры холодильной камеры Electrolux",
+            "sign": "Показатели охлаждения отображаются с отклонениями",
+            "causes": "Термистор утратил точность измерения либо имеет внутреннее повреждение",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-sensor-wiring-issue",
+            "title": "Нарушение проводки датчика Electrolux",
+            "sign": "Сигнал от сенсора передаётся нестабильно",
+            "causes": "Ослабленные соединения, излом кабеля или окисление контактов препятствуют корректной работе цепи",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-main-board-malfunction",
+            "title": "Сбой основной платы управления Electrolux",
+            "sign": "Команды выполняются с задержкой либо некорректно",
+            "causes": "Деградация электронных компонентов или повреждение дорожек нарушает алгоритмы контроля",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-freezer-temp-sensor-defect",
+            "title": "Дефект датчика температуры морозильной камеры Electrolux",
+            "sign": "Заморозка не достигает требуемого уровня",
+            "causes": "Измерительный элемент передаёт искажённые температурные значения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-sensor-circuit-break",
+            "title": "Обрыв цепи датчика Electrolux",
+            "sign": "Контроллер не получает обратную связь от измерительного узла",
+            "causes": "Повреждение проводника либо разрыв шлейфа нарушает целостность контура",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-electronic-module-error",
+            "title": "Ошибка электронного модуля Electrolux",
+            "sign": "Устройство функционирует нестабильно",
+            "causes": "Сбой микросхемы или внутреннее нарушение питания влияет на корректность управления",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-evaporator-sensor-fault",
+            "title": "Неисправность датчика испарителя Electrolux",
+            "sign": "Процесс размораживания выполняется несвоевременно",
+            "causes": "Сенсор не фиксирует температуру поверхности испарителя должным образом",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-defrost-cycle-disruption",
+            "title": "Нарушение цикла оттайки Electrolux",
+            "sign": "Лёд накапливается внутри морозильного отсека",
+            "causes": "Компоненты системы размораживания работают несогласованно",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-connector-oxidation",
+            "title": "Окисление электрических разъёмов Electrolux",
+            "sign": "Контакт между модулями становится нестабильным",
+            "causes": "Воздействие влаги вызывает образование налёта на соединениях",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-defrost-heater-failure",
+            "title": "Сбой нагревателя системы оттайки Electrolux",
+            "sign": "Наледь не устраняется во время цикла размораживания",
+            "causes": "Перегорание нагревательной спирали либо обрыв цепи исключает прогрев испарителя",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-thermal-fuse-activation",
+            "title": "Срабатывание термопредохранителя Electrolux",
+            "sign": "Нагревательный элемент отключается преждевременно",
+            "causes": "Перегрев вызывает размыкание защитного устройства",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-relay-control-fault",
+            "title": "Неисправность управляющего реле Electrolux",
+            "sign": "Компоненты не получают сигнал на включение",
+            "causes": "Залипание контактов или выход из строя катушки нарушает коммутацию",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-ambient-sensor-defect",
+            "title": "Дефект датчика окружающей температуры Electrolux",
+            "sign": "Прибор некорректно реагирует на внешние условия",
+            "causes": "Измерительный элемент утратил точность либо имеет повреждение корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-signal-transmission-error",
+            "title": "Ошибка передачи сигнала Electrolux",
+            "sign": "Информация между компонентами передаётся с перебоями",
+            "causes": "Повреждение кабеля или электромагнитные помехи нарушают обмен данными",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-calibration-loss",
+            "title": "Потеря калибровки системы Electrolux",
+            "sign": "Температурные параметры сбиваются без причины",
+            "causes": "Программный сбой приводит к некорректной внутренней настройке",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-main-board-communication-error",
+            "title": "Ошибка связи основной платы Electrolux",
+            "sign": "Модули не синхронизируются корректно",
+            "causes": "Нарушение внутренней шины данных препятствует обмену информацией",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-internal-bus-failure",
+            "title": "Сбой внутренней шины Electrolux",
+            "sign": "Компоненты системы теряют синхронность",
+            "causes": "Повреждение коммуникационных линий вызывает нарушение передачи сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-firmware-corruption",
+            "title": "Повреждение прошивки Electrolux",
+            "sign": "Программное обеспечение функционирует нестабильно",
+            "causes": "Ошибка обновления либо сбой памяти нарушает выполнение кода",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-fan-motor-breakdown",
+            "title": "Поломка двигателя вентилятора Electrolux",
+            "sign": "Воздухообмен внутри камер отсутствует",
+            "causes": "Износ подшипников или межвитковое замыкание приводит к остановке вращения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-air-duct-blockage",
+            "title": "Блокировка воздушного канала Electrolux",
+            "sign": "Холод распределяется неравномерно",
+            "causes": "Скопление льда либо посторонних частиц препятствует прохождению потока",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-fan-power-supply-issue",
+            "title": "Нарушение питания вентилятора Electrolux",
+            "sign": "Вентиляционный узел не запускается",
+            "causes": "Отсутствие напряжения или повреждение цепи исключает активацию двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-damper-motor-stuck",
+            "title": "Заклинивание мотора заслонки Electrolux",
+            "sign": "Температурный баланс между отделениями нарушен",
+            "causes": "Механическое сопротивление препятствует перемещению клапана",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-airflow-control-failure",
+            "title": "Сбой управления воздушным потоком Electrolux",
+            "sign": "Регулировка подачи холода выполняется некорректно",
+            "causes": "Неисправность механизма распределения приводит к дисбалансу охлаждения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-position-sensor-misalignment",
+            "title": "Смещение датчика положения заслонки Electrolux",
+            "sign": "Контроллер получает неверные данные о позиции узла",
+            "causes": "Неправильная калибровка или физическое смещение нарушает показания",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-compressor-start-failure",
+            "title": "Невозможность запуска компрессора Electrolux",
+            "sign": "Мотор не выходит на рабочий режим",
+            "causes": "Проблемы пускового реле или повреждение обмотки препятствуют старту",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-overcurrent-protection-triggered",
+            "title": "Срабатывание защиты от перегрузки Electrolux",
+            "sign": "Прибор отключается при попытке запуска",
+            "causes": "Повышенное потребление тока активирует защитный механизм",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-inverter-module-defect",
+            "title": "Дефект инверторного модуля Electrolux",
+            "sign": "Частота вращения компрессора регулируется нестабильно",
+            "causes": "Силовые элементы платы вышли из строя либо работают некорректно",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-ice-maker-motor-failure",
+            "title": "Неисправность мотора ледогенератора Electrolux",
+            "sign": "Производство льда остановлено",
+            "causes": "Износ привода или механическая блокировка препятствует вращению механизма",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-water-inlet-valve-defect",
+            "title": "Дефект впускного клапана воды Electrolux",
+            "sign": "Подача воды к ледогенератору отсутствует",
+            "causes": "Соленоид клапана не открывается из-за внутреннего повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-ice-sensor-fault",
+            "title": "Сбой датчика уровня льда Electrolux",
+            "sign": "Система неправильно определяет заполненность контейнера",
+            "causes": "Неисправность оптического либо механического сенсора искажает контроль",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-refrigerant-leak",
+            "title": "Утечка хладагента Electrolux",
+            "sign": "Охлаждение существенно ослаблено",
+            "causes": "Нарушение герметичности трубопровода приводит к снижению давления в контуре",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-capillary-tube-blockage",
+            "title": "Засор капиллярной трубки Electrolux",
+            "sign": "Холод распределяется неравномерно",
+            "causes": "Частицы загрязнений препятствуют прохождению хладагента",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-compressor-efficiency-loss",
+            "title": "Потеря производительности компрессора Electrolux",
+            "sign": "Температура не достигает установленного значения",
+            "causes": "Износ механических элементов снижает эффективность сжатия",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-water-filter-clogged",
+            "title": "Засор фильтра воды Electrolux",
+            "sign": "Подача воды осуществляется с пониженным напором",
+            "causes": "Накопление примесей уменьшает пропускную способность картриджа",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-low-water-pressure",
+            "title": "Низкое давление воды Electrolux",
+            "sign": "Ледогенератор работает нестабильно",
+            "causes": "Недостаточный напор в водопроводной сети препятствует нормальной подаче жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fridge-inlet-hose-kink",
+            "title": "Перегиб впускного шланга Electrolux",
+            "sign": "Поток воды частично блокируется",
+            "causes": "Сдавливание трубки нарушает свободное прохождение жидкости",
+            "slugs": []
+        }
     ]
 }
