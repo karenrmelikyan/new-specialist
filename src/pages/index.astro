@@ -1,0 +1,18 @@
+---
+import Main from '../layouts/Main.astro'
+import ENV from '../content/ru/env.json'
+import content from '../content/ru/index.json'
+import HeroBanner from '../components/HeroBanner.astro'
+import getGeneralJsonLd from '../../public/js/build/getGeneralJsonLd.mjs'
+
+const generalJsonLd = getGeneralJsonLd(ENV)
+---
+
+<!-- Main index page -->
+<Main title={content.title} description={content.description} jsonLd={generalJsonLd}>
+    <HeroBanner 
+        h1 = {content.h1}
+        src = {content.src}
+        price = {content.price + ' ' + ENV.CURRENCY_SIGN}
+    />
+</Main> 

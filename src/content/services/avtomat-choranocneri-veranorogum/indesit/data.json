@@ -1,0 +1,298 @@
+{
+    "indexPageTitle": "Indesit չորանոց մեքենաների վերանորոգում",
+    "title": "Indesit չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/indesit/",
+
+    "items": [
+        {
+            "slug": "indesit-dryer-not-starting",
+            "title": "Сушильная машина Indesit не запускается",
+            "sign": "После нажатия кнопки старта барабан остается неподвижным и цикл не активируется",
+            "causes": "Проблемы с замком дверцы, блокировкой панели управления или отсутствием питания",
+            "slugs": [
+                "indesit-door-lock-failure",
+                "indesit-control-board-malfunction",
+                "indesit-power-cord-fault",
+                "indesit-user-interface-error"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-not-heating",
+            "title": "Сушильная машина Indesit не нагревает",
+            "sign": "Белье остается холодным и не сушится полностью во время программы",
+            "causes": "Неисправен нагревательный элемент, перегорел термопредохранитель или сбой температурного датчика",
+            "slugs": [
+                "indesit-heating-element-failure",
+                "indesit-thermal-fuse-blown",
+                "indesit-temperature-sensor-defect",
+                "indesit-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-not-drying-properly",
+            "title": "Сушильная машина Indesit плохо сушит белье",
+            "sign": "Вещи остаются влажными после завершения программы или требуется дополнительный цикл",
+            "causes": "Нарушена циркуляция воздуха, вышел из строя датчик влажности или снижается эффективность нагрева",
+            "slugs": [
+                "indesit-ventilation-blockage",
+                "indesit-moisture-sensor-failure",
+                "indesit-heating-element-failure",
+                "indesit-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Indesit не вращается",
+            "sign": "Мотор работает, но барабан остается неподвижным",
+            "causes": "Обрыв приводного ремня, неисправность двигателя или износ роликов барабана",
+            "slugs": [
+                "indesit-drive-belt-broken",
+                "indesit-motor-failure",
+                "indesit-drum-roller-wear",
+                "indesit-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Indesit останавливается во время работы",
+            "sign": "Цикл неожиданно прерывается до завершения без видимой причины",
+            "causes": "Перегрев, сбой сенсоров или неисправность управляющего модуля",
+            "slugs": [
+                "indesit-thermal-fuse-blown",
+                "indesit-control-board-malfunction",
+                "indesit-temperature-sensor-defect",
+                "indesit-motor-failure"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-overheating",
+            "title": "Сушильная машина Indesit перегревается",
+            "sign": "Корпус становится слишком горячим, возможна аварийная остановка",
+            "causes": "Засор воздушного канала, неисправность термостата или некорректная работа датчика температуры",
+            "slugs": [
+                "indesit-ventilation-blockage",
+                "indesit-thermostat-fault",
+                "indesit-temperature-sensor-defect",
+                "indesit-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-making-noise",
+            "title": "Сушильная машина Indesit шумит при работе",
+            "sign": "Слышны посторонние звуки, вибрация или скрежет во время вращения барабана",
+            "causes": "Износ подшипников, роликов барабана или повреждение вентилятора",
+            "slugs": [
+                "indesit-drum-bearing-wear",
+                "indesit-drum-roller-wear",
+                "indesit-fan-motor-damage",
+                "indesit-motor-failure"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-not-turning-on",
+            "title": "Сушильная машина Indesit не включается",
+            "sign": "Прибор полностью не реагирует, индикаторы остаются погашенными",
+            "causes": "Поврежден сетевой кабель, сбой фильтра помех или поломка электронной платы",
+            "slugs": [
+                "indesit-power-cord-fault",
+                "indesit-noise-filter-defect",
+                "indesit-control-board-malfunction",
+                "indesit-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-error-code",
+            "title": "Сушильная машина Indesit показывает код ошибки",
+            "sign": "На дисплее отображается код неисправности или предупреждение",
+            "causes": "Сбой сенсоров, нагревательного блока или управляющей платы",
+            "slugs": [
+                "indesit-temperature-sensor-defect",
+                "indesit-moisture-sensor-failure",
+                "indesit-heating-element-failure",
+                "indesit-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Indesit не закрывается",
+            "sign": "Люк не фиксируется, запуск программы невозможен",
+            "causes": "Неисправен замок, повреждены петли или датчик дверцы",
+            "slugs": [
+                "indesit-door-lock-failure",
+                "indesit-door-hinge-damage",
+                "indesit-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-burning-smell",
+            "title": "Сушильная машина Indesit издает запах гари",
+            "sign": "Во время работы ощущается запах перегрева или плавления элементов",
+            "causes": "Скопление ворса, неисправность нагревателя или повреждение электропроводки",
+            "slugs": [
+                "indesit-ventilation-blockage",
+                "indesit-heating-element-failure",
+                "indesit-motor-failure",
+                "indesit-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dryer-tripping-breaker",
+            "title": "Сушильная машина Indesit выбивает автомат",
+            "sign": "При включении срабатывает защита электросети",
+            "causes": "Короткое замыкание в нагревателе, двигателе или сетевом фильтре",
+            "slugs": [
+                "indesit-heating-element-short-circuit",
+                "indesit-motor-short-circuit",
+                "indesit-noise-filter-defect",
+                "indesit-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "indesit-door-lock-failure",
+            "title": "Неисправность замка двери Indesit",
+            "sign": "Механизм блокировки не фиксирует закрытие люка",
+            "causes": "Запуск программы невозможен, прибор не реагирует на кнопки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-control-board-malfunction",
+            "title": "Сбой платы управления Indesit",
+            "sign": "Электронный модуль управления работает нестабильно или зависает",
+            "causes": "Циклы прерываются, невозможно выбрать программу или активировать режим",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Indesit",
+            "sign": "Обрыв жил или нарушение изоляции приводит к отсутствию подачи питания",
+            "causes": "Прибор полностью не включается, индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-user-interface-error",
+            "title": "Ошибка панели управления Indesit",
+            "sign": "Кнопки сенсорной панели не реагируют или работают некорректно",
+            "causes": "Невозможно выбрать режим или запустить программу",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-failure",
+            "title": "Поломка нагревательного элемента Indesit",
+            "sign": "ТЭН не обеспечивает нагрев воздуха внутри барабана",
+            "causes": "Белье остается влажным, сушка проходит без тепла",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-thermal-fuse-blown",
+            "title": "Срабатывание термопредохранителя Indesit",
+            "sign": "Защитный элемент размыкает цепь при перегреве",
+            "causes": "Программа останавливается, нагрев воздуха прекращается",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-temperature-sensor-defect",
+            "title": "Неисправность температурного датчика Indesit",
+            "sign": "Сенсор передает неверные данные о нагреве барабана",
+            "causes": "Цикл нагрева работает нестабильно или завершается с ошибкой",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-ventilation-blockage",
+            "title": "Засор вентиляционных каналов Indesit",
+            "sign": "Нарушен отвод горячего воздуха, циркуляция нарушена",
+            "causes": "Эффективность сушки падает, возможен перегрев корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-moisture-sensor-failure",
+            "title": "Сбой датчика влажности Indesit",
+            "sign": "Сенсор некорректно определяет уровень влаги в барабане",
+            "causes": "Программа может завершиться преждевременно или белье останется влажным",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-fan-motor-damage",
+            "title": "Повреждение вентилятора Indesit",
+            "sign": "Вентилятор не обеспечивает правильную циркуляцию воздуха",
+            "causes": "Сушка проходит медленно, белье остается влажным, возможны посторонние шумы",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drive-belt-broken",
+            "title": "Обрыв приводного ремня Indesit",
+            "sign": "Барабан не вращается, хотя мотор работает",
+            "causes": "Цикл не выполняется, белье не сушится",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-motor-failure",
+            "title": "Неисправность двигателя Indesit",
+            "sign": "Мотор не передает вращение на барабан или работает с перебоями",
+            "causes": "Барабан не крутится, возможны посторонние шумы или остановка программы",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drum-roller-wear",
+            "title": "Износ роликов барабана Indesit",
+            "sign": "Барабан вращается с трудом или издает скрипящие звуки",
+            "causes": "Вибрация и посторонний шум во время сушки, возможна блокировка барабана",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-idler-pulley-defect",
+            "title": "Поломка направляющего шкива Indesit",
+            "sign": "Ремень барабана натянут неправильно или проскальзывает",
+            "causes": "Барабан не вращается, эффективность сушки падает",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drum-bearing-wear",
+            "title": "Износ подшипников барабана Indesit",
+            "sign": "Барабан вращается с шумом или заедает",
+            "causes": "Появляются вибрация, металлический скрежет и посторонние звуки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-hinge-damage",
+            "title": "Повреждение петель двери Indesit",
+            "sign": "Люк закрывается с усилием или перекошен",
+            "causes": "Замок не фиксируется, запуск программы невозможен",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-switch-fault",
+            "title": "Сбой датчика двери Indesit",
+            "sign": "Сенсор не определяет положение люка",
+            "causes": "Цикл блокируется системой безопасности, прибор не запускается",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревательного элемента Indesit",
+            "sign": "Повреждена изоляция ТЭНа, возникает утечка тока",
+            "causes": "Срабатывает автомат защиты при запуске, сушка не начинается",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Indesit",
+            "sign": "Обмотки мотора повреждены, возникает перегрузка сети",
+            "causes": "Автомат защиты отключает питание при включении, барабан не вращается",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Indesit",
+            "sign": "Фильтр помех выходит из строя из-за скачков напряжения или перегрузки",
+            "causes": "Прибор может не запускаться или выбивать автомат",
+            "slugs": []
+        }
+
+
+    ]
+}

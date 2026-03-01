@@ -1,0 +1,405 @@
+{
+    "indexPageTitle": "Samsung չորանոց մեքենաների վերանորոգում",
+    "title": "Samsung չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/samsung/errors/",
+
+    "items": [
+        {
+            "slug": "samsung-dryer-error-de",
+            "title": "Ошибка dE сушильной машины Samsung",
+            "sign": "На дисплее отображается код dE, запуск программы невозможен",
+            "causes": "Контроллер фиксирует незакрытую дверцу или неисправность механизма блокировки люка",
+            "slugs": [
+                "samsung-door-lock-assembly-failure",
+                "samsung-door-switch-sensor-malfunction",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-he",
+            "title": "Ошибка hE сушильной машины Samsung",
+            "sign": "Код hE появляется во время нагрева, бельё остаётся холодным",
+            "causes": "Нарушение работы нагревательного узла либо повреждение цепи подачи тепла",
+            "slugs": [
+                "samsung-heating-element-burnout",
+                "samsung-thermal-cutoff-activated",
+                "samsung-temperature-sensor-drift"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-te",
+            "title": "Ошибка tE сушильной машины Samsung",
+            "sign": "После старта система выводит tE и прекращает выполнение программы",
+            "causes": "Неверные показания термистора или обрыв сигнального контура датчика температуры",
+            "slugs": [
+                "samsung-thermistor-open-circuit",
+                "samsung-wiring-harness-damage",
+                "samsung-control-module-communication-error"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-fe",
+            "title": "Ошибка FE сушильной машины Samsung",
+            "sign": "На экране отображается FE, барабан вращается без стабильного обдува",
+            "causes": "Неполадки вентилятора либо нарушение отвода горячего воздуха",
+            "slugs": [
+                "samsung-fan-motor-seizure",
+                "samsung-air-duct-obstruction",
+                "samsung-airflow-sensor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-be2",
+            "title": "Ошибка bE2 сушильной машины Samsung",
+            "sign": "Код bE2 появляется при выборе режима или изменении параметров",
+            "causes": "Залипание кнопок панели управления либо сбой интерфейсной платы",
+            "slugs": [
+                "samsung-touchpad-short-circuit",
+                "samsung-user-interface-board-defect",
+                "samsung-control-panel-membrane-damage"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-oe",
+            "title": "Ошибка oE сушильной машины Samsung",
+            "sign": "Программа останавливается с кодом oE в середине цикла",
+            "causes": "Переполнение системы конденсации или засор резервуара для сбора влаги",
+            "slugs": [
+                "samsung-condensate-pump-blockage",
+                "samsung-water-level-sensor-failure",
+                "samsung-drain-channel-clogging"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-ue",
+            "title": "Ошибка uE сушильной машины Samsung",
+            "sign": "На дисплее появляется uE, вращение барабана становится неравномерным",
+            "causes": "Нарушение балансировки загрузки или проблемы приводного механизма",
+            "slugs": [
+                "samsung-drum-support-roller-wear",
+                "samsung-drive-belt-slippage",
+                "samsung-motor-control-board-issue"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-e3",
+            "title": "Ошибка E3 сушильной машины Samsung",
+            "sign": "Отображается E3, двигатель прекращает вращение",
+            "causes": "Перегрузка силового узла либо сбой электронного регулирования оборотов",
+            "slugs": [
+                "samsung-motor-overload-condition",
+                "samsung-inverter-board-failure",
+                "samsung-stator-winding-damage"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-e9",
+            "title": "Ошибка E9 сушильной машины Samsung",
+            "sign": "Код E9 выводится сразу после включения устройства",
+            "causes": "Нестабильное электропитание или повреждение входного фильтра",
+            "slugs": [
+                "samsung-power-surge-damage",
+                "samsung-noise-filter-burnout",
+                "samsung-terminal-block-overheating"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-dc",
+            "title": "Ошибка dC сушильной машины Samsung",
+            "sign": "Индикатор dC активируется при попытке начать сушку",
+            "causes": "Система контроля фиксации люка обнаруживает неплотное закрытие",
+            "slugs": [
+                "samsung-door-hook-deformation",
+                "samsung-latch-alignment-issue",
+                "samsung-door-sensor-circuit-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-se",
+            "title": "Ошибка SE сушильной машины Samsung",
+            "sign": "На панели высвечивается SE, управление становится недоступным",
+            "causes": "Сбой обмена данными между основной платой и модулем дисплея",
+            "slugs": [
+                "samsung-display-board-communication-loss",
+                "samsung-ribbon-cable-disconnection",
+                "samsung-firmware-corruption"
+            ]
+        },
+        {
+            "slug": "samsung-dryer-error-le",
+            "title": "Ошибка LE сушильной машины Samsung",
+            "sign": "Код LE появляется во время работы, агрегат неожиданно отключается",
+            "causes": "Защитная система фиксирует внутреннюю утечку или перегрев компонентов",
+            "slugs": [
+                "samsung-internal-moisture-intrusion",
+                "samsung-heater-relay-sticking",
+                "samsung-insulation-breakdown"
+            ]
+        },
+
+        {
+            "slug": "samsung-door-lock-assembly-failure",
+            "title": "Неисправность механизма блокировки двери Samsung",
+            "sign": "Люк закрывается, но фиксация не подтверждается системой",
+            "causes": "Износ защёлки или повреждение электромагнитного узла препятствует активации защитного контура",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-switch-sensor-malfunction",
+            "title": "Сбой датчика положения двери Samsung",
+            "sign": "Контроллер не распознаёт корректное закрытие люка",
+            "causes": "Дефект микропереключателя либо нарушение контактной группы искажает сигнал состояния",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-main-control-board-fault",
+            "title": "Неисправность основной платы управления Samsung",
+            "sign": "Электронный модуль реагирует нестабильно или полностью игнорирует команды",
+            "causes": "Повреждение дорожек, процессора либо силовых компонентов вызывает сбои логики работы",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-burnout",
+            "title": "Перегорание нагревательного элемента Samsung",
+            "sign": "Внутри барабана отсутствует повышение температуры",
+            "causes": "Разрыв спирали или разрушение изоляции исключает формирование теплового потока",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-thermal-cutoff-activated",
+            "title": "Срабатывание термозащиты Samsung",
+            "sign": "Устройство прекращает нагрев при достижении критического порога",
+            "causes": "Предохранительный элемент размыкает цепь вследствие экстремального перегрева",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-drift",
+            "title": "Смещение показаний температурного датчика Samsung",
+            "sign": "Контроль нагрева происходит с неточными значениями",
+            "causes": "Деградация термистора приводит к некорректной передаче измеряемых параметров",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-thermistor-open-circuit",
+            "title": "Обрыв цепи термистора Samsung",
+            "sign": "Система фиксирует отсутствие сигнала от сенсора температуры",
+            "causes": "Повреждение проводника либо разъёма нарушает непрерывность измерительного контура",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-wiring-harness-damage",
+            "title": "Повреждение кабельного жгута Samsung",
+            "sign": "Отдельные узлы функционируют с перебоями",
+            "causes": "Перелом проводов или окисление контактов создаёт нестабильное соединение",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-control-module-communication-error",
+            "title": "Ошибка обмена данными модуля управления Samsung",
+            "sign": "Компоненты не синхронизируются между собой",
+            "causes": "Нарушение цифрового взаимодействия между платами вызывает рассогласование команд",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fan-motor-seizure",
+            "title": "Заклинивание двигателя вентилятора Samsung",
+            "sign": "Поток воздуха отсутствует либо значительно ослаблен",
+            "causes": "Износ подшипников или блокировка крыльчатки препятствует вращению",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-air-duct-obstruction",
+            "title": "Засор воздушного канала Samsung",
+            "sign": "Горячий поток циркулирует с затруднением",
+            "causes": "Скопление ворса внутри тракта снижает эффективность теплообмена",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-airflow-sensor-failure",
+            "title": "Неисправность датчика потока воздуха Samsung",
+            "sign": "Система неверно оценивает интенсивность циркуляции",
+            "causes": "Дефект чувствительного элемента приводит к ложным показателям вентиляции",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-touchpad-short-circuit",
+            "title": "Короткое замыкание сенсорной панели Samsung",
+            "sign": "Кнопки срабатывают без нажатия или не реагируют вовсе",
+            "causes": "Замыкание токопроводящих дорожек нарушает корректную обработку сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-user-interface-board-defect",
+            "title": "Неисправность платы интерфейса Samsung",
+            "sign": "Экран отображает символы с искажением",
+            "causes": "Сбой управляющей микросхемы панели приводит к некорректному выводу информации",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-control-panel-membrane-damage",
+            "title": "Повреждение мембраны панели управления Samsung",
+            "sign": "Отдельные зоны нажатия не активируются",
+            "causes": "Износ контактного слоя препятствует передаче команды на контроллер",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-condensate-pump-blockage",
+            "title": "Засор насоса отвода конденсата Samsung",
+            "sign": "Влага не удаляется из внутреннего резервуара",
+            "causes": "Накопление загрязнений ограничивает движение жидкости по системе",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-level-sensor-failure",
+            "title": "Неисправность датчика уровня воды Samsung",
+            "sign": "Контроль объёма конденсата выполняется с ошибкой",
+            "causes": "Повреждение чувствительного элемента искажает определение заполнения",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-channel-clogging",
+            "title": "Засор сливного канала Samsung",
+            "sign": "Жидкость задерживается внутри корпуса",
+            "causes": "Отложения ворса перекрывают проход для отвода влаги",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-drum-support-roller-wear",
+            "title": "Износ опорных роликов барабана Samsung",
+            "sign": "Вращение сопровождается посторонними шумами",
+            "causes": "Стертые подшипники вызывают нестабильное движение барабана",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drive-belt-slippage",
+            "title": "Проскальзывание приводного ремня Samsung",
+            "sign": "Барабан вращается с перебоями",
+            "causes": "Ослабленное натяжение ремня снижает передачу крутящего момента",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-motor-control-board-issue",
+            "title": "Неисправность платы управления двигателем Samsung",
+            "sign": "Регулировка оборотов происходит некорректно",
+            "causes": "Повреждение силовых транзисторов нарушает стабильность вращения",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-motor-overload-condition",
+            "title": "Перегрузка двигателя Samsung",
+            "sign": "Силовой агрегат прекращает работу при увеличенной нагрузке",
+            "causes": "Превышение допустимого крутящего усилия активирует защитный режим",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-inverter-board-failure",
+            "title": "Неисправность инверторной платы Samsung",
+            "sign": "Скорость вращения регулируется хаотично",
+            "causes": "Сбой схемы преобразования тока нарушает управление электродвигателем",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-stator-winding-damage",
+            "title": "Повреждение обмотки статора Samsung",
+            "sign": "Мотор работает с перебоями или не запускается",
+            "causes": "Межвитковое замыкание снижает эффективность электромагнитного поля",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-power-surge-damage",
+            "title": "Повреждение от скачка напряжения Samsung",
+            "sign": "Устройство перестаёт реагировать после перебоев питания",
+            "causes": "Импульсное перенапряжение выводит из строя электронные компоненты",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-noise-filter-burnout",
+            "title": "Перегорание сетевого фильтра Samsung",
+            "sign": "Питание поступает нестабильно",
+            "causes": "Разрушение фильтрующего блока нарушает подавление помех",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-terminal-block-overheating",
+            "title": "Перегрев клеммной колодки Samsung",
+            "sign": "Соединения источают запах нагрева",
+            "causes": "Ослабленные контакты увеличивают сопротивление и вызывают локальный нагрев",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-door-hook-deformation",
+            "title": "Деформация крюка двери Samsung",
+            "sign": "Люк фиксируется с трудом",
+            "causes": "Механическое повреждение препятствует точному совпадению замка и защёлки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-latch-alignment-issue",
+            "title": "Нарушение соосности защёлки Samsung",
+            "sign": "При закрытии слышен нехарактерный щелчок",
+            "causes": "Смещение креплений мешает корректной фиксации дверного механизма",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-sensor-circuit-fault",
+            "title": "Неисправность цепи датчика двери Samsung",
+            "sign": "Контроль положения люка работает нестабильно",
+            "causes": "Повреждение сигнальной линии искажает передачу состояния",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-display-board-communication-loss",
+            "title": "Потеря связи платы дисплея Samsung",
+            "sign": "Экран гаснет либо отображает случайные символы",
+            "causes": "Обрыв интерфейсной линии нарушает обмен информацией",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-ribbon-cable-disconnection",
+            "title": "Отсоединение шлейфа Samsung",
+            "sign": "Панель не взаимодействует с основной платой",
+            "causes": "Неплотное соединение разъёма блокирует передачу сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-firmware-corruption",
+            "title": "Повреждение прошивки Samsung",
+            "sign": "Программы работают некорректно или зависают",
+            "causes": "Сбой программного кода приводит к нарушению алгоритмов управления",
+            "slugs": []
+        },
+
+        {
+            "slug": "samsung-internal-moisture-intrusion",
+            "title": "Попадание влаги внутрь корпуса Samsung",
+            "sign": "Срабатывает защитная система безопасности",
+            "causes": "Конденсат достигает электронных узлов и вызывает утечку тока",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heater-relay-sticking",
+            "title": "Залипание реле нагревателя Samsung",
+            "sign": "Нагрев продолжается без корректного отключения",
+            "causes": "Контакты реле сплавляются и не размыкают цепь своевременно",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-insulation-breakdown",
+            "title": "Разрушение изоляции проводки Samsung",
+            "sign": "Возникают утечки тока внутри корпуса",
+            "causes": "Повреждённый изоляционный слой создаёт риск короткого замыкания",
+            "slugs": []
+        }
+
+    ]
+}

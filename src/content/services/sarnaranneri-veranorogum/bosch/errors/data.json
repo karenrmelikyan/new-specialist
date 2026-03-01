@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": " սառնարանների վերանորոգում",
+    "title": " սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/bosch/errors/",
+
+    "items": [
+        {
+            "slug": "bosch-fridge-error-e01",
+            "title": "Ошибка E01 датчика температуры холодильной камеры холодильника Bosch",
+            "sign": "Холодильное отделение охлаждается нестабильно или не поддерживает заданный режим",
+            "causes": "Контроллер фиксирует некорректные данные от сенсора охлаждающей зоны, что нарушает алгоритм регулировки",
+            "slugs": [
+                "bosch-fridge-fridge-temp-sensor-fault",
+                "bosch-fridge-wiring-connection-issue",
+                "bosch-fridge-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e02",
+            "title": "Ошибка E02 датчика температуры морозильной камеры холодильника Bosch",
+            "sign": "Морозильный отсек не достигает требуемого уровня заморозки",
+            "causes": "Модуль управления получает искажённые показатели от термодатчика морозильной зоны",
+            "slugs": [
+                "bosch-fridge-freezer-temp-sensor-defect",
+                "bosch-fridge-sensor-circuit-disruption",
+                "bosch-fridge-electronic-module-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e03",
+            "title": "Ошибка E03 испарительного сенсора холодильника Bosch",
+            "sign": "Образуется чрезмерный иней либо цикл оттайки запускается неправильно",
+            "causes": "Неисправность датчика испарителя препятствует корректному управлению системой разморозки",
+            "slugs": [
+                "bosch-fridge-evaporator-sensor-failure",
+                "bosch-fridge-defrost-system-imbalance",
+                "bosch-fridge-connector-oxidation"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e06",
+            "title": "Ошибка E06 вентилятора охлаждения холодильника Bosch",
+            "sign": "Воздушная циркуляция внутри камер ослаблена или отсутствует",
+            "causes": "Система обнаруживает нарушение работы мотора вентиляционного узла",
+            "slugs": [
+                "bosch-fridge-fan-motor-breakdown",
+                "bosch-fridge-air-duct-blockage",
+                "bosch-fridge-fan-power-supply-issue"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e09",
+            "title": "Ошибка E09 нагревателя оттайки холодильника Bosch",
+            "sign": "Оттайка не выполняется полностью, лёд накапливается на задней стенке",
+            "causes": "Нагревательный элемент системы размораживания не активируется или теряет эффективность",
+            "slugs": [
+                "bosch-fridge-defrost-heater-failure",
+                "bosch-fridge-thermal-fuse-triggered",
+                "bosch-fridge-control-relay-fault"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e10",
+            "title": "Ошибка E10 заслонки воздушного канала холодильника Bosch",
+            "sign": "Температурный баланс между отделениями нарушен",
+            "causes": "Механизм распределения воздушного потока функционирует некорректно",
+            "slugs": [
+                "bosch-fridge-damper-motor-stuck",
+                "bosch-fridge-airflow-control-failure",
+                "bosch-fridge-position-sensor-misalignment"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e11",
+            "title": "Ошибка E11 сенсора окружающей температуры холодильника Bosch",
+            "sign": "Устройство неправильно реагирует на внешние климатические условия",
+            "causes": "Датчик окружающей среды передаёт неточные значения в электронную систему",
+            "slugs": [
+                "bosch-fridge-ambient-sensor-defect",
+                "bosch-fridge-signal-transmission-error",
+                "bosch-fridge-board-calibration-loss"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e15",
+            "title": "Ошибка E15 системы AquaStop холодильника Bosch",
+            "sign": "Защита от протечки активирована и работа прибора ограничена",
+            "causes": "В поддоне обнаружена влага либо сработал предохранительный механизм",
+            "slugs": [
+                "bosch-fridge-water-leak-detected",
+                "bosch-fridge-aquastop-activation",
+                "bosch-fridge-drainage-channel-obstruction"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e20",
+            "title": "Ошибка E20 компрессорного узла холодильника Bosch",
+            "sign": "Компрессор запускается с перебоями или не стартует",
+            "causes": "Электронная система фиксирует аномалию в цепи питания или механике компрессора",
+            "slugs": [
+                "bosch-fridge-compressor-start-failure",
+                "bosch-fridge-inverter-module-defect",
+                "bosch-fridge-overcurrent-protection-triggered"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e21",
+            "title": "Ошибка E21 инверторного модуля холодильника Bosch",
+            "sign": "Обороты компрессора регулируются нестабильно",
+            "causes": "Плата инвертора не обеспечивает корректное управление приводом",
+            "slugs": [
+                "bosch-fridge-inverter-board-malfunction",
+                "bosch-fridge-voltage-fluctuation-impact",
+                "bosch-fridge-power-supply-irregularity"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e23",
+            "title": "Ошибка E23 датчика влажности холодильника Bosch",
+            "sign": "Уровень конденсата внутри камеры выходит за допустимые пределы",
+            "causes": "Сенсор влажности передаёт искажённые показания либо отсутствует отклик",
+            "slugs": [
+                "bosch-fridge-humidity-sensor-failure",
+                "bosch-fridge-condensation-accumulation",
+                "bosch-fridge-sensor-wiring-damage"
+            ]
+        },
+        {
+            "slug": "bosch-fridge-error-e24",
+            "title": "Ошибка E24 системы управления холодильника Bosch",
+            "sign": "Индикация панели отображается некорректно или прибор перезагружается",
+            "causes": "Нарушение обмена данными между модулями приводит к программной нестабильности",
+            "slugs": [
+                "bosch-fridge-main-board-communication-error",
+                "bosch-fridge-firmware-corruption",
+                "bosch-fridge-internal-bus-failure"
+            ]
+        },
+         
+        {
+            "slug": "bosch-fridge-fridge-temp-sensor-fault",
+            "title": "Неисправность датчика температуры холодильной камеры Bosch",
+            "sign": "Показатели охлаждения отображаются некорректно или меняются хаотично",
+            "causes": "Повреждение термистора либо утрата чувствительности элемента приводит к искажённой передаче данных",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-wiring-connection-issue",
+            "title": "Нарушение соединений проводки Bosch",
+            "sign": "Контакт между сенсорами и платой периодически пропадает",
+            "causes": "Ослабленные разъёмы, микротрещины пайки или окисление контактов препятствуют стабильной передаче сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-main-control-board-failure",
+            "title": "Сбой основной управляющей платы Bosch",
+            "sign": "Команды обрабатываются некорректно либо система зависает",
+            "causes": "Деградация электронных компонентов или повреждение дорожек вызывает нарушение логики работы",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-freezer-temp-sensor-defect",
+            "title": "Дефект датчика температуры морозильной камеры Bosch",
+            "sign": "Заморозка нестабильна и не достигает заданных параметров",
+            "causes": "Неисправный измерительный элемент передаёт некорректные значения в контроллер",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-sensor-circuit-disruption",
+            "title": "Разрыв цепи датчика Bosch",
+            "sign": "Система не получает обратную связь от измерительного узла",
+            "causes": "Обрыв проводника или повреждение шлейфа нарушает целостность электрической цепи",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-electronic-module-malfunction",
+            "title": "Нарушение работы электронного модуля Bosch",
+            "sign": "Устройство реагирует на команды с задержкой либо некорректно",
+            "causes": "Сбой микросхем или нестабильность внутреннего питания влияет на корректность алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-evaporator-sensor-failure",
+            "title": "Неисправность сенсора испарителя Bosch",
+            "sign": "Оттайка выполняется несвоевременно или не запускается",
+            "causes": "Датчик не фиксирует температуру поверхности испарителя должным образом",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-defrost-system-imbalance",
+            "title": "Нарушение цикла размораживания Bosch",
+            "sign": "Лёд накапливается на внутренних элементах охлаждения",
+            "causes": "Дисфункция компонентов системы оттайки приводит к нарушению теплового баланса",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-connector-oxidation",
+            "title": "Окисление разъёмов Bosch",
+            "sign": "Электрический контакт становится нестабильным",
+            "causes": "Воздействие влаги вызывает образование налёта на металлических соединениях",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-fan-motor-breakdown",
+            "title": "Поломка двигателя вентилятора Bosch",
+            "sign": "Воздухообмен внутри камер отсутствует",
+            "causes": "Износ подшипников либо межвитковое замыкание приводит к остановке вращения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-air-duct-blockage",
+            "title": "Блокировка воздушного канала Bosch",
+            "sign": "Холод распределяется неравномерно",
+            "causes": "Скопление льда или посторонних частиц препятствует свободному прохождению потока",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-fan-power-supply-issue",
+            "title": "Нарушение питания вентилятора Bosch",
+            "sign": "Вентиляционный узел не запускается при включении",
+            "causes": "Отсутствие напряжения либо повреждение цепи питания препятствует активации двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-defrost-heater-failure",
+            "title": "Сбой нагревателя оттайки Bosch",
+            "sign": "Система размораживания не устраняет наледь",
+            "causes": "Перегоревший ТЭН либо обрыв спирали исключает нагрев поверхности испарителя",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-thermal-fuse-triggered",
+            "title": "Срабатывание термопредохранителя Bosch",
+            "sign": "Нагревательный контур отключается преждевременно",
+            "causes": "Перегрев вызывает размыкание защитного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-control-relay-fault",
+            "title": "Неисправность управляющего реле Bosch",
+            "sign": "Компоненты не получают своевременный сигнал включения",
+            "causes": "Залипание контактов или деградация катушки нарушает коммутацию",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-damper-motor-stuck",
+            "title": "Заклинивание мотора заслонки Bosch",
+            "sign": "Температура между отделениями распределяется неравномерно",
+            "causes": "Механическое сопротивление препятствует изменению положения клапана",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-airflow-control-failure",
+            "title": "Сбой управления воздушным потоком Bosch",
+            "sign": "Регулировка подачи холода выполняется некорректно",
+            "causes": "Неисправность механизма распределения нарушает баланс охлаждения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-position-sensor-misalignment",
+            "title": "Смещение датчика положения заслонки Bosch",
+            "sign": "Контроллер получает неверные данные о позиции механизма",
+            "causes": "Неправильная калибровка или физическое смещение узла искажает показания",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-ambient-sensor-defect",
+            "title": "Дефект датчика окружающей температуры Bosch",
+            "sign": "Система неправильно адаптируется к внешним условиям",
+            "causes": "Измерительный элемент утратил точность либо повреждён",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-signal-transmission-error",
+            "title": "Ошибка передачи сигнала Bosch",
+            "sign": "Информация между компонентами передаётся нестабильно",
+            "causes": "Электромагнитные помехи или повреждение проводников вызывают сбой коммуникации",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-board-calibration-loss",
+            "title": "Потеря калибровки платы Bosch",
+            "sign": "Настройки температуры сбиваются без видимой причины",
+            "causes": "Сброс внутренних параметров или программная ошибка приводит к некорректной настройке",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-water-leak-detected",
+            "title": "Обнаружение протечки Bosch",
+            "sign": "В основании корпуса фиксируется наличие влаги",
+            "causes": "Повреждение трубок либо нарушение герметичности соединений вызывает накопление жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-aquastop-activation",
+            "title": "Активация системы AquaStop Bosch",
+            "sign": "Защитный механизм блокирует работу устройства",
+            "causes": "Поплавковый датчик реагирует на избыток воды в поддоне",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-drainage-channel-obstruction",
+            "title": "Засор дренажного канала Bosch",
+            "sign": "Конденсат не отводится наружу",
+            "causes": "Скопление загрязнений блокирует сливное отверстие",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-compressor-start-failure",
+            "title": "Невозможность запуска компрессора Bosch",
+            "sign": "Мотор не переходит в рабочий режим",
+            "causes": "Проблемы пускового узла либо неисправность обмотки препятствуют старту",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-inverter-module-defect",
+            "title": "Дефект инверторного модуля Bosch",
+            "sign": "Частота вращения компрессора регулируется некорректно",
+            "causes": "Силовые элементы платы вышли из строя или работают нестабильно",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-overcurrent-protection-triggered",
+            "title": "Срабатывание защиты от перегрузки Bosch",
+            "sign": "Устройство отключается при попытке запуска",
+            "causes": "Повышенное потребление тока активирует предохранительный механизм",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-inverter-board-malfunction",
+            "title": "Неисправность платы инвертора Bosch",
+            "sign": "Обороты двигателя меняются самопроизвольно",
+            "causes": "Нарушение работы управляющей электроники вызывает нестабильность",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-voltage-fluctuation-impact",
+            "title": "Влияние колебаний напряжения Bosch",
+            "sign": "Работа прибора сопровождается перебоями",
+            "causes": "Нестабильное электроснабжение нарушает корректность функционирования компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-power-supply-irregularity",
+            "title": "Нарушение питания Bosch",
+            "sign": "Прибор не выходит на штатный режим",
+            "causes": "Неисправность блока питания либо внешние скачки напряжения влияют на работу",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-humidity-sensor-failure",
+            "title": "Неисправность датчика влажности Bosch",
+            "sign": "Контроль уровня конденсата осуществляется некорректно",
+            "causes": "Измерительный элемент передаёт искажённые значения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-condensation-accumulation",
+            "title": "Скопление конденсата Bosch",
+            "sign": "Внутри камеры образуется избыточная влага",
+            "causes": "Нарушение циркуляции или температурный дисбаланс приводит к накоплению капель",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-sensor-wiring-damage",
+            "title": "Повреждение проводки датчика Bosch",
+            "sign": "Сигнал от сенсора отсутствует",
+            "causes": "Механическое повреждение кабеля разрывает цепь передачи данных",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-main-board-communication-error",
+            "title": "Ошибка связи основной платы Bosch",
+            "sign": "Модули не обмениваются информацией корректно",
+            "causes": "Нарушение внутренней шины данных препятствует синхронизации",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-firmware-corruption",
+            "title": "Повреждение прошивки Bosch",
+            "sign": "Программное обеспечение функционирует нестабильно",
+            "causes": "Ошибка обновления либо сбой памяти вызывает некорректное выполнение кода",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fridge-internal-bus-failure",
+            "title": "Сбой внутренней шины Bosch",
+            "sign": "Компоненты системы теряют синхронизацию",
+            "causes": "Повреждение коммуникационных линий нарушает обмен сигналами",
+            "slugs": []
+        }
+
+    ]
+}

@@ -1,0 +1,411 @@
+{
+    "indexPageTitle": "Սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Սպասք լվացող մեքենայի հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/",
+
+    "items": [
+       {
+            "slug": "not-starting",
+            "title": "Սպասք լվացող մեքենան չի մեկնարկում",
+            "sign": "Կոճակը սեղմելուց հետո ծրագիրը չի սկսվում",
+            "causes": "Համակարգը չի մեկնարկում",
+            "slugs": [
+                "power-cord-damage",
+                "door-lock-failure",
+                "control-panel-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-filling-water",
+            "title": "Սպասք լվացող մեքենան ջուր չի հավաքում",
+            "sign": "Լսվում է աղմուկ, բայց ջուրը չի մուտք գործում",
+            "causes": "Ջրի մատակարարումը խափանված է",
+            "slugs": [
+                "inlet-valve-failure",
+                "inlet-filter-clog",
+                "aqua-stop-triggered",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-draining",
+            "title": "Սպասք լվացող մեքենան ջուրը չի ջրահեռացնում",
+            "sign": "Ջուրը մնում է խցիկի հատակին",
+            "causes": "Ջրահեռացման համակարգը չի աշխատում",
+            "slugs": [
+                "drain-pump-failure",
+                "drain-filter-clog",
+                "drain-hose-blocked",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-heating",
+            "title": "Սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Լվացումը կատարվում է սառը ջրով",
+            "causes": "Տաքացման համակարգը չի աշխատում",
+            "slugs": [
+                "heater-failure",
+                "ntc-sensor-failure",
+                "heater-relay-failure",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "not-drying",
+            "title": "Սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ցիկլի ավարտից հետո սպասքը թաց է",
+            "causes": "Չորացման համակարգը խափանված է",
+            "slugs": [
+                "heater-failure",
+                "fan-failure",
+                "rinse-aid-empty",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "leaking-dishwasher",
+            "title": "Սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Մեքենայի տակ ջուր է հայտնվում",
+            "causes": "Հերմետիկությունը խախտված է",
+            "slugs": [
+                "door-gasket-damage",
+                "circulation-pump-leak",
+                "drain-hose-leak",
+                "tank-crack"
+            ]
+        },
+
+        {
+            "slug": "not-washing-properly",
+            "title": "Սպասք լվացող մեքենան վատ է լվանում",
+            "sign": "Սպասքի վրա մնում են կեղտեր",
+            "causes": "Ջրի ցիրկուլյացիան անբավարար է",
+            "slugs": [
+                "circulation-pump-failure",
+                "spray-arm-clog",
+                "low-water-pressure",
+                "heater-failure"
+            ]
+        },
+
+        {
+            "slug": "noisy-dishwasher",
+            "title": "Սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում է գռմռոց, քերծոց կամ թակոց",
+            "causes": "Մեխանիկական մաշվածություն կամ օտար առարկաներ",
+            "slugs": [
+                "circulation-pump-wear",
+                "foreign-object-pump",
+                "drain-pump-failure"
+            ]
+        },
+
+        {
+            "slug": "not-opening-door",
+            "title": "Սպասք լվացող մեքենայի դուռը չի բացվում",
+            "sign": "Ցիկլից հետո դուռը արգելափակված է",
+            "causes": "Արգելափակումը չի հանվում",
+            "slugs": [
+                "door-lock-failure",
+                "door-handle-damage",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "tablet-not-dissolving",
+            "title": "Սպասք լվացող մեքենայում հաբը չի լուծվում",
+            "sign": "Լվացող միջոցը մնում է բաժանմունքում",
+            "causes": "Ջրի մատակարարումը խափանված է կամ դոզատորի բացումը չի աշխատում",
+            "slugs": [
+                "dispenser-failure",
+                "spray-arm-clog",
+                "low-water-pressure"
+            ]
+        },
+
+        {
+            "slug": "machine-trips-breaker-dishwasher",
+            "title": "Սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Մեկնարկի կամ տաքացման ժամանակ գործարկվում է ցանցի պաշտպանությունը",
+            "causes": "Կարճ միացում կամ пробой",
+            "slugs": [
+                "heater-short",
+                "pump-short",
+                "power-filter-burn",
+                "electronic-module-failure"
+            ]
+        },
+
+        {
+            "slug": "bad-smell-dishwasher",
+            "title": "Սպասք լվացող մեքենայից տհաճ հոտ է գալիս",
+            "sign": "Հոտը մնում է լվացումից հետո",
+            "causes": "Ներքին տարրերի աղտոտում",
+            "slugs": [
+                "drain-filter-clog",
+                "mold-build-up",
+                "stagnant-water"
+            ]
+        },
+
+        {
+            "slug": "power-cord-damage",
+            "title": "Սնուցման մալուխը վնասված է",
+            "sign": "Մեքենան չի միանում",
+            "causes": "Խզում կամ կարճ միացում",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-lock-failure",
+            "title": "Դռան արգելափակումը անսարք է",
+            "sign": "Ծրագիրը չի մեկնարկում",
+            "causes": "Մեխանիզմի խափանում",
+            "slugs": []
+        },
+
+        {
+            "slug": "control-panel-failure",
+            "title": "Կառավարման վահանակը անսարք է",
+            "sign": "Կոճակները չեն արձագանքում",
+            "causes": "Կոնտակտների վնասում",
+            "slugs": []
+        },
+
+        {
+            "slug": "inlet-valve-failure",
+            "title": "Լցման փականը անսարք է",
+            "sign": "Ջուրը չի մուտք գործում",
+            "causes": "Կոճապանակը այրվել է կամ փականը խցանվել է",
+            "slugs": []
+        },
+
+        {
+            "slug": "inlet-filter-clog",
+            "title": "Ջրի մատակարարման ֆիլտրը խցանված է",
+            "sign": "Ջրի հավաքումը թույլ է",
+            "causes": "Կուտակումներ և աղբ",
+            "slugs": []
+        },
+
+        {
+            "slug": "aqua-stop-triggered",
+            "title": "AquaStop համակարգը գործարկվել է",
+            "sign": "Մեքենան ջուր չի հավաքում",
+            "causes": "Արտահոսք է հայտնաբերվել",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-pump-failure",
+            "title": "Ջրահեռացման պոմպը անսարք է",
+            "sign": "Ջուրը չի հեռանում",
+            "causes": "Խցանում կամ փաթաթման խզում",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-filter-clog",
+            "title": "Ջրահեռացման ֆիլտրը խցանված է",
+            "sign": "Ջուրը մնում է հատակին",
+            "causes": "Սննդի մնացորդների կուտակում",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hose-blocked",
+            "title": "Ջրահեռացման խողովակի խցանում",
+            "sign": "Դանդաղ ջրահեռացում",
+            "causes": "Ծալք կամ խցանում",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-failure",
+            "title": "Տաքացուցիչը անսարք է",
+            "sign": "Ջուրը չի տաքանում",
+            "causes": "ՏԷՆ-ի այրում",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-relay-failure",
+            "title": "Տաքացման ռելեն անսարք է",
+            "sign": "ՏԷՆ-ը չի միանում",
+            "causes": "Կոնտակտների այրում",
+            "slugs": []
+        },
+
+        {
+            "slug": "ntc-sensor-failure",
+            "title": "Ջերմաստիճանի սենսորը անսարք է",
+            "sign": "Լվացման ռեժիմը սխալ է",
+            "causes": "Չափումների խափանում",
+            "slugs": []
+        },
+
+        {
+            "slug": "fan-failure",
+            "title": "Չորացման օդափոխիչը անսարք է",
+            "sign": "Սպասքը մնում է խոնավ",
+            "causes": "Օդափոխիչի շարժիչը այրվել է",
+            "slugs": []
+        },
+
+        {
+            "slug": "rinse-aid-empty",
+            "title": "Ողողիչը բացակայում է",
+            "sign": "Չորացումը վատ է",
+            "causes": "Ողողիչի բաքը դատարկ է",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-gasket-damage",
+            "title": "Դռան խտացուցիչը վնասված է",
+            "sign": "Առջևից արտահոսք",
+            "causes": "Ռետինի մաշվածություն կամ պատռվածք",
+            "slugs": []
+        },
+
+        {
+            "slug": "circulation-pump-failure",
+            "title": "Ցիրկուլյացիոն պոմպը անսարք է",
+            "sign": "Ջուրը վատ է մատակարարվում դեպի ցողիչները",
+            "causes": "Մաշվածություն կամ խցանում",
+            "slugs": []
+        },
+
+        {
+            "slug": "circulation-pump-wear",
+            "title": "Ցիրկուլյացիոն պոմպի մաշվածություն",
+            "sign": "Աղմուկի ուժեղացում",
+            "causes": "Երկարատև շահագործում",
+            "slugs": []
+        },
+
+        {
+            "slug": "foreign-object-pump",
+            "title": "Պոմպում օտար առարկա կա",
+            "sign": "Թակոց կամ գռմռոց",
+            "causes": "Աղբի попадание",
+            "slugs": []
+        },
+
+        {
+            "slug": "spray-arm-clog",
+            "title": "Ցողիչի խցանում",
+            "sign": "Ջրի թույլ մատակարարում",
+            "causes": "Անցքերը խցանված են",
+            "slugs": []
+        },
+
+        {
+            "slug": "low-water-pressure",
+            "title": "Ջրի ցածր ճնշում",
+            "sign": "Անբավարար ճնշում",
+            "causes": "Ջրամատակարարման խնդիրներ",
+            "slugs": []
+        },
+
+        {
+            "slug": "dispenser-failure",
+            "title": "Լվացող միջոցի դոզատորը անսարք է",
+            "sign": "Բաժանմունքը չի բացվում",
+            "causes": "Մեխանիզմի խափանում",
+            "slugs": []
+        },
+
+        {
+            "slug": "heater-short",
+            "title": "Տաքացուցիչի կարճ միացում",
+            "sign": "Ավտոմատը անջատում է",
+            "causes": "Կորպուսին пробой",
+            "slugs": []
+        },
+
+        {
+            "slug": "pump-short",
+            "title": "Պոմպի կարճ միացում",
+            "sign": "Գործարկվում է ցանցի պաշտպանությունը",
+            "causes": "Փաթաթման վնասում",
+            "slugs": []
+        },
+
+        {
+            "slug": "power-filter-burn",
+            "title": "Ցանցային ֆիլտրը այրվել է",
+            "sign": "Մեքենան չի միանում կամ անջատում է ավտոմատը",
+            "causes": "Կարճ միացում",
+            "slugs": []
+        },
+
+        {
+            "slug": "door-handle-damage",
+            "title": "Դռան բռնակը վնասված է",
+            "sign": "Դուռը չի բացվում",
+            "causes": "Մեխանիզմի խափանում",
+            "slugs": []
+        },
+
+        {
+            "slug": "tank-crack",
+            "title": "Բաքի ճաք",
+            "sign": "Ջրի մշտական արտահոսք",
+            "causes": "Մեխանիկական վնասում",
+            "slugs": []
+        },
+
+        {
+            "slug": "circulation-pump-leak",
+            "title": "Ցիրկուլյացիոն պոմպի արտահոսք",
+            "sign": "Մեքենայի տակ ջուր կա",
+            "causes": "Խտացուցիչների մաշվածություն",
+            "slugs": []
+        },
+
+        {
+            "slug": "drain-hose-leak",
+            "title": "Ջրահեռացման խողովակի արտահոսք",
+            "sign": "Մեքենայի հետևի մասում ջուր կա",
+            "causes": "Ճաք կամ խամուտի թուլացում",
+            "slugs": []
+        },
+
+        {
+            "slug": "mold-build-up",
+            "title": "Բորբոսի առաջացում",
+            "sign": "Տհաճ հոտ",
+            "causes": "Խոնավ միջավայր և սննդի մնացորդներ",
+            "slugs": []
+        },
+
+        {
+            "slug": "stagnant-water",
+            "title": "Համակարգում ջրի կանգ",
+            "sign": "Ներսում հոտ և լորձ",
+            "causes": "Թերի ջրահեռացում",
+            "slugs": []
+        },
+
+        {
+            "slug": "electronic-module-failure",
+            "title": "Էլեկտրոնային կառավարման մոդուլը անսարք է",
+            "sign": "Մեքենան աշխատում է անկանոն կամ չի արձագանքում",
+            "causes": "Պլատայի կամ բաղադրիչների վնասում",
+            "slugs": []
+        }
+    ]
+}

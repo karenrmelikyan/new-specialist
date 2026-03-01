@@ -1,0 +1,233 @@
+{
+    "indexPageTitle": "Bosch չորանոց մեքենաների վերանորոգում",
+    "title": "Bosch չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/bosch/errors/",
+
+    "items": [
+        {
+            "slug": "bosch-dryer-error-e01",
+            "title": "Ошибка E01 сушильной машины Bosch",
+            "sign": "На дисплее отображается код E01 и программа не запускается",
+            "causes": "Проблема с блокировкой двери или системой контроля закрытия люка",
+            "slugs": [
+                "bosch-door-lock-failure",
+                "bosch-door-switch-fault",
+                "bosch-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e02",
+            "title": "Ошибка E02 сушильной машины Bosch",
+            "sign": "Код E02 появляется сразу после запуска цикла",
+            "causes": "Неисправность температурного датчика или сбой цепи нагрева",
+            "slugs": [
+                "bosch-temperature-sensor-defect",
+                "bosch-heating-element-failure",
+                "bosch-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e03",
+            "title": "Ошибка E03 сушильной машины Bosch",
+            "sign": "На экране отображается E03, сушка прекращается",
+            "causes": "Перегрев системы или засор вентиляционных каналов",
+            "slugs": [
+                "bosch-ventilation-blockage",
+                "bosch-thermal-fuse-triggered",
+                "bosch-thermostat-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e06",
+            "title": "Ошибка E06 сушильной машины Bosch",
+            "sign": "После старта появляется код E06 и цикл останавливается",
+            "causes": "Сбой работы двигателя или проблемы с приводным механизмом",
+            "slugs": [
+                "bosch-motor-failure",
+                "bosch-drive-belt-broken",
+                "bosch-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e08",
+            "title": "Ошибка E08 сушильной машины Bosch",
+            "sign": "Код E08 появляется во время работы программы",
+            "causes": "Неисправность датчика влажности или некорректная оценка остаточной влаги",
+            "slugs": [
+                "bosch-moisture-sensor-failure",
+                "bosch-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e09",
+            "title": "Ошибка E09 сушильной машины Bosch",
+            "sign": "На дисплее отображается E09, отсутствует нагрев",
+            "causes": "Короткое замыкание нагревательного элемента или повреждение цепи ТЭНа",
+            "slugs": [
+                "bosch-heating-element-short-circuit",
+                "bosch-heating-element-failure",
+                "bosch-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e11",
+            "title": "Ошибка E11 сушильной машины Bosch",
+            "sign": "Код E11 появляется при запуске или в середине цикла",
+            "causes": "Сбой коммуникации между датчиками и платой управления",
+            "slugs": [
+                "bosch-control-board-malfunction",
+                "bosch-temperature-sensor-defect",
+                "bosch-user-interface-error"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e14",
+            "title": "Ошибка E14 сушильной машины Bosch",
+            "sign": "Отображается E14 и программа не завершается корректно",
+            "causes": "Неисправность системы конденсации или проблемы с циркуляцией воздуха",
+            "slugs": [
+                "bosch-ventilation-blockage",
+                "bosch-fan-motor-damage",
+                "bosch-moisture-sensor-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e18",
+            "title": "Ошибка E18 сушильной машины Bosch",
+            "sign": "Код E18 появляется в конце программы",
+            "causes": "Нарушение работы системы отвода конденсата или засор фильтра",
+            "slugs": [
+                "bosch-ventilation-blockage",
+                "bosch-moisture-sensor-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-e90",
+            "title": "Ошибка E90 сушильной машины Bosch",
+            "sign": "На дисплее отображается E90, машина не реагирует на команды",
+            "causes": "Критический сбой электронной платы или программного модуля",
+            "slugs": [
+                "bosch-control-board-malfunction",
+                "bosch-user-interface-error",
+                "bosch-noise-filter-defect"
+            ]
+        },
+
+        {
+            "slug": "bosch-door-lock-failure",
+            "title": "Неисправность замка двери Bosch",
+            "sign": "Люк не фиксируется при закрытии или блокировка не активируется",
+            "causes": "Программа не запускается из-за отказа механизма блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-switch-fault",
+            "title": "Сбой датчика двери Bosch",
+            "sign": "Сенсор не определяет положение люка",
+            "causes": "Система безопасности блокирует запуск цикла",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-control-board-malfunction",
+            "title": "Сбой платы управления Bosch",
+            "sign": "Электронный модуль работает нестабильно или не реагирует на команды",
+            "causes": "Циклы прерываются, отображаются коды ошибок, машина может не запускаться",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-temperature-sensor-defect",
+            "title": "Неисправность температурного датчика Bosch",
+            "sign": "Датчик передаёт некорректные показатели нагрева",
+            "causes": "Сушка работает нестабильно или появляется ошибка контроля температуры",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-failure",
+            "title": "Поломка нагревательного элемента Bosch",
+            "sign": "ТЭН не нагревает воздух внутри барабана",
+            "causes": "Сушка проходит без тепла, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ventilation-blockage",
+            "title": "Засор вентиляционной системы Bosch",
+            "sign": "Нарушена циркуляция горячего воздуха",
+            "causes": "Происходит перегрев или снижение эффективности сушки",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-thermal-fuse-triggered",
+            "title": "Срабатывание термопредохранителя Bosch",
+            "sign": "Защитный элемент размыкает электрическую цепь при перегреве",
+            "causes": "Машина не нагревается или полностью останавливается",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-thermostat-fault",
+            "title": "Неисправность термостата Bosch",
+            "sign": "Регулятор температуры не контролирует нагрев корректно",
+            "causes": "Возможен перегрев или преждевременная остановка цикла",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-failure",
+            "title": "Неисправность двигателя Bosch",
+            "sign": "Мотор не вращает барабан или работает с перебоями",
+            "causes": "Цикл сушки прерывается, отображается ошибка привода",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drive-belt-broken",
+            "title": "Обрыв приводного ремня Bosch",
+            "sign": "Барабан остаётся неподвижным при работающем моторе",
+            "causes": "Сушка невозможна из-за отсутствия передачи вращения",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Bosch",
+            "sign": "Ремень провисает или проскальзывает во время работы",
+            "causes": "Барабан вращается нестабильно или полностью останавливается",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-moisture-sensor-failure",
+            "title": "Сбой датчика влажности Bosch",
+            "sign": "Сенсор неправильно определяет остаточную влагу белья",
+            "causes": "Программа завершается преждевременно или отображается ошибка сушки",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревательного элемента Bosch",
+            "sign": "Повреждение изоляции ТЭНа вызывает утечку тока",
+            "causes": "Срабатывает автомат защиты или отображается код ошибки нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-user-interface-error",
+            "title": "Ошибка панели управления Bosch",
+            "sign": "Кнопки или сенсорная панель не реагируют на нажатия",
+            "causes": "Невозможно выбрать программу или подтвердить запуск",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-fan-motor-damage",
+            "title": "Неисправность вентилятора Bosch",
+            "sign": "Вентилятор не обеспечивает нормальную циркуляцию воздуха",
+            "causes": "Нарушается процесс конденсации и появляется ошибка сушки",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Bosch",
+            "sign": "Фильтр помех повреждён или не пропускает питание стабильно",
+            "causes": "Машина может не включаться или отображать системную ошибку",
+            "slugs": []
+        }
+    ]
+}

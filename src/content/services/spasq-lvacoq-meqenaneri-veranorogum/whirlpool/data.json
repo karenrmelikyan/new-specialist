@@ -1,0 +1,446 @@
+{
+    "indexPageTitle": "Whirlpool սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Whirlpool սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/whirlpool/",
+
+    "items": [
+        {
+            "slug": "whirlpool-dishwasher-not-turning-on",
+            "title": "Whirlpool սպասք լվացող մեքենան չի միանում",
+            "sign": "Սնուցման կոճակը սեղմելիս սարքը ամբողջովին չի արձագանքում, ցուցադրումը բացակայում է։",
+            "causes": "Էլեկտրասնուցման խնդիրներ, ցանցային ֆիլտրի անսարքություն կամ էլեկտրոնային պլատայի խափանում։",
+            "slugs": [
+                "whirlpool-power-cord-damage",
+                "whirlpool-noise-filter-failure",
+                "whirlpool-main-control-board-fault",
+                "whirlpool-power-button-malfunction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-draining",
+            "title": "Whirlpool սպասք լվացող մեքենան չի ջրահեռացնում ջուրը",
+            "sign": "Ցիկլի ավարտից հետո խցիկում մնում է կանգնած ջուր։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ ջրահեռացման պոմպի խափանում։",
+            "slugs": [
+                "whirlpool-drain-pump-failure",
+                "whirlpool-drain-hose-blockage",
+                "whirlpool-drain-filter-clog",
+                "whirlpool-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-filling-with-water",
+            "title": "Whirlpool սպասք լվացող մեքենան չի հավաքում ջուր",
+            "sign": "Ծրագիրը մեկնարկում է, բայց բաք ջուր չի մատակարարվում։",
+            "causes": "Մուտքային փականի, մակարդակի սենսորի կամ AquaStop համակարգի անսարքություն։",
+            "slugs": [
+                "whirlpool-water-inlet-valve-failure",
+                "whirlpool-aquastop-activation",
+                "whirlpool-pressure-switch-defect",
+                "whirlpool-flow-meter-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-heating-water",
+            "title": "Whirlpool սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Լվացումը կատարվում է սառը ջրով, սպասքը մնում է յուղոտ։",
+            "causes": "Տաքացուցիչի, ջերմաստիճանի սենսորի կամ տաքացման ռելեի անսարքություն։",
+            "slugs": [
+                "whirlpool-heating-element-failure",
+                "whirlpool-ntc-sensor-defect",
+                "whirlpool-heater-relay-fault",
+                "whirlpool-control-board-heating-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-drying-dishes",
+            "title": "Whirlpool սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ցիկլի ավարտից հետո սպասքը մնում է խոնավ։",
+            "causes": "Չորացման համակարգի խափանում, տաքացման խնդիրներ կամ օդափոխիչի անսարքություն։",
+            "slugs": [
+                "whirlpool-drying-fan-failure",
+                "whirlpool-heating-element-weak-output",
+                "whirlpool-turbo-dry-module-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-leaking-water",
+            "title": "Whirlpool սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Կորպուսի տակ կամ դռան մոտ ջուր է հայտնվում։",
+            "causes": "Դռան խտացուցիչի վնասում, բաքի ճաք կամ արտահոսքից պաշտպանության համակարգի գործարկում։",
+            "slugs": [
+                "whirlpool-door-seal-damage",
+                "whirlpool-tank-crack",
+                "whirlpool-aquastop-leak-detected",
+                "whirlpool-hose-connection-loose"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-starting-program",
+            "title": "Whirlpool սպասք լվացող մեքենան ծրագիրը չի մեկնարկում",
+            "sign": "Ռեժիմը կարելի է ընտրել, բայց լվացման ցիկլը չի սկսվում։",
+            "causes": "Դռան փականի անսարքություն կամ կառավարման էլեկտրոնիկայի խափանում։",
+            "slugs": [
+                "whirlpool-door-lock-failure",
+                "whirlpool-door-sensor-error",
+                "whirlpool-control-module-malfunction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-making-noise",
+            "title": "Whirlpool սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում են օտար գռմռոց, քերծոց կամ թրթռումներ։",
+            "causes": "Ցիրկուլյացիոն պոմպի մաշվածություն, օտար առարկաների попадание կամ շարժիչի անհավասարակշռություն։",
+            "slugs": [
+                "whirlpool-circulation-pump-wear",
+                "whirlpool-foreign-object-in-pump",
+                "whirlpool-motor-bearing-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-not-washing-properly",
+            "title": "Whirlpool սպասք լվացող մեքենան վատ է լվանում",
+            "sign": "Սպասքի վրա մնում են կեղտեր և նստվածք։",
+            "causes": "Ջրի անբավարար ճնշում, ֆորսունկների խցանում կամ թույլ ցիրկուլյացիա։",
+            "slugs": [
+                "whirlpool-spray-arm-blockage",
+                "whirlpool-circulation-pump-low-pressure",
+                "whirlpool-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-error-code",
+            "title": "Whirlpool էկրանին սխալ է ցուցադրվում",
+            "sign": "Վահանակի վրա ցուցադրվում է անսարքության կոդ։",
+            "causes": "Ինքնաախտորոշման համակարգը ֆիքսում է հանգույցներից մեկի անսարքությունը։",
+            "slugs": [
+                "whirlpool-water-sensor-error",
+                "whirlpool-heating-system-error",
+                "whirlpool-drain-system-error",
+                "whirlpool-electronic-module-error"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-trips-breaker",
+            "title": "Whirlpool սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Մեկնարկի ժամանակ գործարկվում է էլեկտրացանցի պաշտպանությունը։",
+            "causes": "Տաքացուցիչի կամ շարժիչի կարճ միացում, կամ լարերի վնասում։",
+            "slugs": [
+                "whirlpool-heating-element-short-circuit",
+                "whirlpool-motor-short-circuit",
+                "whirlpool-wiring-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-dishwasher-door-not-closing",
+            "title": "Whirlpool սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Դուռը չի ֆիքսվում կամ չի ճկվում (չի «կլիկում»)։",
+            "causes": "Լեզվակի մաշվածություն, ծխնիների շեղում կամ կորպուսի դեֆորմացիա։",
+            "slugs": [
+                "whirlpool-door-latch-wear",
+                "whirlpool-hinge-damage",
+                "whirlpool-door-alignment-issue"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-power-cord-damage",
+            "title": "Whirlpool սնուցման մալուխը վնասված է",
+            "sign": "Սարքը էլեկտրացանցից սնուցում չի ստանում։",
+            "causes": "Լարի խզումը կամ հալվելը ամբողջությամբ արգելափակում է լարման մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-noise-filter-failure",
+            "title": "Whirlpool ցանցային ֆիլտրը անսարք է",
+            "sign": "Լարման ցատկից հետո սարքը դադարում է միանալ։",
+            "causes": "Այրված խանգարումների ֆիլտրը սնուցում չի փոխանցում կառավարման մոդուլին։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-main-control-board-fault",
+            "title": "Whirlpool կառավարման պլատայի անսարքություն",
+            "sign": "Վահանակը չի արձագանքում կամ աշխատում է անկայուն։",
+            "causes": "Էլեկտրոնային բաղադրիչների խափանումը խախտում է ծրագրերի կատարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-power-button-malfunction",
+            "title": "Whirlpool միացման կոճակը չի աշխատում",
+            "sign": "Կոճակը սեղմվում է, բայց մեկնարկ չի լինում։",
+            "causes": "Կոնտակտների խմբի մաշվածությունը խոչընդոտում է ազդանշանի փոխանցմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-pump-failure",
+            "title": "Whirlpool ջրահեռացման պոմպի խափանում",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է բաքում։",
+            "causes": "Պոմպի խցանումը կամ այրված փաթաթումը խանգարում են ջրահեռացմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-hose-blockage",
+            "title": "Whirlpool ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրի արտահոսքը դանդաղ է կամ ամբողջովին բացակայում է։",
+            "causes": "Խողովակի ներսում կուտակված կեղտը փակում է հոսքը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-filter-clog",
+            "title": "Whirlpool ջրահեռացման ֆիլտրի խցանում",
+            "sign": "Խցիկում ջուր է մնում և հայտնվում է տհաճ հոտ։",
+            "causes": "Սննդի մնացորդների կուտակումը խցանում է հեղուկի անցուղին։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-pressure-switch-fault",
+            "title": "Whirlpool պրեսոստատը անսարք է",
+            "sign": "Համակարգը սխալ է որոշում ջրի մակարդակը։",
+            "causes": "Մակարդակի սենսորը մոդուլին փոխանցում է ոչ ճիշտ ազդանշաններ։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-water-inlet-valve-failure",
+            "title": "Whirlpool մուտքային փականը անսարք է",
+            "sign": "Ջուրը չի մտնում լվացման խցիկ։",
+            "causes": "Փականի այրված կոճապանակը չի բացում ջրի մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-aquastop-activation",
+            "title": "Whirlpool AquaStop համակարգի գործարկում",
+            "sign": "Ջրի մատակարարումը ավտոմատ արգելափակվում է։",
+            "causes": "Պաշտպանությունը ակտիվանում է արտահոսք հայտնաբերելիս։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-pressure-switch-defect",
+            "title": "Whirlpool ջրի մակարդակի սենսորի խափանում",
+            "sign": "Ջուր հավաքելու ազդանշանի բացակայության պատճառով մեքենան չի սկսում ցիկլը։",
+            "causes": "Սենսորի աշխատանքի խախտումը բերում է մեկնարկի արգելափակման։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-flow-meter-fault",
+            "title": "Whirlpool ծախսաչափը անսարք է",
+            "sign": "Հավաքվող ջրի քանակը որոշվում է սխալ։",
+            "causes": "Ծախսաչափի իմպուլսները չեն ընթերցվում էլեկտրոնային պլատայի կողմից։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-failure",
+            "title": "Whirlpool տաքացուցիչը անսարք է",
+            "sign": "Լվացման ընթացքում ջուրը մնում է սառը։",
+            "causes": "Այրված ՏԷՆ-ը չի ապահովում տաքացում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-ntc-sensor-defect",
+            "title": "Whirlpool ջերմաստիճանի սենսորը անսարք է",
+            "sign": "Ջրի ջերմաստիճանը ցուցադրվում է սխալ։",
+            "causes": "NTC սենսորի խափանումը խախտում է տաքացման վերահսկումը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heater-relay-fault",
+            "title": "Whirlpool տաքացման ռելեն անսարք է",
+            "sign": "Նույնիսկ աշխատող ՏԷՆ-ի դեպքում տաքացումը չի միանում։",
+            "causes": "Ռելեի կոնտակտները չեն միացնում տաքացուցիչի սնուցման շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-control-board-heating-error",
+            "title": "Whirlpool տաքացման կառավարման սխալ",
+            "sign": "Ծրագիրը կանգնում է տաքացման փուլում։",
+            "causes": "Կառավարման մոդուլը հրաման չի տալիս ՏԷՆ-ը միացնելու համար։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drying-fan-failure",
+            "title": "Whirlpool չորացման օդափոխիչը անսարք է",
+            "sign": "Չորացման ժամանակ խցիկի ներսում օդը չի շրջանառվում։",
+            "causes": "Օդափոխիչի շարժիչը չի մեկնարկում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-weak-output",
+            "title": "Whirlpool տաքացուցիչի հզորության նվազում",
+            "sign": "Չորացումը կատարվում է, բայց սպասքը մնում է խոնավ։",
+            "causes": "ՏԷՆ-ի մասնակի վնասումը նվազեցնում է ջերմատվությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-turbo-dry-module-fault",
+            "title": "Whirlpool Turbo Dry մոդուլի անսարքություն",
+            "sign": "Ինտենսիվ չորացման ռեժիմը չի ակտիվանում։",
+            "causes": "Չորացման համակարգի էլեկտրոնային բլոկը հրամանները չի կատարում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-seal-damage",
+            "title": "Whirlpool դռան խտացուցիչը վնասված է",
+            "sign": "Ջուրը ծորում է դռան ամբողջ շրջագծով։",
+            "causes": "Մաշված ռետինը կորցնում է հերմետիկությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-tank-crack",
+            "title": "Whirlpool բաքի ճաք",
+            "sign": "Արտահոսքը նկատվում է կորպուսի ստորին հատվածում։",
+            "causes": "Ռեզերվուարի մեխանիկական վնասումը հանգեցնում է արտահոսքի։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-aquastop-leak-detected",
+            "title": "Whirlpool AquaStop համակարգը հայտնաբերել է արտահոսք",
+            "sign": "Մեքենան արգելափակում է աշխատանքը և դուրս է մղում ջուրը։",
+            "causes": "Արտահոսքի սենսորը ֆիքսում է поддон-ում խոնավության առկայությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-hose-connection-loose",
+            "title": "Whirlpool խողովակի միացումը թուլացած է",
+            "sign": "Միացման հատվածում ջուր է կաթում։",
+            "causes": "Անբավարար ամրացումը բերում է հերմետիկության խախտման։",
+            "slugs": []
+        },
+
+        {
+            "slug": "whirlpool-door-lock-failure",
+            "title": "Whirlpool դռան փականը անսարք է",
+            "sign": "Ծրագիրը չի մեկնարկում, քանի որ արգելափակում չկա։",
+            "causes": "Փականի մեխանիզմը դուռը չի ֆիքսում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-sensor-error",
+            "title": "Whirlpool դռան սենսորի սխալ",
+            "sign": "Համակարգը չի ճանաչում դռան փակվելը։",
+            "causes": "Սխալ ազդանշանը արգելափակում է ցիկլի մեկնարկը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-control-module-malfunction",
+            "title": "Whirlpool էլեկտրոնային մոդուլի խափանում",
+            "sign": "Ցիկլը չի սկսվում կամ ընդհատվում է։",
+            "causes": "Կառավարման պլատայի վնասումը խախտում է աշխատանքի ալգորիթմը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-circulation-pump-wear",
+            "title": "Whirlpool ցիրկուլյացիոն պոմպի մաշվածություն",
+            "sign": "Լվացման ընթացքում ջրի ճնշումը նվազում է։",
+            "causes": "Մաշված առանցքակալները և թիակը նվազեցնում են արտադրողականությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-foreign-object-in-pump",
+            "title": "Whirlpool պոմպում օտար առարկա կա",
+            "sign": "Աշխատանքի ժամանակ լսվում է քերծոց կամ գռմռոց։",
+            "causes": "Օտար մասնիկները խանգարում են թիակի պտտմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-bearing-damage",
+            "title": "Whirlpool շարժիչի առանցքակալների վնասում",
+            "sign": "Առաջանում է ուժեղացված թրթռում և աղմուկ։",
+            "causes": "Հենարանային տարրերի մաշվածությունը խախտում է պտտման սահունությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-spray-arm-blockage",
+            "title": "Whirlpool ցողիչի ֆորսունկների խցանում",
+            "sign": "Ջուրը բաշխվում է անհավասար։",
+            "causes": "Կուտակումներն ու աղբը փակում են ջրի մատակարարման անցքերը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-circulation-pump-low-pressure",
+            "title": "Whirlpool ցիրկուլյացիոն պոմպի անբավարար ճնշում",
+            "sign": "Լվացումից հետո սպասքը մնում է կեղտոտ։",
+            "causes": "Պոմպի արտադրողականության նվազումը վատացնում է մաքրման որակը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-detergent-dispenser-failure",
+            "title": "Whirlpool լվացող միջոցի դոզատորը անսարք է",
+            "sign": "Հաբը կամ փոշին չեն մատակարարվում խցիկ։",
+            "causes": "Ցիկլի ընթացքում բացման մեխանիզմը չի աշխատում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-water-sensor-error",
+            "title": "Whirlpool ջրի սենսորի սխալ",
+            "sign": "Մեքենան սխալ է գնահատում հեղուկի մակարդակը։",
+            "causes": "Սենսորի սխալ ցուցումները բերում են ծրագրի կանգի։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-system-error",
+            "title": "Whirlpool տաքացման համակարգի սխալ",
+            "sign": "Տաքացնելու փորձի ժամանակ ցիկլը ընդհատվում է։",
+            "causes": "Ջերմաստիճանի վերահսկումը ֆիքսում է հանգույցի անսարքություն։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drain-system-error",
+            "title": "Whirlpool ջրահեռացման համակարգի սխալ",
+            "sign": "Ջուրը խցիկից չի հեռացվում։",
+            "causes": "Էլեկտրոնիկան խնդիր է գրանցում ջրահեռացման կոնտուրում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-electronic-module-error",
+            "title": "Whirlpool էլեկտրոնային բլոկի սխալ",
+            "sign": "Էկրանին հայտնվում է անսարքության կոդ։",
+            "causes": "Կառավարման պլատայի ներքին խափանում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-short-circuit",
+            "title": "Whirlpool տաքացուցիչի կարճ միացում",
+            "sign": "Մեկնարկի ժամանակ ավտոմատը անջատվում է։",
+            "causes": "ՏԷՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-short-circuit",
+            "title": "Whirlpool շարժիչի կարճ միացում",
+            "sign": "Մեկնարկի ժամանակ էլեկտրացանցի պաշտպանությունը գործարկվում է։",
+            "causes": "Փաթաթումների կարճ միացումը բերում է շղթայի գերբեռնվածության։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-wiring-damage",
+            "title": "Whirlpool լարերի վնասում",
+            "sign": "Աշխատանքը ուղեկցվում է սնուցման անջատումով։",
+            "causes": "Մեկուսացման խախտումը առաջացնում է կարճ միացում։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-latch-wear",
+            "title": "Whirlpool դռան լեզվակի մաշվածություն",
+            "sign": "Դուռը փակելիս չի ֆիքսվում։",
+            "causes": "Մեխանիզմի մաշված տարրերը խոչընդոտում են արգելափակմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-hinge-damage",
+            "title": "Whirlpool ծխնիների վնասում",
+            "sign": "Դուռը շեղված է կամ փակվում է դժվարությամբ։",
+            "causes": "Ծխնիների դեֆորմացիան խախտում է կորպուսի գեոմետրիան։",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-alignment-issue",
+            "title": "Whirlpool դռան կարգավորման խախտում",
+            "sign": "Դուռը լիովին հերմետիկ չի նստում։",
+            "causes": "Ամրակների շեղումը բերում է հերմետիկության բացակայության։",
+            "slugs": []
+        }
+    ]
+}

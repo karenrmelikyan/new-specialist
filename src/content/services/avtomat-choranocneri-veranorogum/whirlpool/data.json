@@ -1,0 +1,304 @@
+{
+    "indexPageTitle": "Whirlpool չորանոց մեքենաների վերանորոգում",
+    "title": "Whirlpool չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/whirlpool/",
+
+    "items": [
+        {
+            "slug": "whirlpool-dryer-not-starting",
+            "title": "Сушильная машина Whirlpool не запускается",
+            "sign": "После нажатия кнопки старта барабан остаётся неподвижным и программа не активируется",
+            "causes": "Проблема с замком двери, сбой панели управления или отсутствие питания",
+            "slugs": [
+                "whirlpool-door-lock-failure",
+                "whirlpool-control-board-malfunction",
+                "whirlpool-user-interface-error",
+                "whirlpool-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-not-heating",
+            "title": "Сушильная машина Whirlpool не нагревает",
+            "sign": "Вещи остаются холодными после завершения цикла",
+            "causes": "Неисправность нагревательного элемента, термопредохранителя или датчика температуры",
+            "slugs": [
+                "whirlpool-heating-element-failure",
+                "whirlpool-thermal-fuse-blown",
+                "whirlpool-temperature-sensor-defect",
+                "whirlpool-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-not-drying-properly",
+            "title": "Сушильная машина Whirlpool плохо сушит бельё",
+            "sign": "После окончания цикла одежда остаётся влажной или требует дополнительного времени",
+            "causes": "Засор вентиляции, неисправность датчика влажности или снижение мощности нагрева",
+            "slugs": [
+                "whirlpool-ventilation-blockage",
+                "whirlpool-moisture-sensor-failure",
+                "whirlpool-heating-element-failure",
+                "whirlpool-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Whirlpool не вращается",
+            "sign": "Мотор работает, но барабан остаётся неподвижным",
+            "causes": "Обрыв ремня привода, неисправность мотора или износ роликов барабана",
+            "slugs": [
+                "whirlpool-drive-belt-broken",
+                "whirlpool-motor-failure",
+                "whirlpool-drum-roller-wear",
+                "whirlpool-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Whirlpool останавливается во время работы",
+            "sign": "Цикл внезапно прерывается без явной причины",
+            "causes": "Перегрев, сбой датчиков или неисправность платы управления",
+            "slugs": [
+                "whirlpool-thermal-fuse-blown",
+                "whirlpool-control-board-malfunction",
+                "whirlpool-temperature-sensor-defect",
+                "whirlpool-motor-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-overheating",
+            "title": "Сушильная машина Whirlpool перегревается",
+            "sign": "Корпус становится горячим, возможна аварийная остановка",
+            "causes": "Засор вентиляции, неисправность термостата или сбой температурного датчика",
+            "slugs": [
+                "whirlpool-ventilation-blockage",
+                "whirlpool-thermostat-fault",
+                "whirlpool-temperature-sensor-defect",
+                "whirlpool-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-making-noise",
+            "title": "Сушильная машина Whirlpool издаёт шум при работе",
+            "sign": "Слышны стуки, вибрация или скрежет при вращении барабана",
+            "causes": "Износ подшипников, роликов барабана или вентилятора",
+            "slugs": [
+                "whirlpool-drum-bearing-wear",
+                "whirlpool-drum-roller-wear",
+                "whirlpool-fan-motor-damage",
+                "whirlpool-motor-failure"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-not-turning-on",
+            "title": "Сушильная машина Whirlpool не включается",
+            "sign": "Индикаторы не горят, прибор полностью не реагирует",
+            "causes": "Повреждение шнура питания, сбой фильтра помех или неисправность платы управления",
+            "slugs": [
+                "whirlpool-power-cord-fault",
+                "whirlpool-noise-filter-defect",
+                "whirlpool-control-board-malfunction",
+                "whirlpool-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-error-code",
+            "title": "Сушильная машина Whirlpool показывает код ошибки",
+            "sign": "На дисплее отображается сообщение о неисправности",
+            "causes": "Сбой датчиков, нагревательной системы или платы управления",
+            "slugs": [
+                "whirlpool-temperature-sensor-defect",
+                "whirlpool-moisture-sensor-failure",
+                "whirlpool-heating-element-failure",
+                "whirlpool-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Whirlpool не закрывается",
+            "sign": "Люк не фиксируется, программа не стартует",
+            "causes": "Поломка замка, износ петель или сбой датчика двери",
+            "slugs": [
+                "whirlpool-door-lock-failure",
+                "whirlpool-door-hinge-damage",
+                "whirlpool-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-burning-smell",
+            "title": "Сушильная машина Whirlpool издаёт запах гари",
+            "sign": "Во время работы ощущается перегрев или плавление деталей",
+            "causes": "Скопление ворса, перегрев нагревателя или повреждение проводки",
+            "slugs": [
+                "whirlpool-ventilation-blockage",
+                "whirlpool-heating-element-failure",
+                "whirlpool-motor-failure",
+                "whirlpool-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "whirlpool-dryer-tripping-breaker",
+            "title": "Сушильная машина Whirlpool выбивает автомат",
+            "sign": "При запуске срабатывает защита электросети",
+            "causes": "Короткое замыкание нагревателя, двигателя или фильтра помех",
+            "slugs": [
+                "whirlpool-heating-element-short-circuit",
+                "whirlpool-motor-short-circuit",
+                "whirlpool-noise-filter-defect",
+                "whirlpool-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "whirlpool-door-lock-failure",
+            "title": "Неисправность замка двери Whirlpool",
+            "sign": "Люк не фиксируется и блокирует запуск программы",
+            "causes": "Цикл не стартует из-за отказа механизма блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-control-board-malfunction",
+            "title": "Сбой платы управления Whirlpool",
+            "sign": "Электронный модуль работает нестабильно или зависает",
+            "causes": "Цикл прерывается, индикаторы могут мигать, управление не реагирует",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-user-interface-error",
+            "title": "Ошибка панели управления Whirlpool",
+            "sign": "Кнопки или сенсорная панель не откликаются на нажатия",
+            "causes": "Невозможно выбрать программу или изменить настройки",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Whirlpool",
+            "sign": "Обрыв проводов или нарушение изоляции",
+            "causes": "Прибор полностью не включается, индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-failure",
+            "title": "Поломка нагревательного элемента Whirlpool",
+            "sign": "Элемент не нагревает воздух в барабане",
+            "causes": "Сушка проходит без тепла, бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-thermal-fuse-blown",
+            "title": "Срабатывание термопредохранителя Whirlpool",
+            "sign": "Предохранитель размыкает цепь при перегреве",
+            "causes": "Цикл не выполняется или устройство аварийно останавливается",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-temperature-sensor-defect",
+            "title": "Неисправность температурного датчика Whirlpool",
+            "sign": "Датчик передаёт некорректные значения температуры",
+            "causes": "Цикл нагрева работает неправильно или преждевременно завершает работу",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-ventilation-blockage",
+            "title": "Засор вентиляционных каналов Whirlpool",
+            "sign": "Воздух не циркулирует должным образом",
+            "causes": "Сушка замедляется, бельё остаётся влажным, возможен перегрев корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-moisture-sensor-failure",
+            "title": "Поломка датчика влажности Whirlpool",
+            "sign": "Сенсор не определяет уровень влажности внутри барабана",
+            "causes": "Цикл завершается раньше времени или бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-fan-motor-damage",
+            "title": "Неисправность вентилятора Whirlpool",
+            "sign": "Вентилятор не вращается или шумит при работе",
+            "causes": "Циркуляция горячего воздуха нарушена, эффективность сушки снижается",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drive-belt-broken",
+            "title": "Разрыв приводного ремня Whirlpool",
+            "sign": "Мотор работает, но барабан не вращается",
+            "causes": "Цикл не выполняется, барабан остаётся неподвижным",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-failure",
+            "title": "Поломка двигателя Whirlpool",
+            "sign": "Мотор не запускается или работает с перебоями",
+            "causes": "Барабан не крутится, могут появляться посторонние шумы",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drum-roller-wear",
+            "title": "Износ роликов барабана Whirlpool",
+            "sign": "Барабан вращается с трудом, появляются стуки",
+            "causes": "Снижается плавность вращения, возможно повреждение других узлов",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-idler-pulley-defect",
+            "title": "Неисправность натяжного ролика Whirlpool",
+            "sign": "Ремень привода провисает или проскальзывает",
+            "causes": "Барабан не крутится, цикл сушки нарушен",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-thermostat-fault",
+            "title": "Сбой термостата Whirlpool",
+            "sign": "Элемент управления температурой не регулирует нагрев",
+            "causes": "Сушка может перегреваться или недогревать бельё",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-drum-bearing-wear",
+            "title": "Износ подшипников барабана Whirlpool",
+            "sign": "Слышны вибрации, скрежет и посторонние шумы",
+            "causes": "Барабан вращается неравномерно, может возникнуть повреждение ремня",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-hinge-damage",
+            "title": "Повреждение петель двери Whirlpool",
+            "sign": "Люк закрывается с усилием или перекошен",
+            "causes": "Программа не стартует, возможен сбой блокировки двери",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-door-switch-fault",
+            "title": "Неисправность датчика двери Whirlpool",
+            "sign": "Сенсор не фиксирует закрытие люка",
+            "causes": "Цикл не стартует из-за системы безопасности",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Whirlpool",
+            "sign": "Повреждена изоляция ТЭНа, происходит утечка тока",
+            "causes": "Автомат защиты отключает питание при запуске",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Whirlpool",
+            "sign": "Обмотка мотора повреждена, вызывает перегрузку сети",
+            "causes": "Электрическая защита срабатывает при старте программы",
+            "slugs": []
+        },
+        {
+            "slug": "whirlpool-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Whirlpool",
+            "sign": "Фильтр помех вышел из строя из-за перегрузок или скачков напряжения",
+            "causes": "Прибор может не включаться или выбивать автомат защиты",
+            "slugs": []
+        }
+
+    ]
+}

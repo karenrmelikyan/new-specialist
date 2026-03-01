@@ -1,0 +1,329 @@
+{
+    "indexPageTitle": "LG սառնարանների վերանորոգում",
+    "title": "LG սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "services/sarnaranneri-veranorogum/lg/",
+
+    "items": [
+        {
+            "slug": "lg-fridge-not-cooling",
+            "title": "Холодильник LG не охлаждает должным образом",
+            "sign": "Температура в холодильной камере выше установленной",
+            "causes": "Нарушение работы компрессорного узла или системы циркуляции холода",
+            "slugs": [
+                "lg-linear-compressor-failure",
+                "lg-refrigerant-leak",
+                "lg-capillary-tube-restriction",
+                "lg-evaporator-fan-malfunction",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-freezer-not-freezing",
+            "title": "Морозильник LG не морозит",
+            "sign": "Продукты в морозильной камере размягчаются",
+            "causes": "Недостаточная выработка холода в морозильном отсеке",
+            "slugs": [
+                "lg-linear-compressor-failure",
+                "lg-refrigerant-leak",
+                "lg-defrost-heater-defect",
+                "lg-thermistor-failure",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-running-constantly",
+            "title": "Холодильник LG работает без остановки",
+            "sign": "Компрессор функционирует непрерывно",
+            "causes": "Система не достигает заданных температурных параметров",
+            "slugs": [
+                "lg-refrigerant-leak",
+                "lg-door-gasket-worn",
+                "lg-thermistor-failure",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-not-turning-on",
+            "title": "Холодильник LG не включается",
+            "sign": "Отсутствует индикация и звук запуска",
+            "causes": "Неисправность цепи питания или электронного запуска",
+            "slugs": [
+                "lg-power-cord-damage",
+                "lg-start-relay-defect",
+                "lg-linear-compressor-failure",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-leaking-water",
+            "title": "Холодильник LG течёт",
+            "sign": "Под прибором или внутри камеры появляется вода",
+            "causes": "Засор системы отвода конденсата или повреждение поддона",
+            "slugs": [
+                "lg-drain-hole-clogged",
+                "lg-drain-line-frozen",
+                "lg-drip-pan-cracked"
+            ]
+        },
+        {
+            "slug": "lg-fridge-ice-build-up",
+            "title": "В холодильнике LG намерзает лёд",
+            "sign": "На стенках образуется иней или ледяной налёт",
+            "causes": "Сбой системы автоматической разморозки",
+            "slugs": [
+                "lg-defrost-heater-defect",
+                "lg-defrost-sensor-failure",
+                "lg-door-gasket-worn",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-making-noise",
+            "title": "Холодильник LG издаёт громкие звуки",
+            "sign": "Слышны вибрации, гул или треск",
+            "causes": "Износ механических элементов или неправильная установка",
+            "slugs": [
+                "lg-linear-compressor-wear",
+                "lg-evaporator-fan-malfunction",
+                "lg-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-not-defrosting",
+            "title": "Холодильник LG не проходит цикл оттайки",
+            "sign": "Испаритель покрыт льдом",
+            "causes": "Неисправность компонентов системы разморозки",
+            "slugs": [
+                "lg-defrost-heater-defect",
+                "lg-defrost-sensor-failure",
+                "lg-defrost-control-failure",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-light-not-working",
+            "title": "Не работает освещение в холодильнике LG",
+            "sign": "Подсветка не включается при открытии двери",
+            "causes": "Перегоревший светодиод или неисправность дверного датчика",
+            "slugs": [
+                "lg-led-lamp-failure",
+                "lg-door-switch-defect",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-bad-smell",
+            "title": "Неприятный запах в холодильнике LG",
+            "sign": "Запах сохраняется даже после очистки камеры",
+            "causes": "Скопление загрязнений, засор дренажа или испорченные продукты",
+            "slugs": [
+                "lg-drain-hole-clogged",
+                "lg-mold-inside-fridge",
+                "lg-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "lg-fridge-freezing-food",
+            "title": "Холодильник LG перемораживает продукты",
+            "sign": "Продукты в холодильной зоне покрываются льдом",
+            "causes": "Сбой температурного контроля или заклинивание воздушной заслонки",
+            "slugs": [
+                "lg-thermistor-failure",
+                "lg-air-damper-stuck",
+                "lg-main-board-failure"
+            ]
+        },
+        {
+            "slug": "lg-fridge-tripping-breaker",
+            "title": "Холодильник LG выбивает автомат",
+            "sign": "Срабатывает защита сети при включении",
+            "causes": "Короткое замыкание внутренних электрических компонентов",
+            "slugs": [
+                "lg-compressor-short-circuit",
+                "lg-heater-short-circuit",
+                "lg-noise-filter-burnt",
+                "lg-main-board-failure"
+            ]
+        },
+
+        {
+            "slug": "lg-linear-compressor-failure",
+            "title": "Неисправность линейного компрессора LG",
+            "sign": "Холодильник не охлаждает или не запускается",
+            "causes": "Износ линейного механизма, перегрев обмотки или потеря производительности компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "lg-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике LG",
+            "sign": "Недостаточное охлаждение и длительная работа двигателя",
+            "causes": "Разгерметизация трубопровода или микроповреждение контура",
+            "slugs": []
+        },
+        {
+            "slug": "lg-capillary-tube-restriction",
+            "title": "Засор капиллярной трубки LG",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка капилляра влагой или продуктами износа системы",
+            "slugs": []
+        },
+        {
+            "slug": "lg-evaporator-fan-malfunction",
+            "title": "Неисправность вентилятора испарителя LG",
+            "sign": "В морозильной камере холод есть, в холодильной — отсутствует",
+            "causes": "Поломка двигателя вентилятора или обрыв питающей цепи",
+            "slugs": []
+        },
+        {
+            "slug": "lg-main-board-failure",
+            "title": "Сбой основной платы управления LG",
+            "sign": "Холодильник работает нестабильно или не реагирует на команды",
+            "causes": "Повреждение электронных компонентов или сбой микропроцессора",
+            "slugs": []
+        },
+        {
+            "slug": "lg-defrost-heater-defect",
+            "title": "Неисправность нагревателя оттайки LG",
+            "sign": "На испарителе образуется лёд",
+            "causes": "Перегорание ТЭНа или нарушение цепи питания нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "lg-thermistor-failure",
+            "title": "Поломка термистора LG",
+            "sign": "Температура поддерживается некорректно",
+            "causes": "Неверные показания датчика температуры или обрыв контактов",
+            "slugs": []
+        },
+        {
+            "slug": "lg-door-gasket-worn",
+            "title": "Износ уплотнителя двери LG",
+            "sign": "Появляется конденсат и холодильник работает дольше обычного",
+            "causes": "Потеря эластичности резины или деформация уплотнительной ленты",
+            "slugs": []
+        },
+        {
+            "slug": "lg-power-cord-damage",
+            "title": "Повреждение сетевого кабеля LG",
+            "sign": "Холодильник не включается",
+            "causes": "Перелом провода, окисление контактов или механическое повреждение шнура",
+            "slugs": []
+        },
+        {
+            "slug": "lg-start-relay-defect",
+            "title": "Неисправность пускового реле LG",
+            "sign": "Компрессор щёлкает, но не запускается",
+            "causes": "Выход из строя реле запуска или его контактов",
+            "slugs": []
+        },
+        {
+            "slug": "lg-drain-hole-clogged",
+            "title": "Засор дренажного отверстия LG",
+            "sign": "Вода скапливается внутри холодильной камеры",
+            "causes": "Закупорка канала отвода конденсата пищевыми остатками",
+            "slugs": []
+        },
+        {
+            "slug": "lg-drain-line-frozen",
+            "title": "Обмерзание дренажной линии LG",
+            "sign": "Вода не уходит и образуется наледь",
+            "causes": "Замерзание конденсата в сливной трубке",
+            "slugs": []
+        },
+        {
+            "slug": "lg-drip-pan-cracked",
+            "title": "Трещина поддона конденсата LG",
+            "sign": "Под холодильником появляется вода",
+            "causes": "Повреждение или деформация ёмкости для сбора влаги",
+            "slugs": []
+        },
+        {
+            "slug": "lg-defrost-sensor-failure",
+            "title": "Неисправность датчика оттайки LG",
+            "sign": "Система разморозки не запускается вовремя",
+            "causes": "Поломка температурного сенсора или потеря сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "lg-linear-compressor-wear",
+            "title": "Износ линейного компрессора LG",
+            "sign": "Повышенный шум и вибрация во время работы",
+            "causes": "Механический износ подвижных элементов компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "lg-condenser-fan-failure",
+            "title": "Неисправность вентилятора конденсатора LG",
+            "sign": "Перегрев задней части холодильника",
+            "causes": "Поломка двигателя вентилятора или блокировка крыльчатки",
+            "slugs": []
+        },
+        {
+            "slug": "lg-defrost-control-failure",
+            "title": "Сбой управления системой оттайки LG",
+            "sign": "Оттайка не происходит автоматически",
+            "causes": "Неисправность электронного модуля управления разморозкой",
+            "slugs": []
+        },
+        {
+            "slug": "lg-led-lamp-failure",
+            "title": "Неисправность LED-подсветки LG",
+            "sign": "Внутреннее освещение не работает",
+            "causes": "Выход из строя светодиодного модуля или драйвера питания",
+            "slugs": []
+        },
+        {
+            "slug": "lg-door-switch-defect",
+            "title": "Неисправность дверного выключателя LG",
+            "sign": "Подсветка не включается при открытии двери",
+            "causes": "Поломка кнопочного механизма или залипание контактов",
+            "slugs": []
+        },
+        {
+            "slug": "lg-mold-inside-fridge",
+            "title": "Образование плесени внутри холодильника LG",
+            "sign": "Появляются тёмные пятна и неприятный запах",
+            "causes": "Повышенная влажность и отсутствие регулярной очистки",
+            "slugs": []
+        },
+        {
+            "slug": "lg-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов в LG",
+            "sign": "Стойкий неприятный запах внутри камеры",
+            "causes": "Разложение пищевых остатков в скрытых зонах холодильника",
+            "slugs": []
+        },
+        {
+            "slug": "lg-air-damper-stuck",
+            "title": "Заклинивание воздушной заслонки LG",
+            "sign": "Часть холодильной камеры перемораживает продукты",
+            "causes": "Механическая блокировка заслонки или неисправность привода",
+            "slugs": []
+        },
+        {
+            "slug": "lg-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора LG",
+            "sign": "Автомат защиты срабатывает при запуске",
+            "causes": "Пробой изоляции обмоток двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "lg-heater-short-circuit",
+            "title": "Пробой нагревателя оттайки LG",
+            "sign": "Выбивает автомат во время цикла разморозки",
+            "causes": "Повреждение ТЭНа и утечка тока на корпус",
+            "slugs": []
+        },
+        {
+            "slug": "lg-noise-filter-burnt",
+            "title": "Сгоревший сетевой фильтр LG",
+            "sign": "Холодильник не реагирует на включение",
+            "causes": "Перепад напряжения или перегрев фильтра подавления помех",
+            "slugs": []
+        }
+    ]
+}

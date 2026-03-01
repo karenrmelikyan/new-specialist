@@ -1,0 +1,406 @@
+{
+    "indexPageTitle": "Candy սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Candy սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/candy/",
+
+    "items": [
+        {
+            "slug": "candy-dishwasher-not-turning-on",
+            "title": "Candy սպասք լվացող մեքենան չի միանում",
+            "sign": "Սարքը ընդհանրապես չի արձագանքում միացման կոճակին։",
+            "causes": "Էլեկտրամատակարարման բացակայություն կամ էլեկտրոնային համակարգի խափանում։",
+            "slugs": [
+                "candy-power-cord-damage",
+                "candy-noise-filter-failure",
+                "candy-main-control-board-defect",
+                "candy-power-button-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-draining",
+            "title": "Candy սպասք լվացող մեքենան չի ջրահեռացնում",
+            "sign": "Ծրագրի ավարտից հետո ջուրը մնում է խցիկի ներսում։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ պոմպի անսարքություն։",
+            "slugs": [
+                "candy-drain-pump-failure",
+                "candy-drain-hose-blockage",
+                "candy-drain-filter-clog",
+                "candy-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-filling-water",
+            "title": "Candy սպասք լվացող մեքենան չի լցվում ջրով",
+            "sign": "Ցիկլը սկսվում է առանց ջրի մատակարարման։",
+            "causes": "Չի աշխատում մուտքային փականը կամ ջրի մակարդակի վերահսկման համակարգը։",
+            "slugs": [
+                "candy-inlet-valve-defect",
+                "candy-aquastop-failure",
+                "candy-flow-meter-fault",
+                "candy-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-heating",
+            "title": "Candy սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Լվացումը կատարվում է սառը ջրով։",
+            "causes": "Տաքացուցիչի կամ ջերմաստիճանի տվիչի վնասում։",
+            "slugs": [
+                "candy-heating-element-failure",
+                "candy-ntc-sensor-fault",
+                "candy-heating-relay-defect",
+                "candy-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-drying",
+            "title": "Candy սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "causes": "Չորացման կամ տաքացման համակարգի խափանում։",
+            "slugs": [
+                "candy-heating-element-failure",
+                "candy-fan-dryer-fault",
+                "candy-ventilation-system-defect",
+                "candy-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-leaking",
+            "title": "Candy սպասք լվացող մեքենան հոսում է",
+            "sign": "Աշխատանքի ընթացքում մեքենայի տակ ջուր է հայտնվում։",
+            "causes": "Միացումների կամ խողովակների հերմետիկությունը խախտված է։",
+            "slugs": [
+                "candy-door-seal-damage",
+                "candy-hose-leak",
+                "candy-circulation-pump-seal-failure",
+                "candy-aquastop-activation"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-starting-cycle",
+            "title": "Candy սպասք լվացող մեքենան չի սկսում ծրագիրը",
+            "sign": "Ռեժիմը ընտրված է, բայց ցիկլը չի սկսվում։",
+            "causes": "Դռան փականի կամ կառավարման մոդուլի խնդիր։",
+            "slugs": [
+                "candy-door-lock-fault",
+                "candy-door-sensor-fault",
+                "candy-main-control-board-defect",
+                "candy-touch-panel-failure"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-making-noise",
+            "title": "Candy սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում են օտար ձայներ։",
+            "causes": "Պոմպի մաշվածություն կամ օտար առարկաների ներթափանցում։",
+            "slugs": [
+                "candy-circulation-pump-failure",
+                "candy-drain-pump-obstruction",
+                "candy-spray-arm-damage",
+                "candy-motor-bearing-wear"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-code",
+            "title": "Candy սպասք լվացող մեքենան ցուցադրում է սխալի կոդ",
+            "sign": "Ցուցադրման էկրանին երևում է անսարքության կոդ։",
+            "causes": "Ախտորոշման համակարգը ֆիքսում է հանգույցներից մեկի խափանումը։",
+            "slugs": [
+                "candy-water-level-sensor-fault",
+                "candy-heating-system-error",
+                "candy-drain-system-fault",
+                "candy-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-not-spraying-water",
+            "title": "Candy սպասք լվացող մեքենան չի ցողում ջուրը",
+            "sign": "Սպասքը մնում է կեղտոտ ցիկլից հետո։",
+            "causes": "Ջրի անբավարար ճնշում կամ ցողիչների խցանում։",
+            "slugs": [
+                "candy-circulation-pump-failure",
+                "candy-spray-arm-clog",
+                "candy-water-distribution-valve-fault",
+                "candy-filter-blockage"
+            ]
+        },
+        {
+            "slug": "candy-power-cord-damage",
+            "title": "Վնասված է Candy սնուցման մալուխը",
+            "sign": "Սարքի սնուցումը բացակայում է։",
+            "causes": "Լարի խզումը կամ մալուխի գերտաքացումը արգելափակում է գործարկումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-noise-filter-failure",
+            "title": "Candy ցանցային ֆիլտրի անսարքություն",
+            "sign": "Մեքենան չի արձագանքում միացմանը։",
+            "causes": "Խանգարումների ֆիլտրը դադարում է լարումը փոխանցել մոդուլին։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-main-control-board-defect",
+            "title": "Candy կառավարման մոդուլի անսարքություն",
+            "sign": "Ծրագրերը գործարկվում են սխալ կամ ընդհատվում են։",
+            "causes": "Վահանակի էլեկտրոնային բաղադրիչների վնասում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-power-button-fault",
+            "title": "Candy միացման կոճակը չի աշխատում",
+            "sign": "Սեղմելիս արձագանք չկա։",
+            "causes": "Կոնտակտային խմբի մաշվածությունը խաթարում է ազդանշանի փոխանցումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-pump-failure",
+            "title": "Candy ջրահեռացման պոմպի անսարքություն",
+            "sign": "Ջուրը մնում է խցիկում ցիկլից հետո։",
+            "causes": "Պոմպի շարժիչը չի ապահովում ջրի արտամղումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-hose-blockage",
+            "title": "Candy ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրի հեռացումը տեղի է ունենում դանդաղ։",
+            "causes": "Կեղտերի կուտակումը փակում է անցքը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-filter-clog",
+            "title": "Candy ջրահեռացման ֆիլտրի խցանում",
+            "sign": "Ջուրը ամբողջությամբ չի հեռացվում բաքից։",
+            "causes": "Սննդի մնացորդները խցանում են ֆիլտրող տարրը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-pressure-switch-fault",
+            "title": "Candy պրեսոստատի անսարքություն",
+            "sign": "Ջրի մակարդակի վերահսկումը կատարվում է սխալ։",
+            "causes": "Տվիչը սխալ տվյալներ է փոխանցում վահանակին։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-inlet-valve-defect",
+            "title": "Candy մուտքային փականի անսարքություն",
+            "sign": "Ջուրը չի մուտք գործում աշխատանքային խցիկ։",
+            "causes": "Էլեկտրամագնիսական մեխանիզմը չի բացում մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-aquastop-failure",
+            "title": "Candy AquaStop համակարգի խափանում",
+            "sign": "Ջրի մատակարարումը արգելափակվում է պաշտպանությամբ։",
+            "causes": "Արտահոսքի տվիչը ակտիվացնում է վթարային փակումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-flow-meter-fault",
+            "title": "Candy ջրի հոսքաչափի անսարքություն",
+            "sign": "Խախտված է ջրի հավաքման ծավալի վերահսկումը։",
+            "causes": "Տվիչի իմպուլսները չեն հասնում կառավարման մոդուլին։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-element-failure",
+            "title": "Candy տաքացուցիչի անսարքություն",
+            "sign": "Լվացման ընթացքում ջուրը մնում է սառը։",
+            "causes": "ՏԵՆ-ի պարույրի խզում կամ այրում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ntc-sensor-fault",
+            "title": "Candy ջերմաստիճանի տվիչի սխալ",
+            "sign": "Ջրի ջերմաստիճանը որոշվում է սխալ։",
+            "causes": "Սենսորը փոխանցում է աղավաղված ցուցումներ։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-relay-defect",
+            "title": "Candy տաքացման ռելեի անսարքություն",
+            "sign": "Տաքացուցիչը չի ստանում սնուցում։",
+            "causes": "Ռելեի կոնտակտները չեն փակում էլեկտրական շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-fan-dryer-fault",
+            "title": "Candy չորացման օդափոխիչի անսարքություն",
+            "sign": "Տաք օդի շրջանառություն չկա։",
+            "causes": "Օդափոխիչի շարժիչը չի գործարկվում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ventilation-system-defect",
+            "title": "Candy օդափոխության համակարգի խափանում",
+            "sign": "Խոնավությունը չի հեռացվում ցիկլից հետո։",
+            "causes": "Խցիկի ներսում օդի շրջանառությունը խախտված է։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-seal-damage",
+            "title": "Վնասված է Candy դռան խցանը",
+            "sign": "Ջուրը արտահոսում է պարագծով։",
+            "causes": "Ռետինե եզրի մաշվածությունը խախտում է հերմետիկությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-hose-leak",
+            "title": "Candy խողովակի արտահոսք",
+            "sign": "Մեքենայի կորպուսի տակ ջուր է հայտնաբերվում։",
+            "causes": "Ճաքը կամ թուլացած միացումը առաջացնում է արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-pump-seal-failure",
+            "title": "Candy շրջանառության պոմպի խցանի վնասում",
+            "sign": "Պոմպի հատվածում ջրի արտահոսք կա։",
+            "causes": "Սալնիկի մաշվածությունը բերում է ապահերմետիկացման։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-aquastop-activation",
+            "title": "Candy AquaStop պաշտպանության ակտիվացում",
+            "sign": "Մեքենան դադարեցնում է ջրի հավաքումը։",
+            "causes": "Արտահոսքի տվիչը համակարգը տեղափոխում է վթարային ռեժիմ։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-lock-fault",
+            "title": "Candy դռան փականի անսարքություն",
+            "sign": "Դուռը չի ֆիքսվում գործարկումից առաջ։",
+            "causes": "Արգելափակման մեխանիզմը չի ապահովում փակումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-sensor-fault",
+            "title": "Candy դռան տվիչի սխալ",
+            "sign": "Համակարգը չի որոշում դռան դիրքը։",
+            "causes": "Անվտանգության վերահսկումը արգելափակում է ծրագրի մեկնարկը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-touch-panel-failure",
+            "title": "Candy սենսորային վահանակի անսարքություն",
+            "sign": "Կոճակները չեն արձագանքում սեղմելուն։",
+            "causes": "Վահանակի կոնտակտային մատրիցայի վնասում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-pump-failure",
+            "title": "Candy շրջանառության պոմպի անսարքություն",
+            "sign": "Ջուրը չի մատակարարվում ցողիչներին։",
+            "causes": "Շարժիչը չի ստեղծում անհրաժեշտ ճնշում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-pump-obstruction",
+            "title": "Candy ջրահեռացման պոմպի խցանում",
+            "sign": "Լսվում է բզզոց առանց ջրի հեռացման։",
+            "causes": "Օտար առարկան խանգարում է թևիկի պտտմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-spray-arm-damage",
+            "title": "Candy ցողիչի վնասում",
+            "sign": "Ցողիչը չի պտտվում ցիկլի ընթացքում։",
+            "causes": "Դեֆորմացիան խոչընդոտում է ջրի նորմալ մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-motor-bearing-wear",
+            "title": "Candy շարժիչի առանցքակալների մաշվածություն",
+            "sign": "Առաջանում է բզզոց և թրթռում։",
+            "causes": "Մեխանիկական մաշվածությունը նվազեցնում է պտտման կայունությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-water-level-sensor-fault",
+            "title": "Candy ջրի մակարդակի տվիչի սխալ",
+            "sign": "Գերլցում կամ անբավարար ջրի հավաքում։",
+            "causes": "Տվիչը սխալ է վերահսկում մակարդակը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-system-error",
+            "title": "Candy տաքացման համակարգի խափանում",
+            "sign": "Ջրի ջերմաստիճանը չի համապատասխանում ընտրված ծրագրին։",
+            "causes": "Տաքացման շղթայի տարրերի աշխատանքը խախտված է։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-system-fault",
+            "title": "Candy ջրահեռացման համակարգի անսարքություն",
+            "sign": "Ջուրը ամբողջությամբ չի հեռացվում։",
+            "causes": "Պոմպի և տվիչների փոխգործակցության խափանում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-electronic-module-failure",
+            "title": "Candy էլեկտրոնային բլոկի խափանում",
+            "sign": "Ցուցադրվում են սխալներ կամ ռեժիմները խախտվում են։",
+            "causes": "Կառավարման շղթաների վնասում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-spray-arm-clog",
+            "title": "Candy ցողիչի խցանում",
+            "sign": "Ցողիչի անցքերը փակված են։",
+            "causes": "Նստվածքը և սննդի մնացորդները խցանում են անցքերը։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-water-distribution-valve-fault",
+            "title": "Candy ջրի բաշխման փականի անսարքություն",
+            "sign": "Ջրի հոսքերը բաշխվում են սխալ։",
+            "causes": "Փոխարկման մեխանիզմը չի գործում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-filter-blockage",
+            "title": "Candy ֆիլտրացիոն համակարգի խցանում",
+            "sign": "Խցիկի ներսում ջրի ճնշումը նվազում է։",
+            "causes": "Ֆիլտրող տարրերը աղտոտված են։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-hinge-damage",
+            "title": "Candy դռան ծխնիների վնասում",
+            "sign": "Դուռը փակվում է թեքությամբ։",
+            "causes": "Շարժական մեխանիզմի մաշվածություն։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-door-latch-defect",
+            "title": "Candy դռան փականի կեռիկի անսարքություն",
+            "sign": "Դռան ֆիքսացիան անկայուն է։",
+            "causes": "Ֆիքսող տարրի մեխանիկական մաշվածություն։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-element-short-circuit",
+            "title": "Candy տաքացուցիչի կարճ միացում",
+            "sign": "Միացնելիս գործարկվում է պաշտպանիչ ավտոմատը։",
+            "causes": "ՏԵՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-pump-short-circuit",
+            "title": "Candy շրջանառության պոմպի կարճ միացում",
+            "sign": "Ծրագրի մեկնարկին էլեկտրացանցը գերբեռնվում է։",
+            "causes": "Շարժիչի փաթաթումը առաջացնում է կարճ միացում։",
+            "slugs": []
+        },
+        {
+            "slug": "candy-power-module-failure",
+            "title": "Candy հզորության մոդուլի անսարքություն",
+            "sign": "Մեքենան անջատվում է աշխատանքի ընթացքում։",
+            "causes": "Հզորության վահանակի տարրերի վնասում։",
+            "slugs": []
+        }
+
+    ]
+}

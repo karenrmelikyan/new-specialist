@@ -1,0 +1,397 @@
+{
+    "indexPageTitle": "Gorenje սառնարանների վերանորոգում",
+    "title": "Gorenje սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/gorenje/errors/",
+
+    "items": [
+        {
+            "slug": "gorenje-fridge-error-e1",
+            "title": "Ошибка E1 датчика температуры холодильной камеры холодильника Gorenje",
+            "sign": "Основное отделение охлаждается неравномерно или перегревается",
+            "causes": "Контроллер получает некорректные показания от сенсорного элемента холодильного отсека",
+            "slugs": [
+                "gorenje-fridge-fridge-temp-sensor-failure",
+                "gorenje-fridge-sensor-contact-damage",
+                "gorenje-fridge-control-board-input-error"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e2",
+            "title": "Ошибка E2 датчика температуры морозильной камеры холодильника Gorenje",
+            "sign": "Морозильный отсек не удерживает установленную температуру",
+            "causes": "Система фиксирует искажение сигнала от температурного измерителя морозильного отделения",
+            "slugs": [
+                "gorenje-fridge-freezer-temp-sensor-defect",
+                "gorenje-fridge-sensor-circuit-interruption",
+                "gorenje-fridge-electronic-module-malfunction"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e3",
+            "title": "Ошибка E3 датчика испарителя холодильника Gorenje",
+            "sign": "Процесс автоматической разморозки проходит с отклонениями",
+            "causes": "Датчик испарительного узла передаёт недостоверные данные о температуре",
+            "slugs": [
+                "gorenje-fridge-evaporator-sensor-fault",
+                "gorenje-fridge-frost-accumulation",
+                "gorenje-fridge-connector-corrosion"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e4",
+            "title": "Ошибка E4 нагревателя оттайки холодильника Gorenje",
+            "sign": "На внутренних поверхностях образуется плотный слой льда",
+            "causes": "Нагревательный компонент системы оттаивания не активируется либо утратил работоспособность",
+            "slugs": [
+                "gorenje-fridge-defrost-heater-failure",
+                "gorenje-fridge-thermal-protection-trip",
+                "gorenje-fridge-relay-switch-defect"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e5",
+            "title": "Ошибка E5 вентилятора циркуляции холодильника Gorenje",
+            "sign": "Холодный поток распределяется слабо или отсутствует",
+            "causes": "Двигатель вентиляционного механизма не развивает необходимую скорость вращения",
+            "slugs": [
+                "gorenje-fridge-fan-motor-wear",
+                "gorenje-fridge-air-channel-obstruction",
+                "gorenje-fridge-power-supply-fluctuation"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e6",
+            "title": "Ошибка E6 заслонки воздушного канала холодильника Gorenje",
+            "sign": "Температурный режим между камерами отличается от заданного",
+            "causes": "Привод регулирующей заслонки заклинивает или теряет позиционирование",
+            "slugs": [
+                "gorenje-fridge-damper-motor-jam",
+                "gorenje-fridge-airflow-control-disruption",
+                "gorenje-fridge-position-sensor-offset"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e7",
+            "title": "Ошибка E7 компрессора холодильника Gorenje",
+            "sign": "Агрегат не запускается либо работает с периодическими остановками",
+            "causes": "Электронная защита фиксирует перегрузку или неисправность пусковой цепи",
+            "slugs": [
+                "gorenje-fridge-compressor-start-relay-failure",
+                "gorenje-fridge-overheat-protection-activated",
+                "gorenje-fridge-inverter-board-defect"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e8",
+            "title": "Ошибка E8 датчика окружающей температуры холодильника Gorenje",
+            "sign": "Прибор неправильно реагирует на изменения внешних условий",
+            "causes": "Сенсор внешней среды передаёт некорректные климатические показатели",
+            "slugs": [
+                "gorenje-fridge-ambient-sensor-damage",
+                "gorenje-fridge-signal-distortion",
+                "gorenje-fridge-calibration-parameter-loss"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e9",
+            "title": "Ошибка E9 связи электронных модулей холодильника Gorenje",
+            "sign": "Панель управления отображает сбой или зависает",
+            "causes": "Нарушена передача данных между управляющими платами",
+            "slugs": [
+                "gorenje-fridge-main-board-communication-failure",
+                "gorenje-fridge-internal-bus-interruption",
+                "gorenje-fridge-firmware-data-corruption"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-ec",
+            "title": "Ошибка EC холодильного контура холодильника Gorenje",
+            "sign": "Устройство не достигает установленной степени охлаждения",
+            "causes": "Недостаточная циркуляция хладагента либо снижение эффективности компрессорного блока",
+            "slugs": [
+                "gorenje-fridge-refrigerant-shortage",
+                "gorenje-fridge-capillary-system-blockage",
+                "gorenje-fridge-compressor-performance-drop"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-ef",
+            "title": "Ошибка EF системы оттайки холодильника Gorenje",
+            "sign": "На испарителе образуется избыточный иней",
+            "causes": "Нарушение алгоритма размораживания или отказ датчиков контроля",
+            "slugs": [
+                "gorenje-fridge-defrost-timer-failure",
+                "gorenje-fridge-evaporator-thermistor-error",
+                "gorenje-fridge-drain-channel-freeze"
+            ]
+        },
+        {
+            "slug": "gorenje-fridge-error-e0",
+            "title": "Ошибка E0 питания холодильника Gorenje",
+            "sign": "Прибор не включается или самопроизвольно отключается",
+            "causes": "Нестабильность сетевого напряжения либо повреждение внутренних цепей питания",
+            "slugs": [
+                "gorenje-fridge-power-cord-damage",
+                "gorenje-fridge-voltage-fluctuation",
+                "gorenje-fridge-power-supply-board-fault"
+            ]
+        },
+
+        {
+            "slug": "gorenje-fridge-fridge-temp-sensor-failure",
+            "title": "Неисправность датчика температуры холодильной камеры Gorenje",
+            "sign": "Основной отсек охлаждается нестабильно",
+            "causes": "Термистор передаёт искажённые показатели из-за внутреннего повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-sensor-contact-damage",
+            "title": "Повреждение контактов датчика Gorenje",
+            "sign": "Температурные значения отображаются некорректно",
+            "causes": "Окисление либо ослабление соединений нарушает передачу сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-control-board-input-error",
+            "title": "Сбой входного канала платы управления Gorenje",
+            "sign": "Система обрабатывает данные с ошибками",
+            "causes": "Неисправность электронных компонентов препятствует корректному приёму сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-freezer-temp-sensor-defect",
+            "title": "Дефект датчика температуры морозильной камеры Gorenje",
+            "sign": "Заморозка работает нестабильно",
+            "causes": "Измерительный элемент утратил точность из-за деградации чувствительного слоя",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-sensor-circuit-interruption",
+            "title": "Обрыв цепи датчика Gorenje",
+            "sign": "Контроллер не получает температурные данные",
+            "causes": "Повреждение проводника разрывает электрическую цепь",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-electronic-module-malfunction",
+            "title": "Неисправность электронного модуля Gorenje",
+            "sign": "Устройство функционирует непредсказуемо",
+            "causes": "Выход из строя микросхем нарушает алгоритмы управления",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-evaporator-sensor-fault",
+            "title": "Сбой датчика испарителя Gorenje",
+            "sign": "Размораживание запускается некорректно",
+            "causes": "Термистор испарительного блока передаёт ошибочные параметры",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-frost-accumulation",
+            "title": "Чрезмерное образование наледи Gorenje",
+            "sign": "На испарителе появляется плотный слой льда",
+            "causes": "Нарушение теплообмена способствует кристаллизации влаги",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-connector-corrosion",
+            "title": "Коррозия разъёмов Gorenje",
+            "sign": "Работа узлов становится нестабильной",
+            "causes": "Влага вызывает окисление контактных поверхностей",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-defrost-heater-failure",
+            "title": "Поломка нагревателя оттайки Gorenje",
+            "sign": "Лёд не удаляется автоматически",
+            "causes": "Перегорание нагревательного элемента исключает плавление наледи",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-thermal-protection-trip",
+            "title": "Срабатывание термозащиты Gorenje",
+            "sign": "Система оттайки не активируется",
+            "causes": "Предохранительный элемент отключает питание при перегреве",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-relay-switch-defect",
+            "title": "Дефект коммутационного реле Gorenje",
+            "sign": "Нагреватель включается нерегулярно",
+            "causes": "Износ контактов препятствует стабильному переключению",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-fan-motor-wear",
+            "title": "Износ двигателя вентилятора Gorenje",
+            "sign": "Циркуляция воздуха ослаблена",
+            "causes": "Выработка подшипников снижает эффективность вращения",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-air-channel-obstruction",
+            "title": "Перекрытие воздушного канала Gorenje",
+            "sign": "Температура распределяется неравномерно",
+            "causes": "Лёд либо посторонние предметы блокируют проход воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-power-supply-fluctuation",
+            "title": "Нестабильность электропитания Gorenje",
+            "sign": "Прибор отключается самопроизвольно",
+            "causes": "Перепады напряжения нарушают работу электронных узлов",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-damper-motor-jam",
+            "title": "Заклинивание привода заслонки Gorenje",
+            "sign": "Баланс температуры между камерами нарушен",
+            "causes": "Механическая блокировка препятствует перемещению клапана",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-airflow-control-disruption",
+            "title": "Нарушение регулировки воздушного потока Gorenje",
+            "sign": "Охлаждение распределяется некорректно",
+            "causes": "Сбой механизма управления изменяет направление циркуляции",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-position-sensor-offset",
+            "title": "Смещение датчика положения заслонки Gorenje",
+            "sign": "Контроллер фиксирует неверную позицию механизма",
+            "causes": "Разбалансировка либо неправильная установка искажает показания",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-compressor-start-relay-failure",
+            "title": "Неисправность пускового реле компрессора Gorenje",
+            "sign": "Компрессор не запускается",
+            "causes": "Повреждение контактов реле препятствует подаче стартового импульса",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-overheat-protection-activated",
+            "title": "Активация защиты от перегрева Gorenje",
+            "sign": "Компрессор отключается во время работы",
+            "causes": "Повышенная температура двигателя запускает защитный механизм",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-inverter-board-defect",
+            "title": "Неисправность инверторной платы Gorenje",
+            "sign": "Обороты компрессора регулируются нестабильно",
+            "causes": "Выход из строя силовых транзисторов нарушает управление частотой",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-ambient-sensor-damage",
+            "title": "Повреждение датчика окружающей температуры Gorenje",
+            "sign": "Прибор неправильно реагирует на внешние условия",
+            "causes": "Сенсор передаёт некорректные климатические параметры",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-signal-distortion",
+            "title": "Искажение сигнала в системе Gorenje",
+            "sign": "Отображаются случайные ошибки",
+            "causes": "Электромагнитные помехи нарушают передачу данных",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-calibration-parameter-loss",
+            "title": "Сброс калибровочных параметров Gorenje",
+            "sign": "Рабочие режимы функционируют некорректно",
+            "causes": "Сбой памяти удаляет сохранённые настройки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-main-board-communication-failure",
+            "title": "Сбой связи основной платы Gorenje",
+            "sign": "Панель управления зависает",
+            "causes": "Нарушение обмена данными между модулями",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-internal-bus-interruption",
+            "title": "Прерывание внутренней шины данных Gorenje",
+            "sign": "Система отображает ошибку коммуникации",
+            "causes": "Разрыв линии передачи сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-firmware-data-corruption",
+            "title": "Повреждение прошивки Gorenje",
+            "sign": "Программное обеспечение работает нестабильно",
+            "causes": "Ошибка обновления либо сбой памяти нарушает выполнение кода",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-refrigerant-shortage",
+            "title": "Недостаток хладагента Gorenje",
+            "sign": "Охлаждение существенно ослаблено",
+            "causes": "Разгерметизация контура снижает давление",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-capillary-system-blockage",
+            "title": "Закупорка капиллярной системы Gorenje",
+            "sign": "Температура не достигает установленного значения",
+            "causes": "Загрязнения препятствуют циркуляции хладагента",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-compressor-performance-drop",
+            "title": "Снижение производительности компрессора Gorenje",
+            "sign": "Агрегат работает без достижения нужного режима",
+            "causes": "Механический износ уменьшает эффективность сжатия",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-defrost-timer-failure",
+            "title": "Неисправность таймера оттайки Gorenje",
+            "sign": "Цикл размораживания не запускается вовремя",
+            "causes": "Сбой таймера нарушает периодичность включения нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-evaporator-thermistor-error",
+            "title": "Ошибка термистора испарителя Gorenje",
+            "sign": "Контроль температуры испарителя выполняется некорректно",
+            "causes": "Изменение сопротивления термистора искажает показания",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-drain-channel-freeze",
+            "title": "Замерзание дренажного канала Gorenje",
+            "sign": "Влага скапливается внутри камеры",
+            "causes": "Обледенение перекрывает отвод талой воды",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-power-cord-damage",
+            "title": "Повреждение сетевого кабеля Gorenje",
+            "sign": "Прибор не включается",
+            "causes": "Разрыв проводника нарушает подачу питания",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-voltage-fluctuation",
+            "title": "Перепады напряжения Gorenje",
+            "sign": "Устройство отключается во время работы",
+            "causes": "Нестабильная электросеть вызывает сбои электроники",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fridge-power-supply-board-fault",
+            "title": "Неисправность платы питания Gorenje",
+            "sign": "Система не запускается",
+            "causes": "Выход из строя элементов блока питания нарушает распределение энергии",
+            "slugs": []
+        }
+    ]
+}

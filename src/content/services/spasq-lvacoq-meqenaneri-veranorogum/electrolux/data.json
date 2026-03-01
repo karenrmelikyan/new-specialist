@@ -1,0 +1,291 @@
+{
+    "indexPageTitle": "Electrolux սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Electrolux սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/electrolux/",
+
+    "items": [
+        {
+            "slug": "electrolux-dishwasher-not-turning-on",
+            "title": "Electrolux սպասք լվացող մեքենան չի միանում",
+            "sign": "Բացակայում է ցուցադրումը և արձագանքը մեկնարկի կոճակին։",
+            "causes": "Էլեկտրամատակարարման շղթայի խափանում կամ էլեկտրոնային մոդուլի սխալ։",
+            "slugs": [
+                "electrolux-power-supply-failure",
+                "electrolux-control-board-fault",
+                "electrolux-noise-filter-burnt",
+                "electrolux-power-button-defect"
+            ]
+        },
+        {
+            "slug": "electrolux-error-i30",
+            "title": "i30 սխալը Electrolux սպասք լվացող մեքենայում",
+            "sign": "Ցուցադրման էկրանին երևում է i30 կոդը, անընդհատ աշխատում է ջրահեռացումը։",
+            "causes": "Արտահոսքից պաշտպանության համակարգի ակտիվացում։",
+            "slugs": [
+                "electrolux-leak-sensor-activated",
+                "electrolux-base-pan-water",
+                "electrolux-circulation-pump-leak",
+                "electrolux-hose-seal-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-error-i20",
+            "title": "i20 սխալը Electrolux սպասք լվացող մեքենայում",
+            "sign": "Ծրագիրը կանգ է առնում, և ջուրը չի հեռացվում։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ դրենաժային պոմպի անսարքություն։",
+            "slugs": [
+                "electrolux-drain-pump-blockage",
+                "electrolux-drain-hose-obstruction",
+                "electrolux-filter-system-clog",
+                "electrolux-drain-impeller-damage"
+            ]
+        },
+        {
+            "slug": "electrolux-error-i60",
+            "title": "i60 սխալը Electrolux սպասք լվացող մեքենայում",
+            "sign": "Լվացման ցիկլը անցնում է առանց ջրի տաքացման։",
+            "causes": "Հոսքային տաքացուցիչի կամ ջերմաստիճանի տվիչի անսարքություն։",
+            "slugs": [
+                "electrolux-heater-failure",
+                "electrolux-ntc-sensor-error",
+                "electrolux-heater-relay-fault",
+                "electrolux-control-board-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-not-taking-water",
+            "title": "Electrolux սպասք լվացող մեքենան ջուր չի լցվում",
+            "sign": "Մեկնարկից հետո բացակայում է ջրի լցման բնորոշ ձայնը։",
+            "causes": "Մուտքային փականի կամ մակարդակի տվիչի անսարքություն։",
+            "slugs": [
+                "electrolux-inlet-valve-failure",
+                "electrolux-pressure-sensor-malfunction",
+                "electrolux-aquastop-hose-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-not-draining",
+            "title": "Electrolux սպասք լվացող մեքենան չի ջրահեռացնում",
+            "sign": "Ծրագրի ավարտից հետո խցիկում մնում է ջուր։",
+            "causes": "Ջրահեռացման ուղու խցանում կամ պոմպի խափանում։",
+            "slugs": [
+                "electrolux-drain-pump-blockage",
+                "electrolux-drain-impeller-damage",
+                "electrolux-drain-hose-obstruction"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-poor-drying",
+            "title": "Electrolux սպասք լվացող մեքենան վատ է չորացնում սպասքը",
+            "sign": "Ցիկլի ավարտից հետո մնում են ջրի կաթիլներ։",
+            "causes": "AirDry համակարգի խափանում կամ անբավարար տաքացում։",
+            "slugs": [
+                "electrolux-airdry-mechanism-failure",
+                "electrolux-heater-failure",
+                "electrolux-fan-motor-defect"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-poor-wash",
+            "title": "Electrolux սպասք լվացող մեքենան վատ է լվանում սպասքը",
+            "sign": "Ափսեների վրա մնում են կեղտ և նստվածք։",
+            "causes": "Ցիրкуляցիայի ճնշման նվազում կամ ցողիչների խցանում։",
+            "slugs": [
+                "electrolux-circulation-pump-weak",
+                "electrolux-spray-arm-clogged",
+                "electrolux-turbidity-sensor-error",
+                "electrolux-detergent-dispenser-stuck"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-stops-mid-cycle",
+            "title": "Electrolux սպասք լվացող մեքենան կանգ է առնում ծրագրի ընթացքում",
+            "sign": "Լվացման գործընթացը ընդհատվում է առանց ավարտի։",
+            "causes": "Գերտաքացում, տվիչների սխալ կամ կառավարման պլատայի խափանում։",
+            "slugs": [
+                "electrolux-overheat-protection",
+                "electrolux-ntc-sensor-error",
+                "electrolux-control-board-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-leaking",
+            "title": "Electrolux սպասք լվացող մեքենայի արտահոսք",
+            "sign": "Կորպուսի տակ հայտնվում է ջուր։",
+            "causes": "Կնքիչների, խողովակների կամ պոմպի կորպուսի վնասում։",
+            "slugs": [
+                "electrolux-hose-seal-damage",
+                "electrolux-circulation-pump-leak",
+                "electrolux-door-gasket-wear"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-noisy-operation",
+            "title": "Electrolux սպասք լվացող մեքենան աղմկում է աշխատանքի ընթացքում",
+            "sign": "Լսվում է բզզոց, թրթռում կամ օտար ձայներ։",
+            "causes": "Ցիրкуляցիոն պոմպի մաշվածություն կամ օտար առարկաների ներթափանցում։",
+            "slugs": [
+                "electrolux-circulation-pump-bearing-worn",
+                "electrolux-drain-impeller-damage",
+                "electrolux-spray-arm-imbalance"
+            ]
+        },
+        {
+            "slug": "electrolux-dishwasher-door-lock-issue",
+            "title": "Electrolux սպասք լվացող մեքենայի դռան փականի անսարքություն",
+            "sign": "Մեքենան չի գործարկվում փակ դռնով։",
+            "causes": "Արգելափակման մեխանիզմի կամ միկրոանջատիչի խափանում։",
+            "slugs": [
+                "electrolux-door-lock-defect",
+                "electrolux-door-switch-error",
+                "electrolux-hinge-misalignment"
+            ]
+        },
+
+        {
+            "slug": "electrolux-power-supply-failure",
+            "title": "Electrolux էլեկտրամատակարարման շղթայի անսարքություն",
+            "sign": "Electrolux սպասք լվացող մեքենան ամբողջությամբ հոսանքազրկված է և չի արձագանքում միացման կոճակին",
+            "causes": "Էլեկտրական լարի, կլեմային խմբի կամ կառավարման պլատայի սնուցման ներքին ուղիների վնասում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-control-board-fault",
+            "title": "Electrolux կառավարման մոդուլի խափանում",
+            "sign": "Electrolux-ի ցուցադրումը աշխատում է անկայուն կամ ծրագրերի գործարկում չի կատարվում",
+            "causes": "Պրոցեսորի, պլատայի սնուցման տարրերի կամ վերահսկիչի որոնվածի վնասում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-noise-filter-burnt",
+            "title": "Electrolux ցանցային ֆիլտրի այրում",
+            "sign": "Լարման տատանումից հետո Electrolux սպասք լվացող մեքենան դադարել է միանալ",
+            "causes": "EMI ֆիլտրի կամ մուտքային շղթայի կոնդենսատորների խափանում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-leak-sensor-activated",
+            "title": "Electrolux արտահոսքի պաշտպանության համակարգը ակտիվացված է",
+            "sign": "Electrolux ջրահեռացման պոմպը աշխատում է անընդհատ, ցուցադրվում է i30 սխալը",
+            "causes": "Ջրի կուտակում տաշտակում և անվտանգության լողացող տվիչի գործարկում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-base-pan-water",
+            "title": "Electrolux կորպուսի հիմքում ջրի կուտակում",
+            "sign": "Electrolux ծրագիրը արգելափակվում է մինչև լվացման ցիկլի սկիզբը",
+            "causes": "Պատառաքաղների, միացումների միկրոարտահոսք կամ հիդրոհանգույցի կորպուսի ճաք Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-pump-leak",
+            "title": "Electrolux ցիրкуляցիոն պոմպի արտահոսք",
+            "sign": "Electrolux սարքի տակ հայտնվում է խոնավություն և i30 սխալ",
+            "causes": "Կնքող օղակների մաշվածություն կամ պոմպի կորպուսի հերմետիկության խախտում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-pump-blockage",
+            "title": "Electrolux ջրահեռացման պոմպի խցանում",
+            "sign": "Electrolux խցիկում ջուրը մնում է, ցուցադրվում է i20 սխալը",
+            "causes": "Թևիկի արգելափակում սննդի մնացորդներով, ապակու կտորներով կամ ճարպային նստվածքներով Electrolux սպասք լվացող մեքենայում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-impeller-damage",
+            "title": "Electrolux դրենաժային պոմպի թևիկի վնասում",
+            "sign": "Electrolux սպասք լվացող մեքենայում ջրահեռացումը ուղեկցվում է բզզոցով առանց իրական արտամղման",
+            "causes": "Թևիկների մեխանիկական քայքայում կամ պոմպի ռոտորի խցանում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-filter-system-clog",
+            "title": "Electrolux ֆիլտրացիոն համակարգի խցանում",
+            "sign": "Electrolux խցիկում դանդաղ ջրահեռացում և տհաճ հոտի առաջացում",
+            "causes": "Կեղտի կուտակում բազմաստիճան ֆիլտրում և հիդրոալիքներում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heater-failure",
+            "title": "Electrolux հոսքային տաքացուցիչի անսարքություն",
+            "sign": "Electrolux ցիկլը անցնում է առանց տաքացման, ցուցադրվում է i60 սխալը",
+            "causes": "ՏԵՆ-ի պարույրի խզում կամ տաքացուցիչի կորպուսի վրա խափանում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-ntc-sensor-error",
+            "title": "Electrolux NTC ջերմաստիճանի տվիչի սխալ",
+            "sign": "Electrolux սպասք լվացող մեքենայում ջրի ջերմաստիճանը չի համապատասխանում ընտրված ծրագրին",
+            "causes": "Թերմիստորի շղթայի խզում կամ տվիչի սխալ դիմադրություն Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heater-relay-fault",
+            "title": "Electrolux տաքացման ռելեի անսարքություն",
+            "sign": "Electrolux տաքացուցիչը չի ակտիվանում աշխատունակ ՏԵՆ-ի դեպքում",
+            "causes": "Ռելեի կոնտակտների այրում կամ պլատայի հոսանքային ուղու վնասում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pressure-sensor-malfunction",
+            "title": "Electrolux պրեսոստատի խափանում",
+            "sign": "Electrolux սպասք լվացող մեքենան վաղաժամ դադարեցնում է ջրի լցումը",
+            "causes": "Ճնշման խցիկի խցանում կամ մակարդակի տվիչի անսարքություն Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-turbidity-sensor-error",
+            "title": "Electrolux պղտորության տվիչի անսարքություն",
+            "sign": "Electrolux ծրագրի տևողությունը փոփոխվում է անկանխատեսելիորեն",
+            "causes": "Օպտիկական սենսորի աղտոտում կամ մոդուլին ազդանշանի փոխանցման խափանում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-airdry-mechanism-failure",
+            "title": "Electrolux AirDry մեխանիզմի խափանում",
+            "sign": "Electrolux դռնակը չի բացվում ավտոմատ կերպով ցիկլի ավարտից հետո",
+            "causes": "Բացման շարժիչի անսարքություն կամ կառավարման ալգորիթմի սխալ Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-fan-motor-defect",
+            "title": "Electrolux չորացման օդափոխիչի անսարքություն",
+            "sign": "Electrolux սպասք լվացող մեքենայում սպասքը մնում է խոնավ՝ չնայած ծրագրի ավարտին",
+            "causes": "Օդափոխիչի շարժիչի մաշվածություն կամ թևիկի արգելափակում Electrolux սպասք լվացող մեքենայում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-pump-weak",
+            "title": "Electrolux ցիրкуляցիոն պոմպի արտադրողականության նվազում",
+            "sign": "Electrolux սպասք լվացող մեքենայում ջրի շիթերը թույլ են, լվացման որակը վատանում է",
+            "causes": "Առանցքակալների մաշվածություն, հիդրավլիկ ալիքի մասնակի խցանում կամ շարժիչի պտույտների նվազում Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-circulation-pump-bearing-worn",
+            "title": "Electrolux պոմպի առանցքակալների մաշվածություն",
+            "sign": "Electrolux աշխատանքի ընթացքում լսվում է բզզոց կամ թրթռում",
+            "causes": "Երկարատև շահագործում և պտտվող հանգույցի բնական մեխանիկական մաշվածություն Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-lock-defect",
+            "title": "Electrolux դռան փականի անսարքություն",
+            "sign": "Electrolux ծրագիրը չի գործարկվում փակ դռնով",
+            "causes": "Արգելափակման մեխանիզմի խափանում կամ միկրոանջատիչի անսարքություն Electrolux-ում",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-hose-seal-damage",
+            "title": "Electrolux խողովակների և կնքիչների վնասում",
+            "sign": "Electrolux միացումների հատվածում հայտնաբերվել է արտահոսք",
+            "causes": "Ռետինե միջադիրների հնացում կամ միացնող օղակների թուլացում Electrolux-ում",
+            "slugs": []
+        }
+
+    ]
+}

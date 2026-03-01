@@ -1,0 +1,365 @@
+{
+    "indexPageTitle": "Indesit սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Indesit սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/indesit/",
+
+    "items": [
+        {
+            "slug": "indesit-dishwasher-not-turning-on",
+            "title": "Indesit սպասք լվացող մեքենան չի միանում",
+            "sign": "Սնուցման կոճակը սեղմելուց հետո տեխնիկան ընդհանրապես չի արձագանքում։",
+            "causes": "Սնուցման բացակայություն, ցանցային ֆիլտրի խափանում կամ կառավարման մոդուլի խափանում։",
+            "slugs": [
+                "indesit-power-cord-damage",
+                "indesit-noise-filter-failure",
+                "indesit-main-control-board-defect",
+                "indesit-power-button-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-draining-water",
+            "title": "Indesit սպասք լվացող մեքենան չի ջրահեռացնում ջուրը",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է խցիկի հատակին։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ դրենաժային պոմպի շարքից դուրս գալ։",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-drain-hose-blockage",
+                "indesit-filter-clogged",
+                "indesit-pressure-switch-malfunction"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-filling-with-water",
+            "title": "Indesit սպասք լվացող մեքենան չի լցվում ջրով",
+            "sign": "Ծրագիրը մեկնարկում է, բայց ջուրը բաք չի մտնում։",
+            "causes": "Մուտքային փականի խափանում կամ AquaStop համակարգի խնդիրներ։",
+            "slugs": [
+                "indesit-water-inlet-valve-failure",
+                "indesit-aquastop-activated",
+                "indesit-flow-meter-error",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-leaking-water",
+            "title": "Indesit սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Սարքի տակ կամ կորպուսի շուրջը ջուր է հայտնվում։",
+            "causes": "Խտացուցիչների մաշվածություն, խողովակների վնասում կամ ներքին արտահոսքեր։",
+            "slugs": [
+                "indesit-door-seal-damage",
+                "indesit-hose-leak",
+                "indesit-circulation-pump-leak",
+                "indesit-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-heating-water",
+            "title": "Indesit սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Ցիկլը անցնում է սառը ջրով, սպասքը մնում է վատ լվացված։",
+            "causes": "ՏԷՆ-ի, ջերմաստիճանի սենսորի կամ կառավարման ռելեի փչացում։",
+            "slugs": [
+                "indesit-heating-element-burnt",
+                "indesit-ntc-sensor-fault",
+                "indesit-heater-relay-failure",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-drying-dishes",
+            "title": "Indesit սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո մնում են կաթիլներ և խոնավ մակերեսներ։",
+            "causes": "Չորացման համակարգի խափանում կամ ջրի անբավարար տաքացում։",
+            "slugs": [
+                "indesit-drying-fan-failure",
+                "indesit-heating-element-burnt",
+                "indesit-vent-blockage",
+                "indesit-ntc-sensor-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-stops-mid-cycle",
+            "title": "Indesit սպասք լվացող մեքենան կանգ է առնում աշխատանքի ընթացքում",
+            "sign": "Ծրագիրը ընդհատվում է մինչև ավարտը։",
+            "causes": "Գերտաքացում, ջրի մատակարարման խնդիրներ կամ էլեկտրոնիկայի խափանում։",
+            "slugs": [
+                "indesit-heating-element-overheat",
+                "indesit-water-inlet-valve-failure",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-making-noise",
+            "title": "Indesit սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում է գռմռոց, վիբրացիա կամ օտար ձայն։",
+            "causes": "Պոմպի մաշվածություն կամ օտար առարկաների попадание։",
+            "slugs": [
+                "indesit-circulation-pump-failure",
+                "indesit-drain-pump-failure",
+                "indesit-spray-arm-blocked"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-not-cleaning-properly",
+            "title": "Indesit սպասք լվացող մեքենան վատ է լվանում սպասքը",
+            "sign": "Թասերի/ափսեների վրա մնում են կեղտեր կամ հետքեր։",
+            "causes": "Ջրի անբավարար ճնշում, ֆիլտրի խցանում կամ պոմպի խափանում։",
+            "slugs": [
+                "indesit-spray-arm-clogged",
+                "indesit-circulation-pump-failure",
+                "indesit-filter-clogged",
+                "indesit-detergent-dispenser-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-error-code",
+            "title": "Indesit սպասք լվացող մեքենան ցույց է տալիս սխալ",
+            "sign": "Կառավարման վահանակի վրա ցուցադրվում է անսարքության կոդը։",
+            "causes": "Սենսորների գործարկում, պոմպի խնդիրներ կամ էլեկտրոնային մոդուլի խափանում։",
+            "slugs": [
+                "indesit-leak-sensor-triggered",
+                "indesit-drain-pump-failure",
+                "indesit-flow-meter-error",
+                "indesit-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-door-not-closing",
+            "title": "Indesit սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Փականը չի ֆիքսում դուռը, մեկնարկը անհնար է։",
+            "causes": "Արգելափակման մեխանիզմի փչացում կամ ծխնիների շեղում։",
+            "slugs": [
+                "indesit-door-lock-failure",
+                "indesit-door-hinge-damage",
+                "indesit-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "indesit-dishwasher-trips-breaker",
+            "title": "Indesit սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Մեկնարկի ժամանակ տեղի է ունենում էլեկտրացանցի անջատում։",
+            "causes": "ՏԷՆ-ի, պոմպի կամ ցանցային ֆիլտրի կարճ միացում։",
+            "slugs": [
+                "indesit-heating-element-short-circuit",
+                "indesit-circulation-pump-short",
+                "indesit-noise-filter-failure",
+                "indesit-main-control-board-defect"
+            ]
+        },
+
+        {
+            "slug": "indesit-power-cord-damage",
+            "title": "Indesit սնուցման մալուխը վնասված է",
+            "sign": "Մեքենան չի արձագանքում միացման կոճակին։",
+            "causes": "Լարի խզումը կամ գերտաքացումը արգելափակում է սնուցման մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-noise-filter-failure",
+            "title": "Indesit ցանցային ֆիլտրը խափանված է",
+            "sign": "Սնուցումը չի հասնում ներքին բաղադրիչներին։",
+            "causes": "Լարման տատանման հետո այրված ֆիլտրը խզում է շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-main-control-board-defect",
+            "title": "Indesit կառավարման մոդուլի խափանում",
+            "sign": "Ծրագրերը չեն մեկնարկում կամ աշխատում են սխալ։",
+            "causes": "Պլատայի էլեկտրոնային տարրերի վնասումը խախտում է կառավարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-power-button-fault",
+            "title": "Indesit միացման կոճակը չի աշխատում",
+            "sign": "Կոճակը սեղմվում է, բայց տեխնիկան չի մեկնարկում։",
+            "causes": "Կոնտակտների մաշվածությունը խոչընդոտում է ազդանշանի փոխանցմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-pump-failure",
+            "title": "Indesit ջրահեռացման պոմպը խափանված է",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է բաքում։",
+            "causes": "Շարժիչի մաշվածությունը կամ թիակի արգելափակումը խանգարում են ջրի քաշմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-hose-blockage",
+            "title": "Indesit ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրահեռացումը դանդաղ է կամ ամբողջությամբ բացակայում է։",
+            "causes": "Կեղտի կուտակումը փակում է ջրի անցուղին։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-filter-clogged",
+            "title": "Indesit ֆիլտրի խցանում",
+            "sign": "Ջուրը վատ է հեռանում և մնում է պղտոր։",
+            "causes": "Սննդի մնացորդները արգելափակում են շրջանառությունն ու ջրահեռացումը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-pressure-switch-malfunction",
+            "title": "Indesit պրեսոստատը խափանված է",
+            "sign": "Ջրի մակարդակը որոշվում է սխալ։",
+            "causes": "Սենսորը ճիշտ տվյալներ չի փոխանցում կառավարման պլատային։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-inlet-valve-failure",
+            "title": "Indesit մուտքային փականը խափանված է",
+            "sign": "Մեկնարկի պահին ջուրը չի մտնում խցիկ։",
+            "causes": "Փականի կծիկը այրվել է կամ մեխանիզմը խցանվել է։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-aquastop-activated",
+            "title": "Indesit AquaStop համակարգը գործել է",
+            "sign": "Ջրի մատակարարումը ամբողջությամբ արգելափակված է։",
+            "causes": "Արտահոսքից պաշտպանությունը խոնավություն հայտնաբերելիս փակում է մուտքը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-flow-meter-error",
+            "title": "Indesit ջրաչափի սխալ",
+            "sign": "Մեքենան հավաքում է ջրի անբավարար ծավալ։",
+            "causes": "Ծախսաչափի սենսորը չի ֆիքսում հեղուկի ճիշտ քանակը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-seal-damage",
+            "title": "Indesit դռան խտացուցիչը վնասված է",
+            "sign": "Դռան շրջագծով ջուր է հայտնվում։",
+            "causes": "Մաշված ռետինը կորցնում է հերմետիկությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-hose-leak",
+            "title": "Indesit խողովակների արտահոսք",
+            "sign": "Կորպուսի տակ գոյանում է լճակ։",
+            "causes": "Ճաքերը կամ թուլացած միացումները առաջացնում են արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-pump-leak",
+            "title": "Indesit ցիրկուլյացիոն պոմպի արտահոսք",
+            "sign": "Կորպուսի ներսում խոնավություն է հայտնաբերվում։",
+            "causes": "Պոմպի խտացուցիչների մաշվածությունը հանգեցնում է ջրի արտահոսքի։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-leak-sensor-triggered",
+            "title": "Indesit արտահոսքի սենսորը գործել է",
+            "sign": "Մեքենան արգելափակում է ծրագիրը և ջուր չի լցվում։",
+            "causes": "Անվտանգության համակարգը արձագանքում է տակդիրում խոնավության կուտակմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-burnt",
+            "title": "Indesit տաքացուցիչը (ՏԷՆ) այրվել է",
+            "sign": "Լվացման ընթացքում ջուրը մնում է սառը։",
+            "causes": "ՏԷՆ-ի սպիրալի քայքայումը բացառում է տաքացումը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-ntc-sensor-fault",
+            "title": "Indesit ջերմաստիճանի սենսորը խափանված է",
+            "sign": "Ջրի ջերմաստիճանը չի համապատասխանում ծրագրին։",
+            "causes": "Սենսորը սխալ տվյալներ է փոխանցում մոդուլին։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heater-relay-failure",
+            "title": "Indesit տաքացման ռելեն խափանված է",
+            "sign": "Ցիկլի մեկնարկին տաքացումը չի ակտիվանում։",
+            "causes": "Ռելեի կոնտակտները չեն փակում ՏԷՆ-ի շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drying-fan-failure",
+            "title": "Indesit չորացման օդափոխիչը չի աշխատում",
+            "sign": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "causes": "Օդափոխիչի շարժիչը չի ապահովում օդի շրջանառություն։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-vent-blockage",
+            "title": "Indesit օդափոխության խողովակի խցանում",
+            "sign": "Գոլորշին արդյունավետ չի դուրս գալիս։",
+            "causes": "Կեղտի կուտակումը խախտում է օդի շրջանառությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-overheat",
+            "title": "Indesit տաքացուցիչի գերտաքացում",
+            "sign": "Ծրագիրը կանգ է առնում աշխատանքի ընթացքում։",
+            "causes": "Պաշտպանական համակարգը սարքը անջատում է՝ ջերմաստիճանի գերազանցման դեպքում։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-pump-failure",
+            "title": "Indesit ցիրկուլյացիոն պոմպը խափանված է",
+            "sign": "Լվացումը թույլ է լինում կամ ուղեկցվում է աղմուկով։",
+            "causes": "Շարժիչի մաշվածությունը նվազեցնում է ջրի մատակարարման ճնշումը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-spray-arm-blocked",
+            "title": "Indesit ցողիչը արգելափակված է",
+            "sign": "Ջրի շիթերը բաշխվում են անհավասար։",
+            "causes": "Ֆորսունկների անցքերը խցանված են սննդի մնացորդներով։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-spray-arm-clogged",
+            "title": "Indesit ցողիչի խցանում",
+            "sign": "Սպասքը որոշ գոտիներում վատ է լվացվում։",
+            "causes": "Կեղտի կուտակումը խանգարում է պտույտին և ցողմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-detergent-dispenser-fault",
+            "title": "Indesit լվացող միջոցի դոզատորը խափանված է",
+            "sign": "Հաբը կամ փոշին ամբողջությամբ չեն լուծվում։",
+            "causes": "Խցիկի բացման մեխանիզմը չի գործարկվում։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-lock-failure",
+            "title": "Indesit դռան փականը խափանված է",
+            "sign": "Մեքենան չի մեկնարկում փակ դռան դեպքում։",
+            "causes": "Արգելափակման մեխանիզմը չի ֆիքսում դիրքը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-hinge-damage",
+            "title": "Indesit դռան ծխնիները վնասված են",
+            "sign": "Դուռը փակվում է շեղումով։",
+            "causes": "Ծխնիների մաշվածությունը խանգարում է ճիշտ ֆիքսմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-switch-fault",
+            "title": "Indesit դռան սենսորը խափանված է",
+            "sign": "Համակարգը չի ճանաչում դռան փակվելը։",
+            "causes": "Արգելափակման ազդանշանը չի հասնում կառավարման մոդուլին։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-short-circuit",
+            "title": "Indesit տաքացուցիչի կարճ միացում",
+            "sign": "Միացնելիս անջատում է ավտոմատը։",
+            "causes": "ՏԷՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-circulation-pump-short",
+            "title": "Indesit ցիրկուլյացիոն պոմպի կարճ միացում",
+            "sign": "Մեկնարկի ժամանակ գործարկվում է էլեկտրացանցի պաշտպանությունը։",
+            "causes": "Շարժիչի փաթաթումների վնասումը ստեղծում է գերբեռնվածություն։",
+            "slugs": []
+        }
+
+    ]
+}

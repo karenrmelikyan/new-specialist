@@ -1,0 +1,330 @@
+{
+    "indexPageTitle": "Sharp սառնարանների վերանորոգում",
+    "title": "Sharp սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/sharp/",
+
+    "items": [
+        {
+            "slug": "sharp-fridge-not-cooling",
+            "title": "Холодильник Sharp не охлаждает",
+            "sign": "Температура внутри холодильной камеры выше нормы",
+            "causes": "Сбой работы инверторного компрессора или системы распределения холодного воздуха",
+            "slugs": [
+                "sharp-inverter-compressor-failure",
+                "sharp-refrigerant-leak",
+                "sharp-capillary-blockage",
+                "sharp-evaporator-fan-failure",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-freezer-not-freezing",
+            "title": "Морозильная камера Sharp не замораживает",
+            "sign": "Продукты размораживаются, лёд не формируется",
+            "causes": "Недостаточная циркуляция холодного воздуха или снижение мощности охлаждения",
+            "slugs": [
+                "sharp-inverter-compressor-failure",
+                "sharp-refrigerant-leak",
+                "sharp-defrost-heater-failure",
+                "sharp-temperature-sensor-error",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-running-continuously",
+            "title": "Холодильник Sharp работает без остановки",
+            "sign": "Компрессор функционирует постоянно, камера не охлаждается должным образом",
+            "causes": "Система не достигает заданной температуры из-за утечек или неисправных датчиков",
+            "slugs": [
+                "sharp-refrigerant-leak",
+                "sharp-door-seal-damaged",
+                "sharp-temperature-sensor-error",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-not-powering-on",
+            "title": "Холодильник Sharp не включается",
+            "sign": "Нет индикации, отсутствует подсветка и характерные звуки запуска",
+            "causes": "Сбой в цепи питания или отказ электронной платы управления",
+            "slugs": [
+                "sharp-power-cord-damaged",
+                "sharp-start-relay-failure",
+                "sharp-inverter-compressor-failure",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-water-leak",
+            "title": "Холодильник Sharp протекает",
+            "sign": "Вода скапливается внутри камеры или под холодильником",
+            "causes": "Засор дренажной системы или замерзание сливной трубки",
+            "slugs": [
+                "sharp-drain-hole-clog",
+                "sharp-drain-line-frozen",
+                "sharp-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-ice-build-up",
+            "title": "В холодильнике Sharp образуется лёд",
+            "sign": "На стенках или испарителе появляется лёд и иней",
+            "causes": "Сбой работы системы No Frost или компонентов автоматической разморозки",
+            "slugs": [
+                "sharp-defrost-heater-failure",
+                "sharp-defrost-sensor-failure",
+                "sharp-door-seal-damaged",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-making-noise",
+            "title": "Холодильник Sharp шумит",
+            "sign": "Посторонние звуки, вибрация или гул во время работы",
+            "causes": "Износ инверторного компрессора, вентилятора испарителя или конденсатора",
+            "slugs": [
+                "sharp-inverter-compressor-wear",
+                "sharp-evaporator-fan-failure",
+                "sharp-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-not-defrosting",
+            "title": "Холодильник Sharp не размораживается",
+            "sign": "Испаритель покрыт льдом, оттайка не запускается",
+            "causes": "Сбой системы автоматической разморозки",
+            "slugs": [
+                "sharp-defrost-heater-failure",
+                "sharp-defrost-timer-error",
+                "sharp-defrost-sensor-failure",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-light-not-working",
+            "title": "Не работает подсветка холодильника Sharp",
+            "sign": "Лампы не загораются при открытии двери",
+            "causes": "Поломка LED-модуля или дверного датчика",
+            "slugs": [
+                "sharp-led-lamp-failure",
+                "sharp-door-switch-failure",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Sharp",
+            "sign": "Запах сохраняется даже после тщательной чистки",
+            "causes": "Засор дренажной системы, плесень или остатки испорченных продуктов",
+            "slugs": [
+                "sharp-drain-hole-clog",
+                "sharp-mold-growth",
+                "sharp-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-overfreezing",
+            "title": "Холодильник Sharp перемораживает продукты",
+            "sign": "Овощи и напитки замерзают в холодильной камере",
+            "causes": "Сбой датчиков температуры или заклинивание воздушной заслонки",
+            "slugs": [
+                "sharp-temperature-sensor-error",
+                "sharp-air-damper-stuck",
+                "sharp-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "sharp-fridge-trips-breaker",
+            "title": "Холодильник Sharp выбивает автомат",
+            "sign": "Срабатывает защитный автомат при включении устройства",
+            "causes": "Короткое замыкание или повреждение внутренних электрических узлов",
+            "slugs": [
+                "sharp-compressor-short-circuit",
+                "sharp-heater-short-circuit",
+                "sharp-noise-filter-burnt",
+                "sharp-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "sharp-inverter-compressor-failure",
+            "title": "Неисправность инверторного компрессора Sharp",
+            "sign": "Холодильник не охлаждает, компрессор не включается или работает нестабильно",
+            "causes": "Износ двигателя компрессора, перегрев обмоток или заклинивание поршней",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Sharp",
+            "sign": "Снижение мощности охлаждения, постоянная работа компрессора",
+            "causes": "Разгерметизация трубопроводов, микротрещины или повреждение соединений",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-capillary-blockage",
+            "title": "Засор капиллярной системы Sharp",
+            "sign": "Неравномерное охлаждение, перегрев компрессора",
+            "causes": "Закупорка капилляров частицами отложения или кристаллизацией хладагента",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-evaporator-fan-failure",
+            "title": "Поломка вентилятора испарителя Sharp",
+            "sign": "Холод распределяется плохо, в морозильной камере холод есть, в холодильной нет",
+            "causes": "Неисправность двигателя вентилятора или обрыв электрической цепи",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-main-control-board-failure",
+            "title": "Сбой электронной платы управления Sharp",
+            "sign": "Не включается подсветка, сбои в работе холодильника, ошибки на дисплее",
+            "causes": "Выход из строя компонентов платы из-за перенапряжения или старения",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-defrost-heater-failure",
+            "title": "Неисправность нагревателя оттайки Sharp",
+            "sign": "Лёд на испарителе не тает, оттайка не происходит",
+            "causes": "Выход из строя нагревательного элемента или обрыв цепи",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-defrost-sensor-failure",
+            "title": "Сбой датчика оттайки Sharp",
+            "sign": "Система No Frost не завершает цикл разморозки, лёд на стенках",
+            "causes": "Неправильные показания датчика из-за поломки или короткого замыкания",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-door-seal-damaged",
+            "title": "Повреждена уплотнительная резинка двери Sharp",
+            "sign": "Холод теряется, на уплотнении видны трещины или деформация",
+            "causes": "Механический износ, воздействие температуры или грязь на поверхности уплотнения",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-temperature-sensor-error",
+            "title": "Сбой датчика температуры Sharp",
+            "sign": "Холодильник работает неправильно, перемораживает продукты или не охлаждает",
+            "causes": "Неисправность термистора или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-power-cord-damaged",
+            "title": "Повреждён сетевой кабель Sharp",
+            "sign": "Холодильник не включается, нет индикации и питания",
+            "causes": "Механическое повреждение кабеля, излом или перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-start-relay-failure",
+            "title": "Сбой пускового реле компрессора Sharp",
+            "sign": "Компрессор не запускается, слышны щелчки при попытке старта",
+            "causes": "Выход из строя реле или контактной группы",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drain-hole-clog",
+            "title": "Засор сливного отверстия Sharp",
+            "sign": "Вода скапливается на дне холодильника или внутри камеры",
+            "causes": "Накопление грязи, остатков пищи или льда в дренажной системе",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drain-line-frozen",
+            "title": "Замёрзла сливная трубка Sharp",
+            "sign": "Талая вода не уходит, протечки внутри холодильника",
+            "causes": "Замерзание жидкости в трубке из-за низкой температуры или неисправности нагревателя оттайки",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-drip-tray-damage",
+            "title": "Повреждён поддон для конденсата Sharp",
+            "sign": "Протечки под холодильником или излишняя вода внутри",
+            "causes": "Трещины, деформация или неправильная установка поддона",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-inverter-compressor-wear",
+            "title": "Износ инверторного компрессора Sharp",
+            "sign": "Посторонние шумы, вибрация, снижение мощности охлаждения",
+            "causes": "Механический износ подшипников, деградация масла и компонентов двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-condenser-fan-failure",
+            "title": "Не работает вентилятор конденсатора Sharp",
+            "sign": "Проблемы с охлаждением компрессора, перегрев или шум",
+            "causes": "Поломка мотора вентилятора или обрыв питания",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-defrost-timer-error",
+            "title": "Сбой таймера оттайки Sharp",
+            "sign": "Циклы разморозки не выполняются вовремя, лёд на испарителе",
+            "causes": "Неисправность механизма таймера или платы управления",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-led-lamp-failure",
+            "title": "Не горят LED лампы холодильника Sharp",
+            "sign": "Подсветка не включается при открытии дверцы",
+            "causes": "Выход из строя светодиодов или цепей питания",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-door-switch-failure",
+            "title": "Сбой дверного датчика Sharp",
+            "sign": "Подсветка и индикация не реагируют на открытие двери",
+            "causes": "Поломка микропереключателя или разрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-mold-growth",
+            "title": "Развитие плесени в холодильнике Sharp",
+            "sign": "Запах сырости и появление налёта на стенках",
+            "causes": "Повышенная влажность, засор дренажа, несвоевременная чистка",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов Sharp",
+            "sign": "Стойкий неприятный запах внутри камеры",
+            "causes": "Забытые продукты, несвоевременная уборка и очистка контейнеров",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-air-damper-stuck",
+            "title": "Заклинивание воздушной заслонки Sharp",
+            "sign": "Некорректная циркуляция холодного воздуха, перемораживание продуктов",
+            "causes": "Механическая блокировка заслонки или износ привода",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Sharp",
+            "sign": "Выключение автомата при включении холодильника",
+            "causes": "Замыкание обмоток двигателя или повреждение проводки",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя оттайки Sharp",
+            "sign": "Срабатывает автоматическая защита при запуске холодильника",
+            "causes": "Обрыв изоляции или выход из строя нагревательного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "sharp-noise-filter-burnt",
+            "title": "Сгорел фильтр шумоподавления Sharp",
+            "sign": "Автомат срабатывает сразу после включения",
+            "causes": "Повышенное напряжение в сети или пробой фильтра EMI",
+            "slugs": []
+        }
+
+    ]
+}

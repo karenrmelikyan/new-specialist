@@ -1,0 +1,330 @@
+{
+    "indexPageTitle": "Samsung սառնարանների վերանորոգում",
+    "title": "Samsung սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/samsung/",
+
+    "items": [
+        {
+            "slug": "samsung-fridge-not-cooling",
+            "title": "Холодильник Samsung не охлаждает",
+            "sign": "Температура в холодильной камере выше заданной",
+            "causes": "Сбой работы инверторного компрессора или системы распределения холода",
+            "slugs": [
+                "samsung-digital-inverter-compressor-failure",
+                "samsung-refrigerant-leak",
+                "samsung-capillary-system-blockage",
+                "samsung-evaporator-fan-error",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-freezer-not-freezing",
+            "title": "Морозильная камера Samsung не замораживает",
+            "sign": "Продукты в морозильнике размораживаются",
+            "causes": "Недостаточная циркуляция холодного воздуха или потеря мощности охлаждения",
+            "slugs": [
+                "samsung-digital-inverter-compressor-failure",
+                "samsung-refrigerant-leak",
+                "samsung-defrost-heater-failure",
+                "samsung-temperature-sensor-error",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-running-continuously",
+            "title": "Холодильник Samsung работает без остановки",
+            "sign": "Компрессор функционирует постоянно",
+            "causes": "Система не достигает установленного температурного режима",
+            "slugs": [
+                "samsung-refrigerant-leak",
+                "samsung-door-seal-worn",
+                "samsung-temperature-sensor-error",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-not-powering-on",
+            "title": "Холодильник Samsung не включается",
+            "sign": "Отсутствует индикация и подсветка",
+            "causes": "Неисправность цепи питания или сбой электронной платы",
+            "slugs": [
+                "samsung-power-cord-damage",
+                "samsung-start-relay-failure",
+                "samsung-digital-inverter-compressor-failure",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-water-leak",
+            "title": "Холодильник Samsung протекает",
+            "sign": "Под прибором или внутри камеры появляется вода",
+            "causes": "Нарушение работы системы отвода талой воды",
+            "slugs": [
+                "samsung-drain-hole-clog",
+                "samsung-drain-line-frozen",
+                "samsung-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-ice-build-up",
+            "title": "В холодильнике Samsung образуется лёд",
+            "sign": "Иней и ледяная корка на стенках или испарителе",
+            "causes": "Сбой системы No Frost или компонентов оттайки",
+            "slugs": [
+                "samsung-defrost-heater-failure",
+                "samsung-defrost-sensor-failure",
+                "samsung-door-seal-worn",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-making-noise",
+            "title": "Холодильник Samsung шумит",
+            "sign": "Гул, вибрация или посторонние звуки во время работы",
+            "causes": "Износ инверторного компрессора или вентилятора",
+            "slugs": [
+                "samsung-digital-inverter-compressor-wear",
+                "samsung-evaporator-fan-error",
+                "samsung-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-not-defrosting",
+            "title": "Холодильник Samsung не размораживается",
+            "sign": "Испаритель покрыт льдом, оттайка не происходит",
+            "causes": "Неисправность системы автоматической разморозки",
+            "slugs": [
+                "samsung-defrost-heater-failure",
+                "samsung-defrost-timer-error",
+                "samsung-defrost-sensor-failure",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-light-not-working",
+            "title": "Не работает подсветка в холодильнике Samsung",
+            "sign": "Освещение не включается при открытии двери",
+            "causes": "Поломка LED-модуля или дверного датчика",
+            "slugs": [
+                "samsung-led-lamp-failure",
+                "samsung-door-switch-failure",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Samsung",
+            "sign": "Запах сохраняется после очистки",
+            "causes": "Засор дренажа, повышенная влажность или испорченные продукты",
+            "slugs": [
+                "samsung-drain-hole-clog",
+                "samsung-mold-growth",
+                "samsung-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-overfreezing",
+            "title": "Холодильник Samsung перемораживает продукты",
+            "sign": "Продукты в холодильной зоне покрываются льдом",
+            "causes": "Сбой датчиков температуры или неисправность воздушной заслонки",
+            "slugs": [
+                "samsung-temperature-sensor-error",
+                "samsung-air-damper-stuck",
+                "samsung-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-trips-breaker",
+            "title": "Холодильник Samsung выбивает автомат",
+            "sign": "Защитный автомат отключает питание при запуске",
+            "causes": "Короткое замыкание внутренних электрических узлов",
+            "slugs": [
+                "samsung-compressor-short-circuit",
+                "samsung-heater-short-circuit",
+                "samsung-noise-filter-burnt",
+                "samsung-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "samsung-digital-inverter-compressor-failure",
+            "title": "Неисправность Digital Inverter компрессора Samsung",
+            "sign": "Холодильник не охлаждает или запускается с перебоями",
+            "causes": "Выход из строя инверторного модуля компрессора или внутреннее замыкание обмоток",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-digital-inverter-compressor-wear",
+            "title": "Износ инверторного компрессора Samsung",
+            "sign": "Повышенный шум, вибрация и снижение эффективности охлаждения",
+            "causes": "Механический износ внутренних компонентов компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Samsung",
+            "sign": "Недостаточное охлаждение и непрерывная работа двигателя",
+            "causes": "Разгерметизация трубопровода или повреждение испарителя",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-capillary-system-blockage",
+            "title": "Засор капиллярной системы Samsung",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка капилляра влагой или продуктами износа системы",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-evaporator-fan-error",
+            "title": "Ошибка вентилятора испарителя Samsung",
+            "sign": "В морозильной камере холод есть, в холодильной — отсутствует",
+            "causes": "Поломка двигателя вентилятора или повреждение проводки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-condenser-fan-failure",
+            "title": "Неисправность вентилятора конденсатора Samsung",
+            "sign": "Повышенный шум и перегрев задней части холодильника",
+            "causes": "Износ двигателя вентилятора или блокировка лопастей",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-main-control-board-failure",
+            "title": "Неисправность основной платы управления Samsung",
+            "sign": "Сбои в работе режимов, ошибки на дисплее или полный отказ запуска",
+            "causes": "Повреждение электронных компонентов платы или скачок напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-defrost-heater-failure",
+            "title": "Неисправность нагревателя оттайки Samsung",
+            "sign": "Испаритель покрывается льдом, система No Frost не работает",
+            "causes": "Перегорание нагревательного элемента или обрыв цепи",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-defrost-sensor-failure",
+            "title": "Неисправность датчика оттайки Samsung",
+            "sign": "Образование наледи и некорректная работа автоматической разморозки",
+            "causes": "Некорректные показания термодатчика или его полный отказ",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-defrost-timer-error",
+            "title": "Сбой таймера разморозки Samsung",
+            "sign": "Холодильник не переходит в режим оттайки",
+            "causes": "Ошибка электронного таймера или программный сбой модуля управления",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-error",
+            "title": "Ошибка датчика температуры Samsung",
+            "sign": "Неправильное поддержание температуры или перемораживание",
+            "causes": "Неисправность термистора или нарушение контакта в цепи",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-seal-worn",
+            "title": "Износ уплотнителя двери Samsung",
+            "sign": "Постоянная работа компрессора и образование конденсата",
+            "causes": "Потеря эластичности резинового уплотнителя или механические повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-cord-damage",
+            "title": "Повреждение сетевого шнура Samsung",
+            "sign": "Холодильник не включается и отсутствует питание",
+            "causes": "Обрыв кабеля или повреждение вилки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-start-relay-failure",
+            "title": "Неисправность пускового реле Samsung",
+            "sign": "Компрессор не запускается или слышны щелчки при старте",
+            "causes": "Выход из строя реле запуска компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-hole-clog",
+            "title": "Засор дренажного отверстия Samsung",
+            "sign": "Скопление воды внутри холодильной камеры",
+            "causes": "Загрязнение канала отвода талой воды",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-line-frozen",
+            "title": "Замерзание дренажной линии Samsung",
+            "sign": "Вода скапливается под ящиками и образуется лёд",
+            "causes": "Образование ледяной пробки в системе отвода конденсата",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drip-tray-damage",
+            "title": "Повреждение поддона для конденсата Samsung",
+            "sign": "Вода появляется под холодильником",
+            "causes": "Трещина или смещение поддона сбора талой воды",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-led-lamp-failure",
+            "title": "Неисправность LED-подсветки Samsung",
+            "sign": "Отсутствие освещения при открытии двери",
+            "causes": "Выход из строя светодиодного модуля",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-switch-failure",
+            "title": "Неисправность дверного выключателя Samsung",
+            "sign": "Подсветка не реагирует на открытие двери",
+            "causes": "Поломка механического или магнитного датчика двери",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-mold-growth",
+            "title": "Образование плесени в холодильнике Samsung",
+            "sign": "Стойкий неприятный запах внутри камер",
+            "causes": "Повышенная влажность и недостаточная вентиляция",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов в Samsung",
+            "sign": "Запах сохраняется даже после очистки поверхностей",
+            "causes": "Наличие скрытых загрязнений или разлившихся жидкостей",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-air-damper-stuck",
+            "title": "Заклинивание воздушной заслонки Samsung",
+            "sign": "Перемораживание продуктов в холодильной камере",
+            "causes": "Залипание механизма регулировки потока холодного воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Samsung",
+            "sign": "Срабатывание автоматического выключателя при запуске",
+            "causes": "Пробой обмоток компрессора или повреждение изоляции",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя Samsung",
+            "sign": "Автомат отключается во время цикла оттайки",
+            "causes": "Повреждение нагревательного элемента системы разморозки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-noise-filter-burnt",
+            "title": "Сгоревший сетевой фильтр Samsung",
+            "sign": "Холодильник не запускается или выбивает автомат",
+            "causes": "Перегорание фильтра подавления помех после скачка напряжения",
+            "slugs": []
+        }
+
+    ]
+}

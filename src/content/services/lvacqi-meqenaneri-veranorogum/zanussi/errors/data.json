@@ -1,0 +1,277 @@
+{
+    "indexPageTitle": "Zanussi լվացքի մեքենաների վերանորոգում",
+    "title": "Zanussi լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/zanussi/errors/",
+
+    "items": [
+        {
+            "slug": "zanussi-washer-error-e10",
+            "title": "Ошибка E10 стиральной машины Zanussi (подача воды)",
+            "sign": "Бак не наполняется либо процесс залива занимает слишком много времени",
+            "causes": "Слабое давление в водопроводе, засор входного фильтра или неисправность впускного клапана",
+            "slugs": [
+                "zanussi-inlet-valve-failure",
+                "zanussi-low-water-pressure",
+                "zanussi-inlet-filter-blocked"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e11",
+            "title": "Ошибка E11 стиральной машины Zanussi (контроль уровня воды)",
+            "sign": "Машина не достигает требуемого уровня наполнения",
+            "causes": "Сбой прессостата либо нарушение герметичности воздушной трубки",
+            "slugs": [
+                "zanussi-pressure-sensor-fault",
+                "zanussi-airline-blocked"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e20",
+            "title": "Ошибка E20 стиральной машины Zanussi (слив воды)",
+            "sign": "Вода остаётся в барабане после окончания цикла",
+            "causes": "Засор сливной системы либо отказ насоса",
+            "slugs": [
+                "zanussi-drain-pump-failure",
+                "zanussi-drain-hose-obstruction",
+                "zanussi-drain-filter-blocked"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e21",
+            "title": "Ошибка E21 стиральной машины Zanussi (откачка воды)",
+            "sign": "Процесс слива выполняется медленно или прерывается",
+            "causes": "Блокировка крыльчатки помпы либо частичная непроходимость шланга",
+            "slugs": [
+                "zanussi-drain-pump-failure",
+                "zanussi-drain-hose-obstruction"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e30",
+            "title": "Ошибка E30 стиральной машины Zanussi (перелив воды)",
+            "sign": "Происходит чрезмерное заполнение бака",
+            "causes": "Залипание впускного клапана либо некорректная работа датчика уровня",
+            "slugs": [
+                "zanussi-inlet-valve-stuck",
+                "zanussi-pressure-sensor-fault"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e40",
+            "title": "Ошибка E40 стиральной машины Zanussi (блокировка люка)",
+            "sign": "Дверца не фиксируется перед запуском программы",
+            "causes": "Неисправность устройства блокировки либо дефект концевого выключателя",
+            "slugs": [
+                "zanussi-door-lock-failure",
+                "zanussi-door-switch-defect"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e50",
+            "title": "Ошибка E50 стиральной машины Zanussi (двигатель)",
+            "sign": "Барабан не вращается или останавливается во время стирки",
+            "causes": "Сбой управления мотором либо внутренний дефект электродвигателя",
+            "slugs": [
+                "zanussi-drive-motor-failure",
+                "zanussi-motor-control-fault"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e60",
+            "title": "Ошибка E60 стиральной машины Zanussi (нагрев воды)",
+            "sign": "Вода не нагревается до заданной температуры",
+            "causes": "Перегорание ТЭНа либо неисправность температурного датчика",
+            "slugs": [
+                "zanussi-heating-element-failure",
+                "zanussi-temperature-sensor-fault"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e70",
+            "title": "Ошибка E70 стиральной машины Zanussi (датчик температуры)",
+            "sign": "Отображаются некорректные температурные значения",
+            "causes": "Повреждение термодатчика или нарушение соединения с модулем",
+            "slugs": [
+                "zanussi-temperature-sensor-fault",
+                "zanussi-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-e90",
+            "title": "Ошибка E90 стиральной машины Zanussi (электроника)",
+            "sign": "Программа выполняется нестабильно либо не запускается",
+            "causes": "Сбой программного обеспечения или неисправность управляющей платы",
+            "slugs": [
+                "zanussi-main-board-failure",
+                "zanussi-voltage-instability"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-ef0",
+            "title": "Ошибка EF0 стиральной машины Zanussi (протечка)",
+            "sign": "Срабатывает защита от утечки воды",
+            "causes": "Попадание воды в поддон либо повреждение соединительных патрубков",
+            "slugs": [
+                "zanussi-leak-detected",
+                "zanussi-water-sensor-fault"
+            ]
+        },
+        {
+            "slug": "zanussi-washer-error-efo",
+            "title": "Ошибка EFO стиральной машины Zanussi (аквастоп)",
+            "sign": "Система безопасности блокирует работу устройства",
+            "causes": "Активирован датчик защиты от протечек или нарушена герметичность системы",
+            "slugs": [
+                "zanussi-leak-detected",
+                "zanussi-water-sensor-fault"
+            ]
+        },
+
+        {
+            "slug": "zanussi-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Zanussi",
+            "sign": "Вода не поступает в бак после запуска программы",
+            "causes": "Катушка электромагнитного клапана повреждена либо механизм открытия заклинил",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-low-water-pressure",
+            "title": "Недостаточное давление воды Zanussi",
+            "sign": "Заполнение выполняется медленно или не достигает нужного уровня",
+            "causes": "Слабый напор в системе водоснабжения препятствует корректному набору",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-inlet-filter-blocked",
+            "title": "Засор входного фильтра Zanussi",
+            "sign": "Подача воды ограничена",
+            "causes": "Сетка фильтра загрязнена песком, ржавчиной или известковыми частицами",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-pressure-sensor-fault",
+            "title": "Неисправность прессостата Zanussi",
+            "sign": "Уровень воды определяется неправильно",
+            "causes": "Датчик давления передаёт искажённые сигналы из-за внутреннего дефекта",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-airline-blocked",
+            "title": "Закупорка воздушной трубки Zanussi",
+            "sign": "Контроль уровня работает нестабильно",
+            "causes": "Канал прессостата засорён либо пережат, что нарушает измерение давления",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-drain-pump-failure",
+            "title": "Отказ сливного насоса Zanussi",
+            "sign": "Вода не удаляется из бака",
+            "causes": "Двигатель помпы вышел из строя либо крыльчатка повреждена",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-drain-hose-obstruction",
+            "title": "Засор сливного шланга Zanussi",
+            "sign": "Слив происходит частично или отсутствует",
+            "causes": "Шланг перекручен или заблокирован мусором",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-drain-filter-blocked",
+            "title": "Загрязнение фильтра насоса Zanussi",
+            "sign": "Откачивание воды выполняется с задержкой",
+            "causes": "В фильтре накопились ворс, нити или посторонние предметы",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-inlet-valve-stuck",
+            "title": "Залипание клапана подачи Zanussi",
+            "sign": "Происходит перелив воды",
+            "causes": "Клапан не закрывается полностью из-за механического износа или загрязнения",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-door-lock-failure",
+            "title": "Поломка замка люка Zanussi",
+            "sign": "Дверца не фиксируется перед стартом цикла",
+            "causes": "Механизм блокировки изношен либо повреждён электрический элемент",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-door-switch-defect",
+            "title": "Неисправность датчика закрытия Zanussi",
+            "sign": "Система не подтверждает запирание люка",
+            "causes": "Концевой выключатель не замыкает цепь из-за электрического сбоя",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-drive-motor-failure",
+            "title": "Неисправность двигателя Zanussi",
+            "sign": "Барабан не вращается во время работы",
+            "causes": "Обмотки мотора повреждены либо вал заклинен",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-motor-control-fault",
+            "title": "Сбой модуля управления двигателем Zanussi",
+            "sign": "Вращение барабана нестабильно или отсутствует",
+            "causes": "Электронная плата неправильно регулирует питание мотора",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Zanussi",
+            "sign": "Вода остаётся холодной при выбранном температурном режиме",
+            "causes": "ТЭН перегорел либо нарушена его электрическая цепь",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-temperature-sensor-fault",
+            "title": "Сбой температурного датчика Zanussi",
+            "sign": "Отображаются некорректные температурные параметры",
+            "causes": "Термодатчик выдаёт неверные значения из-за внутреннего повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-sensor-wiring-issue",
+            "title": "Проблема проводки датчиков Zanussi",
+            "sign": "Передача сигналов осуществляется нестабильно",
+            "causes": "Ослабленные контакты либо повреждение кабелей нарушают соединение",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-main-board-failure",
+            "title": "Неисправность основной платы Zanussi",
+            "sign": "Программы запускаются с ошибками или не выполняются",
+            "causes": "Повреждение электронных компонентов управляющего модуля",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-voltage-instability",
+            "title": "Перепады напряжения Zanussi",
+            "sign": "Работа машины прерывается без завершения цикла",
+            "causes": "Нестабильное электропитание нарушает функционирование электроники",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-leak-detected",
+            "title": "Обнаружена утечка воды Zanussi",
+            "sign": "Активируется система защиты от протечек",
+            "causes": "Повреждение шлангов, патрубков или корпуса бака",
+            "slugs": []
+        },
+        {
+            "slug": "zanussi-water-sensor-fault",
+            "title": "Неисправность датчика протечки Zanussi",
+            "sign": "Отображается ошибка утечки без явных признаков воды",
+            "causes": "Датчик влаги передаёт ложный сигнал из-за окисления контактов",
+            "slugs": []
+        }
+
+    ]
+
+}

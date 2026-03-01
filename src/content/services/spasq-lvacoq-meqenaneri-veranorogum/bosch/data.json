@@ -1,0 +1,364 @@
+{
+    "indexPageTitle": "Bosch սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Bosch սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/bosch/",
+
+    "items": [
+       {
+            "slug": "bosch-dishwasher-not-powering-on",
+            "title": "Bosch սպասք լվացող մեքենան չի միանում",
+            "sign": "Սնուցման կոճակը սեղմելիս սարքը մնում է լիովին անգործուն, ցուցիչները չեն վառվում։",
+            "causes": "Էլեկտրասնուցման բացակայություն, ցանցային ֆիլտրի վնասում կամ էլեկտրոնային պլատայի խափանում։",
+            "slugs": [
+                "bosch-power-cord-fault",
+                "bosch-noise-filter-defect",
+                "bosch-main-control-board-failure",
+                "bosch-power-button-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-draining",
+            "title": "Bosch սպասք լվացող մեքենան չի դատարկում ջուրը",
+            "sign": "Ծրագրի ավարտից հետո խցիկի ներսում մնում է կանգնած ջուր։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ դրենաժային պոմպի խափանում։",
+            "slugs": [
+                "bosch-drain-pump-failure",
+                "bosch-drain-hose-blockage",
+                "bosch-filter-clog",
+                "bosch-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-filling",
+            "title": "Bosch սպասք լվացող մեքենան չի լցնում ջուր",
+            "sign": "Ցիկլը մեկնարկում է, բայց ջուրը չի մտնում բաք։",
+            "causes": "Մուտքային փականի անսարքություն կամ արտահոսքից պաշտպանության համակարգի ակտիվացում։",
+            "slugs": [
+                "bosch-water-inlet-valve-defect",
+                "bosch-aquastop-activated",
+                "bosch-flow-meter-error",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-leaking",
+            "title": "Bosch սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Աշխատանքի ընթացքում սարքի տակ ջուր է հայտնվում։",
+            "causes": "Հերմետիկների մաշվածություն, միացումների վնասում կամ ներքին արտահոսքեր։",
+            "slugs": [
+                "bosch-door-gasket-damage",
+                "bosch-hose-connection-leak",
+                "bosch-circulation-pump-leak",
+                "bosch-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-heating",
+            "title": "Bosch սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Սպասքը մնում է սառը, ցիկլը անցնում է առանց տաքացման։",
+            "causes": "Տաքացուցիչի, ջերմաստիճանի տվիչի կամ տաքացման ռելեի անսարքություն։",
+            "slugs": [
+                "bosch-heating-element-failure",
+                "bosch-ntc-sensor-defect",
+                "bosch-heater-relay-burnt",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-drying",
+            "title": "Bosch սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո սպասքի վրա մնում են ջրի կաթիլներ։",
+            "causes": "Կոնդենսացիոն չորացման համակարգի խափանում կամ օդափոխիչի անսարքություն։",
+            "slugs": [
+                "bosch-drying-fan-failure",
+                "bosch-heating-element-failure",
+                "bosch-ventilation-channel-blockage",
+                "bosch-ntc-sensor-defect"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-stopping-mid-cycle",
+            "title": "Bosch սպասք լվացող մեքենան կանգ է առնում աշխատանքի ընթացքում",
+            "sign": "Ծրագիրը ընդհատվում է մինչև ավարտը՝ առանց տեսանելի պատճառի։",
+            "causes": "Գերտաքացում, ջրի մատակարարման խնդիրներ կամ կառավարման մոդուլի խափանում։",
+            "slugs": [
+                "bosch-heating-element-overheat",
+                "bosch-water-inlet-valve-defect",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-making-loud-noise",
+            "title": "Bosch սպասք լվացող մեքենան աղմկում է",
+            "sign": "Ցիկլի ընթացքում լսվում է բզզոց, ճռճռոց կամ մետաղական աղմուկ։",
+            "causes": "Շրջանառության պոմպի մաշվածություն կամ օտար առարկաների ներթափանցում։",
+            "slugs": [
+                "bosch-circulation-pump-failure",
+                "bosch-drain-pump-failure",
+                "bosch-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-not-cleaning-dishes",
+            "title": "Bosch սպասք լվացող մեքենան վատ է լվանում սպասքը",
+            "sign": "Ափսեների վրա մնում են սննդի մնացորդներ կամ հետքեր։",
+            "causes": "Ջրի անբավարար ճնշում, ցողիչների խցանում կամ պոմպի անսարքություն։",
+            "slugs": [
+                "bosch-spray-arm-clog",
+                "bosch-circulation-pump-failure",
+                "bosch-filter-clog",
+                "bosch-detergent-dispenser-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-error-code",
+            "title": "Bosch սպասք լվացող մեքենան ցույց է տալիս սխալ",
+            "sign": "Էկրանին ցուցադրվում է անսարքության կոդ (օրինակ՝ E15, E24)։",
+            "causes": "Տվիչների ակտիվացում, պոմպի խնդիրներ կամ կառավարման պլատայի խափանում։",
+            "slugs": [
+                "bosch-leak-sensor-triggered",
+                "bosch-drain-pump-failure",
+                "bosch-flow-meter-error",
+                "bosch-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-door-not-closing",
+            "title": "Bosch սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Մեխանիզմը չի ֆիքսում դուռը, մեկնարկը անհնար է։",
+            "causes": "Փականի, դռան տվիչի անսարքություն կամ ծխնիների շեղում։",
+            "slugs": [
+                "bosch-door-lock-failure",
+                "bosch-door-hinge-damage",
+                "bosch-door-sensor-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dishwasher-tripping-breaker",
+            "title": "Bosch սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Միացման պահին էլեկտրական պաշտպանության համակարգը ակտիվանում է։",
+            "causes": "Տաքացուցիչի, պոմպի կամ ցանցային ֆիլտրի կարճ միացում։",
+            "slugs": [
+                "bosch-heating-element-short-circuit",
+                "bosch-circulation-pump-short-circuit",
+                "bosch-noise-filter-defect",
+                "bosch-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "bosch-power-cord-fault",
+            "title": "Bosch սնուցման մալուխի վնասում",
+            "sign": "Լարի խզումը կամ մեկուսացման վնասումը հանգեցնում է սարքի հոսանքի բացակայությանը։",
+            "causes": "Մեքենան չի միանում, կառավարման վահանակը մնում է առանց ցուցման։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-noise-filter-defect",
+            "title": "Bosch ցանցային ֆիլտրի անսարքություն",
+            "sign": "Խանգարումների ֆիլտրը խափանվում է լարման տատանումների կամ գերբեռնվածության պատճառով։",
+            "causes": "Սարքը կարող է չմեկնարկել կամ անջատել պաշտպանական ավտոմատը։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-main-control-board-failure",
+            "title": "Bosch հիմնական կառավարման պլատայի խափանում",
+            "sign": "Էլեկտրոնային բաղադրիչների վնասումը խաթարում է բոլոր հանգույցների համադրումը։",
+            "causes": "Անկայուն աշխատանք, կախումներ, ծրագրի ինքնաբերական կանգ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-power-button-malfunction",
+            "title": "Bosch միացման կոճակի անսարքություն",
+            "sign": "Կոճակի կոնտակտները մաշվում են կամ դադարում են փակել շղթան։",
+            "causes": "Սեղմելիս հոսանքը չի միանում, սարքը չի արձագանքում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-pump-failure",
+            "title": "Bosch ջրահեռացման պոմպի խափանում",
+            "sign": "Պոմպի շարժիչը չի գործարկվում կամ թիակները խցանվում են։",
+            "causes": "Ջուրը մնում է խցիկի ներսում ցիկլի ավարտից հետո։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drain-hose-blockage",
+            "title": "Bosch ջրահեռացման խողովակի խցանում",
+            "sign": "Յուղային կուտակումները կամ աղբը խոչընդոտում են ջրի արտահոսքը։",
+            "causes": "Դանդաղ ջրահեռացում կամ դրա լիակատար բացակայություն։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-filter-clog",
+            "title": "Bosch ֆիլտրի աղտոտում",
+            "sign": "Ֆիլտրող տարրը լցված է սննդի մնացորդներով։",
+            "causes": "Առաջանում է տհաճ հոտ և խանգարվում է ջրի շրջանառությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-pressure-switch-fault",
+            "title": "Bosch ճնշման ռելեի անսարքություն",
+            "sign": "Ջրի մակարդակի տվիչը փոխանցում է սխալ տվյալներ համակարգին։",
+            "causes": "Ծրագիրը կարող է կանգ առնել կամ չգործարկել ջրահեռացումը։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-water-inlet-valve-defect",
+            "title": "Bosch մուտքային փականի անսարքություն",
+            "sign": "Կառավարման ազդանշանի դեպքում փականը չի բացվում։",
+            "causes": "Ջուրը չի մտնում խցիկ ցիկլի սկզբում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-aquastop-activated",
+            "title": "Bosch Aquastop համակարգի ակտիվացում",
+            "sign": "Պաշտպանական համակարգը դադարեցնում է ջրի մատակարարումը արտահոսքի հայտնաբերման դեպքում։",
+            "causes": "Մեքենան չի լցնում ջուր և կարող է ցուցադրել սխալ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-flow-meter-error",
+            "title": "Bosch հոսքաչափի սխալ",
+            "sign": "Հոսքի տվիչը սխալ է գրանցում մուտք գործող ջրի ծավալը։",
+            "causes": "Ցիկլը ընդհատվում է կամ կատարվում է ջրի անբավարար լցմամբ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-gasket-damage",
+            "title": "Bosch դռան հերմետիկի վնասում",
+            "sign": "Ռետինե մանժետը կորցնում է էլաստիկությունը կամ ձևախախտվում է։",
+            "causes": "Լվացման ընթացքում դռան տակից արտահոսք է առաջանում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-hose-connection-leak",
+            "title": "Bosch խողովակների միացման արտահոսք",
+            "sign": "Թուլացած ամրացումները կամ միկրոճաքերը առաջացնում են արտահոսք։",
+            "causes": "Սարքի տակ ջուր է կուտակվում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-pump-leak",
+            "title": "Bosch շրջանառության պոմպի արտահոսք",
+            "sign": "Պոմպի կորպուսի հերմետիկների մաշվածությունը հանգեցնում է ջրի ներթափանցմանը ներքևի հատված։",
+            "causes": "Արտահոսքի պաշտպանությունը ակտիվանում է, ծրագիրը կանգ է առնում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-leak-sensor-triggered",
+            "title": "Bosch արտահոսքի տվիչի ակտիվացում",
+            "sign": "Սենսորը արձանագրում է ջրի առկայությունը կորպուսի հիմքում։",
+            "causes": "Նոր ցիկլը չի մեկնարկում, ցուցադրվում է սխալի կոդ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-failure",
+            "title": "Bosch տաքացուցիչի անսարքություն",
+            "sign": "ՏԵՆ-ը դադարում է տաքացնել ջուրը այրման կամ շղթայի խզման պատճառով։",
+            "causes": "Լվացումը անցնում է առանց տաքացման, մաքրման որակը վատանում է։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ntc-sensor-defect",
+            "title": "Bosch ջերմաստիճանի տվիչի խափանում",
+            "sign": "NTC տվիչը փոխանցում է սխալ ջերմաստիճանային տվյալներ։",
+            "causes": "Տաքացման ծրագիրը աշխատում է անկայուն կամ ավարտվում է սխալով։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heater-relay-burnt",
+            "title": "Bosch տաքացման ռելեի այրում",
+            "sign": "Կառավարման պլատայի վրա ռելեի կոնտակտը վնասված է գերբեռնվածությունից։",
+            "causes": "Տաքացումը չի միանում նույնիսկ աշխատող ՏԵՆ-ի դեպքում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drying-fan-failure",
+            "title": "Bosch չորացման օդափոխիչի անսարքություն",
+            "sign": "Օդափոխիչը չի ապահովում տաք օդի շրջանառություն։",
+            "causes": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ventilation-channel-blockage",
+            "title": "Bosch օդափոխության ալիքի խցանում",
+            "sign": "Խցիկից խոնավ օդի դուրսբերումը խանգարվում է։",
+            "causes": "Չորացման արդյունավետությունը զգալիորեն նվազում է։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-overheat",
+            "title": "Bosch տաքացուցիչի գերտաքացում",
+            "sign": "Տարրը գերտաքանում է անսարք տվիչի կամ քարի կուտակման պատճառով։",
+            "causes": "Ցիկլը ընդհատվում է պաշտպանական համակարգի կողմից։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-pump-failure",
+            "title": "Bosch շրջանառության պոմպի խափանում",
+            "sign": "Պոմպը չի ստեղծում բավարար ճնշում ջուրը ցողելու համար։",
+            "causes": "Սպասքը վատ է լվացվում, լսվում է կողմնակի աղմուկ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-spray-arm-obstruction",
+            "title": "Bosch ցողիչի արգելափակում",
+            "sign": "Ցողիչի անցքերը փակված են սննդի մնացորդներով։",
+            "causes": "Ջուրը բաշխվում է անհավասարաչափ։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-spray-arm-clog",
+            "title": "Bosch ցողիչի վարդակների խցանում",
+            "sign": "Հանքային կուտակումները խանգարում են պտտմանը և ճնշմանը։",
+            "causes": "Սպասքի վրա մնում են կեղտեր։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-detergent-dispenser-fault",
+            "title": "Bosch լվացող միջոցի դոզատորի անսարքություն",
+            "sign": "Դոզատորի կափարիչը չի բացվում անհրաժեշտ պահին։",
+            "causes": "Լվացող միջոցը չի լուծվում լվացման ընթացքում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-lock-failure",
+            "title": "Bosch դռան փականի խափանում",
+            "sign": "Արգելափակման մեխանիզմը չի ֆիքսում դռան փակումը։",
+            "causes": "Ծրագիրը չի մեկնարկում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-hinge-damage",
+            "title": "Bosch դռան ծխնիների վնասում",
+            "sign": "Ծխնիների մաշվածությունը առաջացնում է դռան շեղում։",
+            "causes": "Դուռը փակվում է ուժով կամ չի պահվում։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-sensor-fault",
+            "title": "Bosch դռան տվիչի սխալ",
+            "sign": "Տվիչը չի որոշում դռան դիրքը։",
+            "causes": "Ծրագրի մեկնարկը արգելափակվում է անվտանգության համակարգի կողմից։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-short-circuit",
+            "title": "Bosch տաքացուցիչի կարճ միացում",
+            "sign": "ՏԵՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "causes": "Պաշտպանական ավտոմատը անջատում է սնուցումը մեկնարկի պահին։",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-circulation-pump-short-circuit",
+            "title": "Bosch շրջանառության պոմպի կարճ միացում",
+            "sign": "Շարժիչի փաթաթման վնասումը հանգեցնում է ցանցի գերբեռնվածության։",
+            "causes": "Էլեկտրական ավտոմատը ակտիվանում է ծրագրի մեկնարկին։",
+            "slugs": []
+        }
+    ]
+}

@@ -1,0 +1,330 @@
+{
+    "indexPageTitle": "Hitachi սառնարանների վերանորոգում",
+    "title": "Hitachi սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/hitachi/",
+
+    "items": [
+        {
+            "slug": "hitachi-fridge-not-cooling",
+            "title": "Холодильник Hitachi не охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Сбой работы инверторного компрессора или нарушена циркуляция холодного воздуха",
+            "slugs": [
+                "hitachi-inverter-compressor-failure",
+                "hitachi-refrigerant-leak",
+                "hitachi-capillary-blockage",
+                "hitachi-evaporator-fan-failure",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-freezer-not-freezing",
+            "title": "Морозильная камера Hitachi не замораживает",
+            "sign": "Продукты в морозильной камере становятся мягкими",
+            "causes": "Недостаток холода из-за слабой циркуляции или потери мощности охлаждения",
+            "slugs": [
+                "hitachi-inverter-compressor-failure",
+                "hitachi-refrigerant-leak",
+                "hitachi-defrost-heater-failure",
+                "hitachi-temperature-sensor-error",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-running-continuously",
+            "title": "Холодильник Hitachi работает без остановки",
+            "sign": "Компрессор не отключается длительное время",
+            "causes": "Система не достигает установленных температурных показателей",
+            "slugs": [
+                "hitachi-refrigerant-leak",
+                "hitachi-door-gasket-worn",
+                "hitachi-temperature-sensor-error",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-not-powering-on",
+            "title": "Холодильник Hitachi не включается",
+            "sign": "Нет подсветки и признаков работы",
+            "causes": "Сбой питания или неполадки на основной плате управления",
+            "slugs": [
+                "hitachi-power-cord-damaged",
+                "hitachi-start-relay-failure",
+                "hitachi-inverter-compressor-failure",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-water-leak",
+            "title": "Холодильник Hitachi протекает",
+            "sign": "Вода скапливается под прибором или внутри камеры",
+            "causes": "Нарушена работа системы отвода талой воды",
+            "slugs": [
+                "hitachi-drain-hole-clog",
+                "hitachi-drain-line-frozen",
+                "hitachi-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-ice-build-up",
+            "title": "В холодильнике Hitachi образуется лёд",
+            "sign": "Иней и ледяная корка на стенках или испарителе",
+            "causes": "Сбой системы автоматической разморозки или компонентов No Frost",
+            "slugs": [
+                "hitachi-defrost-heater-failure",
+                "hitachi-defrost-sensor-failure",
+                "hitachi-door-gasket-worn",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-making-noise",
+            "title": "Холодильник Hitachi шумит",
+            "sign": "Посторонние звуки, вибрация или гул во время работы",
+            "causes": "Износ компрессора или вентилятора, неправильная установка",
+            "slugs": [
+                "hitachi-inverter-compressor-wear",
+                "hitachi-evaporator-fan-failure",
+                "hitachi-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-not-defrosting",
+            "title": "Холодильник Hitachi не размораживается",
+            "sign": "Испаритель покрыт льдом, оттайка не выполняется",
+            "causes": "Сбой системы автоматической разморозки",
+            "slugs": [
+                "hitachi-defrost-heater-failure",
+                "hitachi-defrost-timer-error",
+                "hitachi-defrost-sensor-failure",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-light-not-working",
+            "title": "Не работает подсветка холодильника Hitachi",
+            "sign": "LED-лампы не загораются при открытии двери",
+            "causes": "Поломка ламп или дверного датчика",
+            "slugs": [
+                "hitachi-led-lamp-failure",
+                "hitachi-door-switch-failure",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Hitachi",
+            "sign": "Запах сохраняется даже после очистки",
+            "causes": "Засор дренажа, плесень или остатки испорченных продуктов",
+            "slugs": [
+                "hitachi-drain-hole-clog",
+                "hitachi-mold-growth",
+                "hitachi-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-overfreezing",
+            "title": "Холодильник Hitachi перемораживает продукты",
+            "sign": "Продукты покрываются льдом в холодильной зоне",
+            "causes": "Некорректная работа датчиков температуры или заслонки воздуха",
+            "slugs": [
+                "hitachi-temperature-sensor-error",
+                "hitachi-air-damper-stuck",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hitachi-fridge-trips-breaker",
+            "title": "Холодильник Hitachi выбивает автомат",
+            "sign": "Срабатывает защитный автомат при включении",
+            "causes": "Короткое замыкание или пробой электрических компонентов",
+            "slugs": [
+                "hitachi-compressor-short-circuit",
+                "hitachi-heater-short-circuit",
+                "hitachi-noise-filter-burnt",
+                "hitachi-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "hitachi-inverter-compressor-failure",
+            "title": "Поломка инверторного компрессора Hitachi",
+            "sign": "Холодильник не набирает холод или вовсе не запускается",
+            "causes": "Износ компрессора, перегрев обмоток или заклинивание двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Hitachi",
+            "sign": "Недостаточное охлаждение и постоянная работа компрессора",
+            "causes": "Разгерметизация трубопровода или микротрещины в контуре хладагента",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-capillary-blockage",
+            "title": "Засор капиллярной трубки Hitachi",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка капилляра влагой или продуктами износа системы",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-evaporator-fan-failure",
+            "title": "Неисправность вентилятора испарителя Hitachi",
+            "sign": "В морозильной камере холод есть, в холодильной — отсутствует",
+            "causes": "Поломка двигателя вентилятора или обрыв питающей цепи",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-main-control-board-failure",
+            "title": "Сбой основной платы управления Hitachi",
+            "sign": "Холодильник работает неправильно или не реагирует на настройки",
+            "causes": "Неисправность электронных компонентов платы или короткое замыкание",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-door-gasket-worn",
+            "title": "Износ уплотнителя дверцы холодильника Hitachi",
+            "sign": "Воздух проходит внутрь камеры, холодильник не достигает нужной температуры",
+            "causes": "Механическое повреждение, деформация или старение резины уплотнителя",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-power-cord-damaged",
+            "title": "Поврежден сетевой кабель питания Hitachi",
+            "sign": "Холодильник не включается, нет индикации",
+            "causes": "Механические повреждения, перегибы или короткое замыкание в проводе",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-start-relay-failure",
+            "title": "Неисправность пускового реле Hitachi",
+            "sign": "Компрессор не запускается, холодильник молчит при включении",
+            "causes": "Выход из строя контактов реле или перегрев обмотки",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-drain-hole-clog",
+            "title": "Засор дренажного отверстия Hitachi",
+            "sign": "Вода скапливается на дне холодильника",
+            "causes": "Загрязнение талой водой, остатками пищи или пылью",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-drain-line-frozen",
+            "title": "Замерзание дренажной трубки Hitachi",
+            "sign": "Талая вода не уходит, скапливается внутри камеры",
+            "causes": "Низкая температура внутри канала отвода и засорение трубки",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-drip-tray-damage",
+            "title": "Повреждение поддона для конденсата Hitachi",
+            "sign": "Вода течёт под холодильником",
+            "causes": "Трещины или деформация поддона, механическое повреждение",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-defrost-heater-failure",
+            "title": "Неисправность нагревателя разморозки Hitachi",
+            "sign": "Испаритель покрыт льдом, оттайка не выполняется",
+            "causes": "Сбой электрической цепи нагревателя или обрыв спирали",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-defrost-sensor-failure",
+            "title": "Неисправность датчика оттайки Hitachi",
+            "sign": "Оттайка не запускается, испаритель обмерзает",
+            "causes": "Сбой датчика температуры или потеря контакта в цепи",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-inverter-compressor-wear",
+            "title": "Износ инверторного компрессора Hitachi",
+            "sign": "Появление шума, вибрации и снижение производительности",
+            "causes": "Механическое старение деталей и подшипников компрессора",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-condenser-fan-failure",
+            "title": "Неисправность вентилятора конденсатора Hitachi",
+            "sign": "Шум и недостаточное охлаждение конденсора",
+            "causes": "Заклинивание двигателя вентилятора или обрыв питающей цепи",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-defrost-timer-error",
+            "title": "Сбой таймера разморозки Hitachi",
+            "sign": "Система оттайки не запускается вовремя",
+            "causes": "Механический или электрический отказ таймера",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-led-lamp-failure",
+            "title": "Неисправность LED-подсветки Hitachi",
+            "sign": "Лампы не загораются при открытии дверцы",
+            "causes": "Выход из строя светодиодного модуля или нарушение контакта",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-door-switch-failure",
+            "title": "Неисправность дверного выключателя Hitachi",
+            "sign": "Подсветка не включается, система не понимает, что дверь открыта",
+            "causes": "Выход из строя концевого выключателя или окисление контактов",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-mold-growth",
+            "title": "Рост плесени в холодильнике Hitachi",
+            "sign": "Появляется неприятный запах и пятна плесени",
+            "causes": "Высокая влажность и несвоевременная очистка камер",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов Hitachi",
+            "sign": "Стойкий неприятный запах в холодильной камере",
+            "causes": "Неправильное хранение продуктов и засор дренажной системы",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-air-damper-stuck",
+            "title": "Заклинившая воздушная заслонка Hitachi",
+            "sign": "Некорректная циркуляция холодного воздуха, продукты перемораживаются",
+            "causes": "Механическая блокировка заслонки или поломка мотора привода",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-temperature-sensor-error",
+            "title": "Ошибка датчика температуры Hitachi",
+            "sign": "Неправильное поддержание температуры в холодильной или морозильной камере",
+            "causes": "Сбой датчика, потеря контакта или короткое замыкание",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Hitachi",
+            "sign": "Срабатывает автомат при включении холодильника",
+            "causes": "Разрыв изоляции проводов, перегрев или контактные проблемы",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя оттайки Hitachi",
+            "sign": "Автомат защиты отключает питание",
+            "causes": "Выход из строя нагревательного элемента или повреждение проводки",
+            "slugs": []
+        },
+        {
+            "slug": "hitachi-noise-filter-burnt",
+            "title": "Сгорел фильтр шумоподавления Hitachi",
+            "sign": "Срабатывает защитный автомат при включении",
+            "causes": "Перегрузка сети или короткое замыкание внутри фильтра",
+            "slugs": []
+        }
+
+    ]
+}

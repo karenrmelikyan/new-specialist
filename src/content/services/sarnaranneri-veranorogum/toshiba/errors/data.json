@@ -1,0 +1,293 @@
+{
+    "indexPageTitle": "Toshiba սառնարանների վերանորոգում",
+    "title": "Toshiba սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/toshiba/errors/",
+
+    "items": [
+        {
+            "slug": "toshiba-fridge-error-e1",
+            "title": "Ошибка E1 датчика температуры холодильной камеры холодильника Toshiba",
+            "sign": "Основная камера не удерживает установленную температуру",
+            "causes": "Нарушена работа температурного сенсора холодильного отделения либо его цепи",
+            "slugs": [
+                "toshiba-fridge-fridge-temp-sensor-malfunction",
+                "toshiba-fridge-sensor-wiring-disruption"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e2",
+            "title": "Ошибка E2 датчика температуры морозильной камеры холодильника Toshiba",
+            "sign": "Морозильное отделение охлаждает нестабильно",
+            "causes": "Сенсор морозильной зоны передаёт некорректные данные или отключён",
+            "slugs": [
+                "toshiba-fridge-freezer-temp-sensor-failure",
+                "toshiba-fridge-sensor-connection-fault"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e3",
+            "title": "Ошибка E3 системы автоматической оттайки холодильника Toshiba",
+            "sign": "На испарителе образуется чрезмерная наледь",
+            "causes": "Нагреватель размораживания или датчик испарителя не функционируют корректно",
+            "slugs": [
+                "toshiba-fridge-defrost-heater-problem",
+                "toshiba-fridge-evaporator-sensor-defect"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e4",
+            "title": "Ошибка E4 вентилятора охлаждения холодильника Toshiba",
+            "sign": "Циркуляция воздуха внутри камер ослаблена",
+            "causes": "Двигатель вентилятора работает с перебоями либо заблокирован",
+            "slugs": [
+                "toshiba-fridge-fan-motor-issue",
+                "toshiba-fridge-airflow-channel-obstruction"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e5",
+            "title": "Ошибка E5 заслонки распределения воздуха холодильника Toshiba",
+            "sign": "Температурный баланс между отделениями нарушен",
+            "causes": "Привод воздушной заслонки не реагирует на управляющие сигналы",
+            "slugs": [
+                "toshiba-fridge-damper-control-failure",
+                "toshiba-fridge-air-distribution-malfunction"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e6",
+            "title": "Ошибка E6 инверторного компрессора холодильника Toshiba",
+            "sign": "Компрессор запускается с задержкой или отключается",
+            "causes": "Система управления компрессором фиксирует отклонения в работе",
+            "slugs": [
+                "toshiba-fridge-inverter-module-fault",
+                "toshiba-fridge-compressor-drive-error"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e7",
+            "title": "Ошибка E7 платы управления холодильника Toshiba",
+            "sign": "Электронная панель работает нестабильно",
+            "causes": "Сбой основной платы приводит к нарушению алгоритмов охлаждения",
+            "slugs": [
+                "toshiba-fridge-main-board-malfunction",
+                "toshiba-fridge-control-logic-error"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e8",
+            "title": "Ошибка E8 датчика окружающей температуры холодильника Toshiba",
+            "sign": "Система некорректно адаптирует режим к условиям помещения",
+            "causes": "Внешний температурный сенсор передаёт искажённые значения",
+            "slugs": [
+                "toshiba-fridge-ambient-sensor-issue",
+                "toshiba-fridge-signal-transfer-problem"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-e9",
+            "title": "Ошибка E9 системы охлаждения холодильника Toshiba",
+            "sign": "Температура постепенно повышается при работающем компрессоре",
+            "causes": "Возможна утечка хладагента либо снижение давления в контуре",
+            "slugs": [
+                "toshiba-fridge-refrigerant-leak-detection",
+                "toshiba-fridge-cooling-circuit-pressure-drop"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-cf",
+            "title": "Ошибка CF связи модулей холодильника Toshiba",
+            "sign": "Дисплей и электронный блок не синхронизируются",
+            "causes": "Нарушен обмен данными между платами устройства",
+            "slugs": [
+                "toshiba-fridge-communication-bus-error",
+                "toshiba-fridge-display-module-connection-fault"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-po",
+            "title": "Ошибка PO перебоя питания холодильника Toshiba",
+            "sign": "После восстановления электроснабжения отображается предупреждение",
+            "causes": "Система зафиксировала временное отключение электричества",
+            "slugs": [
+                "toshiba-fridge-power-failure-recorded"
+            ]
+        },
+        {
+            "slug": "toshiba-fridge-error-door",
+            "title": "Ошибка неплотно закрытой дверцы холодильника Toshiba",
+            "sign": "Раздаётся звуковой сигнал и повышается температура внутри",
+            "causes": "Дверца закрыта не полностью либо нарушена герметичность уплотнителя",
+            "slugs": [
+                "toshiba-fridge-door-seal-damage",
+                "toshiba-fridge-door-alignment-misalignment"
+            ]
+        },
+
+        {
+            "slug": "toshiba-fridge-fridge-temp-sensor-malfunction",
+            "title": "Некорректная работа датчика температуры холодильной камеры Toshiba",
+            "sign": "Температурный режим в основном отделении становится непредсказуемым",
+            "causes": "Чувствительный элемент теряет точность измерения либо выходит из допустимого диапазона сопротивления",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-sensor-wiring-disruption",
+            "title": "Нарушение проводки температурного сенсора Toshiba",
+            "sign": "Контроллер получает прерывистые или отсутствующие сигналы",
+            "causes": "Повреждение кабельной линии или скрытый обрыв в соединении",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-freezer-temp-sensor-failure",
+            "title": "Отказ датчика температуры морозильной зоны Toshiba",
+            "sign": "Морозильное отделение не достигает стабильного охлаждения",
+            "causes": "Измерительный сенсор передаёт искажённые значения в систему управления",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-sensor-connection-fault",
+            "title": "Дефект соединения температурного датчика Toshiba",
+            "sign": "Показатели температуры отображаются с перебоями",
+            "causes": "Ослабленный разъём или окислённые контакты нарушают электрическую цепь",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-defrost-heater-problem",
+            "title": "Неисправность нагревательного элемента оттайки Toshiba",
+            "sign": "Испаритель покрывается слоем льда без автоматического удаления",
+            "causes": "ТЭН размораживания не активируется либо не получает питание",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-evaporator-sensor-defect",
+            "title": "Сбой датчика испарителя Toshiba",
+            "sign": "Цикл размораживания выполняется некорректно",
+            "causes": "Сенсор температуры испарителя фиксирует ошибочные данные",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-fan-motor-issue",
+            "title": "Нестабильная работа вентилятора охлаждения Toshiba",
+            "sign": "Воздушный поток внутри камер заметно ослаблен",
+            "causes": "Износ двигателя или механическое препятствие замедляют вращение крыльчатки",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-airflow-channel-obstruction",
+            "title": "Перекрытие каналов циркуляции воздуха Toshiba",
+            "sign": "Температура распределяется неравномерно между зонами хранения",
+            "causes": "Лёд или загрязнения блокируют внутренние воздушные магистрали",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-damper-control-failure",
+            "title": "Сбой управления воздушной заслонкой Toshiba",
+            "sign": "Один отсек переохлаждается, другой остаётся тёплым",
+            "causes": "Привод заслонки не реагирует на команды электронного модуля",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-air-distribution-malfunction",
+            "title": "Нарушение распределения холодного потока Toshiba",
+            "sign": "Охлаждение концентрируется в одной зоне",
+            "causes": "Механизм регулировки воздушных потоков работает с перебоями",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-inverter-module-fault",
+            "title": "Неисправность инверторного модуля Toshiba",
+            "sign": "Компрессор меняет обороты хаотично или не запускается",
+            "causes": "Силовая электроника не формирует стабильное питание двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-compressor-drive-error",
+            "title": "Ошибка управления приводом компрессора Toshiba",
+            "sign": "Компрессор отключается вскоре после старта",
+            "causes": "Система фиксирует отклонения в параметрах работы двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-main-board-malfunction",
+            "title": "Неисправность основной электронной платы Toshiba",
+            "sign": "Устройство реагирует на команды с задержкой",
+            "causes": "Повреждение элементов схемы нарушает алгоритмы обработки сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-control-logic-error",
+            "title": "Ошибка логики управления Toshiba",
+            "sign": "Температурные настройки не сохраняются",
+            "causes": "Сбой программной части модуля управления",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-ambient-sensor-issue",
+            "title": "Некорректная работа датчика окружающей температуры Toshiba",
+            "sign": "Охлаждение не соответствует условиям помещения",
+            "causes": "Сенсор внешней среды передаёт неточные значения",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-signal-transfer-problem",
+            "title": "Нарушение передачи сигнала между модулями Toshiba",
+            "sign": "Функции устройства работают несогласованно",
+            "causes": "Сбой внутренней коммуникационной линии",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-refrigerant-leak-detection",
+            "title": "Обнаружение утечки хладагента Toshiba",
+            "sign": "Охлаждение постепенно ослабевает",
+            "causes": "Потеря герметичности приводит к снижению рабочего давления",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-cooling-circuit-pressure-drop",
+            "title": "Падение давления в холодильном контуре Toshiba",
+            "sign": "Компрессор работает без достижения требуемого эффекта",
+            "causes": "Недостаточный объём хладагента нарушает цикл теплообмена",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-communication-bus-error",
+            "title": "Ошибка внутренней шины связи Toshiba",
+            "sign": "Модули не обмениваются данными корректно",
+            "causes": "Нестабильность канала передачи сигналов между платами",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-display-module-connection-fault",
+            "title": "Нарушение подключения панели индикации Toshiba",
+            "sign": "Информация на дисплее отображается некорректно",
+            "causes": "Повреждение шлейфа или контактной группы панели",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-power-failure-recorded",
+            "title": "Фиксация отключения электропитания Toshiba",
+            "sign": "После включения отображается предупреждение о сбое",
+            "causes": "Система зарегистрировала кратковременное отсутствие напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-door-seal-damage",
+            "title": "Повреждение уплотнителя дверцы Toshiba",
+            "sign": "Температура внутри постепенно повышается",
+            "causes": "Уплотнительная резина утратила герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "toshiba-fridge-door-alignment-misalignment",
+            "title": "Смещение дверцы Toshiba",
+            "sign": "Дверца закрывается неплотно",
+            "causes": "Нарушено положение петель или креплений",
+            "slugs": []
+        }
+    ]
+}

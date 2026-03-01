@@ -1,0 +1,358 @@
+{
+    "indexPageTitle": "Indesit լվացքի մեքենաների վերանորոգում",
+    "title": "Indesit լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/indesit/",
+
+    "items": [
+        {
+            "slug": "indesit-no-spin",
+            "title": "Стиральная машина Indesit не отжимает",
+            "sign": "Бельё остаётся мокрым, барабан не выходит на высокие обороты",
+            "causes": "Нарушена работа системы отжима стиральной машины Indesit",
+            "slugs": [
+                "indesit-motor-brush-wear",
+                "indesit-drive-belt-worn",
+                "indesit-tachosensor-failure",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-no-drain",
+            "title": "Стиральная машина Indesit не сливает воду",
+            "sign": "После стирки вода остаётся в баке",
+            "causes": "Не функционирует система слива воды стиральной машины Indesit",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-clogged-filter",
+                "indesit-drain-hose-blocked",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-not-filling",
+            "title": "Стиральная машина Indesit не набирает воду",
+            "sign": "После запуска вода не поступает в барабан",
+            "causes": "Нарушена система подачи воды стиральной машины Indesit",
+            "slugs": [
+                "indesit-inlet-valve-failure",
+                "indesit-water-pressure-low",
+                "indesit-pressure-switch-failure",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-no-heat",
+            "title": "Стиральная машина Indesit не греет воду",
+            "sign": "Стирка проходит в холодной воде на любой программе",
+            "causes": "Не работает система нагрева воды стиральной машины Indesit",
+            "slugs": [
+                "indesit-heating-element-burned",
+                "indesit-temperature-sensor-failure",
+                "indesit-heater-relay-failure",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-leak",
+            "title": "Стиральная машина Indesit протекает",
+            "sign": "Под машиной появляется вода во время работы",
+            "causes": "Нарушена герметичность узлов стиральной машины Indesit",
+            "slugs": [
+                "indesit-door-gasket-damaged",
+                "indesit-tank-hose-cracked",
+                "indesit-pump-seal-leak"
+            ]
+        },
+        {
+            "slug": "indesit-not-starting",
+            "title": "Стиральная машина Indesit не включается",
+            "sign": "Индикация не загорается, машина не реагирует",
+            "causes": "Проблема с подачей питания или системой управления",
+            "slugs": [
+                "indesit-power-cord-damaged",
+                "indesit-power-filter-failure",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-door-locked",
+            "title": "Стиральная машина Indesit не открывает люк",
+            "sign": "После окончания программы дверца остаётся заблокированной",
+            "causes": "Неисправность механизма блокировки люка",
+            "slugs": [
+                "indesit-door-lock-failure",
+                "indesit-water-not-drained",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-noisy",
+            "title": "Стиральная машина Indesit шумит при отжиме",
+            "sign": "Появляется гул, стук или металлический скрежет",
+            "causes": "Износ вращающихся узлов или попадание посторонних предметов",
+            "slugs": [
+                "indesit-drum-bearing-worn",
+                "indesit-foreign-object-in-drum",
+                "indesit-counterweight-loose"
+            ]
+        },
+        {
+            "slug": "indesit-vibrates",
+            "title": "Стиральная машина Indesit сильно вибрирует",
+            "sign": "Корпус трясётся и смещается при отжиме",
+            "causes": "Нарушена балансировка барабана или изношены амортизаторы",
+            "slugs": [
+                "indesit-shock-absorber-worn",
+                "indesit-spring-damaged",
+                "indesit-uneven-installation"
+            ]
+        },
+        {
+            "slug": "indesit-stops-mid-cycle",
+            "title": "Стиральная машина Indesit останавливается во время стирки",
+            "sign": "Программа зависает и не завершается",
+            "causes": "Сбой в работе двигателя, датчиков или платы управления",
+            "slugs": [
+                "indesit-motor-overheat",
+                "indesit-pressure-switch-failure",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-error-code",
+            "title": "Стиральная машина Indesit показывает ошибку",
+            "sign": "На панели мигают индикаторы или отображается код ошибки",
+            "causes": "Система самодиагностики выявила неисправность",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-temperature-sensor-failure",
+                "indesit-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "indesit-trips-breaker",
+            "title": "Стиральная машина Indesit выбивает автомат",
+            "sign": "При запуске срабатывает защита и отключается питание",
+            "causes": "Короткое замыкание в электрической цепи",
+            "slugs": [
+                "indesit-motor-short",
+                "indesit-heating-element-short",
+                "indesit-wiring-damage"
+            ]
+        },
+        {
+            "slug": "indesit-motor-brush-wear",
+            "title": "Износ щёток двигателя Indesit",
+            "sign": "Барабан не развивает обороты или вращается рывками",
+            "causes": "Щётки стерлись и не обеспечивают контакт",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drive-belt-worn",
+            "title": "Изношен приводной ремень Indesit",
+            "sign": "Барабан не вращается при работающем двигателе",
+            "causes": "Ремень растянут или порвался",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-tachosensor-failure",
+            "title": "Неисправен тахогенератор Indesit",
+            "sign": "Отжим проходит на неправильных оборотах",
+            "causes": "Датчик оборотов не передаёт корректные данные",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-pump-failure",
+            "title": "Неисправен сливной насос Indesit",
+            "sign": "Вода не откачивается из бака",
+            "causes": "Помпа заклинила или перегорела",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-clogged-filter",
+            "title": "Засорён фильтр Indesit",
+            "sign": "Слив воды происходит медленно",
+            "causes": "Фильтр забит мусором",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-hose-blocked",
+            "title": "Засор сливного шланга Indesit",
+            "sign": "Вода остаётся внутри бака",
+            "causes": "Шланг загрязнён или пережат",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Indesit",
+            "sign": "Вода не поступает в бак",
+            "causes": "Клапан не открывается из-за поломки катушки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-pressure-switch-failure",
+            "title": "Неисправен прессостат Indesit",
+            "sign": "Машина неправильно определяет уровень воды",
+            "causes": "Датчик уровня воды не передаёт сигнал",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-burned",
+            "title": "Сгорел ТЭН Indesit",
+            "sign": "Вода не нагревается",
+            "causes": "Перегорание нагревательного элемента",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-temperature-sensor-failure",
+            "title": "Неисправен датчик температуры Indesit",
+            "sign": "Температура воды не соответствует программе",
+            "causes": "Термодатчик передаёт некорректные данные",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heater-relay-failure",
+            "title": "Неисправно реле нагрева Indesit",
+            "sign": "ТЭН исправен, но нагрева нет",
+            "causes": "Реле не подаёт питание на нагревательный элемент",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-electronic-module-failure",
+            "title": "Неисправен электронный модуль управления Indesit",
+            "sign": "Машина не реагирует на команды или работает нестабильно",
+            "causes": "Повреждение платы управления или сбой прошивки",
+            "slugs": []
+        },
+                {
+            "slug": "indesit-door-gasket-damaged",
+            "title": "Повреждена манжета люка Indesit",
+            "sign": "Вода подтекает из-под дверцы во время стирки",
+            "causes": "Резиновая манжета порвана или потеряла эластичность",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-tank-hose-cracked",
+            "title": "Трещина патрубка бака Indesit",
+            "sign": "Протечка усиливается при сливе воды",
+            "causes": "Патрубок растрескался или ослабло соединение",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-pump-seal-leak",
+            "title": "Протечка сальника насоса Indesit",
+            "sign": "Под машиной появляется вода в районе помпы",
+            "causes": "Износ уплотнительного элемента насоса",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-power-cord-damaged",
+            "title": "Повреждён сетевой шнур Indesit",
+            "sign": "Машина не включается или отключается при движении кабеля",
+            "causes": "Обрыв или перелом провода питания",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-power-filter-failure",
+            "title": "Неисправен сетевой фильтр Indesit",
+            "sign": "Стиральная машина Indesit не подаёт признаков жизни",
+            "causes": "Выход из строя помехоподавляющего фильтра",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-lock-failure",
+            "title": "Неисправен замок люка Indesit",
+            "sign": "Люк не блокируется или не открывается после стирки",
+            "causes": "Механизм блокировки не фиксирует дверцу",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-not-drained",
+            "title": "Вода не слита из бака Indesit",
+            "sign": "Люк остаётся заблокированным после программы",
+            "causes": "Остаточная вода не позволяет разблокировать дверцу",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drum-bearing-worn",
+            "title": "Изношены подшипники барабана Indesit",
+            "sign": "Сильный гул и вибрация при отжиме",
+            "causes": "Разрушение подшипников из-за износа или попадания влаги",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-foreign-object-in-drum",
+            "title": "Посторонний предмет в баке Indesit",
+            "sign": "Металлический скрежет при вращении барабана",
+            "causes": "Монета или другой предмет попал между баком и барабаном",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-counterweight-loose",
+            "title": "Ослаблено крепление противовеса Indesit",
+            "sign": "Глухой стук при отжиме",
+            "causes": "Разболтались крепёжные болты бетонного противовеса",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-shock-absorber-worn",
+            "title": "Изношены амортизаторы Indesit",
+            "sign": "Сильная вибрация корпуса при работе",
+            "causes": "Амортизаторы потеряли демпфирующие свойства",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-spring-damaged",
+            "title": "Повреждена подвесная пружина бака Indesit",
+            "sign": "Барабан смещён относительно корпуса",
+            "causes": "Пружина растянулась или лопнула",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-uneven-installation",
+            "title": "Неправильная установка Indesit",
+            "sign": "Машина смещается по полу при отжиме",
+            "causes": "Корпус установлен неровно или не отрегулированы ножки",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-motor-overheat",
+            "title": "Перегрев двигателя Indesit",
+            "sign": "Машина останавливается во время цикла и продолжает работу после остывания",
+            "causes": "Двигатель перегревается из-за перегрузки или износа щёток",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-motor-short",
+            "title": "Короткое замыкание двигателя Indesit",
+            "sign": "При запуске выбивает автомат защиты",
+            "causes": "Повреждение изоляции обмотки двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-short",
+            "title": "Короткое замыкание ТЭНа Indesit",
+            "sign": "При включении нагрева отключается питание",
+            "causes": "Пробой нагревательного элемента на корпус",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-wiring-damage",
+            "title": "Повреждена внутренняя проводка Indesit",
+            "sign": "Наблюдаются перебои в работе или запах гари",
+            "causes": "Оплавление или обрыв проводов внутри корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-pressure-low",
+            "title": "Слабое давление воды для Indesit",
+            "sign": "Вода набирается слишком медленно",
+            "causes": "Недостаточное давление в системе водоснабжения",
+            "slugs": []
+        }
+    ]
+}

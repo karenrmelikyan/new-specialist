@@ -1,0 +1,331 @@
+{
+    "indexPageTitle": "Hisense սառնարանների վերանորոգում",
+    "title": "Hisense սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/hisense/",
+
+    "items": [
+        {
+            "slug": "hisense-fridge-not-cooling",
+            "title": "Холодильник Hisense плохо охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Сбой работы компрессора или циркуляции холодного воздуха",
+            "slugs": [
+                "hisense-inverter-compressor-failure",
+                "hisense-refrigerant-leak",
+                "hisense-capillary-tube-blockage",
+                "hisense-evaporator-fan-failure",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-freezer-not-freezing",
+            "title": "Морозильная камера Hisense не замораживает",
+            "sign": "Продукты теряют заморозку и становятся мягкими",
+            "causes": "Недостаток холода или сбой распределения воздуха",
+            "slugs": [
+                "hisense-inverter-compressor-failure",
+                "hisense-refrigerant-leak",
+                "hisense-defrost-heater-failure",
+                "hisense-temperature-sensor-error",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-running-continuously",
+            "title": "Холодильник Hisense работает без остановки",
+            "sign": "Компрессор не отключается длительное время",
+            "causes": "Система не достигает заданной температуры",
+            "slugs": [
+                "hisense-refrigerant-leak",
+                "hisense-door-seal-worn",
+                "hisense-temperature-sensor-error",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-not-powering-on",
+            "title": "Холодильник Hisense не включается",
+            "sign": "Нет индикации, подсветка не загорается",
+            "causes": "Неисправность питания или сбой платы управления",
+            "slugs": [
+                "hisense-power-cord-damage",
+                "hisense-start-relay-failure",
+                "hisense-inverter-compressor-failure",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-water-leak",
+            "title": "Холодильник Hisense протекает",
+            "sign": "Вода собирается под прибором или внутри камеры",
+            "causes": "Нарушение отвода талой воды или конденсата",
+            "slugs": [
+                "hisense-drain-hole-clog",
+                "hisense-drain-line-frozen",
+                "hisense-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-ice-build-up",
+            "title": "Образование льда в холодильнике Hisense",
+            "sign": "Иней и ледяная корка на стенках или испарителе",
+            "causes": "Сбой системы No Frost или компонентов оттайки",
+            "slugs": [
+                "hisense-defrost-heater-failure",
+                "hisense-defrost-sensor-failure",
+                "hisense-door-seal-worn",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-making-noise",
+            "title": "Холодильник Hisense издает шум",
+            "sign": "Вибрации, гул или посторонние звуки во время работы",
+            "causes": "Износ компрессора или вентиляторов",
+            "slugs": [
+                "hisense-inverter-compressor-wear",
+                "hisense-evaporator-fan-failure",
+                "hisense-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-not-defrosting",
+            "title": "Холодильник Hisense не размораживается",
+            "sign": "Испаритель покрыт льдом, оттайка не происходит",
+            "causes": "Сбой цепи автоматической разморозки",
+            "slugs": [
+                "hisense-defrost-heater-failure",
+                "hisense-defrost-timer-error",
+                "hisense-defrost-sensor-failure",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-light-not-working",
+            "title": "Не работает подсветка холодильника Hisense",
+            "sign": "LED-подсветка не включается при открытии дверцы",
+            "causes": "Неисправность лампы или дверного датчика",
+            "slugs": [
+                "hisense-led-lamp-failure",
+                "hisense-door-switch-failure",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Hisense",
+            "sign": "Запах сохраняется после очистки",
+            "causes": "Засор дренажа, повышенная влажность или испорченные продукты",
+            "slugs": [
+                "hisense-drain-hole-clog",
+                "hisense-mold-growth",
+                "hisense-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-overfreezing",
+            "title": "Холодильник Hisense перемораживает продукты",
+            "sign": "Продукты покрываются льдом в холодильной зоне",
+            "causes": "Сбой датчиков температуры или заедание воздушной заслонки",
+            "slugs": [
+                "hisense-temperature-sensor-error",
+                "hisense-air-damper-stuck",
+                "hisense-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-fridge-trips-breaker",
+            "title": "Холодильник Hisense выбивает автомат",
+            "sign": "Защитный автомат отключает питание при включении",
+            "causes": "Короткое замыкание внутренних электрических компонентов",
+            "slugs": [
+                "hisense-compressor-short-circuit",
+                "hisense-heater-short-circuit",
+                "hisense-noise-filter-burnt",
+                "hisense-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "hisense-inverter-compressor-failure",
+            "title": "Поломка инверторного компрессора Hisense",
+            "sign": "Холодильник не охлаждает или работает нестабильно",
+            "causes": "Механический износ двигателя, перегрев или заклинивание ротора",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Hisense",
+            "sign": "Недостаточное охлаждение и постоянная работа компрессора",
+            "causes": "Нарушение герметичности трубопроводов или микротрещины в системе",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-capillary-tube-blockage",
+            "title": "Засор капиллярной трубки Hisense",
+            "sign": "Неравномерное охлаждение и перегрев компрессора",
+            "causes": "Закупорка трубки влагой или продуктами износа системы",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-evaporator-fan-failure",
+            "title": "Неисправность вентилятора испарителя Hisense",
+            "sign": "Холод поступает в морозильник, но не в холодильную камеру",
+            "causes": "Сбой работы двигателя вентилятора или обрыв цепи питания",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-main-control-board-failure",
+            "title": "Сбой электронной платы управления Hisense",
+            "sign": "Некорректная работа холодильника, ошибки индикации",
+            "causes": "Повреждение платы из-за скачков напряжения или износа компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-temperature-sensor-error",
+            "title": "Неисправность датчика температуры Hisense",
+            "sign": "Некорректное отображение температуры, перепады холода",
+            "causes": "Сбой в датчике, обрыв проводки или контактная коррозия",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-seal-worn",
+            "title": "Изношенный уплотнитель двери Hisense",
+            "sign": "Воздух проникает внутрь, холодильник работает дольше",
+            "causes": "Износ резины, деформация дверцы или неправильная установка",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-power-cord-damage",
+            "title": "Повреждён сетевой шнур Hisense",
+            "sign": "Холодильник не включается, нет питания",
+            "causes": "Излом или перетирание кабеля, контактная потеря",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-start-relay-failure",
+            "title": "Поломка пускового реле Hisense",
+            "sign": "Компрессор не запускается при включении",
+            "causes": "Сбой контактов реле, перегрев или выгорание контактов",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drain-hole-clog",
+            "title": "Засор дренажного отверстия Hisense",
+            "sign": "Вода скапливается внутри или под холодильником",
+            "causes": "Засорение остатками пищи, льдом или пылью",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drain-line-frozen",
+            "title": "Замерзшая дренажная трубка Hisense",
+            "sign": "Отвод талой воды заблокирован",
+            "causes": "Низкая температура внутри камеры, сбой работы нагревательного элемента No Frost",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drip-tray-damage",
+            "title": "Повреждён поддон для конденсата Hisense",
+            "sign": "Вода вытекает на пол или под корпус",
+            "causes": "Трещины или деформация поддона, неправильная установка",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-defrost-heater-failure",
+            "title": "Неисправность нагревателя разморозки Hisense",
+            "sign": "Лёд на испарителе не тает автоматически",
+            "causes": "Перегорел нагревательный элемент или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-defrost-sensor-failure",
+            "title": "Сбой датчика разморозки Hisense",
+            "sign": "Неправильная работа системы No Frost, образование льда",
+            "causes": "Поломка датчика температуры или потеря контакта",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-defrost-timer-error",
+            "title": "Сбой таймера разморозки Hisense",
+            "sign": "Оттайка не запускается по расписанию",
+            "causes": "Неисправность механического или электронного таймера",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-inverter-compressor-wear",
+            "title": "Износ инверторного компрессора Hisense",
+            "sign": "Гудение, шум или нестабильная работа",
+            "causes": "Длительная эксплуатация, трение подшипников, вибрация",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-condenser-fan-failure",
+            "title": "Поломка вентилятора конденсатора Hisense",
+            "sign": "Шум, перегрев конденсатора, снижение охлаждения",
+            "causes": "Износ двигателя или обрыв питающей цепи",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-led-lamp-failure",
+            "title": "Неисправность LED-подсветки Hisense",
+            "sign": "Подсветка не включается при открытии дверцы",
+            "causes": "Перегорел светодиодный модуль или повреждение проводки",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-switch-failure",
+            "title": "Сбой дверного переключателя Hisense",
+            "sign": "Подсветка не загорается, не фиксируется открытие дверцы",
+            "causes": "Поломка механизма или контактная коррозия",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-mold-growth",
+            "title": "Рост плесени в холодильнике Hisense",
+            "sign": "Неприятный запах и появление черных или зеленых пятен",
+            "causes": "Высокая влажность, остатки пищи или засор дренажа",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов Hisense",
+            "sign": "Запах сохраняется даже после очистки",
+            "causes": "Неправильное хранение, задержка продуктов или несвоевременная очистка",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-air-damper-stuck",
+            "title": "Залипание воздушной заслонки Hisense",
+            "sign": "Перемораживание продуктов или нестабильная температура",
+            "causes": "Механическая блокировка заслонки или поломка привода",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Hisense",
+            "sign": "Автомат срабатывает при включении холодильника",
+            "causes": "Перегорела обмотка или повреждена электрическая цепь",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя Hisense",
+            "sign": "Срабатывает защитный автомат при включении",
+            "causes": "Обрыв или замыкание проводки нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-noise-filter-burnt",
+            "title": "Сгорел фильтр шума Hisense",
+            "sign": "Автомат отключается при включении холодильника",
+            "causes": "Перегрузка электрической сети или сбой платы управления",
+            "slugs": []
+        }
+
+
+    ]
+}

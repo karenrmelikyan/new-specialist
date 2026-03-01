@@ -1,0 +1,334 @@
+{
+    "indexPageTitle": "Samsung սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Samsung սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/samsung/errors/",
+
+    "items": [
+        {
+            "slug": "samsung-dishwasher-error-e1",
+            "title": "Ошибка E1 подачи воды посудомоечной машины Samsung",
+            "sign": "Недостаток воды в баке",
+            "causes": "Закрыт или перегнут шланг, низкое давление, забит фильтр",
+            "slugs": [
+                "samsung-water-inlet-valve-blocked",
+                "samsung-low-water-pressure",
+                "samsung-inlet-hose-kink"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-4c",
+            "title": "Ошибка 4C/4E водоснабжения посудомоечной машины Samsung",
+            "sign": "Система не получает нужный объём или температуру воды",
+            "causes": "Плохое давление, холодная вода ниже нормы, проблемы с клапаном",
+            "slugs": [
+                "samsung-water-pressure-low",
+                "samsung-cold-water-too-low",
+                "samsung-inlet-valve-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e2",
+            "title": "Ошибка E2/5C слива воды посудомоечной машины Samsung",
+            "sign": "Вода остаётся в машине",
+            "causes": "Перегиб сливного шланга, засор фильтра, отказ насоса",
+            "slugs": [
+                "samsung-drain-hose-obstruction",
+                "samsung-drain-filter-blocked",
+                "samsung-drain-pump-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e3",
+            "title": "Ошибка E3/HC нагрева воды посудомоечной машины Samsung",
+            "sign": "Температура в баке некорректна",
+            "causes": "Неправильный вход воды, отказ нагревателя или датчика",
+            "slugs": [
+                "samsung-heating-element-fault",
+                "samsung-temperature-sensor-error",
+                "samsung-water-too-hot"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e4",
+            "title": "Ошибка E4 протечки посудомоечной машины Samsung",
+            "sign": "Срабатывание датчика утечки",
+            "causes": "Попадание воды в поддон, дефект уплотнений",
+            "slugs": [
+                "samsung-leak-sensor-triggered",
+                "samsung-door-gasket-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e5",
+            "title": "Ошибка E5 низкого уровня воды посудомоечной машины Samsung",
+            "sign": "Количество воды ниже нормы",
+            "causes": "Высокое положение шланга, неисправность датчика уровня",
+            "slugs": [
+                "samsung-water-level-sensor-fault",
+                "samsung-high-drain-hose-position"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e6",
+            "title": "Ошибка E6 температуры посудомоечной машины Samsung",
+            "sign": "Датчик температуры не даёт сигнал",
+            "causes": "Короткое замыкание или обрыв датчика",
+            "slugs": [
+                "samsung-temperature-sensor-short",
+                "samsung-temperature-sensor-open"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e8",
+            "title": "Ошибка E8 распределения воды посудомоечной машины Samsung",
+            "sign": "Нарушено распыление жидкости",
+            "causes": "Закрытый канал форсунки, блокировка сопел",
+            "slugs": [
+                "samsung-spray-arm-obstruction",
+                "samsung-water-distribution-valve-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-e9",
+            "title": "Ошибка E9 кнопок панели посудомоечной машины Samsung",
+            "sign": "Панель управления не реагирует",
+            "causes": "Залипание кнопки, инородное загрязнение контактов",
+            "slugs": [
+                "samsung-button-stuck",
+                "samsung-control-panel-moisture"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-ea",
+            "title": "Ошибка EA уровня воды посудомоечной машины Samsung",
+            "sign": "Переполнение или сбой датчика давления",
+            "causes": "Засор гидростата, неправильный слив",
+            "slugs": [
+                "samsung-pressure-sensor-blocked",
+                "samsung-hydro-sensor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-uc",
+            "title": "Ошибка UC питания посудомоечной машины Samsung",
+            "sign": "Нестабильное напряжение сети",
+            "causes": "Скачки электричества ниже или выше допустимых границ",
+            "slugs": [
+                "samsung-voltage-instability",
+                "samsung-power-surge-event"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-dc",
+            "title": "Ошибка dC дверцы посудомоечной машины Samsung",
+            "sign": "Дверца не зафиксирована",
+            "causes": "Неплотное закрытие замка, деформация защёлки",
+            "slugs": [
+                "samsung-door-latch-misalignment",
+                "samsung-door-lock-mechanism-fault"
+            ]
+        },
+
+        {
+            "slug": "samsung-water-inlet-valve-blocked",
+            "title": "Засор впускного клапана воды Samsung",
+            "sign": "Подача жидкости затруднена",
+            "causes": "Внутренний канал клапана частично закрыт мусором или отложениями, ограничивая поток",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-low-water-pressure",
+            "title": "Низкое давление воды Samsung",
+            "sign": "Вода поступает медленно или прерывисто",
+            "causes": "Недостаточный напор в магистрали мешает машине набрать необходимый объём",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-inlet-hose-kink",
+            "title": "Перегиб впускного шланга Samsung",
+            "sign": "Течение жидкости нарушено из‑за смещения трубы",
+            "causes": "Шланг перегнут или сдавлен, что препятствует нормальному протоку",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-pressure-low",
+            "title": "Снижение давления в системе Samsung",
+            "sign": "Подача жидкости ниже нормы",
+            "causes": "Плохое давление в подводящем контуре мешает достижению требуемого уровня воды",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-cold-water-too-low",
+            "title": "Низкая температура холодной воды Samsung",
+            "sign": "Подача слишком прохладной жидкости",
+            "causes": "Входящая вода не достигает минимальной температуры, заданной программой",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Samsung",
+            "sign": "Клапан не открывается или закрывается неправильно",
+            "causes": "Сбой электромагнитного привода или износ внутренних деталей клапана",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-hose-obstruction",
+            "title": "Засор сливного шланга Samsung",
+            "sign": "Слив нарушен из‑за препятствия",
+            "causes": "Остатки пищи, жир и мусор блокируют нормальный выход воды",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-filter-blocked",
+            "title": "Забит фильтр слива Samsung",
+            "sign": "Система не справляется с отводом жидкости",
+            "causes": "Мусор и остатки пищи оседают в фильтрующей части, снижая пропускную способность",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-pump-failure",
+            "title": "Сбой сливного насоса Samsung",
+            "sign": "Помпа не откачивает воду",
+            "causes": "Механическая блокировка крыльчатки, износ мотора или обрыв питания",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-fault",
+            "title": "Неисправность нагревательного элемента Samsung",
+            "sign": "Вода не достигает заданной температуры",
+            "causes": "Перегоревшая спираль, износ контактов или повреждение нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-error",
+            "title": "Ошибка датчика температуры Samsung",
+            "sign": "Контроллер получает аномальные данные",
+            "causes": "Износ термистора или сбой в цепях измерения тепла",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-too-hot",
+            "title": "Слишком высокая температура воды Samsung",
+            "sign": "Входящая жидкость превышает допустимые параметры",
+            "causes": "Подача слишком горячей воды от бойлера или неправильная регулировка",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-leak-sensor-triggered",
+            "title": "Сработал датчик протечки Samsung",
+            "sign": "Устройство регистрирует попадание жидкости под корпус",
+            "causes": "Патрубки с трещинами, изношенные уплотнения или скопление влаги на основании",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-gasket-failure",
+            "title": "Повреждение уплотнителя дверцы Samsung",
+            "sign": "Влага выходит за пределы камеры",
+            "causes": "Деформация или износ резинки уплотнения препятствует плотному закрытию",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-level-sensor-fault",
+            "title": "Сбой датчика уровня воды Samsung",
+            "sign": "Ошибочные сигналы о заполнении",
+            "causes": "Неисправность электронного уровня или гидростатического датчика",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-high-drain-hose-position",
+            "title": "Высокое положение сливного шланга Samsung",
+            "sign": "Неправильная ориентация трубы мешает сливу",
+            "causes": "Трубка установлена слишком высоко, создавая препятствия для оттока воды",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-short",
+            "title": "Короткое замыкание датчика температуры Samsung",
+            "sign": "Система фиксирует перегрузку термистора",
+            "causes": "Внутреннее замыкание в цепях датчика или повреждённые проводники",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-open",
+            "title": "Открытая цепь датчика температуры Samsung",
+            "sign": "Контроллер не получает данные термистора",
+            "causes": "Разрыв внутри датчика или обрыв соединительных проводов",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-spray-arm-obstruction",
+            "title": "Блокировка вращающихся форсунок Samsung",
+            "sign": "Распыление воды не достигает нужной интенсивности",
+            "causes": "Отложения, остатки пищи или минералы препятствуют движению спрея",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-distribution-valve-fault",
+            "title": "Сбой клапана распределения воды Samsung",
+            "sign": "Подача жидкости по контуру нарушена",
+            "causes": "Механический износ или засор в управляющем клапане",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-button-stuck",
+            "title": "Залипание кнопки панели управления Samsung",
+            "sign": "Команда не регистрируется или повторяется",
+            "causes": "Застрявшие элементы или инородные частицы между клавишами",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-control-panel-moisture",
+            "title": "Влага на панели управления Samsung",
+            "sign": "Нажатия некорректно воспринимаются",
+            "causes": "Конденсат или попадание жидкости на контакты нарушает работу",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-pressure-sensor-blocked",
+            "title": "Засор датчика давления Samsung",
+            "sign": "Гидростат не может определить давление",
+            "causes": "Мусор или отложения забивают канал измерения",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-hydro-sensor-failure",
+            "title": "Сбой гидростатического сенсора Samsung",
+            "sign": "Ошибочные уровни воды фиксируются",
+            "causes": "Дефект герметичности или электронных элементов сенсора",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-voltage-instability",
+            "title": "Неустойчивое напряжение сети Samsung",
+            "sign": "Питание устройства меняется непредсказуемо",
+            "causes": "Колебания в электросети мешают корректной работе схем",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-surge-event",
+            "title": "Перепад напряжения Samsung",
+            "sign": "Резкие скачки или падения питающего тока",
+            "causes": "Внешние источники помех или нестабильная сеть вызывают скачки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-latch-misalignment",
+            "title": "Нарушение выравнивания защёлки дверцы Samsung",
+            "sign": "Дверь не фиксируется ровно",
+            "causes": "Искажение корпуса или смещённые крепления мешают защёлке",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-lock-mechanism-fault",
+            "title": "Неисправность механизма замка дверцы Samsung",
+            "sign": "Контакт замка не достигает нужной позиции",
+            "causes": "Износ, деформация или слабый захват защёлки мешают корректному закрытию",
+            "slugs": []
+        }
+
+    ]
+}

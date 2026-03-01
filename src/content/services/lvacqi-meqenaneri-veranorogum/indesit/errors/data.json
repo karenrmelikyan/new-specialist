@@ -1,0 +1,270 @@
+{
+    "indexPageTitle": "Indesit լվացքի մեքենաների վերանորոգում",
+    "title": "Indesit լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/indesit/errors/",
+
+    "items": [
+        {
+            "slug": "indesit-washer-error-e1",
+            "title": "Ошибка E1 стиральной машины Indesit (подача воды)",
+            "sign": "Вода не набирается или процесс набора прерывается",
+            "causes": "Низкое давление, засор сетки или неисправность впускного клапана",
+            "slugs": [
+                "indesit-inlet-valve-failure",
+                "indesit-low-water-pressure",
+                "indesit-inlet-filter-blocked"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e2",
+            "title": "Ошибка E2 стиральной машины Indesit (слив воды)",
+            "sign": "Вода не отводится из бака",
+            "causes": "Сбой сливного насоса, засор шланга или фильтра",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-drain-hose-obstruction",
+                "indesit-drain-filter-blocked"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e3",
+            "title": "Ошибка E3 стиральной машины Indesit (отжим / барабан)",
+            "sign": "Барабан не вращается или отжим прерывается",
+            "causes": "Дисбаланс загрузки, перегрузка или неисправность мотора",
+            "slugs": [
+                "indesit-unbalanced-load-detected",
+                "indesit-overloaded-drum",
+                "indesit-motor-control-fault"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e4",
+            "title": "Ошибка E4 стиральной машины Indesit (блокировка дверцы)",
+            "sign": "Люк не фиксируется или машина не запускается",
+            "causes": "Неисправность замка или датчика дверцы",
+            "slugs": [
+                "indesit-door-lock-failure",
+                "indesit-door-switch-defect"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e5",
+            "title": "Ошибка E5 стиральной машины Indesit (нагрев воды)",
+            "sign": "Вода не нагревается до нужной температуры",
+            "causes": "Сбой ТЭНа или термодатчика",
+            "slugs": [
+                "indesit-heating-element-failure",
+                "indesit-temperature-sensor-fault"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e6",
+            "title": "Ошибка E6 стиральной машины Indesit (датчик температуры)",
+            "sign": "Отображаются некорректные показания температуры",
+            "causes": "Повреждён термодатчик или нарушено соединение проводки",
+            "slugs": [
+                "indesit-temperature-sensor-fault",
+                "indesit-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e7",
+            "title": "Ошибка E7 стиральной машины Indesit (электроника)",
+            "sign": "Программы запускаются с ошибками или не выполняются",
+            "causes": "Сбой платы управления или нестабильное напряжение",
+            "slugs": [
+                "indesit-main-board-failure",
+                "indesit-voltage-instability"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e8",
+            "title": "Ошибка E8 стиральной машины Indesit (протечка)",
+            "sign": "Срабатывает защита от утечек воды",
+            "causes": "Попадание воды в поддон или повреждение патрубков",
+            "slugs": [
+                "indesit-leak-detected",
+                "indesit-water-sensor-fault"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e9",
+            "title": "Ошибка E9 стиральной машины Indesit (двигатель)",
+            "sign": "Барабан не вращается, отжим невозможен",
+            "causes": "Неисправность двигателя или модуля управления мотором",
+            "slugs": [
+                "indesit-drive-motor-failure",
+                "indesit-motor-control-fault"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-ef0",
+            "title": "Ошибка EF0 стиральной машины Indesit (датчик протечки)",
+            "sign": "Система блокирует машину без видимых утечек",
+            "causes": "Ложное срабатывание датчика или окисление контактов",
+            "slugs": [
+                "indesit-water-sensor-fault"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-efo",
+            "title": "Ошибка EFO стиральной машины Indesit (аквастоп)",
+            "sign": "Защита от протечек активирована, машина не запускается",
+            "causes": "Повреждение шлангов или датчика аквастоп",
+            "slugs": [
+                "indesit-leak-detected",
+                "indesit-water-sensor-fault"
+            ]
+        },
+        {
+            "slug": "indesit-washer-error-e12",
+            "title": "Ошибка E12 стиральной машины Indesit (слив воды)",
+            "sign": "Вода остаётся в баке, программа не завершается",
+            "causes": "Сливной насос заблокирован или фильтр засорён",
+            "slugs": [
+                "indesit-drain-pump-failure",
+                "indesit-drain-filter-blocked"
+            ]
+        },
+
+        {
+            "slug": "indesit-inlet-valve-failure",
+            "title": "Неисправность впускного клапана Indesit",
+            "sign": "Вода не поступает в бак при запуске программы",
+            "causes": "Электромагнитный клапан повреждён или заедает механический механизм открытия",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-low-water-pressure",
+            "title": "Недостаточное давление воды Indesit",
+            "sign": "Медленный набор воды или бак не наполняется полностью",
+            "causes": "Слабый напор в водопроводной системе мешает корректной работе машины",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-inlet-filter-blocked",
+            "title": "Засор входного фильтра Indesit",
+            "sign": "Ограничена подача жидкости",
+            "causes": "Сетка забита песком, ржавчиной или известковыми отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-pump-failure",
+            "title": "Сбой сливного насоса Indesit",
+            "sign": "Вода не откачивается после стирки",
+            "causes": "Двигатель насоса повреждён или крыльчатка заблокирована",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-hose-obstruction",
+            "title": "Засор сливного шланга Indesit",
+            "sign": "Слив прерывается или происходит частично",
+            "causes": "Шланг пережат или заблокирован инородными предметами",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drain-filter-blocked",
+            "title": "Засор фильтра сливного насоса Indesit",
+            "sign": "Слив воды выполняется медленно или не полностью",
+            "causes": "В фильтре накопились ворс, нити или мелкий мусор",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-unbalanced-load-detected",
+            "title": "Обнаружен дисбаланс загрузки Indesit",
+            "sign": "Барабан не вращается при отжиме",
+            "causes": "Вес белья распределён неравномерно или перегружен барабан",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-overloaded-drum",
+            "title": "Перегрузка барабана Indesit",
+            "sign": "Машина не выполняет отжим",
+            "causes": "Количество белья превышает допустимый уровень, препятствуя вращению",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-motor-control-fault",
+            "title": "Сбой управления мотором Indesit",
+            "sign": "Барабан вращается нестабильно или не вращается",
+            "causes": "Электронный модуль неправильно регулирует питание двигателя",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-lock-failure",
+            "title": "Неисправность замка люка Indesit",
+            "sign": "Дверца не фиксируется перед стартом программы",
+            "causes": "Механизм замка изношен или повреждён электрический элемент",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-door-switch-defect",
+            "title": "Сбой датчика закрытия дверцы Indesit",
+            "sign": "Система не подтверждает фиксацию люка",
+            "causes": "Концевой выключатель не замыкает цепь из-за неисправности контактов",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-heating-element-failure",
+            "title": "Неисправность нагревательного элемента Indesit",
+            "sign": "Вода остаётся холодной во время программы",
+            "causes": "ТЭН перегорел или нарушена его электрическая цепь",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-temperature-sensor-fault",
+            "title": "Сбой температурного датчика Indesit",
+            "sign": "Отображаются неверные значения температуры",
+            "causes": "Термодатчик выдаёт некорректные данные из-за внутреннего повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-sensor-wiring-issue",
+            "title": "Проблема проводки датчиков Indesit",
+            "sign": "Сигналы от датчиков нестабильны",
+            "causes": "Ослабленные контакты или повреждённые кабели нарушают передачу сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-main-board-failure",
+            "title": "Сбой основной платы Indesit",
+            "sign": "Программы запускаются с ошибками или не выполняются",
+            "causes": "Электронные компоненты платы управления повреждены",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-voltage-instability",
+            "title": "Нестабильное напряжение Indesit",
+            "sign": "Работа устройства прерывается без завершения цикла",
+            "causes": "Перепады питания нарушают функционирование электроники",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-leak-detected",
+            "title": "Обнаружена утечка воды Indesit",
+            "sign": "Активирована защита от протечек",
+            "causes": "Попадание воды в поддон или повреждение соединительных патрубков",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-water-sensor-fault",
+            "title": "Неисправность датчика протечки Indesit",
+            "sign": "Ошибка утечки отображается без явных признаков воды",
+            "causes": "Датчик влаги подаёт ложный сигнал из-за окисления контактов",
+            "slugs": []
+        },
+        {
+            "slug": "indesit-drive-motor-failure",
+            "title": "Неисправность двигателя Indesit",
+            "sign": "Барабан не вращается или отжим невозможен",
+            "causes": "Обмотки мотора повреждены или вал заклинен",
+            "slugs": []
+        }
+
+    ]
+
+}

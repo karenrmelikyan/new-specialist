@@ -1,0 +1,305 @@
+{
+    "indexPageTitle": "Beko չորանոց մեքենաների վերանորոգում",
+    "title": "Beko չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/beko/",
+
+    "items": [
+        {
+            "slug": "beko-dryer-not-starting",
+            "title": "Сушильная машина Beko не запускается",
+            "sign": "После нажатия кнопки старт цикл не начинается, барабан остаётся неподвижным",
+            "causes": "Неисправность замка люка, сбой платы управления или отсутствие электропитания",
+            "slugs": [
+                "beko-door-lock-failure",
+                "beko-control-board-malfunction",
+                "beko-user-interface-error",
+                "beko-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "beko-dryer-not-heating",
+            "title": "Сушильная машина Beko не нагревает",
+            "sign": "Бельё остаётся холодным и не высыхает полностью во время цикла",
+            "causes": "Поломка нагревательного элемента, сработавший термопредохранитель или неисправность датчика температуры",
+            "slugs": [
+                "beko-heating-element-failure",
+                "beko-thermal-fuse-blown",
+                "beko-temperature-sensor-defect",
+                "beko-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "beko-dryer-not-drying-properly",
+            "title": "Сушильная машина Beko плохо сушит бельё",
+            "sign": "По окончании программы одежда остаётся влажной или требует дополнительного цикла",
+            "causes": "Засор вентиляционных каналов, сбой датчика влажности или снижение эффективности нагрева",
+            "slugs": [
+                "beko-ventilation-blockage",
+                "beko-moisture-sensor-failure",
+                "beko-heating-element-failure",
+                "beko-fan-motor-damage"
+            ]
+        },
+        {
+            "slug": "beko-dryer-drum-not-turning",
+            "title": "Барабан сушильной машины Beko не вращается",
+            "sign": "Мотор работает, но барабан остаётся неподвижным",
+            "causes": "Разрыв приводного ремня, неисправность двигателя или износ роликов барабана",
+            "slugs": [
+                "beko-drive-belt-broken",
+                "beko-motor-failure",
+                "beko-drum-roller-wear",
+                "beko-idler-pulley-defect"
+            ]
+        },
+        {
+            "slug": "beko-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Beko останавливается во время работы",
+            "sign": "Цикл прерывается до завершения без очевидной причины",
+            "causes": "Перегрев, сбой датчиков или поломка платы управления",
+            "slugs": [
+                "beko-thermal-fuse-blown",
+                "beko-control-board-malfunction",
+                "beko-temperature-sensor-defect",
+                "beko-motor-failure"
+            ]
+        },
+        {
+            "slug": "beko-dryer-overheating",
+            "title": "Сушильная машина Beko перегревается",
+            "sign": "Корпус становится слишком горячим, возможна аварийная остановка",
+            "causes": "Засорение вентиляции, неисправность термостата или сбой температурного датчика",
+            "slugs": [
+                "beko-ventilation-blockage",
+                "beko-thermostat-fault",
+                "beko-temperature-sensor-defect",
+                "beko-heating-element-failure"
+            ]
+        },
+        {
+            "slug": "beko-dryer-making-noise",
+            "title": "Сушильная машина Beko шумит во время работы",
+            "sign": "При вращении слышны посторонние звуки, скрипы или металлический стук",
+            "causes": "Износ подшипников барабана, роликов или повреждение вентилятора",
+            "slugs": [
+                "beko-drum-bearing-wear",
+                "beko-drum-roller-wear",
+                "beko-fan-motor-damage",
+                "beko-motor-failure"
+            ]
+        },
+        {
+            "slug": "beko-dryer-not-turning-on",
+            "title": "Сушильная машина Beko не включается",
+            "sign": "Индикаторы не загораются, машина полностью не реагирует на включение",
+            "causes": "Повреждение сетевого кабеля, сбой фильтра помех или выход из строя платы управления",
+            "slugs": [
+                "beko-power-cord-fault",
+                "beko-noise-filter-defect",
+                "beko-control-board-malfunction",
+                "beko-thermal-fuse-blown"
+            ]
+        },
+        {
+            "slug": "beko-dryer-error-code",
+            "title": "Сушильная машина Beko показывает код ошибки",
+            "sign": "На дисплее появляется уведомление о неисправности",
+            "causes": "Некорректная работа датчиков, нагревательного элемента или блока управления",
+            "slugs": [
+                "beko-temperature-sensor-defect",
+                "beko-moisture-sensor-failure",
+                "beko-heating-element-failure",
+                "beko-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "beko-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Beko не закрывается",
+            "sign": "Люк не фиксируется и запуск программы невозможен",
+            "causes": "Поломка замка, износ петель или сбой датчика двери",
+            "slugs": [
+                "beko-door-lock-failure",
+                "beko-door-hinge-damage",
+                "beko-door-switch-fault"
+            ]
+        },
+        {
+            "slug": "beko-dryer-burning-smell",
+            "title": "Сушильная машина Beko издаёт запах гари",
+            "sign": "Во время работы ощущается запах перегрева или плавления элементов",
+            "causes": "Скопление ворса, перегрев нагревателя или повреждение проводки",
+            "slugs": [
+                "beko-ventilation-blockage",
+                "beko-heating-element-failure",
+                "beko-motor-failure",
+                "beko-power-cord-fault"
+            ]
+        },
+        {
+            "slug": "beko-dryer-tripping-breaker",
+            "title": "Сушильная машина Beko выбивает автомат",
+            "sign": "При запуске срабатывает защита электросети",
+            "causes": "Короткое замыкание нагревательного элемента, двигателя или сетевого фильтра",
+            "slugs": [
+                "beko-heating-element-short-circuit",
+                "beko-motor-short-circuit",
+                "beko-noise-filter-defect",
+                "beko-control-board-malfunction"
+            ]
+        },
+
+        {
+            "slug": "beko-door-lock-failure",
+            "title": "Неисправность замка двери Beko",
+            "sign": "Замок не фиксирует закрытие люка и блокирует запуск программы",
+            "causes": "Сушильная машина не включается, индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "beko-control-board-malfunction",
+            "title": "Сбой платы управления Beko",
+            "sign": "Электронный модуль работает нестабильно или вовсе не реагирует на команды",
+            "causes": "Циклы прерываются, индикаторы могут моргать, сушильная машина останавливается",
+            "slugs": []
+        },
+        {
+            "slug": "beko-user-interface-error",
+            "title": "Ошибка панели управления Beko",
+            "sign": "Кнопки и сенсорные элементы не реагируют или функционируют некорректно",
+            "causes": "Невозможно выбрать программу или запустить сушку",
+            "slugs": []
+        },
+        {
+            "slug": "beko-power-cord-fault",
+            "title": "Повреждение сетевого кабеля Beko",
+            "sign": "Обрыв жил или нарушение изоляции кабеля питания",
+            "causes": "Сушильная машина не включается, индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heating-element-failure",
+            "title": "Поломка нагревательного элемента Beko",
+            "sign": "ТЭН не нагревает воздух в барабане, бельё остаётся влажным",
+            "causes": "Сушка проходит без тепла, цикл удлиняется, вещи плохо сушатся",
+            "slugs": []
+        },
+        {
+            "slug": "beko-thermal-fuse-blown",
+            "title": "Срабатывание термопредохранителя Beko",
+            "sign": "Предохранитель размыкает цепь при перегреве",
+            "causes": "Машина не нагревается или полностью перестаёт включаться",
+            "slugs": []
+        },
+        {
+            "slug": "beko-temperature-sensor-defect",
+            "title": "Неисправность датчика температуры Beko",
+            "sign": "Сенсор передаёт неверные значения и нарушает контроль нагрева",
+            "causes": "Циклы нагрева работают неправильно, бельё может оставаться влажным или машина останавливается",
+            "slugs": []
+        },
+        {
+            "slug": "beko-ventilation-blockage",
+            "title": "Засор вентиляционных каналов Beko",
+            "sign": "Воздух не циркулирует должным образом внутри сушильного агрегата",
+            "causes": "Влага плохо выводится, бельё остаётся влажным, возможен перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "beko-moisture-sensor-failure",
+            "title": "Поломка датчика влажности Beko",
+            "sign": "Датчик не определяет уровень влажности белья корректно",
+            "causes": "Сушка заканчивается слишком рано или бельё остаётся влажным",
+            "slugs": []
+        },
+        {
+            "slug": "beko-fan-motor-damage",
+            "title": "Повреждение вентилятора Beko",
+            "sign": "Вентилятор не создаёт необходимый поток воздуха",
+            "causes": "Эффективность сушки снижается, бельё остаётся влажным, слышны посторонние шумы",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drive-belt-broken",
+            "title": "Обрыв приводного ремня Beko",
+            "sign": "Ремень не передаёт вращение мотора на барабан",
+            "causes": "Барабан не вращается, цикл сушки не выполняется",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-failure",
+            "title": "Неисправность двигателя Beko",
+            "sign": "Двигатель не запускается или работает нестабильно",
+            "causes": "Барабан не крутится, слышны странные звуки, возможна остановка цикла",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drum-roller-wear",
+            "title": "Износ роликов барабана Beko",
+            "sign": "Барабан вращается с трудом, слышны скрипы или вибрация",
+            "causes": "Снижается эффективность сушки, появляется шум, возможна остановка барабана",
+            "slugs": []
+        },
+        {
+            "slug": "beko-idler-pulley-defect",
+            "title": "Неисправность обводного шкива Beko",
+            "sign": "Шкив изношен или заедает, ремень соскальзывает",
+            "causes": "Барабан не вращается, цикл прерывается, слышны посторонние звуки",
+            "slugs": []
+        },
+        {
+            "slug": "beko-thermostat-fault",
+            "title": "Сбой термостата Beko",
+            "sign": "Термостат не регулирует температуру корректно",
+            "causes": "Происходит перегрев или недогрев воздуха, цикл сушки нарушен",
+            "slugs": []
+        },
+        {
+            "slug": "beko-drum-bearing-wear",
+            "title": "Износ подшипников барабана Beko",
+            "sign": "При вращении слышен скрежет, вибрация или стук",
+            "causes": "Барабан вращается с усилием, эффективность сушки падает",
+            "slugs": []
+        },
+        {
+            "slug": "beko-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревательного элемента Beko",
+            "sign": "Повреждение изоляции ТЭНа вызывает утечку тока",
+            "causes": "Срабатывает автомат, машина не нагревается и не запускается",
+            "slugs": []
+        },
+        {
+            "slug": "beko-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Beko",
+            "sign": "Повреждение обмотки вызывает перегрузку сети",
+            "causes": "Срабатывает автомат при запуске, барабан не вращается",
+            "slugs": []
+        },
+        {
+            "slug": "beko-noise-filter-defect",
+            "title": "Неисправность сетевого фильтра Beko",
+            "sign": "Фильтр помех выходит из строя и нарушает подачу питания",
+            "causes": "Машина может не включаться или выбивать автомат защиты",
+            "slugs": []
+        },
+        {
+            "slug": "beko-door-hinge-damage",
+            "title": "Повреждение петель двери Beko",
+            "sign": "Износ петель вызывает перекос люка и плохое закрытие",
+            "causes": "Люк не фиксируется, запуск программы невозможен",
+            "slugs": []
+        },
+        {
+            "slug": "beko-door-switch-fault",
+            "title": "Сбой датчика двери Beko",
+            "sign": "Сенсор не определяет состояние люка",
+            "causes": "Программа блокируется системой безопасности, машина не запускается",
+            "slugs": []
+        }
+
+
+    ]
+}

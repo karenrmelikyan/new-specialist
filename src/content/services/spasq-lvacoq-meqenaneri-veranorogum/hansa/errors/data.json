@@ -1,0 +1,399 @@
+{
+    "indexPageTitle": "Hansa սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Hansa սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/hansa/errors/",
+
+    "items": [
+        
+        {
+            "slug": "hansa-dishwasher-error-e1",
+            "title": "Ошибка E1 посудомоечной машины Hansa",
+            "sign": "Вода не набирается или набор занимает слишком много времени",
+            "causes": "Контроллер не фиксирует достижение необходимого уровня воды в установленный интервал",
+            "slugs": [
+                "hansa-inlet-valve-malfunction",
+                "hansa-water-supply-blockage",
+                "hansa-flow-meter-defect"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e2",
+            "title": "Ошибка E2 посудомоечной машины Hansa",
+            "sign": "После завершения цикла вода остаётся внутри камеры",
+            "causes": "Система не может корректно выполнить слив",
+            "slugs": [
+                "hansa-drain-pump-blocked",
+                "hansa-drain-hose-obstruction",
+                "hansa-filter-chamber-clog"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e3",
+            "title": "Ошибка E3 посудомоечной машины Hansa",
+            "sign": "Мойка выполняется холодной водой",
+            "causes": "Нагревательный контур не выходит на рабочую температуру",
+            "slugs": [
+                "hansa-heater-burnout",
+                "hansa-ntc-sensor-failure",
+                "hansa-heating-relay-fault"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e4",
+            "title": "Ошибка E4 посудомоечной машины Hansa",
+            "sign": "Происходит аварийный слив сразу после начала наполнения",
+            "causes": "Система регистрирует превышение допустимого уровня воды",
+            "slugs": [
+                "hansa-overfill-protection-triggered",
+                "hansa-pressure-switch-miscalibration",
+                "hansa-inlet-valve-stuck-open"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e5",
+            "title": "Ошибка E5 посудомоечной машины Hansa",
+            "sign": "Циркуляция воды отсутствует или сильно ослаблена",
+            "causes": "Насос подачи не создаёт необходимого давления",
+            "slugs": [
+                "hansa-circulation-pump-stall",
+                "hansa-impeller-damage",
+                "hansa-motor-driver-failure"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e6",
+            "title": "Ошибка E6 посудомоечной машины Hansa",
+            "sign": "Температурный режим определяется некорректно",
+            "causes": "Датчик температуры передаёт искажённые значения",
+            "slugs": [
+                "hansa-temperature-sensor-out-of-range",
+                "hansa-sensor-connector-oxidized",
+                "hansa-thermal-control-anomaly"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e7",
+            "title": "Ошибка E7 посудомоечной машины Hansa",
+            "sign": "Программа зависает или выполняется нестабильно",
+            "causes": "Нарушена работа электронного модуля управления",
+            "slugs": [
+                "hansa-eeprom-corruption",
+                "hansa-firmware-error",
+                "hansa-memory-initialization-failure"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e8",
+            "title": "Ошибка E8 посудомоечной машины Hansa",
+            "sign": "Панель отображает некорректные символы или не реагирует",
+            "causes": "Отсутствует стабильная связь между интерфейсом и основной платой",
+            "slugs": [
+                "hansa-ui-board-defect",
+                "hansa-ribbon-cable-loose",
+                "hansa-communication-line-error"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e9",
+            "title": "Ошибка E9 посудомоечной машины Hansa",
+            "sign": "Запуск блокируется, активируется аварийный слив",
+            "causes": "Сработала система защиты AquaStop из-за обнаружения воды в поддоне",
+            "slugs": [
+                "hansa-aquastop-activated",
+                "hansa-base-pan-water-detected",
+                "hansa-internal-hose-leak"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e10",
+            "title": "Ошибка E10 посудомоечной машины Hansa",
+            "sign": "Продолжительность цикла рассчитывается неправильно",
+            "causes": "Система анализа мутности передаёт некорректные данные",
+            "slugs": [
+                "hansa-turbidity-sensor-contamination",
+                "hansa-optical-sensor-malfunction",
+                "hansa-water-analysis-circuit-fault"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e11",
+            "title": "Ошибка E11 посудомоечной машины Hansa",
+            "sign": "Двигатель не подтверждает вращение",
+            "causes": "Отсутствует стабильный сигнал обратной связи скорости",
+            "slugs": [
+                "hansa-tacho-coil-damage",
+                "hansa-rotor-misalignment",
+                "hansa-speed-feedback-circuit-defect"
+            ]
+        },
+        {
+            "slug": "hansa-dishwasher-error-e12",
+            "title": "Ошибка E12 посудомоечной машины Hansa",
+            "sign": "Система не завершает программу корректно",
+            "causes": "Внутренний алгоритм управления работает с критическими сбоями",
+            "slugs": [
+                "hansa-control-logic-failure",
+                "hansa-power-supply-instability",
+                "hansa-main-board-component-damage"
+            ]
+        },
+
+        {
+            "slug": "hansa-inlet-valve-malfunction",
+            "title": "Неисправность впускного клапана Hansa",
+            "sign": "Вода не поступает или поток нестабилен",
+            "causes": "Катушка клапана повреждена или механизм заклинил",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-water-supply-blockage",
+            "title": "Ограничение подачи воды Hansa",
+            "sign": "Заполнение происходит медленно",
+            "causes": "Сетчатый фильтр засорён, а давление в системе ниже нормы",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-flow-meter-defect",
+            "title": "Сбой датчика потока Hansa",
+            "sign": "Контроллер получает неверные данные о наборе воды",
+            "causes": "Блокировка крыльчатки или износ измерительного узла",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-drain-pump-blocked",
+            "title": "Заблокирован сливной насос Hansa",
+            "sign": "Вода не откачивается полностью",
+            "causes": "Попадание посторонних предметов или износ крыльчатки",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-drain-hose-obstruction",
+            "title": "Перекрытие сливного шланга Hansa",
+            "sign": "Слив воды замедлен или отсутствует",
+            "causes": "Перегиб, засор или осадок внутри шланга",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-filter-chamber-clog",
+            "title": "Засор фильтровой камеры Hansa",
+            "sign": "Система слива функционирует нестабильно",
+            "causes": "Накопление остатков пищи блокирует свободный проход жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-heater-burnout",
+            "title": "Выход из строя нагревательного элемента Hansa",
+            "sign": "Вода не нагревается до заданной температуры",
+            "causes": "Перегрев или разрыв спирали нарушает процесс нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-ntc-sensor-failure",
+            "title": "Сбой NTC датчика Hansa",
+            "sign": "Контроллер получает некорректные температурные данные",
+            "causes": "Датчик термистора деградировал или повреждён внутренне",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-heating-relay-fault",
+            "title": "Неисправность реле нагрева Hansa",
+            "sign": "Элемент не включается по сигналу контроллера",
+            "causes": "Заклинивший переключатель или повреждённый контакт реле",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-overfill-protection-triggered",
+            "title": "Срабатывание защиты от переполнения Hansa",
+            "sign": "Программа останавливает набор воды",
+            "causes": "Датчик давления фиксирует превышение допустимого уровня",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-pressure-switch-miscalibration",
+            "title": "Некорректная калибровка прессостата Hansa",
+            "sign": "Контроллер получает ложные сигналы о заполнении",
+            "causes": "Прессостат изношен или требует перенастройки",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-inlet-valve-stuck-open",
+            "title": "Залипание впускного клапана Hansa",
+            "sign": "Вода продолжает поступать бесконтрольно",
+            "causes": "Механизм клапана заклинил или загрязнён",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-circulation-pump-stall",
+            "title": "Остановка циркуляционного насоса Hansa",
+            "sign": "Давление воды недостаточное для эффективной мойки",
+            "causes": "Сбой двигателя или попадание посторонних предметов в крыльчатку",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-impeller-damage",
+            "title": "Повреждение крыльчатки Hansa",
+            "sign": "Подача воды нарушена, поток слабый",
+            "causes": "Износ или механическое повреждение элемента крыльчатки",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-motor-driver-failure",
+            "title": "Сбой драйвера мотора Hansa",
+            "sign": "Циркуляционный насос не работает стабильно",
+            "causes": "Электронная плата управления мотора повреждена",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-temperature-sensor-out-of-range",
+            "title": "Температурный сенсор Hansa вне диапазона",
+            "sign": "Система фиксирует аномальные показатели нагрева",
+            "causes": "Сенсор деградировал или вышел за пределы рабочих характеристик",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-sensor-connector-oxidized",
+            "title": "Окисление разъёма датчика Hansa",
+            "sign": "Температурные сигналы нестабильны",
+            "causes": "Контакты разъёма повреждены или окислены",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-thermal-control-anomaly",
+            "title": "Сбой термоконтроля Hansa",
+            "sign": "Регулировка нагрева выполняется некорректно",
+            "causes": "Контроллер получает противоречивые данные от сенсора",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-eeprom-corruption",
+            "title": "Повреждение EEPROM Hansa",
+            "sign": "Система управления зависает или выполняет циклы неправильно",
+            "causes": "Сбой памяти микроконтроллера приводит к ошибкам алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-firmware-error",
+            "title": "Ошибка прошивки Hansa",
+            "sign": "Программы запускаются с нарушениями",
+            "causes": "Системное ПО нарушает последовательность выполнения команд",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-memory-initialization-failure",
+            "title": "Сбой инициализации памяти Hansa",
+            "sign": "Настройки теряются, алгоритмы работают нестабильно",
+            "causes": "Неисправность модуля памяти или повреждение данных",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-ui-board-defect",
+            "title": "Сбой панели управления Hansa",
+            "sign": "Кнопки и дисплей не реагируют",
+            "causes": "Неисправность интерфейсной платы нарушает связь с контроллером",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-ribbon-cable-loose",
+            "title": "Ослабление шлейфа Hansa",
+            "sign": "Отображение символов некорректное или мигает",
+            "causes": "Контакт кабеля потерял надёжность или повреждён",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-communication-line-error",
+            "title": "Сбой линии связи Hansa",
+            "sign": "Коммуникация между платами нестабильна",
+            "causes": "Повреждение линии передачи данных вызывает задержки и ошибки управления",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-aquastop-activated",
+            "title": "Активация AquaStop Hansa",
+            "sign": "Система защиты включена, набор воды заблокирован",
+            "causes": "Обнаружена вода в поддоне, утечка или дефект соединительных шлангов",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-base-pan-water-detected",
+            "title": "Вода в поддоне Hansa",
+            "sign": "Контроллер фиксирует наличие жидкости под корпусом",
+            "causes": "Протечка шлангов или уплотнений, повреждение поддона",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-internal-hose-leak",
+            "title": "Утечка во внутреннем шланге Hansa",
+            "sign": "Вода попадает в нижнюю часть корпуса",
+            "causes": "Трещины или неплотное соединение шланга нарушают герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности Hansa",
+            "sign": "Программа неправильно рассчитывает цикл мойки",
+            "causes": "Накопление остатков пищи на сенсоре искажает показания",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-optical-sensor-malfunction",
+            "title": "Сбой оптического сенсора Hansa",
+            "sign": "Неправильная оценка степени загрязнения воды",
+            "causes": "Повреждение сенсора или дефект подсветки",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-water-analysis-circuit-fault",
+            "title": "Сбой цепи анализа воды Hansa",
+            "sign": "Система управления получает ложные данные",
+            "causes": "Электронный контур повреждён или неправильно соединён",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-tacho-coil-damage",
+            "title": "Повреждение тахогенератора Hansa",
+            "sign": "Сигнал обратной связи о скорости отсутствует или нестабилен",
+            "causes": "Дефект катушки или обрыв проводки",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-rotor-misalignment",
+            "title": "Смещение ротора Hansa",
+            "sign": "Двигатель не подтверждает вращение",
+            "causes": "Механическое смещение нарушает контакт с датчиком скорости",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-speed-feedback-circuit-defect",
+            "title": "Сбой цепи обратной связи скорости Hansa",
+            "sign": "Контроллер не получает стабильные сигналы",
+            "causes": "Повреждение цепи или дефект компонентов",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-control-logic-failure",
+            "title": "Сбой логики управления Hansa",
+            "sign": "Программа не завершается корректно",
+            "causes": "Непредвиденный сбой внутреннего алгоритма контроллера",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-power-supply-instability",
+            "title": "Неустойчивое питание Hansa",
+            "sign": "Электронные модули функционируют нестабильно",
+            "causes": "Перепады напряжения или слабый контакт питающей линии",
+            "slugs": []
+        },
+        {
+            "slug": "hansa-main-board-component-damage",
+            "title": "Повреждение компонентов основной платы Hansa",
+            "sign": "Система управления не выполняет команды",
+            "causes": "Выход из строя силовых или управляющих элементов платы",
+            "slugs": []
+        }
+    
+    ]
+}

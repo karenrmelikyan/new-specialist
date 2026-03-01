@@ -1,0 +1,439 @@
+{
+    "indexPageTitle": "Gorenje լվացքի մեքենաների վերանորոգում",
+    "title": "Gorenje լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/gorenje/",
+
+    "items": [
+        {
+            "slug": "gorenje-no-spin",
+            "title": "Стиральная машина Gorenje не отжимает бельё",
+            "sign": "После завершения программы бельё остаётся мокрым, барабан не выходит на высокие обороты",
+            "causes": "Нарушена работа системы отжима или двигателя стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-motor-brush-wear",
+                "gorenje-drive-belt-worn",
+                "gorenje-tacho-sensor-failure",
+                "gorenje-control-board-malfunction"
+            ]
+        },
+        {
+            "slug": "gorenje-no-drain",
+            "title": "Стиральная машина Gorenje не сливает воду",
+            "sign": "Вода остаётся в баке, программа не завершается",
+            "causes": "Неисправность сливного насоса или засор системы слива стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-drain-pump-failure",
+                "gorenje-drain-filter-clogged",
+                "gorenje-drain-hose-blocked",
+                "gorenje-pressure-switch-error"
+            ]
+        },
+        {
+            "slug": "gorenje-not-filling",
+            "title": "Стиральная машина Gorenje не набирает воду",
+            "sign": "После запуска программа не начинается, бак остаётся пустым",
+            "causes": "Проблема с подачей воды или впускным клапаном стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-inlet-valve-defect",
+                "gorenje-water-supply-issue",
+                "gorenje-pressure-sensor-failure",
+                "gorenje-electronic-module-error"
+            ]
+        },
+        {
+            "slug": "gorenje-leak",
+            "title": "Стиральная машина Gorenje протекает",
+            "sign": "Во время стирки под корпусом появляется вода",
+            "causes": "Повреждение уплотнений или внутренних соединений стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-door-seal-damaged",
+                "gorenje-internal-hose-crack",
+                "gorenje-pump-seal-leak",
+                "gorenje-detergent-drawer-leak"
+            ]
+        },
+        {
+            "slug": "gorenje-no-heat",
+            "title": "Стиральная машина Gorenje не нагревает воду",
+            "sign": "Стирка проходит в холодной воде независимо от выбранного режима",
+            "causes": "Неисправность нагревательного элемента или температурного датчика стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-heating-element-burned",
+                "gorenje-ntc-sensor-failure",
+                "gorenje-heater-relay-defect",
+                "gorenje-control-board-damage"
+            ]
+        },
+        {
+            "slug": "gorenje-not-starting",
+            "title": "Стиральная машина Gorenje не включается",
+            "sign": "Индикация отсутствует, кнопки не реагируют",
+            "causes": "Проблема с электропитанием или платой управления стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-power-cord-damage",
+                "gorenje-power-filter-failure",
+                "gorenje-start-button-defect",
+                "gorenje-main-board-failure"
+            ]
+        },
+        {
+            "slug": "gorenje-door-locked",
+            "title": "Стиральная машина Gorenje не открывает люк",
+            "sign": "После окончания программы дверца остаётся заблокированной",
+            "causes": "Неисправность замка люка или ошибка системы безопасности стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-door-lock-failure",
+                "gorenje-water-not-drained",
+                "gorenje-control-module-error"
+            ]
+        },
+        {
+            "slug": "gorenje-noisy",
+            "title": "Стиральная машина Gorenje шумит при работе",
+            "sign": "Во время отжима слышен гул, стук или скрежет",
+            "causes": "Износ подшипников или попадание посторонних предметов в барабан стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-drum-bearing-worn",
+                "gorenje-foreign-object-in-drum",
+                "gorenje-counterweight-loose"
+            ]
+        },
+        {
+            "slug": "gorenje-vibrates",
+            "title": "Стиральная машина Gorenje сильно вибрирует",
+            "sign": "Корпус машины раскачивается и смещается при отжиме",
+            "causes": "Износ амортизаторов или неправильная установка стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-shock-absorber-worn",
+                "gorenje-uneven-installation",
+                "gorenje-suspension-spring-damage"
+            ]
+        },
+        {
+            "slug": "gorenje-stops-mid-cycle",
+            "title": "Стиральная машина Gorenje останавливается во время стирки",
+            "sign": "Программа прерывается и не доходит до завершения",
+            "causes": "Сбой двигателя, датчиков или электронной платы стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-motor-overheat",
+                "gorenje-pressure-sensor-error",
+                "gorenje-electronic-board-failure"
+            ]
+        },
+        {
+            "slug": "gorenje-error-code",
+            "title": "Стиральная машина Gorenje показывает ошибку",
+            "sign": "На дисплее отображается код неисправности",
+            "causes": "Система самодиагностики выявила неисправность одного из узлов стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-error-e1",
+                "gorenje-error-e3",
+                "gorenje-error-e7",
+                "gorenje-electronic-module-fault"
+            ]
+        },
+        {
+            "slug": "gorenje-trips-breaker",
+            "title": "Стиральная машина Gorenje выбивает автомат",
+            "sign": "При запуске или нагреве воды отключается электропитание",
+            "causes": "Короткое замыкание в нагревателе, двигателе или проводке стиральной машины Gorenje",
+            "slugs": [
+                "gorenje-heater-short-circuit",
+                "gorenje-motor-short",
+                "gorenje-internal-wiring-damage"
+            ]
+        },
+
+        {
+            "slug": "gorenje-motor-brush-wear",
+            "title": "Износ щёток двигателя Gorenje",
+            "sign": "Барабан не выходит на высокие обороты или не вращается при отжиме",
+            "causes": "Критический износ угольных щёток двигателя Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drive-belt-worn",
+            "title": "Приводной ремень Gorenje растянут или слетел",
+            "sign": "Барабан вращается слабо или полностью остановлен",
+            "causes": "Ослабление натяжения или разрыв ремня привода Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-tacho-sensor-failure",
+            "title": "Неисправен тахогенератор Gorenje",
+            "sign": "Машина не контролирует обороты, отжим не запускается",
+            "causes": "Повреждение датчика оборотов двигателя Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-control-board-malfunction",
+            "title": "Сбой платы управления Gorenje",
+            "sign": "Отжим не включается или работает нестабильно",
+            "causes": "Неисправность электронного модуля Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drain-pump-failure",
+            "title": "Неисправен сливной насос Gorenje",
+            "sign": "Вода не откачивается, слышен гул без слива",
+            "causes": "Износ или заклинивание помпы Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drain-filter-clogged",
+            "title": "Засор сливного фильтра Gorenje",
+            "sign": "Слив воды происходит медленно или отсутствует",
+            "causes": "Скопление мусора в фильтре Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drain-hose-blocked",
+            "title": "Засор сливного шланга Gorenje",
+            "sign": "Вода остаётся в баке после завершения программы",
+            "causes": "Перегиб или загрязнение сливного шланга Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-pressure-switch-error",
+            "title": "Ошибка прессостата Gorenje",
+            "sign": "Машина не распознаёт уровень воды и не запускает слив",
+            "causes": "Неисправность датчика уровня воды Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-inlet-valve-defect",
+            "title": "Неисправен впускной клапан Gorenje",
+            "sign": "Вода не поступает в бак при запуске программы",
+            "causes": "Поломка электромагнитного клапана подачи воды Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-water-supply-issue",
+            "title": "Отсутствует подача воды к Gorenje",
+            "sign": "Машина гудит, но вода не набирается",
+            "causes": "Перекрыт кран или слабый напор воды для Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-pressure-sensor-failure",
+            "title": "Неисправен датчик уровня воды Gorenje",
+            "sign": "Бак остаётся пустым или программа не начинается",
+            "causes": "Сбой работы прессостата Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-electronic-module-error",
+            "title": "Ошибка электронного модуля Gorenje",
+            "sign": "Программа не запускается при исправной подаче воды",
+            "causes": "Сбой платы управления Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-seal-damaged",
+            "title": "Повреждена манжета люка Gorenje",
+            "sign": "Во время стирки появляется течь из-под дверцы",
+            "causes": "Разрыв или износ резинового уплотнителя Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-internal-hose-crack",
+            "title": "Трещина во внутреннем патрубке Gorenje",
+            "sign": "Под корпусом скапливается вода",
+            "causes": "Повреждение внутренних соединений Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-pump-seal-leak",
+            "title": "Протечка уплотнения насоса Gorenje",
+            "sign": "Вода просачивается снизу корпуса",
+            "causes": "Износ сальника сливной помпы Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-detergent-drawer-leak",
+            "title": "Протечка лотка для порошка Gorenje",
+            "sign": "Вода вытекает из верхней части корпуса",
+            "causes": "Трещина или засор распределителя моющих средств Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heating-element-burned",
+            "title": "Сгорел ТЭН Gorenje",
+            "sign": "Вода не нагревается на выбранной программе",
+            "causes": "Перегорание нагревательного элемента Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-ntc-sensor-failure",
+            "title": "Неисправен датчик температуры Gorenje",
+            "sign": "Температура стирки не соответствует заданной",
+            "causes": "Сбой NTC-датчика Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heater-relay-defect",
+            "title": "Неисправно реле нагрева Gorenje",
+            "sign": "Нагрев не включается при исправном ТЭНе",
+            "causes": "Повреждение реле на плате управления Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-control-board-damage",
+            "title": "Повреждена плата управления Gorenje",
+            "sign": "Машина не нагревает воду и работает некорректно",
+            "causes": "Выход из строя электронных компонентов Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-cord-damage",
+            "title": "Повреждён сетевой шнур Gorenje",
+            "sign": "Машина не включается, индикация отсутствует",
+            "causes": "Обрыв или повреждение кабеля питания Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-filter-failure",
+            "title": "Неисправен сетевой фильтр Gorenje",
+            "sign": "Машина не реагирует на включение",
+            "causes": "Выход из строя помехоподавляющего фильтра Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-start-button-defect",
+            "title": "Не работает кнопка запуска Gorenje",
+            "sign": "Программа не стартует после нажатия",
+            "causes": "Износ контактов кнопки Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-main-board-failure",
+            "title": "Неисправность основной платы Gorenje",
+            "sign": "Машина полностью не включается",
+            "causes": "Поломка центрального модуля управления Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-lock-failure",
+            "title": "Неисправен замок люка Gorenje",
+            "sign": "Дверца остаётся заблокированной после завершения цикла",
+            "causes": "Отказ устройства блокировки люка Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-water-not-drained",
+            "title": "Вода не слита из бака Gorenje",
+            "sign": "Люк не открывается из-за наличия воды внутри",
+            "causes": "Нарушение работы сливной системы Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-control-module-error",
+            "title": "Ошибка модуля управления Gorenje",
+            "sign": "Дверца не разблокируется при отсутствии воды",
+            "causes": "Сбой программного обеспечения Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drum-bearing-worn",
+            "title": "Изношены подшипники барабана Gorenje",
+            "sign": "Во время отжима слышен сильный гул или металлический скрежет",
+            "causes": "Разрушение подшипникового узла Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане Gorenje",
+            "sign": "При вращении слышны удары и стук",
+            "causes": "Попадание мелких предметов между баком и барабаном Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-counterweight-loose",
+            "title": "Ослаблено противовесное крепление Gorenje",
+            "sign": "Машина издаёт громкий стук при отжиме",
+            "causes": "Ослабление или повреждение бетонного противовеса Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-uneven-installation",
+            "title": "Неправильная установка Gorenje",
+            "sign": "Корпус раскачивается даже при небольшой загрузке",
+            "causes": "Неровный пол или неотрегулированные ножки Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-suspension-spring-damage",
+            "title": "Повреждена пружина подвески Gorenje",
+            "sign": "Бак смещается и ударяется о корпус",
+            "causes": "Разрыв или растяжение подвесной пружины Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-motor-overheat",
+            "title": "Перегрев двигателя Gorenje",
+            "sign": "Программа останавливается во время стирки",
+            "causes": "Чрезмерная нагрузка или неисправность двигателя Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-electronic-board-failure",
+            "title": "Неисправность электронной платы Gorenje",
+            "sign": "Машина внезапно прекращает работу",
+            "causes": "Сбой или повреждение управляющего модуля Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-error-e1",
+            "title": "Ошибка E1 в стиральной машине Gorenje",
+            "sign": "На дисплее отображается код E1",
+            "causes": "Проблема с подачей воды или датчиком уровня Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-error-e3",
+            "title": "Ошибка E3 в стиральной машине Gorenje",
+            "sign": "Программа прерывается с кодом E3",
+            "causes": "Неисправность системы нагрева Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-error-e7",
+            "title": "Ошибка E7 в стиральной машине Gorenje",
+            "sign": "Машина не запускает двигатель",
+            "causes": "Сбой в системе управления двигателем Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-electronic-module-fault",
+            "title": "Неисправность электронного модуля Gorenje",
+            "sign": "Отображаются различные коды ошибок",
+            "causes": "Повреждение центральной платы Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heater-short-circuit",
+            "title": "Короткое замыкание ТЭНа Gorenje",
+            "sign": "При нагреве выбивает автомат",
+            "causes": "Пробой нагревательного элемента Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-motor-short",
+            "title": "Короткое замыкание двигателя Gorenje",
+            "sign": "Электропитание отключается при запуске",
+            "causes": "Повреждение обмотки двигателя Gorenje",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-internal-wiring-damage",
+            "title": "Повреждение внутренней проводки Gorenje",
+            "sign": "Машина периодически выбивает автомат",
+            "causes": "Нарушение изоляции проводов внутри Gorenje",
+            "slugs": []
+        }
+    ]
+}

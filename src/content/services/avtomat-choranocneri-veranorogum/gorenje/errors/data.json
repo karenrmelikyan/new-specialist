@@ -1,0 +1,397 @@
+{
+    "indexPageTitle": "Gorenje չորանոց մեքենաների վերանորոգում",
+    "title": "Gorenje չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/gorenje/errors/",
+
+    "items": [
+        {
+            "slug": "gorenje-dryer-error-f1",
+            "title": "Ошибка F1 сушильной машины Gorenje",
+            "sign": "На дисплее отображается код F1 при попытке запуска",
+            "causes": "Система фиксирует проблему в цепи температурного контроля или некорректные данные от датчика нагрева",
+            "slugs": [
+                "gorenje-ntc-sensor-malfunction",
+                "gorenje-temperature-wiring-fault",
+                "gorenje-control-module-sensor-error"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f2",
+            "title": "Ошибка F2 сушильной машины Gorenje",
+            "sign": "После старта программа прерывается с кодом F2",
+            "causes": "Контроллер обнаруживает нарушение работы нагревательного контура",
+            "slugs": [
+                "gorenje-heating-element-burnout",
+                "gorenje-thermal-cutoff-triggered",
+                "gorenje-heater-relay-defect"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f3",
+            "title": "Ошибка F3 сушильной машины Gorenje",
+            "sign": "Код F3 появляется во время активной сушки",
+            "causes": "Температурный режим выходит за допустимые пределы из-за сбоя регулировки",
+            "slugs": [
+                "gorenje-thermostat-failure",
+                "gorenje-airflow-restriction",
+                "gorenje-temperature-sensor-drift"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f4",
+            "title": "Ошибка F4 сушильной машины Gorenje",
+            "sign": "Барабан не вращается и отображается F4",
+            "causes": "Система не получает подтверждение работы приводного узла",
+            "slugs": [
+                "gorenje-motor-overload",
+                "gorenje-drive-belt-breakage",
+                "gorenje-inverter-board-malfunction"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f5",
+            "title": "Ошибка F5 сушильной машины Gorenje",
+            "sign": "Код F5 возникает при выборе программы",
+            "causes": "Нарушена коммуникация между панелью управления и основной платой",
+            "slugs": [
+                "gorenje-user-interface-failure",
+                "gorenje-ribbon-cable-disconnection",
+                "gorenje-main-board-communication-loss"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f6",
+            "title": "Ошибка F6 сушильной машины Gorenje",
+            "sign": "Сушка завершается преждевременно с кодом F6",
+            "causes": "Датчик влажности передаёт некорректные показатели остаточной влаги",
+            "slugs": [
+                "gorenje-moisture-sensor-contamination",
+                "gorenje-humidity-sensor-circuit-fault",
+                "gorenje-drum-contact-strip-damage"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f7",
+            "title": "Ошибка F7 сушильной машины Gorenje",
+            "sign": "Во время работы система выводит F7 и прекращает нагрев",
+            "causes": "Защитный механизм фиксирует перегрев внутренних компонентов",
+            "slugs": [
+                "gorenje-thermal-fuse-activation",
+                "gorenje-ventilation-duct-blockage",
+                "gorenje-fan-motor-seizure"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f8",
+            "title": "Ошибка F8 сушильной машины Gorenje",
+            "sign": "На панели появляется F8 при попытке запуска",
+            "causes": "Обнаружены перебои во входном электропитании",
+            "slugs": [
+                "gorenje-power-supply-fluctuation",
+                "gorenje-terminal-block-overheating",
+                "gorenje-noise-filter-defect"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f9",
+            "title": "Ошибка F9 сушильной машины Gorenje",
+            "sign": "Программа останавливается с кодом F9",
+            "causes": "Система отвода конденсата функционирует некорректно",
+            "slugs": [
+                "gorenje-condensate-pump-failure",
+                "gorenje-drain-hose-obstruction",
+                "gorenje-water-level-sensor-error"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f10",
+            "title": "Ошибка F10 сушильной машины Gorenje",
+            "sign": "Код F10 отображается сразу после включения",
+            "causes": "Происходит внутренний сбой программного модуля",
+            "slugs": [
+                "gorenje-firmware-corruption",
+                "gorenje-memory-module-fault",
+                "gorenje-configuration-parameter-error"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f11",
+            "title": "Ошибка F11 сушильной машины Gorenje",
+            "sign": "Устройство не реагирует на команды и выводит F11",
+            "causes": "Критическая неисправность электронной платы управления",
+            "slugs": [
+                "gorenje-main-control-board-failure",
+                "gorenje-power-section-component-damage",
+                "gorenje-internal-bus-communication-error"
+            ]
+        },
+        {
+            "slug": "gorenje-dryer-error-f12",
+            "title": "Ошибка F12 сушильной машины Gorenje",
+            "sign": "После закрытия люка система показывает F12",
+            "causes": "Механизм блокировки двери не подтверждает корректную фиксацию",
+            "slugs": [
+                "gorenje-door-lock-assembly-defect",
+                "gorenje-door-switch-sensor-malfunction",
+                "gorenje-door-alignment-issue"
+            ]
+        },
+
+        {
+            "slug": "gorenje-ntc-sensor-malfunction",
+            "title": "Сбой NTC датчика температуры Gorenje",
+            "sign": "Контроллер получает некорректные показатели нагрева",
+            "causes": "Датчик термистора передаёт искажённые значения из-за износа или внутреннего повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-temperature-wiring-fault",
+            "title": "Повреждение проводки температурного датчика Gorenje",
+            "sign": "Температурные данные не поступают стабильно на плату",
+            "causes": "Перегибы, надлом или окисление контактов создают перебои сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-control-module-sensor-error",
+            "title": "Ошибка связи платы управления с сенсором Gorenje",
+            "sign": "Программа отображает нестабильные температуры",
+            "causes": "Сбой контроллера препятствует корректной интерпретации показаний датчика",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heating-element-burnout",
+            "title": "Выход из строя нагревательного элемента Gorenje",
+            "sign": "Воздух внутри барабана остаётся холодным",
+            "causes": "Перегрев или разрыв спирали нарушает процесс генерации тепла",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-thermal-cutoff-triggered",
+            "title": "Срабатывание термопредохранителя Gorenje",
+            "sign": "Нагрев внезапно останавливается",
+            "causes": "Защитный элемент размыкает цепь при превышении критической температуры",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-heater-relay-defect",
+            "title": "Неисправность реле нагревателя Gorenje",
+            "sign": "Элемент не включается по команде контроллера",
+            "causes": "Заклинивший или повреждённый переключатель реле нарушает подачу тока на спираль",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-thermostat-failure",
+            "title": "Сбой термостата Gorenje",
+            "sign": "Температурные режимы регулируются некорректно",
+            "causes": "Неисправный регулятор вызывает перегрев или преждевременное отключение нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-airflow-restriction",
+            "title": "Засорение воздушного канала Gorenje",
+            "sign": "Обдув барабана слабый, сушка замедляется",
+            "causes": "Скопление ворса и пыли препятствует свободному прохождению горячего воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-temperature-sensor-drift",
+            "title": "Дрейф температурного сенсора Gorenje",
+            "sign": "Показания температуры постепенно уходят в сторону от реального значения",
+            "causes": "Старение или деградация элемента приводит к неточным измерениям",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-motor-overload",
+            "title": "Перегрузка двигателя Gorenje",
+            "sign": "Барабан вращается с перебоями или не двигается вовсе",
+            "causes": "Механическое сопротивление или чрезмерная нагрузка увеличивает ток и блокирует мотор",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drive-belt-breakage",
+            "title": "Обрыв приводного ремня Gorenje",
+            "sign": "Мотор работает, но барабан не вращается",
+            "causes": "Ремень порвался или сполз с роликов, нарушая передачу крутящего момента",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-inverter-board-malfunction",
+            "title": "Сбой инверторной платы Gorenje",
+            "sign": "Скорость вращения регулируется нестабильно",
+            "causes": "Сбой модуля преобразования импульсов нарушает управление мотором",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-user-interface-failure",
+            "title": "Сбой панели управления Gorenje",
+            "sign": "Кнопки и сенсор не реагируют на нажатия",
+            "causes": "Неисправность интерфейсного контроллера препятствует выбору программы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-ribbon-cable-disconnection",
+            "title": "Отсоединение шлейфа панели Gorenje",
+            "sign": "Интерфейс отображает некорректные символы или мигает",
+            "causes": "Ослабленный контакт или повреждённый кабель разрывает поток данных",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-main-board-communication-loss",
+            "title": "Потеря связи с основной платой Gorenje",
+            "sign": "Модули управления не синхронизируются",
+            "causes": "Сбой цифровой шины вызывает задержки в обмене сигналами",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-moisture-sensor-contamination",
+            "title": "Загрязнение датчика влажности Gorenje",
+            "sign": "Программа завершает сессию раньше времени",
+            "causes": "Ворс или пыль на контактах искажает считывание остаточной влаги",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-humidity-sensor-circuit-fault",
+            "title": "Неисправность цепи датчика влажности Gorenje",
+            "sign": "Система контроля влаги работает нестабильно",
+            "causes": "Электронный контур повреждён, что приводит к ошибочным сигналам",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drum-contact-strip-damage",
+            "title": "Износ контактной полосы барабана Gorenje",
+            "sign": "Данные о влажности искажены",
+            "causes": "Стертые проводящие элементы не обеспечивают точного измерения с остаточной одеждой",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-thermal-fuse-activation",
+            "title": "Срабатывание термопредохранителя Gorenje",
+            "sign": "Нагрев останавливается внезапно",
+            "causes": "Элемент защиты отключает питание при превышении допустимой температуры",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-ventilation-duct-blockage",
+            "title": "Засорение вентиляционного канала Gorenje",
+            "sign": "Воздух не циркулирует должным образом",
+            "causes": "Ворс или пыль препятствует нормальному движению потоков, вызывая перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-fan-motor-seizure",
+            "title": "Заклинивание вентилятора Gorenje",
+            "sign": "Обдув барабана слабый или отсутствует",
+            "causes": "Износ подшипников или дефект ротора снижает эффективность вентиляции",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-supply-fluctuation",
+            "title": "Перепады напряжения электропитания Gorenje",
+            "sign": "Дисплей мигает или агрегат не запускается",
+            "causes": "Неустойчивое напряжение вызывает перебои в работе электронной платы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-terminal-block-overheating",
+            "title": "Перегрев клеммного блока Gorenje",
+            "sign": "На соединениях заметно тепло и искрение",
+            "causes": "Плохой контакт или окисление увеличивает сопротивление и создаёт локальный нагрев",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-noise-filter-defect",
+            "title": "Неисправность фильтра помех Gorenje",
+            "sign": "Машина периодически не включается или выдаёт системную ошибку",
+            "causes": "Дефектный фильтр не стабилизирует подачу электричества и нарушает работу платы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-condensate-pump-failure",
+            "title": "Сбой конденсатного насоса Gorenje",
+            "sign": "Жидкость остаётся в системе",
+            "causes": "Насос не прокачивает конденсат из-за поломки или засора крыльчатки",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-drain-hose-obstruction",
+            "title": "Перекрытие сливного шланга Gorenje",
+            "sign": "Вода не удаляется полностью",
+            "causes": "Засор, перегиб или скопление осадка препятствует свободному стоку жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-water-level-sensor-error",
+            "title": "Ошибка датчика уровня воды Gorenje",
+            "sign": "Система неверно оценивает количество жидкости",
+            "causes": "Сенсор повреждён или загрязнён, что искажает контроль заполнения",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-firmware-corruption",
+            "title": "Повреждение прошивки Gorenje",
+            "sign": "Программы запускаются с ошибками или срываются",
+            "causes": "Сбой системного ПО нарушает последовательность выполнения команд",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-memory-module-fault",
+            "title": "Сбой модуля памяти Gorenje",
+            "sign": "Сохранённые настройки теряются",
+            "causes": "Дефект микросхемы памяти приводит к нестабильной работе функций",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-configuration-parameter-error",
+            "title": "Ошибка параметров конфигурации Gorenje",
+            "sign": "Некорректная работа выбранных режимов",
+            "causes": "Системные настройки повреждены, что вызывает сбой алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-main-control-board-failure",
+            "title": "Критическая неисправность основной платы Gorenje",
+            "sign": "Аппарат не реагирует на команды",
+            "causes": "Повреждение процессора или силовых цепей блокирует запуск программы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-power-section-component-damage",
+            "title": "Повреждение силовых компонентов платы Gorenje",
+            "sign": "Электроника не получает стабильное питание",
+            "causes": "Сгоревшие или повреждённые элементы нарушают работу блока питания платы",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-internal-bus-communication-error",
+            "title": "Сбой внутренней шины данных Gorenje",
+            "sign": "Модули управления обмениваются сигналами с задержкой",
+            "causes": "Повреждённая линия передачи вызывает потерю синхронизации и ошибок управления",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-lock-assembly-defect",
+            "title": "Дефект замка люка Gorenje",
+            "sign": "Дверца не фиксируется правильно",
+            "causes": "Изношенный или повреждённый механизм блокировки препятствует надёжной фиксации",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-switch-sensor-malfunction",
+            "title": "Сбой сенсора двери Gorenje",
+            "sign": "Контроллер не распознаёт закрытую дверь",
+            "causes": "Повреждённый датчик не передаёт корректный сигнал о положении люка",
+            "slugs": []
+        },
+        {
+            "slug": "gorenje-door-alignment-issue",
+            "title": "Нарушение выравнивания двери Gorenje",
+            "sign": "Люк прилегает неравномерно",
+            "causes": "Смещение петель и креплений мешает корректной фиксации и активации замка",
+            "slugs": []
+        }
+    ]
+}

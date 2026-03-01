@@ -1,0 +1,350 @@
+{ 
+    "indexPageTitle": "Ariston սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Ariston սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/ariston/",
+
+    "items": [
+        {
+            "slug": "ariston-dishwasher-not-starting",
+            "title": "Ariston սպասք լվացող մեքենան չի գործարկվում",
+            "sign": "Սկսելու կոճակը սեղմելիս ծրագիրը չի մեկնարկում",
+            "causes": "Սնուցման խափանում, դռան փականի կամ էլեկտրոնային մոդուլի անսարքություն",
+            "slugs": [
+                "ariston-power-cord-damage",
+                "ariston-door-lock-failure",
+                "ariston-control-board-failure",
+                "ariston-touch-panel-malfunction"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-draining",
+            "title": "Ariston սպասք լվացող մեքենան չի դատարկում ջուրը",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է բաքում",
+            "causes": "Պոմպի կամ ջրահեռացման խողովակի խցանում, կամ ջրահեռացման պոմպի խափանում",
+            "slugs": [
+                "ariston-drain-pump-failure",
+                "ariston-drain-hose-clog",
+                "ariston-filter-blockage",
+                "ariston-pressure-switch-error"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-filling-with-water",
+            "title": "Ariston սպասք լվացող մեքենան չի լցնում ջուր",
+            "sign": "Ցիկլը մեկնարկում է, բայց ջուրը չի մտնում խցիկ",
+            "causes": "Մուտքային փականը անսարք է կամ ակտիվացել է արտահոսքից պաշտպանությունը",
+            "slugs": [
+                "ariston-water-inlet-valve-failure",
+                "ariston-aquastop-activation",
+                "ariston-pressure-switch-error",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-leaking-water",
+            "title": "Ariston սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Աշխատանքի ընթացքում մեքենայի տակ ջուր է հայտնվում",
+            "causes": "Հերմետիկների, խողովակների կամ միացումների վնասում",
+            "slugs": [
+                "ariston-door-seal-damage",
+                "ariston-hose-connection-leak",
+                "ariston-circulation-pump-leak",
+                "ariston-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-heating-water",
+            "title": "Ariston սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Ջուրը մնում է սառը, սպասքը վատ է լվացվում",
+            "causes": "Տաքացուցիչը, թերմոստատը կամ ջերմաստիճանի տվիչը անսարք են",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-ntc-sensor-failure",
+                "ariston-thermostat-error",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-drying",
+            "title": "Ariston սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրից հետո սպասքը խոնավ է",
+            "causes": "Չորացման կամ օդափոխության խափանում",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-drying-fan-failure",
+                "ariston-ventilation-duct-blockage",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-making-noise",
+            "title": "Ariston սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում են կողմնակի ձայներ",
+            "causes": "Պոմպի մաշվածություն կամ օտար առարկաների ներթափանցում",
+            "slugs": [
+                "ariston-circulation-pump-failure",
+                "ariston-drain-pump-failure",
+                "ariston-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-not-cleaning-properly",
+            "title": "Ariston սպասք լվացող մեքենան վատ է լվանում սպասքը",
+            "sign": "Սպասքի վրա մնում են հետքեր և սննդի մնացորդներ",
+            "causes": "Ջրի անբավարար ճնշում կամ ցողիչների խցանում",
+            "slugs": [
+                "ariston-spray-arm-clog",
+                "ariston-circulation-pump-failure",
+                "ariston-filter-blockage",
+                "ariston-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-code",
+            "title": "Ariston սպասք լվացող մեքենան ցույց է տալիս սխալ",
+            "sign": "Ցուցադրիչի վրա երևում է անսարքության կոդ",
+            "causes": "Տվիչների կամ կառավարման պլատայի խափանում",
+            "slugs": [
+                "ariston-control-board-failure",
+                "ariston-ntc-sensor-failure",
+                "ariston-pressure-switch-error",
+                "ariston-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-stops-mid-cycle",
+            "title": "Ariston սպասք լվացող մեքենան կանգ է առնում ցիկլի ընթացքում",
+            "sign": "Ծրագիրը ընդհատվում է մինչև ավարտը",
+            "causes": "Գերտաքացում, էլեկտրոնիկայի խափանում կամ ջրի հետ կապված խնդիրներ",
+            "slugs": [
+                "ariston-heating-element-failure",
+                "ariston-water-inlet-valve-failure",
+                "ariston-control-board-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-door-not-closing",
+            "title": "Ariston սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Մեքենան չի գործարկվում չփակված դռան պատճառով",
+            "causes": "Փականը անսարք է կամ ծխնիները շեղված են",
+            "slugs": [
+                "ariston-door-lock-failure",
+                "ariston-door-hinge-damage",
+                "ariston-door-sensor-error"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-trips-breaker",
+            "title": "Ariston սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Ավտոմատը անջատում է հոսանքը ծրագրի մեկնարկին",
+            "causes": "Տաքացուցիչի, պոմպի կամ ցանցային ֆիլտրի կարճ միացում",
+            "slugs": [
+                "ariston-heating-element-short-circuit",
+                "ariston-circulation-pump-short-circuit",
+                "ariston-noise-filter-burnt",
+                "ariston-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "ariston-power-cord-damage",
+            "title": "Ariston սնուցման մալուխի վնասում",
+            "sign": "Մեկուսացման վնասումը կամ լարերի խզումը հանգեցնում է կառավարման պլատային հոսանքի չմատակարարմանը։",
+            "causes": "Մեքենան չի միանում, ցուցադրիչը չի վառվում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-lock-failure",
+            "title": "Ariston դռան փականի անսարքություն",
+            "sign": "Արգելափակման մեխանիզմի մաշվածությունը կամ կոտրվելը խանգարում է համակարգին ֆիքսել դռան փակված լինելը։",
+            "causes": "Ծրագիրը չի սկսվում, հայտնվում է դռան սխալ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-control-board-failure",
+            "title": "Ariston կառավարման պլատայի խափանում",
+            "sign": "Էլեկտրոնային պլատայի վնասումը առաջացնում է մոդուլների սխալ աշխատանք և ծրագրերի խափանում։",
+            "causes": "Մեքենան կախվում է, չի արձագանքում հրամաններին կամ ինքնաբերաբար կանգ է առնում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-touch-panel-malfunction",
+            "title": "Ariston սենսորային վահանակի անսարքություն",
+            "sign": "Սենսորային վահանակը կորցնում է զգայունությունը կոնտակտների մաշվածության կամ ծրագրային խափանման պատճառով։",
+            "causes": "Կոճակները չեն արձագանքում կամ արձագանքում են սխալ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-failure",
+            "title": "Ariston ջրահեռացման պոմպի խափանում",
+            "sign": "Շարժիչի կամ թիակների մաշվածությունը խանգարում է ջրի հեռացմանը ցիկլից հետո։",
+            "causes": "Ջուրը մնում է բաքում լվացումից հետո։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-hose-clog",
+            "title": "Ariston ջրահեռացման խողովակի խցանում",
+            "sign": "Կեղտի կուտակումը արգելափակում է ջրի նորմալ արտահոսքը։",
+            "causes": "Ջրահեռացումը դանդաղ է կամ ամբողջությամբ բացակայում է։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-filter-blockage",
+            "title": "Ariston ֆիլտրի խցանում",
+            "sign": "Սննդի մնացորդների կուտակումը ֆիլտրում նվազեցնում է համակարգի թողունակությունը։",
+            "causes": "Ջուրը վատ է հեռանում, առաջանում է տհաճ հոտ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-switch-error",
+            "title": "Ariston ճնշման ռելեի սխալ",
+            "sign": "Ջրի մակարդակի տվիչը փոխանցում է սխալ տվյալներ՝ խաթարելով ջրի լցնումն ու ջրահեռացումը։",
+            "causes": "Մեքենան չի լցնում ջուր կամ կանգ է առնում սխալով։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-inlet-valve-failure",
+            "title": "Ariston մուտքային փականի անսարքություն",
+            "sign": "Էլեկտրամագնիսական փականը չի բացվում կամ աշխատում է անկայուն՝ խոչընդոտելով ջրի մուտքը։",
+            "causes": "Ջուրը չի լցվում ցիկլի սկզբում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-aquastop-activation",
+            "title": "Ariston Aquastop համակարգի ակտիվացում",
+            "sign": "Պաշտպանական համակարգը դադարեցնում է ջրի մատակարարումը ներքին արտահոսքի դեպքում։",
+            "causes": "Մեքենան չի լցնում ջուր, հնարավոր է ցուցադրվի սխալ կոդ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-seal-damage",
+            "title": "Ariston դռան հերմետիկի վնասում",
+            "sign": "Ռետինե հերմետիկի մաշվածությունը կամ ձևախախտումը խախտում է խցիկի հերմետիկությունը։",
+            "causes": "Աշխատանքի ընթացքում դռան տակից արտահոսք է առաջանում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-hose-connection-leak",
+            "title": "Ariston խողովակների միացման արտահոսք",
+            "sign": "Թուլացած սեղմակները կամ ճաքերը միացումների հատվածում առաջացնում են ջրի արտահոսք։",
+            "causes": "Մեքենայի տակ ջուր է կուտակվում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-pump-leak",
+            "title": "Ariston շրջանառության պոմպի արտահոսք",
+            "sign": "Պոմպի կորպուսի կամ հերմետիկների վնասումը առաջացնում է ջրի արտահոսք սարքի ներսում։",
+            "causes": "Արտահոսքի պաշտպանությունը ակտիվանում է, մեքենան կանգ է առնում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-leak-sensor-triggered",
+            "title": "Ariston արտահոսքի տվիչի ակտիվացում",
+            "sign": "Տվիչը արձանագրում է ջուր ներքևի հատվածում և արգելափակում աշխատանքը։",
+            "causes": "Մեքենան չի սկսում նոր ցիկլ և ցուցադրում է սխալ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-failure",
+            "title": "Ariston տաքացուցիչի անսարքություն",
+            "sign": "Տաքացուցիչը դադարում է տաքացնել ջուրը՝ պարույրի այրման կամ շղթայի խզման պատճառով։",
+            "causes": "Ջուրը սառը է, լվացման որակը նվազում է։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ntc-sensor-failure",
+            "title": "Ariston ջերմաստիճանի տվիչի խափանում",
+            "sign": "NTC տվիչը փոխանցում է սխալ ջերմաստիճանային տվյալներ՝ խաթարելով տաքացման գործընթացը։",
+            "causes": "Ցիկլը կատարվում է առանց տաքացման կամ ավարտվում է սխալով։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-thermostat-error",
+            "title": "Ariston թերմոստատի անսարքություն",
+            "sign": "Թերմոստատը սխալ է վերահսկում ջրի ջերմաստիճանը՝ առաջացնելով գերտաքացում կամ չտաքացում։",
+            "causes": "Ծրագիրը ընդհատվում է կամ ջուրը մնում է սառը։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drying-fan-failure",
+            "title": "Ariston չորացման օդափոխիչի խափանում",
+            "sign": "Օդափոխիչը դադարում է ապահովել տաք օդի շրջանառությունը խցիկում։",
+            "causes": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ventilation-duct-blockage",
+            "title": "Ariston օդափոխության խողովակի խցանում",
+            "sign": "Օդի շրջանառության խանգարումը նվազեցնում է չորացման արդյունավետությունը։",
+            "causes": "Սպասքի վրա մնում են ջրի կաթիլներ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-pump-failure",
+            "title": "Ariston շրջանառության պոմպի անսարքություն",
+            "sign": "Պոմպը չի ստեղծում բավարար ճնշում ջուրը ցողիչներին մատակարարելու համար։",
+            "causes": "Սպասքը վատ է լվացվում, լսվում է կողմնակի աղմուկ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-spray-arm-obstruction",
+            "title": "Ariston ցողիչի արգելափակում",
+            "sign": "Ցողիչի անցքերը խցանվում են սննդի մնացորդներով՝ նվազեցնելով ջրի ճնշումը։",
+            "causes": "Սպասքի վրա մնում են կեղտեր։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-spray-arm-clog",
+            "title": "Ariston ցողիչի վարդակների խցանում",
+            "sign": "Վարդակների ներսում կուտակումները խանգարում են ջրի հավասարաչափ բաշխմանը։",
+            "causes": "Սպասքը լվացվում է անհավասարաչափ։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-detergent-dispenser-failure",
+            "title": "Ariston լվացող միջոցի դոզատորի անսարքություն",
+            "sign": "Դոզատորի կափարիչի բացման մեխանիզմը չի ակտիվանում ցիկլի ընթացքում։",
+            "causes": "Լվացող միջոցը մնում է չլուծված։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-hinge-damage",
+            "title": "Ariston դռան ծխնիների վնասում",
+            "sign": "Ծխնիների մաշվածությունը բերում է դռան շեղման և փակման անհնարինության։",
+            "causes": "Դուռը փակվում է ուժ գործադրելով կամ չի ֆիքսվում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-sensor-error",
+            "title": "Ariston դռան տվիչի սխալ",
+            "sign": "Տվիչը չի ճանաչում դռան դիրքը նույնիսկ ամուր փակման դեպքում։",
+            "causes": "Ծրագիրը չի սկսվում։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-short-circuit",
+            "title": "Ariston տաքացուցիչի կարճ միացում",
+            "sign": "Տաքացուցիչի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք և ցանցի գերբեռնվածություն։",
+            "causes": "Ավտոմատը գործարկվում է տաքացման մեկնարկին։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-pump-short-circuit",
+            "title": "Ariston շրջանառության պոմպի կարճ միացում",
+            "sign": "Շարժիչի փաթաթման վնասումը առաջացնում է կարճ միացում։",
+            "causes": "Էլեկտրական ավտոմատը անջատում է հոսանքը ծրագրի մեկնարկին։",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-noise-filter-burnt",
+            "title": "Ariston ցանցային ֆիլտրի այրում",
+            "sign": "Ցանցային ֆիլտրը վնասվում է լարման տատանումների դեպքում։",
+            "causes": "Մեքենան չի միանում կամ անջատում է ավտոմատը։",
+            "slugs": []
+        }
+    ]
+}

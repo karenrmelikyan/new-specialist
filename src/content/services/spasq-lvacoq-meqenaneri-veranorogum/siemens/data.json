@@ -1,0 +1,445 @@
+{
+    "indexPageTitle": "Siemens սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Siemens սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/siemens/",
+
+    "items": [
+       {
+            "slug": "siemens-dishwasher-not-turning-on",
+            "title": "Siemens սպասք լվացող մեքենան չի միանում",
+            "sign": "Սնուցման կոճակը սեղմելիս բացակայում է ցուցադրումը և վահանակի արձագանքը։",
+            "causes": "Լարման բացակայություն, ցանցային ֆիլտրի վնասում կամ կառավարման պլատայի անսարքություն։",
+            "slugs": [
+                "siemens-power-cord-damage",
+                "siemens-noise-filter-failure",
+                "siemens-main-control-board-fault",
+                "siemens-power-button-defect"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-draining",
+            "title": "Siemens սպասք լվացող մեքենան չի ջրահեռացնում ջուրը",
+            "sign": "Ծրագրի ավարտից հետո լվացման խցիկում ջուր է մնում։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ ջրահեռացման պոմպի անսարքություն։",
+            "slugs": [
+                "siemens-drain-pump-failure",
+                "siemens-drain-hose-blockage",
+                "siemens-drain-filter-clog",
+                "siemens-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-filling-with-water",
+            "title": "Siemens սպասք լվացող մեքենան չի հավաքում ջուր",
+            "sign": "Ցիկլը մեկնարկում է, բայց ջրի մատակարարում չի իրականացվում։",
+            "causes": "Մուտքային փականի, ծախսաչափի կամ AquaStop համակարգի անսարքություն։",
+            "slugs": [
+                "siemens-water-inlet-valve-failure",
+                "siemens-aquastop-activation",
+                "siemens-flow-meter-error",
+                "siemens-water-level-sensor-defect"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-heating-water",
+            "title": "Siemens սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Լվացումը կատարվում է սառը ջրով, մաքրման որակը նվազած է։",
+            "causes": "Տաքացուցիչի, ջերմաստիճանի սենսորի կամ տաքացման ռելեի անսարքություն։",
+            "slugs": [
+                "siemens-heating-element-failure",
+                "siemens-ntc-sensor-fault",
+                "siemens-heater-relay-defect",
+                "siemens-heating-control-error"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-drying",
+            "title": "Siemens սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "causes": "Չորացման համակարգի խափանում, օդափոխիչի անսարքություն կամ անբավարար տաքացում։",
+            "slugs": [
+                "siemens-drying-fan-failure",
+                "siemens-zeolith-system-fault",
+                "siemens-heating-power-reduction"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-leaking-water",
+            "title": "Siemens սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Մեքենայի տակ ջուր է հայտնվում կամ գործարկվում է արտահոսքից պաշտպանությունը։",
+            "causes": "Խտացուցիչների վնասում, բաքի ճաք կամ ջրի մատակարարման համակարգում արտահոսք։",
+            "slugs": [
+                "siemens-door-seal-damage",
+                "siemens-tank-leak",
+                "siemens-aquastop-leak-detected",
+                "siemens-hose-connection-failure"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-starting-program",
+            "title": "Siemens սպասք լվացող մեքենան ծրագիրը չի մեկնարկում",
+            "sign": "Ռեժիմը ընտրված է, բայց լվացման ցիկլը չի սկսվում։",
+            "causes": "Դռան փականի անսարքություն կամ կառավարման մոդուլի խափանում։",
+            "slugs": [
+                "siemens-door-lock-failure",
+                "siemens-door-sensor-error",
+                "siemens-control-module-malfunction"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-making-noise",
+            "title": "Siemens սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում են գռմռոց, թրթռում կամ օտար ձայներ։",
+            "causes": "Ցիրկուլյացիոն պոմպի մաշվածություն, առանցքակալների վնասում կամ ներսում օտար առարկաների попадание։",
+            "slugs": [
+                "siemens-circulation-pump-wear",
+                "siemens-motor-bearing-damage",
+                "siemens-foreign-object-in-pump"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-not-washing-properly",
+            "title": "Siemens սպասք լվացող մեքենան վատ է լվանում",
+            "sign": "Սպասքի վրա մնում են կեղտեր կամ շերտեր։",
+            "causes": "Ջրի թույլ ցիրկուլյացիա, ֆորսունկների խցանում կամ դոզատորի անսարքություն։",
+            "slugs": [
+                "siemens-spray-arm-blockage",
+                "siemens-circulation-pump-low-pressure",
+                "siemens-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-error-code",
+            "title": "Siemens էկրանին սխալ է ցուցադրվում",
+            "sign": "Վահանակի վրա ցուցադրվում է անսարքության կոդ։",
+            "causes": "Ինքնաախտորոշման համակարգը հայտնաբերում է խնդիր հանգույցներից մեկում։",
+            "slugs": [
+                "siemens-water-sensor-error",
+                "siemens-heating-system-error",
+                "siemens-drain-system-error",
+                "siemens-electronic-module-error"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-trips-breaker",
+            "title": "Siemens սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Միացնելիս գործարկվում է էլեկտրացանցի պաշտպանությունը։",
+            "causes": "Տաքացուցիչի կամ շարժիչի կարճ միացում, կամ լարերի վնասում։",
+            "slugs": [
+                "siemens-heating-element-short-circuit",
+                "siemens-motor-short-circuit",
+                "siemens-wiring-damage"
+            ]
+        },
+        {
+            "slug": "siemens-dishwasher-door-not-closing",
+            "title": "Siemens սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Դուռը չի ֆիքսվում կամ մնում է ոչ լիովին փակված։",
+            "causes": "Փականի մաշվածություն, ծխնիների վնասում կամ կորպուսի գեոմետրիայի խախտում։",
+            "slugs": [
+                "siemens-door-latch-wear",
+                "siemens-hinge-damage",
+                "siemens-door-alignment-issue"
+            ]
+        },
+
+        {
+            "slug": "siemens-power-cord-damage",
+            "title": "Siemens սնուցման մալուխը վնասված է",
+            "sign": "Սարքը վարդակին միացնելիս սնուցում չի ստանում։",
+            "causes": "Լարի խզումը կամ հաղորդիչի գերտաքացումը ամբողջությամբ արգելափակում է լարման մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-noise-filter-failure",
+            "title": "Siemens ցանցային ֆիլտրը անսարք է",
+            "sign": "Լարման տատանումից հետո մեքենան չի միանում։",
+            "causes": "Այրված խանգարումների ֆիլտրը հոսանք չի անցկացնում դեպի կառավարման մոդուլ։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-main-control-board-fault",
+            "title": "Siemens կառավարման պլատայի խափանում",
+            "sign": "Կառավարման վահանակը չի արձագանքում կամ աշխատում է անկայուն։",
+            "causes": "Էլեկտրոնային բաղադրիչների վնասումը խախտում է ծրագրերի կատարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-power-button-defect",
+            "title": "Siemens սնուցման կոճակը անսարք է",
+            "sign": "Կոճակը սեղմվում է, բայց դրանից հետո սարքը չի արձագանքում։",
+            "causes": "Կոնտակտների մաշվածությունը խոչընդոտում է կառավարման ազդանշանի փոխանցմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-pump-failure",
+            "title": "Siemens ջրահեռացման պոմպը անսարք է",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է ներսում։",
+            "causes": "Թիակի խցանումը կամ փաթաթման խզումը խանգարում են ջրի դուրս մղմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-hose-blockage",
+            "title": "Siemens ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրահեռացումը դանդաղ է կատարվում կամ բացակայում է։",
+            "causes": "Կեղտի կուտակումը փակում է ջրի անցուղին։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-filter-clog",
+            "title": "Siemens ջրահեռացման ֆիլտրի խցանում",
+            "sign": "Խցիկում հեղուկ է մնում և հայտնվում է հոտ։",
+            "causes": "Սննդի մնացորդները խցանում են ֆիլտրող տարրը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-pressure-switch-fault",
+            "title": "Siemens պրեսոստատը անսարք է",
+            "sign": "Ջրի մակարդակը որոշվում է սխալ։",
+            "causes": "Մակարդակի սենսորը մոդուլին փոխանցում է սխալ ազդանշաններ։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-water-inlet-valve-failure",
+            "title": "Siemens մուտքային փականը անսարք է",
+            "sign": "Ծրագրի մեկնարկին ջուրը համակարգ չի մատակարարվում։",
+            "causes": "Փականի կոճապանակի վնասումը խանգարում է մատակարարումը բացելուն։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-aquastop-activation",
+            "title": "Siemens AquaStop համակարգի գործարկում",
+            "sign": "Ջրի մատակարարումը ավտոմատ արգելափակվում է։",
+            "causes": "Պաշտպանական համակարգը ակտիվանում է արտահոսք հայտնաբերելիս։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-flow-meter-error",
+            "title": "Siemens ծախսաչափի սխալ",
+            "sign": "Հավաքվող ջրի ծավալը որոշվում է սխալ։",
+            "causes": "Ծախսի սենսորի իմպուլսները չեն ֆիքսվում կառավարման պլատայի կողմից։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-water-level-sensor-defect",
+            "title": "Siemens ջրի մակարդակի սենսորը անսարք է",
+            "sign": "Լցման ազդանշանի բացակայության պատճառով մեքենան չի սկսում ցիկլը։",
+            "causes": "Սենսորի խափանումը արգելափակում է անցումը ծրագրի հաջորդ փուլ։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-element-failure",
+            "title": "Siemens տաքացուցիչը անսարք է",
+            "sign": "Լվացման ընթացքում ջուրը մնում է սառը։",
+            "causes": "Այրված ՏԷՆ-ը չի ապահովում պահանջվող ջերմաստիճանը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-ntc-sensor-fault",
+            "title": "Siemens ջերմաստիճանի սենսորը անսարք է",
+            "sign": "Ջրի ջերմաստիճանը սխալ է ցուցադրվում կամ կարգավորվում։",
+            "causes": "NTC սենսորը մոդուլին փոխանցում է սխալ տվյալներ։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heater-relay-defect",
+            "title": "Siemens տաքացման ռելեն անսարք է",
+            "sign": "Նույնիսկ աշխատող ՏԷՆ-ի դեպքում տաքացումը չի ակտիվանում։",
+            "causes": "Ռելեի կոնտակտները չեն միացնում տաքացուցիչի սնուցման շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-control-error",
+            "title": "Siemens տաքացման կառավարման սխալ",
+            "sign": "Ծրագիրը կանգնում է տաքացման փուլում։",
+            "causes": "Կառավարման պլատան չի տալիս տաքացուցիչը միացնելու ազդանշան։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drying-fan-failure",
+            "title": "Siemens չորացման օդափոխիչը անսարք է",
+            "sign": "Չորացման ռեժիմում օդը չի շրջանառվում։",
+            "causes": "Օդափոխիչի էլեկտրաշարժիչը չի մեկնարկում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-zeolith-system-fault",
+            "title": "Siemens Zeolith համակարգի անսարքություն",
+            "sign": "Ինտենսիվ չորացումը չի ապահովում չոր արդյունք։",
+            "causes": "Ջերմության վերականգնման բլոկի աշխատանքի խախտում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-power-reduction",
+            "title": "Siemens տաքացման հզորության նվազում",
+            "sign": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "causes": "Տաքացուցիչի մասնակի վնասումը նվազեցնում է ջերմատվությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-seal-damage",
+            "title": "Siemens դռան խտացուցիչը վնասված է",
+            "sign": "Ջուրը ծորում է դռան եզրով։",
+            "causes": "Ռետինե եզրագծի մաշվածությունը խախտում է հերմետիկությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-tank-leak",
+            "title": "Siemens բաքի արտահոսք",
+            "sign": "Աշխատանքի ընթացքում մեքենայի տակ ջուր է հայտնվում։",
+            "causes": "Ճաքը կամ կորպուսի վնասումը առաջացնում է արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-aquastop-leak-detected",
+            "title": "Siemens AquaStop համակարգը հայտնաբերել է արտահոսք",
+            "sign": "Աշխատանքը արգելափակվում է և սկսվում է ջրի դուրս մղումը։",
+            "causes": "Սենսորը ֆիքսում է սարքի поддон-ում խոնավություն։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-hose-connection-failure",
+            "title": "Siemens խողովակի միացումը խախտված է",
+            "sign": "Միացման հատվածում ջուր է կաթում։",
+            "causes": "Թուլացած ամրացումը հանգեցնում է հերմետիկության կորստի։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-lock-failure",
+            "title": "Siemens դռան փականը անսարք է",
+            "sign": "Ցիկլը չի մեկնարկում, քանի որ արգելափակում չկա։",
+            "causes": "Ֆիքսման մեխանիզմը դուռը փակ վիճակում չի պահում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-sensor-error",
+            "title": "Siemens դռան սենսորի սխալ",
+            "sign": "Համակարգը չի ճանաչում դռան փակվելը։",
+            "causes": "Սխալ ազդանշանը արգելափակում է ծրագրի մեկնարկը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-control-module-malfunction",
+            "title": "Siemens էլեկտրոնային մոդուլի անսարքություն",
+            "sign": "Ծրագրերը ճիշտ չեն կատարվում։",
+            "causes": "Միկրոսխեմաների խափանումը խախտում է սարքի աշխատանքի ալգորիթմը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-circulation-pump-wear",
+            "title": "Siemens ցիրկուլյացիոն պոմպի մաշվածություն",
+            "sign": "Լվացման ժամանակ ջրի ճնշումը նվազում է։",
+            "causes": "Մաշված առանցքակալները և թիակը նվազեցնում են արտադրողականությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-motor-bearing-damage",
+            "title": "Siemens շարժիչի առանցքակալների վնասում",
+            "sign": "Աշխատանքի ընթացքում առաջանում է գռմռոց և թրթռում։",
+            "causes": "Հենարանային տարրերի մաշվածությունը խախտում է պտտման սահունությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-foreign-object-in-pump",
+            "title": "Siemens պոմպում օտար առարկա կա",
+            "sign": "Ջրի ցիրկուլյացիայի ժամանակ լսվում է քերծոց։",
+            "causes": "Օտար մասնիկները խանգարում են թիակի պտտմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-spray-arm-blockage",
+            "title": "Siemens ցողիչի խցանում",
+            "sign": "Ջուրը խցիկում անհավասար է բաշխվում։",
+            "causes": "Կուտակումները փակում են ֆորսունկների անցքերը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-circulation-pump-low-pressure",
+            "title": "Siemens պոմպի անբավարար ճնշում",
+            "sign": "Լվացումից հետո սպասքը մնում է կեղտոտ։",
+            "causes": "Պոմպի հզորության նվազումը վատացնում է ցիրկուլյացիան։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-detergent-dispenser-failure",
+            "title": "Siemens լվացող միջոցի դոզատորը անսարք է",
+            "sign": "Միջոցը չի մատակարարվում ցիկլի ճիշտ պահին։",
+            "causes": "Բացման մեխանիզմը չի գործարկվում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-water-sensor-error",
+            "title": "Siemens ջրի սենսորի սխալ",
+            "sign": "Հեղուկի մակարդակը սխալ է որոշվում։",
+            "causes": "Սենսորի խափանումը առաջացնում է ծրագրի կանգ։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-system-error",
+            "title": "Siemens տաքացման համակարգի սխալ",
+            "sign": "Ցիկլը ընդհատվում է ջերմաստիճանի բարձրացման փուլում։",
+            "causes": "Ջերմաստիճանի վերահսկումը ֆիքսում է հանգույցի անսարքություն։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-drain-system-error",
+            "title": "Siemens ջրահեռացման համակարգի սխալ",
+            "sign": "Ջուրը խցիկից չի հեռացվում։",
+            "causes": "Էլեկտրոնիկան խնդիր է հայտնաբերում ջրահեռացման կոնտուրում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-electronic-module-error",
+            "title": "Siemens էլեկտրոնային բլոկի սխալ",
+            "sign": "Էկրանին ցուցադրվում է անսարքության կոդ։",
+            "causes": "Կառավարման պլատայի ներքին խափանում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-heating-element-short-circuit",
+            "title": "Siemens տաքացուցիչի կարճ միացում",
+            "sign": "Մեկնարկի ժամանակ գործարկվում է պաշտպանական ավտոմատը։",
+            "causes": "ՏԷՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-motor-short-circuit",
+            "title": "Siemens շարժիչի կարճ միացում",
+            "sign": "Ծրագրի մեկնարկին էլեկտրացանցը անջատվում է։",
+            "causes": "Շարժիչի փաթաթումների կարճ միացումը ստեղծում է գերբեռնվածություն։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-wiring-damage",
+            "title": "Siemens լարերի վնասում",
+            "sign": "Աշխատանքը ուղեկցվում է սնուցման անջատումով։",
+            "causes": "Լարերի մեկուսացման խախտումը առաջացնում է կարճ միացում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-latch-wear",
+            "title": "Siemens դռան լեզվակի մաշվածություն",
+            "sign": "Դուռը փակելիս չի ֆիքսվում։",
+            "causes": "Մեխանիզմի մաշված տարրերը չեն ապահովում արգելափակում։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-hinge-damage",
+            "title": "Siemens ծխնիների վնասում",
+            "sign": "Դուռը շեղված է կամ փակվում է դժվարությամբ։",
+            "causes": "Ամրակների դեֆորմացիան խախտում է ճիշտ նստեցումը։",
+            "slugs": []
+        },
+        {
+            "slug": "siemens-door-alignment-issue",
+            "title": "Siemens դռան կարգավորումը խախտված է",
+            "sign": "Դուռը լիովին չի փակվում։",
+            "causes": "Կառուցվածքի շեղումը խանգարում է հերմետիկությանը։",
+            "slugs": []
+        }
+    ]
+}

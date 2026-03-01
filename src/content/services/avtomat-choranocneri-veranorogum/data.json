@@ -1,0 +1,358 @@
+{
+    "indexPageTitle": "Չորանոց մեքենաների վերանորոգում",
+    "title": "Չորանոցի հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/",
+
+    "items": [
+        {
+            "slug": "dryer-not-heating",
+            "title": "Сушильная машина не нагревает воздух",
+            "sign": "Бельё остаётся холодным и влажным после цикла",
+            "causes": "Неисправность нагревательной системы или управления",
+            "slugs": [
+                "heating-element-burned", 
+                "thermal-fuse-blown", 
+                "heater-relay-failure", 
+                "dryer-control-board-failure"
+            ]
+        },
+        {
+            "slug": "dryer-not-starting",
+            "title": "Сушильная машина не включается",
+            "sign": "При нажатии кнопки питания отсутствует реакция",
+            "causes": "Проблема с питанием, блокировкой люка или электроникой",
+            "slugs": [
+                "power-cord-damaged", 
+                "door-switch-failure", 
+                "start-button-failure", 
+                "dryer-control-board-failure"
+            ]
+        },
+        {
+            "slug": "dryer-not-spinning",
+            "title": "Барабан сушильной машины не вращается",
+            "sign": "Мотор гудит или машина работает, но барабан стоит",
+            "causes": "Неисправность привода или двигателя",
+            "slugs": [
+                "drive-belt-broken", 
+                "motor-failure-dryer", 
+                "idler-pulley-worn", 
+                "motor-capacitor-failure"
+            ]
+        },
+        {
+            "slug": "dryer-not-drying",
+            "title": "Сушильная машина плохо сушит бельё",
+            "sign": "После полного цикла бельё остаётся влажным",
+            "causes": "Недостаточный нагрев или плохая циркуляция воздуха",
+            "slugs": [
+                "clogged-lint-filter", 
+                "vent-duct-blocked", 
+                "moisture-sensor-failure", 
+                "dryer-control-board-failure"
+            ]
+        },
+        {
+            "slug": "dryer-overheating",
+            "title": "Сушильная машина перегревается",
+            "sign": "Корпус становится слишком горячим, возможен запах гари",
+            "causes": "Нарушение вентиляции или контроля температуры",
+            "slugs": [
+                "vent-duct-blocked", 
+                "thermostat-failure", 
+                "thermal-fuse-blown", 
+                "dryer-control-board-failure"
+            ]
+        },
+        {
+            "slug": "dryer-stops-mid-cycle",
+            "title": "Сушильная машина останавливается во время работы",
+            "sign": "Цикл прерывается до завершения программы",
+            "causes": "Перегрев, неисправность двигателя или электроники",
+            "slugs": [
+                "motor-overheating", 
+                "thermal-fuse-blown", 
+                "dryer-control-board-failure", 
+                "power-supply-instability"
+            ]
+        },
+        {
+            "slug": "dryer-noisy",
+            "title": "Сушильная машина шумит при работе",
+            "sign": "Появился скрежет, стук или визг во время вращения",
+            "causes": "Износ вращающихся элементов",
+            "slugs": [
+                "drum-bearing-worn", 
+                "support-rollers-worn", 
+                "idler-pulley-worn", 
+                "foreign-object-in-drum"
+            ]
+        },
+        {
+            "slug": "dryer-vibrates",
+            "title": "Сушильная машина сильно вибрирует",
+            "sign": "Корпус дрожит и смещается во время работы",
+            "causes": "Нарушение балансировки или износ опор",
+            "slugs": [
+                "uneven-installation", 
+                "support-rollers-worn", 
+                "shock-absorber-worn", 
+                "drum-bearing-worn"
+            ]
+        },
+        {
+            "slug": "dryer-door-not-locking",
+            "title": "Дверца сушильной машины не закрывается",
+            "sign": "Машина не запускается из-за неплотного закрытия люка",
+            "causes": "Неисправность замка или механизма фиксации",
+            "slugs": [
+                "door-lock-failure", 
+                "door-hinge-damaged", 
+                "door-switch-failure"
+            ]
+        },
+        {
+            "slug": "dryer-error-code",
+            "title": "Сушильная машина показывает ошибку",
+            "sign": "На дисплее отображается код ошибки",
+            "causes": "Сбой датчиков или управляющего модуля",
+            "slugs": [
+                "moisture-sensor-failure", 
+                "temperature-sensor-failure", 
+                "dryer-control-board-failure"
+            ]
+        },
+        {
+            "slug": "dryer-burn-smell",
+            "title": "Запах гари из сушильной машины",
+            "sign": "Во время работы появляется неприятный запах",
+            "causes": "Перегрев или накопление пуха",
+            "slugs": [
+                "clogged-lint-filter", 
+                "vent-duct-blocked", 
+                "heating-element-burned", 
+                "wiring-damaged"
+            ]
+        },
+        {
+            "slug": "dryer-condensation-issue",
+            "title": "Проблемы с конденсатом в сушильной машине",
+            "sign": "Вода не собирается в контейнер или протекает",
+            "causes": "Неисправность системы отвода конденсата",
+            "slugs": [
+                "condensate-pump-failure", 
+                "water-container-misaligned", 
+                "drain-hose-blocked", 
+                "dryer-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "heating-element-burned",
+            "title": "Сгорел нагревательный элемент",
+            "sign": "Отсутствует нагрев воздуха",
+            "causes": "Перегорание спирали ТЭНа",
+            "slugs": []
+        },
+        {
+            "slug": "thermal-fuse-blown",
+            "title": "Сработал термопредохранитель",
+            "sign": "Машина не нагревает или не запускается",
+            "causes": "Перегрев из-за плохой вентиляции",
+            "slugs": []
+        },
+        {
+            "slug": "heater-relay-failure",
+            "title": "Неисправно реле нагрева",
+            "sign": "Нагрев включается нестабильно или отсутствует",
+            "causes": "Подгорание контактов реле",
+            "slugs": []
+        },
+        {
+            "slug": "dryer-control-board-failure",
+            "title": "Неисправен электронный модуль управления",
+            "sign": "Некорректная работа программ или отсутствие запуска",
+            "causes": "Сбой прошивки или повреждение элементов платы",
+            "slugs": []
+        },
+        {
+            "slug": "power-cord-damaged",
+            "title": "Повреждён сетевой кабель",
+            "sign": "Машина не получает питание",
+            "causes": "Обрыв или оплавление проводов",
+            "slugs": []
+        },
+        {
+            "slug": "door-switch-failure",
+            "title": "Неисправен датчик закрытия двери",
+            "sign": "Машина не запускается при закрытом люке",
+            "causes": "Износ или обрыв контактов",
+            "slugs": []
+        },
+        {
+            "slug": "start-button-failure",
+            "title": "Неисправна кнопка запуска",
+            "sign": "Команда старта не передаётся",
+            "causes": "Износ контактной группы",
+            "slugs": []
+        },
+        {
+            "slug": "drive-belt-broken",
+            "title": "Обрыв приводного ремня",
+            "sign": "Барабан не вращается",
+            "causes": "Механический износ ремня",
+            "slugs": []
+        },
+        {
+            "slug": "motor-failure-dryer",
+            "title": "Неисправен двигатель сушильной машины",
+            "sign": "Барабан не крутится или мотор гудит",
+            "causes": "Износ обмотки или заклинивание ротора",
+            "slugs": []
+        },
+        {
+            "slug": "idler-pulley-worn",
+            "title": "Изношен натяжной ролик",
+            "sign": "Посторонний шум и слабое вращение барабана",
+            "causes": "Износ подшипника ролика",
+            "slugs": []
+        },
+        {
+            "slug": "motor-capacitor-failure",
+            "title": "Неисправен пусковой конденсатор двигателя",
+            "sign": "Мотор не запускается",
+            "causes": "Потеря ёмкости конденсатора",
+            "slugs": []
+        },
+        {
+            "slug": "clogged-lint-filter",
+            "title": "Засорён фильтр для пуха",
+            "sign": "Плохая циркуляция воздуха",
+            "causes": "Скопление ворса и пыли",
+            "slugs": []
+        },
+        {
+            "slug": "vent-duct-blocked",
+            "title": "Засорён вентиляционный канал",
+            "sign": "Перегрев и плохая сушка",
+            "causes": "Накопление пуха в воздуховоде",
+            "slugs": []
+        },
+        {
+            "slug": "moisture-sensor-failure",
+            "title": "Неисправен датчик влажности",
+            "sign": "Некорректное определение степени сушки",
+            "causes": "Окисление или загрязнение контактов",
+            "slugs": []
+        },
+        {
+            "slug": "thermostat-failure",
+            "title": "Неисправен термостат",
+            "sign": "Нарушение контроля температуры",
+            "causes": "Поломка температурного датчика",
+            "slugs": []
+        },
+        {
+            "slug": "motor-overheating",
+            "title": "Перегрев двигателя",
+            "sign": "Машина останавливается во время работы",
+            "causes": "Перегрузка или плохая вентиляция",
+            "slugs": []
+        },
+        {
+            "slug": "power-supply-instability",
+            "title": "Нестабильное электропитание",
+            "sign": "Самопроизвольные отключения",
+            "causes": "Перепады напряжения в сети",
+            "slugs": []
+        },
+        {
+            "slug": "drum-bearing-worn",
+            "title": "Износ подшипников барабана",
+            "sign": "Гул и люфт барабана",
+            "causes": "Длительная эксплуатация без обслуживания",
+            "slugs": []
+        },
+        {
+            "slug": "support-rollers-worn",
+            "title": "Изношены опорные ролики",
+            "sign": "Скрежет при вращении",
+            "causes": "Стирание поверхности роликов",
+            "slugs": []
+        },
+        {
+            "slug": "foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане",
+            "sign": "Стук во время вращения",
+            "causes": "Попадание металлических предметов",
+            "slugs": []
+        },
+        {
+            "slug": "uneven-installation",
+            "title": "Неправильная установка машины",
+            "sign": "Сильная вибрация корпуса",
+            "causes": "Неровная поверхность пола",
+            "slugs": []
+        },
+        {
+            "slug": "shock-absorber-worn",
+            "title": "Изношены амортизаторы",
+            "sign": "Сильная тряска при работе",
+            "causes": "Потеря упругости демпферов",
+            "slugs": []
+        },
+        {
+            "slug": "door-lock-failure",
+            "title": "Неисправен замок дверцы",
+            "sign": "Дверца не фиксируется",
+            "causes": "Поломка механизма блокировки",
+            "slugs": []
+        },
+        {
+            "slug": "door-hinge-damaged",
+            "title": "Повреждены петли дверцы",
+            "sign": "Люк перекошен",
+            "causes": "Механическое повреждение креплений",
+            "slugs": []
+        },
+        {
+            "slug": "temperature-sensor-failure",
+            "title": "Неисправен датчик температуры",
+            "sign": "Некорректный нагрев",
+            "causes": "Выход из строя термодатчика",
+            "slugs": []
+        },
+        {
+            "slug": "wiring-damaged",
+            "title": "Повреждена внутренняя проводка",
+            "sign": "Запах гари или перебои в работе",
+            "causes": "Оплавление или обрыв проводов",
+            "slugs": []
+        },
+        {
+            "slug": "condensate-pump-failure",
+            "title": "Неисправен насос отвода конденсата",
+            "sign": "Вода не откачивается",
+            "causes": "Заклинивание или износ насоса",
+            "slugs": []
+        },
+        {
+            "slug": "water-container-misaligned",
+            "title": "Неправильно установлен контейнер для воды",
+            "sign": "Протечка или ошибка заполнения",
+            "causes": "Неплотная фиксация резервуара",
+            "slugs": []
+        },
+        {
+            "slug": "drain-hose-blocked",
+            "title": "Засорён сливной шланг конденсата",
+            "sign": "Вода не уходит из системы",
+            "causes": "Накопление грязи или перегиб шланга",
+            "slugs": []
+        }
+    ]
+}

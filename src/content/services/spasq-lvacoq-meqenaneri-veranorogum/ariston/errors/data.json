@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Ariston սպասք լվացող մեքենաների սխալների կոդերը",
+    "title": "Ariston սպասք լվացող մեքենայի սխալների կոդերը",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/ariston/errors/",
+
+    "items": [
+       {
+            "slug": "ariston-dishwasher-error-al01",
+            "title": "Ariston սպասք լվացող մեքենայի AL01 սխալ",
+            "sign": "Ծրագիրը ընդհատվում է, և էկրանին հայտնվում է AL01",
+            "causes": "Պաշտպանության համակարգը ֆիքսում է խոնավության առկայությունը կորպուսի ստորին поддон-ում",
+            "slugs": [
+                "ariston-base-tray-water-detection",
+                "ariston-float-switch-engaged",
+                "ariston-internal-hydraulic-leak"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al02",
+            "title": "Ariston սպասք լվացող մեքենայի AL02 սխալ",
+            "sign": "Մեքենան չի սկսում լվացումը և ցուցադրում է AL02",
+            "causes": "Կառավարիչը սահմանված ժամանակահատվածում չի գրանցում ջրի ճիշտ հավաքում",
+            "slugs": [
+                "ariston-inlet-solenoid-obstruction",
+                "ariston-water-pressure-deficiency",
+                "ariston-fill-valve-coil-failure"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al03",
+            "title": "Ariston սպասք լվացող մեքենայի AL03 սխալ",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է խցիկում, և ցուցադրվում է AL03",
+            "causes": "Հեղուկի հեռացումը կատարվում է սխալ կամ ամբողջությամբ արգելափակվում է",
+            "slugs": [
+                "ariston-drain-pump-jam",
+                "ariston-discharge-hose-blockage",
+                "ariston-filter-assembly-clogged"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al04",
+            "title": "Ariston սպասք լվացող մեքենայի AL04 սխալ",
+            "sign": "Լվացումը կանգ է առնում տաքացման ընթացքում՝ AL04 կոդով",
+            "causes": "Ջերմաստիճանի վերահսկումը հայտնաբերում է շեղում սահմանված պարամետրերից",
+            "slugs": [
+                "ariston-heating-element-burnout",
+                "ariston-thermal-sensor-inaccuracy",
+                "ariston-heater-relay-malfunction"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al05",
+            "title": "Ariston սպասք լվացող մեքենայի AL05 սխալ",
+            "sign": "Ջրի ցիրկուլյացիան բացակայում է, ցուցադրվում է AL05",
+            "causes": "Համակարգը չի ֆիքսում պոմպային հանգույցի նորմալ աշխատանքը",
+            "slugs": [
+                "ariston-circulation-motor-seizure",
+                "ariston-impeller-damage",
+                "ariston-motor-control-board-defect"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al06",
+            "title": "Ariston սպասք լվացող մեքենայի AL06 սխալ",
+            "sign": "Էկրանին հայտնվում է AL06՝ առանց ծրագրի մեկնարկի",
+            "causes": "Մակարդակի սենսորը էլեկտրոնային մոդուլին փոխանցում է սխալ ազդանշաններ",
+            "slugs": [
+                "ariston-pressure-switch-failure",
+                "ariston-air-trap-contamination",
+                "ariston-level-sensor-wiring-issue"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al07",
+            "title": "Ariston սպասք լվացող մեքենայի AL07 սխալ",
+            "sign": "Սարքը կախվում է և ցույց է տալիս AL07",
+            "causes": "Խախտված է կապը օգտագործողի ինտերֆեյսի և հիմնական պլատի միջև",
+            "slugs": [
+                "ariston-ui-board-malfunction",
+                "ariston-ribbon-cable-disconnection",
+                "ariston-communication-bus-error"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al08",
+            "title": "Ariston սպասք լվացող մեքենայի AL08 սխալ",
+            "sign": "Մեքենան միանում է, բայց ցիկլը կատարվում է սխալ, և ֆիքսվում է AL08",
+            "causes": "Ջրի պղտորության սենսորը ձևավորում է խեղաթյուրված ցուցումներ",
+            "slugs": [
+                "ariston-turbidity-sensor-contamination",
+                "ariston-optical-module-failure",
+                "ariston-water-clarity-detection-fault"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al09",
+            "title": "Ariston սպասք լվացող մեքենայի AL09 սխալ",
+            "sign": "Միացնելուց անմիջապես հետո ցուցադրվում է AL09",
+            "causes": "Հայտնաբերվել է կառավարման վերահսկիչի հիշողության ներքին սխալ",
+            "slugs": [
+                "ariston-eeprom-corruption",
+                "ariston-firmware-instability",
+                "ariston-configuration-data-loss"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al10",
+            "title": "Ariston սպասք լվացող մեքենայի AL10 սխալ",
+            "sign": "Ջրի տաքացում չի տեղի ունենում, և ցուցադրվում է AL10",
+            "causes": "Տաքացման հանգույցի էլեկտրական շղթան բաց է",
+            "slugs": [
+                "ariston-heater-circuit-interruption",
+                "ariston-ntc-sensor-out-of-range",
+                "ariston-thermal-fuse-open"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al11",
+            "title": "Ariston սպասք լվացող մեքենայի AL11 սխալ",
+            "sign": "Շարժիչը չի գործարկվում, AL11 կոդը մնում է էկրանին",
+            "causes": "Կառավարիչը տախոգեներատորից չի ստանում ճիշտ հետադարձ կապ",
+            "slugs": [
+                "ariston-tacho-coil-damage",
+                "ariston-rotor-magnet-displacement",
+                "ariston-speed-feedback-circuit-defect"
+            ]
+        },
+        {
+            "slug": "ariston-dishwasher-error-al12",
+            "title": "Ariston սպասք լվացող մեքենայի AL12 սխալ",
+            "sign": "Սարքը չի արձագանքում հրամաններին և ցուցադրում է AL12",
+            "causes": "Ֆիքսվել է էլեկտրոնային պլատի ուժային մասի կրիտիկական վնասում",
+            "slugs": [
+                "ariston-main-board-short-circuit",
+                "ariston-power-module-breakdown",
+                "ariston-voltage-regulation-failure"
+            ]
+        },
+
+        {
+            "slug": "ariston-base-tray-water-detection",
+            "title": "Ariston-ի поддон-ում խոնավության հայտնաբերում",
+            "sign": "Արտակարգ պաշտպանությունը գործարկվում է, և լվացումը կանգ է առնում",
+            "causes": "Կորպուսի ստորին հատվածում հեղուկի կուտակում՝ արտահոսքի կամ կոնդենսատի պատճառով",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-float-switch-engaged",
+            "title": "Ariston լողացող անջատիչի գործարկում",
+            "sign": "Սարքը դադարեցնում է ցիկլը առանց նախազգուշացման",
+            "causes": "Լողացող սենսորը բարձրանում է՝ հիմքային հատված ջուր попадելու հետևանքով",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-internal-hydraulic-leak",
+            "title": "Ariston-ի ներքին հիդրավլիկ հանգույցի արտահոսք",
+            "sign": "Մեքենայի տակ հեղուկ է հայտնվում",
+            "causes": "Միացնող խողովակները կամ уплотнитель-ները կորցնում են հերմետիկությունը նյութի հնացման պատճառով",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-inlet-solenoid-obstruction",
+            "title": "Ariston-ի էլեկտրամագնիսական լցման փականի խցանում",
+            "sign": "Ջուրը դանդաղ է լցվում կամ մատակարարումը բացակայում է",
+            "causes": "Միկրոմասնիկները կամ կրաքարային նստվածքը արգելափակում են փականի ցանցային ֆիլտրը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-pressure-deficiency",
+            "title": "Ariston-ի ջրի անբավարար ճնշում",
+            "sign": "Բաքի լցվելը չափազանց երկար է տևում",
+            "causes": "Ջրամատակարարման համակարգում ճնշումը սարքի աշխատանքի համար թույլատրելի նվազագույնից ցածր է",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-fill-valve-coil-failure",
+            "title": "Ariston-ի լցման փականի կծիկի անսարքություն",
+            "sign": "Փականը չի բացվում վերահսկիչի հրամանով",
+            "causes": "Կծիկի խցանումը կամ վնասումը խանգարում է ջրի մատակարարմանը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-jam",
+            "title": "Ariston-ի ջրահեռացման պոմպի խցանում",
+            "sign": "Հեղուկը չի հեռացվում խցիկից",
+            "causes": "Աղբը, մանր առարկաները կամ կրաքարային նստվածքները արգելափակում են պոմպի թիակները",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-discharge-hose-blockage",
+            "title": "Ariston-ի ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրի հեռացումը դժվարացած է կամ բացակայում է",
+            "causes": "Ծալքերը, խցանումները կամ նստվածքները խանգարում են հեղուկի նորմալ հոսքին",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-filter-assembly-clogged",
+            "title": "Ariston-ի ֆիլտրող բլոկի խցանում",
+            "sign": "Խցիկի հատակին կուտակվում են սննդի մնացորդներ",
+            "causes": "Ֆիլտրը խցանված է մանր մասնիկներով, որոնք խանգարում են ջրի ցիրկուլյացիային",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-burnout",
+            "title": "Ariston-ի տաքացուցիչի այրում",
+            "sign": "Ջուրը չի տաքանում մինչև սահմանված ջերմաստիճանը",
+            "causes": "Ջերմատարրի սպիրալը կորցնում է հաղորդունակությունը գերտաքացման կամ հնացման պատճառով",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-thermal-sensor-inaccuracy",
+            "title": "Ariston-ի ջերմասենսորի ոչ ճշգրիտ ցուցումներ",
+            "sign": "Տաքացման փուլը ավարտվում է վաղաժամ կամ տեղի է ունենում գերտաքացում",
+            "causes": "Սենսորը կառավարման մոդուլին փոխանցում է շեղված արժեքներ",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heater-relay-malfunction",
+            "title": "Ariston-ի տաքացուցիչի ռելեի խափանում",
+            "sign": "Էլեմենտը չի միանում ծրագրի մեկնարկին",
+            "causes": "Ռելեի խցանված կամ վնասված անջատիչը խախտում է հոսանքի մատակարարումը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-circulation-motor-seizure",
+            "title": "Ariston-ի ցիրկուլյացիոն շարժիչի խցանում",
+            "sign": "Ցողիչ թևիկները չեն պտտվում",
+            "causes": "Ռոտորի մեխանիկական վնասումը կամ առանցքակալների մաշվածությունը խոչընդոտում են պտտվելը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-impeller-damage",
+            "title": "Ariston-ի պոմպի թիակի վնասում",
+            "sign": "Ջրի ցիրկուլյացիան խախտված է, ճնշումն ընկնում է",
+            "causes": "Թիակները ճաքել են կամ մաշվել, նվազեցնելով պոմպի արդյունավետությունը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-motor-control-board-defect",
+            "title": "Ariston-ի շարժիչի կառավարման պլատի անսարքություն",
+            "sign": "Շարժիչի արագությունը կարգավորվում է անկայուն",
+            "causes": "Կառավարման էլեկտրոնային սխեման ստանում է խեղաթյուրված ազդանշաններ կամ դուրս է գալիս շարքից",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-switch-failure",
+            "title": "Ariston-ի ճնշման ռելեի խափանում",
+            "sign": "Ջրի մակարդակը որոշվում է սխալ",
+            "causes": "Մակարդակի վերահսկման տարրը չի ձևավորում ճիշտ ազդանշան կառավարման մոդուլի համար",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-air-trap-contamination",
+            "title": "Ariston-ի օդային խցանի խցանում",
+            "sign": "Ջրի հավաքումը կամ ջրահեռացումը խախտված է",
+            "causes": "Հիդրոստատի ալիքը խցանված է օտար մասնիկներով կամ կրաքարային նստվածքներով",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-level-sensor-wiring-issue",
+            "title": "Ariston-ի մակարդակի սենսորի լարերի խնդիրներ",
+            "sign": "Ջրի քանակի ազդանշանը անկայուն է",
+            "causes": "Թուլացած կոնտակտը կամ վնասված լարը խանգարում է տվյալների ճիշտ փոխանցմանը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ui-board-malfunction",
+            "title": "Ariston-ի օգտագործողի ինտերֆեյսի պլատի խափանում",
+            "sign": "Կոճակներն ու սենսորը չեն արձագանքում սեղմումներին",
+            "causes": "Վահանակի էլեկտրոնային վերահսկիչը հրամաններ չի փոխանցում հիմնական պլատին",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ribbon-cable-disconnection",
+            "title": "Ariston-ի ինտերֆեյսի շլեյֆի անջատում",
+            "sign": "Էկրանը թարթում է կամ ցուցադրում է սխալ նշաններ",
+            "causes": "Շլեյֆը կորցրել է կոնտակտը կամ վնասված է, խախտելով ազդանշանների փոխանցումը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-communication-bus-error",
+            "title": "Ariston-ի պլատների միջև կապի շինայի սխալ",
+            "sign": "Մոդուլները չեն սինխրոնացվում, առաջանում են աշխատանքի խափանումներ",
+            "causes": "Տվյալների փոխանցման գծի վնասումը բերում է ուշացումների և կառավարման խափանումների",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-turbidity-sensor-contamination",
+            "title": "Ariston-ի ջրի պղտորության սենսորի աղտոտում",
+            "sign": "Լվացման ցիկլը կատարվում է սխալ",
+            "causes": "Սենսորի վրա կուտակված մանր մազիկները կամ սննդի մնացորդները խեղաթյուրում են պղտորության ցուցումները",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-optical-module-failure",
+            "title": "Ariston-ի օպտիկական մոդուլի խափանում",
+            "sign": "Ջրի թափանցիկության վերահսկումը սխալ է",
+            "causes": "Մոդուլի էլեկտրոնային տարրը կառավարման համակարգին փոխանցում է խեղաթյուրված ազդանշան",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-clarity-detection-fault",
+            "title": "Ariston-ի ջրի թափանցիկության վերահսկման սխալ",
+            "sign": "Մեքենան ավարտում է ցիկլը խափանումներով",
+            "causes": "Ջրի պղտորության վերահսկման համակարգը սենսորներից ստանում է սխալ տվյալներ",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-eeprom-corruption",
+            "title": "Ariston-ի EEPROM հիշողության վնասում",
+            "sign": "Ծրագրերը սկսվում են սխալներով կամ կախվում են",
+            "causes": "Հիշողության միկրոսխեմայի խափանումը խախտում է հրամանների կատարման հերթականությունը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-firmware-instability",
+            "title": "Ariston-ի որոնվածքի անկայունություն",
+            "sign": "Ֆունկցիաները աշխատում են սխալ, ցիկլը ընդհատվում է",
+            "causes": "Համակարգային ապահովումը պարունակում է սխալներ կամ վնասվել է թարմացման ընթացքում",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-configuration-data-loss",
+            "title": "Ariston-ի կոնֆիգուրացիոն տվյալների կորուստ",
+            "sign": "Լվացման ռեժիմները կատարվում են խախտումներով",
+            "causes": "Համակարգային կարգավորումները ջնջվել կամ վնասվել են, ինչի հետևանքով խափանվում են ալգորիթմները",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heater-circuit-interruption",
+            "title": "Ariston-ի տաքացուցիչի շղթայի խզում",
+            "sign": "Ջրի տաքացում չի կատարվում",
+            "causes": "Լարերը կամ սպիրալը խզված են, ինչի հետևանքով խախտվում է տաքացման գործընթացը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-ntc-sensor-out-of-range",
+            "title": "Ariston-ի NTC սենսորը թույլատրելի միջակայքից դուրս է",
+            "sign": "Ջրի ջերմաստիճանի վերահսկումը սխալ է",
+            "causes": "Թերմիստորը ցույց է տալիս արժեքներ՝ նորմալ միջակայքից դուրս",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-thermal-fuse-open",
+            "title": "Ariston-ի ջերմապահովիչը բացված է",
+            "sign": "Տաքացումը հանկարծակի դադարում է",
+            "causes": "Ապահովիչ տարրը բացում է շղթան՝ կրիտիկական ջերմաստիճանը գերազանցելու դեպքում",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-tacho-coil-damage",
+            "title": "Ariston-ի տախոգեներատորի կծիկի վնասում",
+            "sign": "Շարժիչը չի ստանում ճիշտ հետադարձ կապ",
+            "causes": "Լարերի խզումը կամ փաթաթման խզումը խաթարում է պտտման արագության ազդանշանը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-rotor-magnet-displacement",
+            "title": "Ariston-ի ռոտորի մագնիսի տեղաշարժ",
+            "sign": "Շարժիչը չի գործարկվում կամ աշխատում է անկայուն",
+            "causes": "Ռոտորի մագնիսը տեղաշարժված կամ վնասված է, նվազեցնելով տախոգեներատորի արդյունավետությունը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-speed-feedback-circuit-defect",
+            "title": "Ariston-ի արագության հետադարձ կապի շղթայի խափանում",
+            "sign": "Կառավարիչը չի ստանում շարժիչի պտտման ազդանշան",
+            "causes": "Էլեկտրոնային կոնտուրի անսարքությունը ընդհատում է արագության հետադարձ կապը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-main-board-short-circuit",
+            "title": "Ariston-ի հիմնական պլատի կարճ միացում",
+            "sign": "Սարքը լիովին չի արձագանքում հրամաններին",
+            "causes": "Պլատի ուժային տարրերը կարճ միացված են՝ արգելափակելով վերահսկիչի աշխատանքը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-power-module-breakdown",
+            "title": "Ariston-ի ուժային մոդուլի շարքից դուրս գալը",
+            "sign": "Էլեկտրոնիկան չի ստանում կայուն սնուցում",
+            "causes": "Սնուցման բլոկի տարրերի վնասումը խախտում է ամբողջ պլատի աշխատանքը",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-voltage-regulation-failure",
+            "title": "Ariston-ի լարման կարգավորման խափանում",
+            "sign": "Վերահսկիչի ֆունկցիաները անկայուն են",
+            "causes": "Կայունացուցիչի անսարքությունը առաջացնում է սնուցման տատանումներ և մոդուլների աշխատանքի խափանումներ",
+            "slugs": []
+        }
+
+    ]
+}

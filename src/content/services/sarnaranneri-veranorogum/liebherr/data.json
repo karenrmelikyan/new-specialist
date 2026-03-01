@@ -1,0 +1,330 @@
+{
+    "indexPageTitle": "Liebherr սառնարանների վերանորոգում",
+    "title": "Liebherr սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/liebherr/",
+
+    "items": [
+        {
+            "slug": "liebherr-fridge-not-cooling",
+            "title": "Холодильник Liebherr плохо охлаждает",
+            "sign": "Температура в холодильной камере выше нормы",
+            "causes": "Нарушение работы компрессора или системы циркуляции холодного воздуха",
+            "slugs": [
+                "liebherr-inverter-compressor-failure",
+                "liebherr-refrigerant-leak",
+                "liebherr-capillary-blockage",
+                "liebherr-evaporator-fan-failure",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-freezer-not-freezing",
+            "title": "Морозильная камера Liebherr не замораживает",
+            "sign": "Продукты размораживаются, ледяная корка не образуется",
+            "causes": "Недостаточное охлаждение в морозильной камере или сбой циркуляции воздуха",
+            "slugs": [
+                "liebherr-inverter-compressor-failure",
+                "liebherr-refrigerant-leak",
+                "liebherr-defrost-heater-failure",
+                "liebherr-temperature-sensor-error",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-running-continuously",
+            "title": "Холодильник Liebherr работает без остановки",
+            "sign": "Компрессор не отключается длительное время",
+            "causes": "Система не достигает нужного температурного режима из-за утечек или неисправных датчиков",
+            "slugs": [
+                "liebherr-refrigerant-leak",
+                "liebherr-door-seal-worn",
+                "liebherr-temperature-sensor-error",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-not-powering-on",
+            "title": "Холодильник Liebherr не включается",
+            "sign": "Нет индикации, свет и дисплей не работают",
+            "causes": "Сбой в подаче электроэнергии или неисправность электронной платы",
+            "slugs": [
+                "liebherr-power-cord-damage",
+                "liebherr-start-relay-failure",
+                "liebherr-inverter-compressor-failure",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-water-leak",
+            "title": "Холодильник Liebherr протекает",
+            "sign": "Под холодильником или внутри камеры скапливается вода",
+            "causes": "Нарушение отвода конденсата или засор дренажа",
+            "slugs": [
+                "liebherr-drain-hole-clog",
+                "liebherr-drain-line-frozen",
+                "liebherr-drip-tray-damage"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-ice-build-up",
+            "title": "В холодильнике Liebherr образуется лёд",
+            "sign": "Иней или ледяная корка на стенках и испарителе",
+            "causes": "Сбой системы No Frost или элементов разморозки",
+            "slugs": [
+                "liebherr-defrost-heater-failure",
+                "liebherr-defrost-sensor-failure",
+                "liebherr-door-seal-worn",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-making-noise",
+            "title": "Холодильник Liebherr шумит",
+            "sign": "Посторонние звуки, вибрация или гул при работе",
+            "causes": "Износ компрессора, вентилятора или неправильная установка",
+            "slugs": [
+                "liebherr-inverter-compressor-wear",
+                "liebherr-evaporator-fan-failure",
+                "liebherr-condenser-fan-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-not-defrosting",
+            "title": "Холодильник Liebherr не размораживается",
+            "sign": "Испаритель покрыт льдом, оттайка не срабатывает",
+            "causes": "Сбой автоматической системы разморозки",
+            "slugs": [
+                "liebherr-defrost-heater-failure",
+                "liebherr-defrost-timer-error",
+                "liebherr-defrost-sensor-failure",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-light-not-working",
+            "title": "Не горит подсветка холодильника Liebherr",
+            "sign": "Свет не загорается при открытии дверцы",
+            "causes": "Неисправность LED-модуля или дверного датчика",
+            "slugs": [
+                "liebherr-led-lamp-failure",
+                "liebherr-door-switch-failure",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-bad-odor",
+            "title": "Неприятный запах в холодильнике Liebherr",
+            "sign": "Запах сохраняется даже после уборки",
+            "causes": "Засор дренажа, плесень или остатки испорченных продуктов",
+            "slugs": [
+                "liebherr-drain-hole-clog",
+                "liebherr-mold-growth",
+                "liebherr-spoiled-food-residue"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-overfreezing",
+            "title": "Холодильник Liebherr перемораживает продукты",
+            "sign": "Продукты в холодильной зоне покрываются льдом",
+            "causes": "Сбой работы датчиков температуры или заслонки воздуха",
+            "slugs": [
+                "liebherr-temperature-sensor-error",
+                "liebherr-air-damper-stuck",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+        {
+            "slug": "liebherr-fridge-trips-breaker",
+            "title": "Холодильник Liebherr выбивает автомат",
+            "sign": "Защитный автомат срабатывает при включении",
+            "causes": "Короткое замыкание или пробой электрических компонентов",
+            "slugs": [
+                "liebherr-compressor-short-circuit",
+                "liebherr-heater-short-circuit",
+                "liebherr-noise-filter-burnt",
+                "liebherr-main-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "liebherr-inverter-compressor-failure",
+            "title": "Поломка инверторного компрессора холодильника Liebherr",
+            "sign": "Холодильник не набирает холод или не запускается",
+            "causes": "Износ двигателя компрессора, перегрев или механические повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-refrigerant-leak",
+            "title": "Утечка хладагента в холодильнике Liebherr",
+            "sign": "Недостаточное охлаждение и постоянная работа компрессора",
+            "causes": "Нарушение герметичности трубопроводов или микротрещины в контуре охлаждения",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-capillary-blockage",
+            "title": "Засор капиллярной трубки Liebherr",
+            "sign": "Неравномерное охлаждение и повышенная нагрузка на компрессор",
+            "causes": "Закупорка капилляра влагой или отложениями из системы",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-evaporator-fan-failure",
+            "title": "Неисправность вентилятора испарителя Liebherr",
+            "sign": "Холод есть в морозильной камере, но отсутствует в холодильной",
+            "causes": "Поломка мотора вентилятора или обрыв питающего кабеля",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-main-control-board-failure",
+            "title": "Сбой главной электронной платы холодильника Liebherr",
+            "sign": "Холодильник не реагирует на команды, неправильная работа дисплея",
+            "causes": "Выход из строя элементов платы управления, перепады напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-defrost-heater-failure",
+            "title": "Поломка нагревателя системы разморозки Liebherr",
+            "sign": "Испаритель не оттаивает, образуется лед",
+            "causes": "Перегоревший ТЭН или разрыв цепи нагревателя",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-defrost-sensor-failure",
+            "title": "Неисправность датчика разморозки Liebherr",
+            "sign": "Система оттайки не запускается, иней скапливается на испарителе",
+            "causes": "Датчик вышел из строя или потерял контакт с платой управления",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-defrost-timer-error",
+            "title": "Сбой таймера автоматической разморозки Liebherr",
+            "sign": "Оттайка не срабатывает по циклу, лед на испарителе накапливается",
+            "causes": "Неисправен электронный или механический таймер",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-door-seal-worn",
+            "title": "Износ уплотнителя дверцы холодильника Liebherr",
+            "sign": "Продукты быстро портятся, иней на стенках",
+            "causes": "Уплотнитель деформирован, треснул или потерял эластичность",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-power-cord-damage",
+            "title": "Повреждение сетевого шнура холодильника Liebherr",
+            "sign": "Аппарат не включается, отсутствует питание",
+            "causes": "Механическое повреждение провода, оголение жил или обрыв",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-start-relay-failure",
+            "title": "Неисправность пускового реле компрессора Liebherr",
+            "sign": "Компрессор не запускается или срабатывает с трудом",
+            "causes": "Перегоревшее реле или контактная проблема",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-drain-hole-clog",
+            "title": "Засор дренажного отверстия холодильника Liebherr",
+            "sign": "Вода не стекает, скапливается внутри или под холодильником",
+            "causes": "Засор от пищевых остатков, грязи или льда",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-drain-line-frozen",
+            "title": "Замерзание дренажной трубки Liebherr",
+            "sign": "Вода не проходит в поддон, под холодильником лужа",
+            "causes": "Трубка дренажа замерзла из-за низкой температуры или скопления льда",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-drip-tray-damage",
+            "title": "Повреждение поддона для конденсата Liebherr",
+            "sign": "Скопление воды под холодильником",
+            "causes": "Трещины или деформация поддона",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-inverter-compressor-wear",
+            "title": "Износ инверторного компрессора Liebherr",
+            "sign": "Повышенный шум, вибрации или нестабильная работа",
+            "causes": "Длительная эксплуатация, перегрев или механический износ",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-condenser-fan-failure",
+            "title": "Неисправность вентилятора конденсатора Liebherr",
+            "sign": "Гул, перегрев конденсатора, повышенный шум",
+            "causes": "Мотор вентилятора вышел из строя или заблокирован",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-led-lamp-failure",
+            "title": "Выход из строя LED-подсветки Liebherr",
+            "sign": "Свет не загорается при открытии дверцы",
+            "causes": "Перегорели светодиоды или неисправен драйвер подсветки",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-door-switch-failure",
+            "title": "Неисправность дверного датчика Liebherr",
+            "sign": "Подсветка не включается или работает некорректно",
+            "causes": "Контакты датчика повреждены или не замыкаются",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-mold-growth",
+            "title": "Рост плесени в холодильнике Liebherr",
+            "sign": "Неприятный запах, образование налета на стенках",
+            "causes": "Высокая влажность, засор дренажа, несвоевременная уборка",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-spoiled-food-residue",
+            "title": "Остатки испорченных продуктов в холодильнике Liebherr",
+            "sign": "Запах сохраняется после очистки",
+            "causes": "Неправильное хранение, разложение пищевых продуктов",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-temperature-sensor-error",
+            "title": "Сбой датчика температуры Liebherr",
+            "sign": "Некорректные показатели температуры, перемораживание или перегрев",
+            "causes": "Датчик вышел из строя или нарушен контакт с платой",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-air-damper-stuck",
+            "title": "Застревание воздушной заслонки Liebherr",
+            "sign": "Неправильное распределение холодного воздуха, замерзание продуктов",
+            "causes": "Механическая блокировка или износ привода заслонки",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-compressor-short-circuit",
+            "title": "Короткое замыкание компрессора Liebherr",
+            "sign": "Срабатывание защитного автомата, холодильник не включается",
+            "causes": "Износ изоляции обмоток или повреждение электрических соединений",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-heater-short-circuit",
+            "title": "Короткое замыкание нагревателя оттайки Liebherr",
+            "sign": "Защитный автомат отключает питание при включении",
+            "causes": "Разрыв изоляции или пробой ТЭНа",
+            "slugs": []
+        },
+        {
+            "slug": "liebherr-noise-filter-burnt",
+            "title": "Выгорание фильтра помехоподавления Liebherr",
+            "sign": "Срабатывание автомата, повышенные электромагнитные шумы",
+            "causes": "Перегрузка сети или короткое замыкание внутри фильтра",
+            "slugs": []
+        }
+
+    ]
+}

@@ -1,0 +1,325 @@
+{
+    "indexPageTitle": "Samsung լվացքի մեքենաների վերանորոգում",
+    "title": "Samsung լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/samsung/",
+
+    "items": [
+        {
+            "slug": "samsung-not-draining",
+            "title": "Стиральная машина Samsung не сливает воду",
+            "sign": "Вода остаётся в баке после стирки",
+            "causes": "Засор сливного фильтра или шланга, неисправность сливного насоса либо датчика уровня воды.",
+            "slugs": [
+                "samsung-clogged-filter",
+                "samsung-drain-hose-blocked",
+                "samsung-drain-pump-failure",
+                "samsung-pressure-switch-failure"
+            ]
+        },
+        {
+            "slug": "samsung-not-spinning",
+            "title": "Стиральная машина Samsung не отжимает",
+            "sign": "Бельё остаётся мокрым после завершения программы",
+            "causes": "Износ ремня привода, щёток двигателя или подшипников, а также дисбаланс загрузки.",
+            "slugs": [
+                "samsung-drive-belt-worn",
+                "samsung-motor-brushes-worn",
+                "samsung-drum-bearing-worn",
+                "samsung-imbalance-load"
+            ]
+        },
+        {
+            "slug": "samsung-not-starting",
+            "title": "Стиральная машина Samsung не включается",
+            "sign": "Панель управления не загорается",
+            "causes": "Повреждение сетевого шнура, неисправность блокировки люка или модуля управления.",
+            "slugs": [
+                "samsung-power-cord-damage",
+                "samsung-door-lock-failure",
+                "samsung-control-module-failure"
+            ]
+        },
+        {
+            "slug": "samsung-no-water-intake",
+            "title": "Стиральная машина Samsung не набирает воду",
+            "sign": "Бак остаётся пустым после запуска",
+            "causes": "Неисправность впускного клапана, отсутствие подачи воды, засор фильтра или сбой прессостата.",
+            "slugs": [
+                "samsung-water-inlet-valve-failure",
+                "samsung-water-supply-issue",
+                "samsung-inlet-filter-clogged",
+                "samsung-pressure-switch-failure"
+            ]
+        },
+        {
+            "slug": "samsung-leaking",
+            "title": "Стиральная машина Samsung протекает",
+            "sign": "Под машиной появляется вода",
+            "causes": "Повреждение шлангов, износ манжеты люка или трещина корпуса насоса.",
+            "slugs": [
+                "samsung-hose-damage",
+                "samsung-door-seal-worn",
+                "samsung-pump-housing-crack"
+            ]
+        },
+        {
+            "slug": "samsung-noisy",
+            "title": "Стиральная машина Samsung шумит при работе",
+            "sign": "Появляется гул, стук или скрежет",
+            "causes": "Износ подшипников, попадание посторонних предметов в барабан или износ ремня.",
+            "slugs": [
+                "samsung-drum-bearing-worn",
+                "samsung-foreign-object-in-drum",
+                "samsung-drive-belt-worn"
+            ]
+        },
+        {
+            "slug": "samsung-vibrates",
+            "title": "Стиральная машина Samsung сильно вибрирует",
+            "sign": "Корпус трясётся во время отжима",
+            "causes": "Не сняты транспортировочные болты, износ амортизаторов или неравномерная загрузка.",
+            "slugs": [
+                "samsung-transport-bolts-not-removed",
+                "samsung-shock-absorber-worn",
+                "samsung-imbalance-load"
+            ]
+        },
+        {
+            "slug": "samsung-door-locked",
+            "title": "Люк стиральной машины Samsung не открывается",
+            "sign": "Дверца остаётся заблокированной после стирки",
+            "causes": "Неисправность замка люка, наличие воды в барабане или сбой модуля управления.",
+            "slugs": [
+                "samsung-door-lock-failure",
+                "samsung-water-remaining-in-drum",
+                "samsung-control-module-failure"
+            ]
+        },
+        {
+            "slug": "samsung-error-code",
+            "title": "Стиральная машина Samsung показывает ошибку",
+            "sign": "На дисплее появляется код неисправности",
+            "causes": "Сбой датчиков уровня воды, впускного клапана, сливного насоса или управляющей платы.",
+            "slugs": [
+                "samsung-pressure-switch-failure",
+                "samsung-water-inlet-valve-failure",
+                "samsung-drain-pump-failure",
+                "samsung-control-module-failure"
+            ]
+        },
+        {
+            "slug": "samsung-not-heating",
+            "title": "Стиральная машина Samsung не греет воду",
+            "sign": "Стирка проходит в холодной воде",
+            "causes": "Перегоревший ТЭН, неисправность датчика температуры или сбой модуля управления.",
+            "slugs": [
+                "samsung-heating-element-burned",
+                "samsung-temperature-sensor-failure",
+                "samsung-control-module-failure"
+            ]
+        },
+        {
+            "slug": "samsung-stops-mid-cycle",
+            "title": "Стиральная машина Samsung останавливается во время стирки",
+            "sign": "Программа прерывается без завершения",
+            "causes": "Перебои питания, перегрев двигателя или неисправность электронного модуля.",
+            "slugs": [
+                "samsung-power-supply-issue",
+                "samsung-motor-overheat",
+                "samsung-control-module-failure"
+            ]
+        },
+        {
+            "slug": "samsung-trips-breaker",
+            "title": "Стиральная машина Samsung выбивает автомат",
+            "sign": "Срабатывает защита электросети при работе",
+            "causes": "Короткое замыкание проводки, повреждение шнура питания или пробой нагревательного элемента.",
+            "slugs": [
+                "samsung-heating-element-burned",
+                "samsung-power-cord-damage",
+                "samsung-wiring-short-circuit"
+            ]
+        },
+        
+        {   
+            "slug": "samsung-clogged-filter", 
+            "title": "Засорён фильтр Samsung", 
+            "sign": "Слив воды происходит медленно", 
+            "causes": "Фильтр забит мусором или мелкими предметами", 
+            "slugs": [] 
+        }, 
+        {   
+            "slug": "samsung-drain-hose-blocked", 
+            "title": "Засор сливного шланга Samsung", 
+            "sign": "Вода остаётся внутри бака", 
+            "causes": "Шланг загрязнён или пережат", 
+            "slugs": [] 
+        }, 
+        { 
+            "slug": "samsung-drain-pump-failure", 
+            "title": "Неисправен сливной насос Samsung", 
+            "sign": "Слив полностью отсутствует", 
+            "causes": "Насос перегорел или заклинил", 
+            "slugs": [] 
+        },
+        {
+            "slug": "samsung-drive-belt-worn",
+            "title": "Изношен приводной ремень Samsung",
+            "sign": "Барабан не вращается или вращается с перебоями",
+            "causes": "Ремень растянулся, износился или порвался",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-motor-brushes-worn",
+            "title": "Изношены щётки двигателя Samsung",
+            "sign": "Барабан не набирает обороты при отжиме",
+            "causes": "Щётки двигателя стёрлись и не обеспечивают контакт",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drum-bearing-worn",
+            "title": "Изношены подшипники барабана Samsung",
+            "sign": "Появляется сильный гул или люфт барабана",
+            "causes": "Подшипники изношены из-за длительной эксплуатации",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-imbalance-load",
+            "title": "Дисбаланс загрузки Samsung",
+            "sign": "Машина не выходит на отжим или сильно вибрирует",
+            "causes": "Бельё распределено неравномерно внутри барабана",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-cord-damage",
+            "title": "Повреждён сетевой шнур Samsung",
+            "sign": "Машина не включается",
+            "causes": "Нарушена целостность кабеля или вилки питания",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-lock-failure",
+            "title": "Неисправна блокировка люка Samsung",
+            "sign": "Дверца не фиксируется или не открывается",
+            "causes": "Замок люка вышел из строя",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-control-module-failure",
+            "title": "Неисправен модуль управления Samsung",
+            "sign": "Программа работает некорректно или не запускается",
+            "causes": "Сбой электронной платы управления",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Samsung",
+            "sign": "Вода не поступает в бак",
+            "causes": "Клапан не открывается или заклинил",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-supply-issue",
+            "title": "Проблема с подачей воды к стиральной машине Samsung",
+            "sign": "Машина не набирает воду",
+            "causes": "Отсутствует давление воды или перекрыт кран",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-inlet-filter-clogged",
+            "title": "Засорён входной фильтр Samsung",
+            "sign": "Вода поступает медленно",
+            "causes": "Фильтр загрязнён ржавчиной или мусором",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-hose-damage",
+            "title": "Повреждён шланг Samsung",
+            "sign": "Под машиной появляется вода",
+            "causes": "Шланг треснул или имеет протечку",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-seal-worn",
+            "title": "Изношена манжета люка Samsung",
+            "sign": "Вода протекает через дверцу",
+            "causes": "Резиновый уплотнитель повреждён или потерял эластичность",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-pump-housing-crack",
+            "title": "Трещина корпуса насоса Samsung",
+            "sign": "Обнаружена утечка воды снизу",
+            "causes": "Корпус насоса повреждён или имеет трещину",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане Samsung",
+            "sign": "Слышен стук или скрежет при вращении",
+            "causes": "В барабан попал мелкий предмет (монета, пуговица)",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-transport-bolts-not-removed",
+            "title": "Не сняты транспортировочные болты Samsung",
+            "sign": "Сильная вибрация при первом запуске",
+            "causes": "Болты не демонтированы после установки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-shock-absorber-worn",
+            "title": "Изношены амортизаторы Samsung",
+            "sign": "Машина сильно раскачивается при отжиме",
+            "causes": "Амортизаторы потеряли упругость",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-remaining-in-drum",
+            "title": "Вода остаётся в барабане Samsung",
+            "sign": "Люк не открывается после стирки",
+            "causes": "Система слива не удаляет воду полностью",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-burned",
+            "title": "Перегорел нагревательный элемент Samsung",
+            "sign": "Вода не нагревается",
+            "causes": "ТЭН вышел из строя или имеет пробой",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-temperature-sensor-failure",
+            "title": "Неисправен датчик температуры Samsung",
+            "sign": "Температура воды определяется некорректно",
+            "causes": "Датчик передаёт неверные данные или не работает",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-supply-issue",
+            "title": "Проблема с электропитанием Samsung",
+            "sign": "Машина отключается во время работы",
+            "causes": "Нестабильное напряжение или плохой контакт в сети",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-motor-overheat",
+            "title": "Перегрев двигателя Samsung",
+            "sign": "Программа останавливается в процессе стирки",
+            "causes": "Двигатель перегревается из-за перегрузки или износа",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-wiring-short-circuit",
+            "title": "Короткое замыкание проводки Samsung",
+            "sign": "Выбивает автомат при включении",
+            "causes": "Повреждена изоляция проводов или произошло замыкание",
+            "slugs": []
+        }
+
+    ]
+}

@@ -1,0 +1,398 @@
+{
+    "indexPageTitle": "Candy սպասք լվացող մեքենաների սխալների կոդերը",
+    "title": "Candy սպասք լվացող մեքենայի սխալների կոդերը",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/candy/errors/",
+
+    "items": [
+        {
+            "slug": "candy-dishwasher-error-c01",
+            "title": "Ошибка C01 посудомоечной машины Candy",
+            "sign": "Запуск невозможен, на дисплее появляется C01",
+            "causes": "Контроллер фиксирует утечку жидкости или наличие воды в нижней зоне",
+            "slugs": [
+                "candy-leakage-sensor-activation",
+                "candy-float-switch-triggered",
+                "candy-internal-hose-leak"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c02",
+            "title": "Ошибка C02 посудомоечной машины Candy",
+            "sign": "Программа не стартует, код C02 отображается на панели",
+            "causes": "Вода не набирается до требуемого уровня вовремя",
+            "slugs": [
+                "candy-inlet-valve-blocked",
+                "candy-low-water-pressure",
+                "candy-solenoid-malfunction"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c03",
+            "title": "Ошибка C03 посудомоечной машины Candy",
+            "sign": "Вода не сливается, отображается C03",
+            "causes": "Сливной механизм функционирует некорректно или забит",
+            "slugs": [
+                "candy-drain-pump-jammed",
+                "candy-drain-hose-obstruction",
+                "candy-filter-blocked"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c04",
+            "title": "Ошибка C04 посудомоечной машины Candy",
+            "sign": "Программа прерывается во время нагрева, появляется C04",
+            "causes": "Температурный датчик передаёт неверные значения модулю управления",
+            "slugs": [
+                "candy-heating-element-fault",
+                "candy-ntc-sensor-error",
+                "candy-heater-relay-failure"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c05",
+            "title": "Ошибка C05 посудомоечной машины Candy",
+            "sign": "Циркуляционный насос не запускается, код C05 отображается",
+            "causes": "Мотор не вращает воду по камере",
+            "slugs": [
+                "candy-circulation-motor-jam",
+                "candy-impeller-damage",
+                "candy-motor-control-board-fault"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c06",
+            "title": "Ошибка C06 посудомоечной машины Candy",
+            "sign": "Уровень воды определяется неверно, код C06",
+            "causes": "Датчик давления передаёт некорректные сигналы",
+            "slugs": [
+                "candy-pressure-switch-fault",
+                "candy-air-trap-blocked",
+                "candy-sensor-wiring-problem"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c07",
+            "title": "Ошибка C07 посудомоечной машины Candy",
+            "sign": "Интерфейс не реагирует, код C07 отображается",
+            "causes": "Нарушена связь панели управления с основной платой",
+            "slugs": [
+                "candy-ui-board-failure",
+                "candy-ribbon-cable-disconnection",
+                "candy-communication-bus-error"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c08",
+            "title": "Ошибка C08 посудомоечной машины Candy",
+            "sign": "Цикл мойки выполняется неправильно, фиксируется C08",
+            "causes": "Датчик мутности воды передаёт искажённые данные",
+            "slugs": [
+                "candy-turbidity-sensor-contamination",
+                "candy-optical-module-failure",
+                "candy-water-clarity-sensor-error"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c09",
+            "title": "Ошибка C09 посудомоечной машины Candy",
+            "sign": "Сразу после включения появляется код C09",
+            "causes": "Внутренняя память контроллера повреждена или нестабильна",
+            "slugs": [
+                "candy-eeprom-corruption",
+                "candy-firmware-instability",
+                "candy-configuration-data-loss"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c10",
+            "title": "Ошибка C10 посудомоечной машины Candy",
+            "sign": "Вода не нагревается, отображается C10",
+            "causes": "Электрическая цепь нагревательного элемента разомкнута",
+            "slugs": [
+                "candy-heater-circuit-break",
+                "candy-ntc-sensor-out-of-range",
+                "candy-thermal-fuse-open"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c11",
+            "title": "Ошибка C11 посудомоечной машины Candy",
+            "sign": "Двигатель не запускается, на панели C11",
+            "causes": "Сигнал обратной связи от тахогенератора отсутствует",
+            "slugs": [
+                "candy-tacho-coil-damage",
+                "candy-rotor-magnet-misalignment",
+                "candy-speed-feedback-circuit-defect"
+            ]
+        },
+        {
+            "slug": "candy-dishwasher-error-c12",
+            "title": "Ошибка C12 посудомоечной машины Candy",
+            "sign": "Аппарат не реагирует на команды, появляется C12",
+            "causes": "Критическая неисправность силовой части основной платы",
+            "slugs": [
+                "candy-main-board-short-circuit",
+                "candy-power-module-breakdown",
+                "candy-voltage-regulation-failure"
+            ]
+        },
+        
+        {
+            "slug": "candy-leakage-sensor-activation",
+            "title": "Срабатывание сенсора утечки Candy",
+            "sign": "В нижней зоне зафиксирована жидкость, цикл останавливается",
+            "causes": "Протечка соединений или конденсат на корпусе вызывает активацию защиты",
+            "slugs": []
+        },
+        {
+            "slug": "candy-float-switch-triggered",
+            "title": "Срабатывание поплавкового выключателя Candy",
+            "sign": "Цикл прерывается без предупреждения",
+            "causes": "Поплавковый датчик поднялся из-за попадания воды в нижний отсек",
+            "slugs": []
+        },
+        {
+            "slug": "candy-internal-hose-leak",
+            "title": "Протечка внутреннего шланга Candy",
+            "sign": "Под корпусом появляется жидкость",
+            "causes": "Шланги или уплотнители износились, нарушая герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "candy-inlet-valve-blocked",
+            "title": "Засор впускного клапана Candy",
+            "sign": "Вода поступает медленно или не поступает",
+            "causes": "Мелкие частицы или известковый налёт блокируют сетку клапана",
+            "slugs": []
+        },
+        {
+            "slug": "candy-low-water-pressure",
+            "title": "Недостаточное давление воды Candy",
+            "sign": "Заполнение камеры затягивается",
+            "causes": "Давление в водопроводе ниже минимального для нормальной работы устройства",
+            "slugs": []
+        },
+        {
+            "slug": "candy-solenoid-malfunction",
+            "title": "Сбой электромагнитного клапана Candy",
+            "sign": "Клапан не открывается по команде контроллера",
+            "causes": "Катушка заедает или повреждена, нарушая подачу воды",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-pump-jammed",
+            "title": "Заклинивание сливного насоса Candy",
+            "sign": "Жидкость не выводится из камеры",
+            "causes": "Мусор или известковые отложения блокируют лопасти насоса",
+            "slugs": []
+        },
+        {
+            "slug": "candy-drain-hose-obstruction",
+            "title": "Засор сливного шланга Candy",
+            "sign": "Вода не удаляется полностью",
+            "causes": "Перегибы или отложения мешают нормальному оттоку",
+            "slugs": []
+        },
+        {
+            "slug": "candy-filter-blocked",
+            "title": "Засор фильтрующего блока Candy",
+            "sign": "Остатки пищи остаются на дне камеры",
+            "causes": "Фильтр забит частицами, ограничивая циркуляцию воды",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heating-element-fault",
+            "title": "Неисправность нагревательного элемента Candy",
+            "sign": "Вода не нагревается до нужной температуры",
+            "causes": "Перегрев или разрыв спирали нарушает процесс нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ntc-sensor-error",
+            "title": "Неточные показания термодатчика NTC Candy",
+            "sign": "Температура нагрева не соответствует заданной",
+            "causes": "Старение или деградация термистора приводит к неправильным измерениям",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heater-relay-failure",
+            "title": "Сбой реле нагревательного элемента Candy",
+            "sign": "Элемент не включается при запуске программы",
+            "causes": "Заклинившее или повреждённое реле нарушает подачу тока на спираль",
+            "slugs": []
+        },
+        {
+            "slug": "candy-circulation-motor-jam",
+            "title": "Заклинивание циркуляционного мотора Candy",
+            "sign": "Распылительные коромысла не вращаются",
+            "causes": "Износ подшипников или механическое повреждение ротора препятствует вращению",
+            "slugs": []
+        },
+        {
+            "slug": "candy-impeller-damage",
+            "title": "Повреждение крыльчатки насоса Candy",
+            "sign": "Циркуляция воды нарушена, давление падает",
+            "causes": "Лопасти треснули или изношены, снижая эффективность насоса",
+            "slugs": []
+        },
+        {
+            "slug": "candy-motor-control-board-fault",
+            "title": "Сбой платы управления мотором Candy",
+            "sign": "Скорость двигателя регулируется нестабильно",
+            "causes": "Электронная схема управления получает искажённые сигналы или выходит из строя",
+            "slugs": []
+        },
+        {
+            "slug": "candy-pressure-switch-fault",
+            "title": "Сбой реле давления Candy",
+            "sign": "Уровень воды определяется неправильно",
+            "causes": "Датчик давления не формирует корректный сигнал для контроллера",
+            "slugs": []
+        },
+        {
+            "slug": "candy-air-trap-blocked",
+            "title": "Засор воздушного затвора Candy",
+            "sign": "Набор воды или слив нарушен",
+            "causes": "Канал гидростата забит посторонними частицами или известковыми отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "candy-sensor-wiring-problem",
+            "title": "Проблемы проводки датчика уровня Candy",
+            "sign": "Сигнал о количестве воды нестабилен",
+            "causes": "Ослабленный контакт или повреждённый провод нарушает передачу данных",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ui-board-failure",
+            "title": "Сбой платы интерфейса пользователя Candy",
+            "sign": "Кнопки и сенсор не реагируют на команды",
+            "causes": "Контроллер панели не передаёт сигналы основной плате",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ribbon-cable-disconnection",
+            "title": "Отсоединение шлейфа интерфейса Candy",
+            "sign": "Дисплей мигает или показывает некорректные символы",
+            "causes": "Шлейф потерял контакт или повреждён, нарушая передачу сигналов",
+            "slugs": []
+        },
+        {
+            "slug": "candy-communication-bus-error",
+            "title": "Ошибка шины связи между платами Candy",
+            "sign": "Модули не синхронизируются, возникают сбои работы",
+            "causes": "Повреждение линии передачи данных приводит к задержкам и ошибкам управления",
+            "slugs": []
+        },
+        {
+            "slug": "candy-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности воды Candy",
+            "sign": "Цикл мойки выполняется некорректно",
+            "causes": "Ворс или остатки пищи на сенсоре искажают показатели мутности",
+            "slugs": []
+        },
+        {
+            "slug": "candy-optical-module-failure",
+            "title": "Сбой оптического модуля Candy",
+            "sign": "Контроль прозрачности воды некорректен",
+            "causes": "Электронный элемент модуля передаёт искажённый сигнал в систему управления",
+            "slugs": []
+        },
+        {
+            "slug": "candy-water-clarity-sensor-error",
+            "title": "Ошибка контроля прозрачности воды Candy",
+            "sign": "Мойка завершается с перебоями",
+            "causes": "Система контроля мутности получает неверные данные от датчиков",
+            "slugs": []
+        },
+        {
+            "slug": "candy-eeprom-corruption",
+            "title": "Повреждение памяти EEPROM Candy",
+            "sign": "Программы запускаются с ошибками или зависают",
+            "causes": "Сбой микросхемы памяти нарушает последовательность выполнения команд",
+            "slugs": []
+        },
+        {
+            "slug": "candy-firmware-instability",
+            "title": "Нестабильность прошивки Candy",
+            "sign": "Функции работают некорректно, цикл прерывается",
+            "causes": "Системное ПО содержит ошибки или повреждено во время обновления",
+            "slugs": []
+        },
+        {
+            "slug": "candy-configuration-data-loss",
+            "title": "Потеря конфигурационных данных Candy",
+            "sign": "Режимы работы выполняются с нарушениями",
+            "causes": "Системные настройки удалены или повреждены, вызывая сбой алгоритмов",
+            "slugs": []
+        },
+        {
+            "slug": "candy-heater-circuit-break",
+            "title": "Разрыв цепи нагревательного элемента Candy",
+            "sign": "Нагрев воды не происходит",
+            "causes": "Проводка или спираль разомкнуты, нарушая процесс нагрева",
+            "slugs": []
+        },
+        {
+            "slug": "candy-ntc-sensor-out-of-range",
+            "title": "Датчик NTC вне допустимого диапазона Candy",
+            "sign": "Контроль температуры воды неверный",
+            "causes": "Термистор показывает значения за пределами нормального диапазона",
+            "slugs": []
+        },
+        {
+            "slug": "candy-thermal-fuse-open",
+            "title": "Разомкнутый термопредохранитель Candy",
+            "sign": "Нагрев прекращается внезапно",
+            "causes": "Предохранительный элемент размыкает цепь при превышении критической температуры",
+            "slugs": []
+        },
+        {
+            "slug": "candy-tacho-coil-damage",
+            "title": "Повреждение катушки тахогенератора Candy",
+            "sign": "Мотор не получает корректную обратную связь",
+            "causes": "Обрыв проводки или витков нарушает сигнал скорости вращения",
+            "slugs": []
+        },
+        {
+            "slug": "candy-rotor-magnet-misalignment",
+            "title": "Смещение магнита ротора Candy",
+            "sign": "Двигатель не запускается или работает нестабильно",
+            "causes": "Магнит смещён или повреждён, снижая эффективность тахогенератора",
+            "slugs": []
+        },
+        {
+            "slug": "candy-speed-feedback-circuit-defect",
+            "title": "Сбой цепи обратной связи скорости Candy",
+            "sign": "Контроллер не получает сигнал о вращении мотора",
+            "causes": "Неисправность электронного контура прерывает обратную связь скорости",
+            "slugs": []
+        },
+        {
+            "slug": "candy-main-board-short-circuit",
+            "title": "Короткое замыкание основной платы Candy",
+            "sign": "Устройство полностью не реагирует на команды",
+            "causes": "Силовые элементы платы замкнуты, блокируя работу контроллера",
+            "slugs": []
+        },
+        {
+            "slug": "candy-power-module-breakdown",
+            "title": "Выход из строя силового модуля Candy",
+            "sign": "Электроника не получает стабильное питание",
+            "causes": "Повреждение элементов блока питания нарушает работу всей платы",
+            "slugs": []
+        },
+        {
+            "slug": "candy-voltage-regulation-failure",
+            "title": "Сбой регулирования напряжения Candy",
+            "sign": "Функции контроллера нестабильны",
+            "causes": "Неисправность стабилизатора вызывает колебания питания и сбои работы модулей",
+            "slugs": []
+        }
+
+    ]
+}

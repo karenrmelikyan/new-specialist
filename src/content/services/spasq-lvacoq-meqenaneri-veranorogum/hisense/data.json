@@ -1,0 +1,351 @@
+{
+    "indexPageTitle": "Hisense սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Hisense սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/hisense/",
+
+    "items": [
+        {
+            "slug": "hisense-dishwasher-not-starting",
+            "title": "Hisense սպասք լվացող մեքենան չի մեկնարկում",
+            "sign": "Մեկնարկի կոճակը սեղմելիս ծրագիրը չի սկսվում",
+            "causes": "Սնուցման խափանում, դռան փականի խափանում կամ կառավարման պլատայի խափանում",
+            "slugs": [
+                "hisense-power-cord-damage",
+                "hisense-door-lock-failure",
+                "hisense-control-board-failure",
+                "hisense-touch-panel-malfunction"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-not-draining",
+            "title": "Hisense սպասք լվացող մեքենան չի ջրահեռացնում ջուրը",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է բաքում",
+            "causes": "Ջրահեռացման պոմպի կամ խողովակի խցանում, կամ պոմպի փչացում",
+            "slugs": [
+                "hisense-drain-pump-failure",
+                "hisense-drain-hose-clog",
+                "hisense-filter-blockage",
+                "hisense-pressure-switch-error"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-not-filling-with-water",
+            "title": "Hisense սպասք լվացող մեքենան չի լցվում ջրով",
+            "sign": "Ցիկլը մեկնարկում է, բայց ջուրը չի մտնում խցիկ",
+            "causes": "Մուտքային փականը խափանված է կամ գործել է արտահոսքից պաշտպանությունը",
+            "slugs": [
+                "hisense-water-inlet-valve-failure",
+                "hisense-aquastop-activation",
+                "hisense-pressure-switch-error",
+                "hisense-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-leaking-water",
+            "title": "Hisense սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Աշխատանքի ընթացքում մեքենայի տակ ջուր է հայտնվում",
+            "causes": "Խտացուցիչների, խողովակների կամ միացումների վնասում",
+            "slugs": [
+                "hisense-door-seal-damage",
+                "hisense-hose-connection-leak",
+                "hisense-circulation-pump-leak",
+                "hisense-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-not-heating-water",
+            "title": "Hisense սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Ջուրը մնում է սառը, սպասքը վատ է լվացվում",
+            "causes": "Տաքացուցիչը (ՏԷՆ), թերմոստատը կամ ջերմաստիճանի սենսորը խափանված է",
+            "slugs": [
+                "hisense-heating-element-failure",
+                "hisense-ntc-sensor-failure",
+                "hisense-thermostat-error",
+                "hisense-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-not-drying",
+            "title": "Hisense սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո սպասքը խոնավ է",
+            "causes": "Չորացման կամ օդափոխության համակարգի խափանում",
+            "slugs": [
+                "hisense-heating-element-failure",
+                "hisense-drying-fan-failure",
+                "hisense-ventilation-duct-blockage",
+                "hisense-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-making-noise",
+            "title": "Hisense սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում են օտար ձայներ կամ գռմռոց",
+            "causes": "Պոմպի մաշվածություն կամ օտար առարկաների попадание",
+            "slugs": [
+                "hisense-circulation-pump-failure",
+                "hisense-drain-pump-failure",
+                "hisense-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-not-cleaning-properly",
+            "title": "Hisense սպասք լվացող մեքենան վատ է լվանում սպասքը",
+            "sign": "Սպասքի վրա մնում են հետքեր և սննդի մնացորդներ",
+            "causes": "Ջրի անբավարար ճնշում կամ ֆորսունկների խցանում",
+            "slugs": [
+                "hisense-spray-arm-clog",
+                "hisense-circulation-pump-failure",
+                "hisense-filter-blockage",
+                "hisense-detergent-dispenser-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-error-code",
+            "title": "Hisense սպասք լվացող մեքենան ցույց է տալիս սխալ",
+            "sign": "Ցուցադրման վրա երևում է անսարքության կոդը",
+            "causes": "Սենսորների կամ կառավարման պլատայի խափանում",
+            "slugs": [
+                "hisense-control-board-failure",
+                "hisense-ntc-sensor-failure",
+                "hisense-pressure-switch-error",
+                "hisense-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-stops-mid-cycle",
+            "title": "Hisense սպասք լվացող մեքենան կանգ է առնում ցիկլի ընթացքում",
+            "sign": "Ծրագիրը ընդհատվում է մինչև ավարտը",
+            "causes": "Գերտաքացում, էլեկտրոնիկայի խափանում կամ ջրի մատակարարման խնդիրներ",
+            "slugs": [
+                "hisense-heating-element-failure",
+                "hisense-water-inlet-valve-failure",
+                "hisense-control-board-failure"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-door-not-closing",
+            "title": "Hisense սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Մեքենան չի մեկնարկում, որովհետև դուռը փակված չէ",
+            "causes": "Դռան փականը խափանված է կամ ծխնիների շեղում կա",
+            "slugs": [
+                "hisense-door-lock-failure",
+                "hisense-door-hinge-damage",
+                "hisense-door-sensor-error"
+            ]
+        },
+        {
+            "slug": "hisense-dishwasher-trips-breaker",
+            "title": "Hisense սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Պաշտպանիչ ավտոմատը մեկնարկի ժամանակ անջատում է սնուցումը",
+            "causes": "ՏԷՆ-ի, պոմպի կամ ցանցային ֆիլտրի կարճ միացում",
+            "slugs": [
+                "hisense-heating-element-short-circuit",
+                "hisense-circulation-pump-short-circuit",
+                "hisense-noise-filter-burnt",
+                "hisense-control-board-failure"
+            ]
+        },
+
+        {
+            "slug": "hisense-power-cord-damage",
+            "title": "Hisense սնուցման մալուխի վնասում",
+            "sign": "Մեկուսացման խախտումը կամ մալուխի լարերի խզումը հանգեցնում է կառավարման պլատային սնուցման բացակայությանը։",
+            "causes": "Մեքենան չի միանում, ցուցիչներ չկան։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-lock-failure",
+            "title": "Hisense դռան փականի խափանում",
+            "sign": "Արգելափակման մեխանիզմի մաշվածությունը կամ կոտրումը թույլ չի տալիս համակարգին ֆիքսել դռան փակվելը։",
+            "causes": "Ծրագիրը չի մեկնարկում, հայտնվում է դռան սխալ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-control-board-failure",
+            "title": "Hisense կառավարման պլատայի խափանում",
+            "sign": "Էլեկտրոնային պլատայի վնասումը առաջացնում է մոդուլների սխալ աշխատանք և ծրագրերի կատարում սխալներով։",
+            "causes": "Մեքենան կախվում է, չի արձագանքում հրամաններին կամ ինքնուրույն կանգ է առնում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-touch-panel-malfunction",
+            "title": "Hisense սենսորային վահանակի խափանում",
+            "sign": "Սենսորային վահանակը կորցնում է զգայունությունը կոնտակտների մաշվածության կամ ծրագրային խափանման պատճառով։",
+            "causes": "Կոճակները չեն արձագանքում կամ սխալ են արձագանքում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drain-pump-failure",
+            "title": "Hisense ջրահեռացման պոմպի փչացում",
+            "sign": "Պոմպի շարժիչի կամ թիակի մաշվածությունը խանգարում է ջրի հեռացմանը ցիկլից հետո։",
+            "causes": "Լվացումից հետո ջուրը մնում է բաքում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drain-hose-clog",
+            "title": "Hisense ջրահեռացման խողովակի խցանում",
+            "sign": "Կեղտի կուտակումը արգելափակում է ջրի բնական հոսքը։",
+            "causes": "Ջրահեռացումը դանդաղ է կամ ամբողջությամբ բացակայում է։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-filter-blockage",
+            "title": "Hisense ֆիլտրի խցանում",
+            "sign": "Սննդի մնացորդների կուտակումը ֆիլտրող հանգույցում նվազեցնում է համակարգի թողունակությունը։",
+            "causes": "Ջուրը վատ է հեռանում, հայտնվում է տհաճ հոտ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-pressure-switch-error",
+            "title": "Hisense պրեսոստատի սխալ",
+            "sign": "Ջրի մակարդակի սենսորը փոխանցում է սխալ արժեքներ՝ խախտելով ջրի լցումն ու ջրահեռացումը։",
+            "causes": "Մեքենան չի լցվում ջրով կամ կանգ է առնում սխալով։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-water-inlet-valve-failure",
+            "title": "Hisense մուտքային փականի խափանում",
+            "sign": "Էլեկտրամագնիսական փականը չի բացվում կամ աշխատում է անկայուն՝ խոչընդոտելով ջրի մուտքը։",
+            "causes": "Ցիկլի սկզբում ջրի լցում չկա։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-aquastop-activation",
+            "title": "Hisense Aquastop համակարգի գործարկում",
+            "sign": "Պաշտպանական համակարգը կորպուսի ներսում արտահոսքի դեպքում փակում է ջրի մատակարարումը։",
+            "causes": "Մեքենան չի լցվում ջրով, հնարավոր է սխալի կոդ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-seal-damage",
+            "title": "Hisense դռան խտացուցիչի վնասում",
+            "sign": "Ռետինե խտացուցիչի մաշվածությունը կամ դեֆորմացիան խախտում է խցիկի հերմետիկությունը։",
+            "causes": "Աշխատանքի ընթացքում դռան տակից արտահոսք է հայտնվում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-hose-connection-leak",
+            "title": "Hisense խողովակների միացումների արտահոսք",
+            "sign": "Թուլացած սեղմակները կամ միացումների ճաքերը առաջացնում են ջրի արտահոսք։",
+            "causes": "Մեքենայի տակ ջուր է գոյանում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-circulation-pump-leak",
+            "title": "Hisense ցիրկուլյացիոն պոմպի արտահոսք",
+            "sign": "Պոմպի կորպուսի կամ խտացուցիչների վնասումը հանգեցնում է սարքի ներսում ջրի արտահոսքին։",
+            "causes": "Գործում է արտահոսքից պաշտպանությունը, մեքենան կանգ է առնում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-leak-sensor-triggered",
+            "title": "Hisense արտահոսքի սենսորի գործարկում",
+            "sign": "Սենսորը ֆիքսում է տակդիրում ջուրը և արգելափակում է հետագա աշխատանքը։",
+            "causes": "Մեքենան չի մեկնարկում նոր ցիկլ և ցույց է տալիս սխալ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-element-failure",
+            "title": "Hisense տաքացուցիչի խափանում",
+            "sign": "ՏԷՆ-ը դադարում է տաքացնել ջուրը սպիրալի այրման կամ շղթայի խզման պատճառով։",
+            "causes": "Ջուրը սառը է, լվացման որակը նվազում է։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-ntc-sensor-failure",
+            "title": "Hisense ջերմաստիճանային սենսորի փչացում",
+            "sign": "NTC սենսորը փոխանցում է ջերմաստիճանի սխալ ցուցանիշներ՝ խախտելով տաքացման գործընթացը։",
+            "causes": "Ցիկլը կատարվում է առանց տաքացման կամ ավարտվում է սխալով։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-thermostat-error",
+            "title": "Hisense թերմոստատի խափանում",
+            "sign": "Թերմոստատը սխալ է վերահսկում ջրի ջերմաստիճանը՝ առաջացնելով գերտաքացում կամ տաքացման բացակայություն։",
+            "causes": "Ծրագիրը ընդհատվում է կամ ջուրը մնում է սառը։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-drying-fan-failure",
+            "title": "Hisense չորացման օդափոխիչի փչացում",
+            "sign": "Օդափոխիչը դադարում է ապահովել խցիկի ներսում տաք օդի շրջանառությունը։",
+            "causes": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-ventilation-duct-blockage",
+            "title": "Hisense օդափոխության խողովակի խցանում",
+            "sign": "Օդի շրջանառության խանգարումը նվազեցնում է չորացման արդյունավետությունը։",
+            "causes": "Սպասքի վրա մնում են ջրի կաթիլներ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-circulation-pump-failure",
+            "title": "Hisense ցիրկուլյացիոն պոմպի խափանում",
+            "sign": "Պոմպը չի ստեղծում ճնշում՝ ջուրը հասցնելու համար ցողիչներին։",
+            "causes": "Սպասքը վատ է լվացվում, լսվում է օտար աղմուկ։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-spray-arm-obstruction",
+            "title": "Hisense ցողիչի արգելափակում",
+            "sign": "Ցողիչի անցքերը խցանվում են սննդի մնացորդներով՝ նվազեցնելով ջրի ճնշումը։",
+            "causes": "Սպասքի վրա մնում են կեղտեր։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-spray-arm-clog",
+            "title": "Hisense ցողիչի ֆորսունկների խցանում",
+            "sign": "Ֆորսունկների ներսում նստվածքները խանգարում են ջրի հավասարաչափ բաշխմանը։",
+            "causes": "Սպասքի անհավասար լվացում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-detergent-dispenser-failure",
+            "title": "Hisense լվացող միջոցի դոզատորի խափանում",
+            "sign": "Դոզատորի կափարիչի բացման մեխանիզմը ցիկլի ընթացքում չի գործարկվում։",
+            "causes": "Լվացող միջոցը մնում է չլուծված։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-hinge-damage",
+            "title": "Hisense դռան ծխնիների վնասում",
+            "sign": "Ծխնիների մաշվածությունը հանգեցնում է դռան շեղման և փակվելու անհնարինության։",
+            "causes": "Դուռը փակվում է դժվարությամբ կամ չի ֆիքսվում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-door-sensor-error",
+            "title": "Hisense դռան սենսորի սխալ",
+            "sign": "Սենսորը չի ճանաչում դռան դիրքը նույնիսկ ամուր փակված լինելու դեպքում։",
+            "causes": "Ծրագիրը չի մեկնարկում։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-heating-element-short-circuit",
+            "title": "Hisense տաքացուցիչի կարճ միացում",
+            "sign": "ՏԷՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք և ցանցի գերբեռնվածություն։",
+            "causes": "Տաքացման մեկնարկի ժամանակ ավտոմատը աշխատում է։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-circulation-pump-short-circuit",
+            "title": "Hisense ցիրկուլյացիոն պոմպի կարճ միացում",
+            "sign": "Շարժիչի փաթաթումների վնասումը առաջացնում է կարճ միացում։",
+            "causes": "Էլեկտրական ավտոմատը ծրագրի մեկնարկի ժամանակ անջատում է սնուցումը։",
+            "slugs": []
+        },
+        {
+            "slug": "hisense-noise-filter-burnt",
+            "title": "Hisense ցանցային ֆիլտրի այրում",
+            "sign": "Ցանցային ֆիլտրը լարման տատանումների ժամանակ շարքից դուրս է գալիս։",
+            "causes": "Մեքենան չի միանում կամ անջատում է ավտոմատը։",
+            "slugs": []
+        }
+
+    ]
+}

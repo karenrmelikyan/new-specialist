@@ -1,0 +1,271 @@
+{
+    "indexPageTitle": "AEG սպասք լվացող մեքենաների սխալների կոդերը",
+    "title": "AEG սպասք լվացող մեքենայի սխալների կոդերը",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/aeg/errors/",
+
+    "items": [
+       {
+            "slug": "aeg-dishwasher-error-i10",
+            "title": "AEG սպասք լվացող մեքենայի i10 սխալ",
+            "sign": "Լվացումը չի սկսում ցիկլը, և վահանակի վրա հայտնվում է i10",
+            "causes": "Համակարգը ֆիքսում է, որ սահմանված ժամանակահատվածում ջուրը չի հավաքվում ճիշտ կերպով",
+            "slugs": [
+                "aeg-inlet-valve-blockage",
+                "aeg-water-supply-pressure-insufficient",
+                "aeg-aquastop-activation"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i20",
+            "title": "AEG սպասք լվացող մեքենայի i20 սխալ",
+            "sign": "Ծրագիրը աշխատանքի ընթացքում կանգ է առնում i20 կոդով",
+            "causes": "Կառավարիչը հայտնաբերում է լվացման խցիկից հեղուկի դժվարացած ջրահեռացում",
+            "slugs": [
+                "aeg-drain-pump-impeller-obstruction",
+                "aeg-drain-hose-kinked",
+                "aeg-filter-system-clogging"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i30",
+            "title": "AEG սպասք լվացող մեքենայի i30 սխալ",
+            "sign": "Սարքը դադարեցնում է աշխատանքը և ակտիվացնում i30-ը",
+            "causes": "Արտահոսքի սենսորը հայտնաբերում է խոնավության առկայություն ստորին поддон-ում",
+            "slugs": [
+                "aeg-base-pan-water-accumulation",
+                "aeg-float-switch-triggered",
+                "aeg-internal-hose-leak"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i40",
+            "title": "AEG սպասք լվացող մեքենայի i40 սխալ",
+            "sign": "Գործարկումից անմիջապես հետո էկրանին ցուցադրվում է i40",
+            "causes": "Մակարդակի սենսորը փոխանցում է ջրի քանակի մասին սխալ տվյալներ",
+            "slugs": [
+                "aeg-pressure-sensor-malfunction",
+                "aeg-level-chamber-contamination",
+                "aeg-sensor-connector-corrosion"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i50",
+            "title": "AEG սպասք լվացող մեքենայի i50 սխալ",
+            "sign": "Մեքենան չի գործարկում շարժիչը և ցույց է տալիս i50",
+            "causes": "Ցիրկուլյացիոն շարժիչի կառավարման էլեկտրոնային սխեման աշխատում է անկայուն",
+            "slugs": [
+                "aeg-circulation-motor-triac-failure",
+                "aeg-motor-winding-breakdown",
+                "aeg-inverter-board-defect"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i60",
+            "title": "AEG սպասք լվացող մեքենայի i60 սխալ",
+            "sign": "Տաքացման ընթացքում ցիկլը ընդհատվում է i60 կոդով",
+            "causes": "Ջերմաստիճանի վերահսկումը ֆիքսում է շեղում սահմանված պարամետրերից",
+            "slugs": [
+                "aeg-heating-element-open-circuit",
+                "aeg-ntc-sensor-drift",
+                "aeg-thermal-protection-activated"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i70",
+            "title": "AEG սպասք լվացող մեքենայի i70 սխալ",
+            "sign": "Էկրանին հայտնվում է i70՝ առանց լվացման սկսելու",
+            "causes": "Էլեկտրոնային մոդուլը ջերմաստիճանի չափիչից ստանում է անոմալ ազդանշաններ",
+            "slugs": [
+                "aeg-temperature-sensor-calibration-loss",
+                "aeg-wiring-harness-interruption",
+                "aeg-control-board-analog-input-failure"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i80",
+            "title": "AEG սպասք լվացող մեքենայի i80 սխալ",
+            "sign": "Միացնելուց հետո ցուցադրվում է i80, և ծրագիրը չի մեկնարկում",
+            "causes": "Խախտված է ծրագրային ապահովման ներքին կոնֆիգուրացիան",
+            "slugs": [
+                "aeg-eeprom-memory-corruption",
+                "aeg-firmware-glitch-detected",
+                "aeg-configuration-data-mismatch"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-i90",
+            "title": "AEG սպասք լվացող մեքենայի i90 սխալ",
+            "sign": "Սարքը չի արձագանքում հրամաններին և ցույց է տալիս i90",
+            "causes": "Հայտնաբերվել է հիմնական էլեկտրոնային պլատի լուրջ անսարքություն",
+            "slugs": [
+                "aeg-main-control-board-short-circuit",
+                "aeg-power-supply-module-failure",
+                "aeg-processor-initialization-error"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-if0",
+            "title": "AEG սպասք լվացող մեքենայի iF0 սխալ",
+            "sign": "Մեքենան անվերջ ջուր է հավաքում և ցուցադրում է iF0",
+            "causes": "Վերահսկման համակարգը չի հաստատում հեղուկի պահանջվող մակարդակի հասնելը",
+            "slugs": [
+                "aeg-water-level-sensor-inaccuracy",
+                "aeg-inlet-valve-stuck-open",
+                "aeg-pressure-tube-blockage"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-id0",
+            "title": "AEG սպասք լվացող մեքենայի iD0 սխալ",
+            "sign": "Շարժիչը չի գործարկվում, ցուցադրիչը ցույց է տալիս iD0",
+            "causes": "Կառավարիչը չի ստանում տախոգեներատորի ճիշտ ազդանշան",
+            "slugs": [
+                "aeg-tacho-coil-failure",
+                "aeg-rotor-magnet-damage",
+                "aeg-speed-feedback-circuit-break"
+            ]
+        },
+        {
+            "slug": "aeg-dishwasher-error-ib0",
+            "title": "AEG սպասք լվացող մեքենայի iB0 սխալ",
+            "sign": "Լվացման ցիկլը կատարվում է խափանումներով և ֆիքսվում է iB0",
+            "causes": "Ջրի պղտորության օպտիկական սենսորը փոխանցում է խեղաթյուրված ցուցումներ",
+            "slugs": [
+                "aeg-turbidity-sensor-contamination",
+                "aeg-optical-module-signal-distortion",
+                "aeg-water-clarity-monitoring-fault"
+            ]
+        },
+
+        {
+            "slug": "aeg-inlet-valve-blockage",
+            "title": "AEG լցման փականի խցանում",
+            "sign": "Ջուրը մուտք է գործում դանդաղ կամ ընդհանրապես չի մատակարարվում",
+            "causes": "Փականի ցանցային ֆիլտրը փակված է հանքային նստվածքներով կամ օտար մասնիկներով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-water-supply-pressure-insufficient",
+            "title": "AEG ջրի մատակարարման անբավարար ճնշում",
+            "sign": "Խցիկի լցվելը չափազանց երկար ժամանակ է տևում",
+            "causes": "Ջրամատակարարման գծում ճնշումը թույլատրելի շահագործման մակարդակից ցածր է",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-aquastop-activation",
+            "title": "AEG AquaStop համակարգի գործարկում",
+            "sign": "Լցումը դադարում է անմիջապես մեկնարկի փորձից հետո",
+            "causes": "Պաշտպանիչ մեխանիզմը փակում է մատակարարումը՝ արտահոսքի ռիսկ հայտնաբերելու դեպքում",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-drain-pump-impeller-obstruction",
+            "title": "AEG ջրահեռացման պոմպի թիակի խցանում",
+            "sign": "Օգտագործված հեղուկը մնում է բաքի ներսում",
+            "causes": "Պոմպի թիակները խցանվում են մանր աղբով կամ ապակու բեկորներով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-drain-hose-kinked",
+            "title": "AEG ջրահեռացման խողովակի ծալք",
+            "sign": "Ջրի հեռացումը կատարվում է ընդհատումներով",
+            "causes": "Գոֆրացված խողովակը դեֆորմացված է կամ սեղմված է կահույքով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-filter-system-clogging",
+            "title": "AEG ֆիլտրավորման հանգույցի խցանում",
+            "sign": "Խցիկի հատակին կուտակվում են աղտոտումներ",
+            "causes": "Սննդի մնացորդների կուտակումը խանգարում է նորմալ ցիրկուլյացիային",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-base-pan-water-accumulation",
+            "title": "AEG ստորին поддон-ում ջրի կուտակում",
+            "sign": "Սարքը դադարեցնում է աշխատանքը մինչև ծրագրի ավարտը",
+            "causes": "Հեղուկը մտնում է ստորին հատված՝ ներքին անհերմետիկության հետևանքով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-float-switch-triggered",
+            "title": "AEG լողացող անջատիչի ակտիվացում",
+            "sign": "Լվացումը արգելափակվում է առանց տեսանելի պատճառների",
+            "causes": "Լողացող սենսորը բարձրանում է՝ կորպուսի հիմքում խոնավություն լինելու դեպքում",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-internal-hose-leak",
+            "title": "AEG ներքին խողովակի արտահոսք",
+            "sign": "Մեքենայի տակ խոնավություն է հայտնվում",
+            "causes": "Միացնող խողովակափունջը կորցնում է հերմետիկությունը նյութի մաշվածության պատճառով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-pressure-sensor-malfunction",
+            "title": "AEG ճնշման սենսորի անսարքություն",
+            "sign": "Ջրի մակարդակը որոշվում է սխալ",
+            "causes": "Չափիչ տարրը կառավարման մոդուլին փոխանցում է սխալ իմպուլսներ",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-level-chamber-contamination",
+            "title": "AEG մակարդակի խցիկի աղտոտում",
+            "sign": "Ծրագիրը կախվում է լցման փուլում",
+            "causes": "Հիդրոստատի ալիքը խցանված է ճարպային նստվածքներով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-sensor-connector-corrosion",
+            "title": "AEG սենսորի միակցիչի օքսիդացում",
+            "sign": "Մակարդակի ցուցումները դառնում են անկայուն",
+            "causes": "Կոնտակտային կլեմաները վնասված են խոնավությունից",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-circulation-motor-triac-failure",
+            "title": "AEG ցիրկուլյացիոն շարժիչի սիմիստորի վնասում",
+            "sign": "Ցողիչ թևիկները չեն պտտվում",
+            "causes": "Շարժիչը կառավարող կիսահաղորդիչ տարրը դուրս է գալիս շարքից",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-motor-winding-breakdown",
+            "title": "AEG ցիրկուլյացիոն շարժիչի փաթաթման խզում",
+            "sign": "Պոմպը չի ստեղծում անհրաժեշտ ճնշում",
+            "causes": "Պղնձե փաթաթումը կորցնում է էլեկտրական ամբողջականությունը",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-inverter-board-defect",
+            "title": "AEG ինվերտորային պլատի անսարքություն",
+            "sign": "Շարժիչի պտտման արագությունը անկայուն է",
+            "causes": "Հաճախականության էլեկտրոնային փոխակերպիչը աշխատում է շեղումներով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-heating-element-open-circuit",
+            "title": "AEG տաքացուցիչի շղթայի խզում",
+            "sign": "Ցիկլի ավարտից հետո սպասքը մնում է սառը",
+            "causes": "ՏԷՆ-ի սպիրալը կորցնում է հաղորդունակությունը՝ այրման հետևանքով",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-ntc-sensor-drift",
+            "title": "AEG NTC սենսորի բնութագրերի շեղում",
+            "sign": "Ջրի ջերմաստիճանը չի համապատասխանում ընտրված ռեժիմին",
+            "causes": "Թերմիստորը փոխում է դիմադրությունը թույլատրելի սահմաններից դուրս",
+            "slugs": []
+        },
+        {
+            "slug": "aeg-thermal-protection-activated",
+            "title": "AEG ջերմապաշտպանության գործարկում",
+            "sign": "Տաքացումը վաղաժամ դադարում է",
+            "causes": "Պաշտպանիչ թերմոստատը անջատում է սնուցումը գերտաքացման դեպքում",
+            "slugs": []
+        }
+    ]
+}

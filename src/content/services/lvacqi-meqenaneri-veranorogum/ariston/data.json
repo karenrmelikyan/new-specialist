@@ -1,0 +1,353 @@
+{
+    "indexPageTitle": "Ariston լվացքի մեքենաների վերանորոգում",
+    "title": "Ariston լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/ariston/",
+
+    "items": [
+        {
+            "slug": "ariston-no-spin",
+            "title": "Стиральная машина Ariston не отжимает",
+            "sign": "Барабан не выходит на высокие обороты, программа завершается, но бельё остаётся мокрым",
+            "causes": "Нарушена работа системы отжима в стиральной машине Ariston",
+            "slugs": [
+                "ariston-motor-brush-wear",
+                "ariston-drive-belt-worn",
+                "ariston-tachosensor-failure",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-no-drain",
+            "title": "Стиральная машина Ariston не сливает воду",
+            "sign": "После завершения цикла вода остаётся в баке и люк не открывается",
+            "causes": "Не функционирует система слива воды в стиральной машине Ariston",
+            "slugs": [
+                "ariston-drain-pump-failure",
+                "ariston-clogged-filter",
+                "ariston-drain-hose-blocked",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-not-filling",
+            "title": "Стиральная машина Ariston не набирает воду",
+            "sign": "После запуска слышен щелчок, но вода в барабан не поступает",
+            "causes": "Нарушена система залива воды в стиральной машине Ariston",
+            "slugs": [
+                "ariston-inlet-valve-failure",
+                "ariston-water-pressure-low",
+                "ariston-pressure-switch-failure",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-leak",
+            "title": "Стиральная машина Ariston протекает",
+            "sign": "Под корпусом появляется вода во время или после стирки",
+            "causes": "Нарушена герметичность узлов стиральной машины Ariston",
+            "slugs": [
+                "ariston-door-gasket-damaged",
+                "ariston-tank-hose-cracked",
+                "ariston-pump-seal-leak",
+                "ariston-detergent-drawer-leak"
+            ]
+        },
+        {
+            "slug": "ariston-no-heat",
+            "title": "Стиральная машина Ariston не греет воду",
+            "sign": "Стирка проходит в холодной воде независимо от выбранной программы",
+            "causes": "Система нагрева воды в стиральной машине Ariston работает некорректно",
+            "slugs": [
+                "ariston-heating-element-burned",
+                "ariston-temperature-sensor-failure",
+                "ariston-heater-relay-failure",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-not-starting",
+            "title": "Стиральная машина Ariston не включается",
+            "sign": "Индикация отсутствует, кнопки не реагируют на нажатие",
+            "causes": "Проблема с подачей питания или управляющей системой стиральной машины Ariston",
+            "slugs": [
+                "ariston-power-cord-damaged",
+                "ariston-power-filter-failure",
+                "ariston-start-button-failure",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-door-locked",
+            "title": "Стиральная машина Ariston не открывает люк",
+            "sign": "После завершения программы дверца остаётся заблокированной",
+            "causes": "Неисправность механизма блокировки люка в стиральной машине Ariston",
+            "slugs": [
+                "ariston-door-lock-failure",
+                "ariston-water-not-drained",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-noisy",
+            "title": "Стиральная машина Ariston шумит при работе",
+            "sign": "Во время отжима появляется гул, стук или металлический скрежет",
+            "causes": "Износ вращающихся элементов или посторонние предметы в стиральной машине Ariston",
+            "slugs": [
+                "ariston-drum-bearing-worn",
+                "ariston-foreign-object-in-drum",
+                "ariston-counterweight-loose"
+            ]
+        },
+        {
+            "slug": "ariston-vibrates",
+            "title": "Стиральная машина Ariston сильно вибрирует",
+            "sign": "Корпус смещается и трясётся при выходе на отжим",
+            "causes": "Нарушена балансировка или изношены амортизирующие элементы стиральной машины Ariston",
+            "slugs": [
+                "ariston-shock-absorber-worn",
+                "ariston-uneven-installation",
+                "ariston-spring-damaged"
+            ]
+        },
+        {
+            "slug": "ariston-stops-mid-cycle",
+            "title": "Стиральная машина Ariston останавливается во время стирки",
+            "sign": "Программа прерывается и не доходит до завершения",
+            "causes": "Сбой в работе двигателя, датчиков или управляющей платы стиральной машины Ariston",
+            "slugs": [
+                "ariston-motor-overheat",
+                "ariston-pressure-switch-failure",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-error-code",
+            "title": "Стиральная машина Ariston показывает ошибку",
+            "sign": "На дисплее отображается код неисправности",
+            "causes": "Обнаружен сбой одного из узлов стиральной машины Ariston",
+            "slugs": [
+                "ariston-temperature-sensor-failure",
+                "ariston-drain-pump-failure",
+                "ariston-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "ariston-motor-short-main",
+            "title": "Стиральная машина Ariston выбивает автомат",
+            "sign": "При запуске срабатывает защита и отключается питание",
+            "causes": "Короткое замыкание в электрической цепи стиральной машины Ariston",
+            "slugs": [
+                "ariston-motor-short",
+                "ariston-heating-element-short",
+                "ariston-wiring-damage"
+            ]
+        },
+        {
+            "slug": "ariston-motor-brush-wear",
+            "title": "Износ щёток двигателя Ariston",
+            "sign": "Двигатель Ariston работает рывками или не развивает обороты",
+            "causes": "Щётки стерлись и не обеспечивают стабильный контакт с коллектором",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drive-belt-worn",
+            "title": "Изношен приводной ремень Ariston",
+            "sign": "Барабан прокручивается медленно или вовсе не вращается",
+            "causes": "Ремень растянулся или порвался из-за естественного износа",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-tachosensor-failure",
+            "title": "Неисправен тахогенератор Ariston",
+            "sign": "Машина Ariston не контролирует обороты барабана",
+            "causes": "Датчик оборотов не передаёт корректный сигнал на модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-pump-failure",
+            "title": "Неисправен сливной насос Ariston",
+            "sign": "Вода не откачивается из бака",
+            "causes": "Крыльчатка насоса заклинила или обмотка двигателя повреждена",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-clogged-filter",
+            "title": "Засорён фильтр Ariston",
+            "sign": "Слив воды происходит медленно или полностью отсутствует",
+            "causes": "Скопление мусора, ниток и мелких предметов в фильтре",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drain-hose-blocked",
+            "title": "Засор или перегиб сливного шланга Ariston",
+            "sign": "Вода остаётся внутри бака после стирки",
+            "causes": "Шланг пережат, загрязнён или установлен с нарушением уклона",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Ariston",
+            "sign": "Вода не поступает в бак при запуске программы",
+            "causes": "Клапан не открывается из-за поломки катушки или засора",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pressure-switch-failure",
+            "title": "Неисправен прессостат Ariston",
+            "sign": "Машина Ariston неправильно определяет уровень воды",
+            "causes": "Датчик уровня воды не передаёт корректные данные",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heating-element-burned",
+            "title": "Сгорел ТЭН Ariston",
+            "sign": "Вода остаётся холодной на любых программах",
+            "causes": "Перегорание нагревательного элемента из-за накипи или износа",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-electronic-module-failure",
+            "title": "Неисправен электронный модуль управления Ariston",
+            "sign": "Стиральная машина Ariston не реагирует на команды или работает нестабильно",
+            "causes": "Повреждение элементов платы, сбой прошивки или скачок напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-motor-short",
+            "title": "Короткое замыкание двигателя Ariston",
+            "sign": "При запуске Ariston выбивает автомат защиты",
+            "causes": "Повреждение изоляции обмотки двигателя",
+            "slugs": []
+          },
+        {
+            "slug": "ariston-wiring-damage",
+            "title": "Повреждена проводка Ariston",
+            "sign": "Наблюдаются перебои в работе или запах гари",
+            "causes": "Перетёртые или оплавленные провода внутри корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-pressure-low",
+            "title": "Слабое давление воды для Ariston",
+            "sign": "Набор воды происходит очень медленно или программа зависает",
+            "causes": "Недостаточное давление в системе водоснабжения или перекрыт кран подачи",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-power-filter-failure",
+            "title": "Неисправен сетевой фильтр Ariston",
+            "sign": "Машина Ariston не включается или отключается сразу после запуска",
+            "causes": "Выход из строя помехоподавляющего фильтра питания",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-start-button-failure",
+            "title": "Неисправна кнопка запуска Ariston",
+            "sign": "Команда старта не активируется при нажатии",
+            "causes": "Износ контактной группы или повреждение панели управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-water-not-drained",
+            "title": "Вода не слита из бака Ariston",
+            "sign": "Люк остаётся заблокированным после окончания стирки",
+            "causes": "Остаточная вода в баке не позволяет системе разблокировать дверцу",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-counterweight-loose",
+            "title": "Ослаблено крепление противовеса Ariston",
+            "sign": "Во время отжима слышен сильный глухой стук",
+            "causes": "Разболтались крепёжные болты бетонного противовеса",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-shock-absorber-worn",
+            "title": "Изношены амортизаторы Ariston",
+            "sign": "Машина Ariston чрезмерно трясётся при отжиме",
+            "causes": "Потеря демпфирующих свойств амортизаторов",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-temperature-sensor-failure",
+            "title": "Неисправен датчик температуры Ariston",
+            "sign": "Машина Ariston неправильно нагревает воду или выдаёт ошибку по температуре",
+            "causes": "Термодатчик передаёт некорректные данные на электронный модуль управления",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-heater-relay-failure",
+            "title": "Неисправно реле нагрева Ariston",
+            "sign": "ТЭН исправен, но нагрев воды не происходит",
+            "causes": "Реле на плате управления не подаёт питание на нагревательный элемент",
+            "slugs": []
+        },
+          {
+            "slug": "ariston-heating-element-short",
+            "title": "Короткое замыкание ТЭНа Ariston",
+            "sign": "При включении режима нагрева выбивает автомат защиты",
+            "causes": "Пробой изоляции нагревательного элемента на корпус",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-door-lock-failure",
+            "title": "Неисправен замок люка Ariston",
+            "sign": "Люк не блокируется или не открывается после стирки",
+            "causes": "Механизм блокировки не фиксирует дверцу или не получает сигнал от модуля",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-drum-bearing-worn",
+            "title": "Изношены подшипники барабана Ariston",
+            "sign": "Во время вращения слышен сильный гул и вибрация",
+            "causes": "Подшипники разрушены из-за длительной эксплуатации или попадания влаги",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане Ariston",
+            "sign": "При вращении появляется металлический скрежет",
+            "causes": "Монета, косточка бюстгальтера или другой предмет попал между баком и барабаном",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-spring-damaged",
+            "title": "Повреждена подвесная пружина бака Ariston",
+            "sign": "Барабан смещён и корпус сильно раскачивается",
+            "causes": "Одна из пружин растянулась или лопнула",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-motor-overheat",
+            "title": "Перегрев двигателя Ariston",
+            "sign": "Машина Ariston останавливается во время стирки и продолжает работу после остывания",
+            "causes": "Двигатель перегревается из-за износа щёток, перегрузки или плохой вентиляции",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-pump-seal-leak",
+            "title": "Протечка сальника насоса Ariston",
+            "sign": "Под машиной появляется вода в районе помпы",
+            "causes": "Износ уплотнения сливного насоса",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-detergent-drawer-leak",
+            "title": "Протечка через лоток для порошка Ariston",
+            "sign": "Вода вытекает из передней части корпуса",
+            "causes": "Засор каналов подачи воды или деформация лотка",
+            "slugs": []
+        },
+        {
+            "slug": "ariston-tank-hose-cracked",
+            "title": "Трещина патрубка бака Ariston",
+            "sign": "Протечка усиливается во время слива или набора воды",
+            "causes": "Резиновый патрубок растрескался или ослабло соединение",
+            "slugs": []
+        }
+    ]
+}

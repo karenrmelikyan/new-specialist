@@ -1,0 +1,348 @@
+{
+    "indexPageTitle": "Daewoo լվացքի մեքենաների վերանորոգում",
+    "title": "Daewoo լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/daewoo/",
+    "items": [
+        {
+            "slug": "daewoo-not-draining",
+            "title": "Стиральная машина Daewoo не сливает воду",
+            "sign": "После завершения программы вода остаётся в баке",
+            "causes": "Засор фильтра, шланга или поломка насоса",
+            "slugs": [
+                "daewoo-drain-filter-clogged",
+                "daewoo-drain-hose-blocked",
+                "daewoo-drain-pump-failure",
+                "daewoo-pressure-sensor-fault"
+            ]
+        },
+        {
+            "slug": "daewoo-not-spinning",
+            "title": "Стиральная машина Daewoo не выполняет отжим",
+            "sign": "Бельё остаётся влажным после стирки",
+            "causes": "Проблема с мотором, ремнём или балансом",
+            "slugs": [
+                "daewoo-drive-belt-worn",
+                "daewoo-motor-brushes-worn",
+                "daewoo-load-imbalance"
+            ]
+        },
+        {
+            "slug": "daewoo-not-starting",
+            "title": "Стиральная машина Daewoo не включается",
+            "sign": "При нажатии кнопки питания машина молчит",
+            "causes": "Нет питания, повреждён кабель или плата управления",
+            "slugs": [
+                "daewoo-power-cord-damage",
+                "daewoo-no-mains-voltage",
+                "daewoo-control-module-failure"
+            ]
+        },
+        {
+            "slug": "daewoo-no-water-fill",
+            "title": "Стиральная машина Daewoo не набирает воду",
+            "sign": "Бак остаётся пустым после запуска программы",
+            "causes": "Забит фильтр, неисправен клапан или датчик уровня",
+            "slugs": [
+                "daewoo-inlet-valve-failure",
+                "daewoo-inlet-filter-clogged",
+                "daewoo-pressure-sensor-failure"
+            ]
+        },
+        {
+            "slug": "daewoo-leakage",
+            "title": "Стиральная машина Daewoo протекает",
+            "sign": "Под машиной образуется лужа",
+            "causes": "Проблемы с уплотнениями, шлангами или насосом",
+            "slugs": [
+                "daewoo-door-gasket-damaged",
+                "daewoo-hose-crack",
+                "daewoo-pump-seal-leak"
+            ]
+        },
+        {
+            "slug": "daewoo-noisy",
+            "title": "Стиральная машина Daewoo шумит при работе",
+            "sign": "Слышны скрежет, гул или посторонние удары",
+            "causes": "Изношены подшипники, ремень или попал посторонний предмет",
+            "slugs": [
+                "daewoo-drum-bearing-worn",
+                "daewoo-drive-belt-worn",
+                "daewoo-foreign-object-in-drum"
+            ]
+        },
+        {
+            "slug": "daewoo-vibrates",
+            "title": "Стиральная машина Daewoo сильно вибрирует",
+            "sign": "Корпус трясётся при работе на высоких оборотах",
+            "causes": "Нарушена установка, амортизаторы или противовесы",
+            "slugs": [
+                "daewoo-shock-absorber-worn",
+                "daewoo-counterweight-loose",
+                "daewoo-uneven-installation"
+            ]
+        },
+        {
+            "slug": "daewoo-door-locked",
+            "title": "Люк стиральной машины Daewoo не открывается",
+            "sign": "Дверца остаётся заблокированной после стирки",
+            "causes": "Блокировка или вода в баке не сняли защёлку",
+            "slugs": [
+                "daewoo-door-lock-failure",
+                "daewoo-water-not-drained",
+                "daewoo-control-module-failure"
+            ]
+        },
+        {
+            "slug": "daewoo-error-code",
+            "title": "Стиральная машина Daewoo показывает ошибку",
+            "sign": "На дисплее отображается код неисправности",
+            "causes": "Система зафиксировала неисправность насоса, датчика или платы",
+            "slugs": [
+                "daewoo-drain-pump-failure",
+                "daewoo-pressure-sensor-fault",
+                "daewoo-control-module-failure"
+            ]
+        },
+        {
+            "slug": "daewoo-not-heating",
+            "title": "Стиральная машина Daewoo не нагревает воду",
+            "sign": "Стирка проходит в холодной воде",
+            "causes": "Не работает нагревательный элемент, термодатчик или плата",
+            "slugs": [
+                "daewoo-heating-element-burned",
+                "daewoo-temperature-sensor-failure",
+                "daewoo-control-module-failure"
+            ]
+        },
+        {
+            "slug": "daewoo-stops-mid-cycle",
+            "title": "Стиральная машина Daewoo останавливается во время стирки",
+            "sign": "Программа прерывается до завершения цикла",
+            "causes": "Перегрев мотора, перебой питания или сбой модуля",
+            "slugs": [
+                "daewoo-motor-overheat",
+                "daewoo-power-supply-issue",
+                "daewoo-control-module-failure"
+            ]
+        },
+        {
+            "slug": "daewoo-trips-breaker",
+            "title": "Стиральная машина Daewoo выбивает автомат",
+            "sign": "При запуске срабатывает защита сети",
+            "causes": "Короткое замыкание в проводке или нагревательном элементе",
+            "slugs": [
+                "daewoo-heating-element-short",
+                "daewoo-wiring-damage",
+                "daewoo-power-cord-damage"
+            ]
+        },
+
+        {
+            "slug": "daewoo-drain-filter-clogged",
+            "title": "Засорён фильтр слива Daewoo",
+            "sign": "Вода не уходит из бака",
+            "causes": "Фильтр забит мелким мусором, ворсом или монетами",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-drain-hose-blocked",
+            "title": "Засорён сливной шланг Daewoo",
+            "sign": "Вода остаётся внутри бака",
+            "causes": "Шланг пережат, засорён грязью или скопившимися волокнами",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-drain-pump-failure",
+            "title": "Неисправен сливной насос Daewoo",
+            "sign": "Вода не откачивается из бака",
+            "causes": "Помпа заклинила, перегорела или забилась инородными предметами",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-pressure-sensor-fault",
+            "title": "Неисправен датчик уровня воды Daewoo",
+            "sign": "Машина неправильно определяет объём воды",
+            "causes": "Датчик засорён, повреждён или потерял контакт",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-drive-belt-worn",
+            "title": "Изношен приводной ремень Daewoo",
+            "sign": "Барабан не вращается при включённом двигателе",
+            "causes": "Ремень растянут, повреждён или частично соскользнул со шкива",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-motor-brushes-worn",
+            "title": "Изношены щётки двигателя Daewoo",
+            "sign": "Мотор не развивает обороты",
+            "causes": "Щётки двигателя стерлись и не обеспечивают контакт",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-load-imbalance",
+            "title": "Нарушен баланс загрузки Daewoo",
+            "sign": "Отжим нестабильный или не происходит",
+            "causes": "Бельё распределено неравномерно или перегружено",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-power-cord-damage",
+            "title": "Повреждён кабель питания Daewoo",
+            "sign": "Машина не включается или отключается",
+            "causes": "Обрыв проводов, изоляция повреждена или перегиб кабеля",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-no-mains-voltage",
+            "title": "Отсутствует напряжение в сети",
+            "sign": "Стиральная машина не включается",
+            "causes": "Нет подачи электричества из-за проблем в доме или щитке",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-control-module-failure",
+            "title": "Неисправен электронный модуль управления Daewoo",
+            "sign": "Машина не реагирует на команды",
+            "causes": "Плата управления повреждена или программный сбой",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-inlet-valve-failure",
+            "title": "Неисправен впускной клапан воды Daewoo",
+            "sign": "Вода не поступает в бак",
+            "causes": "Клапан заклинил, повреждена катушка или засорён фильтр",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-inlet-filter-clogged",
+            "title": "Засорён входной фильтр воды Daewoo",
+            "sign": "Набор воды медленный или отсутствует",
+            "causes": "Фильтр засорён известковым налётом или грязью",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-door-gasket-damaged",
+            "title": "Повреждена манжета дверцы Daewoo",
+            "sign": "Под машиной появляется вода",
+            "causes": "Манжета потрескалась, изношена или смещена",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-hose-crack",
+            "title": "Трещина или повреждение внутреннего шланга Daewoo",
+            "sign": "Вода протекает во время стирки",
+            "causes": "Шланг изношен, пережат или треснул",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-pump-seal-leak",
+            "title": "Протечка уплотнения насоса Daewoo",
+            "sign": "Вода течёт около насоса",
+            "causes": "Сальник повреждён, изношен или потерял герметичность",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-drum-bearing-worn",
+            "title": "Изношены подшипники барабана Daewoo",
+            "sign": "Появляется гул и люфт барабана",
+            "causes": "Подшипники разрушены от износа, влаги или перегрузок",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане Daewoo",
+            "sign": "Слышен металлический звук при вращении",
+            "causes": "Мелкие предметы остались в белье и застряли между барабаном и баком",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-motor-overheat",
+            "title": "Перегрев двигателя Daewoo",
+            "sign": "Машина останавливается во время работы",
+            "causes": "Перегрузка барабана или износ обмоток мотора",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-heating-element-burned",
+            "title": "Сгорел ТЭН Daewoo",
+            "sign": "Вода остаётся холодной",
+            "causes": "Нагревательный элемент перегорел или коротнул",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-temperature-sensor-failure",
+            "title": "Неисправен датчик температуры Daewoo",
+            "sign": "Вода не нагревается до заданной температуры",
+            "causes": "Термодатчик передаёт неверные показания или сломан",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-heating-element-short",
+            "title": "Короткое замыкание в нагревательном элементе Daewoo",
+            "sign": "Выбивает автомат при включении нагрева",
+            "causes": "Повреждён провод или изоляция элемента нарушена",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-wiring-damage",
+            "title": "Повреждена проводка Daewoo",
+            "sign": "Машина отключается или выбивает автомат",
+            "causes": "Обрыв, замыкание или окисление контактов",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-pressure-sensor-failure",
+            "title": "Неисправен датчик уровня воды Daewoo",
+            "sign": "Машина некорректно определяет уровень воды или не завершает слив",
+            "causes": "Прессостат повреждён, засорена трубка датчика или нарушены контакты",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-shock-absorber-worn",
+            "title": "Изношены амортизаторы Daewoo",
+            "sign": "Машина сильно раскачивается при отжиме",
+            "causes": "Амортизаторы потеряли упругость или имеют механические повреждения",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-counterweight-loose",
+            "title": "Ослаблено крепление противовеса Daewoo",
+            "sign": "Слышны глухие удары и сильная вибрация",
+            "causes": "Крепёж противовеса ослаб или болты разболтались",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-uneven-installation",
+            "title": "Неправильная установка Daewoo",
+            "sign": "Машина смещается и вибрирует во время работы",
+            "causes": "Ножки не отрегулированы или пол имеет неровности",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-door-lock-failure",
+            "title": "Неисправна блокировка люка Daewoo",
+            "sign": "Люк не открывается или не фиксируется",
+            "causes": "Замок люка вышел из строя или отсутствует сигнал разблокировки",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-water-not-drained",
+            "title": "Вода не слита из бака Daewoo",
+            "sign": "Люк остаётся заблокированным после стирки",
+            "causes": "Система слива работает некорректно или насос не удалил воду полностью",
+            "slugs": []
+        },
+        {
+            "slug": "daewoo-power-supply-issue",
+            "title": "Проблема с электропитанием Daewoo",
+            "sign": "Машина отключается во время работы",
+            "causes": "Нестабильное напряжение, плохой контакт в розетке или повреждение сетевых соединений",
+            "slugs": []
+        }
+    ]
+}

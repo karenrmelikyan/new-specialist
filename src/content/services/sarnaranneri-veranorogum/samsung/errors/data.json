@@ -1,0 +1,278 @@
+{
+    "indexPageTitle": "Samsung սառնարանների վերանորոգում",
+    "title": "Samsung սառնարանների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/sarnaranneri-veranorogum/samsung/errors/",
+
+    "items": [
+        {
+            "slug": "samsung-fridge-error-er",
+            "title": "Ошибка ER общей диагностики холодильника Samsung",
+            "sign": "На дисплее отображается обобщённый код сбоя",
+            "causes": "Контроллер регистрирует аномалию в цепи датчиков или внутренних модулях",
+            "slugs": [
+                "samsung-fridge-general-error-indication",
+                "samsung-fridge-system-watchdog-triggered"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-1e",
+            "title": "Ошибка 1E датчика температуры холодильной камеры холодильника Samsung",
+            "sign": "Температура в основном отсеке нестабильна",
+            "causes": "Термодатчик холодильной зоны работает некорректно или обрыв в его цепи",
+            "slugs": [
+                "samsung-fridge-fridge-temp-sensor-defect",
+                "samsung-fridge-sensor-circuit-break"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-2e",
+            "title": "Ошибка 2E датчика температуры морозильной камеры холодильника Samsung",
+            "sign": "Морозильный отсек не достигает заданного холода",
+            "causes": "Неисправность сенсора морозильника либо нарушение подключения",
+            "slugs": [
+                "samsung-fridge-freezer-temp-sensor-issue",
+                "samsung-fridge-sensor-wiring-fault"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-3e",
+            "title": "Ошибка 3E датчика испарителя холодильника Samsung",
+            "sign": "Наледь на испарителе нарастает аномально быстро",
+            "causes": "Сбой термистора испарительного узла нарушает цикл Smart Defrost",
+            "slugs": [
+                "samsung-fridge-evaporator-sensor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-4e",
+            "title": "Ошибка 4E вентилятора морозильной камеры холодильника Samsung",
+            "sign": "Нарушен поток холодного воздуха в морозильной зоне",
+            "causes": "Вентилятор заблокирован или мотор потерял способность к вращению",
+            "slugs": [
+                "samsung-fridge-freezer-fan-blocked",
+                "samsung-fridge-fan-motor-stall"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-5e",
+            "title": "Ошибка 5E вентилятора холодильной камеры холодильника Samsung",
+            "sign": "Циркуляция воздуха внутри основной камеры ухудшена",
+            "causes": "Поломка мотора вентилятора или препятствие в воздуховоде",
+            "slugs": [
+                "samsung-fridge-fridge-fan-motor-stall",
+                "samsung-fridge-air-duct-obstruction"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-8e",
+            "title": "Ошибка 8E датчика окружающей температуры холодильника Samsung",
+            "sign": "Прибор неверно адаптируется к изменениям климата в помещении",
+            "causes": "Сенсор окружающей среды передаёт неточные данные",
+            "slugs": [
+                "samsung-fridge-ambient-temp-sensor-defect",
+                "samsung-fridge-signal-transmission-lag"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-ce",
+            "title": "Ошибка CE платы управления холодильника Samsung",
+            "sign": "Главная плата перестаёт корректно обрабатывать команды",
+            "causes": "Электронный модуль выходит из состояния устойчивой работы",
+            "slugs": [
+                "samsung-fridge-main-board-malfunction",
+                "samsung-fridge-electronic-controller-fault"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-de",
+            "title": "Ошибка DE отказа цепи дисплея холодильника Samsung",
+            "sign": "Дисплей не отображает данные или показывает артефакты",
+            "causes": "Проблема соединения между панелью и платой или дефект панели",
+            "slugs": [
+                "samsung-fridge-display-connection-issue"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-te",
+            "title": "Ошибка TE утечки хладагента холодильника Samsung",
+            "sign": "Охлаждение неэффективно, температурные пики",
+            "causes": "Потеря герметичности или низкий уровень хладагента",
+            "slugs": [
+                "samsung-fridge-refrigerant-leak",
+                "samsung-fridge-low-pressure-detection"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-door",
+            "title": "Ошибка неплотно закрытой дверцы холодильника Samsung",
+            "sign": "Температура повышается из‑за утечки холодного воздуха",
+            "causes": "Дверца не закрыта до конца или уплотнитель изношен",
+            "slugs": [
+                "samsung-fridge-door-seal-gap",
+                "samsung-fridge-door-latch-fault"
+            ]
+        },
+        {
+            "slug": "samsung-fridge-error-po",
+            "title": "Ошибка PO перебоя питания холодильника Samsung",
+            "sign": "После восстановления питания система сигнализирует о сбое",
+            "causes": "Регистрируется временное отключение питания",
+            "slugs": [
+                "samsung-fridge-power-interruption-logged"
+            ]
+        },
+
+        {
+            "slug": "samsung-fridge-general-error-indication",
+            "title": "Общая ошибка системы Samsung",
+            "sign": "Контроллер фиксирует аномалии без указания конкретного узла",
+            "causes": "Неисправности сенсоров или внутренних модулей вызывают срабатывание общей ошибки",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-system-watchdog-triggered",
+            "title": "Срабатывание системы мониторинга Samsung",
+            "sign": "Электроника перезагружается или блокируется",
+            "causes": "Контроллер обнаруживает нестабильность работы модулей и инициирует защитный стоп",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-fridge-temp-sensor-defect",
+            "title": "Неисправность датчика температуры основной камеры Samsung",
+            "sign": "Контроллер получает неверные данные о температуре",
+            "causes": "Термодатчик повреждён или имеет внутреннее короткое замыкание",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-sensor-circuit-break",
+            "title": "Обрыв цепи датчика температуры Samsung",
+            "sign": "Система не регистрирует корректные показания температуры",
+            "causes": "Повреждение проводки или контактов блока нарушает передачу сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-freezer-temp-sensor-issue",
+            "title": "Сбой датчика температуры морозильного отсека Samsung",
+            "sign": "Морозильная камера не поддерживает заданный уровень холода",
+            "causes": "Термодатчик морозильной камеры неисправен или обрыв соединения",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-sensor-wiring-fault",
+            "title": "Нарушение проводки датчика морозильной камеры Samsung",
+            "sign": "Контроллер получает неверные или отсутствующие данные",
+            "causes": "Окисление, разрыв или плохой контакт нарушает передачу сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-evaporator-sensor-failure",
+            "title": "Неисправность датчика испарителя Samsung",
+            "sign": "Цикл Smart Defrost работает некорректно",
+            "causes": "Термистор испарителя повреждён или выдаёт ложные показания",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-freezer-fan-blocked",
+            "title": "Засор вентилятора морозильного отсека Samsung",
+            "sign": "Холодный воздух не распределяется должным образом",
+            "causes": "Лопасти заблокированы льдом или посторонними предметами",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-fan-motor-stall",
+            "title": "Поломка мотора вентилятора Samsung",
+            "sign": "Вентилятор не вращается, поток воздуха нарушен",
+            "causes": "Износ подшипников или межвитковое короткое замыкание останавливает двигатель",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-fridge-fan-motor-stall",
+            "title": "Сбой вентилятора основной камеры Samsung",
+            "sign": "Воздухообмен внутри холодильного отделения ухудшен",
+            "causes": "Мотор вентилятора вышел из строя или лопасти застряли",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-air-duct-obstruction",
+            "title": "Засор воздушного канала Samsung",
+            "sign": "Циркуляция холодного воздуха нарушена",
+            "causes": "Скопление льда или грязи препятствует прохождению воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-ambient-temp-sensor-defect",
+            "title": "Неисправность датчика окружающей температуры Samsung",
+            "sign": "Прибор некорректно реагирует на изменение климата помещения",
+            "causes": "Сенсор повреждён или даёт ложные показания",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-signal-transmission-lag",
+            "title": "Задержка передачи сигнала датчика Samsung",
+            "sign": "Контроллер получает устаревшие данные от сенсоров",
+            "causes": "Проблемы с проводкой или слабый контакт замедляют передачу сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-main-board-malfunction",
+            "title": "Сбой главной платы Samsung",
+            "sign": "Электроника не обрабатывает команды корректно",
+            "causes": "Выход из строя компонентов платы нарушает алгоритмы работы",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-electronic-controller-fault",
+            "title": "Сбой электронного контроллера Samsung",
+            "sign": "Функции холодильника выполняются некорректно",
+            "causes": "Элементы платы управления повреждены или имеют нестабильное питание",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-display-connection-issue",
+            "title": "Сбой подключения дисплея Samsung",
+            "sign": "Дисплей не отображает данные или мерцает",
+            "causes": "Плохой контакт шлейфа или повреждение панели",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-refrigerant-leak",
+            "title": "Утечка хладагента Samsung",
+            "sign": "Охлаждение не достигает заданной температуры",
+            "causes": "Разгерметизация системы или низкий уровень хладагента",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-low-pressure-detection",
+            "title": "Срабатывание датчика низкого давления Samsung",
+            "sign": "Компрессор работает нестабильно, охлаждение снижается",
+            "causes": "Пониженное давление хладагента активирует защитный алгоритм",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-door-seal-gap",
+            "title": "Нарушение герметичности дверцы Samsung",
+            "sign": "Воздух из помещения проникает внутрь холодильного отсека",
+            "causes": "Уплотнитель изношен или неправильно установлен",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-door-latch-fault",
+            "title": "Сбой защёлки дверцы Samsung",
+            "sign": "Дверь не закрывается полностью, повышается температура",
+            "causes": "Механическая деформация или износ деталей замка препятствуют плотному закрытию",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-fridge-power-interruption-logged",
+            "title": "Фиксация перебоя питания Samsung",
+            "sign": "После отключения и восстановления питания отображается предупреждение",
+            "causes": "Временные отключения электросети регистрируются системой",
+            "slugs": []
+        }
+
+    ]
+}

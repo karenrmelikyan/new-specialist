@@ -1,0 +1,303 @@
+{
+    "indexPageTitle": "Bosch չորանոց մեքենաների վերանորոգում",
+    "title": "Bosch չորանոցների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/avtomat-choranocneri-veranorogum/bosch/",
+
+    "items": [
+        {
+            "slug": "bosch-dryer-not-starting",
+            "title": "Сушильная машина Bosch не запускается",
+            "sign": "После нажатия кнопки пуска программа не активируется и барабан не начинает вращение",
+            "causes": "Неисправность блокировки люка, сбой электроники или отсутствие стабильного питания",
+            "slugs": [
+                "bosch-door-lock-failure",
+                "bosch-control-module-fault",
+                "bosch-touch-control-panel-error",
+                "bosch-power-cable-damage"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-not-heating",
+            "title": "Сушильная машина Bosch не нагревает воздух",
+            "sign": "Во время работы белье остается прохладным и не высыхает",
+            "causes": "Выход из строя нагревателя, термопредохранителя или температурного сенсора",
+            "slugs": [
+                "bosch-heating-element-failure",
+                "bosch-thermal-fuse-triggered",
+                "bosch-ntc-temperature-sensor-fault",
+                "bosch-control-module-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-long-drying-time",
+            "title": "Сушильная машина Bosch долго сушит",
+            "sign": "Цикл значительно превышает стандартное время, белье сохнет медленно",
+            "causes": "Засор вентиляционной системы, снижение эффективности нагрева или ошибка датчика влажности",
+            "slugs": [
+                "bosch-air-duct-blockage",
+                "bosch-moisture-sensor-defect",
+                "bosch-heating-element-failure",
+                "bosch-blower-fan-damage"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-drum-not-spinning",
+            "title": "Барабан сушильной машины Bosch не вращается",
+            "sign": "При запуске слышен шум двигателя, но барабан остается неподвижным",
+            "causes": "Разрыв приводного ремня, износ опорных роликов или поломка мотора",
+            "slugs": [
+                "bosch-drive-belt-break",
+                "bosch-drum-support-roller-wear",
+                "bosch-motor-malfunction",
+                "bosch-tension-pulley-failure"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-stopping-mid-cycle",
+            "title": "Сушильная машина Bosch останавливается во время программы",
+            "sign": "Процесс сушки внезапно прерывается до завершения",
+            "causes": "Перегрев, некорректная работа датчиков или сбой управляющей платы",
+            "slugs": [
+                "bosch-thermal-fuse-triggered",
+                "bosch-control-module-fault",
+                "bosch-ntc-temperature-sensor-fault",
+                "bosch-motor-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-overheating",
+            "title": "Сушильная машина Bosch перегревается",
+            "sign": "Корпус становится чрезмерно горячим, возможна остановка по защите",
+            "causes": "Недостаточная циркуляция воздуха, неисправность термостата или перегрузка нагревателя",
+            "slugs": [
+                "bosch-air-duct-blockage",
+                "bosch-thermostat-defect",
+                "bosch-heating-element-failure",
+                "bosch-ntc-temperature-sensor-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-making-loud-noise",
+            "title": "Сушильная машина Bosch издает громкий шум",
+            "sign": "Во время вращения появляются стуки, скрипы или гул",
+            "causes": "Изношены подшипники, ролики барабана или повреждена крыльчатка вентилятора",
+            "slugs": [
+                "bosch-drum-bearing-damage",
+                "bosch-drum-support-roller-wear",
+                "bosch-blower-fan-damage",
+                "bosch-motor-malfunction"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-not-turning-on",
+            "title": "Сушильная машина Bosch не включается",
+            "sign": "Индикаторы не загораются, устройство полностью не реагирует",
+            "causes": "Повреждение кабеля питания, неисправность фильтра помех или электронной платы",
+            "slugs": [
+                "bosch-power-cable-damage",
+                "bosch-noise-filter-failure",
+                "bosch-control-module-fault",
+                "bosch-thermal-fuse-triggered"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-error-code",
+            "title": "Сушильная машина Bosch отображает ошибку",
+            "sign": "На дисплее появляется код неисправности",
+            "causes": "Некорректная работа датчиков, системы нагрева или управляющего блока",
+            "slugs": [
+                "bosch-ntc-temperature-sensor-fault",
+                "bosch-moisture-sensor-defect",
+                "bosch-heating-element-failure",
+                "bosch-control-module-fault"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-door-not-closing",
+            "title": "Дверца сушильной машины Bosch не закрывается",
+            "sign": "Люк не фиксируется, программа не запускается",
+            "causes": "Поломка замка, деформация петель или неисправность датчика закрытия",
+            "slugs": [
+                "bosch-door-lock-failure",
+                "bosch-door-hinge-wear",
+                "bosch-door-switch-error"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-burning-smell",
+            "title": "Сушильная машина Bosch пахнет гарью",
+            "sign": "Во время работы ощущается запах перегретых деталей",
+            "causes": "Скопление ворса, перегрев нагревателя или повреждение электропроводки",
+            "slugs": [
+                "bosch-air-duct-blockage",
+                "bosch-heating-element-failure",
+                "bosch-motor-malfunction",
+                "bosch-power-cable-damage"
+            ]
+        },
+        {
+            "slug": "bosch-dryer-tripping-breaker",
+            "title": "Сушильная машина Bosch выбивает автомат",
+            "sign": "При включении происходит отключение электрической защиты",
+            "causes": "Короткое замыкание нагревателя, двигателя или сетевого фильтра",
+            "slugs": [
+                "bosch-heating-element-short-circuit",
+                "bosch-motor-short-circuit",
+                "bosch-noise-filter-failure",
+                "bosch-control-module-fault"
+            ]
+        },
+
+        {
+            "slug": "bosch-door-lock-failure",
+            "title": "Неисправность замка двери сушильной машины Bosch",
+            "sign": "Механизм блокировки не фиксирует люк в закрытом положении",
+            "causes": "Система безопасности не позволяет запустить цикл сушки",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-control-module-fault",
+            "title": "Сбой электронного модуля Bosch",
+            "sign": "Плата управления не координирует работу узлов должным образом",
+            "causes": "Программы запускаются с ошибками либо техника полностью не реагирует",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-touch-control-panel-error",
+            "title": "Ошибка сенсорной панели Bosch",
+            "sign": "Кнопки управления не откликаются или работают некорректно",
+            "causes": "Невозможно выбрать режим или активировать программу",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-power-cable-damage",
+            "title": "Повреждение кабеля питания Bosch",
+            "sign": "Обрыв жилы или нарушение изоляции сетевого шнура",
+            "causes": "Прибор не включается и индикаторы остаются погашенными",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-failure",
+            "title": "Поломка нагревательного элемента Bosch",
+            "sign": "ТЭН не обеспечивает нагрев воздуха внутри барабана",
+            "causes": "Сушка проходит без тепла, белье остается влажным",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-thermal-fuse-triggered",
+            "title": "Срабатывание термопредохранителя Bosch",
+            "sign": "Защитный элемент размыкает электрическую цепь при перегреве",
+            "causes": "Нагрев не включается либо устройство полностью не запускается",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-ntc-temperature-sensor-fault",
+            "title": "Неисправность температурного датчика Bosch",
+            "sign": "Сенсор передает некорректные значения температуры",
+            "causes": "Программа нагрева работает нестабильно или завершается преждевременно",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-air-duct-blockage",
+            "title": "Засор воздуховода Bosch",
+            "sign": "Скопление ворса препятствует свободной циркуляции воздуха",
+            "causes": "Увеличивается продолжительность цикла и возможен перегрев",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-moisture-sensor-defect",
+            "title": "Неисправность датчика влажности Bosch",
+            "sign": "Сенсор неверно определяет остаточную влагу в белье",
+            "causes": "Цикл завершается раньше времени или вещи остаются сырыми",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-blower-fan-damage",
+            "title": "Повреждение вентилятора обдува Bosch",
+            "sign": "Крыльчатка деформирована или вращается с перебоями",
+            "causes": "Горячий воздух распределяется недостаточно эффективно",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drive-belt-break",
+            "title": "Обрыв приводного ремня Bosch",
+            "sign": "Ремень не передает вращение от двигателя к барабану",
+            "causes": "Барабан остается неподвижным при работающем моторе",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drum-support-roller-wear",
+            "title": "Износ опорных роликов барабана Bosch",
+            "sign": "Ролики имеют люфт или издают посторонний шум",
+            "causes": "Вращение барабана становится неравномерным и сопровождается скрипом",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-malfunction",
+            "title": "Неисправность двигателя сушильной машины Bosch",
+            "sign": "Мотор не запускается или работает с перебоями",
+            "causes": "Барабан не вращается либо цикл прерывается во время работы",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-tension-pulley-failure",
+            "title": "Поломка натяжного ролика Bosch",
+            "sign": "Механизм натяжения ремня не обеспечивает стабильное усилие",
+            "causes": "Ремень проскальзывает или соскакивает при вращении барабана",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-thermostat-defect",
+            "title": "Неисправность термостата Bosch",
+            "sign": "Контроль температуры осуществляется некорректно",
+            "causes": "Возможен перегрев либо недостаточный нагрев воздуха",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-drum-bearing-damage",
+            "title": "Износ подшипника барабана Bosch",
+            "sign": "Во время вращения появляется гул или металлический шум",
+            "causes": "Барабан вращается с повышенным сопротивлением",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-noise-filter-failure",
+            "title": "Неисправность сетевого фильтра Bosch",
+            "sign": "Фильтр помех поврежден из-за перепада напряжения",
+            "causes": "Техника может не включаться или выбивать автомат защиты",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-hinge-wear",
+            "title": "Износ петель двери Bosch",
+            "sign": "Люк перекошен или закрывается с усилием",
+            "causes": "Дверца не фиксируется должным образом",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-door-switch-error",
+            "title": "Ошибка датчика двери Bosch",
+            "sign": "Система не получает сигнал о закрытии люка",
+            "causes": "Запуск программы блокируется системой безопасности",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-heating-element-short-circuit",
+            "title": "Короткое замыкание нагревателя Bosch",
+            "sign": "Повреждение изоляции ТЭНа вызывает утечку тока",
+            "causes": "Электрический автомат отключает питание при запуске",
+            "slugs": []
+        },
+        {
+            "slug": "bosch-motor-short-circuit",
+            "title": "Короткое замыкание двигателя Bosch",
+            "sign": "Повреждение обмотки мотора вызывает перегрузку сети",
+            "causes": "Срабатывает защита электропитания при включении",
+            "slugs": []
+        }
+    ]
+}

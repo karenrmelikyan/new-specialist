@@ -1,0 +1,349 @@
+{
+    "indexPageTitle": "Electrolux լվացքի մեքենաների վերանորոգում",
+    "title": "Electrolux լվացքի մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/lvacqi-meqenaneri-veranorogum/electrolux/",
+    "items": [
+        {
+            "slug": "electrolux-not-draining",
+            "title": "Стиральная машина Electrolux не сливает воду",
+            "sign": "После завершения программы вода остаётся в баке",
+            "causes": "Засор фильтра, сливного шланга или неисправность насоса",
+            "slugs": [
+                "electrolux-drain-filter-clogged",
+                "electrolux-drain-hose-blocked",
+                "electrolux-drain-pump-failure",
+                "electrolux-pressure-sensor-fault"
+            ]
+        },
+        {
+            "slug": "electrolux-not-spinning",
+            "title": "Стиральная машина Electrolux не выполняет отжим",
+            "sign": "Бельё остаётся влажным после стирки",
+            "causes": "Проблема с мотором, ремнём привода или дисбаланс загрузки",
+            "slugs": [
+                "electrolux-drive-belt-worn",
+                "electrolux-motor-brushes-worn",
+                "electrolux-load-imbalance"
+            ]
+        },
+        {
+            "slug": "electrolux-not-starting",
+            "title": "Стиральная машина Electrolux не включается",
+            "sign": "При нажатии кнопки питания машина не реагирует",
+            "causes": "Отсутствует питание, повреждён кабель или неисправна плата управления",
+            "slugs": [
+                "electrolux-power-cord-damage",
+                "electrolux-no-mains-voltage",
+                "electrolux-control-module-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-no-water-fill",
+            "title": "Стиральная машина Electrolux не набирает воду",
+            "sign": "Бак остаётся пустым после запуска программы",
+            "causes": "Засор входного фильтра, неисправность впускного клапана или датчика уровня",
+            "slugs": [
+                "electrolux-inlet-valve-failure",
+                "electrolux-inlet-filter-clogged",
+                "electrolux-pressure-sensor-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-leakage",
+            "title": "Стиральная машина Electrolux протекает",
+            "sign": "Под машиной появляется вода",
+            "causes": "Повреждение уплотнителя люка, шлангов или насоса",
+            "slugs": [
+                "electrolux-door-gasket-damaged",
+                "electrolux-hose-crack",
+                "electrolux-pump-seal-leak"
+            ]
+        },
+        {
+            "slug": "electrolux-noisy",
+            "title": "Стиральная машина Electrolux шумит при работе",
+            "sign": "Слышны гул, скрежет или удары во время стирки",
+            "causes": "Износ подшипников, ремня или попадание постороннего предмета в барабан",
+            "slugs": [
+                "electrolux-drum-bearing-worn",
+                "electrolux-drive-belt-worn",
+                "electrolux-foreign-object-in-drum"
+            ]
+        },
+        {
+            "slug": "electrolux-vibrates",
+            "title": "Стиральная машина Electrolux сильно вибрирует",
+            "sign": "Корпус трясётся на этапе отжима",
+            "causes": "Неправильная установка, износ амортизаторов или ослабленные противовесы",
+            "slugs": [
+                "electrolux-shock-absorber-worn",
+                "electrolux-counterweight-loose",
+                "electrolux-uneven-installation"
+            ]
+        },
+        {
+            "slug": "electrolux-door-locked",
+            "title": "Люк стиральной машины Electrolux не открывается",
+            "sign": "Дверца остаётся заблокированной после завершения программы",
+            "causes": "Неисправность устройства блокировки люка или вода не слита из бака",
+            "slugs": [
+                "electrolux-door-lock-failure",
+                "electrolux-water-not-drained",
+                "electrolux-control-module-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-error-code",
+            "title": "Стиральная машина Electrolux показывает ошибку",
+            "sign": "На дисплее отображается код неисправности",
+            "causes": "Система обнаружила неисправность насоса, датчика или модуля управления",
+            "slugs": [
+                "electrolux-drain-pump-failure",
+                "electrolux-pressure-sensor-fault",
+                "electrolux-control-module-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-not-heating",
+            "title": "Стиральная машина Electrolux не нагревает воду",
+            "sign": "Стирка проходит в холодной воде",
+            "causes": "Неисправен нагревательный элемент, термодатчик или плата управления",
+            "slugs": [
+                "electrolux-heating-element-burned",
+                "electrolux-temperature-sensor-failure",
+                "electrolux-control-module-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-stops-mid-cycle",
+            "title": "Стиральная машина Electrolux останавливается во время стирки",
+            "sign": "Программа прерывается до окончания цикла",
+            "causes": "Перегрев двигателя, перебои питания или сбой модуля управления",
+            "slugs": [
+                "electrolux-motor-overheat",
+                "electrolux-power-supply-issue",
+                "electrolux-control-module-failure"
+            ]
+        },
+        {
+            "slug": "electrolux-trips-breaker",
+            "title": "Стиральная машина Electrolux выбивает автомат",
+            "sign": "При запуске срабатывает автомат защиты",
+            "causes": "Короткое замыкание в проводке или неисправность нагревательного элемента",
+            "slugs": [
+                "electrolux-heating-element-short",
+                "electrolux-wiring-damage",
+                "electrolux-power-cord-damage"
+            ]
+        },
+
+        {
+            "slug": "electrolux-drain-filter-clogged",
+            "title": "Засорён фильтр слива Electrolux",
+            "sign": "Вода не уходит из бака",
+            "causes": "Фильтр забит мелким мусором, нитками, ворсом или монетами",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-hose-blocked",
+            "title": "Засорён сливной шланг Electrolux",
+            "sign": "Вода остаётся внутри бака",
+            "causes": "Шланг пережат, засорён грязью или скопившимися волокнами",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drain-pump-failure",
+            "title": "Неисправен сливной насос Electrolux",
+            "sign": "Вода не откачивается из бака",
+            "causes": "Помпа заклинила, перегорела или забилась посторонними предметами",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pressure-sensor-fault",
+            "title": "Неисправен датчик уровня воды Electrolux",
+            "sign": "Машина не определяет уровень воды и не запускает слив",
+            "causes": "Повреждение прессостата или засор трубки датчика",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drive-belt-worn",
+            "title": "Изношен приводной ремень Electrolux",
+            "sign": "Барабан не вращается или крутится с перебоями",
+            "causes": "Ремень растянулся, износился или соскочил со шкива",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-motor-brushes-worn",
+            "title": "Изношены щётки двигателя Electrolux",
+            "sign": "Машина не набирает обороты при отжиме",
+            "causes": "Щётки стерлись и не обеспечивают контакт с коллектором",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-load-imbalance",
+            "title": "Дисбаланс загрузки в стиральной машине Electrolux",
+            "sign": "Отжим не запускается или прерывается",
+            "causes": "Бельё распределено неравномерно внутри барабана",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-power-cord-damage",
+            "title": "Повреждён сетевой кабель Electrolux",
+            "sign": "Машина не подаёт признаков включения",
+            "causes": "Перелом провода, оплавление или обрыв контактов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-no-mains-voltage",
+            "title": "Отсутствует питание в сети для Electrolux",
+            "sign": "Машина полностью не реагирует на включение",
+            "causes": "Нет напряжения в розетке или сработал автомат защиты",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-control-module-failure",
+            "title": "Неисправен модуль управления Electrolux",
+            "sign": "Машина работает некорректно или не запускается",
+            "causes": "Сбой платы управления, перегорели элементы или повреждена электроника",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-inlet-valve-failure",
+            "title": "Неисправен впускной клапан Electrolux",
+            "sign": "Вода не поступает в бак",
+            "causes": "Клапан заклинил, засорился или перегорела катушка",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-inlet-filter-clogged",
+            "title": "Засорён входной фильтр Electrolux",
+            "sign": "Медленный или отсутствующий набор воды",
+            "causes": "Фильтр забился ржавчиной или мелким мусором из водопровода",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pressure-sensor-failure",
+            "title": "Неисправен прессостат Electrolux",
+            "sign": "Машина не набирает воду или переливает её",
+            "causes": "Поломка датчика уровня воды или повреждение его трубки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-gasket-damaged",
+            "title": "Повреждена манжета люка Electrolux",
+            "sign": "Вода вытекает из-под дверцы",
+            "causes": "Разрыв, износ или потеря эластичности резинового уплотнителя",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-hose-crack",
+            "title": "Трещина в шланге Electrolux",
+            "sign": "Под машиной появляется вода во время стирки",
+            "causes": "Износ или механическое повреждение шланга",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-pump-seal-leak",
+            "title": "Протекает уплотнение насоса Electrolux",
+            "sign": "Обнаружена утечка воды снизу корпуса",
+            "causes": "Износ сальника или повреждение корпуса помпы",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-drum-bearing-worn",
+            "title": "Изношены подшипники барабана Electrolux",
+            "sign": "Сильный гул и скрежет при вращении барабана",
+            "causes": "Естественный износ подшипников или попадание воды внутрь узла",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-foreign-object-in-drum",
+            "title": "Посторонний предмет в барабане Electrolux",
+            "sign": "Слышны металлические стуки при вращении",
+            "causes": "Внутрь попали монеты, косточки от бюстгальтера или другие мелкие предметы",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-shock-absorber-worn",
+            "title": "Изношены амортизаторы Electrolux",
+            "sign": "Сильная вибрация и удары корпуса при отжиме",
+            "causes": "Амортизаторы потеряли жёсткость или повреждены",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-counterweight-loose",
+            "title": "Ослаблены противовесы Electrolux",
+            "sign": "Машина сильно трясётся при работе",
+            "causes": "Крепления противовесов ослабли или болты открутились",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-uneven-installation",
+            "title": "Неправильная установка Electrolux",
+            "sign": "Корпус наклонён и вибрирует при отжиме",
+            "causes": "Машина установлена неровно или не отрегулированы ножки",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-door-lock-failure",
+            "title": "Неисправно устройство блокировки люка Electrolux",
+            "sign": "Дверца не открывается или не блокируется",
+            "causes": "Поломка замка люка или повреждение контактов",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-water-not-drained",
+            "title": "Вода не слита из бака Electrolux",
+            "sign": "Люк остаётся заблокированным после стирки",
+            "causes": "Система не завершила слив воды из-за засора или поломки насоса",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heating-element-burned",
+            "title": "Перегорел нагревательный элемент Electrolux",
+            "sign": "Вода не нагревается во время стирки",
+            "causes": "ТЭН перегорел из-за накипи или скачков напряжения",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-temperature-sensor-failure",
+            "title": "Неисправен датчик температуры Electrolux",
+            "sign": "Температура воды не соответствует выбранной программе",
+            "causes": "Повреждение термодатчика или сбой передачи сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-motor-overheat",
+            "title": "Перегрев двигателя Electrolux",
+            "sign": "Машина останавливается во время работы",
+            "causes": "Длительная нагрузка, износ двигателя или проблемы с вентиляцией",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-power-supply-issue",
+            "title": "Проблема с электропитанием Electrolux",
+            "sign": "Машина внезапно отключается во время цикла",
+            "causes": "Перебои напряжения или плохой контакт в цепи питания",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-heating-element-short",
+            "title": "Короткое замыкание нагревательного элемента Electrolux",
+            "sign": "Срабатывает автомат защиты при включении",
+            "causes": "Пробой изоляции ТЭНа или повреждение корпуса",
+            "slugs": []
+        },
+        {
+            "slug": "electrolux-wiring-damage",
+            "title": "Повреждена проводка Electrolux",
+            "sign": "Машина выбивает автомат или работает нестабильно",
+            "causes": "Перетёртые провода, короткое замыкание или окисление контактов",
+            "slugs": []
+        }
+
+    ]
+}

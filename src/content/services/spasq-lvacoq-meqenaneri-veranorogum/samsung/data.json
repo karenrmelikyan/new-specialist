@@ -1,0 +1,365 @@
+{
+    "indexPageTitle": "Samsung սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Samsung սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/samsung/",
+
+    "items": [
+       {
+            "slug": "samsung-dishwasher-not-turning-on",
+            "title": "Samsung սպասք լվացող մեքենան չի միանում",
+            "sign": "Սնուցման կոճակը սեղմելուց հետո սարքը մնում է ամբողջությամբ անգործուն։",
+            "causes": "Էլեկտրասնուցման բացակայություն, ցանցային ֆիլտրի անսարքություն կամ էլեկտրոնային պլատայի խափանում։",
+            "slugs": [
+                "samsung-power-cord-damage",
+                "samsung-noise-filter-failure",
+                "samsung-main-control-board-fault",
+                "samsung-power-button-defect"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-draining",
+            "title": "Samsung սպասք լվացող մեքենան չի ջրահեռացնում ջուրը",
+            "sign": "Ծրագրի ավարտից հետո խցիկում ջուր է մնում։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ դռենաժային պոմպի անսարքություն։",
+            "slugs": [
+                "samsung-drain-pump-failure",
+                "samsung-drain-hose-blockage",
+                "samsung-filter-clogged",
+                "samsung-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-filling",
+            "title": "Samsung սպասք լվացող մեքենան չի հավաքում ջուր",
+            "sign": "Ցիկլը մեկնարկում է, բայց բաքը մնում է դատարկ։",
+            "causes": "Մուտքային փականի անսարքություն կամ արտահոսքից պաշտպանության համակարգի ակտիվացում։",
+            "slugs": [
+                "samsung-water-inlet-valve-defect",
+                "samsung-aquastop-activated",
+                "samsung-flow-meter-error",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-leaking",
+            "title": "Samsung սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Աշխատանքի ընթացքում կորպուսի տակ ջուր է հայտնվում։",
+            "causes": "Դռան խտացուցիչի մաշվածություն, խողովակների վնասում կամ ներքին արտահոսքեր։",
+            "slugs": [
+                "samsung-door-seal-damage",
+                "samsung-hose-leak",
+                "samsung-circulation-pump-leak",
+                "samsung-leak-sensor-triggered"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-heating",
+            "title": "Samsung սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Սպասքը լվացվում է սառը ջրով, մաքրման որակը վատանում է։",
+            "causes": "Տաքացուցիչի, ջերմաստիճանի սենսորի կամ տաքացման ռելեի անսարքություն։",
+            "slugs": [
+                "samsung-heating-element-burnt",
+                "samsung-ntc-sensor-failure",
+                "samsung-heater-relay-fault",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-drying",
+            "title": "Samsung սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո մնում են ջրի կաթիլներ և կոնդենսատ։",
+            "causes": "Չորացման համակարգի խափանում կամ օդափոխիչի անսարքություն։",
+            "slugs": [
+                "samsung-drying-fan-failure",
+                "samsung-heating-element-burnt",
+                "samsung-vent-blockage",
+                "samsung-ntc-sensor-failure"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-stops-mid-cycle",
+            "title": "Samsung սպասք լվացող մեքենան աշխատանքի ընթացքում կանգ է առնում",
+            "sign": "Ծրագիրը ընդհատվում է մինչև լիարժեք ավարտը։",
+            "causes": "Գերտաքացում, ջրի մատակարարման խափանումներ կամ կառավարման մոդուլի խափանում։",
+            "slugs": [
+                "samsung-heating-element-overheat",
+                "samsung-water-inlet-valve-defect",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-making-noise",
+            "title": "Samsung սպասք լվացող մեքենան աղմկում է",
+            "sign": "Ցիկլի ընթացքում լսվում են գռմռոց, ճարճատյուն կամ թրթռում։",
+            "causes": "Ցիրկուլյացիոն պոմպի մաշվածություն կամ օտար առարկաների попадание։",
+            "slugs": [
+                "samsung-circulation-pump-failure",
+                "samsung-drain-pump-failure",
+                "samsung-spray-arm-obstruction"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-not-cleaning-dishes",
+            "title": "Samsung սպասք լվացող մեքենան վատ է լվանում սպասքը",
+            "sign": "Ափսեների մակերեսին մնում են կեղտեր կամ շերտեր։",
+            "causes": "Ջրի անբավարար ճնշում, ցողիչների խցանում կամ պոմպի անսարքություն։",
+            "slugs": [
+                "samsung-spray-arm-clogged",
+                "samsung-circulation-pump-failure",
+                "samsung-filter-clogged",
+                "samsung-detergent-dispenser-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-error-code",
+            "title": "Samsung սպասք լվացող մեքենան ցուցադրում է սխալ",
+            "sign": "Էկրանին ցուցադրվում է անսարքության կոդ (օրինակ՝ 4E, 5E, LE)։",
+            "causes": "Սենսորների գործարկում, ջրահեռացման խնդիրներ կամ էլեկտրոնիկայի անսարքություն։",
+            "slugs": [
+                "samsung-leak-sensor-triggered",
+                "samsung-drain-pump-failure",
+                "samsung-flow-meter-error",
+                "samsung-main-control-board-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-door-not-closing",
+            "title": "Samsung սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Արգելափակման մեխանիզմը չի ֆիքսում դուռը։",
+            "causes": "Դռան փականի, դռան սենսորի անսարքություն կամ ծխնիների վնասում։",
+            "slugs": [
+                "samsung-door-lock-failure",
+                "samsung-door-hinge-damage",
+                "samsung-door-sensor-fault"
+            ]
+        },
+        {
+            "slug": "samsung-dishwasher-trips-breaker",
+            "title": "Samsung սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Մեկնարկի ժամանակ էլեկտրականությունը անջատվում է։",
+            "causes": "Տաքացուցիչի, պոմպի կամ ցանցային ֆիլտրի կարճ միացում։",
+            "slugs": [
+                "samsung-heating-element-short-circuit",
+                "samsung-circulation-pump-short",
+                "samsung-noise-filter-failure",
+                "samsung-main-control-board-fault"
+            ]
+        },
+
+        {
+            "slug": "samsung-power-cord-damage",
+            "title": "Samsung սնուցման մալուխը վնասված է",
+            "sign": "Սպասք լվացող մեքենան ամբողջությամբ չի միանում։",
+            "causes": "Լարի խզումը կամ գերտաքացումը խախտում է էլեկտրասնուցման մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-noise-filter-failure",
+            "title": "Samsung ցանցային ֆիլտրը անսարք է",
+            "sign": "Սարքը չի արձագանքում ցանցին միացնելուն։",
+            "causes": "Այրված ֆիլտրը արգելափակում է լարման մուտքը դեպի կառավարման պլատա։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-main-control-board-fault",
+            "title": "Samsung կառավարման մոդուլի անսարքություն",
+            "sign": "Ծրագրերը չեն մեկնարկում կամ աշխատում են սխալներով։",
+            "causes": "Էլեկտրոնային բաղադրիչների վնասումը խախտում է հրամանների մշակումը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-power-button-defect",
+            "title": "Samsung սնուցման կոճակը չի աշխատում",
+            "sign": "Սեղմելիս սարքը չի արձագանքում։",
+            "causes": "Կոնտակտային խմբի մաշվածությունը խոչընդոտում է մեկնարկի ազդանշանի փոխանցմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-pump-failure",
+            "title": "Samsung ջրահեռացման պոմպը անսարք է",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է խցիկում։",
+            "causes": "Շարժիչի մաշվածությունը կամ թիակի արգելափակումը խանգարում են ջրի դուրս մղմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drain-hose-blockage",
+            "title": "Samsung ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրահեռացումը դանդաղ է կատարվում կամ բացակայում է։",
+            "causes": "Կեղտի կուտակումը փակում է ջրի հեռացման ալիքը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-filter-clogged",
+            "title": "Samsung ֆիլտրի խցանում",
+            "sign": "Ջուրը վատ է հեռանում և առաջանում է տհաճ հոտ։",
+            "causes": "Սննդի մնացորդները խախտում են ջրի շրջանառությունը և ջրահեռացումը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-pressure-switch-fault",
+            "title": "Samsung պրեսոստատը անսարք է",
+            "sign": "Մեքենան սխալ է որոշում ջրի մակարդակը։",
+            "causes": "Սենսորը կառավարման մոդուլին չի փոխանցում ճիշտ ազդանշաններ։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-water-inlet-valve-defect",
+            "title": "Samsung մուտքային փականը անսարք է",
+            "sign": "Ծրագրի մեկնարկին ջուրը չի մատակարարվում։",
+            "causes": "Փականի կոճապանակը այրվել է կամ մեխանիզմը խցանվել է։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-aquastop-activated",
+            "title": "Samsung AquaStop համակարգը գործարկել է",
+            "sign": "Ջրի մատակարարումը ամբողջությամբ դադարեցված է։",
+            "causes": "Արտահոսքից պաշտպանական համակարգը խոնավության հայտնաբերման դեպքում արգելափակում է մուտքը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-flow-meter-error",
+            "title": "Samsung ծախսաչափի սխալ",
+            "sign": "Մեքենան հավաքում է անբավարար ծավալով ջուր։",
+            "causes": "Ծախսի սենսորը ջրի քանակի մասին փոխանցում է սխալ տվյալներ։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-seal-damage",
+            "title": "Samsung դռան խտացուցիչը վնասված է",
+            "sign": "Լվացման ընթացքում ջուրը ծորում է դռան եզրով։",
+            "causes": "Մաշված ռետինը կորցնում է հերմետիկությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-hose-leak",
+            "title": "Samsung խողովակների արտահոսք",
+            "sign": "Սարքի տակ ջուր է գոյանում։",
+            "causes": "Ճաքերը կամ թուլացած միացումները առաջացնում են արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-circulation-pump-leak",
+            "title": "Samsung ցիրկուլյացիոն պոմպի արտահոսք",
+            "sign": "Կորպուսի ներսում խոնավություն է հայտնաբերվում։",
+            "causes": "Խտացուցիչների մաշվածությունը աշխատանքի ընթացքում հանգեցնում է ջրի արտահոսքի։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-leak-sensor-triggered",
+            "title": "Samsung արտահոսքի սենսորը գործարկել է",
+            "sign": "Ծրագիրը արգելափակվում է և ցուցադրվում է սխալ։",
+            "causes": "Անվտանգության համակարգը արձագանքում է поддոն-ում ջրի առկայությանը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-burnt",
+            "title": "Samsung տաքացուցիչը այրվել է",
+            "sign": "Ցիկլի ընթացքում ջուրը մնում է սառը։",
+            "causes": "ՏԷՆ-ի սպիրալի վնասումը բացառում է տաքացումը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-ntc-sensor-failure",
+            "title": "Samsung ջերմաստիճանի սենսորը անսարք է",
+            "sign": "Ջրի ջերմաստիճանը չի համապատասխանում ընտրված ծրագրին։",
+            "causes": "Սենսորը մոդուլին փոխանցում է սխալ ցուցումներ։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heater-relay-fault",
+            "title": "Samsung տաքացման ռելեն անսարք է",
+            "sign": "Ցիկլի մեկնարկին տաքացումը չի ակտիվանում։",
+            "causes": "Ռելեի կոնտակտները չեն միացնում տաքացուցիչի շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-drying-fan-failure",
+            "title": "Samsung չորացման օդափոխիչը չի աշխատում",
+            "sign": "Ծրագրի ավարտից հետո սպասքը մնում է խոնավ։",
+            "causes": "Օդափոխիչի շարժիչը չի ապահովում օդի շրջանառությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-vent-blockage",
+            "title": "Samsung օդափոխության ալիքի խցանում",
+            "sign": "Գոլորշին վատ է դուրս գալիս խցիկից։",
+            "causes": "Կեղտի կուտակումը խախտում է չորացման գործընթացը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-overheat",
+            "title": "Samsung տաքացուցիչի գերտաքացում",
+            "sign": "Ծրագիրը կանգ է առնում աշխատանքի ընթացքում։",
+            "causes": "Պաշտպանական համակարգը սարքը անջատում է թույլատրելի ջերմաստիճանը գերազանցելիս։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-circulation-pump-failure",
+            "title": "Samsung ցիրկուլյացիոն պոմպը անսարք է",
+            "sign": "Լվացումը ուղեկցվում է ջրի թույլ ճնշմամբ կամ աղմուկով։",
+            "causes": "Շարժիչի մաշվածությունը նվազեցնում է ջրի մատակարարման ճնշումը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-spray-arm-obstruction",
+            "title": "Samsung ցողիչի արգելափակում",
+            "sign": "Ջրի ցողումը կատարվում է անհավասար։",
+            "causes": "Օտար առարկաները խանգարում են թիակների պտտմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-spray-arm-clogged",
+            "title": "Samsung ցողիչի խցանում",
+            "sign": "Սպասքը որոշ գոտիներում վատ է լվացվում։",
+            "causes": "Ֆորսունկների անցքերը խցանված են սննդի մնացորդներով։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-detergent-dispenser-fault",
+            "title": "Samsung լվացող միջոցի դոզատորը անսարք է",
+            "sign": "Հաբը կամ փոշին լվացման ընթացքում չեն ազատվում։",
+            "causes": "Խցիկի բացման մեխանիզմը չի գործարկվում։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-lock-failure",
+            "title": "Samsung դռան փականը անսարք է",
+            "sign": "Մեքենան չի մեկնարկում փակ դռան դեպքում։",
+            "causes": "Արգելափակման մեխանիզմը չի ֆիքսում դիրքը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-hinge-damage",
+            "title": "Samsung դռան ծխնիները վնասված են",
+            "sign": "Դուռը փակվում է շեղումով։",
+            "causes": "Ծխնիների մաշվածությունը խախտում է ճիշտ ֆիքսումը։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-door-sensor-fault",
+            "title": "Samsung դռան սենսորի սխալ",
+            "sign": "Համակարգը չի ճանաչում դռան փակվելը։",
+            "causes": "Արգելափակման ազդանշանը չի հասնում կառավարման պլատային։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-heating-element-short-circuit",
+            "title": "Samsung տաքացուցիչի կարճ միացում",
+            "sign": "Միացնելիս գործարկվում է պաշտպանական ավտոմատը։",
+            "causes": "ՏԷՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "samsung-circulation-pump-short",
+            "title": "Samsung ցիրկուլյացիոն պոմպի կարճ միացում",
+            "sign": "Մեկնարկի ժամանակ գործարկվում է էլեկտրացանցի պաշտպանությունը։",
+            "causes": "Շարժիչի փաթաթումների վնասումը բերում է գերբեռնվածության։",
+            "slugs": []
+        }
+
+    ]
+}

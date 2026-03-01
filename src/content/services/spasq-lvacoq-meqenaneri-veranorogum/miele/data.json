@@ -1,0 +1,431 @@
+{
+    "indexPageTitle": "Miele սպասք լվացող մեքենաների վերանորոգում",
+    "title": "Miele սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/miele/",
+
+    "items": [
+        {
+            "slug": "miele-dishwasher-not-turning-on",
+            "title": "Miele սպասք լվացող մեքենան չի միանում",
+            "sign": "Սարքը չի արձագանքում սնուցման կոճակին, ցուցիչները չեն վառվում։",
+            "causes": "Մուտքային լարման բացակայություն, էլեկտրոնիկայի խափանում կամ սնուցման շղթայի անսարքություն։",
+            "slugs": [
+                "miele-power-cord-damage",
+                "miele-noise-filter-failure",
+                "miele-main-control-board-defect",
+                "miele-power-button-fault"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-not-draining",
+            "title": "Miele սպասք լվացող մեքենան չի ջրահեռացնում ջուրը",
+            "sign": "Ցիկլի ավարտից հետո ջուրը մնում է խցիկի հատակին։",
+            "causes": "Ջրահեռացման համակարգի խցանում կամ ջրի հեռացման պոմպի անսարքություն։",
+            "slugs": [
+                "miele-drain-pump-failure",
+                "miele-drain-hose-blockage",
+                "miele-drain-filter-clog",
+                "miele-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-not-filling-water",
+            "title": "Miele սպասք լվացող մեքենան չի հավաքում ջուր",
+            "sign": "Ծրագիրը մեկնարկում է, բայց ջրի մատակարարումը բացակայում է։",
+            "causes": "Մուտքային փականը անսարք է կամ ջրի մակարդակի վերահսկման համակարգը խնդիր ունի։",
+            "slugs": [
+                "miele-inlet-valve-defect",
+                "miele-aquastop-failure",
+                "miele-flow-meter-fault",
+                "miele-pressure-switch-fault"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-not-heating-water",
+            "title": "Miele սպասք լվացող մեքենան չի տաքացնում ջուրը",
+            "sign": "Լվացումը կատարվում է սառը ջրով, սպասքը մնում է յուղոտ։",
+            "causes": "Տաքացուցիչի կամ ջերմաստիճանի սենսորի վնասում։",
+            "slugs": [
+                "miele-heating-element-failure",
+                "miele-ntc-sensor-fault",
+                "miele-heating-relay-defect",
+                "miele-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-not-drying",
+            "title": "Miele սպասք լվացող մեքենան չի չորացնում սպասքը",
+            "sign": "Ծրագրի ավարտից հետո սպասքը խոնավ է։",
+            "causes": "Չորացման համակարգի կամ թերմոբլոկի աշխատանքի խախտում։",
+            "slugs": [
+                "miele-heating-element-failure",
+                "miele-fan-dryer-fault",
+                "miele-ventilation-system-defect",
+                "miele-main-control-board-defect"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-leaking-water",
+            "title": "Miele սպասք լվացող մեքենան արտահոսում է",
+            "sign": "Աշխատանքի ընթացքում կորպուսի տակ ջուր է հայտնվում։",
+            "causes": "Միացումների հերմետիկության խախտում կամ խտացուցիչների վնասում։",
+            "slugs": [
+                "miele-door-seal-damage",
+                "miele-hose-leak",
+                "miele-circulation-pump-seal-failure",
+                "miele-aquastop-activation"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-not-starting-cycle",
+            "title": "Miele սպասք լվացող մեքենան չի մեկնարկում ծրագիրը",
+            "sign": "Ռեժիմի ընտրությունը հնարավոր է, բայց ցիկլը չի սկսվում։",
+            "causes": "Դռան արգելափակման համակարգը կամ կառավարման մոդուլը չի հաստատում մեկնարկը։",
+            "slugs": [
+                "miele-door-lock-fault",
+                "miele-door-sensor-fault",
+                "miele-main-control-board-defect",
+                "miele-touch-panel-failure"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-making-noise",
+            "title": "Miele սպասք լվացող մեքենան աղմկում է",
+            "sign": "Աշխատանքի ընթացքում լսվում են ոչ բնորոշ գռմռոցներ կամ ճարճատյուն։",
+            "causes": "Պոմպի առանցքակալների մաշվածություն կամ օտար առարկայի попадание։",
+            "slugs": [
+                "miele-circulation-pump-failure",
+                "miele-drain-pump-obstruction",
+                "miele-spray-arm-damage",
+                "miele-motor-bearing-wear"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-error-code",
+            "title": "Miele սպասք լվացող մեքենան ցուցադրում է սխալ",
+            "sign": "Էկրանին ցուցադրվում է անսարքության կոդ։",
+            "causes": "Ինքնաախտորոշման համակարգը ֆիքսում է հանգույցներից մեկի անսարքություն։",
+            "slugs": [
+                "miele-water-level-sensor-fault",
+                "miele-heating-system-error",
+                "miele-drain-system-fault",
+                "miele-electronic-module-failure"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-not-spraying-water",
+            "title": "Miele սպասք լվացող մեքենան չի ցողում ջուր",
+            "sign": "Սպասքը մնում է կեղտոտ, ցողիչ բազուկները չեն պտտվում։",
+            "causes": "Ջրի անբավարար ճնշում կամ ցողիչների արգելափակում։",
+            "slugs": [
+                "miele-circulation-pump-failure",
+                "miele-spray-arm-clog",
+                "miele-water-distribution-valve-fault",
+                "miele-filter-blockage"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-door-not-closing",
+            "title": "Miele սպասք լվացող մեքենայի դուռը չի փակվում",
+            "sign": "Մեխանիզմը չի ֆիքսվում փակ դիրքում։",
+            "causes": "Փականի մաշվածություն կամ ծխնիների դեֆորմացիա։",
+            "slugs": [
+                "miele-door-lock-fault",
+                "miele-door-hinge-damage",
+                "miele-door-latch-defect",
+                "miele-door-sensor-fault"
+            ]
+        },
+        {
+            "slug": "miele-dishwasher-tripping-breaker",
+            "title": "Miele սպասք լվացող մեքենան անջատում է ավտոմատը",
+            "sign": "Միացնելիս գործարկվում է էլեկտրացանցի պաշտպանությունը։",
+            "causes": "Տաքացուցիչի կամ շարժիչի կարճ միացում։",
+            "slugs": [
+                "miele-heating-element-short-circuit",
+                "miele-circulation-pump-short-circuit",
+                "miele-power-module-failure",
+                "miele-noise-filter-failure"
+            ]
+        },
+
+        {
+            "slug": "miele-power-cord-damage",
+            "title": "Miele սնուցման մալուխը վնասված է",
+            "sign": "Սարքին սնուցում չի մատակարարվում։",
+            "causes": "Երակի խզումը կամ լարի գերտաքացումը արգելափակում է մեկնարկը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-noise-filter-failure",
+            "title": "Miele ցանցային ֆիլտրը անսարք է",
+            "sign": "Լարման թռիչքից հետո մեքենան չի միանում։",
+            "causes": "Խանգարումների ֆիլտրը դադարում է հոսանքը փոխանցել կառավարման պլատային։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-main-control-board-defect",
+            "title": "Miele կառավարման մոդուլի անսարքություն",
+            "sign": "Ծրագրերը աշխատում են անկայուն կամ չեն մեկնարկում։",
+            "causes": "Էլեկտրոնային բաղադրիչների վնասումը խախտում է ազդանշանների մշակումը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-power-button-fault",
+            "title": "Miele սնուցման կոճակը չի աշխատում",
+            "sign": "Սեղմումը սարքի արձագանք չի առաջացնում։",
+            "causes": "Կոնտակտային խմբի մաշվածությունը խոչընդոտում է ազդանշանի փոխանցմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drain-pump-failure",
+            "title": "Miele ջրահեռացման պոմպը անսարք է",
+            "sign": "Ցիկլից հետո ջուրը մնում է խցիկում։",
+            "causes": "Պոմպի շարժիչը չի ապահովում հեղուկի հեռացումը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drain-hose-blockage",
+            "title": "Miele ջրահեռացման խողովակի խցանում",
+            "sign": "Ջրի հեռացումը դժվարացած է կամ ամբողջությամբ կանգ է առել։",
+            "causes": "Կեղտի կուտակումը փակում է անցուղին։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drain-filter-clog",
+            "title": "Miele ջրահեռացման ֆիլտրի խցանում",
+            "sign": "Ջուրը դանդաղ է հեռանում բաքից։",
+            "causes": "Սննդի մնացորդները արգելափակում են ֆիլտրող տարրը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-pressure-switch-fault",
+            "title": "Miele պրեսոստատը անսարք է",
+            "sign": "Ջրի մակարդակը որոշվում է սխալ։",
+            "causes": "Սենսորը մոդուլին չի փոխանցում ճշգրիտ տվյալներ։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-inlet-valve-defect",
+            "title": "Miele մուտքային փականը անսարք է",
+            "sign": "Ջուրը չի մտնում աշխատանքային խցիկ։",
+            "causes": "Էլեկտրամագնիսական մեխանիզմը չի բացում մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-aquastop-failure",
+            "title": "Miele AquaStop համակարգի խափանում",
+            "sign": "Ջրի մատակարարումը արգելափակվում է պաշտպանական համակարգով։",
+            "causes": "Արտահոսքի սենսորը գործարկում է վթարային փակումը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-flow-meter-fault",
+            "title": "Miele ջրի ծախսաչափը անսարք է",
+            "sign": "Ջրի հավաքման ծավալի վերահսկումը խախտված է։",
+            "causes": "Սենսորի իմպուլսները չեն փոխանցվում կառավարման պլատային։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-heating-element-failure",
+            "title": "Miele տաքացուցիչը անսարք է",
+            "sign": "Լվացման ընթացքում ջուրը մնում է սառը։",
+            "causes": "ՏԷՆ-ի սպիրալի խզում կամ այրում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-ntc-sensor-fault",
+            "title": "Miele ջերմաստիճանի սենսորի սխալ",
+            "sign": "Ջրի ջերմաստիճանի սխալ չափում։",
+            "causes": "Սենսորը համակարգին փոխանցում է վերահսկման սխալ տվյալներ։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-heating-relay-defect",
+            "title": "Miele տաքացման ռելեն անսարք է",
+            "sign": "Տաքացուցիչը սնուցում չի ստանում։",
+            "causes": "Ռելեի կոնտակտները չեն միացնում էլեկտրական շղթան։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-fan-dryer-fault",
+            "title": "Miele չորացման օդափոխիչը անսարք է",
+            "sign": "Չորացման ժամանակ օդը չի շրջանառվում։",
+            "causes": "Օդափոխիչի շարժիչը չի մեկնարկում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-ventilation-system-defect",
+            "title": "Miele օդափոխության համակարգի խափանում",
+            "sign": "Խցիկի ներսում խոնավությունը մնում է։",
+            "causes": "Չորացման ժամանակ օդի շրջանառությունը խախտված է։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-seal-damage",
+            "title": "Miele դռան խտացուցիչը վնասված է",
+            "sign": "Ջուրը ծորում է դռան շրջագծով։",
+            "causes": "Ռետինե շրջագծի մաշվածությունը խախտում է հերմետիկությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-hose-leak",
+            "title": "Miele խողովակի արտահոսք",
+            "sign": "Կորպուսի տակ ջուր է հայտնաբերվել։",
+            "causes": "Ճաքը կամ թուլացած միացումը առաջացնում է արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-circulation-pump-seal-failure",
+            "title": "Miele ցիրկուլյացիոն պոմպի խտացուցիչի վնասում",
+            "sign": "Պոմպի հատվածից ջրի արտահոսք։",
+            "causes": "Սալնիկի մաշվածությունը բերում է հերմետիկության խախտման։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-aquastop-activation",
+            "title": "Miele AquaStop պաշտպանության գործարկում",
+            "sign": "Մեքենան դադարեցնում է ջրի մատակարարումը։",
+            "causes": "Արտահոսքի սենսորը գործարկում է վթարային ռեժիմը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-lock-fault",
+            "title": "Miele դռան փականը անսարք է",
+            "sign": "Մինչ մեկնարկը դուռը չի ֆիքսվում։",
+            "causes": "Արգելափակման մեխանիզմը չի ապահովում փակումը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-sensor-fault",
+            "title": "Miele դռան սենսորի սխալ",
+            "sign": "Համակարգը չի որոշում դռան դիրքը։",
+            "causes": "Անվտանգության վերահսկումը արգելափակում է ծրագրի մեկնարկը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-touch-panel-failure",
+            "title": "Miele սենսորային վահանակը անսարք է",
+            "sign": "Կոճակները չեն արձագանքում սեղմմանը։",
+            "causes": "Վահանակի կոնտակտային մատրիցայի վնասում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-circulation-pump-failure",
+            "title": "Miele ցիրկուլյացիոն պոմպը անսարք է",
+            "sign": "Ջուրը չի մատակարարվում ցողիչներին։",
+            "causes": "Պոմպի շարժիչը չի ստեղծում անհրաժեշտ ճնշում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drain-pump-obstruction",
+            "title": "Miele ջրահեռացման պոմպի արգելափակում",
+            "sign": "Լսվում է գռմռոց՝ առանց ջրի հեռացման։",
+            "causes": "Օտար առարկան խոչընդոտում է թիակի պտտմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-spray-arm-damage",
+            "title": "Miele ցողիչ բազուկը վնասված է",
+            "sign": "Ցողիչը չի պտտվում։",
+            "causes": "Ճաքը կամ դեֆորմացիան խանգարում է ջրի մատակարարմանը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-motor-bearing-wear",
+            "title": "Miele շարժիչի առանցքակալների մաշվածություն",
+            "sign": "Առաջանում է գռմռոց և թրթռում։",
+            "causes": "Մեխանիկական մաշվածությունը նվազեցնում է պտտման կայունությունը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-water-level-sensor-fault",
+            "title": "Miele ջրի մակարդակի սենսորի սխալ",
+            "sign": "Ավելցուկ լցում կամ ջրի անբավարար հավաքում։",
+            "causes": "Սենսորը սխալ է վերահսկում մակարդակը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-heating-system-error",
+            "title": "Miele տաքացման համակարգի խափանում",
+            "sign": "Ջրի ջերմաստիճանը չի համապատասխանում ծրագրին։",
+            "causes": "Տաքացման շղթայի տարրերի աշխատանքը խախտված է։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-drain-system-fault",
+            "title": "Miele ջրահեռացման համակարգի անսարքություն",
+            "sign": "Ջուրը լիովին չի հեռացվում։",
+            "causes": "Պոմպի և սենսորների փոխգործակցությունը խափանված է։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-electronic-module-failure",
+            "title": "Miele էլեկտրոնային բլոկի խափանում",
+            "sign": "Ցուցադրվում են սխալներ կամ ծրագրերը խափանվում են։",
+            "causes": "Կառավարման շղթաների վնասում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-spray-arm-clog",
+            "title": "Miele ցողիչի խցանում",
+            "sign": "Ֆորսունկների անցքերը փակված են։",
+            "causes": "Նստվածքն ու սննդի մասնիկները արգելափակում են ջրի մատակարարումը։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-water-distribution-valve-fault",
+            "title": "Miele ջրի բաշխման փականը անսարք է",
+            "sign": "Ջրի հոսքերը սխալ են բաշխվում։",
+            "causes": "Փոխանջատման մեխանիզմը չի գործում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-filter-blockage",
+            "title": "Miele ֆիլտրացման համակարգի խցանում",
+            "sign": "Խցիկում ջրի ճնշումը նվազում է։",
+            "causes": "Ֆիլտրող տարրերը կեղտոտված են։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-hinge-damage",
+            "title": "Miele դռան ծխնիների վնասում",
+            "sign": "Դուռը փակվում է շեղումով։",
+            "causes": "Շառնիրյան մեխանիզմի մաշվածություն։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-door-latch-defect",
+            "title": "Miele դռան լեզվակը անսարք է",
+            "sign": "Դռան ֆիքսումը անկայուն է։",
+            "causes": "Ֆիքսող տարրի մեխանիկական մաշվածություն։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-heating-element-short-circuit",
+            "title": "Miele տաքացուցիչի կարճ միացում",
+            "sign": "Միացնելիս գործարկվում է պաշտպանական ավտոմատը։",
+            "causes": "ՏԷՆ-ի մեկուսացման վնասումը առաջացնում է հոսանքի արտահոսք։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-circulation-pump-short-circuit",
+            "title": "Miele ցիրկուլյացիոն պոմպի կարճ միացում",
+            "sign": "Մեկնարկի պահին էլեկտրացանցը գերբեռնվում է։",
+            "causes": "Շարժիչի փաթաթումները առաջացնում են կարճ միացում։",
+            "slugs": []
+        },
+        {
+            "slug": "miele-power-module-failure",
+            "title": "Miele ուժային մոդուլը անսարք է",
+            "sign": "Մեքենան աշխատանքի ընթացքում անջատվում է։",
+            "causes": "Ուժային պլատայի տարրերի վնասում։",
+            "slugs": []
+        }
+
+    ]
+}

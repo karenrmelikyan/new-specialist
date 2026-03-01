@@ -1,0 +1,324 @@
+{
+    "indexPageTitle": "LG սպասք լվացող մեքենաների վերանորոգում",
+    "title": "LG սպասք լվացող մեքենաների հաճախակի խափանումներ",
+    "subTitle": "Չեք գտել ձեր խնդրի լուծո՞ւմը",
+    "subSign": "Նշան",
+    "subCauses": "Պատճառներ",
+    "btnText": "Կանչել վարպետ",
+    "parentURL": "/services/spasq-lvacoq-meqenaneri-veranorogum/lg/errors/",
+
+    "items": [
+        {
+            "slug": "lg-dishwasher-error-ie-e1",
+            "title": "Ошибка IE (E1) посудомоечной машины LG",
+            "sign": "Вода не набирается или набор прерывается",
+            "causes": "Проблемы с впускным клапаном, засор входного фильтра или недостаточное давление",
+            "slugs": [
+                "lg-inlet-valve-failure",
+                "lg-inlet-filter-blocked",
+                "lg-water-pressure-low"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-oe-e2",
+            "title": "Ошибка OE (E2) посудомоечной машины LG",
+            "sign": "Жидкость не выводится из камеры",
+            "causes": "Сбой сливного насоса, перегиб сливного шланга, засор фильтра",
+            "slugs": [
+                "lg-drain-pump-failure",
+                "lg-drain-hose-obstruction",
+                "lg-filter-chamber-blocked"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-le-e3",
+            "title": "Ошибка LE (E3) посудомоечной машины LG",
+            "sign": "Защита от протечек активирована",
+            "causes": "Протечка шланга, дефект уплотнения, повреждение поддона",
+            "slugs": [
+                "lg-aqua-protect-activation",
+                "lg-base-pan-water-detected",
+                "lg-internal-hose-leak"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-te-e4",
+            "title": "Ошибка TE (E4) посудомоечной машины LG",
+            "sign": "Температура воды не достигает заданного уровня",
+            "causes": "Сбой NTC‑датчика, неисправность нагревательного элемента, обрыв цепи нагрева",
+            "slugs": [
+                "lg-ntc-temperature-sensor-failure",
+                "lg-heating-element-fault",
+                "lg-heater-circuit-interruption"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-he-e5",
+            "title": "Ошибка HE (E5) посудомоечной машины LG",
+            "sign": "Неисправность нагревательного контура",
+            "causes": "Сбой реле нагрева, повреждение силового управляющего элемента",
+            "slugs": [
+                "lg-heater-relay-failure",
+                "lg-heating-control-board-error"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-ce-e6",
+            "title": "Ошибка CE (E6) посудомоечной машины LG",
+            "sign": "Сбой в системе электроники",
+            "causes": "Нестабильное питание, повреждение платы управления, сбой перепрошивки",
+            "slugs": [
+                "lg-main-board-short-circuit",
+                "lg-power-supply-instability",
+                "lg-communication-bus-error"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-pe-e7",
+            "title": "Ошибка PE (E7) посудомоечной машины LG",
+            "sign": "Ошибка положения дверцы",
+            "causes": "Нарушен контакт датчика дверцы, изношена защёлка",
+            "slugs": [
+                "lg-door-sensor-fault",
+                "lg-door-latch-misalignment",
+                "lg-door-switch-connector-issue"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-fe-e8",
+            "title": "Ошибка FE (E8) посудомоечной машины LG",
+            "sign": "Обнаружена ошибка двигателя / насоса",
+            "causes": "Заклинивание ротора, механическое препятствие",
+            "slugs": [
+                "lg-circulation-motor-stall",
+                "lg-pump-mechanical-obstruction"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-ue-e9",
+            "title": "Ошибка UE (E9) посудомоечной машины LG",
+            "sign": "Ошибка нагрузки / распределения",
+            "causes": "Перегрузка, несправедливое распределение веса посуды",
+            "slugs": [
+                "lg-unbalanced-load-detected"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-ie2-e10",
+            "title": "Ошибка IE2 (E10) посудомоечной машины LG",
+            "sign": "Датчик входа воды фиксирует прерывания потока",
+            "causes": "Перекос давления, частично забит фильтр, неисправный клапан",
+            "slugs": [
+                "lg-inlet-valve-failure",
+                "lg-water-pressure-low",
+                "lg-inlet-filter-blocked"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-te2-e11",
+            "title": "Ошибка TE2 (E11) посудомоечной машины LG",
+            "sign": "Температура постоянно нестабильна",
+            "causes": "Нестабильная работа датчика или модуля управления температурой",
+            "slugs": [
+                "lg-ntc-temperature-sensor-failure",
+                "lg-heater-relay-failure",
+                "lg-temperature-feedback-circuit-fault"
+            ]
+        },
+        {
+            "slug": "lg-dishwasher-error-le2-e12",
+            "title": "Ошибка LE2 (E12) посудомоечной машины LG",
+            "sign": "Устройство фиксирует утечку в поддоне",
+            "causes": "Протечка патрубков, дефекты уплотнений",
+            "slugs": [
+                "lg-aqua-protect-activation",
+                "lg-base-pan-water-detected",
+                "lg-internal-hose-leak"
+            ]
+        },
+
+        {
+            "slug": "lg-inlet-valve-failure",
+            "title": "Неисправность впускного клапана LG",
+            "sign": "Вода не поступает в систему",
+            "causes": "Катушка клапана перегорела или механизм заклинил",
+            "slugs": []
+        },
+        {
+            "slug": "lg-inlet-filter-blocked",
+            "title": "Засор входного фильтра LG",
+            "sign": "Подача воды затруднена",
+            "causes": "Фильтр забит частицами, препятствующими нормальному потоку",
+            "slugs": []
+        },
+        {
+            "slug": "lg-water-pressure-low",
+            "title": "Низкое давление воды LG",
+            "sign": "Вода набирается слишком медленно",
+            "causes": "Низкое давление в водопроводе или частично перекрыт кран",
+            "slugs": []
+        },
+        {
+            "slug": "lg-drain-pump-failure",
+            "title": "Сбой сливного насоса LG",
+            "sign": "Вода не откачивается из камеры",
+            "causes": "Мотор помпы неисправен, обрыв цепи или механическая блокировка",
+            "slugs": []
+        },
+        {
+            "slug": "lg-drain-hose-obstruction",
+            "title": "Засор сливного шланга LG",
+            "sign": "Слив воды затруднён или прерывается",
+            "causes": "Перегиб шланга, остатки еды или отложения блокируют поток",
+            "slugs": []
+        },
+        {
+            "slug": "lg-filter-chamber-blocked",
+            "title": "Блокировка фильтровой камеры LG",
+            "sign": "Слив и циркуляция нарушены",
+            "causes": "Фильтр заполнен остатками пищи, блокируя выход жидкости",
+            "slugs": []
+        },
+        {
+            "slug": "lg-ntc-temperature-sensor-failure",
+            "title": "Сбой NTC‑датчика температуры LG",
+            "sign": "Контроллер получает неверные данные о нагреве",
+            "causes": "Термистор вышел из строя, цепь измерения нарушена",
+            "slugs": []
+        },
+        {
+            "slug": "lg-heating-element-fault",
+            "title": "Неисправность нагревательного элемента LG",
+            "sign": "Вода не нагревается",
+            "causes": "Перегорела спираль нагревателя или обрыв цепи",
+            "slugs": []
+        },
+        {
+            "slug": "lg-heater-circuit-interruption",
+            "title": "Разрыв цепи нагревателя LG",
+            "sign": "Нагрев отключается из-за проблем с цепью",
+            "causes": "Обрыв проводки или повреждение управляющего элемента",
+            "slugs": []
+        },
+        {
+            "slug": "lg-heater-relay-failure",
+            "title": "Сбой реле нагрева LG",
+            "sign": "Нагревательный элемент не включается в нужный момент",
+            "causes": "Перегорел переключатель реле или отказ цепи управления",
+            "slugs": []
+        },
+        {
+            "slug": "lg-heating-control-board-error",
+            "title": "Сбой платы управления нагревом LG",
+            "sign": "Нагрев работает нестабильно, сбой алгоритма",
+            "causes": "Неисправность платы или нарушение питания в модуле",
+            "slugs": []
+        },
+        {
+            "slug": "lg-main-board-short-circuit",
+            "title": "Короткое замыкание основной платы LG",
+            "sign": "Плата управления выходит из строя",
+            "causes": "Короткое замыкание в цепи или повреждение микросхемы",
+            "slugs": []
+        },
+        {
+            "slug": "lg-power-supply-instability",
+            "title": "Неустойчивое питание LG",
+            "sign": "Модули управления работают нестабильно",
+            "causes": "Перепады напряжения или плохой контакт в цепи питания",
+            "slugs": []
+        },
+        {
+            "slug": "lg-communication-bus-error",
+            "title": "Сбой шины связи LG",
+            "sign": "Модули не синхронизируются",
+            "causes": "Неисправность платы или нарушение питания в модуле",
+            "slugs": []
+        },
+        {
+            "slug": "lg-door-sensor-fault",
+            "title": "Сбой датчика дверцы LG",
+            "sign": "Контроллер не фиксирует закрытие дверцы",
+            "causes": "Изношенный или сломанный датчик не передаёт верный сигнал",
+            "slugs": []
+        },
+        {
+            "slug": "lg-door-latch-misalignment",
+            "title": "Нарушение выравнивания защёлки дверцы LG",
+            "sign": "Дверца не фиксируется",
+            "causes": "Петли смещены или защёлка вышла из строя",
+            "slugs": []
+        },
+        {
+            "slug": "lg-door-switch-connector-issue",
+            "title": "Проблема с разъёмом дверного выключателя LG",
+            "sign": "Сигнал о закрытии дверцы нестабилен",
+            "causes": "Ослабленные контакты или окисление разъёма",
+            "slugs": []
+        },
+        {
+            "slug": "lg-sensor-connector-oxidation",
+            "title": "Окисление разъёма сенсора LG",
+            "sign": "Датчик дверцы или уровня работает нестабильно",
+            "causes": "Коррозия контактов мешает передаче сигнала",
+            "slugs": []
+        },
+        {
+            "slug": "lg-circulation-motor-stall",
+            "title": "Заклинивание циркуляционного мотора LG",
+            "sign": "Циркуляция воды отсутствует или слабая",
+            "causes": "Механическое препятствие в моторе или износ подшипников",
+            "slugs": []
+        },
+        {
+            "slug": "lg-pump-mechanical-obstruction",
+            "title": "Механическое препятствие в насосе LG",
+            "sign": "Помпа не прокачивает воду",
+            "causes": "Инородные предметы попали в корпус помпы",
+            "slugs": []
+        },
+        {
+            "slug": "lg-pressure-switch-error",
+            "title": "Сбой прессостата LG",
+            "sign": "Уровень воды определяется некорректно",
+            "causes": "Засор гидростата или потеря чувствительности датчика",
+            "slugs": []
+        },
+        {
+            "slug": "lg-air-chamber-blocked",
+            "title": "Засор воздушной камеры LG",
+            "sign": "Контроллер не может определить уровень воды",
+            "causes": "Канал гидростата забит остатками пищи или отложениями",
+            "slugs": []
+        },
+        {
+            "slug": "lg-sensor-wiring-issue",
+            "title": "Проблема проводки датчика уровня LG",
+            "sign": "Сигнал о заполнении нестабилен",
+            "causes": "Ослабленные контакты или повреждение проводов",
+            "slugs": []
+        },
+        {
+            "slug": "lg-turbidity-sensor-contamination",
+            "title": "Загрязнение датчика мутности LG",
+            "sign": "Сигнал мутности воды некорректен",
+            "causes": "Налёт на сенсоре мешает правильному измерению",
+            "slugs": []
+        },
+        {
+            "slug": "lg-optical-module-failure",
+            "title": "Сбой оптического модуля LG",
+            "sign": "Мутность воды определяется некорректно",
+            "causes": "Повреждение фотодатчика или светового модуля",
+            "slugs": []
+        },
+        {
+            "slug": "lg-water-clarity-circuit-error",
+            "title": "Ошибка цепи контроля мутности воды LG",
+            "sign": "Данные о мутности противоречивы",
+            "causes": "Электронный контур повреждён, сигнал передаётся с ошибкой",
+            "slugs": []
+        }
+
+    ]
+}
